@@ -1,65 +1,265 @@
-import Image from "next/image";
+import type { Metadata } from "next";
+import Link from "next/link";
+import Nav from "@/components/Nav";
+import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
+import ProjectGrid from "@/components/ProjectGrid";
 
-export default function Home() {
+export const metadata: Metadata = {
+  title: "Arkitekt til villa, sommerhus og tilbygning — Yderskov Arkitekter",
+  description:
+    "Arkitekttegnede villaer, sommerhuse og tilbygninger med fast pris og egne håndværkere. Gratis første møde. Se projekter og priser.",
+  alternates: { canonical: "https://yderskov.dk/" },
+};
+
+const projects = [
+  { src: "/images/Torndalsvej/IMG_3181.jpeg", title: "Arkitekttegnet sommerhus" },
+  { src: "/images/Karetmagervej/IMG_9184.jpeg", title: "Funkis villa" },
+  { src: "/images/Løvevej/house2.jpg", title: "Sommerhus med pool" },
+  { src: "/images/Gravenstenvej/EEBD18F8-48F7-43CE-AE15-91FF91953CF7-2.png", title: "Ombygning af villa" },
+  { src: "/images/Harald Jensens Vej/IMG_2937.jpeg", title: "Nyt sommerhus" },
+  { src: "/images/Godthåbsvej/yderskov-ombygning-efter-2.jpg", title: "Ombygning og modernisering" },
+];
+
+const testimonials = [
+  {
+    quote: "Vores allerbedste anbefalinger til Arkitekttegnestuen Yderskov. De lyttede til vores ønsker og leverede langt over vores forventninger.",
+    name: "Cathrine Rasmussen",
+  },
+  {
+    quote: "Processen var nem og overskuelig fra start til slut. Vi fik præcis det hus vi drømte om — til den pris vi aftalte.",
+    name: "Morten & Lene Kjærgaard",
+  },
+  {
+    quote: "Fantastisk samarbejde. Arkitekten var altid tilgængelig og sikrede at alt gik som planlagt — med egne håndværkere.",
+    name: "Susanne Bonde",
+  },
+  {
+    quote: "Vi er så glade for vores nye sommerhus. Det passer perfekt til grunden og udsigten. Kan varmt anbefales!",
+    name: "Jens & Hanne Nielsen",
+  },
+];
+
+const processSteps = [
+  { num: "01", title: "Første møde", desc: "Gratis og uforpligtende møde på grunden. Vi lytter til jeres ønsker og budget." },
+  { num: "02", title: "Skitseforslag", desc: "Vi tegner et skitseforslag der viser mulighederne for jeres projekt." },
+  { num: "03", title: "Myndighedsprojekt", desc: "Vi søger byggetilladelse og håndterer al kontakt til kommunen." },
+  { num: "04", title: "Udbudsmateriale", desc: "Detaljerede tegninger og beskrivelser til håndværkerne — fast pris fra start." },
+  { num: "05", title: "Byggestyring", desc: "Vi styrer processen med egne håndværkere og sikrer kvalitet til aftalt pris." },
+];
+
+const blogPosts = [
+  {
+    href: "/blog/hvordan-vurderer-man-om-en-byggegrund-er-god",
+    date: "04 / 09 / 2024",
+    title: "Hvad laver en arkitekt i et byggeprojekt?",
+    excerpt: "Vil du vide hvad en arkitekt laver, så læs med her.",
+  },
+  {
+    href: "/blog/hvad-er-fordelene-ved-store-vinduespartier",
+    date: "04 / 09 / 2024",
+    title: "Arkitekttegnet hus eller typehus — hvad er forskellen?",
+    excerpt: "Vi gennemgår fordele og ulemper ved begge valg.",
+  },
+  {
+    href: "/blog/hvordan-designer-man-et-sommerhus-til-udsigtsgrunde",
+    date: "04 / 09 / 2024",
+    title: "Hvad koster et arkitekttegnet sommerhus?",
+    excerpt: "Få indblik i hvad det koster at bygge et arkitekttegnet sommerhus.",
+  },
+];
+
+export default function HomePage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <>
+      <Nav />
+
+      <Hero showQuote />
+
+      {/* Hvad er dit projekt */}
+      <section className="s" style={{ paddingTop: "3rem", paddingBottom: "3rem" }}>
+        <div className="s-inner">
+          <div style={{ marginBottom: "1.75rem" }}>
+            <span className="eyebrow">Se hvad vi kan tilbyde</span>
+            <h2 className="sec-hed" style={{ marginBottom: 0 }}>
+              Hvad er dit projekt?
+            </h2>
+          </div>
+          <div className="project-choice">
+            <Link href="/villaer" className="project-choice-card">
+              <div>
+                <p className="project-choice-title">Ny villa eller hus</p>
+                <p className="project-choice-sub">
+                  Vi tegner din drømmebolig fra bunden — tilpasset grunden, familien og budgettet.
+                </p>
+              </div>
+              <div className="project-choice-arr">→</div>
+            </Link>
+            <Link href="/tilbygninger" className="project-choice-card">
+              <div>
+                <p className="project-choice-title">Om- og tilbygning</p>
+                <p className="project-choice-sub">
+                  Din bolig rummer mere end du tror. Vi ser mulighederne og skaber mere lys, plads og en planløsning der endelig passer til jer.
+                </p>
+              </div>
+              <div className="project-choice-arr">→</div>
+            </Link>
+            <Link href="/sommerhuse" className="project-choice-card">
+              <div>
+                <p className="project-choice-title">Sommerhus</p>
+                <p className="project-choice-sub">
+                  Dit fristed tegnet netop til dig — til din grund, din udsigt og dine drømme om den perfekte ferie.
+                </p>
+              </div>
+              <div className="project-choice-arr">→</div>
+            </Link>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* Stats */}
+      <div className="stats-bg">
+        <div className="stats-inner">
+          <div className="stat">
+            <div className="stat-num">15.000<sup> kr.</sup></div>
+            <div className="stat-lbl">Fra pr. m²</div>
+          </div>
+          <div className="stat">
+            <div className="stat-num">24<sup> timer</sup></div>
+            <div className="stat-lbl">Svar inden</div>
+          </div>
+          <div className="stat">
+            <div className="stat-num">10<sup>+</sup></div>
+            <div className="stat-lbl">Igangværende projekter</div>
+          </div>
+          <div className="stat">
+            <div className="stat-num">300<sup>+</sup></div>
+            <div className="stat-lbl">Projekter gennemført</div>
+          </div>
         </div>
-      </main>
-    </div>
+      </div>
+
+      {/* Projekter */}
+      <section className="s">
+        <div className="s-inner">
+          <div className="proj-header">
+            <div>
+              <span className="eyebrow">Udvalgte projekter</span>
+              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Vores projekter</h2>
+            </div>
+            <Link href="/villaer" className="proj-see">Se alle projekter →</Link>
+          </div>
+          <ProjectGrid projects={projects} />
+        </div>
+      </section>
+
+      {/* Om os */}
+      <section className="s s-off">
+        <div className="s-inner">
+          <div className="text-2col">
+            <div>
+              <span className="eyebrow">Om tegnestuen</span>
+              <h2 className="sec-hed">Vi er arkitekter<br />med styr på processen.</h2>
+              <div className="about-tags" style={{ marginTop: "1.5rem" }}>
+                <Link href="/kontakt" className="tag tag-dark">Kontakt os →</Link>
+                <Link href="/priser" className="tag">Se priser</Link>
+                <Link href="/om" className="tag">Om os</Link>
+              </div>
+            </div>
+            <div>
+              <p className="body-intro">
+                Arkitekttegnestuen Yderskov ApS er en tegnestue i Nordjylland med speciale i arkitekttegnede villaer, sommerhuse, tilbygninger og erhvervsprojekter.
+              </p>
+              <p className="body-p">
+                Vi arbejder med en samlet proces fra idé til færdigt byggeri — med egne faste håndværkere og fokus på at holde styr på din økonomi undervejs.
+              </p>
+              <p className="body-p">
+                Tegnestuen blev grundlagt i 2009 og har siden arbejdet med projekter i hele Danmark, primært i Nordjylland og Aalborg-området.
+              </p>
+              <p className="body-p">
+                Hos os taler du altid direkte med arkitekten — ingen mellemled, fast pris fra første dag.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <section className="s">
+        <div className="s-inner">
+          <span className="eyebrow">Hvad siger kunderne</span>
+          <h2 className="sec-hed">Anbefalinger</h2>
+          <div className="testimonials-grid">
+            {testimonials.map((t, i) => (
+              <div key={i} className="testimonial-card">
+                <p className="testimonial-quote">&ldquo;{t.quote}&rdquo;</p>
+                <p className="testimonial-name">— {t.name}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Process */}
+      <section className="s s-off">
+        <div className="s-inner">
+          <span className="eyebrow">Sådan arbejder vi</span>
+          <h2 className="sec-hed">Processen fra idé til nøgle</h2>
+          <div className="process-steps">
+            {processSteps.map((step) => (
+              <div key={step.num} className="process-step">
+                <div className="process-step-num">{step.num}</div>
+                <p className="process-step-title">{step.title}</p>
+                <p className="process-step-desc">{step.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Blog preview */}
+      <div className="blog-bg">
+        <div className="blog-inner">
+          <div className="blog-head">
+            <h2 className="sec-hed">Fra arkitektens blog</h2>
+            <Link href="/blog" className="blog-see">Se alle indlæg →</Link>
+          </div>
+          <div className="bgrid">
+            {blogPosts.map((post) => (
+              <Link key={post.href} href={post.href} className="bcard">
+                <span className="bdate">{post.date}</span>
+                <h3>{post.title}</h3>
+                <p>{post.excerpt}</p>
+                <span className="blink">Læs mere →</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Contact strip */}
+      <section className="s contact-bg">
+        <div className="contact-strip">
+          <div className="contact-detail">
+            <label>Ring til os</label>
+            <p><a href="tel:29723427">29 72 34 27</a></p>
+          </div>
+          <div className="contact-detail">
+            <label>Skriv til os</label>
+            <p><a href="mailto:cy@yderskov.com">cy@yderskov.com</a></p>
+          </div>
+          <div className="contact-detail">
+            <label>Book gratis møde</label>
+            <p>
+              <Link href="/kontakt" style={{ color: "var(--accent)", fontWeight: 400 }}>
+                Kontakt os →
+              </Link>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <Footer />
+    </>
   );
 }

@@ -1,0 +1,209 @@
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import Link from "next/link";
+import Nav from "@/components/Nav";
+import Footer from "@/components/Footer";
+import ContactForm from "@/components/ContactForm";
+import { getPost, posts } from "../posts";
+
+export async function generateStaticParams() {
+  return posts.map((p) => ({ slug: p.slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const post = getPost(slug);
+  if (!post) return {};
+  return {
+    title: post.metaTitle,
+    description: post.description,
+    alternates: { canonical: `https://yderskov.dk/blog/${post.slug}` },
+  };
+}
+
+export default async function BlogPostPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const post = getPost(slug);
+  if (!post) notFound();
+
+  return (
+    <>
+      <Nav />
+
+      <article>
+        {/* Article header */}
+        <section className="s" style={{ paddingBottom: "3rem" }}>
+          <div className="s-inner" style={{ maxWidth: "740px" }}>
+            <span className="eyebrow">{post.cat}</span>
+            <h1
+              className="sec-hed"
+              style={{ fontSize: "clamp(1.8rem, 4vw, 2.8rem)", marginBottom: "1.5rem" }}
+            >
+              {post.title}
+            </h1>
+            <p
+              style={{
+                fontSize: "0.72rem",
+                fontWeight: 300,
+                color: "var(--light)",
+                letterSpacing: "0.08em",
+                marginBottom: "2rem",
+              }}
+            >
+              {post.date}
+            </p>
+            <p
+              style={{
+                fontSize: "1.05rem",
+                fontWeight: 300,
+                color: "var(--sub)",
+                lineHeight: 1.75,
+                borderLeft: "3px solid var(--border)",
+                paddingLeft: "1.25rem",
+              }}
+            >
+              {post.lead}
+            </p>
+          </div>
+        </section>
+
+        {/* Article body */}
+        <section
+          className="s"
+          style={{ paddingTop: "2rem", background: "var(--off)" }}
+        >
+          <div className="s-inner" style={{ maxWidth: "740px" }}>
+            {post.sections.map((section, i) => (
+              <div
+                key={i}
+                style={{ marginBottom: "2.5rem" }}
+              >
+                <h2
+                  style={{
+                    fontSize: "1.05rem",
+                    fontWeight: 400,
+                    color: "var(--text)",
+                    letterSpacing: "-0.02em",
+                    marginBottom: "0.85rem",
+                  }}
+                >
+                  {section.heading}
+                </h2>
+                {section.paragraphs.map((p, j) => (
+                  <p key={j} className="body-p">
+                    {p}
+                  </p>
+                ))}
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* CTA strip */}
+        <section className="s" style={{ paddingTop: "3rem", paddingBottom: "3rem" }}>
+          <div className="s-inner" style={{ maxWidth: "740px" }}>
+            <div
+              style={{
+                background: "var(--dark)",
+                borderRadius: "16px",
+                padding: "2.5rem",
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                gap: "2rem",
+                flexWrap: "wrap",
+              }}
+            >
+              <div>
+                <p
+                  style={{
+                    fontSize: "1rem",
+                    fontWeight: 300,
+                    color: "#fff",
+                    marginBottom: "0.4rem",
+                  }}
+                >
+                  Gratis og uforpligtende første møde
+                </p>
+                <p style={{ fontSize: "0.8rem", fontWeight: 300, color: "rgba(255,255,255,0.55)" }}>
+                  Vi svarer inden 24 timer
+                </p>
+              </div>
+              <Link
+                href="/kontakt"
+                style={{
+                  background: "#fff",
+                  color: "var(--text)",
+                  borderRadius: "980px",
+                  padding: "0.6rem 1.4rem",
+                  fontSize: "0.82rem",
+                  fontWeight: 400,
+                  whiteSpace: "nowrap",
+                }}
+              >
+                Book gratis møde →
+              </Link>
+            </div>
+          </div>
+        </section>
+      </article>
+
+      {/* Contact form */}
+      <section className="s form-bg">
+        <div className="s-inner" style={{ maxWidth: "900px" }}>
+          <div className="form-layout">
+            <div className="form-meta">
+              <span className="eyebrow">Kontakt os</span>
+              <h2 className="sec-hed">Fortæl os om<br />dit projekt</h2>
+              <p style={{ marginTop: "1.5rem" }}>
+                Ring eller skriv til os. Vi svarer inden 24 timer og tilbyder et gratis, uforpligtende møde.
+              </p>
+              <p>
+                <a href="tel:29723427">29 72 34 27</a>
+              </p>
+              <p>
+                <a href="mailto:cy@yderskov.com">cy@yderskov.com</a>
+              </p>
+            </div>
+            <ContactForm />
+          </div>
+        </div>
+      </section>
+
+      {/* More posts */}
+      <div className="blog-bg">
+        <div className="blog-inner">
+          <div className="blog-head">
+            <h2 className="sec-hed">Flere indlæg</h2>
+            <Link href="/blog" className="blog-see">
+              Se alle →
+            </Link>
+          </div>
+          <div className="bgrid">
+            {posts
+              .filter((p) => p.slug !== post.slug)
+              .slice(0, 3)
+              .map((p) => (
+                <Link key={p.slug} href={`/blog/${p.slug}`} className="bcard">
+                  <span className="bdate">{p.date}</span>
+                  <h3>{p.title}</h3>
+                  <p>{p.description}</p>
+                  <span className="blink">Læs mere →</span>
+                </Link>
+              ))}
+          </div>
+        </div>
+      </div>
+
+      <Footer />
+    </>
+  );
+}
