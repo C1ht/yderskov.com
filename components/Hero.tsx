@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import HeroForm from "./HeroForm";
 
 interface HeroSlide {
@@ -21,6 +21,7 @@ interface HeroProps {
 }
 
 const defaultSlides: HeroSlide[] = [
+  { src: "/images/Lerstien/IMG_7931.jpg", alt: "Arkitekttegnet villa — Yderskov" },
   { src: "/images/Torndalsvej/IMG_3181.jpeg", alt: "Arkitekttegnet sommerhus — Yderskov" },
   { src: "/images/Gravenstenvej/EEBD18F8-48F7-43CE-AE15-91FF91953CF7-2.png", alt: "Arkitekttegnet bolig — Yderskov" },
   { src: "/images/Harald Jensens Vej/IMG_2937.jpeg", alt: "Tilbygning — Yderskov" },
@@ -43,10 +44,13 @@ export default function Hero({
   ],
   showForm = true,
   showTabs = true,
-  showQuote = false,
+  showQuote = true,
 }: HeroProps) {
+  const isCarousel = slides.length > 1;
   const [current, setCurrent] = useState(0);
   const [prev, setPrev] = useState<number | null>(null);
+  const heroRef = useRef<HTMLElement>(null);
+  const isVisible = useRef(true);
 
   const goTo = useCallback(
     (index: number) => {
@@ -56,15 +60,29 @@ export default function Hero({
     [current]
   );
 
+  // Pause carousel when hero is scrolled out of view
   useEffect(() => {
+    if (!isCarousel) return;
+    const el = heroRef.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => { isVisible.current = entry.isIntersecting; },
+      { threshold: 0 }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [isCarousel]);
+
+  useEffect(() => {
+    if (!isCarousel) return;
     const id = setInterval(() => {
-      goTo((current + 1) % slides.length);
+      if (isVisible.current) goTo((current + 1) % slides.length);
     }, 5000);
     return () => clearInterval(id);
-  }, [current, slides.length, goTo]);
+  }, [current, slides.length, goTo, isCarousel]);
 
   return (
-    <section className="hero">
+    <section className="hero" ref={heroRef}>
       {slides.map((slide, i) => (
         <div
           key={slide.src}
@@ -74,6 +92,7 @@ export default function Hero({
             src={slide.src}
             alt={slide.alt}
             fill
+            sizes="100vw"
             style={{ objectFit: "cover" }}
             priority={i === 0}
           />
@@ -101,8 +120,8 @@ export default function Hero({
 
           {showQuote && (
             <div className="hero-mini-quote">
-              &ldquo;Vores allerbedste anbefalinger til Arkitekttegnestuen Yderskov. De lyttede til vores ønsker og leverede langt over vores forventninger.&rdquo;
-              <p className="hero-mini-quote-name">— Cathrine Rasmussen</p>
+              &ldquo;Hvis vi kunne give Chris ti stjerner ville vi give ham det.&rdquo;
+              <p className="hero-mini-quote-name">— Cathrine Rasmussen, Sæby</p>
             </div>
           )}
         </div>
@@ -124,16 +143,18 @@ export default function Hero({
         </div>
       )}
 
-      <div className="hero-dots">
-        {slides.map((_, i) => (
-          <button
-            key={i}
-            className={`hero-dot${i === current ? " active" : ""}`}
-            onClick={() => goTo(i)}
-            aria-label={`Slide ${i + 1}`}
-          />
-        ))}
-      </div>
+      {slides.length > 1 && (
+        <div className="hero-dots">
+          {slides.map((_, i) => (
+            <button
+              key={i}
+              className={`hero-dot${i === current ? " active" : ""}`}
+              onClick={() => goTo(i)}
+              aria-label={`Slide ${i + 1}`}
+            />
+          ))}
+        </div>
+      )}
     </section>
   );
 }

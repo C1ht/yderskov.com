@@ -23,7 +23,7 @@ export default function SpecialPage() {
   return (
     <>
       <Nav />
-      <Hero />
+      <Hero slides={[{ src: "/images/Bed and breakfast/Bed and breakfast fra gård yderskov.jpg", alt: "Specialprojekt — Yderskov Arkitekter" }]} />
 
       <section className="s">
         <div className="s-inner">

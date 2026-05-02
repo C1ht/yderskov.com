@@ -87,7 +87,7 @@ export default function SommerhusePage() {
   return (
     <>
       <Nav />
-      <Hero />
+      <Hero slides={[{ src: "/images/Torndalsvej/IMG_3181.jpeg", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" }]} />
 
       <section className="s">
         <div className="s-inner">

@@ -22,7 +22,7 @@ export default function ImageGrid({ images }: { images: ImageItem[] }) {
             transition: "transform 0.5s cubic-bezier(0.23,1,0.32,1)",
           }}
         >
-          <Image src={img.src} alt={img.alt} fill style={{ objectFit: "cover" }} />
+          <Image src={img.src} alt={img.alt} fill sizes="(max-width: 768px) 100vw, 33vw" style={{ objectFit: "cover" }} />
         </div>
       ))}
     </div>

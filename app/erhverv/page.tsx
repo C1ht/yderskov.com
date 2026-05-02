@@ -69,7 +69,7 @@ export default function ErhvervPage() {
   return (
     <>
       <Nav />
-      <Hero />
+      <Hero slides={[{ src: "/images/Assensvej Kontormiljø/5Assensvej kontormiljø.jpg", alt: "Erhvervsbyggeri — Yderskov Arkitekter" }]} />
 
       <section className="s">
         <div className="s-inner">

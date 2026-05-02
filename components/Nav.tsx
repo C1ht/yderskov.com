@@ -13,6 +13,7 @@ const links = [
   { href: "/special", label: "Special" },
   { href: "/erhverv", label: "Erhverv" },
   { href: "/priser", label: "Priser" },
+  { href: "/prisberegner", label: "Prisberegner" },
   { href: "/blog", label: "Blog" },
   { href: "/om", label: "Om" },
   { href: "/faq", label: "FAQ" },

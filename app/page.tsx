@@ -41,11 +41,14 @@ const testimonials = [
 ];
 
 const processSteps = [
-  { num: "01", title: "Første møde", desc: "Gratis og uforpligtende møde på grunden. Vi lytter til jeres ønsker og budget." },
-  { num: "02", title: "Skitseforslag", desc: "Vi tegner et skitseforslag der viser mulighederne for jeres projekt." },
-  { num: "03", title: "Myndighedsprojekt", desc: "Vi søger byggetilladelse og håndterer al kontakt til kommunen." },
-  { num: "04", title: "Udbudsmateriale", desc: "Detaljerede tegninger og beskrivelser til håndværkerne — fast pris fra start." },
-  { num: "05", title: "Byggestyring", desc: "Vi styrer processen med egne håndværkere og sikrer kvalitet til aftalt pris." },
+  { num: "01", title: "Gratis første møde", desc: "Vi kommer ud til dig — gratis og uforpligtende. Vi lytter til dine ønsker og vurderer mulighederne på din grund." },
+  { num: "02", title: "Skitseforslag", desc: "Vi udarbejder et skitseforslag med planløsning, facader og et samlet indtryk af projektet." },
+  { num: "03", title: "Myndighedsprojekt", desc: "Vi tegner og beregner projektet til brug for ansøgning om byggetilladelse." },
+  { num: "04", title: "Byggetilladelse", desc: "Vi sender ansøgningen til kommunen og følger op indtil tilladelsen er i hus." },
+  { num: "05", title: "Prisindhentning", desc: "Vi indhenter tilbud fra håndværkere og forhandler den bedste pris til dig." },
+  { num: "06", title: "Byggefase", desc: "Vi styrer byggeriet og koordinerer håndværkerne, så du slipper for bekymringer." },
+  { num: "07", title: "Aflevering til bygherre", desc: "Vi gennemgår byggeriet med dig og sikrer at alt er udført korrekt og som aftalt." },
+  { num: "08", title: "Færdigmelding hos kommunen", desc: "Vi sørger for færdigmelding hos kommunen, som udsteder ibrugtagningstilladelse." },
 ];
 
 const blogPosts = [
@@ -205,7 +208,7 @@ export default function HomePage() {
         <div className="s-inner">
           <span className="eyebrow">Sådan arbejder vi</span>
           <h2 className="sec-hed">Processen fra idé til nøgle</h2>
-          <div className="process-steps">
+          <div className="process-steps" style={{ gridTemplateColumns: "repeat(4, 1fr)" }}>
             {processSteps.map((step) => (
               <div key={step.num} className="process-step">
                 <div className="process-step-num">{step.num}</div>

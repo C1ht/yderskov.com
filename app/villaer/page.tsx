@@ -107,7 +107,7 @@ export default function VillaerPage() {
   return (
     <>
       <Nav />
-      <Hero />
+      <Hero slides={[{ src: "/images/Karetmagervej/IMG_9184.jpeg", alt: "Arkitekttegnet villa — Yderskov Arkitekter" }]} />
 
       {/* Intro */}
       <section className="s">

@@ -97,7 +97,7 @@ export default function TilbygningerPage() {
   return (
     <>
       <Nav />
-      <Hero />
+      <Hero slides={[{ src: "/images/Leonoravej villa tilbygning/IMG_7376.jpeg", alt: "Villa med tilbygning — Yderskov Arkitekter" }]} />
 
       <section className="s">
         <div className="s-inner">

@@ -36,7 +36,7 @@ export default function LejlighederPage() {
   return (
     <>
       <Nav />
-      <Hero />
+      <Hero slides={[{ src: "/images/Ågade 25/IMG_00161.jpg", alt: "Lejlighedsrenovering — Yderskov Arkitekter" }]} />
 
       <section className="s">
         <div className="s-inner">

@@ -22,7 +22,7 @@ export default function ProjectGrid({ projects }: { projects: Project[] }) {
             transition: "transform 0.5s cubic-bezier(0.23,1,0.32,1)",
           }}
         >
-          <Image src={p.src} alt={p.title} fill style={{ objectFit: "cover", opacity: hovered === p.src ? 0.72 : 0.88, transition: "opacity 0.4s" }} />
+          <Image src={p.src} alt={p.title} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" style={{ objectFit: "cover", opacity: hovered === p.src ? 0.72 : 0.88, transition: "opacity 0.4s" }} />
           <div className="proj-foot">
             <span className="proj-title">{p.title}</span>
             <span className="proj-arr" style={{ transform: hovered === p.src ? "translateX(0)" : "translateX(-4px)", opacity: hovered === p.src ? 1 : 0, transition: "transform 0.2s, opacity 0.2s" }}>→</span>
