@@ -43,7 +43,7 @@ export default function OmPage() {
   return (
     <>
       <Nav />
-      <Hero slides={[{ src: "/images/Løvevej/house2.jpg", alt: "Arkitekttegnestuen Yderskov" }]} />
+      <Hero slides={[{ src: "/images/Løvevej/house2.webp", alt: "Arkitekttegnestuen Yderskov" }]} tag="Om os" />
 
       {/* Intro */}
       <section className="s">

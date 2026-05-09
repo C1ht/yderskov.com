@@ -18,9 +18,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Sommerhus med\nstore vinduespartier.",
     images: [
-      { src: "/images/Torndalsvej/IMG_3181.jpeg", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" },
-      { src: "/images/Torndalsvej/IMG_3296.jpeg", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" },
-      { src: "/images/Torndalsvej/IMG_4096.jpeg", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" },
+      { src: "/images/Torndalsvej/IMG_3181.webp", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" },
+      { src: "/images/Torndalsvej/IMG_3296.webp", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" },
+      { src: "/images/Torndalsvej/IMG_4096.webp", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" },
     ],
     dark: false,
   },
@@ -28,9 +28,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Sommerhus\ntil udsigtsgrund.",
     images: [
-      { src: "/images/Løkken sommerhus/IMG_7444.jpeg", alt: "Sommerhus Løkken — Yderskov Arkitekter" },
-      { src: "/images/Løkken sommerhus/IMG_7445.jpeg", alt: "Sommerhus Løkken — Yderskov Arkitekter" },
-      { src: "/images/Løkken sommerhus/IMG_7452.jpeg", alt: "Sommerhus Løkken — Yderskov Arkitekter" },
+      { src: "/images/Løkken sommerhus/IMG_7444.webp", alt: "Sommerhus Løkken — Yderskov Arkitekter" },
+      { src: "/images/Løkken sommerhus/IMG_7445.webp", alt: "Sommerhus Løkken — Yderskov Arkitekter" },
+      { src: "/images/Løkken sommerhus/IMG_7452.webp", alt: "Sommerhus Løkken — Yderskov Arkitekter" },
     ],
     dark: true,
   },
@@ -38,9 +38,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Sommerhus\nmed pool.",
     images: [
-      { src: "/images/Løvevej/house2.jpg", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" },
-      { src: "/images/Løvevej/IMG_9379.jpeg", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" },
-      { src: "/images/Løvevej/IMG_9384.jpeg", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" },
+      { src: "/images/Løvevej/house2.webp", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" },
+      { src: "/images/Løvevej/IMG_9379.webp", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" },
+      { src: "/images/Løvevej/IMG_9384.webp", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" },
     ],
     dark: false,
   },
@@ -48,9 +48,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Nyt\nsommerhus.",
     images: [
-      { src: "/images/Harald Jensens Vej/IMG_2934.jpeg", alt: "Sommerhus med tilbygning — Yderskov Arkitekter" },
-      { src: "/images/Harald Jensens Vej/IMG_2937.jpeg", alt: "Sommerhus med tilbygning — Yderskov Arkitekter" },
-      { src: "/images/Harald Jensens Vej/IMG_2938.jpeg", alt: "Sommerhus med tilbygning — Yderskov Arkitekter" },
+      { src: "/images/Harald Jensens Vej/IMG_2934.webp", alt: "Sommerhus med tilbygning — Yderskov Arkitekter" },
+      { src: "/images/Harald Jensens Vej/IMG_2937.webp", alt: "Sommerhus med tilbygning — Yderskov Arkitekter" },
+      { src: "/images/Harald Jensens Vej/IMG_2938.webp", alt: "Sommerhus med tilbygning — Yderskov Arkitekter" },
     ],
     dark: true,
   },
@@ -87,7 +87,7 @@ export default function SommerhusePage() {
   return (
     <>
       <Nav />
-      <Hero slides={[{ src: "/images/Torndalsvej/IMG_3181.jpeg", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" }]} />
+      <Hero slides={[{ src: "/images/Torndalsvej/IMG_3181.webp", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" }]} tag="Sommerhuse" />
 
       <section className="s">
         <div className="s-inner">

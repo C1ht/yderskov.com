@@ -18,9 +18,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Funkis træ,\nglas og eternit.",
     images: [
-      { src: "/images/Karetmagervej/IMG_9184.jpeg", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
-      { src: "/images/Karetmagervej/IMG_9182.jpeg", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
-      { src: "/images/Karetmagervej/IMG_9185.jpeg", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
+      { src: "/images/Karetmagervej/IMG_9184.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
+      { src: "/images/Karetmagervej/IMG_9182.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
+      { src: "/images/Karetmagervej/IMG_9185.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
     ],
     dark: false,
   },
@@ -28,9 +28,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Moderne villa\nmed markant tag.",
     images: [
-      { src: "/images/villa sæby/IMG_2472.jpg", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
-      { src: "/images/villa sæby/IMG_2473.jpg", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
-      { src: "/images/villa sæby/IMG_2480.jpeg", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
+      { src: "/images/villa sæby/IMG_2472.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
+      { src: "/images/villa sæby/IMG_2473.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
+      { src: "/images/villa sæby/IMG_2480.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
     ],
     dark: true,
   },
@@ -38,9 +38,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Villa med\nnaturlige materialer.",
     images: [
-      { src: "/images/Lerstien/IMG_7912.jpg", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
-      { src: "/images/Lerstien/IMG_7931.jpg", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
-      { src: "/images/Lerstien/IMG_7936.jpg", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
+      { src: "/images/Lerstien/IMG_7912.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
+      { src: "/images/Lerstien/IMG_7931.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
+      { src: "/images/Lerstien/IMG_7936.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
     ],
     dark: false,
   },
@@ -48,9 +48,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Funkis\nvilla.",
     images: [
-      { src: "/images/Højgården/IMG_2786.jpeg", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
-      { src: "/images/Højgården/IMG_2787.jpeg", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
-      { src: "/images/Højgården/IMG_2790.jpeg", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
+      { src: "/images/Højgården/IMG_2786.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
+      { src: "/images/Højgården/IMG_2787.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
+      { src: "/images/Højgården/IMG_2790.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
     ],
     dark: true,
   },
@@ -58,9 +58,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Klassisk\nvilla.",
     images: [
-      { src: "/images/Gartnerhaven/gartnehaven.jpg", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
-      { src: "/images/Gartnerhaven/IMG_2288.jpg", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
-      { src: "/images/Gartnerhaven/gårdmiljø.jpg", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
+      { src: "/images/Gartnerhaven/gartnehaven.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
+      { src: "/images/Gartnerhaven/IMG_2288.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
+      { src: "/images/Gartnerhaven/gårdmiljø.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
     ],
     dark: false,
   },
@@ -68,9 +68,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Villa med\nensidig taghældning.",
     images: [
-      { src: "/images/Hanebjælken/IMG_4752.jpeg", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
-      { src: "/images/Hanebjælken/IMG_4754.jpeg", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
-      { src: "/images/Hanebjælken/IMG_4756.jpeg", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
+      { src: "/images/Hanebjælken/IMG_4752.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
+      { src: "/images/Hanebjælken/IMG_4754.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
+      { src: "/images/Hanebjælken/IMG_4756.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
     ],
     dark: false,
   },
@@ -107,7 +107,7 @@ export default function VillaerPage() {
   return (
     <>
       <Nav />
-      <Hero slides={[{ src: "/images/Karetmagervej/IMG_9184.jpeg", alt: "Arkitekttegnet villa — Yderskov Arkitekter" }]} />
+      <Hero slides={[{ src: "/images/Karetmagervej/IMG_9184.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" }]} tag="Villaer" />
 
       {/* Intro */}
       <section className="s">

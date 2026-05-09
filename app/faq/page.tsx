@@ -69,7 +69,7 @@ export default function FAQPage() {
   return (
     <>
       <Nav />
-      <Hero />
+      <Hero slides={[{ src: "/images/Gravenstenvej/EEBD18F8-48F7-43CE-AE15-91FF91953CF7-2.png", alt: "Arkitekttegnet bolig — Yderskov Arkitekter" }]} tag="FAQ" />
 
       <section className="s">
         <div className="s-inner">

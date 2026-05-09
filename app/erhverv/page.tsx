@@ -18,9 +18,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Kontormiljø i Aalborg\nfor IT-virksomhed.",
     images: [
-      { src: "/images/Assensvej Kontormiljø/5Assensvej kontormiljø.jpg", alt: "Kontormiljø — Yderskov Arkitekter" },
-      { src: "/images/Assensvej Kontormiljø/5Assensvej kontormiljø kontor.jpg", alt: "Kontormiljø — Yderskov Arkitekter" },
-      { src: "/images/Assensvej Kontormiljø/5Assensvej kontormiljø glasvæg.jpg", alt: "Kontormiljø — Yderskov Arkitekter" },
+      { src: "/images/Assensvej Kontormiljø/5Assensvej kontormiljø.webp", alt: "Kontormiljø — Yderskov Arkitekter" },
+      { src: "/images/Assensvej Kontormiljø/5Assensvej kontormiljø kontor.webp", alt: "Kontormiljø — Yderskov Arkitekter" },
+      { src: "/images/Assensvej Kontormiljø/5Assensvej kontormiljø glasvæg.webp", alt: "Kontormiljø — Yderskov Arkitekter" },
     ],
     dark: false,
   },
@@ -28,9 +28,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Fabrik ombygget\ntil lejligheder i Aarhus centrum.",
     images: [
-      { src: "/images/Fabrik Aarhus/fabrik aarhus yderskov.jpg", alt: "Fabrik Aarhus — Yderskov Arkitekter" },
-      { src: "/images/Fabrik Aarhus/fabrik ombygget yderskov.jpg", alt: "Fabrik Aarhus — Yderskov Arkitekter" },
-      { src: "/images/Fabrik Aarhus/fabrik ombygget køkken og altan yderskov.jpg", alt: "Fabrik Aarhus — Yderskov Arkitekter" },
+      { src: "/images/Fabrik Aarhus/fabrik aarhus yderskov.webp", alt: "Fabrik Aarhus — Yderskov Arkitekter" },
+      { src: "/images/Fabrik Aarhus/fabrik ombygget yderskov.webp", alt: "Fabrik Aarhus — Yderskov Arkitekter" },
+      { src: "/images/Fabrik Aarhus/fabrik ombygget køkken og altan yderskov.webp", alt: "Fabrik Aarhus — Yderskov Arkitekter" },
     ],
     dark: true,
   },
@@ -38,9 +38,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Udlejningsboliger\ni Hals.",
     images: [
-      { src: "/images/Hals Rækkehuse/Aalborgvej20 Hals udlejnkng Yderskov.jpg", alt: "Hals rækkehuse — Yderskov Arkitekter" },
-      { src: "/images/Hals Rækkehuse/Aalborgvej30 hals udlejning yderskov.jpg", alt: "Hals rækkehuse — Yderskov Arkitekter" },
-      { src: "/images/Hals Rækkehuse/Aalborgvej40 hals udlejning yderskov.jpg", alt: "Hals rækkehuse — Yderskov Arkitekter" },
+      { src: "/images/Hals Rækkehuse/Aalborgvej20 Hals udlejnkng Yderskov.webp", alt: "Hals rækkehuse — Yderskov Arkitekter" },
+      { src: "/images/Hals Rækkehuse/Aalborgvej30 hals udlejning yderskov.webp", alt: "Hals rækkehuse — Yderskov Arkitekter" },
+      { src: "/images/Hals Rækkehuse/Aalborgvej40 hals udlejning yderskov.webp", alt: "Hals rækkehuse — Yderskov Arkitekter" },
     ],
     dark: false,
   },
@@ -69,7 +69,7 @@ export default function ErhvervPage() {
   return (
     <>
       <Nav />
-      <Hero slides={[{ src: "/images/Assensvej Kontormiljø/5Assensvej kontormiljø.jpg", alt: "Erhvervsbyggeri — Yderskov Arkitekter" }]} />
+      <Hero slides={[{ src: "/images/Assensvej Kontormiljø/5Assensvej kontormiljø.webp", alt: "Erhvervsbyggeri — Yderskov Arkitekter" }]} tag="Erhverv" />
 
       <section className="s">
         <div className="s-inner">

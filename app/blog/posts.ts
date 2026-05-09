@@ -14,6 +14,255 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "udsigt",
+    metaTitle: "Hvordan planlægger man udsigt fra en bolig? — Yderskov Arkitekter",
+    title: "Hvordan planlægger man udsigt fra en bolig?",
+    description: "Udsigt er en af de mest værdifulde kvaliteter i en bolig — men den skal planlægges fra første streg. Her gennemgår vi hvordan du og din arkitekt maksimerer udsigten uden at gå på kompromis med privatliv og energi.",
+    date: "09 / 05 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    lead: "Udsigt er ikke noget man bare har — det er noget man planlægger. En smuk udsigt over mark, vand eller by kan forvandle en bolig, men kun hvis vinduerne sidder rigtigt, orienteringen er gennemtænkt og planløsningen understøtter det. Her gennemgår vi de vigtigste greb.",
+    sections: [
+      {
+        heading: "Udsigt som arkitektonisk greb",
+        paragraphs: [
+          "De bedste arkitekttegnede boliger bruger udsigten aktivt — ikke som et tilfældigt biprodukt af husets placering, men som et bevidst designvalg der styrer alt fra vinduernes størrelse og placering til rummenes indbyrdes forhold.",
+          "Det første spørgsmål er altid: hvad er udsigten, og fra hvilke rum skal den opleves? Udsigt fra stuen er én ting. Udsigt fra soveværelset en anden. Og udsigt fra badeværelset — der kan overraske med en privat, intim forbindelse til naturen — er noget tredje. En god arkitekt kortlægger disse muligheder på grunden, før der tegnes en eneste streg.",
+        ],
+      },
+      {
+        heading: "Orientering og husets placering på grunden",
+        paragraphs: [
+          "Husets orientering på grunden er afgørende for udsigten. Et hus der vender forkert mister ikke bare udsigten — det mister også dagslys og sol. De to ting hænger tæt sammen: den bedste udsigt er sjældent mod nord, og den bedste sol er sjældent mod øst.",
+          "En grundig analyse af grunden — dens form, hældning, naboforhold og udsigtsretning — er altid det første skridt. Herfra bestemmes husets placering, orientering og niveau. Et hus der er hævet 30 cm over naturligt terræn kan give en markant bedre udsigt og mere dagslys i stueetagen.",
+          "På skrånende grunde er muligheden for niveauforskelle særlig interessant. Et hus der følger terrænet i trin kan give udsigt fra flere niveauer og skabe en dynamisk rumoplevelse der ikke er mulig på en flad grund.",
+        ],
+      },
+      {
+        heading: "Vinduesplacering og -størrelse",
+        paragraphs: [
+          "Vinduer er det primære redskab til at indfange udsigten. Men størrelse er ikke alt — placeringen er mindst lige så vigtig. Et langt, smalt vindue i brystningshøjde kan give en markant udsigt over landskabet uden at blotte hele rummet. Et gulv-til-loft-vindue åbner rummet mod haven men kan give blændingsproblemer og overophedning om sommeren.",
+          "Horisontaltvinduer — brede vinduer med lav brystning — er klassiske udsigtsredskaber. De indfanger landskabets horisontale udstrækning og giver en panoramafornemmelse selv i moderate størrelser. Kombineret med et lille ovenlysvindue der indhenter himlen ovenover, skabes et nuanceret lysbillede der ændrer sig gennem dagen.",
+          "Sørg for at udsigtsvinduerne er placeret der hvor man naturligt opholder sig. Et stort udsigtsvindue i et rum man kun bruger til at gå igennem er spildt potentiale. Det primære udsigtsvindue bør vende mod det sted hvor man sidder, spiser eller hviler sig.",
+        ],
+      },
+      {
+        heading: "Solens bevægelse og årstiderne",
+        paragraphs: [
+          "En udsigt der er fantastisk om sommeren kan være mørk og tung om vinteren — hvis den vender mod nord. En udsigt mod syd og vest kombinerer det bedste af to verdener: eftermiddagssol og aftenlys hele året.",
+          "Vinter- og sommersolen bevæger sig forskelligt henover himlen. Om sommeren er solen høj og kan give overophedning gennem store sydfacader. Om vinteren er den lav og trænger dybt ind i huset — noget man skal udnytte bevidst. En arkitekt beregner overhæng, skærme og solafskærmning så huset holder varmen om vinteren og er køligt om sommeren, uden at gå på kompromis med udsigten.",
+          "Husk at udsigten ændrer sig med årstiderne. Et skovparti der giver frodig grøn udsigt om sommeren kan blokere for udsigten om vinteren, men til gengæld give lysindfald når bladene er faldet. Disse skiftende kvaliteter er en del af boligens karakter — og noget der er værd at planlægge med, ikke imod.",
+        ],
+      },
+      {
+        heading: "Privatliv og indblik",
+        paragraphs: [
+          "Store vinduer mod en smuk udsigt kan give følelsen af at bo i et akvarium, hvis naboen eller vejen er tæt på. Udsigt og privatliv er ikke modstridende — men de kræver en bevidst plan.",
+          "Klassiske løsninger er strategisk beplantning, hegn, mure eller terrænforme der skærmer mod indblik nedenfra mens udsigten forbliver fri mod horisonten. Frosted eller strukturerede glas kan bruges i de lavere vinduespartier så man kan se ud uden at blive kigget ind på.",
+          "Planløsningen kan også løse problemet: placér de private rum — soveværelse, badeværelse — mod den skærmede side, og de fælles rum mod udsigten. Det giver et naturligt hierarki af privatliv og åbenhed der opleves rigtigt i hverdagen.",
+        ],
+      },
+      {
+        heading: "Arkitektens rolle i udsigtsprojekter",
+        paragraphs: [
+          "En udsigt er kun god hvis huset er tegnet til at udnytte den. Det kræver en arkitekt der analyserer grunden grundigt, forstår lysforholdene og tænker planløsning, vinduer og terrasse som ét samlet greb.",
+          "Hos Yderskov Arkitekter starter vi altid med grunden — dens orientering, udsigtsretning og eksisterende kvaliteter. Derfra tegner vi et hus der er skræddersyet til netop den grund og netop den udsigt. Kontakt os for et gratis, uforpligtende første møde.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "inde-ude",
+    metaTitle: "Hvordan laver man en god overgang mellem inde og ude? — Yderskov Arkitekter",
+    title: "Hvordan laver man en god overgang mellem inde og ude?",
+    description: "En god overgang mellem inde og ude forlænger boligen og gør hverdagen rigere. Her gennemgår vi de vigtigste greb — fra terrassedøre og niveauforskelle til materialer og overdækning.",
+    date: "01 / 05 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    lead: "En bolig der flyder naturligt ud i haven eller på terrassen opleves større og mere levende end én der stopper brat ved yderdøren. Den gode overgang mellem inde og ude er ikke et tilfælde — det er resultatet af bevidste valg om niveauer, materialer, lys og åbninger. Her er de vigtigste principper.",
+    sections: [
+      {
+        heading: "Hvorfor overgangen betyder så meget",
+        paragraphs: [
+          "Grænsen mellem inde og ude er en af boligens mest brugte og mindst planlagte zoner. Vi går ud og ind hundredvis af gange om året — og hver gang vi gør det, oplever vi overgangen. En god overgang giver en følelse af lethed og sammenhæng. En dårlig overgang — en høj tærskel, et niveauskift, en dør der ikke matcher terrassen — bryder rytmen og gør boligen mere lukket end den behøver at være.",
+          "Den bedste overgang er den man næsten ikke lægger mærke til. Man bevæger sig fra stuen ud på terrassen og tilbage igen uden at tænke over det. Det kræver at niveauerne stemmer overens, at materialeovergangen er blød, og at åbningen er stor nok til at lyse, luft og blik flyder frit.",
+        ],
+      },
+      {
+        heading: "Niveauforskelle — det vigtigste greb",
+        paragraphs: [
+          "Det mest afgørende for en god inde-ude-overgang er niveauet. Hvis terrassen ligger lavere end gulvniveauet indendørs, opstår der automatisk et psykologisk og fysisk skel — selv om man blot skal kravle et trin ned. Det bedste er at terrassegulvet ligger i samme niveau som gulvet indendørs, eller maksimalt 1–2 cm lavere af hensyn til vandafledning.",
+          "Det stiller krav til konstruktionen: terrassen skal enten hæves til gulvniveauet, eller huset skal placeres lavere i terrænet. Begge løsninger er mulige, men de skal tænkes ind fra begyndelsen. Det er langt billigere at justere niveauerne på tegningen end at rive en allerede støbt terrasse op.",
+          "På skrånende grunde giver niveauforskelle mulighed for et udestue-niveau der flyder videre ud til en nedsænket have. Denne type overgang kan skabe et meget spændende rumforløb og give terrassen en beskyttet, intim karakter.",
+        ],
+      },
+      {
+        heading: "Åbningens størrelse og type",
+        paragraphs: [
+          "En terrassedør på 90 cm er funktionel — men den skaber ikke en oplevelse af sammenhæng. En skydevæg eller foldedørssystem der åbner hele gavlen kan forvandle boligen radikalt. Pludselig er stuen ikke et lukket rum med en dør ud — det er et rum der fortsætter ud i det fri.",
+          "Store glaspartier stiller krav til konstruktionen — der skal ofte et bjælkelag over åbningen, og fundamentet skal dimensioneres herefter. Men det er en investering der betaler sig i oplevelse og dagslys. Et bredt glasparti mod syd eller vest kan halvere behovet for kunstig belysning i dagtimerne.",
+          "Overvej også åbningens placering. En terrassedør i hjørnet af stuen giver en anden bevægelsesretning end én midt på facaden. Den centrale dør inviterer til at gå direkte ud — den hjørneplacerede dør kan bruges mere selektivt og give et mere skærmet område af terrassen.",
+        ],
+      },
+      {
+        heading: "Materialer der binder inde og ude sammen",
+        paragraphs: [
+          "Et af de mest effektive greb til at skabe visuel sammenhæng er at bruge samme eller lignende materialer indendørs og udendørs. Et trægulv indendørs der fortsætter som terrasebelægning udendørs — eventuelt i samme farvetone men i et vejrbestandigt træ — gør overgangen næsten usynlig.",
+          "Sten og beton er andre klassiske materialer der fungerer godt i begge zoner. Et poleret betongsulv indendørs der matcher en støbt betonterrasse udendørs er et stærkt arkitektonisk greb der er tidløst og slidstærkt.",
+          "Vær opmærksom på overfladebehandling: et indendørs trægulv er typisk lakeret eller olieret til indendørs brug, mens terrasebrædder skal være ubehandlede eller behandlet til udendørs brug. Det er muligt at opnå samme visuelle udtryk — men materialerne er ikke nødvendigvis identiske.",
+        ],
+      },
+      {
+        heading: "Overdækning og vejrbeskyttelse",
+        paragraphs: [
+          "En god overgang bruges ikke kun på solskinsage. En terrasse med overdækning — et udhæng, en pergola, et shedtag — forlænger sæsonen markant og giver en mellemzone der hverken er inde eller ude. Denne zone er boligens mest brugte om foråret og efteråret.",
+          "Overdækningen skal dimensioneres rigtigt. Et udhæng på 60 cm holder regnen ude, men skærmer også for vintersolens lave stråler — hvilket er uønsket. Et udhæng på 1,2–1,5 m giver reel vejrbeskyttelse mens det stadig tillader lav vintersol at trænge ind i stuen. En arkitekt beregner det præcise udhæng baseret på husets breddegrad og facade-orientering.",
+          "Terrassevarme, halvvæg mod vejr og vind, og opvarmede gulve er andre muligheder der forlænger sæsonen. Disse løsninger er lettest at integrere hvis de planlægges fra start — det er dyrt og besværligt at føre varmerør ud i en allerede støbt terrasse.",
+        ],
+      },
+      {
+        heading: "Arkitektens bidrag til inde-ude-zonen",
+        paragraphs: [
+          "En god inde-ude-overgang er ikke noget man tilføjer til et hus bagefter. Den er en integreret del af husets planløsning, konstruktion og facade — og den skal tænkes ind fra allerførste streg.",
+          "Hos Yderskov Arkitekter tegner vi inde-ude-zonen som en naturlig del af boligen — ikke som et tillæg. Vi analyserer husets orientering, terrænets muligheder og klientens dagligdag, og tegner en løsning der giver mening i netop den kontekst. Kontakt os for et gratis, uforpligtende første møde.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "multirum",
+    metaTitle: "Hvordan indretter man et multirum i en bolig? — Yderskov Arkitekter",
+    title: "Hvordan indretter man et multirum i en bolig?",
+    description: "Et multirum er boligens mest fleksible rum — det kan være hjemmekontor, gæsteværelse og hobbylokale på én gang. Her gennemgår vi hvordan du indretter det rigtigt.",
+    date: "25 / 04 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    lead: "I en moderne bolig er der sjældent plads til ét rum til hvert formål. Det er her multirummet kommer ind i billedet — et rum der kan skifte funktion efter behov. Et godt multirum er ikke bare et rod-rum med en sovesofa i hjørnet. Det kræver en gennemtænkt plan for zonering, møbler, lys og opbevaring.",
+    sections: [
+      {
+        heading: "Hvad er et multirum?",
+        paragraphs: [
+          "Et multirum er et rum der er designet til at rumme flere funktioner — typisk to eller tre. De mest almindelige kombinationer er hjemmekontor og gæsteværelse, hobbylokale og børneværelse, eller tv-rum og træningsrum.",
+          "Det afgørende er at rummet er planlagt til at skifte funktion — ikke bare at man har presset for mange møbler ind. Et godt multirum har et klart primært formål og et eller to sekundære formål der aktiveres ved behov.",
+        ],
+      },
+      {
+        heading: "Fleksibilitet som designprincip",
+        paragraphs: [
+          "Det vigtigste princip i et multirum er fleksibilitet. Det betyder at møbler, lys og opbevaring skal kunne tilpasses skiftende behov — uden at det kræver en hel omrokering hver gang rummet skifter funktion.",
+          "Vægmonterede løsninger er din bedste ven. En væghylde der kan bruges som bogreol eller arbejdsplads, en klapbar skrivebordsplade, en seng der foldes op mod væggen — det er konkrete løsninger der giver plads til to funktioner i ét rum uden kompromis.",
+          "Sørg for at rummets primære funktion er let tilgængelig. Hvis rummet primært er hjemmekontor, skal arbejdspladsen stå klar — gæstesengsfunktionen kan godt kræve to minutters opsætning.",
+        ],
+      },
+      {
+        heading: "Zonering — det usynlige greb",
+        paragraphs: [
+          "Zonering handler om at opdele rummet i logiske zoner uden nødvendigvis at bygge vægge. Det kan gøres med møbelplacering, gulvbelægning, tæpper, loftshøjde eller lyskilder.",
+          "En klassisk løsning er at placere arbejdszonen mod vinduet (dagslys er afgørende for fokus) og hvilezonen mod den modstående væg. Et tæppe under sofaen eller sengen markerer hvilezonen visuelt og skaber to tydelige verdener i ét rum.",
+          "Møbelplacering er den mest fleksible form for zonering — den kan ændres, og den kræver ingen byggetilladelse. Men tænk den ind fra starten: et rum på 12 m² kan virke lille eller rummeligt afhængig af om møblerne er placeret rigtigt.",
+        ],
+      },
+      {
+        heading: "Lys til forskellige formål",
+        paragraphs: [
+          "Lys er afgørende i et multirum fordi de forskellige funktioner stiller vidt forskellige krav. Arbejde kræver koldt, direkte lys (gerne dagslys). Afslapning og søvn kræver dæmpet, varmt lys. Hobbyer som syning eller maling kræver kraftigt, neutralt lys.",
+          "Løsningen er lagdelt belysning: en basisloftslampe, en arbejdslampe på skrivebordet, og en eller to stemningslamper til restitutionszonen. Sørg for at alle lamper er dæmpbare — det giver dig mulighed for at styre stemningen i rummet uden at skifte pærer.",
+          "Glem ikke dagslyset. Placering af arbejdspladsen 90 grader på vinduet (ikke direkte mod eller bag ved) reducerer refleksioner på skærmen og giver det bedste arbejdslys hele dagen.",
+        ],
+      },
+      {
+        heading: "Opbevaring der skjuler kaoset",
+        paragraphs: [
+          "Et multirum med dårlig opbevaring er et rum der altid ser rodet ud. Det er svært at slappe af i et rum der minder dig om arbejde — og det er svært at arbejde i et rum der er fyldt med gæsters kufferter og hobbyudstyr.",
+          "Byg opbevaringen ind i væggen hvis muligt — det frigiver gulvplads og giver rummet et roligere udtryk. Lukkede skabe er bedre end åbne hylder i et multirum, fordi de skjuler tingene fra én funktion når en anden er aktiv.",
+          "Tænk specifikt: hvad skal opbevares til arbejde (papirer, kabler, skærm), hvad til gæster (seng, sengetøj, håndklæder), hvad til hobby? Giv hvert formål sin dedikerede zone i opbevaringssystemet.",
+        ],
+      },
+      {
+        heading: "Akustik og privatliv",
+        paragraphs: [
+          "Et multirum der bruges som hjemmekontor stiller krav til akustik — især hvis resten af boligen er åben. Hårde overflader (beton, glas, trægulv) reflekterer lyd og giver et ekkoende rum der er trættende at arbejde i.",
+          "Bløde møbler, tæpper, gardiner og akustikpaneler absorberer lyden og skaber et roligere lydmiljø. Det har ikke kun betydning for dig — det reducerer også støjgener for resten af husstanden.",
+          "Privatliv er en undervurderet faktor. Overvej om multirummet skal have en dør — og om den dør kan lukkes ordentligt tæt. En god dør med korrekt monteret tætningsliste reducerer lydspredt betydeligt og giver rummet karakter af et selvstændigt rum.",
+        ],
+      },
+      {
+        heading: "Arkitektens rolle i multirum-planlægningen",
+        paragraphs: [
+          "Mange forsøger at løse multirummet med køb af møbler. Det kan godt fungere — men det giver sjældent det bedste resultat. En arkitekt tænker multirummet ind i boligens samlede planløsning fra starten: placering i forhold til resten af huset, vinduesplacering, dørens placering, elinstallationer.",
+          "Det er langt billigere at flytte en dør på tegnebordet end efter mureren er færdig. Og en rigtigt placeret dør kan gøre hele forskellen for om multirummet opleves som et ægte rum eller en gang med ekstra funktioner.",
+          "Hos Yderskov Arkitekter tænker vi fleksibilitet og fremtid ind i alle vores projekter. Kontakt os for et uforpligtende første møde — vi kommer ud til jer.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "koekken-design",
+    metaTitle: "Hvordan designer man et godt køkkenrum? — Yderskov Arkitekter",
+    title: "Hvordan designer man et godt køkkenrum?",
+    description: "Køkkenet er boligens arbejdsrum og samlingssted på én gang. Her gennemgår vi de vigtigste principper — fra planløsning og arbejdstrekant til lys, materialer og ventilation.",
+    date: "16 / 04 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    lead: "Køkkenet er et af de rum der sætter tonen for hele boligen. Det er her morgenen starter, hverdagen samles og gæster trækker hen af sig selv. Et godt køkkendesign handler ikke om at vælge de dyreste skabe — det handler om at forstå hvordan rummet bruges, og planlægge derefter.",
+    sections: [
+      {
+        heading: "Køkkenets rolle i den moderne bolig",
+        paragraphs: [
+          "Det åbne køkken-alrum er i dag standarden i dansk arkitektur — og med god grund. Når køkkenet er integreret med spise- og opholdszonen opstår der et naturligt flow i hverdagen: man kan lave mad og stadig være en del af samtalen, følge med i børnenes lektier og holde øje med haven.",
+          "Den åbne planløsning stiller til gengæld store krav til køkkenets udformning. Køkkenet er synligt hele tiden — fra sofaen, fra spisepladsen, fra terrassedøren. Det skal fungere som arbejdsrum og se godt ud på samme tid. Det er her arkitektens rolle begynder.",
+        ],
+      },
+      {
+        heading: "Planløsning — U-køkken, L-køkken eller ø-køkken?",
+        paragraphs: [
+          "Valget af planløsning er den vigtigste beslutning i køkkendesignet. De tre mest brugte løsninger er U-køkkenet, L-køkkenet og ø-køkkenet — og de passer til forskellige rum og familier.",
+          "U-køkkenet giver mest arbejdsplads og benkørsel og fungerer bedst i et afgrænset køkkenrum. L-køkkenet er den mest fleksible løsning i åbne planløsninger — det åbner mod resten af rummet uden at afskære kokkens kontakt med gæsterne. Ø-køkkenet med en central arbejdsø er det mest socialt åbne valg: man kan stå overfor hinanden, og øen fungerer som naturligt samlingspunkt. Det kræver dog rigeligt med plads — minimum 90 cm fri passage rundt om øen på alle sider.",
+          "En arkitekt dimensionerer køkkenplanløsningen i forhold til rummets mål, vindues- og dørplaceringer og det daglige aktivitetsmønster i familien. Det er sjældent den dyreste løsning der er den bedste — det er den der passer til jeres liv.",
+        ],
+      },
+      {
+        heading: "Arbejdstrekanten — funktionel placering af de tre zoner",
+        paragraphs: [
+          "Arbejdstrekanten er et klassisk princip i køkkendesign: de tre primære arbejdsstationer — køleskab, vask og kogezone — bør placeres i en trekant så man bevæger sig minimalt under madlavning. Jo kortere sider i trekanten, jo mere effektivt fungerer køkkenet i hverdagen.",
+          "I praksis betyder det at kogezonen ikke bør placeres i en fjern krog, og at vasken helst har en naturlig forbindelse til bordet og kogepladen. En ø-løsning bryder tit med den klassiske trekant — her handler det i stedet om at skabe to parallelle arbejdszoner: ø til forberedelse, bagkøkken til tilberedning.",
+        ],
+      },
+      {
+        heading: "Lys i køkkenet",
+        paragraphs: [
+          "Dagslys er afgørende for trivslen i et køkken der bruges mange timer dagligt. Et vindue over vasken giver arbejdslys og udsyn og er den enkeltdetalje der oftest nævnes af beboere som den de sætter mest pris på. Hvis det er muligt at orientere køkkenet mod haven, er det næsten altid den rigtige beslutning.",
+          "Kunstlys skal løse tre opgaver på én gang: generelt baggrundslys, direkte arbejdslys over bordplade og kogezone samt stemningslys til de timer hvor familien sidder ved bordet efter maden. Underskabsbelysning i LED er billig og effektiv — og løfter oplevelsen af selv et enkelt køkken markant.",
+          "I et nyt hus bør køkkenets lysplan tænkes ind fra starten — elinstallationer til underskabsbelysning, pendler over ø og dæmpere på de øvrige kredsløb lægges nemmest inden gulvene lukkes.",
+        ],
+      },
+      {
+        heading: "Materialer og overflader",
+        paragraphs: [
+          "Bordpladen er køkkenets hårdest arbejdende overflade og bør vælges med omhu. Natursten — granit eller marmor — er smukt og holdbart, men kræver vedligeholdelse og er følsomt overfor syrer. Komposit i kvarts er mere robust og kræver minimalt vedligehold. Rustfrit stål er hygiejnisk og professionelt, men koldt og nemt at ridse. Trækerneplader giver varme og naturlighed, men kræver oliering.",
+          "Skabsfront og -farve sætter tonen for køkkenets udtryk. Matte overflader er tidløse og gemmer fingeraftryk bedre end glans. Lakerede fronter er nem rengøring men viser ridser over tid. Massivt træ eller finer giver et varmt og naturligt udtryk og passer godt til arkitekttegnede boliger med fokus på materialer.",
+          "Blandingen af materialer er det der løfter et køkken fra ordinært til gennemtænkt. En mørk stenvask, lyse skabe og en bordplade i natursten skaber kontrast og dybde. En arkitekt kan hjælpe med at finde den kombination der passer til resten af boligen.",
+        ],
+      },
+      {
+        heading: "Opbevaring — den glemte prioritet",
+        paragraphs: [
+          "Utilstrækkelig opbevaring er den hyppigste klage over eksisterende køkkener. Et velfungerende køkken har plads til alt det daglige — service, madvarer, redskaber, husholdningsmaskiner — uden at det nødvendigvis er synligt.",
+          "Løsningen er dybe skuffer frem for underskabe med hylder. Skuffer er markant nemmere at anvende og giver fuldt overblik over indholdet. Høje skabssøjler til køleskab og fryseskab, integreret ovn og udtræksmuligheder udnytter den vertikale plads optimalt. Et pantry eller et bryggers i direkte tilknytning til køkkenet er en enorm fordel i en børnefamilie.",
+          "Tænk opbevaring ind allerede i skitsefasen. Det er svært og dyrt at tilføje bagefter.",
+        ],
+      },
+      {
+        heading: "Ventilation og akustik",
+        paragraphs: [
+          "Emhætten er køkkenets tekniske hjerte — og den undervurderes konsekvent. En underdimensioneret emhætte giver lugt, fugt og kondens der breder sig til resten af det åbne alrum. Emningstallet bør minimum svare til rummets volumen ganget med ti per time.",
+          "I et åbent køkken-alrum er akustikken vigtig. Hårde overflader �� beton, glas, sten — reflekterer lyden og kan gøre et ellers smukt køkken ubehageligt støjende ved middagsselskaber. Bløde elementer — træ, stof på stole og sofa, en tæppe under spisebordet — dæmper efterklangen markant.",
+          "Hos Yderskov Arkitekter tænker vi altid køkkenet ind som en del af den samlede planløsning — ikke som et standardmodul der sættes ind til sidst. Kontakt os for et gratis første møde.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "velegnet-byggegrund",
     metaTitle: "Hvordan vurderer man om en byggegrund er velegnet? — Yderskov Arkitekter",
     title: "Hvordan vurderer man om en byggegrund er velegnet?",

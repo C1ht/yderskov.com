@@ -15,7 +15,7 @@ export default function KontaktPage() {
   return (
     <>
       <Nav />
-      <Hero showForm={false} showTabs={false} />
+      <Hero slides={[{ src: "/images/Vesterhavsbakken tilbygning sommerhus/IMG_7455.webp", alt: "Sommerhus med tilbygning — Yderskov Arkitekter" }]} showTabs={false} tag="Kontakt" />
 
       <section className="s">
         <div className="s-inner">

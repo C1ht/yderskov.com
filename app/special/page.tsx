@@ -14,16 +14,16 @@ export const metadata: Metadata = {
 };
 
 const projects = [
-  { src: "/images/Bed and breakfast/Bed and breakfast fra gård yderskov.jpg", title: "Bed & Breakfast · Projekt" },
-  { src: "/images/Bed and breakfast/Bed and breakfast fra køkken Yderskov.jpg", title: "Bed & Breakfast · Projekt" },
-  { src: "/images/Bed and breakfast/Bed and breakfast fra spiseområde.jpg", title: "Bed & Breakfast · Projekt" },
+  { src: "/images/Bed and breakfast/Bed and breakfast fra gård yderskov.webp", title: "Bed & Breakfast · Projekt" },
+  { src: "/images/Bed and breakfast/Bed and breakfast fra køkken Yderskov.webp", title: "Bed & Breakfast · Projekt" },
+  { src: "/images/Bed and breakfast/Bed and breakfast fra spiseområde.webp", title: "Bed & Breakfast · Projekt" },
 ];
 
 export default function SpecialPage() {
   return (
     <>
       <Nav />
-      <Hero slides={[{ src: "/images/Bed and breakfast/Bed and breakfast fra gård yderskov.jpg", alt: "Specialprojekt — Yderskov Arkitekter" }]} />
+      <Hero slides={[{ src: "/images/Bed and breakfast/Bed and breakfast fra gård yderskov.webp", alt: "Specialprojekt — Yderskov Arkitekter" }]} tag="Special" />
 
       <section className="s">
         <div className="s-inner">

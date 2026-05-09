@@ -65,7 +65,7 @@ export default function PriserPage() {
   return (
     <>
       <Nav />
-      <Hero />
+      <Hero slides={[{ src: "/images/Harald Jensens Vej/IMG_2937.jpeg", alt: "Tilbygning — Yderskov Arkitekter" }]} tag="Priser" />
 
       {/* Intro */}
       <section className="s">

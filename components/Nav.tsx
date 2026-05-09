@@ -65,7 +65,12 @@ export default function Nav() {
 
         <button
           className={`hamburger${open ? " active" : ""}`}
-          onClick={() => setOpen(!open)}
+          onClick={() => {
+            const next = !open;
+            if (next) document.body.classList.add("menu-open");
+            else document.body.classList.remove("menu-open");
+            setOpen(next);
+          }}
           aria-label="Menu"
         >
           <span />

@@ -13,6 +13,7 @@ interface HeroSlide {
 interface HeroProps {
   slides?: HeroSlide[];
   title?: string;
+  tag?: string;
   subtitle?: string;
   lines?: string[];
   showForm?: boolean;
@@ -21,20 +22,21 @@ interface HeroProps {
 }
 
 const defaultSlides: HeroSlide[] = [
-  { src: "/images/Lerstien/IMG_7931.jpg", alt: "Arkitekttegnet villa — Yderskov" },
-  { src: "/images/Torndalsvej/IMG_3181.jpeg", alt: "Arkitekttegnet sommerhus — Yderskov" },
-  { src: "/images/Gravenstenvej/EEBD18F8-48F7-43CE-AE15-91FF91953CF7-2.png", alt: "Arkitekttegnet bolig — Yderskov" },
-  { src: "/images/Harald Jensens Vej/IMG_2937.jpeg", alt: "Tilbygning — Yderskov" },
-  { src: "/images/Karetmagervej/IMG_9184.jpeg", alt: "Arkitekttegnet villa — Yderskov" },
-  { src: "/images/Leonoravej villa tilbygning/IMG_7376.jpeg", alt: "Villa med tilbygning — Yderskov" },
-  { src: "/images/Løvevej/house2.jpg", alt: "Ny villa — Yderskov" },
-  { src: "/images/Godthåbsvej/yderskov-ombygning-efter-2.jpg", alt: "Ombygning — Yderskov" },
-  { src: "/images/Vesterhavsbakken tilbygning sommerhus/IMG_7455.jpeg", alt: "Sommerhus med tilbygning — Yderskov" },
+  { src: "/images/Lerstien/IMG_7931.webp", alt: "Arkitekttegnet villa — Yderskov" },
+  { src: "/images/Torndalsvej/IMG_3181.webp", alt: "Arkitekttegnet sommerhus — Yderskov" },
+  { src: "/images/Gravenstenvej/EEBD18F8-48F7-43CE-AE15-91FF91953CF7-2.webp", alt: "Arkitekttegnet bolig — Yderskov" },
+  { src: "/images/Harald Jensens Vej/IMG_2937.webp", alt: "Tilbygning — Yderskov" },
+  { src: "/images/Karetmagervej/IMG_9184.webp", alt: "Arkitekttegnet villa — Yderskov" },
+  { src: "/images/Leonoravej villa tilbygning/IMG_7376.webp", alt: "Villa med tilbygning — Yderskov" },
+  { src: "/images/Løvevej/house2.webp", alt: "Ny villa — Yderskov" },
+  { src: "/images/Godthåbsvej/yderskov-ombygning-efter-2.webp", alt: "Ombygning — Yderskov" },
+  { src: "/images/Vesterhavsbakken tilbygning sommerhus/IMG_7455.webp", alt: "Sommerhus med tilbygning — Yderskov" },
 ];
 
 export default function Hero({
   slides = defaultSlides,
   title = "Arkitekt Yderskov",
+  tag,
   subtitle = "Tanke + Streger",
   lines = [
     "Byggeri tegnet kun til jer — til jeres grund, jeres ønsker og jeres budget.",
@@ -60,7 +62,6 @@ export default function Hero({
     [current]
   );
 
-  // Pause carousel when hero is scrolled out of view
   useEffect(() => {
     if (!isCarousel) return;
     const el = heroRef.current;
@@ -102,35 +103,41 @@ export default function Hero({
       <div className="hero-overlay" />
 
       <div className="hero-body">
-        <div className="hero-left">
-          <p className="hero-left-super">{title}</p>
-          <p className="hero-left-title">{subtitle}</p>
-          {lines.map((line, i) => (
-            <p
-              key={i}
-              className="hero-left-sub"
-              style={i === 1 ? { fontStyle: "italic", marginTop: "0.5rem" } : i > 1 ? { marginTop: "0.5rem" } : undefined}
-            >
-              {line}
-            </p>
-          ))}
-          <span className="hero-24h" style={{ marginTop: "0.85rem", display: "flex" }}>
-            Vi vender tilbage inden 24 timer
-          </span>
+        <div className="hero-title-row">
+          <p className="hero-left-super" style={{ marginBottom: 0 }}>{title}</p>
+          {tag && <p className="hero-left-super hero-tag" style={{ marginBottom: 0 }}>{tag}</p>}
+        </div>
 
-          {showQuote && (
-            <div className="hero-mini-quote">
-              &ldquo;Hvis vi kunne give Chris ti stjerner ville vi give ham det.&rdquo;
-              <p className="hero-mini-quote-name">— Cathrine Rasmussen, Sæby</p>
+        <div className="hero-main">
+          <div className="hero-left">
+            <p className="hero-left-title">{subtitle}</p>
+            {lines.map((line, i) => (
+              <p
+                key={i}
+                className="hero-left-sub"
+                style={i === 1 ? { fontStyle: "italic", marginTop: "0.5rem" } : i > 1 ? { marginTop: "0.5rem" } : undefined}
+              >
+                {line}
+              </p>
+            ))}
+            <span className="hero-24h" style={{ marginTop: "0.85rem", display: "flex" }}>
+              Vi vender tilbage inden 24 timer
+            </span>
+
+            {showQuote && (
+              <div className="hero-mini-quote">
+                &ldquo;Hvis vi kunne give Chris ti stjerner ville vi give ham det.&rdquo;
+                <p className="hero-mini-quote-name">— Cathrine Rasmussen, Sæby</p>
+              </div>
+            )}
+          </div>
+
+          {showForm && (
+            <div className="hero-right">
+              <HeroForm />
             </div>
           )}
         </div>
-
-        {showForm && (
-          <div className="hero-right">
-            <HeroForm />
-          </div>
-        )}
       </div>
 
       {showTabs && (

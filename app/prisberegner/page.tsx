@@ -19,7 +19,7 @@ export default function PrisberegnPage() {
   return (
     <>
       <Nav />
-      <Hero />
+      <Hero slides={[{ src: "/images/Leonoravej villa tilbygning/IMG_7376.jpeg", alt: "Villa med tilbygning — Yderskov Arkitekter" }]} tag="Prisberegner" />
 
       {/* Intro */}
       <section className="s pb-intro-bg">

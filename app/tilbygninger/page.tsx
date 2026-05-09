@@ -18,9 +18,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Ombygning og\nmodernisering af 50er-villa.",
     images: [
-      { src: "/images/Godthåbsvej/yderskov-ombygning-efter-2.jpg", alt: "Ombygning — Yderskov Arkitekter" },
-      { src: "/images/Godthåbsvej/yderskov-ombygning-efter-3.jpg", alt: "Ombygning — Yderskov Arkitekter" },
-      { src: "/images/Godthåbsvej/yderskov-ombygning-efter-4.jpg", alt: "Ombygning — Yderskov Arkitekter" },
+      { src: "/images/Godthåbsvej/yderskov-ombygning-efter-2.webp", alt: "Ombygning — Yderskov Arkitekter" },
+      { src: "/images/Godthåbsvej/yderskov-ombygning-efter-3.webp", alt: "Ombygning — Yderskov Arkitekter" },
+      { src: "/images/Godthåbsvej/yderskov-ombygning-efter-4.webp", alt: "Ombygning — Yderskov Arkitekter" },
     ],
     dark: true,
   },
@@ -28,9 +28,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Villa med\ntilbygning.",
     images: [
-      { src: "/images/Leonoravej villa tilbygning/IMG_7376.jpeg", alt: "Villa med tilbygning — Yderskov Arkitekter" },
-      { src: "/images/Leonoravej villa tilbygning/IMG_7378.jpeg", alt: "Villa med tilbygning — Yderskov Arkitekter" },
-      { src: "/images/Leonoravej villa tilbygning/IMG_7379.jpeg", alt: "Villa med tilbygning — Yderskov Arkitekter" },
+      { src: "/images/Leonoravej villa tilbygning/IMG_7376.webp", alt: "Villa med tilbygning — Yderskov Arkitekter" },
+      { src: "/images/Leonoravej villa tilbygning/IMG_7378.webp", alt: "Villa med tilbygning — Yderskov Arkitekter" },
+      { src: "/images/Leonoravej villa tilbygning/IMG_7379.webp", alt: "Villa med tilbygning — Yderskov Arkitekter" },
     ],
     dark: false,
   },
@@ -38,9 +38,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Tilbygning og\nrenovering.",
     images: [
-      { src: "/images/Neptunvej/IMG_2588.jpeg", alt: "Tilbygning — Yderskov Arkitekter" },
-      { src: "/images/Neptunvej/IMG_2589.jpeg", alt: "Tilbygning — Yderskov Arkitekter" },
-      { src: "/images/Neptunvej/IMG_2592.jpeg", alt: "Tilbygning — Yderskov Arkitekter" },
+      { src: "/images/Neptunvej/IMG_2588.webp", alt: "Tilbygning — Yderskov Arkitekter" },
+      { src: "/images/Neptunvej/IMG_2589.webp", alt: "Tilbygning — Yderskov Arkitekter" },
+      { src: "/images/Neptunvej/IMG_2592.webp", alt: "Tilbygning — Yderskov Arkitekter" },
     ],
     dark: true,
   },
@@ -48,9 +48,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Ombygning af\neksisterende 70er-villa.",
     images: [
-      { src: "/images/Gravenstenvej/EEBD18F8-48F7-43CE-AE15-91FF91953CF7-2.jpg", alt: "Ombygning — Yderskov Arkitekter" },
-      { src: "/images/Gravenstenvej/IMG_9584.jpg", alt: "Ombygning — Yderskov Arkitekter" },
-      { src: "/images/Gravenstenvej/IMG_9883.jpg", alt: "Ombygning — Yderskov Arkitekter" },
+      { src: "/images/Gravenstenvej/EEBD18F8-48F7-43CE-AE15-91FF91953CF7-2.webp", alt: "Ombygning — Yderskov Arkitekter" },
+      { src: "/images/Gravenstenvej/IMG_9584.webp", alt: "Ombygning — Yderskov Arkitekter" },
+      { src: "/images/Gravenstenvej/IMG_9883.webp", alt: "Ombygning — Yderskov Arkitekter" },
     ],
     dark: false,
   },
@@ -58,9 +58,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Lille, gammelt parcelhus\nombygget til moderne bolig.",
     images: [
-      { src: "/images/Emils hus Olufsgade/villa-emil.jpg", alt: "Ombygning — Yderskov Arkitekter" },
-      { src: "/images/Emils hus Olufsgade/IMG_8303.jpeg", alt: "Ombygning — Yderskov Arkitekter" },
-      { src: "/images/Emils hus Olufsgade/IMG_8307.jpeg", alt: "Ombygning — Yderskov Arkitekter" },
+      { src: "/images/Emils hus Olufsgade/villa-emil.webp", alt: "Ombygning — Yderskov Arkitekter" },
+      { src: "/images/Emils hus Olufsgade/IMG_8303.webp", alt: "Ombygning — Yderskov Arkitekter" },
+      { src: "/images/Emils hus Olufsgade/IMG_8307.webp", alt: "Ombygning — Yderskov Arkitekter" },
     ],
     dark: true,
   },
@@ -97,7 +97,7 @@ export default function TilbygningerPage() {
   return (
     <>
       <Nav />
-      <Hero slides={[{ src: "/images/Leonoravej villa tilbygning/IMG_7376.jpeg", alt: "Villa med tilbygning — Yderskov Arkitekter" }]} />
+      <Hero slides={[{ src: "/images/Leonoravej villa tilbygning/IMG_7376.webp", alt: "Villa med tilbygning — Yderskov Arkitekter" }]} tag="Om- og tilbygninger" />
 
       <section className="s">
         <div className="s-inner">

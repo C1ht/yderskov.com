@@ -13,12 +13,12 @@ export const metadata: Metadata = {
 };
 
 const projects = [
-  { src: "/images/Torndalsvej/IMG_3181.jpeg", title: "Arkitekttegnet sommerhus" },
-  { src: "/images/Karetmagervej/IMG_9184.jpeg", title: "Funkis villa" },
-  { src: "/images/Løvevej/house2.jpg", title: "Sommerhus med pool" },
-  { src: "/images/Gravenstenvej/EEBD18F8-48F7-43CE-AE15-91FF91953CF7-2.png", title: "Ombygning af villa" },
-  { src: "/images/Harald Jensens Vej/IMG_2937.jpeg", title: "Nyt sommerhus" },
-  { src: "/images/Godthåbsvej/yderskov-ombygning-efter-2.jpg", title: "Ombygning og modernisering" },
+  { src: "/images/Torndalsvej/IMG_3181.webp", title: "Arkitekttegnet sommerhus" },
+  { src: "/images/Karetmagervej/IMG_9184.webp", title: "Funkis villa" },
+  { src: "/images/Løvevej/house2.webp", title: "Sommerhus med pool" },
+  { src: "/images/Gravenstenvej/EEBD18F8-48F7-43CE-AE15-91FF91953CF7-2.webp", title: "Ombygning af villa" },
+  { src: "/images/Harald Jensens Vej/IMG_2937.webp", title: "Nyt sommerhus" },
+  { src: "/images/Godthåbsvej/yderskov-ombygning-efter-2.webp", title: "Ombygning og modernisering" },
 ];
 
 const testimonials = [
@@ -77,7 +77,7 @@ export default function HomePage() {
     <>
       <Nav />
 
-      <Hero showQuote />
+      <Hero slides={[{ src: "/images/Lerstien/IMG_7931.webp", alt: "Arkitekttegnet villa — Yderskov" }]} tag="Hjem" showQuote />
 
       {/* Hvad er dit projekt */}
       <section className="s" style={{ paddingTop: "3rem", paddingBottom: "3rem" }}>

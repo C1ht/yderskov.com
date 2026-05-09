@@ -36,7 +36,7 @@ export default function LejlighederPage() {
   return (
     <>
       <Nav />
-      <Hero slides={[{ src: "/images/Ågade 25/IMG_00161.jpg", alt: "Lejlighedsrenovering — Yderskov Arkitekter" }]} />
+      <Hero slides={[{ src: "/images/Ågade 25/IMG_3965.webp", alt: "Lejlighedsrenovering — Yderskov Arkitekter" }]} tag="Lejligheder" />
 
       <section className="s">
         <div className="s-inner">
@@ -65,13 +65,58 @@ export default function LejlighederPage() {
           <div className="proj-header">
             <div>
               <span className="eyebrow">Projekt</span>
-              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering<br />i Aalborg.</h2>
+              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering I<br />i Aalborg, Ågade.</h2>
             </div>
           </div>
           <ImageGrid images={[
-            { src: "/images/Ågade 25/IMG_00161.jpg", alt: "Lejlighedsrenovering — Yderskov Arkitekter" },
-            { src: "/images/Ågade 25/IMG_3965.jpeg", alt: "Lejlighedsrenovering — Yderskov Arkitekter" },
-            { src: "/images/Ågade 25/IMG_3966.jpeg", alt: "Lejlighedsrenovering — Yderskov Arkitekter" },
+            { src: "/images/Ågade 25/IMG_00161.webp", alt: "Lejlighedsrenovering — Yderskov Arkitekter" },
+            { src: "/images/Ågade 25/IMG_3965.webp", alt: "Lejlighedsrenovering — Yderskov Arkitekter" },
+            { src: "/images/Ågade 25/IMG_3966.webp", alt: "Lejlighedsrenovering — Yderskov Arkitekter" },
+            { src: "/images/Ågade 25/ågade.webp", alt: "Lejlighedsrenovering — Yderskov Arkitekter" },
+            { src: "/images/Ågade 25/IMG_1216.webp", alt: "Lejlighedsrenovering — Yderskov Arkitekter" },
+            { src: "/images/Ågade 25/IMG_4513.webp", alt: "Lejlighedsrenovering — Yderskov Arkitekter" },
+            { src: "/images/Ågade 25/IMG_4514.webp", alt: "Lejlighedsrenovering — Yderskov Arkitekter" },
+            { src: "/images/Ågade 25/IMG_4515.webp", alt: "Lejlighedsrenovering — Yderskov Arkitekter" },
+            { src: "/images/Ågade 25/IMG_7399.webp", alt: "Lejlighedsrenovering — Yderskov Arkitekter" },
+            { src: "/images/Ågade 25/IMG_9570 (1).webp", alt: "Lejlighedsrenovering — Yderskov Arkitekter" },
+          ]} />
+        </div>
+      </section>
+
+      <section className="s">
+        <div className="s-inner">
+          <div className="proj-header">
+            <div>
+              <span className="eyebrow">Projekt</span>
+              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering II<br />i Aalborg, Reberbansgade.</h2>
+            </div>
+          </div>
+          <ImageGrid images={[
+            { src: "/images/Reberbansgade/køkken stor.webp", alt: "Lejlighedsrenovering II — Yderskov Arkitekter" },
+            { src: "/images/Reberbansgade/IMG_1188.webp", alt: "Lejlighedsrenovering II — Yderskov Arkitekter" },
+            { src: "/images/Reberbansgade/køkken stor (2).webp", alt: "Lejlighedsrenovering II — Yderskov Arkitekter" },
+            { src: "/images/Reberbansgade/soveværele stor.webp", alt: "Lejlighedsrenovering II — Yderskov Arkitekter" },
+            { src: "/images/Reberbansgade/IMG_1193.webp", alt: "Lejlighedsrenovering II — Yderskov Arkitekter" },
+            { src: "/images/Reberbansgade/toilet l ille.webp", alt: "Lejlighedsrenovering II — Yderskov Arkitekter" },
+            { src: "/images/Reberbansgade/stuegulv.webp", alt: "Lejlighedsrenovering II — Yderskov Arkitekter" },
+            { src: "/images/Reberbansgade/køkkengulv.webp", alt: "Lejlighedsrenovering II — Yderskov Arkitekter" },
+          ]} />
+        </div>
+      </section>
+
+      <section className="s s-off">
+        <div className="s-inner">
+          <div className="proj-header">
+            <div>
+              <span className="eyebrow">Projekt</span>
+              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering III<br />i Aalborg, Reberbansgade.</h2>
+            </div>
+          </div>
+          <ImageGrid images={[
+            { src: "/images/Reberbansgade/køkken lille 2.webp", alt: "Lejlighedsrenovering III — Yderskov Arkitekter" },
+            { src: "/images/Reberbansgade/køkken lille.webp", alt: "Lejlighedsrenovering III — Yderskov Arkitekter" },
+            { src: "/images/Reberbansgade/IMG_1202.webp", alt: "Lejlighedsrenovering III — Yderskov Arkitekter" },
+            { src: "/images/Reberbansgade/IMG_1212.webp", alt: "Lejlighedsrenovering III — Yderskov Arkitekter" },
           ]} />
         </div>
       </section>

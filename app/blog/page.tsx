@@ -18,6 +18,38 @@ type Post = {
 const posts: Post[] = [
   // 2026
   {
+    href: "/blog/udsigt",
+    date: "09 / 05 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    title: "Hvordan planlægger man udsigt fra en bolig?",
+    excerpt: "Udsigt er en af de mest værdifulde kvaliteter i en bolig — men den skal planlægges fra første streg. Her gennemgår vi hvordan du maksimerer udsigten uden at gå på kompromis med privatliv og energi.",
+  },
+  {
+    href: "/blog/inde-ude",
+    date: "01 / 05 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    title: "Hvordan laver man en god overgang mellem inde og ude?",
+    excerpt: "En god overgang mellem inde og ude forlænger boligen og gør hverdagen rigere. Her gennemgår vi de vigtigste greb — fra terrassedøre og niveauforskelle til materialer og overdækning.",
+  },
+  {
+    href: "/blog/multirum",
+    date: "25 / 04 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    title: "Hvordan indretter man et multirum i en bolig?",
+    excerpt: "Et multirum er boligens mest fleksible rum — det kan være hjemmekontor, gæsteværelse og hobbylokale på én gang. Her gennemgår vi hvordan du indretter det rigtigt.",
+  },
+  {
+    href: "/blog/koekken-design",
+    date: "16 / 04 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    title: "Hvordan designer man et godt køkkenrum?",
+    excerpt: "Køkkenet er boligens arbejdsrum og samlingssted på én gang. Her gennemgår vi de vigtigste principper — fra planløsning og arbejdstrekant til lys, materialer og ventilation.",
+  },
+  {
     href: "/blog/velegnet-byggegrund",
     date: "09 / 04 / 2026",
     cat: "Grund & placering",
@@ -205,7 +237,7 @@ export default function BlogPage() {
   return (
     <>
       <Nav />
-      <Hero showForm={false} showTabs={false} />
+      <Hero slides={[{ src: "/images/Godthåbsvej/yderskov-ombygning-efter-2.webp", alt: "Ombygning — Yderskov Arkitekter" }]} showTabs={false} tag="Blog" />
 
       <section className="s">
         <div className="s-inner">
