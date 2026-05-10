@@ -38,6 +38,10 @@ export default function Nav() {
     setOpen(false);
   }, [pathname]);
 
+  const currentLabel =
+    links.find((l) => l.href === pathname)?.label ??
+    (pathname.startsWith("/blog/") ? "Blog" : "");
+
   return (
     <nav>
       <div className="nav-inner">
@@ -58,6 +62,10 @@ export default function Nav() {
             </li>
           ))}
         </ul>
+
+        {currentLabel && (
+          <span className="nav-page-label">{currentLabel}</span>
+        )}
 
         <Link href="/kontakt" className="nav-book-btn">
           Book gratis møde
