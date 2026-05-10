@@ -39,10 +39,10 @@ export default function Hero({
   tag,
   subtitle = "Tanke + Streger",
   lines = [
-    "Byggeri tegnet kun til jer — til jeres grund, jeres ønsker og jeres budget.",
     "I har tankerne, vi sætter stregerne.",
     "Gratis og uforpligtende første møde. Vi kommer ud til jer.",
     "Vi styrer hele processen med egne håndværkere.",
+    "Byggeri tegnet kun til jer — til jeres grund, jeres ønsker og jeres budget.",
   ],
   showForm = true,
   showTabs = true,

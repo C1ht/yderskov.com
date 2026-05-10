@@ -130,6 +130,58 @@ export const posts: BlogPost[] = [
     ],
   },
   {
+    slug: "legeomraade",
+    metaTitle: "Hvordan designer man et legeområde i haven? — Yderskov Arkitekter",
+    title: "Hvordan designer man et legeområde i haven?",
+    description: "Et godt legeområde i haven er ikke bare et rutsjebane og en gynge. Her gennemgår vi hvordan du planlægger et legeområde der vokser med børnene, passer til haven og holder i mange år.",
+    date: "25 / 04 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    lead: "Et legeområde i haven er en af de bedste investeringer du kan gøre for din families hverdagsliv. Men et godt legeområde kræver planlægning — af placering, størrelse, underlag, afskærmning og hvilke aktiviteter der skal være plads til. Her er de vigtigste overvejelser.",
+    sections: [
+      {
+        heading: "Placering — sol, skygge og udsyn",
+        paragraphs: [
+          "Placeringen af legeområdet er det første og vigtigste valg. Det skal ligge et sted hvor du kan holde øje med børnene fra køkken eller terrasse — det er ikke blot praktisk, det er en tryghedsfaktor der gør hverdagen lettere.",
+          "Sol og skygge er afgørende. Små børn må ikke opholde sig i fuld sol i de varmeste timer, og legeudstyr af træ og metal kan blive brændende varmt i sommersolen. Placér legeområdet et sted med naturlig skygge om eftermiddagen — under et løvtræ, ved husets nordvendte side eller under en overdækning.",
+          "Undgå at placere legeområdet for langt fra huset. Jo mere adskilt det er, desto sjældnere bruges det i hverdagen. Det bedste legeområde er det man spontant smutter ud til — ikke det man planlægger en tur til.",
+        ],
+      },
+      {
+        heading: "Størrelse og afgrænsning",
+        paragraphs: [
+          "Et legeområde behøver ikke fylde hele haven. En afgrænset zone på 20–40 m² er fuldt tilstrækkeligt for de fleste familier og giver de voksne mulighed for at have en del af haven til sig selv.",
+          "Afgrænsningen kan laves med hæk, lavt stakit, terrassekant eller blot en ændring i belægning. En tydelig grænse er god for børnene — det giver legeområdet en karakter af sit eget sted, en slags udendørs børnerum. Det er lettere at holde rent og ryddeligt end en have hvor legetøj er spredt overalt.",
+          "Tænk fremad: legeområdet der passer perfekt til en 3-årig passer ikke nødvendigvis til en 10-årig. Byg fleksibilitet ind fra starten — en stor flad flade med god belægning kan rumme mange slags aktiviteter i takt med at børnene vokser.",
+        ],
+      },
+      {
+        heading: "Underlag — sikkerhed og praktik",
+        paragraphs: [
+          "Underlaget under og around legeudstyr er en sikkerhedsfaktor. Under gynger, rutsjebaner og klatrestativer kræver reglerne et stødabsorberende underlag — faldgrus, træflis, gummigranulat eller sand er alle godkendte løsninger.",
+          "Sand er det mest populære valg til små børn — det er blødt, billigt og giver mange legemuligheder i sig selv. Ulempen er at det spreder sig og kræver en kant for at holde det på plads. Træflis er et godt alternativ: det er naturligt, billigt og nemmere at holde inden for afgrænsningen.",
+          "For den resterende del af legeområdet kan du vælge græs, fliser eller gummimåtter afhængigt af hvad der bruges til. Græs er blødt og naturligt, men slides hurtigt på højttrafikerede arealer. Fliser er slidstærke og nette men hårde at falde på.",
+        ],
+      },
+      {
+        heading: "Legeudstyr der vokser med børnene",
+        paragraphs: [
+          "Det er fristende at købe det store legetårn med rutsjebane, klatrevæg, gynge og sandkasse samlet i én enhed. Det er praktisk — men det passer typisk til en bestemt aldersgruppe og kan hurtigt blive for lille eller for kedsommeligt.",
+          "En bedre tilgang er at starte enkelt og bygge til. En god sandkasse og en solid gynge er nok til de mindste. Når børnene vokser, kan man tilføje en trampolin, et klatretræ, en basketkurv eller en multisportsbane. Denne gradvise opbygning betyder at have altid er relevant og aldrig virker forladt.",
+          "Overvej også naturlige legemuligheder: sten at klatre på, buske at gemme sig i, en lavning der samler regnvand. Børn leger ofte bedre med naturens egne elementer end med købt udstyr — og det er gratis at planlægge fra starten.",
+        ],
+      },
+      {
+        heading: "Havedesign og legeområde i sammenhæng",
+        paragraphs: [
+          "Det bedste legeområde er et der er integreret i havedesignet — ikke et der ser ud som om det er sat ned midt i haven uden plan. Det handler om at vælge materialer og former der passer til resten af haven, og at tænke legeområdet ind i havens samlede flow.",
+          "En arkitekt eller havearkitekt kan hjælpe med at planlægge haven som helhed — så terrasse, legeområde, nyttehave og opholdszoner hænger naturligt sammen. Det giver en have der fungerer for hele familien, også når børnene er vokset fra gyngen.",
+          "Hos Yderskov Arkitekter tænker vi uderum og legeområder ind som en naturlig del af nybyggeri og tilbygninger. Kontakt os for et gratis, uforpligtende første møde.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "multirum",
     metaTitle: "Hvordan indretter man et multirum i en bolig? — Yderskov Arkitekter",
     title: "Hvordan indretter man et multirum i en bolig?",
@@ -192,6 +244,65 @@ export const posts: BlogPost[] = [
           "Mange forsøger at løse multirummet med køb af møbler. Det kan godt fungere — men det giver sjældent det bedste resultat. En arkitekt tænker multirummet ind i boligens samlede planløsning fra starten: placering i forhold til resten af huset, vinduesplacering, dørens placering, elinstallationer.",
           "Det er langt billigere at flytte en dør på tegnebordet end efter mureren er færdig. Og en rigtigt placeret dør kan gøre hele forskellen for om multirummet opleves som et ægte rum eller en gang med ekstra funktioner.",
           "Hos Yderskov Arkitekter tænker vi fleksibilitet og fremtid ind i alle vores projekter. Kontakt os for et uforpligtende første møde — vi kommer ud til jer.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "lille-sommerhus",
+    metaTitle: "Hvordan bygger man et lille sommerhus? — Yderskov Arkitekter",
+    title: "Hvordan bygger man et lille sommerhus?",
+    description: "Et lille sommerhus kan være mindst lige så godt som et stort — hvis det er tegnet rigtigt. Her gennemgår vi de vigtigste overvejelser om planløsning, materialer, regler og økonomi.",
+    date: "16 / 04 / 2026",
+    cat: "Sommerhus",
+    catKey: "sommerhus",
+    lead: "Et lille sommerhus behøver ikke føles lille. Med den rigtige planløsning, gode materialer og en gennemtænkt placering på grunden kan et hus på 40–60 m² føles rummeligt, lyst og komfortabelt. Her er hvad du skal tænke over — fra de første overvejelser til den færdige byggetilladelse.",
+    sections: [
+      {
+        heading: "Hvad er et lille sommerhus?",
+        paragraphs: [
+          "Der er ingen fast definition på et lille sommerhus, men typisk taler vi om boliger under 60 m². Det kan være et weekendhus til to, et feriehus til en mindre familie eller en hytte til ensomhed og fordybelse. Fælles for dem alle er at hvert kvadratmeter skal arbejde hårdt.",
+          "Jo mindre huset er, desto vigtigere er det at planløsningen er gennemtænkt. Fejlplaceringer af vægge, for mange rum eller en planløsning der ikke passer til brugen — alt det føles meget tydeligere i et lille hus end i et stort.",
+        ],
+      },
+      {
+        heading: "Planløsning — åbenhed frem for mange rum",
+        paragraphs: [
+          "Det vigtigste designvalg i et lille sommerhus er at prioritere åbenhed. En åben plan med køkken, alrum og stue samlet i ét rum er langt mere rummeligt end tre separate rum af samme samlede areal. Vægge koster kvadratmeter og lys — og i et lille hus er begge dele dyrebare.",
+          "Soveværelset kan med fordel skilles ud som et afgrænset rum — det giver privathed og ro. Et enkelt, velplaceret soverum på 8–10 m² er fuldt tilstrækkeligt. Resten af huset kan leve i ét sammenhængende flow.",
+          "Hems er en klassisk løsning i små sommerhuse. En hems på 10–15 m² over stuen giver ekstra sovepladser uden at tage gulvplads i det primære rum. Den lave loftshøjde og det tætte rum giver hemsen en hyggelig, lommeagtig karakter der passer godt til sommerhuslivet.",
+        ],
+      },
+      {
+        heading: "Placering og orientering på grunden",
+        paragraphs: [
+          "Et lille hus kan hurtigt føle sig endnu mindre hvis det er placeret forkert på grunden. Den rigtige placering åbner huset mod sol, udsigt og terrasse — og skærmer mod vind og naboer.",
+          "Orienter det primære opholdsrum mod syd eller sydvest så du får eftermiddagssol og aftenlys på terrassen. Placér terrassen i direkte forlængelse af stuen så inde og ude flyder naturligt sammen — det er her et lille sommerhus vinder sine ekstra kvadratmeter.",
+          "Overvej også adgangsvejen til huset. En ankomst fra nord eller øst er funktionel og lader husets bedste facader vende mod sol og udsigt. Den første oplevelse af huset — indgangen — sætter tonen for resten.",
+        ],
+      },
+      {
+        heading: "Materialer og konstruktion",
+        paragraphs: [
+          "Et lille sommerhus behøver ikke nøjes med billige materialer — men det er klogt at vælge få materialer og bruge dem konsekvent. Et hus beklædt med én type træ, ét tag og ét gulvmateriale virker roligere og mere gennemtænkt end et hus med mange forskellige overflader.",
+          "Træ er det klassiske valg til det danske sommerhus — det er varmt, naturligt og ældes smukt. Sort-tjæret træ, ubehandlet lærk eller rødmalet bræddefodding er alle tidløse valg der kræver minimal vedligeholdelse. Taget kan med fordel være et simpelt saddeltag eller pulttag — det er billigst at bygge og nemmest at vedligeholde.",
+          "Isolering er afgørende hvis sommerhuset skal bruges om foråret og efteråret. Et godt isoleret hus med lavenergivinduer holder varmen med minimal opvarmning og giver et langt behageligere indeklima i overgangsperioderne.",
+        ],
+      },
+      {
+        heading: "Regler og byggetilladelse",
+        paragraphs: [
+          "Alle nye sommerhuse kræver byggetilladelse uanset størrelse. Ansøgningen skal typisk indeholde situationsplan, plantegning, facadetegninger og snittegning. En arkitekt udarbejder disse tegninger og sørger for at huset overholder lokalplanens bestemmelser om højde, afstand til skel og bebyggelsesprocent.",
+          "Bebyggelsesprocenten er et nøgletal — den angiver hvor stor en del af grunden der må bebygges. På sommerhusgrunde er den typisk 10–15 %, hvilket betyder at en grund på 1.000 m² tillader 100–150 m² bebyggelse inkl. udhuse og carporte.",
+          "Husk at sommerhuse i sommerhuszone ikke må bruges til helårsbeboelse med mindre du har fået en dispensation. Reglerne varierer fra kommune til kommune — din arkitekt kender reglerne i dit område.",
+        ],
+      },
+      {
+        heading: "Økonomi — hvad koster et lille sommerhus?",
+        paragraphs: [
+          "Et lille sommerhus er ikke nødvendigvis billigt per m² — tværtimod. Faste omkostninger som fundament, tag, installationer og byggetilladelse udgør en stor andel uanset om huset er 40 eller 100 m². Det betyder at prisen per m² typisk er højere i et lille hus.",
+          "Forvent en entreprisepris på 20.000–30.000 kr. per m² for et velbygget sommerhus med arkitektbistand, afhængigt af materialevalg og detaljeringsgrad. Et hus på 50 m² kan altså nemt koste 1–1,5 mio. kr. at opføre — eksklusiv grund.",
+          "En arkitekt hjælper dig med at holde budgettet fra starten. Vi tegner et hus der passer til din økonomi og dit behov — ikke større end nødvendigt, men med de rigtige kvaliteter på de rigtige steder. Kontakt os for et gratis, uforpligtende første møde.",
         ],
       },
     ],
@@ -380,6 +491,65 @@ export const posts: BlogPost[] = [
     ],
   },
   {
+    slug: "laengehus",
+    metaTitle: "Hvordan planlægger man et længehus? — Yderskov Arkitekter",
+    title: "Hvordan planlægger man et længehus?",
+    description: "Længehuset er en af de mest klassiske og tidløse boligformer i Danmark. Her gennemgår vi de vigtigste overvejelser om planløsning, orientering, dagslys og materialer.",
+    date: "25 / 02 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    lead: "Længehuset er en af de mest klassiske boligformer i Danmark — en enkel, langstrakt form der er nem at bygge, let at udvide og naturlig at bo i. Men et godt længehus kræver omhyggelig planlægning. Orienteringen, planløsningen og forholdet til grunden er afgørende for om huset lykkes.",
+    sections: [
+      {
+        heading: "Hvad er et længehus?",
+        paragraphs: [
+          "Et længehus er en bolig der er markant længere end den er bred — typisk i forholdet 1:3 eller mere. Det er en af de ældste og mest udbredte husformer i Danmark, med rødder i det traditionelle landbrugshus og de klassiske rækkehuse.",
+          "I moderne arkitektur er længehuset populært fordi det giver gode muligheder for dagslys fra to sider, naturlig ventilation og en klar opdeling af boligens zoner. Det passer godt på smalle grunde i byerne og giver en flot silhuet i landskabet.",
+        ],
+      },
+      {
+        heading: "Orientering — det vigtigste valg",
+        paragraphs: [
+          "Et længehus bør orienteres så den lange facade vender mod syd eller sydvest. Det giver sollys ind i alle primære rum det meste af dagen og mulighed for en sydvendt terrasse langs hele husets længde.",
+          "Nordfacaden bruges til sekundære funktioner: garage, bryggers, bad, entre og teknisk rum. Disse rum behøver ikke dagslys i samme grad og fungerer som et termisk buffer mod det kolde nord.",
+          "En øst-vest orientering — husets længderetning løber fra øst til vest — er den klassiske og mest effektive for et længehus. Den giver maksimal sol på sydfacaden og minimal sol på nordfacaden. En nord-syd orienteret længe giver sol på begge gavle men skygge på de lange sider, hvilket typisk er en ringere løsning.",
+        ],
+      },
+      {
+        heading: "Planløsning i et længehus",
+        paragraphs: [
+          "Planløsningen i et længehus er typisk organiseret som en enkel, lineær sekvens af rum langs husets akse. Den mest naturlige opdeling er: entre og teknik mod nord/øst, opholdsrum i midten, og soverum mod vest eller i den modsatte ende.",
+          "En central gang langs nordsiden er en klassisk løsning der frigiver sydfacaden til store vinduespartier. Alle primære rum vender mod syd og har direkte adgang til sollys og terrasse. Gangen mod nord bruges til bad, opbevaring og intern cirkulation.",
+          "En åben planløsning med køkken, alrum og stue i ét sammenhængende rum er meget populær i det moderne længehus. Det giver en luftig, imponerende rumoplevelse og gode muligheder for at indrette og omindret efter behov.",
+        ],
+      },
+      {
+        heading: "Dagslys fra to sider",
+        paragraphs: [
+          "En af de store fordele ved et smalt længehus er muligheden for dagslys fra både nord og syd. Et hus der er 6–8 m bredt kan have vinduer på begge sider og stadig have dagslys ind til alle rum — noget der er umuligt i et bredere, mere kompakt hus.",
+          "Nordvendte vinduer giver et køligt, diffust lys der er fremragende til arbejde og læsning. Sydvendte vinduer giver varmt, direkte sollys og forbindelse til terrassen. Kombinationen af de to lystyper giver en nuanceret og levende lysoplevelse der ændrer sig markant gennem dagen.",
+          "Ovenlys over et centralt rum — en gang, et trapperum eller en åben køkkenzone — er et godt supplement der bringer lys ind i husets kerne. Det er særlig effektivt i længere huse hvor afstanden fra facade til facade kan gøre de midterste rum mørke.",
+        ],
+      },
+      {
+        heading: "Terrasse og have langs sydfacaden",
+        paragraphs: [
+          "En af de store kvaliteter ved et sydvendt længehus er muligheden for en lang terrasse langs hele sydfacaden. En terrasse der løber i hele husets bredde — eller endda uden for det — giver en imponerende ude-zone og skaber naturlig forbindelse mellem alle rum og haven.",
+          "Terrassen kan opdeles i zoner der svarer til rummene indendørs: en spisezone ud for spisestuen, en opholdzone ud for stuen, en havezone ud for soveværelset. Hvert rum får sit eget udeophold, men de hænger visuelt og fysisk sammen langs husets akse.",
+          "Beplantning langs terrassens yderkant kan bruges til at skærme mod indblik fra naboer eller vej uden at blokere for sol og udsigt. Lave buskadser, urter og stauder er bedre end høje hække der kaster skygge.",
+        ],
+      },
+      {
+        heading: "Materialer og udtryk",
+        paragraphs: [
+          "Længehusets enkle form er en fordel materialemæssigt. Én type facadebeklædning — sort-tjæret bræddefodding, rødmalet træ, tegl eller gul mur — der løber hele vejen rundt giver et stærkt og roligt udtryk der passer til formen.",
+          "Taget er som regel et enkelt saddeltag med moderat taghældning eller et fladt tag. Et asymmetrisk saddeltag — med den høje side mod syd og den lave mod nord — giver mulighed for solceller på sydsiden og store vinduer i sydgavlen.",
+          "Hos Yderskov Arkitekter tegner vi mange længehuse — og vi ved at den enkle form stiller store krav til detaljerne. Det er i vinduesplacering, tagovergang og terrasseforbindelsen at et godt længehus adskiller sig fra et middelmådigt. Kontakt os for et gratis, uforpligtende første møde.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "skraanende-grund",
     metaTitle: "Hvordan udnytter man en skrånende grund? — Yderskov Arkitekter",
     title: "Hvordan udnytter man en skrånende grund?",
@@ -429,6 +599,123 @@ export const posts: BlogPost[] = [
         paragraphs: [
           "En skrånende grund kræver mere jordarbejde og et mere komplekst fundament end en flad grund. Afhængigt af skråningsmønstret kan der være behov for støttemure, pilotering eller et fundament der trappes ned ad bakken i takt med terrænet.",
           "Det er vigtigt at få en geoteknisk rapport inden projektering — og at en arkitekt koordinerer tæt med konstruktøren om funderingsløsningen. Det er her de uventede udgifter opstår hvis man ikke er grundig fra starten. Derfor er det altid vigtigt at rådføre sig med en arkitekt i forbindelse med byggeri på en skrånende grund.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "orangeri",
+    metaTitle: "Hvordan designer man et orangeri ved huset? — Yderskov Arkitekter",
+    title: "Hvordan designer man et orangeri ved huset?",
+    description: "Et orangeri er en af de mest stemningsfulde tilbygninger du kan give dit hus. Her gennemgår vi de vigtigste designvalg — fra placering og konstruktion til glas, opvarmning og brug.",
+    date: "14 / 02 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    lead: "Et orangeri er mere end en tilbygning — det er et rum med helt særlig karakter. Lyset her er anderledes end i resten af huset, temperaturen varierer med årstiderne, og forbindelsen til haven er umiddelbar. Et godt orangeri forlænger boligen og sæsonen på én gang.",
+    sections: [
+      {
+        heading: "Hvad er et orangeri?",
+        paragraphs: [
+          "Et orangeri er traditionelt et glasrum til overvintring af planter — navnet kommer fra de franske slotshaver hvor man opbevarede orangentræer om vinteren. I moderne boligsammenhæng er et orangeri et glasdækket rum der bruges som vinterhave, spiserum, opholdsrum eller arbejdsrum med direkte forbindelse til haven.",
+          "Forskellen på et orangeri og en almindelig udestue er primært konstruktion og udtryk. Et orangeri er typisk opført i stål eller aluminium med store glasflader — det er mere elegant og luftigt end en traditionel udestue i træ og plast. Et veludformet orangeri er et arkitektonisk statement der tilfører huset markant karakter.",
+        ],
+      },
+      {
+        heading: "Placering — sol, haven og husets facade",
+        paragraphs: [
+          "Placeringen af et orangeri er det vigtigste valg. Syd- eller sydvestvendt er ideelt — du får sol det meste af dagen og eftermiddagslys til aftensmaden. En nordvendt placering giver et køligt, diffust lys der kan fungere godt som arbejdsrum eller atelier, men er uegnet som vinterhave.",
+          "Orangeriet bør kobles direkte til et af husets primære rum — typisk stuen, spisestuen eller køkkenet. Den direkte forbindelse er afgørende for at rummet faktisk bruges i hverdagen. Et orangeri man skal gå udenom huset for at nå, bruges kun om sommeren.",
+          "Overvej husets facade. Et orangeri der gentager husets materialer og formsprog i glasversionen — f.eks. med samme tagvinkel eller samme farve på stålprofiler som vinduesrammer — integreres smukt. Et orangeri der strider mod huset i stil og materialer kan virke påklistret.",
+        ],
+      },
+      {
+        heading: "Konstruktion og glastype",
+        paragraphs: [
+          "Orangerier opføres typisk i varmgalvaniseret stål, aluminium eller en kombination. Stål giver de slankeste profiler og det mest elegante udtryk — aluminium er lettere at vedligeholde og kan leveres i mange farver. Begge er holdbare og kræver minimal vedligeholdelse.",
+          "Glasvalget er afgørende for orangeriets funktion. Termoruder med lav U-værdi er nødvendige for at minimere varmetab om vinteren. Solafvisende glas reducerer overophedning om sommeren — særlig vigtigt i sydvendte orangerier. Matteret eller struktureret glas kan bruges i sideruder eller taguger for at give et diffust lys.",
+          "Tagkonstruktionen er det teknisk mest krævende element. Et orangeritag skal tåle sne, regn og vindlast — og det skal ikke lyde som et trommesæt når det regner. Lamineret glas med en mellemliggende akustikfolie reducerer regnstøj markant og er standardvalget i kvalitetsorangerier.",
+        ],
+      },
+      {
+        heading: "Opvarmning og ventilation",
+        paragraphs: [
+          "Et orangeri der skal bruges om vinteren kræver opvarmning. Gulvvarme er den mest komfortable løsning — det varmer jævnt og er usynligt. Det kan kobles til husets eksisterende varmesystem eller til en separat varmepumpe.",
+          "Ventilation er mindst lige så vigtig som opvarmning. Et glasrum kan blive uudholdeligt varmt om sommeren hvis der ikke er tilstrækkelig udluftning. Tagvinduer med automatisk åbning, sidehængte vinduer eller en ventilationsanlæg sikrer at temperaturen holdes behagelig hele året.",
+          "En brændeovn i orangeriet er et populært valg der giver hygge og en naturlig varmeform. Det kræver et godkendt skorstensforløb og tilstrækkelig friskluftforsyning — men til gengæld skabes en helt særlig stemning på kolde vinterdage.",
+        ],
+      },
+      {
+        heading: "Brug og indretning",
+        paragraphs: [
+          "Et orangeri bruges bedst når det har et klart primært formål. Et spiseorangeri med et stort bord og gode stole bliver familiens foretrukne rum fra marts til november. Et haveorangeri med arbejdsbord, redskaber og plads til overvintring af planter er praktisk og hyggeligt på én gang.",
+          "Gulvbelægningen bør kunne tåle fugt, jord og direkte adgang fra haven. Natursten, klinker eller terrakotta er klassiske valg der er robuste og nemme at holde rene. Trægulv er smukt men kræver omhyggelig fugtbeskyttelse.",
+          "Beplantning er selve sjælen i et orangeri. Citrusplanter, figner, oliven og store grønne planter trives i det lyse, tempererede klima. Overvej at bygge plantekasser ind langs væggene — det giver et permanent og organiseret plantebillede der definerer rummets karakter.",
+        ],
+      },
+      {
+        heading: "Byggetilladelse og arkitektbistand",
+        paragraphs: [
+          "Et orangeri er en tilbygning og kræver byggetilladelse. Ansøgningen skal indeholde tegninger der viser orangeriets placering, dimensioner, konstruktion og materialer. En arkitekt udarbejder de nødvendige tegninger og sørger for at projektet overholder lokalplanens bestemmelser.",
+          "Hos Yderskov Arkitekter har vi bred erfaring med glasrum og orangerier som integrerede dele af boliger. Vi tegner orangeriet som en naturlig forlængelse af huset — i samme formsprog og med samme omhu for detaljen. Kontakt os for et gratis, uforpligtende første møde.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "boligdetalje-trappe",
+    metaTitle: "Boligdetalje #3: Trappen — sådan planlægger du trappen i dit arkitekttegnede hus — Yderskov Arkitekter",
+    title: "Boligdetalje #3: Trappen — sådan planlægger du trappen i dit arkitekttegnede hus.",
+    description: "Trappen er en af de mest iøjnefaldende detaljer i et arkitekttegnet hus. Her gennemgår vi hvordan du planlægger den rigtigt — fra placering og konstruktion til materialer, gelænder og lys.",
+    date: "14 / 02 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    lead: "I et arkitekttegnet hus er trappen sjældent bare en trapp — den er et arkitektonisk element der definerer rummets karakter. En velplaceret, veldesignet trappe kan åbne et hus op, skabe flow mellem etager og blive boligens mest fotograferede detalje. Her er hvad du skal tænke over.",
+    sections: [
+      {
+        heading: "Trappen som arkitektonisk element",
+        paragraphs: [
+          "I mange huse gemmes trappen væk i en gang eller et trapperum. I et arkitekttegnet hus er trappen ofte det modsatte — den placeres bevidst i et centralt rum, i fuld udsyn, og behandles som et skulpturelt element på linje med en god sofa eller et flot vinduesparti.",
+          "En fritstående trappe i stuen — f.eks. en svævetrappe i stål og eg — forandrer rummets proportioner og skaber visuel forbindelse mellem etager. Lyset, der falder ned langs trappen, ændrer sig gennem dagen og giver boligen en levende kvalitet der er svær at opnå med andre midler.",
+        ],
+      },
+      {
+        heading: "Placering — flow og planløsning",
+        paragraphs: [
+          "Trappes placering er det første og vigtigste valg. En trappe midt i huset giver korte gangafstande til alle rum på begge etager — men den tager central gulvplads. En trappe langs en ydervæg er mere effektiv arealmæssigt men kan give lange gangafstande.",
+          "Tænk på flowet i huset. Trappen skal ligge der hvor det er naturligt at bevæge sig fra ét niveau til det næste — ikke et sted man skal lede efter. En velplaceret trappe fornemmes som en naturlig del af bevægelsesmønstret i huset.",
+          "Overvej også trapperummets øvrige funktion. En trappe langs en ydervæg kan give plads til opbevaring nedenunder. En trappe ved indgangen kan skabe en naturlig ankomstzone. En trappe i stuen kan fungere som rumdeler mellem opholdszone og madlavningszone.",
+        ],
+      },
+      {
+        heading: "Konstruktion — svævende, lukket eller åben?",
+        paragraphs: [
+          "Svævetrapper — trinene er fastgjort i en bærekonstruktion uden synlige stringere — er den mest populære løsning i arkitekttegnede huse. De er lette, luftige og giver udsyn under trappen. De kræver en solid vægkonstruktion eller en central bærebjælke at hænge trinene i.",
+          "En åben vanger-trappe med synlige stringere giver et mere klassisk, industrielt eller rustikt udtryk afhængigt af materialevalget. En lukket trappe med vægge på begge sider er den mest pladseffektive løsning og kan bruges til opbevaring nedenunder — men den bidrager ikke til rummets åbne karakter.",
+          "Gelænderet er trappes store designmulighed. Et gelænder i massivt eg, rustfrit stål, sortmalet jern eller spændeglas giver vidt forskellige udtryk. Valget af gelænder sætter tonen for hele trapperummet og bør afspejle husets øvrige materialepalet.",
+        ],
+      },
+      {
+        heading: "Mål og proportioner",
+        paragraphs: [
+          "En god trappe skal føles naturlig at gå i. Tommelfingerreglen er: 2 × stigning + løb = 63 cm. En stigning på 18 cm og et løb på 27 cm er et komfortabelt udgangspunkt. For stejle trapper (stigning over 21 cm) er ubehagelige og trætte — for flade trapper tager meget plads.",
+          "Bredden på trappen sætter sig i proportioner til resten af huset. En trappe på 90 cm er minimum for en privatbolig — 100–110 cm giver et langt mere rummeligt og generøst udtryk. I huse med åbne planløsninger og høje lofter kan en bred trappe understrege husets proportioner og skabe balance.",
+          "Husk lofthøjden over trappen. Bygningsreglementet kræver min. 2,1 m frihøjde over hvert trin. I huse med skrå loft eller loftbjælker skal dette beregnes nøje — det er en klassisk fejlkilde der opdages for sent.",
+        ],
+      },
+      {
+        heading: "Materialer",
+        paragraphs: [
+          "Eg er det mest brugte materiale til trapper i arkitekttegnede huse. Det er varmt, naturligt og ældes smukt. Eg kan leveres i massiv, finér eller som konstruktionstræ — og behandles med olie, voks eller lak afhængigt af ønsket udtryk og slidstyrke.",
+          "Stål bruges ofte til bærende elementer og gelænder. Sortmalet stål giver et moderne, let industrielt udtryk der passer godt til tidløse boliger. Rustfrit stål er mere koldt og teknisk — det passer bedst i huse med et minimalistisk formsprog.",
+          "Beton er et tredje mulighed der giver en meget solid og tidløs karakter. En støbt betontrappe er permanent og kan ikke ændres — den stiller store krav til planlægningen, men til gengæld er den nærmest vedligeholdelsesfri og udvikler en smuk patina over tid.",
+        ],
+      },
+      {
+        heading: "Lys langs trappen",
+        paragraphs: [
+          "Lys og trappe hører naturligt sammen. Et ovenlys over trapperummet er klassisk og effektivt — det giver dagslys ned igennem hele husets højde og skaber en levende lyskilde der ændrer sig med vejret og årstiderne.",
+          "Integreret trappebelysning — LED-strips under trinene, spotlights i stringen eller pendler ned langs trappen — giver trappen en dramatisk natkarakter og er funktionelt nødvendigt for sikker færdsel om aftenen.",
+          "Hos Yderskov Arkitekter planlægger vi trapper som en integreret del af husets samlede design — ikke som en teknisk nødvendighed der løses til sidst. Kontakt os for et gratis, uforpligtende første møde.",
         ],
       },
     ],
@@ -722,7 +1009,7 @@ export const posts: BlogPost[] = [
     metaTitle: "Hvad er fordelene ved store vinduespartier? — Yderskov Arkitekter",
     title: "Hvad er fordelene ved store vinduespartier?",
     description: "Store vinduespartier giver lys og udsigt — men hvornår giver det bedst mening? Vi gennemgår fordele, overvejelser og arkitektens tilgang.",
-    date: "04 / 09 / 2024",
+    date: "15 / 04 / 2024",
     cat: "Arkitekt & proces",
     catKey: "arkitekt",
     lead: "Store vinduer er et af de arkitektoniske greb der oftest gør den største forskel i en bolig. De ændrer stemningen, forbindelsen til omgivelserne og oplevelsen af rummet — men de kræver omtanke for at virke optimalt.",
@@ -762,7 +1049,7 @@ export const posts: BlogPost[] = [
     metaTitle: "Sommerhus til udsigtsgrund — Arkitekt Yderskov",
     title: "Hvordan designer man et sommerhus til udsigtsgrunde?",
     description: "En udsigtsgrund stiller særlige krav til sommerhusdesignet. Vi gennemgår hvordan arkitekten orienterer huset og skaber balance mellem udsigt og privatliv.",
-    date: "04 / 09 / 2024",
+    date: "27 / 02 / 2024",
     cat: "Sommerhus",
     catKey: "sommerhus",
     lead: "En udsigtsgrund er et privilegium — men også en arkitektonisk opgave. Udsigten skal fanges, lyset skal udnyttes og privatlivet skal bevares. Her gennemgår vi de vigtigste greb når sommerhuset skal orienteres mod vand og natur.",
