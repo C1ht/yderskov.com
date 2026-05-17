@@ -18,6 +18,14 @@ type Post = {
 const posts: Post[] = [
   // 2026
   {
+    href: "/blog/sedumtag",
+    date: "23 / 05 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    title: "Sedumtag — hvad er det, og er det det rigtige tag til dit hus?",
+    excerpt: "Et sedumtag er et levende tag beplantet med stenurt. Det håndterer regnvand, forlænger tagets levetid og ser smukt ud. Her gennemgår vi hvad du skal vide inden du vælger det.",
+  },
+  {
     href: "/blog/hjemmekontor",
     date: "16 / 05 / 2026",
     cat: "Villa & boligdesign",

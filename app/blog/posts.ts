@@ -14,6 +14,66 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "sedumtag",
+    metaTitle: "Sedumtag — hvad er det, og er det det rigtige tag til dit hus? — Yderskov Arkitekter",
+    title: "Sedumtag — hvad er det, og er det det rigtige tag til dit hus?",
+    description: "Et sedumtag er et levende tag beplantet med stenurt. Det ser smukt ud, isolerer godt og håndterer regnvand. Her gennemgår vi hvad du skal vide inden du vælger det.",
+    date: "23 / 05 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    lead: "Et sedumtag er et tag beplantet med stenurt — en robust, lavtvoksende plante der overlever tørke, frost og vind. Det er ikke bare et æstetisk valg. Et sedumtag isolerer, håndterer regnvand, forlænger tagets levetid og kan bidrage til byggetilladelsen i områder med særlige krav til begrønning. Her gennemgår vi hvad du skal vide.",
+    sections: [
+      {
+        heading: "Hvad er et sedumtag?",
+        paragraphs: [
+          "Et sedumtag er et grønt tag — også kaldet et ekstensivt grønt tag — hvor tagfladen er dækket af et tyndt lag vækstmedie og beplantning af stenurt (sedum). Sedum er en succulent plante der kan overleve ekstreme forhold: langvarig tørke, kraftig frost og direkte sol. Det kræver ingen vanding og næsten ingen vedligeholdelse, når det erst er etableret.",
+          "Sedumtaget er den letteste type grønt tag. Opbygningen vejer typisk 60–120 kg pr. m², afhængig af vækstmedietykkelsen. Det gør det velegnet til eksisterende tagkonstruktioner der ikke er bygget til den tungere belastning fra intensive grønne tage med jord og busker.",
+          "Taget leveres oftest som færdige sedummåtter der rulles ud på tagfladen — præcis som en græsplæne på ruller. Alternativt kan det etableres med frø eller stiklinger, men det tager længere tid at gro til.",
+        ],
+      },
+      {
+        heading: "Fordele ved et sedumtag",
+        paragraphs: [
+          "Et sedumtag håndterer regnvand markant bedre end et konventionelt tag. Planterne og vækstmediet tilbageholder op til 50–70% af nedbøren, der fordamper langsomt i stedet for at løbe direkte i kloakken. Det aflaster kloaksystemet og reducerer risikoen for oversvømmelse — noget kommunerne i stigende grad stiller krav om i nye lokalplaner.",
+          "Isoleringsmæssigt bidrager sedumtaget til at holde huset køligere om sommeren og varmere om vinteren. Det grønne lag fungerer som en ekstra buffer mod temperatursving — særligt om sommeren, hvor et konventionelt tag kan blive meget varmt og stråle varme ned i taget.",
+          "Sedumtaget forlænger desuden tagets levetid. Tagmembranen beskyttes mod UV-stråling, temperatursvingninger og mekanisk slid — de faktorer der normalt nedbryder et fladt tag hurtigst. Med et sedumtag kan levetiden fordobles sammenlignet med et eksponeret membrantag.",
+          "Endelig er der det æstetiske: et sedumtag skifter farve og udtryk med årstiderne — grønt og frodig om foråret og sommeren, guldgult og rødligt om efteråret. Det ser smukt ud fra naboens have og fra drone — og giver huset en blødere tilstedeværelse i landskabet.",
+        ],
+      },
+      {
+        heading: "Ulemper og begrænsninger",
+        paragraphs: [
+          "Et sedumtag kræver en tagflade med en hældning på maksimalt ca. 35 grader. Flade og let skrånende tage er ideelle — stærkt skrånende tage kræver særlige fastholdelsessystemer der øger prisen og kompleksiteten. Tage med kraftig hældning er generelt ikke egnede til sedum.",
+          "Prisen er højere end et konventionelt fladt tag med grus eller singels. En sedumopbygning koster typisk 400–700 kr. pr. m² ekstra oven i tagets normale pris. Til gengæld er vedligeholdelsesomkostningerne lave — normalt blot én gennemgang om året for at fjerne uønskede planter.",
+          "Adgang til taget er vigtigere end ved et konventionelt tag. Tagbrønde og gennemføringer skal løbende inspiceres, og det kræver at man kan færdes på taget uden at beskadige sedumtæppet. Det skal tænkes ind i opbygningen fra starten.",
+        ],
+      },
+      {
+        heading: "Konstruktion og opbygning",
+        paragraphs: [
+          "Et sedumtag er en lagdelt opbygning oven på den bærende tagkonstruktion. Nedefra og op: dampspærre, isolering, tagmembran (vandtæt), drænlag, filterdug, vækstmedie og sedum. Hvert lag har en funktion, og opbygningen skal projekteres korrekt for at undgå fugtproblemer.",
+          "Tagmembranen er det kritiske element. Den skal være rodfast — det vil sige modstandsdygtig over for planternes rødder, der ellers over tid kan perforere membranen og give lækager. En forkert valgt membran er den hyppigste årsag til problemer med grønne tage.",
+          "Drænlaget sikrer at overskydende vand ledes væk fra vækstmediet og mod tagbrøndene. Uden tilstrækkeligt dræn risikerer man vandstuvning, der kan dræbe planterne og belaste konstruktionen unødigt.",
+        ],
+      },
+      {
+        heading: "Hvornår er sedumtaget det rigtige valg?",
+        paragraphs: [
+          "Sedumtaget er særlig velegnet til fladt eller let skrånende tag på en villa, tilbygning eller garage. Det passer godt til det nordiske æstetik og er populært på funkisboliger, bungalows og moderne lave huse. Visuelt virker det afsluttende og naturligt frem for et eksponeret membrantag med singels.",
+          "Har du en lokalplan der stiller krav om begrønning eller grønne tage, er sedum normalt den enkleste og mest økonomiske måde at opfylde kravet på. Flere kommuner tilbyder desuden tilskud til grønne tage som led i klimatilpasningsindsatsen.",
+          "Er dit tag stærkt skrånende, eller ønsker du at bruge tagets overflade aktivt som terrasse eller opholdsareal, er et intensivt grønt tag eller en taghave et bedre alternativ — men det kræver en tungere konstruktion og en anden opbygning.",
+        ],
+      },
+      {
+        heading: "Arkitektens rolle",
+        paragraphs: [
+          "Et sedumtag er ikke et produkt du bare vælger til. Det er en konstruktiv og arkitektonisk beslutning der påvirker tagets opbygning, konstruktionens dimensionering og byggesagsbehandlingen. Det skal tænkes ind fra første streg.",
+          "Hos Yderskov Arkitekter projekterer vi sedumtage som en integreret del af byggeprojektet — fra valg af membran og drænopbygning til koordinering med tagentreprenøren. Kontakt os for et gratis og uforpligtende første møde.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "hjemmekontor",
     metaTitle: "Sådan skabes et godt hjemmekontor — Yderskov Arkitekter",
     title: "Sådan skabes et godt hjemmekontor.",
