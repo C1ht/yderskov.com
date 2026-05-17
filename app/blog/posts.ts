@@ -14,6 +14,191 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "bolig-med-niveauer",
+    metaTitle: "Design af bolig med niveauer — split-level og terrænfølgende huse — Yderskov Arkitekter",
+    title: "Design af bolig med niveauer — sådan udnytter du højdeforskellene.",
+    description: "En bolig med niveauer udnytter terrænet, skaber rumlige oplevelser og giver naturlig zonering. Her gennemgår vi split-level, terrænfølgende huse og hvad du skal tænke på.",
+    date: "13 / 06 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    lead: "En bolig med niveauer er ikke blot et svar på en skrånende grund — det er et bevidst arkitektonisk greb der skaber rumlig variation, naturlig zonering og en helt særlig oplevelse af at bevæge sig gennem hjemmet. Her gennemgår vi principperne bag niveauforskelle i boliger og hvad du skal tænke på som bygherre.",
+    sections: [
+      {
+        heading: "Hvad er en bolig med niveauer?",
+        paragraphs: [
+          "En bolig med niveauer — også kaldet split-level eller terrænfølgende bolig — er en bolig der er fordelt på flere halvetager eller forskudte gulvniveauer frem for et klassisk plan-på-plan-princip. I stedet for at gå en hel etage op eller ned bevæger man sig typisk 3–7 trin mellem zonerne.",
+          "Niveauerne kan opstå af to grunde: enten fordi grunden er skrånende og huset følger terrænet, eller fordi arkitekten bevidst indfører niveauforskelle på en flad grund for at skabe rumlig variation og zonering. Begge tilgange giver boliger med en helt anderledes rumlig dynamik end en traditionel etplansvilla.",
+        ],
+      },
+      {
+        heading: "Niveauer som terrænfølgende greb",
+        paragraphs: [
+          "En skrånende grund er udgangspunktet for mange af de mest interessante niveauboliger. I stedet for at planere grunden og miste terrænet — en dyr og miljømæssigt uhensigtsmæssig løsning — følger huset jordens naturlige fald i trin.",
+          "Det giver en række fordele: huset sidder godt i landskabet og virker som en naturlig del af grunden frem for et fremmedlegeme. Udsigten fra de øvre niveauer optimeres. Og kælderen eller halvkælderen der opstår på den nedre del af grunden giver ekstra areal næsten gratis sammenlignet med at grave sig ned på en flad grund.",
+          "Et terrænfølgende hus kræver præcis projekttering af gulvniveauer, terrændæk og sokkel — og en arkitekt der forstår at arbejde med terræn frem for imod det. Den første analyse af grunden er altid afgørende for at finde det rigtige snit.",
+        ],
+      },
+      {
+        heading: "Niveauer som arkitektonisk greb",
+        paragraphs: [
+          "På en flad grund kan niveauforskelle indføres bevidst for at skabe zonering og rumlig variation. Et klassisk greb er at hæve stuen et halvt niveau over terræn — det giver udsigt over haven, mere dagslys og en følelse af at bo lettere og mere luftigt.",
+          "En anden klassiker er at sænke opholdszonen — den såkaldte sunken living room. Den nedsænkede stue giver en intim, cocoon-agtig fornemmelse der skærmes naturligt fra gangen og køkkenet. Det er et greb der var enormt populært i 1960'erne og 70'erne og oplever en renaissance i moderne skandinavisk boligdesign.",
+          "Halvniveauer kan også bruges til at adskille soveafdelinger fra dagligdagszonerne uden at bygge en hel etage. Fire trin op til en hems eller sovezone skaber privatliv og adskillelse uden at lukke rummet af — og giver en rumoplevelse der er svær at opnå på ét plan.",
+        ],
+      },
+      {
+        heading: "Rumlig oplevelse og dagslys",
+        paragraphs: [
+          "Niveauforskelle ændrer radikalt på den rumlige oplevelse af en bolig. Rum der er forskudt i niveau overlapper visuelt — man kan kigge ned i stuen fra halvplanets arbejdsniche, eller op i hemsen fra soveværelset nedenunder. Det skaber en kompleks, levende rumstruktur der er svær at opnå i en traditionel etplansvilla.",
+          "Dagslys opfører sig anderledes i niveauboliger. Et ovenlysvindue over et trappetrin kaster lys ned i to niveauer på én gang. Et vindue i en halvvæg mellem to niveauer sender lys horisontalt ind i begge rum. Disse lyseffekter skifter med solen og årstiderne og giver boligen en konstant foranderlig atmosfære.",
+          "Planlæg loftshøjden omhyggeligt. Niveauforskelle giver naturlige variationer i loftshøjde — et halvt niveau ned giver automatisk halvanden etages loft over det rum der er under. Udnyt det bevidst: placér opholdsrummet der hvor loftet er højest, og sovepladserne der hvor det er lavere og mere intimt.",
+        ],
+      },
+      {
+        heading: "Tilgængelighed og praktiske overvejelser",
+        paragraphs: [
+          "Niveauboliger er ikke for alle livsfaser. Trapper og niveauforskelle kan blive en udfordring ved nedsat bevægelighed — enten som følge af alder, skade eller med små børn og barnevogne. Det er vigtigt at tænke fremtidssikring ind allerede i projekteringen.",
+          "Et godt greb er at placere de vigtigste funktioner — entre, stue, køkken, badeværelse og mindst ét soverum — på ét plan, selv i en niveaubolig. Resten af boligen kan fordeles på andre niveauer. Det giver fleksibilitet til at leve på ét niveau hvis det en dag bliver nødvendigt.",
+          "Vær opmærksom på brandkrav og flugtveje. Bygningsreglementets krav til redningsåbninger, flugtveje og trappernes dimensioner gælder naturligvis også for niveauboliger. En arkitekt sikrer at projektet overholder kravene og søger de nødvendige dispensationer hvis grunden eller programmet kræver det.",
+        ],
+      },
+      {
+        heading: "Arkitektens rolle",
+        paragraphs: [
+          "En bolig med niveauer er mere kompleks at projektere end en traditionel etplansvilla. Snittet — den lodrette tegning der viser niveauernes indbyrdes forhold, loftshøjder og dagslysets vej igennem huset — er det vigtigste redskab. Det er her arkitekten finder den rigtige balance mellem rumlig kompleksitet og hverdagens praktiske funktioner.",
+          "Hos Yderskov Arkitekter har vi erfaring med niveauboliger på skrånende grunde i hele Nordjylland. Vi starter altid med en grundig analyse af terrænet og orienteringen — og tegner derfra et hus der udnytter niveauerne frem for at kæmpe imod dem. Kontakt os for et gratis og uforpligtende første møde.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "betonterrasse",
+    metaTitle: "Betonterrasse — hvad skal du vide inden du vælger det? — Yderskov Arkitekter",
+    title: "Betonterrasse — hvad skal du vide inden du vælger det?",
+    description: "En betonterrasse er holdbar, lav-vedligeholdelse og kan formes frit. Her gennemgår vi støbt beton mod betonfliser, overfladebehandling, afvanding og hvad det koster.",
+    date: "06 / 06 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    lead: "Beton er et af de mest alsidige terrasse-materialer du kan vælge. Det kan støbes i frit valgte former, bearbejdes til mange forskellige overflader og holder i årtier uden større vedligeholdelse. Men der er forskel på en veldesignet betonterrasse og en der krakkelerer og misfarves efter tre vintre. Her gennemgår vi hvad du skal vide.",
+    sections: [
+      {
+        heading: "Støbt beton eller betonfliser?",
+        paragraphs: [
+          "Det første valg er om du vil have en terrasse i støbt beton — ét sammenhængende betonlag — eller betonfliser der lægges på et grus- eller sandbund. De to løsninger ser umiddelbart ens ud på afstand, men er meget forskellige i praksis.",
+          "Støbt beton er dyrere at etablere men giver et mere monolitisk, arkitektonisk udtryk. Det kan støbes i præcis den form og størrelse der passer til terrassen — ingen skæringer, ingen samlinger. Overfladen kan bearbejdes på mange måder: glat og poleret, vasket med synlig tilslag, sandblæst eller mønstret med forskallingens aftryk.",
+          "Betonfliser er hurtigere og billigere at lægge og nemmere at reparere hvis en enkelt flise revner eller sætter sig. Til gengæld er fugerne synlige og kræver løbende vedligeholdelse for at holde ukrudt ude. Valget afhænger af budget, udtryk og om terrassen er enkel eller har komplekse former.",
+        ],
+      },
+      {
+        heading: "Overfladebehandling og udtryk",
+        paragraphs: [
+          "Betons naturlige overflade er grå og relativt ensartet — men den behøver ikke se fabriksagtig ud. Med den rette bearbejdning kan beton være varm, tekstureret og levende.",
+          "Vasket beton — hvor cementslæmmen fjernes medens betonnen stadig er frisk — afslører tilslagets sten og giver en ru, naturlig overflade med en varm, gruskornet fornemmelse under fødderne. Det er en af de mest populære overflader til udendørs beton og er godt skridfast selv i vådt vejr.",
+          "Poleret og slibet beton giver et mere urbant, minimalistisk udtryk. Det fungerer bedst på overdækkede terrasser eller i beskyttede gårdhaver, da den glatte overflade kan blive glat i regnvejr og kræver regelmæssig imprægnering for at holde sig pæn.",
+          "Pigmenteret beton — tilsat farve direkte i massen — giver mulighed for at tone terrassen varm grå, sandfarvet eller antracitgrå. Farven er ikke ens fra batch til batch, og ujævnheder i farven kan forekomme. Det er en del af betonens karakter — ikke en fejl.",
+        ],
+      },
+      {
+        heading: "Revner og bevægelsesfuger",
+        paragraphs: [
+          "Beton er et stift materiale der arbejder med temperatursvingninger. En terrasse der støbes uden bevægelsesfuger vil revne — det er ikke et spørgsmål om hvis, men hvornår. Revnerne opstår fordi beton udvider sig om sommeren og trækker sig sammen om vinteren.",
+          "Løsningen er at skære eller støbe bevægelsesfuger ind i pladen med passende mellemrum — typisk hver 3–4 meter i begge retninger. Fugerne giver betonnen et kontrolleret sted at bevæge sig, så revnerne opstår i fugerne frem for tilfældigt i pladen.",
+          "En professionelt udført betonterrasse med korrekte fuger, armeringsnet og tilstrækkelig tykkelse (min. 10–12 cm) holder i årtier. En dårligt udført terrasse uden fuger og med for tynd plade revner og sætter sig inden for få år.",
+        ],
+      },
+      {
+        heading: "Afvanding",
+        paragraphs: [
+          "Afvanding er den vigtigste tekniske detalje ved en betonterrasse. Beton er i sig selv tæt, men en terrasse der ikke afleder regnvand korrekt vil stå med vandpytter, få algevækst og i frost-tø-vejr begynde at smuldre.",
+          "Terrassen skal lægges med et fald på minimum 1,5–2% væk fra huset — det vil sige 1,5–2 cm pr. løbende meter. Det er næppe synligt for øjet, men nok til at vand løber af i stedet for at stå. Faldet skal planlægges bevidst og udføres præcist under støbningen.",
+          "Har du en stor terrasse eller en gårdhave med begrænset naturlig afstrømning, bør du overveje et diskret afløbssystem — en rende langs husmuren eller en punktafløb midt på terrassen. Det holder terrassen tør og forlænger dens levetid markant.",
+        ],
+      },
+      {
+        heading: "Imprægnering og vedligeholdelse",
+        paragraphs: [
+          "En ubehandlet betonterrasse suger vand og vil over tid få alge- og mosbelægning, særligt i skygge og fugt. En gang imprægnering med en silikonbaseret eller akrylbaseret imprægnering straks efter at betonnen er hærdet — og herefter hvert 3–5 år — holder terrassen ren og beskyttet.",
+          "Imprægnering gør ikke betonnen skinnende eller ændrer dens farve mærkbart. Den sætter sig i porerne og forhindrer vand i at trænge ind — det reducerer risikoen for frostsprængning, misfarvning og biologisk vækst markant.",
+          "Alger og mos fjernes bedst med en lavtryksspuler og et specialrengøringsmiddel. Undgå højtryk direkte mod betonen — det kan pille overfladen op og gøre den mere porøs. Rengøring én gang om året holder terrassen i god stand.",
+        ],
+      },
+      {
+        heading: "Arkitektens rolle",
+        paragraphs: [
+          "En betonterrasse der er tegnet som en integreret del af huset — med korrekt fald, harmoniske proportioner og en overflade der spiller sammen med husets materiale­palette — ser fundamentalt anderledes ud end en terrasse der er lagt til bagefter uden at tænke arkitektur.",
+          "Hos Yderskov Arkitekter projekterer vi terrasser som en del af byggeriet — hvad enten det er til en ny villa, et sommerhus eller en tilbygning. Vi sikrer at afvanding, fuger og overflade er korrekt projekteret, og at terrassen fungerer både teknisk og æstetisk. Kontakt os for et gratis og uforpligtende første møde.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "gaardhave",
+    metaTitle: "Hvordan laver man en gårdhave? — Yderskov Arkitekter",
+    title: "Hvordan laver man en gårdhave?",
+    description: "En gårdhave er en af de mest intime og brugbare uderum du kan give din bolig. Her gennemgår vi placering, størrelse, belægning, beplantning og hvordan arkitekten tænker det hele sammen.",
+    date: "30 / 05 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    lead: "En gårdhave er et afgrænset uderum — typisk omsluttet af bygninger, mure eller hegn på tre eller fire sider. Den giver læ, privatliv og en tæt forbindelse mellem inde og ude. Men en gårdhave fungerer kun godt hvis den er planlagt rigtigt fra starten. Her gennemgår vi de vigtigste overvejelser.",
+    sections: [
+      {
+        heading: "Hvad er en gårdhave?",
+        paragraphs: [
+          "En gårdhave er et uderum der er delvist eller fuldt omsluttet af bygninger eller mure. Den adskiller sig fra en almindelig have ved sin intimitet og afgrænsning — den er ikke et åbent rum man kigger ud i, men et rum man opholder sig i. Den bedste gårdhave føles som forlængelse af indendørsarealerne.",
+          "Gårdhaven har lange historiske rødder — fra de romerske atriumbygninger til de andalusiske patiohave og de klassiske danske gårdhuse. Fælles for dem alle er ideen om et beskyttet, grønt rum midt i bebyggelsen — afskærmet fra vind og indblik, men åbent mod himlen.",
+          "I moderne dansk boligarkitektur er gårdhaven mest udbredt i forbindelse med lave, udstrakte boligformer: længehuse, L-formede huse og U-formede huse der naturligt afgrænser et uderum. Men gårdhaven kan også skabes ved at tilføje en mur eller tilbygning til et eksisterende hus.",
+        ],
+      },
+      {
+        heading: "Placering og orientering",
+        paragraphs: [
+          "Orienteringen er den vigtigste enkeltfaktor for en gårdhave. En gårdhave der vender mod syd eller sydvest får sol det meste af dagen og er varm og lys — ideel til ophold, måltider og leg. En gårdhave mod nord får kun lidt direkte sol og egner sig bedre til skyggetålende beplantning og kølige sommeraftener.",
+          "Tænk på hvilke rum i huset der vender ud mod gårdhaven. Stuen, køkkenet og spisepladsen er de naturlige kandidater — de rum man bruger mest og gerne vil have forbundet med udelivet. Et soveværelse mod gårdhaven kan give en smuk, privat morgenoplevelse, men kræver omhyggeligt valg af beplantning og belysning.",
+          "Gårdhaven behøver ikke ligge midt i grunden. En sidegårdhave langs husets gavl, en bageste gårdhave afgrænset af en havemur, eller en indre gårdhave helt omsluttet af huset — alle varianter har kvaliteter, afhængig af grundens form og husets orientering.",
+        ],
+      },
+      {
+        heading: "Størrelse og proportioner",
+        paragraphs: [
+          "En gårdhave skal have de rigtige proportioner for at fungere godt. For lille, og den føles som en brønd — for stor, og den mister sin intimitet og bliver svær at indrette. Som tommelfingerregel bør bredden ikke være mindre end halvdelen af de omgivende murværkers højde — ellers bliver rummet mørkt og lukket.",
+          "En gårdhave på 20–40 m² er ofte tilstrækkeligt til en familie. Det rummer et spisebord, et par liggestole og noget beplantning uden at føles tomt. Er gårdhaven primært tænkt som et visuelt uderum man kigger ind i fra huset — frem for et opholdsrum — kan den være mindre.",
+          "Overvej adgangsforholdene. Kan man gå direkte ud fra stuen eller køkkenet? Er der adgang til gårdhaven fra flere sider af huset? En gårdhave der kun er tilgængelig via én dør i et hjørne fungerer dårligt i hverdagen.",
+        ],
+      },
+      {
+        heading: "Belægning og materialer",
+        paragraphs: [
+          "Belægningen sætter tonen for hele gårdhaven. Natursten — granit, kalksten eller skifer — er tidløst og slidt smukt. Betonfliser er mere prisvenlige og fås i mange kvaliteter. Træ er varmt og behageligt at gå på, men kræver vedligeholdelse og er ikke velegnet alle steder.",
+          "Et godt greb er at blande materialer: et flisebelagt opholdsområde med et felt af grus, sten eller beplantning imellem. Det bryder monotonien og giver gårdhaven et mere levende udtryk. Undgå at belægge hele gårdhaven — et par m² jord eller grus giver mulighed for at plante direkte i underlaget og giver regnvand mulighed for at trænge ned.",
+          "Tænk på afvanding fra starten. En gårdhave der er omsluttet af mure på alle sider har begrænset naturlig afstrømning. Belægningen skal falde let mod en eller flere afløb, der leder vandet væk. Fejlplanlagt afvanding er en af de hyppigste fejl ved gårdhaver.",
+        ],
+      },
+      {
+        heading: "Beplantning og grønne elementer",
+        paragraphs: [
+          "Beplantningen er det der giver gårdhaven liv og karakter. I et relativt lille, afgrænset rum virker selv få planter stærkt. En enkelt stor krukke med et oliventræ, en klatreplante op ad muren og et par stauder langs kanten kan transformere en tom gårdhave til et grønt rum.",
+          "Vælg planter der passer til gårdhavens lysforhold. En sydvendt gårdhave tåler sol og tørke — lavendel, rosmarin, oliven og gramineer trives godt. En nordvendt gårdhave kræver skyggetålende planter — bregner, hosta, Japanese forest grass og mosbelagt sten giver en kølig, japansk stemning.",
+          "Klatreplanter på murerne er særlig effektive i en gårdhave. De beklæder de ellers dominerende murflader med grønt og bløder overgangen mellem bygning og have op. Klematis, vedbend, vildvin og klatreroser er klassiske valg der fungerer i dansk klima.",
+        ],
+      },
+      {
+        heading: "Lys og atmosfære",
+        paragraphs: [
+          "En gårdhave bruges ikke bare om dagen. Med den rette belysning bliver den et af boligens smukkeste rum om aftenen. Markeringslys langs belægningens kanter, et enkelt spot der fremhæver en plante eller en skulptur, og stearinlys på bordet — det er alt hvad der skal til.",
+          "Undgå at overbelyse gårdhaven. For mange og for kraftige lyskilder giver et uroligt, kunstigt udtryk. Tænk i stedet i lag: et svagt grundlys der definerer rummet, og et eller to accentlys der fremhæver det vigtigste.",
+          "Vand er et effektfuldt element i gårdhaven — selv i lille format. En enkel vandskål, en lille fontæne eller et vandspejl tilføjer lyd, bevægelse og refleksioner der gør rummet rigere. Vandets rolige lyd overdøver trafikstøj og naboer og giver gårdhaven en meditativ kvalitet.",
+        ],
+      },
+      {
+        heading: "Arkitektens rolle",
+        paragraphs: [
+          "En gårdhave er ikke noget man bare bygger til. Den kræver at huset og haven tænkes som ét — at dørene sidder rigtigt, at belysningen planlægges fra starten, og at afvanding, beplantning og belægning spiller sammen.",
+          "Hos Yderskov Arkitekter tegner vi gårdhaver som en integreret del af boligen — hvad enten det er et nyt hus med gårdhave fra starten, eller en tilbygning og havemur der skaber et nyt uderum ved det eksisterende hus. Kontakt os for et gratis og uforpligtende første møde.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "sedumtag",
     metaTitle: "Sedumtag — hvad er det, og er det det rigtige tag til dit hus? — Yderskov Arkitekter",
     title: "Sedumtag — hvad er det, og er det det rigtige tag til dit hus?",

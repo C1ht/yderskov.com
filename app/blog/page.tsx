@@ -18,6 +18,30 @@ type Post = {
 const posts: Post[] = [
   // 2026
   {
+    href: "/blog/bolig-med-niveauer",
+    date: "13 / 06 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    title: "Design af bolig med niveauer — sådan udnytter du højdeforskellene.",
+    excerpt: "En bolig med niveauer skaber rumlig variation, naturlig zonering og en særlig oplevelse af at bevæge sig gennem hjemmet. Her gennemgår vi split-level, terrænfølgende huse og hvad du skal tænke på.",
+  },
+  {
+    href: "/blog/betonterrasse",
+    date: "06 / 06 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    title: "Betonterrasse — hvad skal du vide inden du vælger det?",
+    excerpt: "Beton er holdbart, formbart og lav-vedligeholdelse. Men der er forskel på en veldesignet betonterrasse og én der krakkelerer efter tre vintre. Her gennemgår vi overflade, fuger, afvanding og vedligeholdelse.",
+  },
+  {
+    href: "/blog/gaardhave",
+    date: "30 / 05 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    title: "Hvordan laver man en gårdhave?",
+    excerpt: "En gårdhave er et af de mest intime uderum du kan give din bolig — beskyttet, grønt og tæt forbundet med indendørsarealerne. Her gennemgår vi placering, størrelse, belægning og beplantning.",
+  },
+  {
     href: "/blog/sedumtag",
     date: "23 / 05 / 2026",
     cat: "Villa & boligdesign",
