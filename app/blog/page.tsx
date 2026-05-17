@@ -436,6 +436,7 @@ export default function BlogPage() {
         slides={[{ src: "/images/Godthåbsvej/yderskov-ombygning-efter-2.webp", alt: "Ombygning — Yderskov Arkitekter" }]}
         showTabs={false}
         tag="Blog"
+        subtitle="Blog"
         lines={[
           "Arkitektur er mere end tegninger. Her skriver vi om processen og byggerierne bag.",
           "Byggeri tegnet kun til jer, til jeres grund, jeres ønsker og jeres budget.",

@@ -73,6 +73,7 @@ export default function FAQPage() {
       <Hero
         slides={[{ src: "/images/Gravenstenvej/EEBD18F8-48F7-43CE-AE15-91FF91953CF7-2.png", alt: "Arkitekttegnet bolig — Yderskov Arkitekter" }]}
         tag="FAQ"
+        subtitle="FAQ"
         lines={[
           "I har tankerne, vi sætter stregerne.",
           "Byggeri tegnet kun til jer, til jeres grund, jeres ønsker og jeres budget.",

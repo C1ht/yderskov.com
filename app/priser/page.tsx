@@ -69,6 +69,7 @@ export default function PriserPage() {
       <Hero
         slides={[{ src: "/images/Harald Jensens Vej/IMG_2937.jpeg", alt: "Tilbygning — Yderskov Arkitekter" }]}
         tag="Priser"
+        subtitle="Priser"
         lines={[
           "Fast honorar, tæt kontakt. Du ved altid hvad du betaler og hvem du kan ringe til.",
           "Gratis og uforpligtende første idemøde. Vi kommer ud til jer.",

@@ -47,6 +47,7 @@ export default function OmPage() {
       <Hero
         slides={[{ src: "/images/Løvevej/house2.jpg", alt: "Arkitekttegnestuen Yderskov" }]}
         tag="Om os"
+        subtitle="Om os"
         lines={[
           "I har tankerne, vi sætter stregerne.",
           "Byggeri tegnet kun til jer, til jeres grund, jeres ønsker og jeres budget.",
