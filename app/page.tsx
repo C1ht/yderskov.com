@@ -154,41 +154,43 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Stats */}
-      <div className="stats-bg">
-        <div className="stats-inner">
-          <div className="stat">
-            <div className="stat-num">15.000<sup> kr.</sup></div>
-            <div className="stat-lbl">Fra pr. m²</div>
-          </div>
-          <div className="stat">
-            <div className="stat-num">24<sup> timer</sup></div>
-            <div className="stat-lbl">Svar inden</div>
-          </div>
-          <div className="stat">
-            <div className="stat-num">10<sup>+</sup></div>
-            <div className="stat-lbl">Igangværende projekter</div>
-          </div>
-          <div className="stat">
-            <div className="stat-num">300<sup>+</sup></div>
-            <div className="stat-lbl">Projekter gennemført</div>
-          </div>
-        </div>
-      </div>
-
-      {/* Projekter */}
-      <section className="s">
-        <div className="s-inner">
-          <div className="proj-header">
-            <div>
-              <span className="eyebrow">Udvalgte projekter</span>
-              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Vores projekter</h2>
+      <div className="home-stats-projects">
+        {/* Stats */}
+        <div className="stats-bg home-stats">
+          <div className="stats-inner">
+            <div className="stat">
+              <div className="stat-num">15.000<sup> kr.</sup></div>
+              <div className="stat-lbl">Fra pr. m²</div>
             </div>
-            <Link href="/villaer" className="proj-see">Se alle projekter →</Link>
+            <div className="stat">
+              <div className="stat-num">24<sup> timer</sup></div>
+              <div className="stat-lbl">Svar inden</div>
+            </div>
+            <div className="stat">
+              <div className="stat-num">10<sup>+</sup></div>
+              <div className="stat-lbl">Igangværende projekter</div>
+            </div>
+            <div className="stat">
+              <div className="stat-num">300<sup>+</sup></div>
+              <div className="stat-lbl">Projekter gennemført</div>
+            </div>
           </div>
-          <ProjectGrid projects={projects} />
         </div>
-      </section>
+
+        {/* Projekter */}
+        <section className="s home-projects">
+          <div className="s-inner">
+            <div className="proj-header">
+              <div>
+                <span className="eyebrow">Udvalgte projekter</span>
+                <h2 className="sec-hed" style={{ marginBottom: 0 }}>Vores projekter</h2>
+              </div>
+              <Link href="/villaer" className="proj-see">Se alle projekter →</Link>
+            </div>
+            <ProjectGrid projects={projects} />
+          </div>
+        </section>
+      </div>
 
       {/* Om os */}
       <section className="s s-off">
