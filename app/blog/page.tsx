@@ -468,7 +468,7 @@ export default function BlogPage() {
               className={`blog-filter-btn${sortAsc ? " active" : ""}`}
               onClick={() => setSortAsc((s) => !s)}
             >
-              {sortAsc ? "Ældste først" : "Nyeste først"}
+              {sortAsc ? "Nyeste først" : "Ældste først"}
             </button>
           </div>
 
