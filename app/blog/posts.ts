@@ -14,6 +14,73 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "hjemmekontor",
+    metaTitle: "Sådan skabes et godt hjemmekontor — Yderskov Arkitekter",
+    title: "Sådan skabes et godt hjemmekontor.",
+    description: "Et hjemmekontor er ikke bare et skrivebord i et hjørne. Det er et rum der skal understøtte koncentration og arbejdsro — og helst se godt ud på videomøder. Her gennemgår vi de vigtigste overvejelser.",
+    date: "16 / 05 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    lead: "Flere og flere danskere arbejder hjemme — helt eller delvist. Alligevel er hjemmekontoret et af de rum der oftest nedprioriteres i planlægningen af en ny bolig eller tilbygning. Her gennemgår vi hvad der gør et hjemmekontor godt — fra placering og dagslys til akustik og indretning.",
+    sections: [
+      {
+        heading: "Placering i boligen",
+        paragraphs: [
+          "Det vigtigste valg er placeringen. Et hjemmekontor skal ligge adskilt fra de mest støjende rum i boligen — stue, køkken og børneværelser. Ideelt set har det en dør der kan lukkes, så koncentration ikke forstyrres af hverdagens lyde.",
+          "En placering mod haven eller en stille side af huset er at foretrække. Udsigt til grønt virker afstressende og hjælper på koncentrationen. Et kontor der vender mod gaden eller naboens legeplads kan give unødige forstyrrelser — selv om vinduet er lukket.",
+          "Tænk også på adgangen: hvis du har mange klientmøder hjemme, er en placering tæt på hoveddøren en fordel. Klienter behøver ikke gå igennem hele hjemmet for at nå kontoret.",
+        ],
+      },
+      {
+        heading: "Dagslys og vinduer",
+        paragraphs: [
+          "Dagslys er afgørende for et godt arbejdsmiljø. Et kontor uden naturligt lys føles lukket og trætter øjnene hurtigere. Sigt efter et vindue der giver ensidigt, stabilt lys — helst fra nord eller øst, så solen ikke blænder direkte ind på skærmen i løbet af arbejdsdagen.",
+          "Undgå at placere skrivebordet direkte foran et lyst vindue. Det giver baggrundslys der gør ansigtet mørkt på videomøder og belaster øjnene. Placeringen vinkelret på vinduet er langt bedre — du får lys fra siden uden blænding.",
+          "Ovenlys er et godt alternativ hvis ydervæggen ikke tillader et stort vindue. Det giver blødt, diffust lys der skifter smukt med vejret og årstiden, uden at forstyrre skærmarbejdet.",
+        ],
+      },
+      {
+        heading: "Størrelse og planløsning",
+        paragraphs: [
+          "Et funktionelt hjemmekontor behøver ikke være stort. 8–10 m² er ofte nok til et skrivebord, reol og en stol til besøgende. Det vigtige er at rummet ikke føles propfyldt — der skal være plads til at rejse sig, tænke og bevæge sig.",
+          "Tænk på opbevaring fra starten. Et kontor der drukner i papir og kabler fungerer dårligt. Indbyggede reoler, skabe og kabelskjulere integreret i væggen holder rummet rent og professionelt — både til daglig og på videomøder.",
+          "Hvis to personer arbejder hjemme, overvej om der er behov for ét stort fælles kontor eller to separate rum. Et fælles rum fungerer fint hvis arbejdstiderne er forskudte, men to separate rum er klart bedst hvis begge holder mange videomøder eller kræver høj koncentration.",
+        ],
+      },
+      {
+        heading: "Akustik og støjdæmpning",
+        paragraphs: [
+          "Akustik er et overset parameter i hjemmekontoret. Et rum med hårde overflader — beton, glas og blankt gulv — giver en hård rumklang der er ubehagelig at arbejde i og lyder dårligt på telefon og videomøder.",
+          "Bløde overflader som tæppe, gardiner, polstrede møbler og bøger på reolen dæmper rumklangen markant. En akustikplade i loftet er en diskret og effektiv løsning der kan integreres i designet.",
+          "Støj udefra — trafik, naboer, børn — løses bedst med god isolering i vægge og vinduer, allerede i byggeriet. Det er langt sværere og dyrere at efterisolere. Bed arkitekten tænke akustik ind fra første streg.",
+        ],
+      },
+      {
+        heading: "Ventilation og temperatur",
+        paragraphs: [
+          "Et kontor med dårlig ventilation bliver hurtigt varmt og stuvet om vinteren. CO₂-niveauet stiger, og koncentrationsevnen falder — uden at man nødvendigvis bemærker det. God ventilation er ikke en luksus; det er en forudsætning for at arbejde godt.",
+          "Mekanisk ventilation med varmegenvinding er den bedste løsning i nye boliger — det sikrer frisk luft hele døgnet uden at åbne vinduer og tabe varme. Supplér gerne med et åbningsvindue til naturlig udluftning om sommeren.",
+          "Temperatur er individuelt. Nogle arbejder bedst i et let køligt rum, andre foretrækker varme. Gulvvarme i kontoret er en komfortabel løsning der varmer jævnt og uden støj. Undgå placering direkte under tagvinduet i et rum med meget sol — det kan give overophedning om sommeren.",
+        ],
+      },
+      {
+        heading: "Integreret i boligen eller som separat rum?",
+        paragraphs: [
+          "Nogle foretrækker et hjemmekontor der er fuldt integreret i boligens øvrige rum — en arbejdsniche i stuen, et hjørne i soveværelset, eller et mezzaninplan over opholdszonen. Det kan være elegant og pladsbesparende, men kræver disciplin og klare grænser for hvornår arbejdet slutter.",
+          "Andre har brug for en klar fysisk adskillelse — en dør der kan lukkes, et rum der signalerer 'nu er jeg på arbejde'. Særligt for dem der arbejder med klienter hjemme, eller har børn i huset, er et separat rum næsten uundværligt.",
+          "En tilbygning til det eksisterende hus er en populær løsning: et lille kontormodul mod haven der har sin egen indgang og er forbundet med boligen indvendigt. Det giver det bedste fra begge verdener — adskillelse og nærhed.",
+        ],
+      },
+      {
+        heading: "Arkitektens rolle",
+        paragraphs: [
+          "Et godt hjemmekontor er ikke noget man bestiller hos en møbelforhandler. Det er et rum der skal designes til dig — din arbejdsform, dine mødevaner, din families hverdag og dit hus.",
+          "Hos Yderskov Arkitekter planlægger vi hjemmekontorer som en integreret del af boligen eller som selvstændige tilbygninger. Vi tager udgangspunkt i dagslys, akustik og din konkrete arbejdssituation — og tegner et rum der fungerer fra dag ét. Kontakt os for et gratis og uforpligtende første møde.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "udsigt",
     metaTitle: "Hvordan planlægger man udsigt fra en bolig? — Yderskov Arkitekter",
     title: "Hvordan planlægger man udsigt fra en bolig?",

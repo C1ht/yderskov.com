@@ -18,6 +18,14 @@ type Post = {
 const posts: Post[] = [
   // 2026
   {
+    href: "/blog/hjemmekontor",
+    date: "16 / 05 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    title: "Sådan skabes et godt hjemmekontor.",
+    excerpt: "Et hjemmekontor er ikke bare et skrivebord i et hjørne. Her gennemgår vi placering, dagslys, akustik og alt det andet der gør et hjemmekontor til et sted man faktisk arbejder godt.",
+  },
+  {
     href: "/blog/udsigt",
     date: "09 / 05 / 2026",
     cat: "Villa & boligdesign",
