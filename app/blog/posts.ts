@@ -206,7 +206,7 @@ export const posts: BlogPost[] = [
     date: "29 / 04 / 2025",
     cat: "Boligdetaljer",
     catKey: "boligdetalje",
-    lead: "Et indbygget akvarium er ikke blot et fiskekasse — det er et levende arkitektonisk element der definerer rummet det sidder i. Når det er rigtigt placeret og korrekt integreret i væggen giver det en dybde og et levende lys som ingen anden dekoration kan matche. Her gennemgår vi hvad du skal tænke på når du planlægger et indbygget akvarium.",
+    lead: "Et indbygget akvarium er ikke blot en fiskekasse af glas — det er et levende arkitektonisk element der definerer rummet det sidder i. Når det er rigtigt placeret og korrekt integreret i væggen giver det en dybde og et levende lys som ingen anden dekoration kan matche. Her gennemgår vi hvad du skal tænke på når du planlægger et indbygget akvarium.",
     sections: [
       {
         heading: "Placering og integration",
