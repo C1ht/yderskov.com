@@ -51,6 +51,8 @@ export default function Nav() {
     setActiveDropdown(null);
   }, [pathname]);
 
+  const [closingDropdown, setClosingDropdown] = useState(false);
+
   useEffect(() => {
     if (pathname !== "/villaer") return;
     const raf = requestAnimationFrame(() => {
@@ -61,17 +63,21 @@ export default function Nav() {
         const btnRect = btn.getBoundingClientRect();
         setDropdownLeft(btnRect.left - innerRect.left + btnRect.width / 2);
         setActiveDropdown("Projekter");
+        setClosingDropdown(false);
       }
     });
-    return () => cancelAnimationFrame(raf);
+    const closeTimer = setTimeout(() => {
+      setClosingDropdown(true);
+      setTimeout(() => {
+        setActiveDropdown(null);
+        setClosingDropdown(false);
+      }, 600);
+    }, 2000);
+    return () => {
+      cancelAnimationFrame(raf);
+      clearTimeout(closeTimer);
+    };
   }, [pathname]);
-
-  useEffect(() => {
-    if (pathname !== "/villaer" || activeDropdown !== "Projekter") return;
-    const close = () => setActiveDropdown(null);
-    window.addEventListener("mousemove", close, { once: true });
-    return () => window.removeEventListener("mousemove", close);
-  }, [pathname, activeDropdown]);
 
   useEffect(() => {
     if (!activeDropdown) return;
@@ -157,7 +163,7 @@ export default function Nav() {
         </button>
 
         {activeDropdown && activeItem?.children && (
-          <ul className="nav-dropdown" style={{ left: dropdownLeft }}>
+          <ul className={`nav-dropdown${closingDropdown ? " nav-dropdown-closing" : ""}`} style={{ left: dropdownLeft }}>
             {activeItem.children.map((c) => (
               <li key={c.href}>
                 <Link
