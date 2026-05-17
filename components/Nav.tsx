@@ -52,6 +52,28 @@ export default function Nav() {
   }, [pathname]);
 
   useEffect(() => {
+    if (pathname !== "/villaer") return;
+    const raf = requestAnimationFrame(() => {
+      const inner = innerRef.current;
+      const btn = inner?.querySelector<HTMLButtonElement>(".nav-has-dropdown button");
+      if (inner && btn) {
+        const innerRect = inner.getBoundingClientRect();
+        const btnRect = btn.getBoundingClientRect();
+        setDropdownLeft(btnRect.left - innerRect.left + btnRect.width / 2);
+        setActiveDropdown("Projekter");
+      }
+    });
+    return () => cancelAnimationFrame(raf);
+  }, [pathname]);
+
+  useEffect(() => {
+    if (pathname !== "/villaer" || activeDropdown !== "Projekter") return;
+    const close = () => setActiveDropdown(null);
+    window.addEventListener("mousemove", close, { once: true });
+    return () => window.removeEventListener("mousemove", close);
+  }, [pathname, activeDropdown]);
+
+  useEffect(() => {
     if (!activeDropdown) return;
     const handler = (e: MouseEvent) => {
       if (innerRef.current && !innerRef.current.contains(e.target as Node)) {
@@ -77,16 +99,6 @@ export default function Nav() {
     setActiveDropdown(label);
   };
 
-  const handleMouseEnter = (label: string, e: React.MouseEvent<HTMLLIElement>) => {
-    const inner = innerRef.current;
-    const btn = e.currentTarget.querySelector("button") as HTMLButtonElement | null;
-    if (inner && btn) {
-      const innerRect = inner.getBoundingClientRect();
-      const btnRect = btn.getBoundingClientRect();
-      setDropdownLeft(btnRect.left - innerRect.left + btnRect.width / 2);
-    }
-    setActiveDropdown(label);
-  };
 
   const isGroupActive = (item: NavItem) =>
     item.children?.some((c) => pathname === c.href) ?? false;
@@ -95,11 +107,11 @@ export default function Nav() {
 
   return (
     <nav>
-      <div className="nav-inner" ref={innerRef} onMouseLeave={() => setActiveDropdown(null)}>
+      <div className="nav-inner" ref={innerRef}>
         <ul className="nav-links">
           {navItems.map((item) =>
             item.children ? (
-              <li key={item.label} className="nav-has-dropdown" onMouseEnter={(e) => handleMouseEnter(item.label, e)}>
+              <li key={item.label} className="nav-has-dropdown">
                 <button
                   className={`nav-dropdown-trigger${isGroupActive(item) ? " nav-active" : ""}${activeDropdown === item.label ? " nav-dropdown-open" : ""}`}
                   onClick={(e) => toggle(item.label, e)}
