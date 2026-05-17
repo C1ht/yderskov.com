@@ -244,7 +244,7 @@ export default function HomePage() {
         <div className="s-inner">
           <span className="eyebrow">Sådan arbejder vi</span>
           <h2 className="sec-hed">Processen fra idé til nøgle</h2>
-          <div className="process-steps" style={{ gridTemplateColumns: "repeat(4, 1fr)" }}>
+          <div className="process-steps">
             {processSteps.map((step) => (
               <div key={step.num} className="process-step">
                 <div className="process-step-num">{step.num}</div>
