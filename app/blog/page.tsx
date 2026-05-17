@@ -285,10 +285,18 @@ const categories = [
   { key: "grund", label: "Grund & placering" },
 ];
 
+function parseDate(dateStr: string): Date {
+  const [day, month, year] = dateStr.split(" / ").map(Number);
+  return new Date(year, month - 1, day);
+}
+
 export default function BlogPage() {
   const [active, setActive] = useState("alle");
 
-  const filtered = active === "alle" ? posts : posts.filter((p) => p.catKey === active);
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const published = posts.filter((p) => parseDate(p.date) <= today);
+  const filtered = active === "alle" ? published : published.filter((p) => p.catKey === active);
 
   return (
     <>
