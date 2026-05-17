@@ -277,7 +277,17 @@ export default function BlogPage() {
   return (
     <>
       <Nav />
-      <Hero slides={[{ src: "/images/Godthåbsvej/yderskov-ombygning-efter-2.webp", alt: "Ombygning — Yderskov Arkitekter" }]} showTabs={false} tag="Blog" />
+      <Hero
+        slides={[{ src: "/images/Godthåbsvej/yderskov-ombygning-efter-2.webp", alt: "Ombygning — Yderskov Arkitekter" }]}
+        showTabs={false}
+        tag="Blog"
+        lines={[
+          "Arkitektur er mere end tegninger. Her skriver vi om processen og byggerierne bag.",
+          "Byggeri tegnet kun til jer, til jeres grund, jeres ønsker og jeres budget.",
+          "Gratis og uforpligtende første idemøde. Vi kommer ud til jer.",
+        ]}
+        italicLines={[1, 2]}
+      />
 
       <section className="s">
         <div className="s-inner">

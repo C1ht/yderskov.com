@@ -16,9 +16,11 @@ interface HeroProps {
   tag?: string;
   subtitle?: string;
   lines?: string[];
+  italicLines?: number[];
   showForm?: boolean;
   showTabs?: boolean;
   showQuote?: boolean;
+  bright?: boolean;
 }
 
 const defaultSlides: HeroSlide[] = [
@@ -28,7 +30,7 @@ const defaultSlides: HeroSlide[] = [
   { src: "/images/Harald Jensens Vej/IMG_2937.webp", alt: "Tilbygning — Yderskov" },
   { src: "/images/Karetmagervej/IMG_9184.webp", alt: "Arkitekttegnet villa — Yderskov" },
   { src: "/images/Leonoravej villa tilbygning/IMG_7376.webp", alt: "Villa med tilbygning — Yderskov" },
-  { src: "/images/Løvevej/house2.webp", alt: "Ny villa — Yderskov" },
+  { src: "/images/Løvevej/house2.jpg", alt: "Ny villa — Yderskov" },
   { src: "/images/Godthåbsvej/yderskov-ombygning-efter-2.webp", alt: "Ombygning — Yderskov" },
   { src: "/images/Vesterhavsbakken tilbygning sommerhus/IMG_7455.webp", alt: "Sommerhus med tilbygning — Yderskov" },
 ];
@@ -36,17 +38,17 @@ const defaultSlides: HeroSlide[] = [
 export default function Hero({
   slides = defaultSlides,
   title = "Arkitekt Yderskov",
-  tag,
-  subtitle = "Tanke + Streger",
+subtitle = "Tanker & Streger",
   lines = [
     "I har tankerne, vi sætter stregerne.",
-    "Gratis og uforpligtende første møde. Vi kommer ud til jer.",
-    "Vi styrer hele processen med egne håndværkere.",
-    "Byggeri tegnet kun til jer — til jeres grund, jeres ønsker og jeres budget.",
+    "Gratis og uforpligtende første idemøde. Vi kommer ud til jer.",
+    "Byggeri tegnet kun til jer, til jeres grund, jeres ønsker og jeres budget.",
   ],
+  italicLines = [1],
   showForm = true,
-  showTabs = true,
+  showTabs = false,
   showQuote = true,
+  bright = false,
 }: HeroProps) {
   const isCarousel = slides.length > 1;
   const [current, setCurrent] = useState(0);
@@ -83,7 +85,7 @@ export default function Hero({
   }, [current, slides.length, goTo, isCarousel]);
 
   return (
-    <section className="hero" ref={heroRef}>
+    <section className={`hero${bright ? " hero-bright" : ""}`} ref={heroRef}>
       {slides.map((slide, i) => (
         <div
           key={slide.src}
@@ -103,25 +105,24 @@ export default function Hero({
       <div className="hero-overlay" />
 
       <div className="hero-body">
-        <div className="hero-title-row">
-          <p className="hero-left-super" style={{ marginBottom: 0 }}>{title}</p>
-          {tag && <p className="hero-left-super hero-tag" style={{ marginBottom: 0 }}>{tag}</p>}
-        </div>
-
         <div className="hero-main">
           <div className="hero-left">
+            <p className="hero-left-super">{title}</p>
             <p className="hero-left-title">{subtitle}</p>
             {lines.map((line, i) => (
               <p
                 key={i}
                 className="hero-left-sub"
-                style={i === 1 ? { fontStyle: "italic", marginTop: "0.5rem" } : i > 1 ? { marginTop: "0.5rem" } : undefined}
+                style={{
+                  ...(italicLines.includes(i) ? { fontStyle: "italic" } : {}),
+                  ...(i > 0 ? { marginTop: "0.5rem" } : {}),
+                }}
               >
                 {line}
               </p>
             ))}
             <span className="hero-24h" style={{ marginTop: "0.85rem", display: "flex" }}>
-              Vi vender tilbage inden 24 timer
+              Vi vender tilbage inden 24 timer på alle henvendelser
             </span>
 
             {showQuote && (

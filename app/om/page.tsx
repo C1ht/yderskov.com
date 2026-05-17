@@ -4,6 +4,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
+import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
   title: "Om Yderskov Arkitekter — arkitekt med samlet proces",
@@ -43,7 +44,16 @@ export default function OmPage() {
   return (
     <>
       <Nav />
-      <Hero slides={[{ src: "/images/Løvevej/house2.webp", alt: "Arkitekttegnestuen Yderskov" }]} tag="Om os" />
+      <Hero
+        slides={[{ src: "/images/Løvevej/house2.jpg", alt: "Arkitekttegnestuen Yderskov" }]}
+        tag="Om os"
+        lines={[
+          "I har tankerne, vi sætter stregerne.",
+          "Byggeri tegnet kun til jer, til jeres grund, jeres ønsker og jeres budget.",
+          "Gratis og uforpligtende første idemøde. Vi kommer ud til jer.",
+        ]}
+        italicLines={[1, 2]}
+      />
 
       {/* Intro */}
       <section className="s">
@@ -164,6 +174,8 @@ export default function OmPage() {
           </div>
         </div>
       </section>
+
+      <CtaBand />
 
       {/* Contact */}
       <section className="s form-bg" id="kontakt">

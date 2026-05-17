@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
 import ProjectGrid from "@/components/ProjectGrid";
+import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
   title: "Specialbyggeri — arkitekttegnet — Yderskov Arkitekter",
@@ -23,7 +24,16 @@ export default function SpecialPage() {
   return (
     <>
       <Nav />
-      <Hero slides={[{ src: "/images/Bed and breakfast/Bed and breakfast fra gård yderskov.webp", alt: "Specialprojekt — Yderskov Arkitekter" }]} tag="Special" />
+      <Hero
+        slides={[{ src: "/images/Bed and breakfast/Bed and breakfast fra gård yderskov.webp", alt: "Specialprojekt — Yderskov Arkitekter" }]}
+        tag="Special"
+        subtitle="Special"
+        lines={[
+          "Tinyhouse, bålhytte, dansestudio eller noget andet unikt. Vi tegner det andre ikke tør.",
+          "Gratis og uforpligtende første idemøde. Vi kommer ud til jer.",
+        ]}
+        italicLines={[0, 1]}
+      />
 
       <section className="s">
         <div className="s-inner">
@@ -67,6 +77,8 @@ export default function SpecialPage() {
           <div className="stat"><div className="stat-num">2009</div><div className="stat-lbl">Grundlagt</div></div>
         </div>
       </div>
+
+      <CtaBand />
 
       <section className="s form-bg" id="kontakt">
         <div className="s-inner">

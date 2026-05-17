@@ -2,90 +2,186 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
-const links = [
+type Child = { href: string; label: string };
+type NavItem =
+  | { href: string; label: string; children?: undefined }
+  | { href?: undefined; label: string; children: Child[] };
+
+const navItems: NavItem[] = [
   { href: "/", label: "Hjem" },
-  { href: "/villaer", label: "Villaer" },
-  { href: "/sommerhuse", label: "Sommerhuse" },
-  { href: "/tilbygninger", label: "Om- og tilbygninger" },
-  { href: "/lejligheder", label: "Lejligheder" },
-  { href: "/special", label: "Special" },
-  { href: "/erhverv", label: "Erhverv" },
-  { href: "/priser", label: "Priser" },
-  { href: "/prisberegner", label: "Prisberegner" },
+  {
+    label: "Projekter",
+    children: [
+      { href: "/villaer", label: "Villaer" },
+      { href: "/sommerhuse", label: "Sommerhuse" },
+      { href: "/tilbygninger", label: "Om- og tilbygninger" },
+      { href: "/lejligheder", label: "Lejligheder" },
+      { href: "/special", label: "Special" },
+      { href: "/erhverv", label: "Erhverv" },
+    ],
+  },
+  {
+    label: "Priser",
+    children: [
+      { href: "/priser", label: "Priser" },
+      { href: "/prisberegner", label: "Prisberegner" },
+    ],
+  },
   { href: "/blog", label: "Blog" },
-  { href: "/om", label: "Om" },
+  { href: "/om", label: "Om os" },
   { href: "/faq", label: "FAQ" },
-  { href: "/kontakt", label: "Kontakt" },
 ];
 
 export default function Nav() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+  const [dropdownLeft, setDropdownLeft] = useState<number>(0);
+  const innerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (open) {
-      document.body.classList.add("menu-open");
-    } else {
-      document.body.classList.remove("menu-open");
-    }
+    document.body.classList.toggle("menu-open", open);
     return () => document.body.classList.remove("menu-open");
   }, [open]);
 
-  // Close menu on route change
   useEffect(() => {
     setOpen(false);
+    setActiveDropdown(null);
   }, [pathname]);
 
-  const currentLabel =
-    links.find((l) => l.href === pathname)?.label ??
-    (pathname.startsWith("/blog/") ? "Blog" : "");
+  useEffect(() => {
+    if (!activeDropdown) return;
+    const handler = (e: MouseEvent) => {
+      if (innerRef.current && !innerRef.current.contains(e.target as Node)) {
+        setActiveDropdown(null);
+      }
+    };
+    document.addEventListener("mousedown", handler);
+    return () => document.removeEventListener("mousedown", handler);
+  }, [activeDropdown]);
+
+  const toggle = (label: string, e: React.MouseEvent<HTMLButtonElement>) => {
+    if (activeDropdown === label) {
+      setActiveDropdown(null);
+      return;
+    }
+    const inner = innerRef.current;
+    const btn = e.currentTarget;
+    if (inner && btn) {
+      const innerRect = inner.getBoundingClientRect();
+      const btnRect = btn.getBoundingClientRect();
+      setDropdownLeft(btnRect.left - innerRect.left + btnRect.width / 2);
+    }
+    setActiveDropdown(label);
+  };
+
+  const isGroupActive = (item: NavItem) =>
+    item.children?.some((c) => pathname === c.href) ?? false;
+
+  const activeItem = navItems.find((i) => i.label === activeDropdown);
 
   return (
     <nav>
-      <div className="nav-inner">
-        <Link href="/" className="nav-logo">
-          Arkitekt Yderskov
-        </Link>
-
-        <ul className={`nav-links${open ? " open" : ""}`} id="navLinks">
-          {links.map(({ href, label }) => (
-            <li key={href}>
-              <Link
-                href={href}
-                className={pathname === href ? "nav-active" : ""}
-                onClick={() => setOpen(false)}
-              >
-                {label}
-              </Link>
-            </li>
-          ))}
+      <div className="nav-inner" ref={innerRef}>
+        <ul className="nav-links">
+          {navItems.map((item) =>
+            item.children ? (
+              <li key={item.label} className="nav-has-dropdown">
+                <button
+                  className={`nav-dropdown-trigger${isGroupActive(item) ? " nav-active" : ""}${activeDropdown === item.label ? " nav-dropdown-open" : ""}`}
+                  onClick={(e) => toggle(item.label, e)}
+                >
+                  {item.label}
+                  <svg className="nav-arrow" width="9" height="7" viewBox="0 0 9 7" aria-hidden="true">
+                    <path d="M0.5 1L4.5 5.5L8.5 1" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                </button>
+              </li>
+            ) : (
+              <li key={item.href}>
+                <Link
+                  href={item.href}
+                  className={pathname === item.href ? "nav-active" : ""}
+                >
+                  {item.label}
+                </Link>
+              </li>
+            )
+          )}
         </ul>
 
-        {currentLabel && (
-          <span className="nav-page-label">{currentLabel}</span>
-        )}
+        <div className="nav-actions">
+          <a href="tel:29723427" className="nav-phone" aria-label="Ring 29 72 34 27">
+            <span className="nav-phone-icon" aria-hidden="true">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.93.37 1.84.72 2.71a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.37-1.29a2 2 0 0 1 2.11-.45c.87.35 1.78.59 2.71.72A2 2 0 0 1 22 16.92z"/></svg>
+            </span>
+            29 72 34 27
+          </a>
 
-        <Link href="/kontakt" className="nav-book-btn">
-          Book gratis møde
-        </Link>
+          <Link href="/kontakt" className="nav-book-btn">
+            Book gratis møde
+          </Link>
+        </div>
 
         <button
           className={`hamburger${open ? " active" : ""}`}
-          onClick={() => {
-            const next = !open;
-            if (next) document.body.classList.add("menu-open");
-            else document.body.classList.remove("menu-open");
-            setOpen(next);
-          }}
+          onClick={() => setOpen((v) => !v)}
           aria-label="Menu"
         >
-          <span />
-          <span />
-          <span />
+          <span /><span /><span />
         </button>
+
+        {activeDropdown && activeItem?.children && (
+          <ul className="nav-dropdown" style={{ left: dropdownLeft }}>
+            {activeItem.children.map((c) => (
+              <li key={c.href}>
+                <Link
+                  href={c.href}
+                  className={pathname === c.href ? "nav-active" : ""}
+                >
+                  {c.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        )}
       </div>
+
+      {open && (
+        <div className="nav-mobile-menu">
+          {navItems.map((item) =>
+            item.children ? (
+              <div key={item.label} className="nav-mobile-group">
+                <span className="nav-mobile-group-label">{item.label}</span>
+                {item.children.map((c) => (
+                  <Link
+                    key={c.href}
+                    href={c.href}
+                    className={`nav-mobile-link${pathname === c.href ? " nav-active" : ""}`}
+                    onClick={() => setOpen(false)}
+                  >
+                    {c.label}
+                  </Link>
+                ))}
+              </div>
+            ) : (
+              <Link
+                key={item.href}
+                href={item.href}
+                className={`nav-mobile-link${pathname === item.href ? " nav-active" : ""}`}
+                onClick={() => setOpen(false)}
+              >
+                {item.label}
+              </Link>
+            )
+          )}
+          <Link href="/kontakt" className="nav-mobile-book" onClick={() => setOpen(false)}>
+            Book gratis møde
+          </Link>
+        </div>
+      )}
     </nav>
   );
 }

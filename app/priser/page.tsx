@@ -4,6 +4,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
+import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
   title: "Priser — arkitekt fast pris — Yderskov Arkitekter",
@@ -65,7 +66,15 @@ export default function PriserPage() {
   return (
     <>
       <Nav />
-      <Hero slides={[{ src: "/images/Harald Jensens Vej/IMG_2937.jpeg", alt: "Tilbygning — Yderskov Arkitekter" }]} tag="Priser" />
+      <Hero
+        slides={[{ src: "/images/Harald Jensens Vej/IMG_2937.jpeg", alt: "Tilbygning — Yderskov Arkitekter" }]}
+        tag="Priser"
+        lines={[
+          "Fast honorar, tæt kontakt. Du ved altid hvad du betaler og hvem du kan ringe til.",
+          "Gratis og uforpligtende første idemøde. Vi kommer ud til jer.",
+        ]}
+        italicLines={[0, 1]}
+      />
 
       {/* Intro */}
       <section className="s">
@@ -150,6 +159,8 @@ export default function PriserPage() {
           </div>
         </div>
       </section>
+
+      <CtaBand />
 
       {/* Contact */}
       <section className="s form-bg" id="kontakt">

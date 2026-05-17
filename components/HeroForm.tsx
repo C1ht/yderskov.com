@@ -41,20 +41,29 @@ export default function HeroForm() {
 
   if (submitted) {
     return (
-      <div className="hero-form">
-        <p style={{ color: "#fff", fontSize: "1rem", fontWeight: 300, textAlign: "center", padding: "2rem 0" }}>
-          ✓ Tak! Vi vender tilbage inden 24 timer.
+      <div className="hero-form form-success">
+        <div className="form-success-check" aria-hidden="true">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg>
+        </div>
+        <p className="form-success-title">Tak for din besked!</p>
+        <p className="form-success-text">
+          Vi ringer dig op inden 24 timer.
+        </p>
+        <p className="form-success-text" style={{ marginTop: "0.6rem" }}>
+          Haster det? Ring <a href="tel:29723427">29 72 34 27</a>
         </p>
       </div>
     );
   }
 
   return (
-    <form className="hero-form" id="heroContactForm" onSubmit={handleSubmit} noValidate>
+    <form className="hero-form" id="heroContactForm" onSubmit={handleSubmit}>
       <p className="hero-form-title">Fortæl os om dit projekt</p>
       <input type="text" name="navn" placeholder="Navn" required />
-      <input type="tel" name="telefon" placeholder="Telefon" />
-      <select name="projekt" defaultValue="">
+      <input type="tel" name="telefon" placeholder="Telefon" required />
+      <select name="projekt" defaultValue="" required>
         <option value="" disabled>Projekttype</option>
         <option value="ny-villa">Ny villa</option>
         <option value="sommerhus">Sommerhus</option>
@@ -62,10 +71,13 @@ export default function HeroForm() {
         <option value="erhverv">Erhverv</option>
         <option value="andet">Andet</option>
       </select>
-      <textarea name="besked" placeholder="Beskriv kort dit projekt…" />
+      <textarea name="besked" placeholder="Beskriv kort dit projekt… (valgfrit)" />
       <button type="submit" disabled={loading}>
         {loading ? "Sender…" : "Send besked →"}
       </button>
+      <p className="form-or-call">
+        Eller ring <a href="tel:29723427">29 72 34 27</a>
+      </p>
     </form>
   );
 }

@@ -19,7 +19,16 @@ export default function PrisberegnPage() {
   return (
     <>
       <Nav />
-      <Hero slides={[{ src: "/images/Leonoravej villa tilbygning/IMG_7376.jpeg", alt: "Villa med tilbygning — Yderskov Arkitekter" }]} tag="Prisberegner" />
+      <Hero
+        slides={[{ src: "/images/Leonoravej villa tilbygning/IMG_7376.jpeg", alt: "Villa med tilbygning — Yderskov Arkitekter" }]}
+        tag="Prisberegner"
+        lines={[
+          "I har tankerne, vi sætter stregerne.",
+          "Byggeri tegnet kun til jer, til jeres grund, jeres ønsker og jeres budget.",
+          "Gratis og uforpligtende første idemøde. Vi kommer ud til jer.",
+        ]}
+        italicLines={[1, 2]}
+      />
 
       {/* Intro */}
       <section className="s pb-intro-bg">

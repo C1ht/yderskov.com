@@ -15,7 +15,17 @@ export default function KontaktPage() {
   return (
     <>
       <Nav />
-      <Hero slides={[{ src: "/images/Vesterhavsbakken tilbygning sommerhus/IMG_7455.webp", alt: "Sommerhus med tilbygning — Yderskov Arkitekter" }]} showTabs={false} tag="Kontakt" />
+      <Hero
+        slides={[{ src: "/images/Vesterhavsbakken tilbygning sommerhus/IMG_7455.webp", alt: "Sommerhus med tilbygning — Yderskov Arkitekter" }]}
+        showTabs={false}
+        tag="Kontakt"
+        lines={[
+          "I har tankerne, vi sætter stregerne.",
+          "Byggeri tegnet kun til jer, til jeres grund, jeres ønsker og jeres budget.",
+          "Gratis og uforpligtende første idemøde. Vi kommer ud til jer.",
+        ]}
+        italicLines={[1, 2]}
+      />
 
       <section className="s">
         <div className="s-inner">

@@ -4,6 +4,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import ProjectGrid from "@/components/ProjectGrid";
+import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
   title: "Arkitekt til villa, sommerhus og tilbygning — Yderskov Arkitekter",
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
 const projects = [
   { src: "/images/Torndalsvej/IMG_3181.webp", title: "Arkitekttegnet sommerhus" },
   { src: "/images/Karetmagervej/IMG_9184.webp", title: "Funkis villa" },
-  { src: "/images/Løvevej/house2.webp", title: "Sommerhus med pool" },
+  { src: "/images/Løvevej/house2.jpg", title: "Sommerhus med pool" },
   { src: "/images/Gravenstenvej/EEBD18F8-48F7-43CE-AE15-91FF91953CF7-2.webp", title: "Ombygning af villa" },
   { src: "/images/Harald Jensens Vej/IMG_2937.webp", title: "Nyt sommerhus" },
   { src: "/images/Godthåbsvej/yderskov-ombygning-efter-2.webp", title: "Ombygning og modernisering" },
@@ -77,7 +78,40 @@ export default function HomePage() {
     <>
       <Nav />
 
-      <Hero slides={[{ src: "/images/Lerstien/IMG_7931.webp", alt: "Arkitekttegnet villa — Yderskov" }]} tag="Hjem" showQuote />
+      <Hero
+        slides={[{ src: "/images/Lerstien/IMG_7931.webp", alt: "Arkitekttegnet villa — Yderskov" }]}
+        tag="Hjem"
+        showQuote
+        bright
+        lines={[
+          "I har tankerne, vi sætter stregerne.",
+          "Byggeri tegnet kun til jer, til jeres grund, jeres ønsker og jeres budget.",
+          "Gratis og uforpligtende første idemøde. Vi kommer ud til jer.",
+        ]}
+        italicLines={[1, 2]}
+      />
+
+      {/* Trust strip */}
+      <div className="trust-strip">
+        <div className="trust-strip-inner">
+          <div className="trust-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            <span><strong>300+</strong> projekter gennemført</span>
+          </div>
+          <div className="trust-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>Svar inden <strong>24 timer</strong></span>
+          </div>
+          <div className="trust-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M12 2 15.09 8.26 22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+            <span>Gratis første møde</span>
+          </div>
+          <div className="trust-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <span>Fast pris fra første dag</span>
+          </div>
+        </div>
+      </div>
 
       {/* Hvad er dit projekt */}
       <section className="s" style={{ paddingTop: "3rem", paddingBottom: "3rem" }}>
@@ -240,27 +274,7 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* Contact strip */}
-      <section className="s contact-bg">
-        <div className="contact-strip">
-          <div className="contact-detail">
-            <label>Ring til os</label>
-            <p><a href="tel:29723427">29 72 34 27</a></p>
-          </div>
-          <div className="contact-detail">
-            <label>Skriv til os</label>
-            <p><a href="mailto:cy@yderskov.com">cy@yderskov.com</a></p>
-          </div>
-          <div className="contact-detail">
-            <label>Book gratis møde</label>
-            <p>
-              <Link href="/kontakt" style={{ color: "var(--accent)", fontWeight: 400 }}>
-                Kontakt os →
-              </Link>
-            </p>
-          </div>
-        </div>
-      </section>
+      <CtaBand />
 
       <Footer />
     </>

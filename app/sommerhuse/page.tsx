@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
 import ImageGrid from "@/components/ImageGrid";
+import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
   title: "Arkitekttegnet sommerhus — pris og projekter — Yderskov Arkitekter",
@@ -38,9 +39,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Sommerhus\nmed pool.",
     images: [
-      { src: "/images/Løvevej/house2.webp", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" },
-      { src: "/images/Løvevej/IMG_9379.webp", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" },
-      { src: "/images/Løvevej/IMG_9384.webp", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" },
+      { src: "/images/Løvevej/house2.jpg", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" },
+      { src: "/images/Løvevej/IMG_9379_r2.jpeg", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" },
+      { src: "/images/Løvevej/IMG_9384_r2.jpeg", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" },
     ],
     dark: false,
   },
@@ -87,7 +88,16 @@ export default function SommerhusePage() {
   return (
     <>
       <Nav />
-      <Hero slides={[{ src: "/images/Torndalsvej/IMG_3181.webp", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" }]} tag="Sommerhuse" />
+      <Hero
+        slides={[{ src: "/images/Torndalsvej/IMG_3181.webp", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" }]}
+        tag="Sommerhuse"
+        subtitle="Sommerhuse"
+        lines={[
+          "Jeres sommerhus skal dufte af hav, smage af frihed og holde i generationer.",
+          "Gratis og uforpligtende første idemøde. Vi kommer ud til jer.",
+        ]}
+        italicLines={[0, 1]}
+      />
 
       <section className="s">
         <div className="s-inner">
@@ -150,6 +160,8 @@ export default function SommerhusePage() {
           </div>
         </div>
       </section>
+
+      <CtaBand />
 
       <section className="s form-bg" id="kontakt">
         <div className="s-inner">

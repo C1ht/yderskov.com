@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
 import ImageGrid from "@/components/ImageGrid";
+import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
   title: "Arkitekttegnet villa — pris og projekter — Yderskov Arkitekter",
@@ -107,7 +108,16 @@ export default function VillaerPage() {
   return (
     <>
       <Nav />
-      <Hero slides={[{ src: "/images/Karetmagervej/IMG_9184.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" }]} tag="Villaer" />
+      <Hero
+        slides={[{ src: "/images/Karetmagervej/IMG_9184.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" }]}
+        tag="Villaer"
+        subtitle="Villaer"
+        lines={[
+          "Jeres villa skal fortælle jeres historie, fra første streg til sidste mursten.",
+          "Gratis og uforpligtende første idemøde. Vi kommer ud til jer.",
+        ]}
+        italicLines={[0, 1]}
+      />
 
       {/* Intro */}
       <section className="s">
@@ -186,6 +196,8 @@ export default function VillaerPage() {
           </div>
         </div>
       </section>
+
+      <CtaBand />
 
       {/* Contact form */}
       <section className="s form-bg" id="kontakt">

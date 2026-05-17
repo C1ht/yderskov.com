@@ -4,6 +4,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
+import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
   title: "FAQ — spørgsmål og svar om arkitekt — Yderskov Arkitekter",
@@ -69,7 +70,16 @@ export default function FAQPage() {
   return (
     <>
       <Nav />
-      <Hero slides={[{ src: "/images/Gravenstenvej/EEBD18F8-48F7-43CE-AE15-91FF91953CF7-2.png", alt: "Arkitekttegnet bolig — Yderskov Arkitekter" }]} tag="FAQ" />
+      <Hero
+        slides={[{ src: "/images/Gravenstenvej/EEBD18F8-48F7-43CE-AE15-91FF91953CF7-2.png", alt: "Arkitekttegnet bolig — Yderskov Arkitekter" }]}
+        tag="FAQ"
+        lines={[
+          "I har tankerne, vi sætter stregerne.",
+          "Byggeri tegnet kun til jer, til jeres grund, jeres ønsker og jeres budget.",
+          "Gratis og uforpligtende første idemøde. Vi kommer ud til jer.",
+        ]}
+        italicLines={[1, 2]}
+      />
 
       <section className="s">
         <div className="s-inner">
@@ -100,6 +110,8 @@ export default function FAQPage() {
           </div>
         </section>
       ))}
+
+      <CtaBand />
 
       <section className="s form-bg" id="kontakt">
         <div className="s-inner">

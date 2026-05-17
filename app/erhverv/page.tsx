@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
 import ImageGrid from "@/components/ImageGrid";
+import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
   title: "Erhvervsbyggeri — arkitekt til kontor og butik — Yderskov Arkitekter",
@@ -69,7 +70,16 @@ export default function ErhvervPage() {
   return (
     <>
       <Nav />
-      <Hero slides={[{ src: "/images/Assensvej Kontormiljø/5Assensvej kontormiljø.webp", alt: "Erhvervsbyggeri — Yderskov Arkitekter" }]} tag="Erhverv" />
+      <Hero
+        slides={[{ src: "/images/Assensvej Kontormiljø/5Assensvej kontormiljø.webp", alt: "Erhvervsbyggeri — Yderskov Arkitekter" }]}
+        tag="Erhverv"
+        subtitle="Erhverv"
+        lines={[
+          "Dine rammer sætter tonen for din forretning. Lad os tegne dem.",
+          "Gratis og uforpligtende første idemøde. Vi kommer ud til jer.",
+        ]}
+        italicLines={[0, 1]}
+      />
 
       <section className="s">
         <div className="s-inner">
@@ -132,6 +142,8 @@ export default function ErhvervPage() {
           </div>
         </div>
       </section>
+
+      <CtaBand />
 
       <section className="s form-bg" id="kontakt">
         <div className="s-inner">
