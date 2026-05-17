@@ -652,7 +652,7 @@ body.menu-open { overflow: hidden; }
 }
 
 /* ── PRISBEREGNER — DOKUMENT-RESULTAT ── */
-.dr { margin-top: 2.5rem; border: 1px solid var(--border); border-radius: 88px; overflow: hidden; box-shadow: 0 4px 40px rgba(0,0,0,0.07); }
+.dr { margin-top: 2.5rem; border: 1px solid var(--border); border-radius: 16px; overflow: hidden; box-shadow: 0 4px 40px rgba(0,0,0,0.07); }
 
 /* Fælles blok */
 .dr-block { padding: 3rem; border-bottom: 1px solid var(--border); }
@@ -683,7 +683,7 @@ body.menu-open { overflow: hidden; }
 
 /* ── 2. Pris ── */
 .dr-block-price { background: var(--off); }
-.dr-price-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--border); border-radius: 17.6px; overflow: hidden; margin-bottom: 0.75rem; }
+.dr-price-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--border); border-radius: 16px; overflow: hidden; margin-bottom: 0.75rem; }
 .dr-price-card { background: var(--white); padding: 1.75rem 2rem; }
 .dr-price-card-lbl { font-size: 0.65rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--light); margin-bottom: 0.6rem; }
 .dr-price-card-num { font-size: 1.9rem; font-weight: 400; letter-spacing: -0.04em; color: var(--text); line-height: 1; }
@@ -697,7 +697,7 @@ body.menu-open { overflow: hidden; }
 
 /* ── 3. Budget-tips ── */
 .dr-tips-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1.5rem; }
-.dr-tip { background: var(--off); border-radius: 26.4px; padding: 1.25rem; display: flex; flex-direction: column; gap: 0.75rem; }
+.dr-tip { background: var(--off); border-radius: 16px; padding: 1.25rem; display: flex; flex-direction: column; gap: 0.75rem; }
 .dr-tip-num { width: 1.5rem; height: 1.5rem; background: var(--white); border: 1px solid var(--border); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.62rem; font-weight: 600; color: var(--sub); flex-shrink: 0; }
 .dr-tip-titel { font-size: 0.82rem; font-weight: 500; color: var(--text); line-height: 1.4; margin-bottom: 0.25rem; }
 .dr-tip-tekst { font-size: 0.76rem; font-weight: 300; color: var(--sub); line-height: 1.7; }
