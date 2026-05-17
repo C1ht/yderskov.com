@@ -979,8 +979,8 @@ export const posts: BlogPost[] = [
     title: "Boligdetalje #3: Trappen — sådan planlægger du trappen i dit arkitekttegnede hus.",
     description: "Trappen er en af de mest iøjnefaldende detaljer i et arkitekttegnet hus. Her gennemgår vi hvordan du planlægger den rigtigt — fra placering og konstruktion til materialer, gelænder og lys.",
     date: "14 / 02 / 2026",
-    cat: "Villa & boligdesign",
-    catKey: "villa",
+    cat: "Boligdetaljer",
+    catKey: "boligdetalje",
     lead: "I et arkitekttegnet hus er trappen sjældent bare en trapp — den er et arkitektonisk element der definerer rummets karakter. En velplaceret, veldesignet trappe kan åbne et hus op, skabe flow mellem etager og blive boligens mest fotograferede detalje. Her er hvad du skal tænke over.",
     sections: [
       {
@@ -1038,8 +1038,8 @@ export const posts: BlogPost[] = [
     title: "Boligdetalje #2: Grønt miljø inde — sådan planlægger du planter i dit arkitekttegnede hus.",
     description: "Planter inde i boligen forbedrer luftkvaliteten, dæmper lyd og giver rum en levende, organisk kvalitet. Her gennemgår vi hvordan du planlægger grønne elementer som en integreret del af arkitekturen.",
     date: "07 / 02 / 2026",
-    cat: "Villa & boligdesign",
-    catKey: "villa",
+    cat: "Boligdetaljer",
+    catKey: "boligdetalje",
     lead: "Et grønt indendørs miljø handler ikke om at stille en potteplante i vindueskarmen. Det handler om at tænke beplantning ind som et arkitektonisk element — i nicher, langs trapper, i atrier og som levende rumdeler. Her gennemgår vi hvordan du planlægger grønt inde som en integreret del af din bolig.",
     sections: [
       {
@@ -1096,8 +1096,8 @@ export const posts: BlogPost[] = [
     title: "Boligdetalje #1: Hemsen — sådan planlægger du en hems i dit arkitekttegnede hus.",
     description: "En hems er en af de mest karakteristiske detaljer i et arkitekttegnet hus. Her gennemgår vi hvordan du planlægger den rigtigt — fra rumhøjde og konstruktion til lys og adgang.",
     date: "31 / 01 / 2026",
-    cat: "Villa & boligdesign",
-    catKey: "villa",
+    cat: "Boligdetaljer",
+    catKey: "boligdetalje",
     lead: "En hems er én af de arkitektoniske detaljer der med det samme fortæller at et hus er tegnet af en arkitekt. Den udnytter rummets fulde højde, skaber et intimt rum-i-rum og giver huset en karakter som ingen standardløsning kan kopiere. Men en hems kræver omtanke fra starten — her er det du skal vide.",
     sections: [
       {

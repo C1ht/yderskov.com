@@ -148,24 +148,24 @@ const posts: Post[] = [
   {
     href: "/blog/boligdetalje-trappe",
     date: "14 / 02 / 2026",
-    cat: "Villa & boligdesign",
-    catKey: "villa",
+    cat: "Boligdetaljer",
+    catKey: "boligdetalje",
     title: "Boligdetalje #3: Trappen — sådan planlægger du trappen i dit arkitekttegnede hus.",
     excerpt: "Trappen er en af de mest iøjnefaldende detaljer i et arkitekttegnet hus. Her gennemgår vi placering, konstruktion, materialer, gelænder og lys.",
   },
   {
     href: "/blog/boligdetalje-groent-miljoe",
     date: "07 / 02 / 2026",
-    cat: "Villa & boligdesign",
-    catKey: "villa",
+    cat: "Boligdetaljer",
+    catKey: "boligdetalje",
     title: "Boligdetalje #2: Grønt miljø inde — sådan planlægger du planter i dit arkitekttegnede hus.",
     excerpt: "Planter inde i boligen forbedrer luftkvaliteten og giver rum en levende, organisk kvalitet. Her gennemgår vi plantenicher, grønne vægge, rumdeling og hvad der kræves af dagslys og vandingsforhold.",
   },
   {
     href: "/blog/boligdetalje-hems",
     date: "31 / 01 / 2026",
-    cat: "Villa & boligdesign",
-    catKey: "villa",
+    cat: "Boligdetaljer",
+    catKey: "boligdetalje",
     title: "Boligdetalje #1: Hemsen — sådan planlægger du en hems i dit arkitekttegnede hus.",
     excerpt: "En hems er en af de mest karakteristiske detaljer i et arkitekttegnet hus. Her gennemgår vi hvordan du planlægger den rigtigt — fra rumhøjde og konstruktion til lys og adgang.",
   },
@@ -315,6 +315,7 @@ const categories = [
   { key: "sommerhus", label: "Sommerhus" },
   { key: "arkitekt", label: "Arkitekt & proces" },
   { key: "grund", label: "Grund & placering" },
+  { key: "boligdetalje", label: "Boligdetaljer" },
 ];
 
 function parseDate(dateStr: string): Date {
