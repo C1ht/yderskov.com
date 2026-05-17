@@ -187,6 +187,14 @@ const posts: Post[] = [
     excerpt: "Et godt bryggers løser vasketøj, opbevaring og det praktiske liv uden at det går ud over resten af boligen. Her gennemgår vi størrelse, placering, udstyr og indretning.",
   },
   {
+    href: "/blog/boligdetalje-gaspejs",
+    date: "27 / 05 / 2025",
+    cat: "Boligdetaljer",
+    catKey: "boligdetalje",
+    title: "Boligdetalje #8: Gaspejs — sådan planlægger du det i dit hjem.",
+    excerpt: "En gaspejs giver ægte flamme uden brænde og røg. Her gennemgår vi indbygning, dobbeltsidede modeller, placering, varmeydelse og hvad det kræver af installation.",
+  },
+  {
     href: "/blog/viktualierum",
     date: "20 / 05 / 2025",
     cat: "Villa & boligdesign",

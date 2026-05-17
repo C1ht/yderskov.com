@@ -14,6 +14,66 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "boligdetalje-gaspejs",
+    metaTitle: "Boligdetalje #8: Gaspejs — sådan planlægger du det i dit hjem — Yderskov Arkitekter",
+    title: "Boligdetalje #8: Gaspejs — sådan planlægger du det i dit hjem.",
+    description: "En gaspejs giver ægte flamme uden brænde og røg. Her gennemgår vi installation, indbygning, dobbeltsidede modeller, sikkerhed og hvad det koster at drive.",
+    date: "27 / 05 / 2025",
+    cat: "Boligdetaljer",
+    catKey: "boligdetalje",
+    lead: "En gaspejs giver det levende flammespil fra en ægte ild — uden brænde, aske og røg. Den kan installeres næsten overalt i boligen, tændes med en fjernbetjening og er klar på få sekunder. Her gennemgår vi hvad du skal vide når du planlægger en gaspejs som en integreret del af din bolig.",
+    sections: [
+      {
+        heading: "Hvad er en gaspejs?",
+        paragraphs: [
+          "En gaspejs er en pejs der brænder naturgas eller flaskegas frem for træ. Flammerne er ægte — ikke simulerede som i elektriske peise — og giver det samme levende, varierende flammespil som en brændeovn. Til gengæld er der ingen aske, ingen optænding og ingen lugt af røg. Pejsen tændes og slukkes med en knap eller en fjernbetjening.",
+          "Gaspejse fås i to grundlæggende varianter: lukkede og åbne systemer. Et lukket system er forseglet med et glasvindue foran — al forbrændingsluft tages udefra og røggassen ledes direkte ud, uden kontakt med rumluft. Et åbent system fungerer som en traditionel pejs med åben front og kræver en konventionel skorsten med tilstrækkelig trækstyrke.",
+          "Til boliger uden eksisterende skorsten er det lukkede system den klart mest udbredte løsning. Det kræver kun et lille rør til friskluftindtag og røgafgang — typisk ført ud igennem en ydervæg eller tag — og kan dermed installeres i næsten enhver rumposition.",
+        ],
+      },
+      {
+        heading: "Dobbeltsidede gaspejse",
+        paragraphs: [
+          "En dobbeltsidede gaspejs — også kaldet en see-through pejs eller tunnelpejs — er åben på to modstående sider og kan opleves fra to rum på én gang. Den er et af de mest spektakulære arkitektoniske elementer du kan integrere i en bolig: en levende flamme der forbinder to rum og fungerer som en lysende, gennemsigtig rumdeler.",
+          "Den dobbeltsidede pejs er særligt effektfuld i overgangen mellem stue og spisestue, mellem entre og stue, eller som centerpiece i et åbent planrum der opleves fra alle vinkler. Flammen kaster lys ind i begge rum og skaber en dybde og en fokuspunkt der er svær at matche med andre virkemidler.",
+          "Teknisk fungerer en dobbeltsidede gaspejs på samme måde som en enkeltsidet: lukket system med friskluftindtag og røgafgang igennem konstruktionen. Kravene til indbygning er dog større — konstruktionen skal kunne bære pejsens vægt fra begge sider, og brandadskillelsen til de omkringliggende materialer skal overholdes på begge sider af åbningen.",
+          "Trekantede og hjørneplacerede pejse er yderligere varianter der giver flammeoplevelse fra 90 graders vinkel — ideelt til hjørneplacering i en stue eller som fokuspunkt i et åbent rum.",
+        ],
+      },
+      {
+        heading: "Placering og indbygning",
+        paragraphs: [
+          "En gaspejs kan placeres næsten overalt — i en eksisterende pejseniche, i en ny indmuret niche i en massiv væg, eller fritstående med en slank pejseskorsten. Det eneste tekniske krav er tilslutning til gasforsyning og en rørføring til røgafgang og friskluftindtag der kan nå til ydervæg eller tag.",
+          "Den mest elegante løsning er et indbygningspejs der sidder flush med vægoverfladen — uden fremspring og uden synligt kabinet. Det kræver en niche med tilstrækkelig dybde (typisk 30–45 cm) og korrekt brandadskillelse til de omgivende materialer. Afstanden til brændbare materialer — træ, gips, tapet — skal overholdes nøje og fremgår af producentens installationsvejledning.",
+          "Gulvplacering versus vægplacering er et designvalg. En pejs placeret lavt mod gulvet giver det mest klassiske og intime udtryk — man kan sidde foran den og mærke varmen på benene. En pejs placeret i øjenhøjde i en vægflade giver et mere moderne, gallerilignende udtryk der fungerer godt i rum med høje lofter.",
+        ],
+      },
+      {
+        heading: "Varmeydelse og energiforbrug",
+        paragraphs: [
+          "En gaspejs producerer reel varme — typisk 3–8 kW afhængigt af modellen. Det er nok til at opvarme et rum på 20–40 m² som primær varmekilde. I en velisoleret moderne bolig er en gaspejs på 5 kW tilstrækkelig til at holde en åben stue-køkken-zone varm på en kold vinterdag.",
+          "Gasforbruget afhænger af ydelse og driftstid. En pejs på 5 kW bruger cirka 0,5 m³ naturgas i timen ved fuld effekt. Med en naturgaspris på ca. 8–10 kr. pr. m³ svarer det til 4–5 kr. i timen — sammenlignelig med en god brændeovn men uden besværet med brændet.",
+          "De fleste moderne gaspejse kan reguleres trinløst fra 30–100% effekt via termostat eller fjernbetjening. Det giver præcis temperaturregulering og reducerer forbruget markant i perioder med moderat varmebehov.",
+        ],
+      },
+      {
+        heading: "Sikkerhed og godkendelse",
+        paragraphs: [
+          "Installation af en gaspejs skal altid udføres af en autoriseret gasmontør. Det er et lovkrav i Danmark — og en forsikringsbetingelse. En ikke-autoriseret installation er ikke blot ulovlig; den kan ved en gaslækage have katastrofale konsekvenser.",
+          "Moderne gaspejse er udstyret med termoelement og flammekontrol der automatisk lukker for gassen hvis flammen slukker utilsigtet. Lukkede systemer med forseglet forbrændingskammer tilfører ikke CO til rumluft og kræver ikke ekstra ventilation — de er i den forstand sikrere end åbne brændeovne.",
+          "Tjek altid at den valgte model er CE-mærket og godkendt til det relevante gastype (naturgas G20 eller propan G31). Kommunen kræver typisk ikke byggetilladelse til indbygning af en gaspejs, men det er altid klogt at tjekke med din kommune inden installation.",
+        ],
+      },
+      {
+        heading: "Arkitektens greb",
+        paragraphs: [
+          "En gaspejs er et element der kræver præcis projektering for at lykkes. Nichen skal have de rigtige mål, gasrøret skal føres diskret igennem konstruktionen, og de omgivende materialer — sten, beton, puds, metal — skal afstemmes med pejsens udtryk og boligens øvrige materialesprog.",
+          "Hos Yderskov Arkitekter projekterer vi gaspejsen som en integreret del af boligprojektet — fra niche og indbygningsdetalje til materialevalg og belysning. Kontakt os for et gratis og uforpligtende første møde.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "viktualierum",
     metaTitle: "Hvordan planlægger man et viktualierum? — Yderskov Arkitekter",
     title: "Hvordan planlægger man et viktualierum?",
