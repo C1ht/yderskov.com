@@ -77,6 +77,17 @@ export default function Nav() {
     setActiveDropdown(label);
   };
 
+  const handleMouseEnter = (label: string, e: React.MouseEvent<HTMLLIElement>) => {
+    const inner = innerRef.current;
+    const btn = e.currentTarget.querySelector("button") as HTMLButtonElement | null;
+    if (inner && btn) {
+      const innerRect = inner.getBoundingClientRect();
+      const btnRect = btn.getBoundingClientRect();
+      setDropdownLeft(btnRect.left - innerRect.left + btnRect.width / 2);
+    }
+    setActiveDropdown(label);
+  };
+
   const isGroupActive = (item: NavItem) =>
     item.children?.some((c) => pathname === c.href) ?? false;
 
@@ -84,11 +95,11 @@ export default function Nav() {
 
   return (
     <nav>
-      <div className="nav-inner" ref={innerRef}>
+      <div className="nav-inner" ref={innerRef} onMouseLeave={() => setActiveDropdown(null)}>
         <ul className="nav-links">
           {navItems.map((item) =>
             item.children ? (
-              <li key={item.label} className="nav-has-dropdown">
+              <li key={item.label} className="nav-has-dropdown" onMouseEnter={(e) => handleMouseEnter(item.label, e)}>
                 <button
                   className={`nav-dropdown-trigger${isGroupActive(item) ? " nav-active" : ""}${activeDropdown === item.label ? " nav-dropdown-open" : ""}`}
                   onClick={(e) => toggle(item.label, e)}
