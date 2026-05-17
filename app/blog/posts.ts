@@ -1033,6 +1033,64 @@ export const posts: BlogPost[] = [
     ],
   },
   {
+    slug: "boligdetalje-groent-miljoe",
+    metaTitle: "Boligdetalje #2: Grønt miljø inde — sådan planlægger du planter i dit arkitekttegnede hus — Yderskov Arkitekter",
+    title: "Boligdetalje #2: Grønt miljø inde — sådan planlægger du planter i dit arkitekttegnede hus.",
+    description: "Planter inde i boligen forbedrer luftkvaliteten, dæmper lyd og giver rum en levende, organisk kvalitet. Her gennemgår vi hvordan du planlægger grønne elementer som en integreret del af arkitekturen.",
+    date: "07 / 02 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    lead: "Et grønt indendørs miljø handler ikke om at stille en potteplante i vindueskarmen. Det handler om at tænke beplantning ind som et arkitektonisk element — i nicher, langs trapper, i atrier og som levende rumdeler. Her gennemgår vi hvordan du planlægger grønt inde som en integreret del af din bolig.",
+    sections: [
+      {
+        heading: "Planter som arkitektonisk element",
+        paragraphs: [
+          "I de bedste arkitekttegnede boliger er planter ikke indretning der lægges til efterfølgende — de er tænkt ind fra første streg. En planteniche i muren, en indre gårdhave med ovenlys, en trappevæg beplantet fra top til bund eller et plantefelt i gulvniveau der adskiller stue og køkken — det er greb der kræver planlægning men giver boligen en helt særlig karakter.",
+          "Planter inde i en bolig fungerer bedst når de har optimale lysforhold, let adgang til vanding og er placeret så de kan vokse og udvikle sig. Det kræver at arkitekten tænker i drænfuge, vækstmedie, vandtilslutning og dagslys allerede på tegnebrættet — ikke som en eftertanke.",
+        ],
+      },
+      {
+        heading: "Dagslys og planternes behov",
+        paragraphs: [
+          "Lys er den vigtigste forudsætning for planter indendørs. De fleste tropiske planter — de mest udbredte indendørsplanter i Danmark — trives med indirekte lys fra syd, øst eller vest. Nordvendte rum er udfordringen: her er lysintensiteten lav, og kun skyggetålende planter som philodendron, pothos og sansevieria klarer sig godt.",
+          "Ovenlys er en af de mest effektive måder at give indendørs planter naturligt lys på. Et ovenlysvindue over en planteniche, en åben trappebrønd med lys fra toppen eller et lille atrium midt i huset kan give planter et lysforhold der minder om et drivhus — og gøre det muligt at dyrke planter der normalt ikke trives inde.",
+          "Tænk på lysets retning og intensitet i løbet af dagen. Et vindue mod vest giver eftermiddagssol der kan brænde bladene på sensitive planter. Et vindue mod øst giver blidt morgenlys der passer til de fleste. En arkitekt kan modellere solindfaldet og finde de rigtige placeringer til plantebede og nicher.",
+        ],
+      },
+      {
+        heading: "Plantenicher og grønne vægge",
+        paragraphs: [
+          "En planteniche er en fordybning i muren — typisk 30–60 cm dyb — der giver planter et naturligt hjem uden at de stjæler gulvplads. Nichen kan belyses med LED-lys der supplerer det naturlige dagslys, og vandingsrenden kan integreres i bunden så overskydende vand ledes væk diskret.",
+          "En grøn væg — også kaldet et levende plantepanel — er et mere ambitiøst greb. Det er en konstruktion der dækker en hel vægoverflade med planter der vokser i et særligt substrat og vandes via et automatisk vandings­system. En grøn væg kræver professionel installation og løbende vedligeholdelse, men er et af de mest dramatiske og smukke arkitektoniske greb man kan anvende indendørs.",
+          "Et enklere alternativ er en hyldevæg med potter i forskudte niveauer — kombineret med en vandings­rutine og gode lysforhold kan det give en lignende visuel effekt til en brøkdel af prisen. Det kræver blot at hyldesystemet er dimensioneret og forankret til at bære vægten af fyldte potter.",
+        ],
+      },
+      {
+        heading: "Planter som rumdeler",
+        paragraphs: [
+          "Planter er et blødt, organisk alternativ til vægge og skillerum. Et plantefelt i gulvniveau — et rektangulært beplantningsbedlag med jord, drænlag og planter — kan adskille stue fra entre eller køkken fra spiserum uden at lukke rummet af.",
+          "Høje planter — ficus, monstera deliciosa, bambus eller travelpalmebusk — skærmer effektivt mod indblik og støj og giver en naturlig afgrænsning uden at kræve byggeri. Placeret strategisk langs en glasfacade eller ved siden af en åben trappe skaber de en levende, foranderlig arkitektur der skifter med årstiderne.",
+          "Tænk på vedligeholdelse. Et plantefelt i gulvet kræver adgang til vanding, beskæring og eventuelt omplantning. Det skal være nemt at komme til — enten via gulvafløb og vandtilslutning i nærheden, eller ved at designe plantefeltet så potter kan løftes ud enkeltvis.",
+        ],
+      },
+      {
+        heading: "Indeklima og sundhed",
+        paragraphs: [
+          "Planter inde i boligen forbedrer indeklimaet på flere måder. De optager CO₂ og afgiver ilt, absorberer flygtige organiske forbindelser fra møbler og overflader og øger luftfugtigheden — noget der er særlig værdifuldt i opvarmede boliger om vinteren, hvor luften kan blive meget tør.",
+          "Studier viser desuden at tilstedeværelsen af planter sænker stressniveauet, øger koncentrationen og giver en generel følelse af velvære. Det er ikke tilfældigt at hospitaler, kontorer og skoler i stigende grad bruger planter som bevidst indeklima- og trivselsstrategi.",
+          "For at planterne reelt forbedrer luftkvaliteten skal der være tilstrækkeligt mange — tommelfingerreglen er én plante pr. 10 m². Det er mere end de fleste har, men det er et mål der er let at arbejde hen imod hvis det er planlagt fra starten.",
+        ],
+      },
+      {
+        heading: "Grønt inde som boligdetalje der øger værdien",
+        paragraphs: [
+          "Et gennemtænkt grønt indendørsmiljø er en af de detaljer der adskiller et arkitekttegnet hus fra et typehus. Det fortæller at boligen er tænkt som en helhed — at arkitekten har arbejdet med lys, rum og natur som sammenhængende elementer.",
+          "Hos Yderskov Arkitekter integrerer vi grønne elementer som en naturlig del af boligprojektet — fra plantenicher og ovenlys til gulvbede og grønne vægge. Kontakt os for et gratis og uforpligtende første møde.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "boligdetalje-hems",
     metaTitle: "Boligdetalje #1: Hemsen — Yderskov Arkitekter",
     title: "Boligdetalje #1: Hemsen — sådan planlægger du en hems i dit arkitekttegnede hus.",
