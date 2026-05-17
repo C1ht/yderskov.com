@@ -187,6 +187,22 @@ const posts: Post[] = [
     excerpt: "Et godt bryggers løser vasketøj, opbevaring og det praktiske liv uden at det går ud over resten af boligen. Her gennemgår vi størrelse, placering, udstyr og indretning.",
   },
   {
+    href: "/blog/viktualierum",
+    date: "20 / 05 / 2025",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    title: "Hvordan planlægger man et viktualierum?",
+    excerpt: "Et viktualierum er et køligt, mørkt opbevaringsrum der aflaster køleskabet og forlænger madens holdbarhed. Her gennemgår vi placering, temperatur, ventilation, indretning og om et skab kan erstatte det.",
+  },
+  {
+    href: "/blog/boligdetalje-trappe-aaben-lukket",
+    date: "13 / 05 / 2025",
+    cat: "Boligdetaljer",
+    catKey: "boligdetalje",
+    title: "Boligdetalje #7: Åben eller lukket trappe mellem etagerne.",
+    excerpt: "Åben eller lukket trappe? Valget påvirker lys, lyd, varme og rumoplevelse i hele boligen. Her gennemgår vi forskelle, fordele og ulemper og hvornår det ene er bedre end det andet.",
+  },
+  {
     href: "/blog/hjemmebiograf",
     date: "06 / 05 / 2025",
     cat: "Villa & boligdesign",

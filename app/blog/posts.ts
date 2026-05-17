@@ -14,6 +14,132 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "viktualierum",
+    metaTitle: "Hvordan planlægger man et viktualierum? — Yderskov Arkitekter",
+    title: "Hvordan planlægger man et viktualierum?",
+    description: "Et viktualierum er et køligt, mørkt opbevaringsrum til mad og drikke. Her gennemgår vi placering, temperatur, størrelse, hylder og om et stort skab kan erstatte det.",
+    date: "20 / 05 / 2025",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    lead: "Et viktualierum er en af de mest praktiske og undervurderede rum du kan bygge ind i en bolig. Et køligt, mørkt rum til opbevaring af mad, vin, dåser og rodfrugter aflaster køleskabet, forlænger madens holdbarhed og giver ro i hverdagen. Her gennemgår vi hvad du skal tænke på når du planlægger et viktualierum.",
+    sections: [
+      {
+        heading: "Hvad er et viktualierum?",
+        paragraphs: [
+          "Et viktualierum — også kaldet et spisekammer, forrådskammer eller pantry — er et køligt, mørkt opbevaringsrum til fødevarer der ikke kræver køleskabstemperatur men klarer sig bedst under stuetemperatur: rodfrugter, løg, kartofler, frugt, vin, hjemmekonserveret mad, dåser, mel og tørrede varer.",
+          "Det traditionelle viktualierum er en af de funktioner der forsvandt med de moderne opvarmede og godt isolerede boliger fra 1960erne og frem. I dag er interessen vendt tilbage — dels fordi flere dyrker eller køber store mængder råvarer direkte fra producent, dels fordi kældrene forsvandt fra parcelhuset og de store køkkener ikke altid har plads til det nødvendige lager.",
+        ],
+      },
+      {
+        heading: "Placering i huset",
+        paragraphs: [
+          "Placeringen er afgørende for om viktualierummet fungerer. Det skal ligge på nordsiden af huset — væk fra sol og direkte varme — og helst mod en ydervæg der naturligt er køligere end indervæggene. En nordvendt gavlvæg i stueetagen er den klassiske og bedste placering.",
+          "Undgå at placere viktualierummet op ad et rum med høj varmeproduktion — køkkenet, bryggeriet med vaskemaskine eller en syd- eller vestvendt facade. Varmen trænger igennem væggen og hæver temperaturen til et niveau der ikke er optimalt for opbevaring.",
+          "Kælderen er den bedste naturlige placering — den konstante jordtemperatur på 8–12°C er ideel for de fleste fødevarer. Har du ikke kælder, er det næste bedste en nordvendt ydervæg i stueetagen — evt. med en uisoleret eller let isoleret ydervæg der lader jordkulden sive ind.",
+          "Viktualierummet bør placeres tæt på køkkenet — gerne med direkte adgang. Et forrådskammer i den modsatte ende af huset bruges sjældent i hverdagen.",
+        ],
+      },
+      {
+        heading: "Ingen vinduer — eller?",
+        paragraphs: [
+          "Et klassisk viktualierum har ingen vinduer. Lys — særligt sollys — nedbryder vitaminer i grøntsager og frugt, accelererer modning og fremmer kimspiring i kartofler og løg. Et mørkt rum er altid at foretrække.",
+          "Til gengæld er ventilation vigtig. Mange rodfrugter og frugter afgiver fugt og ethen-gas der accelererer modning af nabovarerne. En enkel ventil i ydervæggen — gerne med mulighed for regulering — sikrer luftcirkulation og holder fugtigheden på et passende niveau uden at lade kulde eller varme ukontrolleret ind.",
+          "Kombinationen mørkt rum med kontrolleret ventilation mod yderluften giver en naturlig temperatur der i de kølige måneder er ideel for opbevaring — uden brug af energi.",
+        ],
+      },
+      {
+        heading: "Temperatur og fugtighed",
+        paragraphs: [
+          "Den ideelle opbevaringstemperatur for de fleste rodfrugter og grøntsager er 4–10°C. Kartofler trives bedst ved 4–6°C og høj luftfugtighed (85–90%). Løg og hvidløg foretrækker lidt højere temperatur (10–15°C) og lav luftfugtighed. Vin opbevares ideelt ved 10–14°C med konstant temperatur og ingen vibrationer.",
+          "I en nordvendt ydervægsplacering i stueetagen vil temperaturen typisk ligge på 10–16°C om vinteren og 14–20°C om sommeren — acceptabelt for de fleste formål, men ikke optimalt for vin og rodfrugter om sommeren. En kælder giver mere stabil temperatur hele året.",
+          "Undgå frostfare. Et viktualierum der vender mod en uisoleret nordvæg kan i streng frost risikere temperaturer under nul. Isoleringen skal afbalanceres omhyggeligt — nok til at undgå frost, ikke så meget at den naturlige køling forsvinder.",
+        ],
+      },
+      {
+        heading: "Størrelse og indretning",
+        paragraphs: [
+          "Et funktionelt viktualierum til en familie behøver ikke at være stort. 2–4 m² er rigeligt. Det vigtigste er hyldernes dybde og tilgængelighed: hylder på 30–40 cm dybde der går fra gulv til loft giver et enormt oplagringsareal selv i et lille rum.",
+          "Brug lette hylder i metal eller træ der kan rengøres let. Undgå MDF og spånplade — de suger fugt og kan mugne ved høj luftfugtighed. Åbne wire-hylder giver god luftcirkulation og er lette at inspicere. Hæng en krog til flasker og spyd med svin, lam eller andet modnings-kød hvis rummet er koldt nok.",
+          "Gulvmaterialet bør kunne klare spild og rengøring med vand. Betonfliser, klinkegulv eller linoleum er bedre end trægulv i et rum der kan have høj luftfugtighed.",
+        ],
+      },
+      {
+        heading: "Kan et stort skab erstatte et viktualierum?",
+        paragraphs: [
+          "Et pantry-skab — et dybt skab med hylder, typisk 60 cm dybt og med dobbeltdøre — kan delvist erstatte et viktualierum til tørre varer, dåser og husholdningsartikler. Det løser opbevaringspladsen men løser ikke temperaturen: et skab inde i et opvarmet hus har stuetemperatur og er ikke egnet til rodfrugter, vin eller fermenterede produkter.",
+          "Et skab placeret i en uopvarmet garage, udestue eller mod en uisoleret nordvæg kan derimod fungere som et simpelt forrådsskab til produkter der tåler temperaturer ned mod 5–8°C. Det kræver dog at skabet ikke fryser og at der er ventilation så kondens ikke opstår på hyldevarerne.",
+          "Konklusionen: et skab kan erstatte et viktualierum til tørre og konserverede varer — men ikke til friske rodfrugter, vin og fermenterede produkter der kræver kølig og stabil temperatur.",
+        ],
+      },
+      {
+        heading: "Arkitektens greb",
+        paragraphs: [
+          "Et viktualierum planlægges bedst fra projektets start — det er langt lettere at reservere en nordvendt niche i planløsningen end at efterinstallere det. I mange tilfælde kan det integreres som en naturlig del af bryggersgangen eller køkkenbagvæggen uden at tage nævneværdig plads fra de øvrige rum.",
+          "Hos Yderskov Arkitekter tegner vi viktualierummet som en integreret del af boligens planløsning. Kontakt os for et gratis og uforpligtende første møde.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "boligdetalje-trappe-aaben-lukket",
+    metaTitle: "Boligdetalje #7: Åben eller lukket trappe mellem etagerne — Yderskov Arkitekter",
+    title: "Boligdetalje #7: Åben eller lukket trappe mellem etagerne.",
+    description: "Åben eller lukket trappe? Valget påvirker lys, lyd, rum og klima i hele boligen. Her gennemgår vi forskelle, fordele og ulemper og hvornår det ene er bedre end det andet.",
+    date: "13 / 05 / 2025",
+    cat: "Boligdetaljer",
+    catKey: "boligdetalje",
+    lead: "Valget mellem en åben og en lukket trappe er et af de mest konsekvensrige designbeslutninger i en bolig med to etager. Det påvirker lysets bevægelse, lydens transmission, varmens fordeling og den rumlige oplevelse af hele huset. Her gennemgår vi hvad der taler for og imod — og hvornår det ene valg er bedre end det andet.",
+    sections: [
+      {
+        heading: "Hvad er forskellen?",
+        paragraphs: [
+          "En åben trappe har ingen lukkede stød — de vandrette flader mellem trinene. Lys, luft og visuel kontakt passerer frit igennem trappens konstruktion. Resultatet er et lettere, mere åbent udtryk der visuelt forbinder etagerne.",
+          "En lukket trappe har fyldte stød — enten i samme materiale som trinene eller et kontrasterende materiale. Den lukker rummet af og fungerer som en fysisk og visuel barriere mellem etagerne. Udtrykket er mere traditionelt og massivt.",
+          "Mange moderne trapper kombinerer de to: åbne stød men med et solidt gelænder og håndliste, eller lukkede stød i en let konstruktion med åbne sider. Kombinationerne er mange og det endelige valg bør altid træffes i relation til det specifikke rum og boligens overordnede udtryk.",
+        ],
+      },
+      {
+        heading: "Lys og rumoplevelse",
+        paragraphs: [
+          "En åben trappe lader lyset passere frit. Et ovenlysvindue over en åben trappe kaster lys ned igennem konstruktionen og belyser begge etager på én gang — en lyseffekt der er komplet umulig med en lukket trappe. I boliger med begrænset dagslys kan den åbne trappe være afgørende for at sprede lyset i dybden af huset.",
+          "En lukket trappe definerer trapperummet som et selvstændigt rum med klare vægge. Det kan give et stærkere, mere defineret udtryk — men det lukker lyset inde på de respektive etager og giver en mere klassisk rumsuccession.",
+          "Den åbne trappe giver visuelt sammenhæng på tværs af etagerne. Man kan se og kommunikere fra stuen til første etage. Det er en fordel i familier med børn og i boliger med åbne planløsninger — men kræver at begge etager er velordnede, da de er synlige for hinanden.",
+        ],
+      },
+      {
+        heading: "Lyd",
+        paragraphs: [
+          "En åben trappe transmitterer lyd frit mellem etagerne. Samtale, musik og TV fra stuen høres på soveafdelingen — og omvendt. I boliger med mange beboere eller forskellig søvnrytme kan dette være et problem.",
+          "En lukket trappe med massiv konstruktion og tæt dør til trapperummet fungerer som en effektiv lydbarriere. Kombinationen lukket trappe og dør i top og/eller bund af trappen er den bedste løsning til lydmæssig adskillelse af etagerne.",
+          "Kompromisset er at bevare den åbne trappes udtryk men tilføje en dør i bunden — typisk en glasdør der bevarer den visuelle åbenhed men reducerer lydtransmissionen markant. Det er den mest udbredte løsning i moderne arkitekttegnede boliger.",
+        ],
+      },
+      {
+        heading: "Varme og klima",
+        paragraphs: [
+          "Varm luft stiger. I en bolig med åben trappe stiger varm luft fra stuen direkte til soveafdelingen — det giver en varm øverste etage og en køligere stue, særligt om vinteren. Det kan reducere opvarmningsbehovet på første sal men gøre stuen sværere at holde varm.",
+          "En lukket trappe med dør i bunden fungerer som en termisk sluse. Den varme luft forbliver på stuen og der opstår et mere naturligt temperaturforhold mellem etagerne. I boliger med gulvvarme og god isolering er forskellen minimal — i ældre boliger med radiatorer kan det have stor praktisk betydning.",
+          "Omvendt giver den åbne trappe en naturlig stack-effekt om sommeren: varm luft stiger op og ud igennem åbne vinduer på første etage, mens køl luft trækkes ind nedefra. Det er en passiv ventilationsform der kan reducere behovet for mekanisk køling.",
+        ],
+      },
+      {
+        heading: "Sikkerhed og bygningsreglement",
+        paragraphs: [
+          "Bygningsreglementet stiller krav til trappers bredde, stighøjde, trindybde og gelænderets højde. For åbne trapper gælder desuden at åbningerne i gelænder og stød ikke må være så store at et barn kan klemme eller falde igennem — hulrummet bør ikke overstige 10 cm.",
+          "Til familier med småbørn er den åbne trappe et opmærksomhedspunkt. En åben trappe med lodrette sprosser i gelænderet er sikker; en med vandrette sprosser kan klatres og er ikke tilladt i familier med børn under fire år. Luk altid trappen med en sikkerhedsgitter i bunden indtil børnene er store nok.",
+        ],
+      },
+      {
+        heading: "Hvornår er det ene bedre end det andet?",
+        paragraphs: [
+          "Åben trappe er bedst i boliger med åben planløsning, god dagslysadgang og en familie der trives med visuel og auditiv kontakt på tværs af etagerne. Den passer til moderne, skandinavisk boligdesign og fungerer godt i kombination med ovenlys.",
+          "Lukket trappe er bedst i boliger hvor lydmæssig og termisk adskillelse af etagerne er vigtig — typisk større familier, boliger med udlejningsdel, eller bygherrer der prioriterer ro og adskillelse over rumlig åbenhed. Den passer til klassisk og traditionel arkitektur.",
+          "Hos Yderskov Arkitekter rådgiver vi om trappevalget som en integreret del af boligprojektet — ikke som en eftertanke. Kontakt os for et gratis og uforpligtende første møde.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "hjemmebiograf",
     metaTitle: "Hvordan planlægger man en hjemmebiograf? — Yderskov Arkitekter",
     title: "Hvordan planlægger man en hjemmebiograf?",
