@@ -187,6 +187,22 @@ const posts: Post[] = [
     excerpt: "Et godt bryggers løser vasketøj, opbevaring og det praktiske liv uden at det går ud over resten af boligen. Her gennemgår vi størrelse, placering, udstyr og indretning.",
   },
   {
+    href: "/blog/hjemmebiograf",
+    date: "06 / 05 / 2025",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    title: "Hvordan planlægger man en hjemmebiograf?",
+    excerpt: "En hjemmebiograf kræver mere end et stort tv og en sofa. Her gennemgår vi rumstørrelse, lydisolering, akustik, projektor, lærred og belysning.",
+  },
+  {
+    href: "/blog/boligdetalje-akvarium",
+    date: "29 / 04 / 2025",
+    cat: "Boligdetaljer",
+    catKey: "boligdetalje",
+    title: "Boligdetalje #6: Indbygget akvarium — sådan planlægger du det i dit hjem.",
+    excerpt: "Et indbygget akvarium er et levende arkitektonisk element der definerer rummet. Her gennemgår vi placering, konstruktion, teknikrum, belysning og vedligeholdelse.",
+  },
+  {
     href: "/blog/boligdetalje-betonbordplade",
     date: "22 / 04 / 2025",
     cat: "Boligdetaljer",

@@ -14,6 +14,123 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "hjemmebiograf",
+    metaTitle: "Hvordan planlægger man en hjemmebiograf? — Yderskov Arkitekter",
+    title: "Hvordan planlægger man en hjemmebiograf?",
+    description: "En hjemmebiograf kræver mere end et stort tv og en sofa. Her gennemgår vi rumstørrelse, akustik, lydisolering, projektor og lærred, belysning og indretning.",
+    date: "06 / 05 / 2025",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    lead: "En hjemmebiograf er et af de mest specialiserede rum du kan bygge ind i en bolig — og et af de mest givende. Når lyset slukkes, lyden fylder rummet og billedet fylder væggen opstår en oplevelse man ikke kan købe sig til med et stort tv i stuen. Her gennemgår vi hvad der kræves for at planlægge en rigtig hjemmebiograf.",
+    sections: [
+      {
+        heading: "Rummet er det vigtigste",
+        paragraphs: [
+          "En hjemmebiograf starter med rummet — ikke udstyret. Det bedste udstyr i et dårligt rum giver en middelmådig oplevelse. Et gennemtænkt rum med beskedent udstyr giver til gengæld en oplevelse der overgår et kommercielt biograf-multiplex.",
+          "Det ideelle bioografrum er rektangulært med et forhold mellem bredde og længde på ca. 1:1,5 til 1:2. Kvadratiske rum skaber problematiske stående bølger i bassen der er svære at behandle akustisk. Lofthøjden bør være mindst 2,4 meter — højere lofter giver bedre lydrum og mere naturlig opskalering af billedet.",
+          "Orienter rummet så der ikke er vinduer i frontvæggen bag lærredet. Dagslys ødelægger billedkvaliteten og kræver tunge mørklægningsgardiner. Et rum uden vinduer — en kælder, et indre rum eller et dedikeret rum i stueetagen — er ideelt.",
+        ],
+      },
+      {
+        heading: "Lydisolering",
+        paragraphs: [
+          "En hjemmebiograf producerer meget lyd — særligt i de dybe basfrekvenser der trænger igennem næsten alle konstruktioner. Lydisolering handler ikke om akustik (lyden inde i rummet) men om lydtransmission til resten af boligen og til naboer.",
+          "Den mest effektive lydisoleringsstrategi er masse og afkobling. Tunge vægge (dobbelt gips med mineraluld i hulrummet), et flydende gulv på elastiske underlag og et nedhængt loft der er afkoblet fra etageadskillelsen reducerer lydtransmissionen markant. Det er dyrt at efterinstallere — det skal planlægges fra starten.",
+          "Døren er det svage led. En massiv, tætsluttende dør med tætningslister på alle fire sider er afgørende. En solid fyldningsdør på 50–60 kg med bundliste er minimum — for de mest lydkrævende løsninger vælges en dobbelt dør med lydsluse.",
+        ],
+      },
+      {
+        heading: "Akustisk behandling",
+        paragraphs: [
+          "Akustik handler om lyden inde i rummet. Et ubehandlet rum med hårde vægge, gulv og loft giver en lang efterklang der slører dialogen og smadrer den rumlige lydoplevelse. Et overdæmpet rum med for meget absorptionsmateriale giver en død, livløs lyd.",
+          "Målet er kontrolleret efterklang — typisk 0,3–0,5 sekunder i et hjemmebiografrum. Det opnås med en kombination af absorbenter (der fjerner energi fra lyden), diffusorer (der sprer lyden jævnt i rummet) og bassefælder (der absorberer de problematiske lave frekvenser i hjørnerne).",
+          "Sæt bassefælder i alle fire lodret hjørner fra gulv til loft. Placer absorbenter ved de første refleksionspunkter — sideværggene ud for højttalerne og loftet halvvejs mellem højttalere og siddeplads. Dæk ikke mere end 30–40% af vægarealet med absorbenter — resten kan være diffusor eller hård flade.",
+        ],
+      },
+      {
+        heading: "Projektor og lærred",
+        paragraphs: [
+          "En projektor giver det mest filmiske billede og er standardvalget i en dedikeret hjemmebiograf. Projektoren monteres i loftet bag siddepladsen — enten fast eller i en motoriseret lift der skjuler den i loftet når den ikke bruges.",
+          "Lærredsstørrelsen bestemmes af afstanden til siddepladsen. En tommelfingerregel: lærredets bredde bør svare til 0,5–0,6 gange afstanden fra lærred til første sæderække. Med 3,5 meters afstand giver det et lærred på 170–210 cm i bredden — svarende til ca. 80–100 tommer i 16:9-format.",
+          "Vælg et akustisk transparent lærred hvis højttalerne skal placeres bag lærredet — det giver den mest korrekte lydbillede-integration. Et akustisk transparent lærred lader lyden passere næsten usvækket og er standardløsningen i professionelle installationer.",
+        ],
+      },
+      {
+        heading: "Belysning og indretning",
+        paragraphs: [
+          "Belysning i en hjemmebiograf skal kunne dæmpes til næsten nul under afspilning og aktiveres til komfortabelt niveau i pauserne. LED-strip langs gulvkanten (ganglys), dæmpbare spotlights i loftet og evt. baggrundsbelysning bag lærredet (bias lighting) der reducerer øjentræthed er standardelementer.",
+          "Sæder bør placeres i rækker med hævet bageste rækker — en hældning på 15–20 cm pr. rækkes sikrer fri sigt til lærredet for alle. Biografstole med opklapbare armlæn og cupholdere er det mest komfortable valg; dyb sofa i én samlet rækkes fungerer til familier og mere uformelt brug.",
+          "Vælg mørke farver på vægge, loft og gulv. Mørke overflader absorberer det spredte lys fra projektoren og giver et renere, mere kontrastfyldt billede. Lyse vægge reflekterer projektionslyset tilbage på lærredet og ødelægger sort-niveauet.",
+        ],
+      },
+      {
+        heading: "Planlæg det fra starten",
+        paragraphs: [
+          "En hjemmebiograf der er tænkt ind fra projekteringens start er langt billigere og bedre end et efterinstalleret rum. Installationskanaler til HDMI, strøm og højttalerkabler, forstærkede loftbeslag til projektoren, flydende gulvkonstruktion og korrekte rumproportioner koster næsten ingenting at designe ind — og en formue at efterinstallere.",
+          "Hos Yderskov Arkitekter tegner vi hjemmebiografer som en integreret del af boligprojektet. Kontakt os for et gratis og uforpligtende første møde.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "boligdetalje-akvarium",
+    metaTitle: "Boligdetalje #6: Indbygget akvarium — sådan planlægger du det i dit hjem — Yderskov Arkitekter",
+    title: "Boligdetalje #6: Indbygget akvarium — sådan planlægger du det i dit hjem.",
+    description: "Et indbygget akvarium er et levende designelement der definerer rummet. Her gennemgår vi placering, konstruktion, teknikrum, belysning og hvad der kræves af gulv og væg.",
+    date: "29 / 04 / 2025",
+    cat: "Boligdetaljer",
+    catKey: "boligdetalje",
+    lead: "Et indbygget akvarium er ikke blot et fiskekasse — det er et levende arkitektonisk element der definerer rummet det sidder i. Når det er rigtigt placeret og korrekt integreret i væggen giver det en dybde og et levende lys som ingen anden dekoration kan matche. Her gennemgår vi hvad du skal tænke på når du planlægger et indbygget akvarium.",
+    sections: [
+      {
+        heading: "Placering og integration",
+        paragraphs: [
+          "Et indbygget akvarium kan placeres som en gennemgående rumdeler mellem to rum — fx stue og gang — så det kan opleves fra begge sider, eller som en niche i en enkelt væg der fungerer som rummets naturlige fokuspunkt. Gennemgående akvarier giver den mest dramatiske effekt og det bedste lys men kræver plads på begge sider.",
+          "Placeringen skal tænkes ind i projekteringen fra starten. Et akvarium er tungt — et 500-liters akvarium vejer over 700 kg med vand, sten og udstyr. Det skal stå på et forstærket gulvunderlag og ind til en bærende væg eller en særskilt konstruktion der er dimensioneret til lasten. Dette er ikke noget der efterinstalleres i et eksisterende gulv uden ingeniørvurdering.",
+          "Orienter akvariet så det primære observationspunkt er mod nord eller væk fra direkte sollys. Direkte sollys fremmer algevækst voldsomt og giver en uønsket grønlig mis-farving af vandet. Et akvarium i et nordvendt rum eller beskyttet af mørklægning klarer sig langt bedre.",
+        ],
+      },
+      {
+        heading: "Teknikrum og adgang",
+        paragraphs: [
+          "Et akvarium kræver et teknikrum — et skjult rum bag eller under akvariet til filter, pumper, varmer, CO2-anlæg (til planteakvarier), og reservevand. Teknikrummet bør have minimum 60–80 cm dybde og fuld højde adgang til regelmæssig vedligeholdelse.",
+          "Adgang til akvariet oppefra er nødvendig til fodring og vedligeholdelse. I et vægintegreret akvarium løses det typisk med et låg i loftet over akvariet eller en serviceluge i væggen fra et tilstødende rum. Planlæg adgangsvejen nøje — en serviceluge der kræver at flytte møbler er en garanteret kilde til frustration.",
+          "Vandafløb og rørføring skal integreres i konstruktionen. En vandskade fra et utæt akvarium kan være katastrofal — vælg tykglasede akvarier fra etablerede producenter, og sørg for at gulvet under og væggen bag akvariet er vandtæt behandlet som standard.",
+        ],
+      },
+      {
+        heading: "Konstruktion og glas",
+        paragraphs: [
+          "Et akvarium på 500 liter og derover bør bygges i klarglas — ikke almindeligt floatglas. Klarglas har et minimalt grønt farvestik og giver den reneste, mest transparente visuelle oplevelse. Glastykkelsen beregnes ud fra akvariet højde og vandtryk — for et akvarium på 60 cm vandhøjde kræves typisk 12–15 mm glas i front.",
+          "Rammeløse akvarier — hvor glasset er limet med silicone uden synlige rammer — giver det reneste udtryk og er standardvalget i arkitektintegrede løsninger. Siliconefugerne er det svageste punkt og bør kontrolleres hvert 5–10 år og fornyes ved tegn på aldring.",
+          "En indlyst niche i murværket eller en gipsvægskonstruktion med korrekt fugtspærre er den mest almindelige integrationsmetode. Vægkonstruktionen bag akvariet bør beklædes med vandtæt membran eller fugtisolerende klinker som sikkerhedslag.",
+        ],
+      },
+      {
+        heading: "Belysning",
+        paragraphs: [
+          "Belysning er akvariet vigtigste visuelle element — det er lyset der giver vandet den karakteristiske, levende kvalitet og får fiskenes farver til at fremstå i deres fulde intensitet. Moderne LED-armaturer er standardvalget: de producerer lidt varme, er energieffektive og kan programmereres til at simulere solopgang, middag og solnedgang over en 24-timers cyklus.",
+          "Lysstyrke og farvetemperatur tilpasses akvarietypen. Et tropisk fiskehavsakvarium trives ved 8.000–14.000 Kelvin (blåt, havlignende lys). Et ferskvandsakvarium med planter trives typisk bedst ved 6.500–8.000 Kelvin. Et rent frokvandsakvarium med sten og mørke fisk giver dramatisk effekt med blå og hvid LED i kontrast.",
+          "Tænk akvariebelysningens effekt på det omkringliggende rum ind i projekteringen. Det blå-grønne lys fra et akvarium i en mørk væg kaster en bevægende, levende skygge på loftet og modsatte vægge. Det er spektakulært som aftenstemning — overvej om det er den eneste lyskilde i rummet, eller om det suppleres med konventionel belysning.",
+        ],
+      },
+      {
+        heading: "Vedligeholdelse",
+        paragraphs: [
+          "Et akvarium kræver regelmæssig vedligeholdelse. Vandskift på 10–20% ugentligt eller to-ugenligt, rengøring af glasset for alger, fodring og kontrol af vandkvalitet er de basale opgaver. Med et automatiseret filtreringssystem, automatisk top-up for fordampning og automatisk fodring kan den daglige vedligeholdelse reduceres til et minimum — men aldrig helt elimineres.",
+          "Teknologispring de seneste år har gjort vedligeholdelsen langt mere overkommelig. Avancerede filtreringssystemer med biologisk, mekanisk og kemisk filtrering holder vandkvaliteten stabil over lang tid. Automatiske vandskiftesystemer tilsluttet vandforsyning og afløb kan udføre ugentlige vandskift fuldautomatisk.",
+        ],
+      },
+      {
+        heading: "Arkitektens perspektiv",
+        paragraphs: [
+          "Et vellykket byggede indbygget akvarium kræver tæt koordinering mellem arkitekt, akvariemontør og VVS-installatør fra projektets første fase. Det er ikke et element der tilføjes til sidst — det er et element der definerer rummets udformning og kræver at konstruktion, installationer og indretning planlægges omkring det.",
+          "Hos Yderskov Arkitekter projekterer vi indbyggede akvarier som en integreret del af boligprojektet. Kontakt os for et gratis og uforpligtende første møde.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "boligdetalje-betonbordplade",
     metaTitle: "Boligdetalje #5: Betonbordplade — sådan planlægger du det i dit hjem — Yderskov Arkitekter",
     title: "Boligdetalje #5: Betonbordplade — sådan planlægger du det i dit hjem.",
