@@ -307,6 +307,14 @@ const posts: Post[] = [
     title: "Sådan designer du et sommerhus til udsigtsgrunde — arkitekt vejledning.",
     excerpt: "Et sommerhus på udsigtsgrund skal udnytte udsigten, lyset og naturens kvaliteter. Læs om designprincipper for sommerhuse på udsigtsgrunde.",
   },
+  {
+    href: "/blog/orangeri-ved-huset",
+    date: "20 / 02 / 2024",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    title: "Hvordan designer man et orangeri ved huset?",
+    excerpt: "Et orangeri er en af de mest stemningsfulde tilbygninger du kan give dit hus. Her gennemgår vi placering, konstruktion, glastyper, opvarmning og indretning.",
+  },
 ];
 
 const categories = [

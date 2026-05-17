@@ -1737,6 +1737,71 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "orangeri-ved-huset",
+    metaTitle: "Hvordan designer man et orangeri ved huset? — Yderskov Arkitekter",
+    title: "Hvordan designer man et orangeri ved huset?",
+    description: "Et orangeri er en af de mest stemningsfulde tilbygninger du kan give dit hus. Her gennemgår vi placering, konstruktion, glastyper, opvarmning og indretning.",
+    date: "20 / 02 / 2024",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    lead: "Et orangeri er mere end en tilbygning — det er et rum med helt særlig karakter. Lyset her er anderledes end i resten af huset, temperaturen varierer med årstiderne, og forbindelsen til haven er umiddelbar. Et godt orangeri forlænger boligen og sæsonen på én gang. Her gennemgår vi de vigtigste designgreb.",
+    sections: [
+      {
+        heading: "Hvad er et orangeri?",
+        paragraphs: [
+          "Et orangeri er en glasoverbygning der traditionelt blev brugt til at overvintre citrus- og eksotiske planter. I moderne boligarkitektur er det et rum der kombinerer hus og have — med glasvægge og glasloft der indhenter dagslyset og skaber en levende forbindelse til uderummet hele året.",
+          "Orangeriet adskiller sig fra et drivhus ved at være integreret i boligens arkitektur og brugbart som opholdsrum. Det adskiller sig fra en vinterhave ved typisk at have en enklere konstruktion og et mere udadvendt formål — det er et rum man sidder i og nyder, ikke blot kigger ud igennem.",
+        ],
+      },
+      {
+        heading: "Placering ved huset",
+        paragraphs: [
+          "Orienteringen er den vigtigste beslutning. Et orangeri mod syd får mest sol men kan blive overophedet om sommeren — sørg for solafskærmning og god ventilation. Et orangeri mod øst giver blødt morgenlys og er køligere om eftermiddagen, hvilket gør det velegnet til morgenmadsrum og arbejdsrum. Mod vest indfanger du eftermiddags- og aftensolen — ideelt til afslapning.",
+          "Forbindelsen til huset er afgørende for brugen. Et orangeri der er tilgængeligt direkte fra stuen eller køkkenet bruges langt mere end et der kræver at man går rundt om huset. Den bedste placering er derfor op ad den facade der allerede orienterer sig mod haven og har de vigtigste opholdsrum bagved.",
+          "Husk at tjekke lokalplanen og bygningsreglementet inden du beslutter dig. Et orangeri er en tilbygning og kræver normalt byggetilladelse. Størrelse, placering på grunden og afstand til skel er reguleret og varierer fra kommune til kommune.",
+        ],
+      },
+      {
+        heading: "Konstruktion og materialer",
+        paragraphs: [
+          "De to mest udbredte konstruktionsprincipper er stål og aluminium. Stål giver slanke profiler og et mere elegant udtryk — det er det traditionelle materiale til orangerier og er særlig smukt i sort eller mørkegrå. Aluminium er lettere, kræver næsten ingen vedligeholdelse og er billigere. Begge kan lakeres i valgfri farve.",
+          "Træ er et tredje alternativ der giver et varmere, mere organisk udtryk og passer godt til ældre og traditionelle huse. Det kræver til gengæld mere vedligeholdelse og er mere følsomt over for fugt og temperatursvingninger.",
+          "Fundamentet skal dimensioneres korrekt. Et orangeri er tungere end de fleste tror — glas vejer betydeligt, og konstruktionen skal stå stabilt i mange årtier. En arkitekt eller ingeniør skal beregne fundamentet baseret på jordbundsforhold og konstruktionens vægt.",
+        ],
+      },
+      {
+        heading: "Glastyper og solafskærmning",
+        paragraphs: [
+          "Ikke alt glas er ens. Et orangeri kræver glas der isolerer godt, holder varmen om vinteren og ikke overopheder om sommeren. Energiglas med lav U-værdi er standard i nye orangerier — det reducerer varmetab markant sammenlignet med enkeltlags glas.",
+          "Solafskærmet glas — glas med en coating der reducerer solens varmestråling — er en god investering i et sydvendt orangeri. Det reducerer behovet for markise og aircondition og giver et mere stabilt indeklima gennem hele sæsonen.",
+          "Overdækningen bør have åbningsvinduer eller en ventilationsridse langs toppen. Varm luft stiger og skal have et sted at komme ud — uden ventilation kan et orangeri blive utilholdeligt varmt om sommeren selv med solafskærmet glas.",
+        ],
+      },
+      {
+        heading: "Opvarmning og indeklima",
+        paragraphs: [
+          "Et orangeri med god isolering og energiglas kan bruges store dele af året uden aktiv opvarmning. Men for at bruge det komfortabelt i vinterhalvåret skal det opvarmes. Gulvvarme er den mest diskrete løsning — det varmer jævnt og uden at stjæle plads til radiatorer.",
+          "Tilslutning til husets eksisterende varmesystem er den mest energieffektive løsning. Alternativt kan en lille elradiator eller infrarød varmer bruges til at tage kulden af på de koldeste dage. Undgå gasvarmere indendørs — de giver fugt og kræver god ventilation.",
+          "Luftfugtighed er en særlig udfordring i et orangeri med planter. Planter afgiver fugt, og kombineret med temperaturforskelle kan kondens opstå på glasset. God ventilation og et lille affugtningsanlæg holder fugtniveauet under kontrol.",
+        ],
+      },
+      {
+        heading: "Indretning og brug",
+        paragraphs: [
+          "Det bedste orangeri er det der bruges hele året — ikke kun om sommeren. Det kræver at det er udstyret til mere end bare havemøbler. Et godt orangeribord, behagelige stole, bløde tekstiler der tåler lidt fugt og en god lampe til mørke vinterdage gør orangeriet til et ægte opholdsrum.",
+          "Planter er naturligvis en del af orangeriets DNA. Men vær bevidst om hvilke planter du vælger — ikke alle trives i de temperatur- og lysvariationer der opstår. Succulenter, citrusplanter, bougainvillea og oleanderbuske er klassiske orangeriplanter der klarer sig godt i danske orangerier.",
+        ],
+      },
+      {
+        heading: "Arkitektens rolle",
+        paragraphs: [
+          "Et orangeri der er tegnet som en integreret del af huset — med de rigtige proportioner, de rigtige materialer og den rigtige forbindelse til indendørsarealerne — ser og fungerer fundamentalt anderledes end et standardorangeri fra et katalog.",
+          "Hos Yderskov Arkitekter tegner vi orangerier som en del af boligens helhed. Vi håndterer byggetilladelse, konstruktion og koordinering med håndværkere — og sikrer at orangeriet bliver et rum du bruger og elsker i mange år. Kontakt os for et gratis og uforpligtende første møde.",
+        ],
+      },
+    ],
+  },
 ];
 
 export function getPost(slug: string): BlogPost | undefined {
