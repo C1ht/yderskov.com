@@ -227,6 +227,14 @@ const posts: Post[] = [
     excerpt: "Ovenlys bringer dagslys ind der hvor facadevinduer ikke rækker — og skaber en lysoplevelse der skifter med vejret og årstiderne. Her gennemgår vi typer, placering og hvad du skal tænke på.",
   },
   {
+    href: "/blog/spaomraade-ved-sommerhus",
+    date: "11 / 03 / 2025",
+    cat: "Sommerhus",
+    catKey: "sommerhus",
+    title: "Hvordan designer man et spaområde ved sommerhus?",
+    excerpt: "Et spaområde ved sommerhuset forlænger sæsonen og giver en helt særlig oplevelse i naturen. Her gennemgår vi placering, sauna, spabad, koldt vand og hvad det kræver af byggetilladelse.",
+  },
+  {
     href: "/blog/sommerhus-helarsbrug",
     date: "25 / 02 / 2025",
     cat: "Sommerhus",
