@@ -27,7 +27,7 @@ export const posts: BlogPost[] = [
         heading: "Hvad er et sedumtag?",
         paragraphs: [
           "Et sedumtag er et grønt tag — også kaldet et ekstensivt grønt tag — hvor tagfladen er dækket af et tyndt lag vækstmedie og beplantning af stenurt (sedum). Sedum er en succulent plante der kan overleve ekstreme forhold: langvarig tørke, kraftig frost og direkte sol. Det kræver ingen vanding og næsten ingen vedligeholdelse, når det erst er etableret.",
-          "Sedumtaget er den letteste type grønt tag. Opbygningen vejer typisk 60–120 kg pr. m², afhængig af vækstmedietykkelsen. Det gør det velegnet til eksisterende tagkonstruktioner der ikke er bygget til den tungere belastning fra intensive grønne tage med jord og busker.",
+          "Sedumtaget er den letteste type grønt tag. Opbygningen vejer typisk 60–120 kg pr. m², afhængig af vækstmedietykkelsen. Det gør det velegnet til eksisterende tagkonstruktioner der ikke er bygget til den tungere belastning fra intensive grønne tage med jord og buske.",
           "Taget leveres oftest som færdige sedummåtter der rulles ud på tagfladen — præcis som en græsplæne på ruller. Alternativt kan det etableres med frø eller stiklinger, men det tager længere tid at gro til.",
         ],
       },
