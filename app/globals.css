@@ -221,7 +221,7 @@ body.menu-open { overflow: hidden; }
 .hero-form input::placeholder, .hero-form textarea::placeholder { color: var(--light); font-weight: 400; }
 .hero-form select {
   color: var(--light); appearance: none; -webkit-appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='5' viewBox='0 0 8 5'%3E%3Cpath fill='%23999' d='M0 0l4 5 4-5z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='7' viewBox='0 0 9 7'%3E%3Cpath d='M0.5 1L4.5 5.5L8.5 1' fill='none' stroke='%23a8a8a4' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
   background-repeat: no-repeat; background-position: right 0.8rem center;
   padding-right: 1.8rem;
 }
