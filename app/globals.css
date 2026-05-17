@@ -357,7 +357,7 @@ body.menu-open { overflow: hidden; }
 .process-step-title { font-size: 0.82rem; font-weight: 400; color: var(--text); margin-bottom: 0.4rem; }
 .process-step-desc { font-size: 0.75rem; font-weight: 300; color: var(--sub); line-height: 1.6; }
 @media (max-width: 900px) { .process-steps { grid-template-columns: repeat(2,1fr); } }
-@media (max-width: 600px) { .process-steps { grid-template-columns: 1fr; } }
+@media (max-width: 600px) { .process-steps { grid-template-columns: repeat(2, 1fr); } }
 
 /* ── FAQ ── */
 .faq-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--border); border-radius: 16px; overflow: hidden; margin-top: 2rem; }
