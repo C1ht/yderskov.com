@@ -221,10 +221,10 @@ body.menu-open { overflow: hidden; }
 .hero-body { position: relative; z-index: 2; display: flex; flex-direction: column; justify-content: center; padding: 5rem 5%; }
 .hero-main { display: flex; align-items: flex-start; gap: 4rem; }
 .hero-left { flex: 1; color: #fff; min-width: 0; }
-.hero-left-super { font-size: clamp(2.8rem, 7vw, 5.5rem); font-weight: 300; letter-spacing: -0.04em; line-height: 1; margin-bottom: 0.4rem; color: #fff; }
+.hero-left-super { font-size: clamp(2.8rem, 7vw, 5.5rem); font-weight: 400; letter-spacing: -0.04em; line-height: 1; margin-bottom: 0.4rem; color: #fff; text-shadow: 0 1px 8px rgba(0,0,0,0.45); }
 .hero-tag { font-size: clamp(1.82rem, 4.55vw, 3.575rem); }
-.hero-left-title { font-size: clamp(1.4rem, 3.5vw, 2.6rem); font-weight: 300; letter-spacing: -0.02em; line-height: 1.08; margin-bottom: 1.25rem; color: #fff; }
-.hero-left-sub { font-size: 1rem; font-weight: 400; color: #fff; line-height: 1.7; margin-bottom: 0.5rem; }
+.hero-left-title { font-size: clamp(1.4rem, 3.5vw, 2.6rem); font-weight: 400; letter-spacing: -0.02em; line-height: 1.08; margin-bottom: 1.25rem; color: #fff; text-shadow: 0 1px 8px rgba(0,0,0,0.45); }
+.hero-left-sub { font-size: 1rem; font-weight: 400; color: rgba(255,255,255,0.92); line-height: 1.7; margin-bottom: 0.5rem; text-shadow: 0 1px 6px rgba(0,0,0,0.4); }
 .hero-24h { display: inline-flex; align-items: center; gap: 0.4rem; margin-top: 1rem; font-size: 0.825rem; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: #fff; }
 .hero-24h::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: #6fcf97; flex-shrink: 0; }
 .hero-mini-quote { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.5); font-size: 0.95rem; font-weight: 400; color: #fff; line-height: 1.65; font-style: italic; }
