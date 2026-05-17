@@ -421,11 +421,13 @@ function parseDate(dateStr: string): Date {
 
 export default function BlogPage() {
   const [active, setActive] = useState("alle");
+  const [sortAsc, setSortAsc] = useState(false);
 
   const today = new Date();
   today.setHours(0, 0, 0, 0);
   const published = posts.filter((p) => parseDate(p.date) <= today);
-  const filtered = active === "alle" ? published : published.filter((p) => p.catKey === active);
+  const filtered = (active === "alle" ? published : published.filter((p) => p.catKey === active));
+  const sorted = sortAsc ? [...filtered].reverse() : filtered;
 
   return (
     <>
@@ -462,10 +464,16 @@ export default function BlogPage() {
                 {cat.label}
               </button>
             ))}
+            <button
+              className={`blog-filter-btn${sortAsc ? " active" : ""}`}
+              onClick={() => setSortAsc((s) => !s)}
+            >
+              {sortAsc ? "Ældste først" : "Nyeste først"}
+            </button>
           </div>
 
           <div className="post-grid">
-            {filtered.map((post) => (
+            {sorted.map((post) => (
               <Link key={post.href} href={post.href} className="post-card">
                 <span className="post-date">{post.date}</span>
                 <span className="post-cat">{post.cat}</span>
