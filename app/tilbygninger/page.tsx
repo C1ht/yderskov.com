@@ -31,7 +31,7 @@ const projectGalleries = [
     images: [
       { src: "/images/Leonoravej villa tilbygning/IMG_7376.webp", alt: "Villa med tilbygning — Yderskov Arkitekter" },
       { src: "/images/Leonoravej villa tilbygning/IMG_7378.webp", alt: "Villa med tilbygning — Yderskov Arkitekter" },
-      { src: "/images/Leonoravej villa tilbygning/IMG_7379.webp", alt: "Villa med tilbygning — Yderskov Arkitekter" },
+      { src: "/images/Leonoravej villa tilbygning/IMG_7379.webp", alt: "Villa med tilbygning — Yderskov Arkitekter", imgStyle: { transform: "rotate(90deg) scale(1.45)", transformOrigin: "center" } },
     ],
     dark: false,
   },
