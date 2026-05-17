@@ -562,7 +562,7 @@ body.menu-open { overflow: hidden; }
 .calc-input:focus { border-color: var(--accent); }
 .calc-input::-webkit-inner-spin-button, .calc-input::-webkit-outer-spin-button { opacity: 0.4; }
 .calc-unit { position: absolute; right: 0.85rem; font-size: 0.8rem; color: var(--light); pointer-events: none; }
-.calc-result { margin-top: 2rem; padding: 1.75rem; border: 1px solid var(--border); border-radius: 55px; opacity: 0; transform: translateY(6px); transition: opacity 0.2s, transform 0.2s; pointer-events: none; }
+.calc-result { margin-top: 2rem; padding: 1.75rem; border: 1px solid var(--border); border-radius: 16px; opacity: 0; transform: translateY(6px); transition: opacity 0.2s, transform 0.2s; pointer-events: none; }
 .calc-result-visible { opacity: 1; transform: none; pointer-events: auto; }
 .calc-result-row { display: flex; justify-content: space-between; align-items: baseline; padding: 0.5rem 0; }
 .calc-result-label { font-size: 0.82rem; font-weight: 300; color: var(--sub); }
@@ -770,7 +770,7 @@ body.menu-open { overflow: hidden; }
 @media (max-width: 900px) { .pb-intro-grid { grid-template-columns: 1fr; } .pb-intro-img { height: 280px; } }
 
 /* Tidslinje */
-.pb-timeline { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; margin-top: 2.5rem; border: 1px solid var(--border); border-radius: 44px; overflow: hidden; }
+.pb-timeline { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; margin-top: 2.5rem; border: 1px solid var(--border); border-radius: 16px; overflow: hidden; }
 .pb-tl-step { padding: 1.75rem 1.5rem; border-right: 1px solid var(--border); border-bottom: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.75rem; background: var(--white); transition: background 0.15s; }
 .pb-tl-step:nth-child(4n) { border-right: none; }
 .pb-tl-step:nth-child(5), .pb-tl-step:nth-child(6), .pb-tl-step:nth-child(7), .pb-tl-step:nth-child(8) { border-bottom: none; }
@@ -787,7 +787,7 @@ body.menu-open { overflow: hidden; }
 .pb-usp-num { flex-shrink: 0; width: 2rem; height: 2rem; border: 1px solid var(--border); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.72rem; font-weight: 400; color: var(--sub); }
 .pb-usp-title { font-size: 0.88rem; font-weight: 400; color: var(--text); margin-bottom: 0.25rem; }
 .pb-usp-body { font-size: 0.8rem; font-weight: 300; color: var(--sub); line-height: 1.65; }
-.pb-disclaimer { padding: 1.5rem; border: 1px solid var(--border); border-radius: 22px; }
+.pb-disclaimer { padding: 1.5rem; border: 1px solid var(--border); border-radius: 16px; }
 .pb-disclaimer-title { font-size: 0.78rem; font-weight: 400; color: var(--text); margin-bottom: 0.5rem; }
 .pb-disclaimer-body { font-size: 0.75rem; font-weight: 300; color: var(--sub); line-height: 1.75; }
 .pb-contact { display: flex; align-items: flex-end; justify-content: space-between; gap: 2rem; flex-wrap: wrap; }
