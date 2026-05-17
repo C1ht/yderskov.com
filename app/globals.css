@@ -579,7 +579,7 @@ body.menu-open { overflow: hidden; }
 .calc-guide-step { font-size: 0.82rem; font-weight: 300; color: var(--sub); line-height: 1.65; display: flex; gap: 0.9rem; align-items: baseline; }
 .calc-guide-step span { flex-shrink: 0; width: 1.6rem; height: 1.6rem; border: 1px solid var(--text); border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 0.7rem; font-weight: 500; color: var(--text); }
 .calc-guide-step strong { font-weight: 500; color: var(--text); }
-.calc2 { margin-top: 2rem; border: 1px solid var(--border); border-radius: 88px; overflow: hidden; box-shadow: 0 2px 24px rgba(0,0,0,0.06); }
+.calc2 { margin-top: 2rem; border: 1px solid var(--border); border-radius: 16px; overflow: hidden; box-shadow: 0 2px 24px rgba(0,0,0,0.06); }
 
 /* Top-felt: Grund · Areal · Rum */
 .calc2-top { display: flex; flex-wrap: wrap; gap: 2rem 3rem; padding: 2rem 2.5rem; background: var(--dark); }
