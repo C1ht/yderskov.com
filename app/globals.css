@@ -248,7 +248,7 @@ body.menu-open { overflow: hidden; }
   .hero { height: auto; min-height: 100svh; }
   .hero-body { padding: 2.5rem 1.25rem 2rem; }
   .hero-main { flex-direction: column; gap: 2rem; }
-  .hero-right { width: 100%; padding-top: 0; }
+  .hero-right { display: none; }
   .hero-tabs { display: none; }
   .hero-mini-quote { display: none; }
 }
