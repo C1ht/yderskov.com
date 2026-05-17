@@ -187,6 +187,22 @@ const posts: Post[] = [
     excerpt: "Et godt bryggers løser vasketøj, opbevaring og det praktiske liv uden at det går ud over resten af boligen. Her gennemgår vi størrelse, placering, udstyr og indretning.",
   },
   {
+    href: "/blog/boligdetalje-betonbordplade",
+    date: "22 / 04 / 2025",
+    cat: "Boligdetaljer",
+    catKey: "boligdetalje",
+    title: "Boligdetalje #5: Betonbordplade — sådan planlægger du det i dit hjem.",
+    excerpt: "En betonbordplade er unik, holdbar og kan formes frit. Her gennemgår vi støbt versus præfabrikeret, overfladebehandling, forsegling og hvad du skal tænke på i køkken og badeværelse.",
+  },
+  {
+    href: "/blog/boligdetalje-betongulv",
+    date: "15 / 04 / 2025",
+    cat: "Boligdetaljer",
+    catKey: "boligdetalje",
+    title: "Boligdetalje #4: Betongulv — sådan planlægger du det i dit hjem.",
+    excerpt: "Et betongulv er sømløst, holdbart og tidløst. Her gennemgår vi poleret beton, microcement, gulvvarme, revnedannelse og hvad du skal vide inden du vælger det.",
+  },
+  {
     href: "/blog/bolig-med-niveauer",
     date: "08 / 04 / 2025",
     cat: "Villa & boligdesign",

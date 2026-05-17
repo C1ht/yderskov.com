@@ -14,6 +14,122 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "boligdetalje-betonbordplade",
+    metaTitle: "Boligdetalje #5: Betonbordplade — sådan planlægger du det i dit hjem — Yderskov Arkitekter",
+    title: "Boligdetalje #5: Betonbordplade — sådan planlægger du det i dit hjem.",
+    description: "En betonbordplade er holdbar, unik og kan formes frit. Her gennemgår vi støbt versus præfabrikeret, overflader, forseglingg og hvad du skal tænke på i køkken og badeværelse.",
+    date: "22 / 04 / 2025",
+    cat: "Boligdetaljer",
+    catKey: "boligdetalje",
+    lead: "En betonbordplade er en af de mest karakterfulde overflader du kan vælge i et køkken eller badeværelse. Den er komplet unik — støbt på stedet eller præfabrikeret til det præcise mål — og giver en tyngde og et udtryk som ingen laminat- eller stenbordplade kan kopiere. Her gennemgår vi hvad du skal vide inden du vælger det.",
+    sections: [
+      {
+        heading: "Hvad er en betonbordplade?",
+        paragraphs: [
+          "En betonbordplade er en arbejdsflade støbt i beton — enten direkte på stedet (in-situ) eller præfabrikeret i værksted og monteret efterfølgende. I modsætning til natursten og kompositmaterialer er beton et unikt materiale: ingen to plader er ens. Overfladen bærer præg af støbeprocessen — svage variationer i farve, mikroporer og det karakteristiske betonudtryk.",
+          "Betonfarvens naturlige gråtone kan modificeres med pigmenter — fra hvid og beige til antracit og næsten sort. Kombineret med forskellige overfladebehandlinger — sleben, poleret, syrevasket eller råt — giver det et meget bredt designspektrum inden for ét materiale.",
+        ],
+      },
+      {
+        heading: "In-situ versus præfabrikeret",
+        paragraphs: [
+          "En in-situ støbt betonbordplade støbes direkte på de eksisterende skabe med en forskalling der definerer form og kant. Det giver den største designfrihed — kantprofiler, integrerede vaske og særlige former er mulige — men kræver erfarne håndværkere og en nøje planlagt støbeproces. Hærdningstiden er typisk 28 dage før pladen kan tages i brug.",
+          "En præfabrikeret betonbordplade produceres i værksted, hærder kontrolleret og monteres som en færdig plade. Det giver en mere jævn overflade og kortere arbejdstid på stedet — men sætter grænser for størrelsen: tunge plader på over 2,5 meter er vanskelige at transportere og montere i snævre rum.",
+          "Vægten er et vigtigt parameter. En betonbordplade på 5 cm er cirka tre gange tungere end en granitplade af samme dimension. Sørg for at skabskonstruktionen — og gulvet under — er dimensioneret til lasten inden du vælger materialet.",
+        ],
+      },
+      {
+        heading: "Overfladebehandling og forsegling",
+        paragraphs: [
+          "Rå beton er porøs og suger fedt, syre og farvestoffer med det samme. En betonbordplade i et køkken skal altid forsegles — enten med epoxy, polyuretan eller et specialiseret penetrerende beton-sealer. Valget af sealer påvirker udtrykket: en mat sealer bevarer betonens naturlige, lette overflade; en blank sealer giver en mere poleret, plastisk finish.",
+          "Forseglingen skal genopfriskes. Afhængigt af produktet og brugsintensiteten typisk hvert 1–3 år. Det er ikke et argument imod betonbordplader — men det er noget du skal planlægge og acceptere som en del af materialets vedligeholdelse.",
+          "En sleben og poleret overflade — behandlet med diamantslibning i flere trin — giver en tættere, mere vandafvisende flade end en råstøbt overflade og kræver mindre vedligeholdelse. Det er den mest holdbare finish til køkkenbrug.",
+        ],
+      },
+      {
+        heading: "Betonbordplade i køkkenet",
+        paragraphs: [
+          "I køkkenet giver betonbordpladen et industrielt, råt udtryk der spiller godt op mod trækøkkener, hvide volumer og rustfri stål. Den kan støbes med integreret vask — enten med fald direkte i betonoverfladen eller med et indstøbt vaske-indlæg — hvilket giver en rent, sømløs flade der er let at holde ren.",
+          "Beton tåler varme dårligere end de fleste tror. Varme gryder og pander skal aldrig sættes direkte på en forseglet betonoverflade — det kan misfarve forseglingen og efterlade permanente mærker. Brug altid en underlagsplade.",
+          "Syrer er betonens fjende. Citronsaft, eddike og rødvin angriber ubehandlet beton hurtigt — og kan stadig trænge igennem en svag forsegling. Spild skal tørres op med det samme. Med en god forsegling og fornuftig brug er betonbordpladen til gengæld et meget holdbart køkkenmateriale.",
+        ],
+      },
+      {
+        heading: "Betonbordplade på badeværelset",
+        paragraphs: [
+          "På badeværelset er betonbordpladen et populært valg under håndvasken — enten som en fri plade med undermonteret vask eller støbt med integreret vask i ét stykke. Det sømløse udtryk er betonens store fordel her: ingen samlinger der kan samle snavs og fugt.",
+          "Et badeværelse er et fugtigt miljø. Forseglingen er endnu vigtigere her end i køkkenet. Vælg altid et produkt der er godkendt til vådrum og sørg for at kanter og undersider er forseglet mindst ligeså omhyggeligt som overfladen.",
+          "Farve og finish på badeværelsets betonbordplade bør afstemmes med rummets øvrige materialer. En hvid pigmenteret, mat-forseglet plade giver et mere minimalistisk, nordisk udtryk; en naturgrå poleret flade giver et råere, industrielt look.",
+        ],
+      },
+      {
+        heading: "Arkitektens perspektiv",
+        paragraphs: [
+          "En betonbordplade er en bevidst designbeslutning — ikke et standardvalg. Den kræver erfarne håndværkere, omhyggelig projektering og en bygherre der accepterer materialets levende karakter: de små variationer, de synlige porer og det faktum at overfladen ændrer sig lidt over tid.",
+          "Hos Yderskov Arkitekter projekterer vi betonbordplader som en integreret del af køkken- og badeværelsesdesignet — fra støbedetalje og kanprofil til valg af forsegling og vedligeholdelsesplan. Kontakt os for et gratis og uforpligtende første møde.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "boligdetalje-betongulv",
+    metaTitle: "Boligdetalje #4: Betongulv — sådan planlægger du det i dit hjem — Yderskov Arkitekter",
+    title: "Boligdetalje #4: Betongulv — sådan planlægger du det i dit hjem.",
+    description: "Et betongulv er holdbart, sømløst og tidløst. Her gennemgår vi poleret beton, microcement, gulvvarme, revnedannelse og hvad du skal tænke på inden du vælger det.",
+    date: "15 / 04 / 2025",
+    cat: "Boligdetaljer",
+    catKey: "boligdetalje",
+    lead: "Et betongulv er et af de mest tidløse og holdbare gulvmaterialer du kan vælge. Det er sømløst, kræver minimal vedligeholdelse og giver rum en rolig, monolitisk kvalitet der er svær at opnå med fliser eller trægulv. Her gennemgår vi hvad du skal vide inden du vælger betongulv.",
+    sections: [
+      {
+        heading: "Typer af betongulv",
+        paragraphs: [
+          "Betongulv dækker over flere forskellige produkter og teknikker. Det klassiske slibne betongulv — støbt i situ, hærdet og derefter sleben og poleret med diamantværktøj — er det mest holdbare og autentiske. Det giver et gulv med synlig tilslag, naturlige variationer og en overflade der bliver smukkere med alderen.",
+          "Microcement er et tyndtpåført cementbaseret system — typisk 2–3 mm — der kan påføres direkte på eksisterende fliser, beton eller svømmegulv. Det giver et betonlignende udtryk uden de tekniske krav til et støbt betongulv. Egnet til renovering og til rum med begrænsede konstruktionshøjder. Det er dog et andet produkt end støbt beton og har andre egenskaber.",
+          "Betonfliser og betonelementer er præfabrikerede alternativer der giver et lignende udtryk med lettere montering og ingen hærdetid. De mangler det sømløse udtryk fra et støbt gulv — men er et godt alternativ i situationer hvor gulvkonstruktionen ikke kan bære et nyt betonstøb.",
+        ],
+      },
+      {
+        heading: "Gulvvarme og betongulv",
+        paragraphs: [
+          "Beton er et ideelt materiale til gulvvarme. Den høje varmelagringsevne betyder at gulvet optager varmen langsomt og afgiver den jævnt og vedvarende — en meget behagelig varmeform. Til gengæld reagerer et betongulv med gulvvarme langsomt på termostatjusteringer: det tager timer at varme op og nedkøle. Det er ikke et problem i praksis — det kræver blot at man regulerer efter vejrudsigten, ikke det øjeblikkelige behov.",
+          "Gulvvarmeslangerne skal placeres korrekt i betonstøbet for at undgå temperaturforskelle i gulvet. En arkitekt eller ingeniør bør beregne slangeafstand og vandtemperatur i relation til gulvtykkelsen og rummets varmebehov. For tyndt betondække over slangerne øger risikoen for revnedannelse; for tykt reducerer det effektiviteten.",
+        ],
+      },
+      {
+        heading: "Revnedannelse — og hvordan du undgår det",
+        paragraphs: [
+          "Beton revner. Det er materialets natur, og ingen støbt betonkonstruktion er 100% revnefri. Spørgsmålet er om revnerne er strukturelle eller æstetiske — og om du kan leve med dem.",
+          "De vigtigste forebyggende tiltag er: korrekt armering (fiberbeton eller stålnet), tilstrækkelig hærdetid inden belastning, fuger ved dørkarme og overgange der tillader bevægelse, og en kontrolleret udtørring — beton der tørrer for hurtigt revner. En erfaren betonentreprenør kender til disse forholdsregler og planlægger støbet derefter.",
+          "Eksisterende fine hårrevner i et betongulv er typisk udelukkende æstetiske og påvirker ikke gulvets funktion. De kan forsegles med en penetrerende sealer og er for mange en del af betonens karakter. Større revner bør undersøges af en bygningsingeniør.",
+        ],
+      },
+      {
+        heading: "Overflade og forsegling",
+        paragraphs: [
+          "Et råt, ubehandlet betongulv er porøst og suger pletter med det samme. Alle betongulve i boliger skal forsegles — enten med en penetrerende litiumsilikat-sealer der reagerer med betonens kalk og giver en mat, naturlig overflade, eller med en filmskabende sealer (epoxy, polyuretan) der giver en mere beskyttende, let glansfuld overflade.",
+          "Slibegrad og polering afgør udtrykkets karakter. Et grovsleben gulv giver et råt, industrielt look med synlige sten og porer. Et finsleben og poleret gulv giver en næsten spejlblank overflade med dybe refleksioner. Vælg slibegraden i relation til rummets øvrige materialer og det udtryk du ønsker.",
+          "Forseglingen skal genopfriskes. En penetrerende sealer holder typisk 3–5 år; en filmskabende sealer 5–10 år afhængigt af slidbelastningen. I en bolig med normal brug er det et overkommeligt vedligeholdelsesinterval.",
+        ],
+      },
+      {
+        heading: "Betongulv i praksis",
+        paragraphs: [
+          "Et betongulv er koldt at gå på med bare fødder uden gulvvarme — kombinationen betongulv og gulvvarme er næsten obligatorisk i danske boliger. Det er hårdt — fald kan give skader som på fliser, og det er ubehageligt at stå på i lange perioder uden ordentlig fodtøj eller måtte.",
+          "Akustisk er beton et hårdt materiale der reflekterer lyd. I store, åbne rum med betongulv og hårde vægge kan rumklangen blive meget lang. Blød indretning — tæpper, gardiner, bløde møbler — er næsten nødvendig for at skabe en behagelig akustik.",
+          "Til gengæld er betongulvet ekstremt holdbart. Med korrekt forsegling og vedligeholdelse holder det hele husets levetid uden udskiftning. Det er en investering der betaler sig tilbage over tid.",
+        ],
+      },
+      {
+        heading: "Arkitektens greb",
+        paragraphs: [
+          "Et betongulv planlægges bedst fra projekteringens start. Konstruktionshøjden skal reserveres, gulvvarmesystemet dimensioneres, og overgangene til andre gulvmaterialer skal detaljeres. Et betongulv der er eftertænkt ind i et eksisterende projekt giver sjældent det bedste resultat.",
+          "Hos Yderskov Arkitekter tegner vi betongulve som en integreret del af boligens materialestrategi — fra konstruktionsdetalje og slibegrad til valg af forsegling og vedligeholdelsesplan. Kontakt os for et gratis og uforpligtende første møde.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "bolig-med-niveauer",
     metaTitle: "Design af bolig med niveauer — split-level og terrænfølgende huse — Yderskov Arkitekter",
     title: "Design af bolig med niveauer — sådan udnytter du højdeforskellene.",
