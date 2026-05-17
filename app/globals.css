@@ -169,7 +169,7 @@ body.menu-open { overflow: hidden; }
   padding: 0.65rem 0 0.4rem; z-index: 300;
 }
 .nav-dropdown.nav-dropdown-closing {
-  animation: navDropOut 0.6s ease forwards;
+  animation: navDropOut 2.5s ease forwards;
   pointer-events: none;
 }
 .nav-dropdown li a {

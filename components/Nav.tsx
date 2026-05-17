@@ -71,7 +71,7 @@ export default function Nav() {
       setTimeout(() => {
         setActiveDropdown(null);
         setClosingDropdown(false);
-      }, 600);
+      }, 2500);
     }, 2000);
     return () => {
       cancelAnimationFrame(raf);
