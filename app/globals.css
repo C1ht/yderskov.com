@@ -379,7 +379,7 @@ body.menu-open { overflow: hidden; }
 .blog-head .sec-hed { color: #e8e8e4; }
 .blog-see { font-size: 0.75rem; font-weight: 300; color: #c0bfbb; }
 .blog-see:hover { opacity: 0.75; }
-.bgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: #2c2c2a; border-radius: 66px; overflow: hidden; }
+.bgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: #2c2c2a; border-radius: 16px; overflow: hidden; }
 .bcard { display: block; background: #242422; padding: 2rem 1.75rem; transition: background 0.15s; }
 .bcard:hover { background: #2a2a28; }
 .bdate { font-size: 0.62rem; font-weight: 300; color: #888884; letter-spacing: 0.08em; display: block; margin-bottom: 0.85rem; }
