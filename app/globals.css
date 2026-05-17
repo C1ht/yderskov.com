@@ -800,7 +800,7 @@ body.menu-open { overflow: hidden; }
 @media (max-width: 600px) { .pb-contact { flex-direction: column; align-items: flex-start; } }
 
 /* ── BLOG PAGE (light bg) ── */
-.post-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--border); border-radius: 66px; overflow: hidden; margin-top: 2rem; }
+.post-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--border); border-radius: 16px; overflow: hidden; margin-top: 2rem; }
 .post-card { background: var(--white); padding: 2rem 1.75rem; display: block; transition: background 0.15s; }
 .post-card:hover { background: #f7f6f3; }
 .post-date { font-size: 0.62rem; font-weight: 300; color: var(--light); letter-spacing: 0.08em; display: block; margin-bottom: 0.5rem; }
