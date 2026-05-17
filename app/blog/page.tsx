@@ -211,12 +211,36 @@ const posts: Post[] = [
     excerpt: "Hvad er forskellen på arkitekthonorar og fast pris? Her forklarer vi forskellen – og hvorfor vi hos Yderskov tilbyder fast pris med fuld gennemsigtighed.",
   },
   {
+    href: "/blog/bryggers",
+    date: "15 / 12 / 2025",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    title: "Hvordan planlægger man et bryggers?",
+    excerpt: "Et godt bryggers løser vasketøj, opbevaring og det praktiske liv uden at det går ud over resten af boligen. Her gennemgår vi størrelse, placering, udstyr og indretning.",
+  },
+  {
+    href: "/blog/ovenlys",
+    date: "04 / 03 / 2025",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    title: "Hvornår giver ovenlys mening i en bolig?",
+    excerpt: "Ovenlys bringer dagslys ind der hvor facadevinduer ikke rækker — og skaber en lysoplevelse der skifter med vejret og årstiderne. Her gennemgår vi typer, placering og hvad du skal tænke på.",
+  },
+  {
     href: "/blog/sommerhus-helarsbrug",
     date: "25 / 02 / 2025",
     cat: "Sommerhus",
     catKey: "sommerhus",
     title: "Drømmer du om at bo fast i dit sommerhus?",
     excerpt: "Mange drømmer om et sommerhus der kan bruges hele året – men hvad siger reglerne egentlig? Her giver vi dig svaret.",
+  },
+  {
+    href: "/blog/gaardrum",
+    date: "18 / 02 / 2025",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    title: "Hvordan designer man et gårdrum ved huset?",
+    excerpt: "Et gårdrum giver et beskyttet, intimt uderum der bruges langt mere end en åben have. Her gennemgår vi placering, proportioner, belægning, beplantning og hvad det kræver af huset.",
   },
   // 2024
   {

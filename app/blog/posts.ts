@@ -1294,6 +1294,123 @@ export const posts: BlogPost[] = [
     ],
   },
   {
+    slug: "bryggers",
+    metaTitle: "Hvordan planlægger man et bryggers? — Yderskov Arkitekter",
+    title: "Hvordan planlægger man et bryggers?",
+    description: "Et godt bryggers løser vasketøj, opbevaring og det praktiske liv — uden at det går ud over resten af boligen. Her gennemgår vi størrelse, placering, udstyr og indretning.",
+    date: "15 / 12 / 2025",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    lead: "Et bryggers er en af de mest undervurderede rum i en bolig. Et velplanlagt bryggers tager det praktiske arbejde ud af køkkenet, samler vasketøj og opbevaring ét sted — og giver familien et rum der bare fungerer. Her gennemgår vi hvad du skal tænke på når du planlægger dit bryggers.",
+    sections: [
+      {
+        heading: "Hvad er et bryggers?",
+        paragraphs: [
+          "Et bryggers — også kaldet et bryggers, vaskerum eller skyllerum — er et arbejdsrum der aflaster resten af boligen for de praktiske funktioner: vasketøj, opbevaring af rengøringsmidler, fodtøj og overtøj, og ofte en ekstra indgang fra haven eller garagen.",
+          "I traditionelle danske huse lå bryggerset bag køkkenet som et halvmørkt rum til vask og opbevaring. I moderne boliger er det ved at genopfinde sig selv — som et velbelyst, organiseret rum der er tænkt ind i planløsningen fra start og ikke blot tilpasset den plads der var tilovers.",
+        ],
+      },
+      {
+        heading: "Placering i boligen",
+        paragraphs: [
+          "Det vigtigste spørgsmål er om bryggerset skal have indgang fra haven, fra garagen eller fra begge. Et bryggers der fungerer som slusezone fra haven er ideelt for børnefamilier — støvlerne sættes af, jakken hænges op og hænderne vaskes inden man træder ind i resten af huset.",
+          "Placér bryggerset tæt på soveafdelingen hvis du vil undgå lange ture med vasketøjet. En vaske-/tørrekæde der er to-tre rum fra der tøjet produceres — soveværelserne — er en hverdagsgenerator der slides på. En placering i mellemzonen mellem soveafdeling og køkken er ofte den bedste kompromis.",
+          "Vær opmærksom på støj. Vaskemaskinen vibrerer. Et bryggers der støder direkte op til et soveværelse eller en stue bør have en lydabsorberende dør og evt. flydende gulv under maskinerne. Placerer du bryggerset mod et uudnyttet rum, en garage eller facade er problemet løst fra start.",
+        ],
+      },
+      {
+        heading: "Størrelse og mål",
+        paragraphs: [
+          "Et funktionelt bryggers til én familie kræver mindst 5–6 m². Herunder er plads til vaskemaskine og tørretumbler side om side, en håndvask, en bænk til at sortere og folde tøj, og lidt åben hyldeplads.",
+          "Har du plads til 8–10 m² åbner mulighederne sig: en ekstra fryser, opbevaring af sports- og fritidsudstyr, et ekstra toilet, eller et rum der også kan fungere som teknisk rum med varmepumpe og varmtvandsbeholder.",
+          "Minimumsbredden for en funktionel bryggersgangzone er 90 cm — nok til at åbne maskinlågen og vende sig med en vasketøjskurv. En bredde på 120 cm er mere komfortabel og anbefales hvis pladsen er til det.",
+        ],
+      },
+      {
+        heading: "Udstyr og installationer",
+        paragraphs: [
+          "Planlæg installationerne fra start. Et bryggers kræver: koldtvandstilslutning til vaskemaskine og håndvask, afløb, 400V-stik hvis du vil have en kondenstørretumbler med varmepumpe (de mest energieffektive), og ventilation der afleder fugtig luft direkte ud — ikke ind i resten af huset.",
+          "En håndvask er ikke et luksusvalg — det er en funktion. Snavset fra haven, malerpenslerne, hunden der kom ind i regnen — alt det klares i bryggerset og ikke i køkkenvasken. Gør vasken bred og dyb nok til at vaske en dørmat eller plante en potteplante.",
+          "Overvej et betonudstøbt gulv med afløb i stedet for et traditionelt gulv med klinker. Det letter rengøringen når der spildes, giver et industrielt udtryk og er ekstremt holdbart. Kombiner med gulvvarme og bryggerset er behageligt at opholde sig i hele året.",
+        ],
+      },
+      {
+        heading: "Opbevaring og indretning",
+        paragraphs: [
+          "Et bryggers der ikke har nok opbevaring fylder over på resten af boligen. Planlæg: hylder til rengøringsmidler og kemikalier (gerne låst eller højt placeret hvis der er børn), en bænk med opbevaring nedenunder til fodtøj, og krogtavle til overtøj — minimum ét sæt pr. husstand.",
+          "En stang til at hænge nytøjet op inden det lægges i tørretumbleren sparer tid og energi. Montér den på tværs af rummet under loftet eller oven over tørretumbleren — og sørg for at der er minimum 50 cm frihøjde til tøjet.",
+          "Lad være med at spare på belysningen. Et bryggers med ét loft-spot er et rum du undgår. To eller tre spot der dækker alle arbejdszoner gør bryggerset til et rum du kan lide at bruge.",
+        ],
+      },
+      {
+        heading: "Arkitektens greb",
+        paragraphs: [
+          "Det bedste bryggers er det du aldrig tænker over — fordi det bare fungerer. Det kræver at det er tænkt ind i boligens planløsning fra start og ikke blot placeret der hvor der var plads.",
+          "Hos Yderskov Arkitekter tegner vi bryggerset som en integreret del af boligens planløsning — med præcis de installationer, mål og indretningselementer der passer til din families hverdag. Kontakt os for et gratis og uforpligtende første møde.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "ovenlys",
+    metaTitle: "Hvornår giver ovenlys mening i en bolig? — Yderskov Arkitekter",
+    title: "Hvornår giver ovenlys mening i en bolig?",
+    description: "Ovenlys bringer dagslys ind der hvor facadevinduer ikke rækker. Her gennemgår vi hvornår det giver mening, hvilke typer der findes, og hvad du skal tænke på.",
+    date: "04 / 03 / 2025",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    lead: "Ovenlys er et af arkitektens mest kraftfulde værktøjer. Det bringer dagslys ind i dele af boligen der ikke kan nås af facadevinduer — og det skaber en helt særlig lysoplevelse der skifter med vejret og årstiderne. Her gennemgår vi hvornår ovenlys giver mening, hvilke typer der findes, og hvad du skal tænke på.",
+    sections: [
+      {
+        heading: "Hvad er ovenlys?",
+        paragraphs: [
+          "Ovenlys er vinduer placeret i taget eller i en skrå tagflade — i modsætning til facadevinduer der sidder i de lodrette ydervægge. Ovenlys indbefatter alt fra klassiske tagvinduer til store glaspartier i flade tage, fra sidelys i ovenlyskuppel til smalle lysbånd langs en tagflade.",
+          "Fælles for alle former for ovenlys er at de bringer lys ind fra oven — og at lyset derfra opfører sig fundamentalt anderledes end lyset fra et facadevindue. Overlyslys er diffust, det ændrer sig dramatisk med solens stilling og årstiderne, og det illuminerer rum på en måde der giver en næsten teatralsk kvalitet.",
+        ],
+      },
+      {
+        heading: "Hvornår giver ovenlys mening?",
+        paragraphs: [
+          "Ovenlys er særligt værdifuldt i tre situationer. Den første er rum der ikke kan belyses tilstrækkeligt fra facaderne — et centralt placeret trapperum, en gang, et badeværelse der støder op til nabobebyggelse, eller et rum der ligger langt inde i en bred bolig.",
+          "Den anden situation er rum der er store nok til at facadebelysning ikke kan dække hele gulvarealet med dagslys. En åben stue på 40 m² med facadevinduer kun mod én side vil have lyse zoner tæt på vinduerne og mørke zoner mod indervæggene. Et centralt placeret ovenlys løser problemet.",
+          "Den tredje situation er arkitektonisk: ovenlys der ikke er nødvendig for at opfylde dagslyskravet, men som tilføjer rumlig kvalitet og dramatik. Et snævert lysbånd langs en væg der skaber en dramatisk skygge. Et rundt ovenlys der kaster en cirkel af lys ned på gulvet. Det er arkitektur, ikke blot funktion.",
+        ],
+      },
+      {
+        heading: "Typer af ovenlys",
+        paragraphs: [
+          "Tagvindue i skrå tagflade (fx Velux-type): Det mest udbredte. Monteres i tagfladen og giver direkte lys — og direkte sol. Velegnet til soveværelser og badeværelser. Husk at et sydvendt tagvindue i en 45-graders tagflade vil give intens sol om sommeren — overvej solafskærmning.",
+          "Ovenlyskuppel i fladt tag: Kuppelformet glasvindue monteret i et fladt tag. Giver diffust, allsidigt lys der ikke blænder. Velegnet til gangarealer, badeværelser og stuer. Fås i runde, kvadratiske og rektangulære varianter.",
+          "Lysbånd (eng. clerestory): Smalt vandret vindue placeret højt i en væg eller i overgangen mellem tag og væg. Giver diffust sidelys ind i rummet — specielt effektivt når det kombineres med en lys væg der reflekterer lyset ned i rummet. Giver privatliv da det er for højt til at kigge ind igennem.",
+          "Atrium/lysbrønd: Et lodret glasparti — evt. en glasgård — der bringer lys ned i dybt inde i boligen. Kan kombineres med ventilation (stack effect). Kræver omhyggelig projektering for at undgå varmetab og kondens.",
+        ],
+      },
+      {
+        heading: "Energi og varmetab",
+        paragraphs: [
+          "Ovenlys lader mere lys ind end facadevinduer — men de lader også mere varme ud. Et ovenlys er thermodynamisk udsat: varmluften i rummet stiger mod loftet og trykker direkte mod glasset. Til gengæld kan et sydvendt ovenlys om vinteren bidrage med solvarme der delvist kompenserer for varmetabet.",
+          "Moderne termoruder med lavenergibelægning har reduceret problemet væsentligt. Vælg altid mindst 2-lags ovenlys — i et lavenergi-projekt eller ved større glaspartier bør det være 3-lags. Tjek altid U-værdien på den specifikke model du vælger.",
+          "Bygningsreglementet stiller krav til det samlede vinduesareal i relation til energirammen. Mange ovenlys kan udfordre energirammen — en arkitekt beregner det samlede energibudget og finder den rigtige balance.",
+        ],
+      },
+      {
+        heading: "Praktiske overvejelser",
+        paragraphs: [
+          "Rengøring: Et ovenlys der ikke kan åbnes og ikke er tilgængeligt fra et stillads er svært at holde rent. Tænk over rengøringsadgang allerede i projekteringen — enten via et vindue der kan åbnes og renses indefra, eller via en permanent adgangsmulighed udefra.",
+          "Kondens: Et koldt ovenlys i et varmt rum giver kondens på glasset og evt. på karmen. Sørg for korrekt dampspærre og tilstrækkelig isolering i overgangen mellem glas og konstruktion.",
+          "Brandsikring: I visse rum stiller bygningsreglementet krav til redningsåbninger. Et ovenlys kan tælle som redningsåbning hvis det er stort nok og kan åbnes. Afklar dette med arkitekten tidligt i projektet.",
+        ],
+      },
+      {
+        heading: "Ovenlys i arkitektprojekter",
+        paragraphs: [
+          "Ovenlys kræver præcis projektering. Et ovenlys på det forkerte sted — eller den forkerte type — giver blænding om sommeren, kulde om vinteren og kondensproblemer hele året. Et ovenlys på det rigtige sted giver til gengæld en lysoplevelse der løfter boligen og gør det til et hjem du ikke vil flytte fra.",
+          "Hos Yderskov Arkitekter tegner vi ovenlys som en integreret del af boligens dagslysstrategi — ikke som et eftertanket tilvalg. Kontakt os for et gratis og uforpligtende første møde.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "sommerhus-helarsbrug",
     metaTitle: "Sommerhus til helårsbrug — Arkitekt Yderskov",
     title: "Drømmer du om at bo fast i dit sommerhus?",
@@ -1325,6 +1442,64 @@ export const posts: BlogPost[] = [
         heading: "Hvad med byggetilladelse?",
         paragraphs: [
           "Reglerne for at bygge sommerhuse i sommerhusområder er anderledes end for helårshuse. Der er begrænsninger på størrelse, højde og bebyggelsesprocent. Vi kender reglerne og hjælper med at finde den bedste løsning for dig — første møde er gratis.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "gaardrum",
+    metaTitle: "Hvordan designer man et gårdrum ved huset? — Yderskov Arkitekter",
+    title: "Hvordan designer man et gårdrum ved huset?",
+    description: "Et gårdrum ved huset giver et beskyttet uderum med intimitet og karakter. Her gennemgår vi placering, proportioner, belægning, beplantning og hvad det kræver af huset.",
+    date: "18 / 02 / 2025",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    lead: "Et gårdrum er et af de mest intime og brugbare uderum du kan give din bolig. Afskærmet fra vind, naboer og gadestøj giver det et rum der bruges langt mere end en åben have — og som rykker grænsen for hvad der er ude og inde. Her gennemgår vi hvad der kendetegner et godt gårdrum og hvad du skal tænke på.",
+    sections: [
+      {
+        heading: "Hvad er et gårdrum?",
+        paragraphs: [
+          "Et gårdrum er et indhegnet uderum — typisk omgivet af huset på to eller tre sider og af en mur eller et hegn på den fjerde. Det er privat, vindskærmet og tæt forbundet med de indendørs opholdsrum. I modsætning til en åben have er gårdrummet defineret: det har vægge, en gulvflade og et klart afgrænsende tag i form af himlen.",
+          "Gårdrummet kendes fra sydeuropæisk arkitektur — den spanske patio, det nordafrikanske riad-rum — men fungerer mindst lige så godt i nordisk klima. Det vindskærmede rum giver brugbare sommerdage selv med frisk brise, og en sydvendt stenflade samler solvarme og forlænger sæsonen.",
+        ],
+      },
+      {
+        heading: "Placering og orientering",
+        paragraphs: [
+          "Det vigtigste valg er orientering. Et gårdrum der vender mod syd eller sydvest er sol det meste af dagen og kan bruges fra tidlig forår til sen efterår. Et nordvendt gårdrum er koldt og skygget — det kræver bevidste valg af materialer og beplantning for at fungere.",
+          "Placeringen i forhold til husets indre er ligeså vigtig. Et gårdrum der er direkte forbundet med stuen via store glasdøre eller -partier opleves som en forlængelse af boligen — det dobbelt så store rum der opstår giver en rumoplevelse der er svær at opnå på anden vis.",
+          "Undgå at placere gårdrummet bag et rum du sjældent bruger. Et gårdrum bag et bryggers eller et kontor bliver aldrig den naturlige forlængelse af hverdagen. Det skal sidde bag det rum familien bruger mest — typisk stue og køkken.",
+        ],
+      },
+      {
+        heading: "Proportioner og størrelse",
+        paragraphs: [
+          "Et gårdrum behøver ikke at være stort for at fungere. Et rum på 20–30 m² med klare proportioner og et godt gulv er langt mere brugbart end et udefineret areal på 100 m². Det lukkede rum giver intimitet og vind-skærmning — det er dét der giver gårdrummet sin særlige karakter.",
+          "Forholdet mellem rumhøjde og grundflade er afgørende. Et gårdrum omgivet af høje vægge og med en lille åbning mod himlen virker som en brønd — mørkt og claustrofobisk. En tommelfingerregel: højden på de omgivende vægge bør ikke overstige halvdelen af rummet korteste sidelinje. Et rum på 5×6 m bør altså ikke have vægge over 2,5–3 meter.",
+          "Fritstående mure der afgrænser gårdrummet mod naboer eller vej behøver ikke at have samme højde som husets vægge — 1,8–2 meter er tilstrækkeligt til at skabe privatliv og vind-skærmning.",
+        ],
+      },
+      {
+        heading: "Belægning og gulvflade",
+        paragraphs: [
+          "Gulvet er gårdummets vigtigste designelement. Det er det du ser, det du træder på, og det der afgør om rummet virker sammenhængende med boligens indre. Vælg et materiale der matcher eller harmonerer med boligens interiør — og som tåler dansk vejr.",
+          "Natursten og store betonfliser er populære valg: holdbare, lette at vedligeholde og æstetisk stærke. Vælg en belægning med lukkede fuger der ikke giver ukrudt plads. Varme materialer som terrasse-beton eller sandsten samler solvarme og giver en behagelig overflade at gå på i bare tæer.",
+          "Kombinér hård belægning med plantefelter eller -kummer. Et gårdrum der er 100 % hård belægning mangler liv. Et enkelt plantebælt langs husmuren — med bambus, græsser eller stauder — giver rummet grønt indhold og bevægelse uden at gøre det vanskeligt at vedligeholde.",
+        ],
+      },
+      {
+        heading: "Beplantning og afgrænsning",
+        paragraphs: [
+          "Beplantningen i et gårdrum skal kunne trives i et delvist afskærmet rum med begrænsede mødimuligheder. Vælg planter der tåler varierende fugtighed og kan klare sig i pottemiljø hvis det er nødvendigt — bambus, japansk løn, kornelkirsebær og forskellige surbundplanter er velegnede.",
+          "En fritstående mur i mursten, in-situ beton eller natursten giver det bedste afskærmningsresultat og har lang levetid. Et hegn i træ er et billigere alternativ men kræver vedligeholdelse og har kortere levetid. Et levende hegn i liguster, avnbøg eller kristtorn er billigt i etablering men kræver beskæring og fylder.",
+          "Belysning i gårdrummet forlænger brugen til aftentimerne. Vælg belysning placeret lavt — i belægningen, i murkroner eller i plantekasser — frem for høje master der blænder. Varm farvetemperatur (2700–3000K) giver stemning frem for funktion.",
+        ],
+      },
+      {
+        heading: "Gårdrummet som arkitektonisk greb",
+        paragraphs: [
+          "Et gårdrum planlægges bedst fra starten af projektet — ikke som et eftertanket uderum der er tilbage når huset er placeret. Huset og gårdrummet bør projekteres som ét samlet anlæg: husets vægge definerer gårdrummet, og gårdrummets proportioner informerer husets længder og orientering.",
+          "Hos Yderskov Arkitekter tegner vi gårdrummet som en integreret del af boligprojektet. Kontakt os for et gratis og uforpligtende første møde — vi kommer gerne ud til jeres grund.",
         ],
       },
     ],
