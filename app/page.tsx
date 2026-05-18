@@ -114,7 +114,7 @@ export default function HomePage() {
       </div>
 
       {/* Hvad er dit projekt */}
-      <section className="s s-off" style={{ paddingTop: "3rem", paddingBottom: "3rem" }}>
+      <section className="s" style={{ paddingTop: "3rem", paddingBottom: "3rem" }}>
         <div className="s-inner">
           <div style={{ marginBottom: "1.75rem" }}>
             <span className="eyebrow">Se hvad vi kan tilbyde</span>

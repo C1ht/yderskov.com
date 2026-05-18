@@ -411,7 +411,7 @@ body.menu-open { overflow: hidden; }
 @media (max-width: 900px) { .contact-strip { grid-template-columns: 1fr; gap: 2rem; } }
 
 /* ── FORM ── */
-.form-bg { background: var(--off); }
+.form-bg { background: var(--white); }
 .form-layout { display: grid; grid-template-columns: 1fr 1.2fr; gap: 6rem; align-items: start; }
 .form-meta p { font-size: 0.88rem; font-weight: 300; color: var(--sub); line-height: 1.75; margin-bottom: 0.5rem; }
 .form-meta a { color: var(--accent); }
