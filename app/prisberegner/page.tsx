@@ -5,7 +5,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import PrisCalculator from "@/components/PrisCalculator";
-import ContactForm from "@/components/ContactForm";
+import HeroForm from "@/components/HeroForm";
 
 export const metadata: Metadata = {
   title: "Prisberegner tilbygning — vejledende prisskøn — Yderskov Arkitekter",
@@ -144,7 +144,7 @@ export default function PrisberegnPage() {
       </section>
 
       {/* Kontakt */}
-      <section className="s form-bg" id="kontakt">
+      <section className="s s-off" id="kontakt">
         <div className="s-inner">
           <div className="form-layout">
             <div className="form-meta">
@@ -154,7 +154,7 @@ export default function PrisberegnPage() {
               <p><a href="tel:29723427">29 72 34 27</a></p>
               <p><a href="mailto:cy@yderskov.com">cy@yderskov.com</a></p>
             </div>
-            <ContactForm />
+            <HeroForm />
           </div>
         </div>
       </section>
