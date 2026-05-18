@@ -22,6 +22,7 @@ export default function PrisberegnPage() {
       <Hero
         slides={[{ src: "/images/Leonoravej villa tilbygning/IMG_7376.jpeg", alt: "Villa med tilbygning — Yderskov Arkitekter" }]}
         tag="Prisberegner"
+        showForm={false}
         lines={[
           "I har tankerne, vi sætter stregerne.",
           "Byggeri tegnet kun til jer, til jeres grund, jeres ønsker og jeres budget.",
