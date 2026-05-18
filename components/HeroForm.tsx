@@ -14,7 +14,8 @@ export default function HeroForm() {
     const data = new FormData(form);
 
     const name = (data.get("navn") as string)?.trim();
-    if (!name) return;
+    const email = (data.get("email") as string)?.trim();
+    if (!name || !email) return;
 
     setLoading(true);
 
@@ -24,6 +25,7 @@ export default function HeroForm() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           name,
+          email,
           phone: data.get("telefon"),
           projekt: data.get("projekt"),
           message: data.get("besked"),
@@ -63,6 +65,7 @@ export default function HeroForm() {
       <p className="hero-form-title">Fortæl os om dit projekt</p>
       <input type="text" name="navn" placeholder="Navn" required />
       <input type="tel" name="telefon" placeholder="Telefon" required />
+      <input type="email" name="email" placeholder="Email" required />
       <select name="projekt" defaultValue="" required>
         <option value="" disabled>Projekttype</option>
         <option value="ny-villa">Ny villa</option>
