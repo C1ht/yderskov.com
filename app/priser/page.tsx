@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 const byggeriPrices = [
   { type: "Ny villa", price: "Fra 15.000 kr. pr. m²", desc: "Inkl. alle håndværkerydelser, materialer og byggestyring." },
   { type: "Tilbygning", price: "Fra 14.000 kr. pr. m²", desc: "Inkl. integration med eksisterende bygning." },
-  { type: "Sommerhus", price: "Fra 12.000 kr. pr. m²", desc: "Inkl. alle håndværkerydelser og materialer." },
+  { type: "Sommerhus", price: "Fra 14.000 kr. pr. m²", desc: "Inkl. alle håndværkerydelser og materialer." },
   { type: "Lejlighed", price: "Fra 16.000 kr. pr. m²", desc: "Inkl. fuld renovering med arkitekttegnede løsninger." },
 ];
 
