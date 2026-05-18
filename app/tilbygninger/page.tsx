@@ -63,7 +63,7 @@ const projectGalleries = [
       { src: "/images/Emils hus Olufsgade/IMG_8303.webp", alt: "Ombygning — Yderskov Arkitekter" },
       { src: "/images/Emils hus Olufsgade/IMG_8307.webp", alt: "Ombygning — Yderskov Arkitekter" },
     ],
-    dark: true,
+    dark: false,
   },
 ];
 

@@ -53,7 +53,7 @@ const projectGalleries = [
       { src: "/images/Harald Jensens Vej/IMG_2937.webp", alt: "Sommerhus med tilbygning — Yderskov Arkitekter" },
       { src: "/images/Harald Jensens Vej/IMG_2938.webp", alt: "Sommerhus med tilbygning — Yderskov Arkitekter" },
     ],
-    dark: true,
+    dark: false,
   },
 ];
 

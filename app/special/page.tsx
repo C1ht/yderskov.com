@@ -57,7 +57,7 @@ export default function SpecialPage() {
         </div>
       </section>
 
-      <section className="s s-off">
+      <section className="s">
         <div className="s-inner">
           <div className="proj-header">
             <div>
