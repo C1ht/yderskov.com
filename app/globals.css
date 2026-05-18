@@ -540,9 +540,10 @@ body.menu-open { overflow: hidden; }
 }
 .cta-band-call:hover { background: rgba(255,255,255,0.08); }
 .cta-band-book {
-  background: #fff; color: var(--text) !important;
+  background: rgba(255,255,255,0.12); color: #fff !important;
+  border: 1px solid rgba(255,255,255,0.45);
 }
-.cta-band-book:hover { opacity: 0.88; }
+.cta-band-book:hover { background: rgba(255,255,255,0.2); }
 @media (max-width: 700px) {
   .cta-band { padding: 3rem 1.25rem; }
   .cta-band-actions { width: 100%; }
