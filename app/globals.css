@@ -385,20 +385,20 @@ body.menu-open { overflow: hidden; }
 .section-break-inner span { font-size: 0.72rem; font-weight: 300; color: var(--light); letter-spacing: 0.06em; text-transform: uppercase; }
 .break-dot { color: var(--border) !important; font-size: 0.6rem; }
 
-/* ── BLOG (dark bg, preview) ── */
-.blog-bg { background: var(--dark); padding: 6rem 2rem; }
+/* ── BLOG (light bg, preview) ── */
+.blog-bg { background: #fff; padding: 6rem 2rem; }
 .blog-inner { max-width: 1120px; margin: 0 auto; }
 .blog-head { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 2.5rem; gap: 1rem; }
-.blog-head .sec-hed { color: #e8e8e4; }
-.blog-see { font-size: 0.75rem; font-weight: 300; color: #c0bfbb; }
+.blog-head .sec-hed { color: var(--text); }
+.blog-see { font-size: 0.75rem; font-weight: 300; color: var(--sub); }
 .blog-see:hover { opacity: 0.75; }
-.bgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: #2c2c2a; border-radius: 16px; overflow: hidden; }
-.bcard { display: block; background: #242422; padding: 2rem 1.75rem; transition: background 0.15s; }
-.bcard:hover { background: #2a2a28; }
-.bdate { font-size: 0.62rem; font-weight: 300; color: #888884; letter-spacing: 0.08em; display: block; margin-bottom: 0.85rem; }
-.bcard h3 { font-size: 0.95rem; font-weight: 300; color: #f0f0ec; line-height: 1.45; margin-bottom: 0.65rem; letter-spacing: -0.02em; }
-.bcard p { font-size: 0.78rem; font-weight: 300; color: #888884; line-height: 1.65; margin-bottom: 1.25rem; }
-.blink { font-size: 0.72rem; font-weight: 400; color: #c0bfbb; }
+.bgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--border); border-radius: 16px; overflow: hidden; }
+.bcard { display: block; background: #fff; padding: 2rem 1.75rem; transition: background 0.15s; }
+.bcard:hover { background: var(--off); }
+.bdate { font-size: 0.62rem; font-weight: 300; color: var(--light); letter-spacing: 0.08em; display: block; margin-bottom: 0.85rem; }
+.bcard h3 { font-size: 0.95rem; font-weight: 300; color: var(--text); line-height: 1.45; margin-bottom: 0.65rem; letter-spacing: -0.02em; }
+.bcard p { font-size: 0.78rem; font-weight: 300; color: var(--sub); line-height: 1.65; margin-bottom: 1.25rem; }
+.blink { font-size: 0.72rem; font-weight: 400; color: var(--sub); }
 @media (max-width: 900px) { .bgrid { grid-template-columns: repeat(2,1fr); } }
 @media (max-width: 600px) { .bgrid { grid-template-columns: 1fr; } }
 
