@@ -14,8 +14,7 @@ export default function ContactForm() {
     const data = new FormData(form);
 
     const name = (data.get("name") as string)?.trim();
-    const email = (data.get("email") as string)?.trim();
-    if (!name || !email) return;
+    if (!name) return;
 
     setLoading(true);
 
@@ -25,7 +24,6 @@ export default function ContactForm() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           name,
-          email,
           phone: data.get("phone"),
           message: data.get("message"),
           _page: window.location.pathname,
@@ -57,12 +55,11 @@ export default function ContactForm() {
           </p>
         </div>
       ) : (
-        <form className="form-wrap" id="contactForm" onSubmit={handleSubmit}>
+        <form className="form-wrap" id="contactForm" onSubmit={handleSubmit} noValidate>
           <div className="form-row-2">
             <input type="text" name="name" placeholder="Navn" required />
             <input type="tel" name="phone" placeholder="Telefon" />
           </div>
-          <input type="email" name="email" placeholder="Email" required />
           <textarea name="message" rows={6} placeholder="Beskriv dit projekt…" />
           <button type="submit" className="form-btn" disabled={loading}>
             {loading ? "Sender…" : "Send besked"}
