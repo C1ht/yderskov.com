@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 };
 
 const byggeriPrices = [
-  { type: "Ny villa", price: "Fra 15.000 kr. pr. m²", desc: "Inkl. alle håndværkerydelser, materialer og byggestyring." },
+  { type: "Ny villa", price: "Fra 14.000 kr. pr. m²", desc: "Inkl. alle håndværkerydelser, materialer og byggestyring." },
   { type: "Tilbygning", price: "Fra 14.000 kr. pr. m²", desc: "Inkl. integration med eksisterende bygning." },
   { type: "Sommerhus", price: "Fra 14.000 kr. pr. m²", desc: "Inkl. alle håndværkerydelser og materialer." },
   { type: "Lejlighed", price: "Fra 16.000 kr. pr. m²", desc: "Inkl. fuld renovering med arkitekttegnede løsninger." },
@@ -138,7 +138,7 @@ export default function PriserPage() {
       {/* Stats */}
       <div className="stats-bg">
         <div className="stats-inner">
-          <div className="stat"><div className="stat-num">15.000<sup> kr.</sup></div><div className="stat-lbl">Fra pr. m²</div></div>
+          <div className="stat"><div className="stat-num">14.000<sup> kr.</sup></div><div className="stat-lbl">Fra pr. m²</div></div>
           <div className="stat"><div className="stat-num">24<sup> timer</sup></div><div className="stat-lbl">Svar inden</div></div>
           <div className="stat"><div className="stat-num">300<sup>+</sup></div><div className="stat-lbl">Projekter gennemført</div></div>
           <div className="stat"><div className="stat-num">0<sup> kr.</sup></div><div className="stat-lbl">Første møde</div></div>
