@@ -57,7 +57,7 @@ export default function ContactForm() {
           </p>
         </div>
       ) : (
-        <form className="form-wrap" id="contactForm" onSubmit={handleSubmit} noValidate>
+        <form className="form-wrap" id="contactForm" onSubmit={handleSubmit}>
           <div className="form-row-2">
             <input type="text" name="name" placeholder="Navn" required />
             <input type="tel" name="phone" placeholder="Telefon" />
