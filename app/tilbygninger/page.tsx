@@ -17,11 +17,21 @@ export const metadata: Metadata = {
 const projectGalleries = [
   {
     eyebrow: "Projekt",
-    title: "Ombygning og\nmodernisering af 50er-villa.",
+    title: "Ombygning og\nmodernisering af 50er-villa, Brønderslev.",
     images: [
-      { src: "/images/Godthåbsvej/yderskov-ombygning-efter-2.webp", alt: "Ombygning — Yderskov Arkitekter" },
-      { src: "/images/Godthåbsvej/yderskov-ombygning-efter-3.webp", alt: "Ombygning — Yderskov Arkitekter" },
-      { src: "/images/Godthåbsvej/yderskov-ombygning-efter-4.webp", alt: "Ombygning — Yderskov Arkitekter" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-4.webp", alt: "Facade efter modernisering, Brønderslev — Yderskov Arkitekter" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-1.webp", alt: "Indgangsside efter modernisering — Yderskov Arkitekter" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-2.webp", alt: "Gårdside med skydedøre efter modernisering — Yderskov Arkitekter" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-3.webp", alt: "Haveside med birketræ efter modernisering — Yderskov Arkitekter" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-køkken.webp", alt: "Nyt køkken efter modernisering — Yderskov Arkitekter" },
+    ],
+    afterLabel: "Efter modernisering",
+    beforeLabel: "Før modernisering",
+    beforeImages: [
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-4.webp", alt: "Facade før modernisering — Yderskov Arkitekter" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-1.webp", alt: "Indgangsside før modernisering — Yderskov Arkitekter" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-2.webp", alt: "Haveside før modernisering — Yderskov Arkitekter" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-3.webp", alt: "Side med birketræ før modernisering — Yderskov Arkitekter" },
     ],
     dark: true,
   },
@@ -142,7 +152,14 @@ export default function TilbygningerPage() {
                 </h2>
               </div>
             </div>
+            {"afterLabel" in gallery && <p className="proj-grid-label">{gallery.afterLabel}</p>}
             <ImageGrid images={gallery.images} />
+            {"beforeImages" in gallery && gallery.beforeImages && (
+              <>
+                <p className="proj-grid-label" style={{ marginTop: "2rem" }}>{gallery.beforeLabel}</p>
+                <ImageGrid images={gallery.beforeImages} />
+              </>
+            )}
           </div>
         </section>
       ))}
