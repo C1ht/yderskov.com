@@ -47,6 +47,7 @@ const projectGalleries = [
       { src: "/images/Løvevej/Ålbæk-poolhus-toilet.webp", alt: "Badeværelse i arkitekttegnet poolhus — Yderskov Arkitekter" },
       { src: "/images/Løvevej/Ålbæk-poolhus-badmiljø.webp", alt: "Badmiljø i arkitekttegnet poolhus — Yderskov Arkitekter" },
       { src: "/images/Løvevej/Ålbæk-poolhus-køkken-spise-plads-alkove.webp", alt: "Køkken, spiseplads og alkove i poolhus — Yderskov Arkitekter" },
+      { src: "/images/Løvevej/Ålbæk-poolhus-sauna.webp", alt: "Sauna i arkitekttegnet poolhus — Yderskov Arkitekter" },
     ],
     dark: false,
   },
