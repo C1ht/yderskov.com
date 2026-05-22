@@ -23,9 +23,9 @@ const projectGalleries = [
     year: "2023",
     description: "Funkisvilla opført i listebeklædning med åbne facader og store vinduespartier. Huset er beliggende op ad skov og natur, og det betød meget for familien at byggeriet blev indpasset omhyggeligt i det omgivende område.",
     images: [
-      { src: "/images/Karetmagervej/IMG_9184.webp", alt: "Arkitekttegnet funkisvilla i Sæby — Yderskov Arkitekter" },
-      { src: "/images/Karetmagervej/IMG_9182.webp", alt: "Arkitekttegnet funkisvilla i Sæby — Yderskov Arkitekter" },
-      { src: "/images/Karetmagervej/IMG_9185.webp", alt: "Arkitekttegnet funkisvilla i Sæby — Yderskov Arkitekter" },
+      { src: "/images/Karetmagervej/Sæby-ny-villa-funkis-forside.webp", alt: "Funkisvilla i træ, glas og eternit, Sæby — Yderskov Arkitekter" },
+      { src: "/images/Karetmagervej/Sæby-ny-villa-funkis-haveside.webp", alt: "Haveside på funkisvilla i Sæby — Yderskov Arkitekter" },
+      { src: "/images/Karetmagervej/Sæby-ny-villa-funkis-vejside.webp", alt: "Vejside på funkisvilla i Sæby — Yderskov Arkitekter" },
     ],
     dark: false,
   },
@@ -125,7 +125,7 @@ export default function VillaerPage() {
     <>
       <Nav />
       <Hero
-        slides={[{ src: "/images/Karetmagervej/IMG_9184.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Karetmagervej/Sæby-ny-villa-funkis-forside.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" }]}
         tag="Villaer"
         subtitle="Villaer"
         lines={[
