@@ -47,11 +47,11 @@ const projectGalleries = [
   },
   {
     eyebrow: "Projekt",
-    title: "Tilbygning og\nrenovering.",
+    title: "Tilbygning og\nrenovering, Aalborg.",
     images: [
-      { src: "/images/Neptunvej/IMG_2588.webp", alt: "Tilbygning — Yderskov Arkitekter" },
-      { src: "/images/Neptunvej/IMG_2589.webp", alt: "Tilbygning — Yderskov Arkitekter" },
-      { src: "/images/Neptunvej/IMG_2592.webp", alt: "Tilbygning — Yderskov Arkitekter" },
+      { src: "/images/Neptunvej/Aalborg-neptunvej-tilbygning-terrasse.webp", alt: "Terrasse ved tilbygning i Aalborg — Yderskov Arkitekter" },
+      { src: "/images/Neptunvej/Aalborg-neptunvej-tilbygning-terrasse-og-plæne.webp", alt: "Terrasse og plæne ved tilbygning i Aalborg — Yderskov Arkitekter" },
+      { src: "/images/Neptunvej/Aalborg-neptunvej-tilbygning.haveside.webp", alt: "Haveside ved tilbygning i Aalborg — Yderskov Arkitekter" },
     ],
     dark: true,
   },
