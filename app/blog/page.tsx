@@ -28,6 +28,15 @@ const posts: Post[] = [
     excerpt: "En bygherre i Køge stod med en drømmgrund belastet af fortidsminde og fredningslinje. Her fortæller vi hvad der skete — og hvordan vi alligevel fik alle ønsker opfyldt.",
   },
   {
+    href: "/blog/sommerhus-sebbersund-snestorm",
+    date: "08 / 05 / 2026",
+    cat: "Cases fra praksis",
+    catKey: "case",
+    title: "Bygget under snestorm, leveret på blokvogn — sommerhus ved Halkær Bredning i Sebbersund.",
+    subtitle: "En case fra Sebbersund",
+    excerpt: "Sommerhuset blev bygget som præfabrikerede elementer i en hal under snestorm, kørt til Sebbersund på blokvogn og hejst på plads med kran.",
+  },
+  {
     href: "/blog/flyhangar-nordjylland",
     date: "15 / 05 / 2026",
     cat: "Cases fra praksis",

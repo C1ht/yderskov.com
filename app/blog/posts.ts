@@ -52,6 +52,54 @@ export const posts: BlogPost[] = [
     ],
   },
   {
+    slug: "sommerhus-sebbersund-snestorm",
+    metaTitle: "Bygget under snestorm, leveret på blokvogn — sommerhus ved Halkær Bredning i Sebbersund — Yderskov Arkitekter",
+    title: "Bygget under snestorm, leveret på blokvogn — sommerhus ved Halkær Bredning i Sebbersund.",
+    description: "Sommerhuset blev bygget som præfabrikerede elementer i en hal under snestorm, kørt til Sebbersund på blokvogn og hejst på plads med kran. En case om vinterstrategi og udsigt over Halkær Bredning.",
+    date: "08 / 05 / 2026",
+    cat: "Cases fra praksis",
+    catKey: "case",
+    lead: "Vinteren satte hårdt ind. Men byggepladsen i Sebbersund stod ikke stille — for sommerhuset blev ikke bygget der. Det blev bygget i en hal, kilometer væk, mens sneen føg. Da vejret lettede, kom det med blokvogn.",
+    sections: [
+      {
+        heading: "Grunden og udgangspunktet",
+        paragraphs: [
+          "Et ægtepar ejede en grund i Sebbersund med udsigt over Halkær Bredning og Sebber Kloster. På grunden stod et ældre sommerhus der havde set bedre dage — konstruktionen var i så dårlig forfatning at renovering ikke gav mening. Det blev revet ned. Nu skulle der bygges nyt — og gerne hurtigt, men rigtigt.",
+        ],
+      },
+      {
+        heading: "Fundamentet først — inden frosten",
+        paragraphs: [
+          "Det afgørende første skridt var at støbe fundamentet i god tid inden frosten satte ind. Med fundament i jorden tidligt på efteråret var grunden klar til at modtage det nye hus — uanset hvad vejret gjorde resten af vinteren. Det er præcis den slags forudseenhed der adskiller et veltilrettelagt byggeprojekt fra et der hænger i bremsen til april.",
+        ],
+      },
+      {
+        heading: "Bygget i en hal under snestorm",
+        paragraphs: [
+          "Mens temperaturen faldt og sneen lagde sig over Limfjordslandet, foregik det egentlige byggeri indendørs. Sommerhuset blev produceret som præfabrikerede elementer i en hal — vægge, tagkonstruktion, vinduespartier. Arbejdet foregik uafhængigt af vejr, frost og dagslys. Da en snestorm fejede hen over Nordjylland udenfor, stod håndværkerne inde i varmen og samlede præcist det hus der et par måneder senere skulle stå på kanten af Halkær Bredning.",
+        ],
+      },
+      {
+        heading: "Blokvogn og kran",
+        paragraphs: [
+          "Da elementerne var færdige og vejret vendte, kom blokvognen. Elementerne blev lastet og kørt til Sebbersund — og hejst på plads med kran. Det der tog uger at bygge tog timer at samle. Præcisionen i elementproduktionen betød at delene passede milimeterpræcist på fundamentet der ventede.",
+        ],
+      },
+      {
+        heading: "Arkitekturen — 50 m² med udsigt som omdrejningspunkt",
+        paragraphs: [
+          "Området ved Halkær Bredning er fredet af hensyn til natur og arkæologi, og det sætter en klar grænse for hvad der må bygges. Sommerhuset er 50 m² — men hvert kvadratmeter er brugt rigtigt. I gavlen mod vandet fik huset et stort vinduesparti og en stor skydedør der åbner hele facaden mod Halkær Bredning og Sebber Kloster. I det dybe vindue er der indlagt en bænk — et sted at sætte sig, se ud over vandet og lade udsigten tage over.",
+        ],
+      },
+      {
+        heading: "Resultatet",
+        paragraphs: [
+          "Et nyt sommerhus klar til sommer. Ægteparret fik ikke bare et nyt hus — de fik et hus der er tegnet og bygget rigtigt fra bunden, til netop den grund og den udsigt.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "flyhangar-nordjylland",
     metaTitle: "Arkitekttegnet flyhangar på nordjysk airstrip — case fra en passioneret sportsflypilot — Yderskov Arkitekter",
     title: "Arkitekttegnet flyhangar på nordjysk airstrip — case fra en passioneret sportsflypilot.",
