@@ -812,6 +812,13 @@ body.menu-open { overflow: hidden; }
 .pb-call-btn:hover { opacity: 0.85; }
 @media (max-width: 600px) { .pb-contact { flex-direction: column; align-items: flex-start; } }
 
+/* ── SE OGSÅ (blog article) ── */
+.see-also { border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem 1.5rem; display: flex; align-items: baseline; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 2rem; }
+.see-also-label { font-size: 0.65rem; font-weight: 400; letter-spacing: 0.1em; text-transform: uppercase; color: var(--light); white-space: nowrap; }
+.see-also-links { display: flex; gap: 1rem; flex-wrap: wrap; }
+.see-also-link { font-size: 0.82rem; font-weight: 400; color: var(--text); text-decoration: underline; text-underline-offset: 3px; transition: opacity 0.15s; }
+.see-also-link:hover { opacity: 0.65; }
+
 /* ── CASE SECTIONS (blog article) ── */
 .case-block { background: var(--off); border-radius: 12px; padding: 1.75rem 2rem; margin-bottom: 2.5rem; border-left: 3px solid var(--text); }
 .case-pill { display: inline-block; font-size: 0.6rem; font-weight: 400; letter-spacing: 0.1em; text-transform: uppercase; color: var(--white); background: var(--text); border-radius: 980px; padding: 0.25rem 0.75rem; margin-bottom: 1rem; }

@@ -4,7 +4,29 @@ import Link from "next/link";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
-import { getPost, posts } from "../posts";
+import { getPost, posts, type RelatedLink } from "../posts";
+
+const categoryLinks: Record<string, RelatedLink[]> = {
+  villa: [
+    { label: "Se vores villaprojekter med billeder", href: "/villaer" },
+    { label: "Se om- og tilbygninger med billeder", href: "/tilbygninger" },
+  ],
+  sommerhus: [
+    { label: "Se vores sommerhusprojekter med billeder", href: "/sommerhuse" },
+  ],
+  arkitekt: [
+    { label: "Beregn prisen på dit projekt", href: "/prisberegner" },
+    { label: "Se vores priser", href: "/priser" },
+  ],
+  grund: [
+    { label: "Se vores villaprojekter med billeder", href: "/villaer" },
+    { label: "Se vores sommerhusprojekter med billeder", href: "/sommerhuse" },
+  ],
+  boligdetalje: [
+    { label: "Se vores villaprojekter med billeder", href: "/villaer" },
+    { label: "Se om- og tilbygninger med billeder", href: "/tilbygninger" },
+  ],
+};
 
 export async function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }));
@@ -125,6 +147,28 @@ export default async function BlogPostPage({
             )}
           </div>
         </section>
+
+        {/* Se også */}
+        {(() => {
+          const links = post.relatedLinks ?? categoryLinks[post.catKey] ?? [];
+          if (links.length === 0) return null;
+          return (
+            <section className="s" style={{ paddingTop: "1rem", paddingBottom: "0" }}>
+              <div className="s-inner" style={{ maxWidth: "740px" }}>
+                <div className="see-also">
+                  <p className="see-also-label">Se også</p>
+                  <div className="see-also-links">
+                    {links.map((l, i) => (
+                      <Link key={i} href={l.href} className="see-also-link">
+                        {l.label} →
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </section>
+          );
+        })()}
 
         {/* CTA strip */}
         <section className="s" style={{ paddingTop: "3rem", paddingBottom: "3rem" }}>

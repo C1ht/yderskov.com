@@ -1,4 +1,5 @@
 export type Section = { heading: string; paragraphs: string[]; type?: "case" };
+export type RelatedLink = { label: string; href: string };
 
 export type BlogPost = {
   slug: string;
@@ -10,6 +11,7 @@ export type BlogPost = {
   catKey: string;
   lead: string;
   sections: Section[];
+  relatedLinks?: RelatedLink[];
 };
 
 export const posts: BlogPost[] = [
@@ -49,6 +51,10 @@ export const posts: BlogPost[] = [
           "Har du spørgsmål til hvad der er muligt på din grund? Ring til os på 29 72 34 27 eller skriv til cy@yderskov.com",
         ],
       },
+    ],
+    relatedLinks: [
+      { label: "Se vores villaprojekter med billeder", href: "/villaer" },
+      { label: "Se om- og tilbygninger med billeder", href: "/tilbygninger" },
     ],
   },
   {
@@ -92,6 +98,9 @@ export const posts: BlogPost[] = [
           "En naturlig kilde på grunden er ikke en ulempe — det er en karakter. Det er bevægelse, lyd og liv i haven. Det er en grund der gør noget de fleste grunde ikke gør. Med den rette projektering og lidt opmærksomhed på beplantning og sten kan kilden blive det første gæsterne lægger mærke til.",
         ],
       },
+    ],
+    relatedLinks: [
+      { label: "Se vores sommerhusprojekter med billeder", href: "/sommerhuse" },
     ],
   },
   {
@@ -141,6 +150,9 @@ export const posts: BlogPost[] = [
         ],
       },
     ],
+    relatedLinks: [
+      { label: "Se vores sommerhusprojekter med billeder", href: "/sommerhuse" },
+    ],
   },
   {
     slug: "flyhangar-nordjylland",
@@ -176,6 +188,9 @@ export const posts: BlogPost[] = [
           "Privat flyhangar, ridehus, motorsportsfacilitet eller noget helt andet der ikke passer i en standardkasse — vi tegner det. Ring til os på 29 72 34 27 eller skriv til cy@yderskov.com.",
         ],
       },
+    ],
+    relatedLinks: [
+      { label: "Se vores specialprojekter med billeder", href: "/special" },
     ],
   },
   {
