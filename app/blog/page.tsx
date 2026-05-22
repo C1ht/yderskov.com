@@ -22,7 +22,7 @@ const posts: Post[] = [
     date: "22 / 05 / 2026",
     cat: "Cases fra praksis",
     catKey: "case",
-    title: "Skjulte bindinger på byggegrunden: hvad sker der, og hvad kan en arkitekt gøre?",
+    title: "Fortidsminde og fredningslinje på byggegrunden — case fra Køge.",
     excerpt: "En bygherre i Køge stod med en drømmgrund belastet af fortidsminde og fredningslinje. Her fortæller vi hvad der skete — og hvordan vi alligevel fik alle ønsker opfyldt.",
   },
   {

@@ -15,8 +15,8 @@ export type BlogPost = {
 export const posts: BlogPost[] = [
   {
     slug: "fortidsminde-fredningslinje-koege",
-    metaTitle: "Skjulte bindinger på byggegrunden: hvad sker der, og hvad kan en arkitekt gøre? — Yderskov Arkitekter",
-    title: "Skjulte bindinger på byggegrunden: hvad sker der, og hvad kan en arkitekt gøre?",
+    metaTitle: "Fortidsminde og fredningslinje på byggegrunden — case fra Køge — Yderskov Arkitekter",
+    title: "Fortidsminde og fredningslinje på byggegrunden — case fra Køge.",
     description: "En bygherre i Køge stod med en drømmgrund belastet af fortidsminde og fredningslinje. Her fortæller vi hvad der skete — og hvordan vi alligevel fik alle ønsker opfyldt.",
     date: "22 / 05 / 2026",
     cat: "Cases fra praksis",
