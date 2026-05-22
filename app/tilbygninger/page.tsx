@@ -37,11 +37,11 @@ const projectGalleries = [
   },
   {
     eyebrow: "Projekt",
-    title: "Villa med\ntilbygning.",
+    title: "Villa med\ntilbygning, Hasseris.",
     images: [
-      { src: "/images/Leonoravej villa tilbygning/IMG_7376.webp", alt: "Villa med tilbygning — Yderskov Arkitekter" },
-      { src: "/images/Leonoravej villa tilbygning/IMG_7378.webp", alt: "Villa med tilbygning — Yderskov Arkitekter" },
-      { src: "/images/Leonoravej villa tilbygning/IMG_7379.webp", alt: "Villa med tilbygning — Yderskov Arkitekter", imgStyle: { transform: "rotate(90deg) scale(1.45)", transformOrigin: "center" } },
+      { src: "/images/Leonoravej villa tilbygning/Leonoravej villa tilbygning-terrasse.webp", alt: "Terrasse ved villa med tilbygning i Hasseris — Yderskov Arkitekter" },
+      { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp", alt: "Bagside af villa med tilbygning i Hasseris — Yderskov Arkitekter" },
+      { src: "/images/Leonoravej villa tilbygning/Leonoravej villa tilbygning-vindue.webp", alt: "Vinduesparti i villa med tilbygning i Hasseris — Yderskov Arkitekter" },
     ],
     dark: false,
   },
