@@ -13,6 +13,25 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://yderskov.dk/" },
 };
 
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  name: "Yderskov Arkitekter",
+  url: "https://yderskov.dk",
+  telephone: "+4529723427",
+  email: "cy@yderskov.com",
+  address: {
+    "@type": "PostalAddress",
+    addressCountry: "DK",
+    addressRegion: "Nordjylland",
+  },
+  areaServed: { "@type": "Country", name: "Danmark" },
+  description: "Arkitekttegnede villaer, sommerhuse og tilbygninger med fast pris og egne håndværkere. Gratis første møde.",
+  priceRange: "$$",
+  foundingDate: "2009",
+  sameAs: ["https://yderskov.dk"],
+};
+
 const projects = [
   { src: "/images/Torndalsvej/IMG_3181.webp", title: "Arkitekttegnet sommerhus" },
   { src: "/images/Karetmagervej/IMG_9184.webp", title: "Funkis villa" },
@@ -76,6 +95,11 @@ const blogPosts = [
 export default function HomePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+      />
+
       <Nav />
 
       <Hero
