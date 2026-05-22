@@ -474,7 +474,7 @@ export default function BlogPage() {
     <>
       <Nav />
       <Hero
-        slides={[{ src: "/images/Godthåbsvej/yderskov-ombygning-efter-2.webp", alt: "Ombygning — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-4.webp", alt: "Ombygning og modernisering — Yderskov Arkitekter" }]}
         showTabs={false}
         tag="Blog"
         subtitle="Blog"

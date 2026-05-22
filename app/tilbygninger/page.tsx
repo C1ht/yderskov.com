@@ -39,9 +39,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Villa med\ntilbygning, Hasseris.",
     images: [
-      { src: "/images/Leonoravej villa tilbygning/Leonoravej villa tilbygning-terrasse.webp", alt: "Terrasse ved villa med tilbygning i Hasseris — Yderskov Arkitekter" },
+      { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-terrasse.webp", alt: "Terrasse ved villa med tilbygning i Hasseris — Yderskov Arkitekter" },
       { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp", alt: "Bagside af villa med tilbygning i Hasseris — Yderskov Arkitekter" },
-      { src: "/images/Leonoravej villa tilbygning/Leonoravej villa tilbygning-vindue.webp", alt: "Vinduesparti i villa med tilbygning i Hasseris — Yderskov Arkitekter" },
+      { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-vindue.webp", alt: "Vinduesparti i villa med tilbygning i Hasseris — Yderskov Arkitekter" },
     ],
     dark: false,
   },
