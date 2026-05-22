@@ -20,7 +20,7 @@ export default function PrisberegnPage() {
     <>
       <Nav />
       <Hero
-        slides={[{ src: "/images/Leonoravej villa tilbygning/IMG_7376.jpeg", alt: "Villa med tilbygning — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp", alt: "Villa med tilbygning — Yderskov Arkitekter" }]}
         tag="Prisberegner"
         showForm={false}
         lines={[
