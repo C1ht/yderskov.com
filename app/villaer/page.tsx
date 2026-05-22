@@ -18,10 +18,14 @@ const projectGalleries = [
   {
     eyebrow: "Projekt",
     title: "Funkis træ,\nglas og eternit.",
+    location: "Sæby, Nordjylland",
+    size: "230 m² bolig · 60 m² garage",
+    year: "2023",
+    description: "Funkisvilla opført i listebeklædning med åbne facader og store vinduespartier. Huset er beliggende op ad skov og natur, og det betød meget for familien at byggeriet blev indpasset omhyggeligt i det omgivende område.",
     images: [
-      { src: "/images/Karetmagervej/IMG_9184.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
-      { src: "/images/Karetmagervej/IMG_9182.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
-      { src: "/images/Karetmagervej/IMG_9185.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
+      { src: "/images/Karetmagervej/IMG_9184.webp", alt: "Arkitekttegnet funkisvilla i Sæby — Yderskov Arkitekter" },
+      { src: "/images/Karetmagervej/IMG_9182.webp", alt: "Arkitekttegnet funkisvilla i Sæby — Yderskov Arkitekter" },
+      { src: "/images/Karetmagervej/IMG_9185.webp", alt: "Arkitekttegnet funkisvilla i Sæby — Yderskov Arkitekter" },
     ],
     dark: false,
   },
@@ -152,6 +156,14 @@ export default function VillaerPage() {
                 <h2 className="sec-hed" style={{ marginBottom: 0, whiteSpace: "pre-line" }}>
                   {gallery.title}
                 </h2>
+                {"location" in gallery && (
+                  <p className="proj-meta">
+                    {gallery.location}{gallery.size ? ` · ${gallery.size}` : ""}{gallery.year ? ` · ${gallery.year}` : ""}
+                  </p>
+                )}
+                {"description" in gallery && (
+                  <p className="proj-desc">{gallery.description}</p>
+                )}
               </div>
             </div>
             <ImageGrid images={gallery.images} />
