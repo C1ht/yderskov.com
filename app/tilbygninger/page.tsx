@@ -57,11 +57,11 @@ const projectGalleries = [
   },
   {
     eyebrow: "Projekt",
-    title: "Ombygning af\neksisterende 70er-villa.",
+    title: "Ombygning af\neksisterende 70er-villa, Hasseris.",
     images: [
-      { src: "/images/Gravenstenvej/EEBD18F8-48F7-43CE-AE15-91FF91953CF7-2.webp", alt: "Ombygning — Yderskov Arkitekter" },
-      { src: "/images/Gravenstenvej/IMG_9584.webp", alt: "Ombygning — Yderskov Arkitekter" },
-      { src: "/images/Gravenstenvej/IMG_9883.webp", alt: "Ombygning — Yderskov Arkitekter" },
+      { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-vejside.webp", alt: "Vejside efter ombygning af 70er-villa i Hasseris — Yderskov Arkitekter" },
+      { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-haveside.webp", alt: "Haveside efter ombygning af 70er-villa i Hasseris — Yderskov Arkitekter" },
+      { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-terrassearbejde.webp", alt: "Terrassearbejde ved ombygning i Hasseris — Yderskov Arkitekter" },
     ],
     dark: false,
   },
