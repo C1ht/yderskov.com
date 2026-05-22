@@ -17,11 +17,11 @@ export const metadata: Metadata = {
 const projectGalleries = [
   {
     eyebrow: "Projekt",
-    title: "Sommerhus med\nstore vinduespartier.",
+    title: "Sommerhus med\nstore vinduespartier, Hals.",
     images: [
-      { src: "/images/Torndalsvej/IMG_3181.webp", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" },
-      { src: "/images/Torndalsvej/IMG_3296.webp", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" },
-      { src: "/images/Torndalsvej/IMG_4096.webp", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" },
+      { src: "/images/Torndalsvej/Hals-Torndalsvej-indgang.webp", alt: "Indgang til sommerhus i Hals — Yderskov Arkitekter" },
+      { src: "/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp", alt: "Terrasse ved sommerhus i Hals — Yderskov Arkitekter" },
+      { src: "/images/Torndalsvej/Hals-Torndalsvej-køkken.webp", alt: "Køkken i sommerhus i Hals — Yderskov Arkitekter" },
     ],
     dark: false,
   },
