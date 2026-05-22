@@ -14,6 +14,44 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "fortidsminde-fredningslinje-koege",
+    metaTitle: "Case: Fortidsminde og fredningslinje på grunden — og hvordan vi løste det — Yderskov Arkitekter",
+    title: "Da grunden viste sig at have skjulte begrænsninger — og hvordan vi løste det.",
+    description: "En bygherre i Køge stod med en drømmgrund belastet af fortidsminde og fredningslinje. Her fortæller vi hvad der skete — og hvordan vi alligevel fik alle ønsker opfyldt.",
+    date: "22 / 05 / 2026",
+    cat: "Cases fra praksis",
+    catKey: "case",
+    lead: "En bygherre i Køge havde fundet sin drømmgrund og var klar til at bygge. Planerne var store: svømmespa, fitnessrum, tagterrasse og terrasse i haveniveau. En villa der matchede både livsstil og ambitioner. Da vi gik i gang med skitseprojektet, dukkede det op.",
+    sections: [
+      {
+        heading: "Fortidsmindet og fredningslinjen",
+        paragraphs: [
+          "Lige langs skel lå et fortidsminde — og tværs over grunden løb en fredningslinje der reelt reducerede det lovlige byggefelt til kun 50% af grunden. Ingen af delene havde bygherren kendskab til ved købet.",
+          "Da vi kontaktede byggesagsafdelingen i Køge Kommune for at få afklaret konsekvenserne, viste det sig at heller ikke de i første omgang havde et klart svar — medarbejderne undrede sig faktisk selv over kombinationen af begrænsninger på netop denne grund. Det krævede flere møder, men samarbejdet var godt og byggesagsafdelingen var både hjælpsomme og grundige i afklaringen.",
+        ],
+      },
+      {
+        heading: "Den faglige løsning",
+        paragraphs: [
+          "Når byggefeltet er presset, handler det om at bruge arealet klogt. Vi valgte at bytte om på de to plan — det der naturligt ville ligge øverst kom i stedet nederst, og omvendt. Samtidig erstattede vi en halvsvingstrappe med repos med en ligeløbstrappe.",
+          "Det lyder som en teknisk detalje, men det frigav et afgørende areal: en ligeløbstrappe optager et aflangt, smalt felt fremfor et mere kvadratisk, og det gav os præcis den plads vi havde brug for til at få programmet til at gå op.",
+          "Resultatet blev en villa på 200 m² fordelt på to plan — med svømmespa, fitnessrum, terrasse i haveniveau og tagterrasse. Alle bygherrens ønsker opfyldt, inden for de bindinger grunden satte.",
+        ],
+      },
+      {
+        heading: "Mit råd til dig der overvejer at købe grund",
+        paragraphs: [
+          "Inden du underskriver skødet — få undersøgt om der ligger fredninger, fredningslinjer, fortidsminder eller andre bindinger på grunden. Det kan du gøre via:",
+          "• Danmarks Arealinformation (arealinformation.dk) — gratis kortportal med lag for fredninger, fortidsminder og meget mere",
+          "• Kommunens byggesagsafdeling — ring og spørg inden købet, ikke efter",
+          "• Din arkitekt — vi kan læse kortene og vurdere hvad begrænsningerne betyder for netop dit byggeprojekt",
+          "En begrænsning på papiret behøver ikke betyde en begrænsning i virkeligheden — men du skal kende den, før du køber.",
+          "Har du spørgsmål til hvad der er muligt på din grund? Ring til os på 29 72 34 27 eller skriv til cy@yderskov.com",
+        ],
+      },
+    ],
+  },
+  {
     slug: "boligdetalje-gaspejs",
     metaTitle: "Boligdetalje #8: Gaspejs — sådan planlægger du det i dit hjem — Yderskov Arkitekter",
     title: "Boligdetalje #8: Gaspejs — sådan planlægger du det i dit hjem.",
