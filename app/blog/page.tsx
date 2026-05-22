@@ -465,7 +465,10 @@ export default function BlogPage() {
   today.setHours(0, 0, 0, 0);
   const published = posts.filter((p) => parseDate(p.date) <= today);
   const filtered = (active === "alle" ? published : published.filter((p) => p.catKey === active));
-  const sorted = sortAsc ? [...filtered].reverse() : filtered;
+  const sorted = [...filtered].sort((a, b) => {
+    const diff = parseDate(b.date).getTime() - parseDate(a.date).getTime();
+    return sortAsc ? -diff : diff;
+  });
 
   return (
     <>
