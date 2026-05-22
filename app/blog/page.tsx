@@ -29,7 +29,7 @@ const posts: Post[] = [
   },
   {
     href: "/blog/flyhangar-nordjylland",
-    date: "22 / 05 / 2026",
+    date: "15 / 05 / 2026",
     cat: "Cases fra praksis",
     catKey: "case",
     title: "Arkitekttegnet flyhangar på nordjysk airstrip — case fra en passioneret sportsflypilot.",

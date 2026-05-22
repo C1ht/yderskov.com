@@ -56,7 +56,7 @@ export const posts: BlogPost[] = [
     metaTitle: "Arkitekttegnet flyhangar på nordjysk airstrip — case fra en passioneret sportsflypilot — Yderskov Arkitekter",
     title: "Arkitekttegnet flyhangar på nordjysk airstrip — case fra en passioneret sportsflypilot.",
     description: "En nordjysk bygherre med eget sportsfly og egen airstrip vil have en ordentlig hangar. Her fortæller vi om projektet og hvad der kræves af arkitekturen.",
-    date: "22 / 05 / 2026",
+    date: "15 / 05 / 2026",
     cat: "Cases fra praksis",
     catKey: "case",
     lead: "Han har sit sportsfly. Han har sin airstrip. Nu skal han bare have det rigtige hjem til flyet. En nordjysk bygherre med en livslang passion for luftfart kontaktede os med et projekt vi sjældent ser — og som vi glæder os til at tegne.",
