@@ -29,7 +29,7 @@ export default function SpecialPage() {
         tag="Special"
         subtitle="Special"
         lines={[
-          "Tinyhouse, bålhytte, dansestudio eller noget andet unikt. Vi tegner det andre ikke tør.",
+          "En motorcykelgarage, et dansestudio, en hangar til dit sportsfly, et astronomisk observatorium på taget eller noget helt andet. Vi tegner det andre ikke tør.",
           "Gratis og uforpligtende første idemøde. Vi kommer ud til jer.",
         ]}
         italicLines={[0, 1]}
