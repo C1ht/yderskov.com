@@ -84,11 +84,11 @@ const projectGalleries = [
   },
   {
     eyebrow: "Projekt",
-    title: "Villa med\nensidig taghældning.",
+    title: "Villa med\nensidig taghældning, Vestbjerg.",
     images: [
-      { src: "/images/Hanebjælken/IMG_4752.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
-      { src: "/images/Hanebjælken/IMG_4754.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
-      { src: "/images/Hanebjælken/IMG_4756.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
+      { src: "/images/Hanebjælken/Vestbjerg-Hanebjælken-ny-villa-haveside.webp", alt: "Villa med ensidig taghældning, haveside, Vestbjerg — Yderskov Arkitekter" },
+      { src: "/images/Hanebjælken/Vestbjerg-Hanebjælken-ny-villa-overdækket-terrasse.webp", alt: "Overdækket terrasse på villa i Vestbjerg — Yderskov Arkitekter" },
+      { src: "/images/Hanebjælken/Vestbjerg-Hanebjælken-ny-villa-værelsesfløj.webp", alt: "Værelsesfløj på villa med ensidig taghældning, Vestbjerg — Yderskov Arkitekter" },
     ],
     dark: false,
   },
