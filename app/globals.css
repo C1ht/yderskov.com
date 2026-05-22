@@ -227,7 +227,7 @@ body.menu-open { overflow: hidden; }
 .hero-left-sub { font-size: 1rem; font-weight: 500; color: #fff; line-height: 1.7; margin-bottom: 0.5rem; text-shadow: 0 1px 10px rgba(0,0,0,0.6); }
 .hero-24h { display: inline-flex; align-items: center; gap: 0.4rem; margin-top: 1rem; font-size: 0.825rem; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: #fff; }
 .hero-24h::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: #6fcf97; flex-shrink: 0; }
-.hero-mini-quote { margin-top: 2.5rem; font-size: 0.95rem; font-weight: 400; color: #fff; line-height: 1.65; font-style: italic; max-width: 420px; }
+.hero-mini-quote { margin-top: 2.5rem; font-size: clamp(0.82rem, 1.8vw, 0.95rem); font-weight: 400; color: #fff; line-height: 1.65; font-style: italic; max-width: min(420px, 100%); }
 .hero-mini-quote::before { content: ''; display: block; width: 50%; height: 1px; background: rgba(255,255,255,0.5); margin-bottom: 1.5rem; }
 .hero-mini-quote-name { margin-top: 0.5rem; font-size: 0.75rem; font-weight: 700; color: #fff; letter-spacing: 0.08em; text-transform: uppercase; font-style: normal; }
 .hero-right { width: 340px; flex-shrink: 0; margin-top: 1cm; }
