@@ -37,7 +37,7 @@ const projectGalleries = [
   },
   {
     eyebrow: "Projekt",
-    title: "Sommerhus\nmed pool.",
+    title: "Sommerhus\nmed pool, Ålbæk.",
     images: [
       { src: "/images/Løvevej/Ålbæk-poolhus-terrasse.webp", alt: "Arkitekttegnet poolhus i Ålbæk — Yderskov Arkitekter" },
       { src: "/images/Løvevej/Ålbæk-poolhus-pool.webp", alt: "Indendørs pool i arkitekttegnet sommerhus — Yderskov Arkitekter" },
