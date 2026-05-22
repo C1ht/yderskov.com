@@ -98,18 +98,21 @@ export default function LejlighederPage() {
           <div className="proj-header">
             <div>
               <span className="eyebrow">Projekt</span>
-              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering II<br />i Aalborg, Reberbansgade.</h2>
+              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering II<br />i Reberbansgade, Aalborg.</h2>
             </div>
           </div>
           <ImageGrid images={[
-            { src: "/images/Reberbansgade/køkken stor.webp", alt: "Lejlighedsrenovering II — Yderskov Arkitekter" },
-            { src: "/images/Reberbansgade/IMG_1188.webp", alt: "Lejlighedsrenovering II — Yderskov Arkitekter" },
-            { src: "/images/Reberbansgade/køkken stor (2).webp", alt: "Lejlighedsrenovering II — Yderskov Arkitekter" },
-            { src: "/images/Reberbansgade/soveværele stor.webp", alt: "Lejlighedsrenovering II — Yderskov Arkitekter" },
-            { src: "/images/Reberbansgade/IMG_1193.webp", alt: "Lejlighedsrenovering II — Yderskov Arkitekter" },
-            { src: "/images/Reberbansgade/toilet l ille.webp", alt: "Lejlighedsrenovering II — Yderskov Arkitekter" },
-            { src: "/images/Reberbansgade/stuegulv.webp", alt: "Lejlighedsrenovering II — Yderskov Arkitekter" },
-            { src: "/images/Reberbansgade/køkkengulv.webp", alt: "Lejlighedsrenovering II — Yderskov Arkitekter" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-stur.webp", alt: "Stue i lejlighedsrenovering, Reberbansgade — Yderskov Arkitekter" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-stue-soveværelseskik.webp", alt: "Kik fra stue mod soveværelse — Yderskov Arkitekter" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-soveværelse.webp", alt: "Soveværelse i lejlighedsrenovering, Reberbansgade — Yderskov Arkitekter" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-soveværelse-stuekik.webp", alt: "Kik fra soveværelse mod stue — Yderskov Arkitekter" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-køkken.webp", alt: "Køkken i lejlighedsrenovering, Reberbansgade — Yderskov Arkitekter" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-køkken-kogesektion.webp", alt: "Kogesektion i køkken, Reberbansgade — Yderskov Arkitekter" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-opvaskemaskine.webp", alt: "Opvaskemaskine i køkken, Reberbansgade — Yderskov Arkitekter" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-køkkengulv.webp", alt: "Køkkengulv i lejlighedsrenovering, Reberbansgade — Yderskov Arkitekter" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-stuegulv.webp", alt: "Stuegulv i lejlighedsrenovering, Reberbansgade — Yderskov Arkitekter" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-badmiljø.webp", alt: "Badeværelse i lejlighedsrenovering, Reberbansgade — Yderskov Arkitekter" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-toilet.webp", alt: "Toilet i lejlighedsrenovering, Reberbansgade — Yderskov Arkitekter" },
           ]} />
         </div>
       </section>
@@ -119,14 +122,13 @@ export default function LejlighederPage() {
           <div className="proj-header">
             <div>
               <span className="eyebrow">Projekt</span>
-              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering III<br />i Aalborg, Reberbansgade.</h2>
+              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering III<br />i Reberbansgade, Aalborg.</h2>
             </div>
           </div>
           <ImageGrid images={[
-            { src: "/images/Reberbansgade/køkken lille 2.webp", alt: "Lejlighedsrenovering III — Yderskov Arkitekter" },
-            { src: "/images/Reberbansgade/køkken lille.webp", alt: "Lejlighedsrenovering III — Yderskov Arkitekter" },
-            { src: "/images/Reberbansgade/IMG_1202.webp", alt: "Lejlighedsrenovering III — Yderskov Arkitekter" },
-            { src: "/images/Reberbansgade/IMG_1212.webp", alt: "Lejlighedsrenovering III — Yderskov Arkitekter" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1tv-køkken-.webp", alt: "Køkken i lejlighedsrenovering, Reberbansgade — Yderskov Arkitekter" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1tv-køkkenhylder.webp", alt: "Køkkenhylder i lejlighedsrenovering, Reberbansgade — Yderskov Arkitekter" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1tv-toilet.webp", alt: "Toilet i lejlighedsrenovering, Reberbansgade — Yderskov Arkitekter" },
           ]} />
         </div>
       </section>
