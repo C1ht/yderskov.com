@@ -27,7 +27,7 @@ const projectGalleries = [
   },
   {
     eyebrow: "Projekt",
-    title: "Fabrik ombygget\ntil lejligheder i Aarhus centrum.",
+    title: "Fabrik ombygget\ntil lejligheder i bycentrum, Aarhus.",
     images: [
       { src: "/images/Fabrik Aarhus/fabrik aarhus yderskov.webp", alt: "Fabrik Aarhus — Yderskov Arkitekter" },
       { src: "/images/Fabrik Aarhus/fabrik ombygget yderskov.webp", alt: "Fabrik Aarhus — Yderskov Arkitekter" },
