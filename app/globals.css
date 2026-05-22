@@ -186,8 +186,8 @@ body.menu-open { overflow: hidden; }
   align-items: center; justify-content: center; gap: 0.25rem;
   padding: 5rem 2rem 3rem; overflow-y: auto; pointer-events: auto;
 }
-.nav-mobile-group { display: flex; flex-direction: column; align-items: center; gap: 0.1rem; margin-bottom: 0.75rem; }
-.nav-mobile-group-label { font-size: 0.6rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--light); margin-bottom: 0.3rem; }
+.nav-mobile-group { display: flex; flex-direction: column; align-items: center; gap: 0.1rem; margin-bottom: 0.75rem; margin-top: 0.75rem; }
+.nav-mobile-group-label { font-size: 0.55rem; font-weight: 400; letter-spacing: 0.16em; text-transform: uppercase; color: var(--light); margin-bottom: 0.5rem; opacity: 0.6; pointer-events: none; }
 .nav-mobile-link { font-size: 1.1rem; font-weight: 300; color: var(--sub); padding: 0.3rem 0; transition: color 0.15s; }
 .nav-mobile-link:hover, .nav-mobile-link.nav-active { color: var(--text); }
 .nav-mobile-close { position: absolute; top: 16px; right: 16px; background: none; border: none; cursor: pointer; padding: 10px; -webkit-tap-highlight-color: transparent; }
