@@ -52,6 +52,49 @@ export const posts: BlogPost[] = [
     ],
   },
   {
+    slug: "naturlig-kilde-sebbersund",
+    metaTitle: "Kilden der løb ud af bakken i Sebbersund — fra udfordring til haveelement — Yderskov Arkitekter",
+    title: "Kilden der løb ud af bakken i Sebbersund — fra udfordring til haveelement.",
+    description: "En naturlig kilde på sommerhusgrunden i Sebbersund skulle håndteres inden byggeriet. Arkitekten foreslog at gøre den til et smukt haveelement med sten og beplantning.",
+    date: "01 / 05 / 2026",
+    cat: "Cases fra praksis",
+    catKey: "case",
+    lead: "De fleste bygherrer håber at grunden er enkel. Men hvad gør man når der løber en naturlig kilde ud af bakken — og direkte mod byggepladsen? På sommerhusgrunden i Sebbersund var det præcis det der skete. Her er hvad vi gjorde, og hvad en kilde egentlig kan blive til.",
+    sections: [
+      {
+        heading: "Kilden der kom med grunden",
+        paragraphs: [
+          "Da vi arbejdede med sommerhuset ved Halkær Bredning i Sebbersund, viste grunden sig at have et særligt element: en naturlig kilde der bryder frem fra bakken og finder sin egen vej nedad. Det er ikke ualmindeligt i det nordjyske landskab — men det stiller krav til projekteringen. Vand og fundamenter er ikke venner, og kilden måtte håndteres før huset kom på plads.",
+        ],
+      },
+      {
+        heading: "Løsningen: kilden ledes uden om",
+        paragraphs: [
+          "Vi valgte at lede kilden udenom huset og samle den i en rende langs grunden. Dermed er vandet styret, fundamentet er tørt, og kilden er bevaret som det naturlige element den er. Det er den rigtige løsning både byggeteknisk og æstetisk — en kilde der graves væk eller drænes bort er en mulighed der går tabt.",
+        ],
+      },
+      {
+        heading: "Fra vandafledning til havekunst",
+        paragraphs: [
+          "Arkitekten foreslog bygherren at gøre noget smukt ud af kildens forløb. Et naturligt vandløb gennem haven — med smukke sten lagt i og langs renden, og beplantning der trives ved vand — er et af de mest stemningsfulde elementer et haveprojekt kan have. Det kræver ikke meget: naturen har allerede lavet den vigtigste del.",
+          "Til beplantning langs et naturligt vandløb egner sig planter der elsker fugt og halvskygge: iris, engkabbeleje, kogleaks, fredløs og pileurt er alle robuste og smukke valg der understreger det naturlige præg. Sten i og langs vandløbet bør være runde, lokale marksten der ikke virker anlagte — de skal se ud som om de altid har ligget der.",
+        ],
+      },
+      {
+        heading: "Hvad du skal vide om naturlige vandløb på din grund",
+        paragraphs: [
+          "Et naturligt vandløb er ikke helt dit eget. Vandløbsloven regulerer hvad du må og ikke må med et vandløb — herunder om du må omlægge det, opstemme det eller tilplante det tæt. Er vandløbet registreret som offentligt eller privat vandløb, gælder der specifikke regler for vedligehold og ændringer. Kontakt altid kommunen inden du ændrer et vandløbs forløb eller beplanter det tæt, så du er på den sikre side.",
+        ],
+      },
+      {
+        heading: "En kilde er en kvalitet",
+        paragraphs: [
+          "En naturlig kilde på grunden er ikke en ulempe — det er en karakter. Det er bevægelse, lyd og liv i haven. Det er en grund der gør noget de fleste grunde ikke gør. Med den rette projektering og lidt opmærksomhed på beplantning og sten kan kilden blive det første gæsterne lægger mærke til.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "sommerhus-sebbersund-snestorm",
     metaTitle: "Bygget under snestorm, leveret på blokvogn — sommerhus ved Halkær Bredning i Sebbersund — Yderskov Arkitekter",
     title: "Bygget under snestorm, leveret på blokvogn — sommerhus ved Halkær Bredning i Sebbersund.",

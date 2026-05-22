@@ -28,6 +28,15 @@ const posts: Post[] = [
     excerpt: "En bygherre i Køge stod med en drømmgrund belastet af fortidsminde og fredningslinje. Her fortæller vi hvad der skete — og hvordan vi alligevel fik alle ønsker opfyldt.",
   },
   {
+    href: "/blog/naturlig-kilde-sebbersund",
+    date: "01 / 05 / 2026",
+    cat: "Cases fra praksis",
+    catKey: "case",
+    title: "Kilden der løb ud af bakken i Sebbersund — fra udfordring til haveelement.",
+    subtitle: "En case fra Sebbersund",
+    excerpt: "En naturlig kilde på sommerhusgrunden skulle håndteres inden byggeriet. Arkitekten foreslog at gøre den til et smukt haveelement med sten og beplantning.",
+  },
+  {
     href: "/blog/sommerhus-sebbersund-snestorm",
     date: "08 / 05 / 2026",
     cat: "Cases fra praksis",
