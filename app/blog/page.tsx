@@ -28,6 +28,15 @@ const posts: Post[] = [
     excerpt: "En bygherre i Køge stod med en drømmgrund belastet af fortidsminde og fredningslinje. Her fortæller vi hvad der skete — og hvordan vi alligevel fik alle ønsker opfyldt.",
   },
   {
+    href: "/blog/flyhangar-nordjylland",
+    date: "22 / 05 / 2026",
+    cat: "Cases fra praksis",
+    catKey: "case",
+    title: "Arkitekttegnet flyhangar på nordjysk airstrip — case fra en passioneret sportsflypilot.",
+    subtitle: "En case fra Nordjylland",
+    excerpt: "En nordjysk bygherre med eget sportsfly og egen airstrip vil have en ordentlig hangar. Her fortæller vi om projektet og hvad der kræves af arkitekturen.",
+  },
+  {
     href: "/blog/hjemmekontor",
     date: "16 / 05 / 2026",
     cat: "Villa & boligdesign",
