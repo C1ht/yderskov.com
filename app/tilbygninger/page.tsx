@@ -67,11 +67,18 @@ const projectGalleries = [
   },
   {
     eyebrow: "Projekt",
-    title: "Lille, gammelt parcelhus\nombygget til moderne bolig.",
+    title: "Lille, gammelt parcelhus\nombygget til moderne bolig, Brønderslev.",
     images: [
-      { src: "/images/Emils hus Olufsgade/villa-emil.webp", alt: "Ombygning — Yderskov Arkitekter" },
-      { src: "/images/Emils hus Olufsgade/IMG_8303.webp", alt: "Ombygning — Yderskov Arkitekter" },
-      { src: "/images/Emils hus Olufsgade/IMG_8307.webp", alt: "Ombygning — Yderskov Arkitekter" },
+      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-indkørsel.webp", alt: "Indkørsel efter ombygning i Brønderslev — Yderskov Arkitekter" },
+      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-vejside.webp", alt: "Vejside efter ombygning i Brønderslev — Yderskov Arkitekter" },
+      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-forhave.webp", alt: "Forhave efter ombygning i Brønderslev — Yderskov Arkitekter" },
+      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-bagside.webp", alt: "Bagside efter ombygning i Brønderslev — Yderskov Arkitekter" },
+      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-haveside.webp", alt: "Haveside efter ombygning i Brønderslev — Yderskov Arkitekter" },
+    ],
+    afterLabel: "Efter modernisering",
+    beforeLabel: "Før modernisering",
+    beforeImages: [
+      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-foer-vejside.webp", alt: "Vejside før ombygning i Brønderslev — Yderskov Arkitekter" },
     ],
     dark: false,
   },
