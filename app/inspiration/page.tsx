@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import CtaBand from "@/components/CtaBand";
+import InspirationGallery from "@/components/InspirationGallery";
 
 export const metadata: Metadata = {
   title: "Inspiration — arkitekttegnede projekter — Yderskov Arkitekter",
@@ -66,27 +66,7 @@ export default function InspirationPage() {
 
       <section className="s s-off">
         <div className="s-inner">
-          <div className="insp-grid">
-            {images.map((img, i) => (
-              <div key={i} className="insp-item">
-                <Image
-                  src={img.src}
-                  alt={img.alt}
-                  width={800}
-                  height={600}
-                  className={img.rotateMobile ? "insp-rotate-mobile" : ""}
-                  style={{
-                    width: "100%",
-                    height: "auto",
-                    display: "block",
-                    ...(img.rotate ? { transform: "rotate(90deg)", transformOrigin: "center" } : {}),
-                    ...(img.rotateCCW ? { transform: "rotate(-90deg)", transformOrigin: "center" } : {}),
-                  }}
-                  sizes="(max-width: 600px) 50vw, (max-width: 900px) 33vw, 25vw"
-                />
-              </div>
-            ))}
-          </div>
+          <InspirationGallery images={images} />
         </div>
       </section>
 
