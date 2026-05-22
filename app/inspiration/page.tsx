@@ -25,7 +25,7 @@ const images: { src: string; alt: string; rotate?: boolean; rotateCCW?: boolean;
   { src: "/images/Sommervænget/IMG_1434.jpeg", alt: "Arkitekttegnet bolig — Yderskov Arkitekter" },
   { src: "/images/Neptunvej/IMG_2588.webp", alt: "Tilbygning og renovering — Yderskov Arkitekter" },
   { src: "/images/Karetmagervej/IMG_9182.jpeg", alt: "Arkitekttegnet projekt — Yderskov Arkitekter" },
-  { src: "/images/Løvevej/house2.jpg", alt: "Sommerhus med pool — Yderskov Arkitekter" },
+  { src: "/images/Løvevej/Ålbæk-poolhus-terrasse.webp", alt: "Sommerhus med pool — Yderskov Arkitekter" },
   { src: "/images/Lerstien/IMG_7931.jpg", alt: "Arkitekttegnet projekt — Yderskov Arkitekter" },
   { src: "/images/Gravenstenvej/IMG_9584.webp", alt: "Ombygning af villa — Yderskov Arkitekter" },
   { src: "/images/Vestvej/IMG_3255.jpeg", alt: "Arkitekttegnet bolig — Yderskov Arkitekter" },
@@ -40,7 +40,7 @@ const images: { src: string; alt: string; rotate?: boolean; rotateCCW?: boolean;
   { src: "/images/Karetmagervej/IMG_9185.jpeg", alt: "Arkitekttegnet projekt — Yderskov Arkitekter" },
   { src: "/images/villa sæby/IMG_2472.jpg", alt: "Villa Sæby — Yderskov Arkitekter" },
   { src: "/images/Lerstien/IMG_7936.jpg", alt: "Arkitekttegnet projekt — Yderskov Arkitekter" },
-  { src: "/images/Løvevej/IMG_9379_r2.jpeg", alt: "Sommerhus med pool — Yderskov Arkitekter" },
+  { src: "/images/Løvevej/Ålbæk-poolhus-pool.webp", alt: "Sommerhus med pool — Yderskov Arkitekter" },
   { src: "/images/Hanebjælken/IMG_4754.jpeg", alt: "Arkitekttegnet projekt — Yderskov Arkitekter" },
   { src: "/images/Sommervænget/IMG_1439.jpeg", alt: "Arkitekttegnet bolig — Yderskov Arkitekter" },
 ];

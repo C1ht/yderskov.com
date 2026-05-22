@@ -35,7 +35,7 @@ const localBusinessSchema = {
 const projects = [
   { src: "/images/Torndalsvej/IMG_3181.webp", title: "Arkitekttegnet sommerhus" },
   { src: "/images/Karetmagervej/IMG_9184.webp", title: "Funkis villa" },
-  { src: "/images/Løvevej/house2.jpg", title: "Sommerhus med pool" },
+  { src: "/images/Løvevej/Ålbæk-poolhus-terrasse.webp", title: "Sommerhus med pool" },
   { src: "/images/Gravenstenvej/EEBD18F8-48F7-43CE-AE15-91FF91953CF7-2.webp", title: "Ombygning af villa" },
   { src: "/images/Harald Jensens Vej/IMG_2937.webp", title: "Nyt sommerhus" },
   { src: "/images/Godthåbsvej/yderskov-ombygning-efter-2.webp", title: "Ombygning og modernisering" },

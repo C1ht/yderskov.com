@@ -30,7 +30,7 @@ const defaultSlides: HeroSlide[] = [
   { src: "/images/Harald Jensens Vej/IMG_2937.webp", alt: "Tilbygning — Yderskov" },
   { src: "/images/Karetmagervej/IMG_9184.webp", alt: "Arkitekttegnet villa — Yderskov" },
   { src: "/images/Leonoravej villa tilbygning/IMG_7376.webp", alt: "Villa med tilbygning — Yderskov" },
-  { src: "/images/Løvevej/house2.jpg", alt: "Ny villa — Yderskov" },
+  { src: "/images/Løvevej/Ålbæk-poolhus-terrasse.webp", alt: "Ny villa — Yderskov" },
   { src: "/images/Godthåbsvej/yderskov-ombygning-efter-2.webp", alt: "Ombygning — Yderskov" },
   { src: "/images/Vesterhavsbakken tilbygning sommerhus/IMG_7455.webp", alt: "Sommerhus med tilbygning — Yderskov" },
 ];

@@ -45,7 +45,7 @@ export default function OmPage() {
     <>
       <Nav />
       <Hero
-        slides={[{ src: "/images/Løvevej/house2.jpg", alt: "Arkitekttegnestuen Yderskov" }]}
+        slides={[{ src: "/images/Løvevej/Ålbæk-poolhus-terrasse.webp", alt: "Arkitekttegnestuen Yderskov" }]}
         tag="Om os"
         subtitle="Om os"
         lines={[
