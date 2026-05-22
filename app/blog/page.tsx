@@ -12,6 +12,7 @@ type Post = {
   cat: string;
   catKey: string;
   title: string;
+  subtitle?: string;
   excerpt: string;
 };
 
@@ -23,6 +24,7 @@ const posts: Post[] = [
     cat: "Cases fra praksis",
     catKey: "case",
     title: "Fortidsminde og fredningslinje på byggegrunden — case fra Køge.",
+    subtitle: "En case fra Køge",
     excerpt: "En bygherre i Køge stod med en drømmgrund belastet af fortidsminde og fredningslinje. Her fortæller vi hvad der skete — og hvordan vi alligevel fik alle ønsker opfyldt.",
   },
   {
@@ -488,6 +490,7 @@ export default function BlogPage() {
                 <span className="post-date">{post.date}</span>
                 <span className="post-cat">{post.cat}</span>
                 <p className="post-title">{post.title}</p>
+                {post.subtitle && <p className="post-subtitle">{post.subtitle}</p>}
                 <p className="post-excerpt">{post.excerpt}</p>
                 <span className="post-link">Læs mere →</span>
               </Link>
