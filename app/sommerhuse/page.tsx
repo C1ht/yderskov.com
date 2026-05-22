@@ -53,11 +53,11 @@ const projectGalleries = [
   },
   {
     eyebrow: "Projekt",
-    title: "Nyt\nsommerhus.",
+    title: "Nyt\nsommerhus, Løkken.",
     images: [
-      { src: "/images/Harald Jensens Vej/IMG_2934.webp", alt: "Sommerhus med tilbygning — Yderskov Arkitekter" },
-      { src: "/images/Harald Jensens Vej/IMG_2937.webp", alt: "Sommerhus med tilbygning — Yderskov Arkitekter" },
-      { src: "/images/Harald Jensens Vej/IMG_2938.webp", alt: "Sommerhus med tilbygning — Yderskov Arkitekter" },
+      { src: "/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-indkørsel.webp", alt: "Nyt sommerhus i Løkken — Yderskov Arkitekter" },
+      { src: "/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-terrasse.webp", alt: "Terrasse ved sommerhus i Løkken — Yderskov Arkitekter" },
+      { src: "/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej--udebruser.webp", alt: "Udebruser ved sommerhus i Løkken — Yderskov Arkitekter" },
     ],
     dark: false,
   },
