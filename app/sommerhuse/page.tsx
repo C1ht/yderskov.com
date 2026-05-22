@@ -95,7 +95,7 @@ export default function SommerhusePage() {
     <>
       <Nav />
       <Hero
-        slides={[{ src: "/images/Torndalsvej/IMG_3181.webp", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" }]}
         tag="Sommerhuse"
         subtitle="Sommerhuse"
         lines={[
