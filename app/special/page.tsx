@@ -15,9 +15,9 @@ export const metadata: Metadata = {
 };
 
 const projects = [
-  { src: "/images/Bed and breakfast/Bed and breakfast fra gård yderskov.webp", title: "Bed & Breakfast · Projekt" },
-  { src: "/images/Bed and breakfast/Bed and breakfast fra køkken Yderskov.webp", title: "Bed & Breakfast · Projekt" },
-  { src: "/images/Bed and breakfast/Bed and breakfast fra spiseområde.webp", title: "Bed & Breakfast · Projekt" },
+  { src: "/images/Bed and breakfast/Aalborg-bed-and-breakfast.webp", title: "Bed & Breakfast · Projekt" },
+  { src: "/images/Bed and breakfast/Aalborg-bed-and-breakfast-køkken.webp", title: "Bed & Breakfast · Projekt" },
+  { src: "/images/Bed and breakfast/Aalborg-bed-and-breakfast-spiseområde.webp", title: "Bed & Breakfast · Projekt" },
 ];
 
 export default function SpecialPage() {
@@ -25,7 +25,7 @@ export default function SpecialPage() {
     <>
       <Nav />
       <Hero
-        slides={[{ src: "/images/Bed and breakfast/Bed and breakfast fra gård yderskov.webp", alt: "Specialprojekt — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Bed and breakfast/Aalborg-bed-and-breakfast.webp", alt: "Specialprojekt — Yderskov Arkitekter" }]}
         tag="Special"
         subtitle="Special"
         lines={[
