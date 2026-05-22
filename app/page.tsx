@@ -103,7 +103,7 @@ export default function HomePage() {
       <Nav />
 
       <Hero
-        slides={[{ src: "/images/Lerstien/IMG_7931.webp", alt: "Arkitekttegnet villa — Yderskov" }]}
+        slides={[{ src: "/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp", alt: "Arkitekttegnet villa med udsigt — Yderskov" }]}
         tag="Hjem"
         showQuote
         bright
