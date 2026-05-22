@@ -15,8 +15,8 @@ export type BlogPost = {
 export const posts: BlogPost[] = [
   {
     slug: "fortidsminde-fredningslinje-koege",
-    metaTitle: "Case: Fortidsminde og fredningslinje på grunden — og hvordan vi løste det — Yderskov Arkitekter",
-    title: "Da grunden viste sig at have skjulte begrænsninger — og hvordan vi løste det.",
+    metaTitle: "Fortidsminde og fredningslinje på byggegrunden — case fra Køge — Yderskov Arkitekter",
+    title: "Fortidsminde og fredningslinje på byggegrunden — case fra Køge.",
     description: "En bygherre i Køge stod med en drømmgrund belastet af fortidsminde og fredningslinje. Her fortæller vi hvad der skete — og hvordan vi alligevel fik alle ønsker opfyldt.",
     date: "22 / 05 / 2026",
     cat: "Cases fra praksis",
