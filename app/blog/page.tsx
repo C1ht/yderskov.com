@@ -32,7 +32,7 @@ const posts: Post[] = [
     date: "01 / 05 / 2026",
     cat: "Cases fra praksis",
     catKey: "case",
-    title: "Kilden der løb ud af bakken i Sebbersund — fra udfordring til haveelement.",
+    title: "Kilden der løb ud af bakken i Sebbersund — og hvordan vi gjorde den til et smukt element.",
     subtitle: "En case fra Sebbersund",
     excerpt: "En naturlig kilde på sommerhusgrunden skulle håndteres inden byggeriet. Arkitekten foreslog at gøre den til et smukt haveelement med sten og beplantning.",
   },

@@ -53,8 +53,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "naturlig-kilde-sebbersund",
-    metaTitle: "Kilden der løb ud af bakken i Sebbersund — fra udfordring til haveelement — Yderskov Arkitekter",
-    title: "Kilden der løb ud af bakken i Sebbersund — fra udfordring til haveelement.",
+    metaTitle: "Kilden der løb ud af bakken i Sebbersund — og hvordan vi gjorde den til et smukt element — Yderskov Arkitekter",
+    title: "Kilden der løb ud af bakken i Sebbersund — og hvordan vi gjorde den til et smukt element.",
     description: "En naturlig kilde på sommerhusgrunden i Sebbersund skulle håndteres inden byggeriet. Arkitekten foreslog at gøre den til et smukt haveelement med sten og beplantning.",
     date: "01 / 05 / 2026",
     cat: "Cases fra praksis",
