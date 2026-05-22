@@ -17,11 +17,11 @@ export const metadata: Metadata = {
 const projectGalleries = [
   {
     eyebrow: "Projekt",
-    title: "Kontormiljø i Aalborg\nfor IT-virksomhed.",
+    title: "Kontormiljø\nfor IT-virksomhed, Aalborg.",
     images: [
-      { src: "/images/Assensvej Kontormiljø/5Assensvej kontormiljø.webp", alt: "Kontormiljø — Yderskov Arkitekter" },
-      { src: "/images/Assensvej Kontormiljø/5Assensvej kontormiljø kontor.webp", alt: "Kontormiljø — Yderskov Arkitekter" },
-      { src: "/images/Assensvej Kontormiljø/5Assensvej kontormiljø glasvæg.webp", alt: "Kontormiljø — Yderskov Arkitekter" },
+      { src: "/images/Assensvej Kontormiljø/Aalborg-Assensvej-kontormiljø.webp", alt: "Kontormiljø for IT-virksomhed, Aalborg — Yderskov Arkitekter" },
+      { src: "/images/Assensvej Kontormiljø/Aalborg-Assensvej-kontormiljø-kontor.webp", alt: "Kontor i kontormiljø, Aalborg — Yderskov Arkitekter" },
+      { src: "/images/Assensvej Kontormiljø/Aalborg-Assensvej-kontormiljø-glasvæg.webp", alt: "Glasvæg i kontormiljø, Aalborg — Yderskov Arkitekter" },
     ],
     dark: false,
   },
@@ -71,7 +71,7 @@ export default function ErhvervPage() {
     <>
       <Nav />
       <Hero
-        slides={[{ src: "/images/Assensvej Kontormiljø/5Assensvej kontormiljø.webp", alt: "Erhvervsbyggeri — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Assensvej Kontormiljø/Aalborg-Assensvej-kontormiljø.webp", alt: "Erhvervsbyggeri — Yderskov Arkitekter" }]}
         tag="Erhverv"
         subtitle="Erhverv"
         lines={[
