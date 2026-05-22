@@ -41,7 +41,7 @@ const posts: Post[] = [
     date: "08 / 05 / 2026",
     cat: "Cases fra praksis",
     catKey: "case",
-    title: "Bygget under snestorm, leveret på blokvogn — sommerhus ved Halkær Bredning i Sebbersund.",
+    title: "Bygget under snestorm, leveret på blokvogn — case fra Sebbersund ved Halkær Bredning.",
     subtitle: "En case fra Sebbersund",
     excerpt: "Sommerhuset blev bygget som præfabrikerede elementer i en hal under snestorm, kørt til Sebbersund på blokvogn og hejst på plads med kran.",
   },
