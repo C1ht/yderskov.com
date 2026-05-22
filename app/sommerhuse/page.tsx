@@ -27,11 +27,11 @@ const projectGalleries = [
   },
   {
     eyebrow: "Projekt",
-    title: "Sommerhus\ntil udsigtsgrund.",
+    title: "Sommerhus\ntil udsigtsgrund, Løkken.",
     images: [
-      { src: "/images/Løkken sommerhus/IMG_7444.webp", alt: "Sommerhus Løkken — Yderskov Arkitekter" },
-      { src: "/images/Løkken sommerhus/IMG_7445.webp", alt: "Sommerhus Løkken — Yderskov Arkitekter" },
-      { src: "/images/Løkken sommerhus/IMG_7452.webp", alt: "Sommerhus Løkken — Yderskov Arkitekter" },
+      { src: "/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-indgangsparti.webp", alt: "Indgangsparti ved sommerhus i Løkken — Yderskov Arkitekter" },
+      { src: "/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-terrasse.webp", alt: "Terrasse ved sommerhus i Løkken — Yderskov Arkitekter" },
+      { src: "/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-sidebygning.webp", alt: "Sidebygning ved sommerhus i Løkken — Yderskov Arkitekter" },
     ],
     dark: true,
   },
