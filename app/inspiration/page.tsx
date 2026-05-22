@@ -12,11 +12,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://yderskov.dk/inspiration" },
 };
 
-const images: { src: string; alt: string; rotate?: boolean }[] = [
+const images: { src: string; alt: string; rotate?: boolean; rotateMobile?: boolean }[] = [
   { src: "/images/Godthåbsvej/yderskov-ombygning-efter-2.webp", alt: "Moderniseret villa — Yderskov Arkitekter" },
   { src: "/images/Torndalsvej/IMG_3181.webp", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" },
   { src: "/images/Vestvej/IMG_3252.jpeg", alt: "Arkitekttegnet bolig — Yderskov Arkitekter" },
-  { src: "/images/Lerstien/IMG_7912.jpg", alt: "Arkitekttegnet projekt — Yderskov Arkitekter" },
+  { src: "/images/Lerstien/IMG_7912.jpg", alt: "Arkitekttegnet projekt — Yderskov Arkitekter", rotateMobile: true },
   { src: "/images/Løkken sommerhus/IMG_7444.webp", alt: "Sommerhus Løkken — Yderskov Arkitekter" },
   { src: "/images/Højgården/IMG_2786.jpeg", alt: "Arkitekttegnet bolig — Yderskov Arkitekter", rotate: true },
   { src: "/images/Leonoravej villa tilbygning/IMG_7376.webp", alt: "Villa med tilbygning — Yderskov Arkitekter" },
@@ -74,6 +74,7 @@ export default function InspirationPage() {
                   alt={img.alt}
                   width={800}
                   height={600}
+                  className={img.rotateMobile ? "insp-rotate-mobile" : ""}
                   style={{
                     width: "100%",
                     height: "auto",
