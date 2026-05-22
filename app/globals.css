@@ -812,6 +812,10 @@ body.menu-open { overflow: hidden; }
 .pb-call-btn:hover { opacity: 0.85; }
 @media (max-width: 600px) { .pb-contact { flex-direction: column; align-items: flex-start; } }
 
+/* ── CASE SECTIONS (blog article) ── */
+.case-block { background: var(--off); border-radius: 12px; padding: 1.75rem 2rem; margin-bottom: 2.5rem; border-left: 3px solid var(--text); }
+.case-pill { display: inline-block; font-size: 0.6rem; font-weight: 400; letter-spacing: 0.1em; text-transform: uppercase; color: var(--white); background: var(--text); border-radius: 980px; padding: 0.25rem 0.75rem; margin-bottom: 1rem; }
+
 /* ── BLOG PAGE (light bg) ── */
 .post-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--white); border-radius: 16px; overflow: hidden; margin-top: 2rem; border: 1px solid var(--border); }
 .post-card { background: var(--white); padding: 2rem 1.75rem; display: block; transition: background 0.15s; border-right: 1px solid var(--border); border-bottom: 1px solid var(--border); }

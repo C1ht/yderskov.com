@@ -81,29 +81,48 @@ export default async function BlogPostPage({
           style={{ paddingTop: "2rem", background: "var(--off)" }}
         >
           <div className="s-inner" style={{ maxWidth: "740px" }}>
-            {post.sections.map((section, i) => (
-              <div
-                key={i}
-                style={{ marginBottom: "2.5rem" }}
-              >
-                <h2
-                  style={{
-                    fontSize: "1.05rem",
-                    fontWeight: 400,
-                    color: "var(--text)",
-                    letterSpacing: "-0.02em",
-                    marginBottom: "0.85rem",
-                  }}
-                >
-                  {section.heading}
-                </h2>
-                {section.paragraphs.map((p, j) => (
-                  <p key={j} className="body-p">
-                    {p}
-                  </p>
-                ))}
-              </div>
-            ))}
+            {post.sections.map((section, i) =>
+              section.type === "case" ? (
+                <div key={i} className="case-block">
+                  <span className="case-pill">Cases fra praksis</span>
+                  <h2
+                    style={{
+                      fontSize: "1.05rem",
+                      fontWeight: 400,
+                      color: "var(--text)",
+                      letterSpacing: "-0.02em",
+                      marginBottom: "0.85rem",
+                    }}
+                  >
+                    {section.heading}
+                  </h2>
+                  {section.paragraphs.map((p, j) => (
+                    <p key={j} className="body-p">
+                      {p}
+                    </p>
+                  ))}
+                </div>
+              ) : (
+                <div key={i} style={{ marginBottom: "2.5rem" }}>
+                  <h2
+                    style={{
+                      fontSize: "1.05rem",
+                      fontWeight: 400,
+                      color: "var(--text)",
+                      letterSpacing: "-0.02em",
+                      marginBottom: "0.85rem",
+                    }}
+                  >
+                    {section.heading}
+                  </h2>
+                  {section.paragraphs.map((p, j) => (
+                    <p key={j} className="body-p">
+                      {p}
+                    </p>
+                  ))}
+                </div>
+              )
+            )}
           </div>
         </section>
 

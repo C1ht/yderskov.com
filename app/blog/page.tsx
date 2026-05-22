@@ -412,6 +412,7 @@ const categories = [
   { key: "arkitekt", label: "Arkitekt & proces" },
   { key: "grund", label: "Grund & placering" },
   { key: "boligdetalje", label: "Boligdetaljer" },
+  { key: "case", label: "Cases fra praksis" },
 ];
 
 function parseDate(dateStr: string): Date {

@@ -1,4 +1,4 @@
-export type Section = { heading: string; paragraphs: string[] };
+export type Section = { heading: string; paragraphs: string[]; type?: "case" };
 
 export type BlogPost = {
   slug: string;
