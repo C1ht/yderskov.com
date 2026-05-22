@@ -73,11 +73,12 @@ const projectGalleries = [
   },
   {
     eyebrow: "Projekt",
-    title: "Klassisk\nvilla.",
+    title: "Klassisk\nvilla, Hjørring.",
     images: [
-      { src: "/images/Gartnerhaven/gartnehaven.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
-      { src: "/images/Gartnerhaven/IMG_2288.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
-      { src: "/images/Gartnerhaven/gårdmiljø.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" },
+      { src: "/images/Gartnerhaven/Hjørring-garnterhaven-ny-villa.webp", alt: "Klassisk ny villa i Hjørring — Yderskov Arkitekter" },
+      { src: "/images/Gartnerhaven/Hjørring-gartnehaven-ny-villa-haveside.webp", alt: "Haveside på klassisk villa i Hjørring — Yderskov Arkitekter" },
+      { src: "/images/Gartnerhaven/Hjørring-gartnerhaven-indkørsel.webp", alt: "Indkørsel til klassisk villa i Hjørring — Yderskov Arkitekter" },
+      { src: "/images/Gartnerhaven/Hjørring-gartnerhaven-ny-villa-gårdmiljø.webp", alt: "Gårdmiljø ved klassisk villa i Hjørring — Yderskov Arkitekter" },
     ],
     dark: false,
   },
