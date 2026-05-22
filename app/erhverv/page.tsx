@@ -37,11 +37,11 @@ const projectGalleries = [
   },
   {
     eyebrow: "Projekt",
-    title: "Udlejningsboliger\ni Hals.",
+    title: "Udlejningsboliger,\nHals.",
     images: [
-      { src: "/images/Hals Rækkehuse/Aalborgvej20 Hals udlejnkng Yderskov.webp", alt: "Hals rækkehuse — Yderskov Arkitekter" },
-      { src: "/images/Hals Rækkehuse/Aalborgvej30 hals udlejning yderskov.webp", alt: "Hals rækkehuse — Yderskov Arkitekter" },
-      { src: "/images/Hals Rækkehuse/Aalborgvej40 hals udlejning yderskov.webp", alt: "Hals rækkehuse — Yderskov Arkitekter" },
+      { src: "/images/Hals Rækkehuse/Hals-Aalborgvej20-udlejning-indgangsparti.webp", alt: "Indgangsparti, udlejningsboliger i Hals — Yderskov Arkitekter" },
+      { src: "/images/Hals Rækkehuse/Hals-Aalborgvej30-udlejning-.webp", alt: "Udlejningsbolig, Hals — Yderskov Arkitekter" },
+      { src: "/images/Hals Rækkehuse/Hals-Aalborgvej40-udlejning-.webp", alt: "Udlejningsbolig, Hals — Yderskov Arkitekter" },
     ],
     dark: false,
   },
