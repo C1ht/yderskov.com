@@ -75,7 +75,7 @@ export default function LejlighederPage() {
           <div className="proj-header">
             <div>
               <span className="eyebrow">Projekt</span>
-              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering I<br />i Ågade, Aalborg.</h2>
+              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering I<br />Ågade, Aalborg.</h2>
             </div>
           </div>
           <p className="proj-grid-label">Efter ombygning</p>
@@ -102,7 +102,7 @@ export default function LejlighederPage() {
           <div className="proj-header">
             <div>
               <span className="eyebrow">Projekt</span>
-              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering II<br />i Reberbansgade, Aalborg.</h2>
+              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering III<br />Reberbansgade, Aalborg.</h2>
             </div>
           </div>
           <ImageGrid images={[
@@ -126,7 +126,7 @@ export default function LejlighederPage() {
           <div className="proj-header">
             <div>
               <span className="eyebrow">Projekt</span>
-              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering III<br />i Reberbansgade, Aalborg.</h2>
+              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering III<br />Reberbansgade, Aalborg.</h2>
             </div>
           </div>
           <ImageGrid images={[
