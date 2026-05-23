@@ -19,19 +19,19 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Ombygning og\nmodernisering af 50er-villa, Brønderslev.",
     images: [
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-1.webp", alt: "Indgangsside efter modernisering, Brønderslev — Yderskov Arkitekter" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-2.webp", alt: "Gårdside med skydedøre efter modernisering, Brønderslev — Yderskov Arkitekter" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-3.webp", alt: "Haveside med birketræ efter modernisering, Brønderslev — Yderskov Arkitekter" },
       { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-4.webp", alt: "Facade efter modernisering, Brønderslev — Yderskov Arkitekter" },
-      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-1.webp", alt: "Indgangsside efter modernisering — Yderskov Arkitekter" },
-      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-2.webp", alt: "Gårdside med skydedøre efter modernisering — Yderskov Arkitekter" },
-      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-3.webp", alt: "Haveside med birketræ efter modernisering — Yderskov Arkitekter" },
-      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-køkken.webp", alt: "Nyt køkken efter modernisering — Yderskov Arkitekter" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-køkken.webp", alt: "Nyt køkken efter modernisering, Brønderslev — Yderskov Arkitekter" },
     ],
     afterLabel: "Efter modernisering",
     beforeLabel: "Før modernisering",
     beforeImages: [
-      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-4.webp", alt: "Facade før modernisering — Yderskov Arkitekter" },
-      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-1.webp", alt: "Indgangsside før modernisering — Yderskov Arkitekter" },
-      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-2.webp", alt: "Haveside før modernisering — Yderskov Arkitekter" },
-      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-3.webp", alt: "Side med birketræ før modernisering — Yderskov Arkitekter" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-1.webp", alt: "Indgangsside før modernisering, Brønderslev — Yderskov Arkitekter" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-2.webp", alt: "Haveside før modernisering, Brønderslev — Yderskov Arkitekter" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-3.webp", alt: "Side med birketræ før modernisering, Brønderslev — Yderskov Arkitekter" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-4.webp", alt: "Facade før modernisering, Brønderslev — Yderskov Arkitekter" },
     ],
     dark: true,
   },
@@ -116,7 +116,7 @@ export default function TilbygningerPage() {
     <>
       <Nav />
       <Hero
-        slides={[{ src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp", alt: "Villa med tilbygning — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-2.webp", alt: "Ombygning og modernisering af 50er-villa, Brønderslev — Yderskov Arkitekter" }]}
         tag="Om- og tilbygninger"
         subtitle="Om- og tilbygninger"
         lines={[
