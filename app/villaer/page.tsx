@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const projectGalleries = [
   {
     eyebrow: "Projekt",
-    title: "Funkis træ,\nglas og eternit.",
+    title: "Funkis træ,\nglas og eternit, Sæby.",
     location: "Sæby, Nordjylland",
     size: "230 m² bolig · 60 m² garage",
     year: "2023",
@@ -126,7 +126,7 @@ export default function VillaerPage() {
     <>
       <Nav />
       <Hero
-        slides={[{ src: "/images/Karetmagervej/Sæby-ny-villa-funkis-forside.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Karetmagervej/Sæby-ny-villa-funkis-haveside.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" }]}
         tag="Villaer"
         subtitle="Villaer"
         lines={[
