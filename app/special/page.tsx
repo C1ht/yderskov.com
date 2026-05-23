@@ -4,7 +4,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
-import ProjectGrid from "@/components/ProjectGrid";
+import ImageGrid from "@/components/ImageGrid";
 import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
@@ -14,18 +14,13 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://yderskov.dk/special" },
 };
 
-const projects = [
-  { src: "/images/Bed and breakfast/Aalborg-bed-and-breakfast.webp", title: "Bed & Breakfast · Projekt" },
-  { src: "/images/Bed and breakfast/Aalborg-bed-and-breakfast-køkken.webp", title: "Bed & Breakfast · Projekt" },
-  { src: "/images/Bed and breakfast/Aalborg-bed-and-breakfast-spiseområde.webp", title: "Bed & Breakfast · Projekt" },
-];
 
 export default function SpecialPage() {
   return (
     <>
       <Nav />
       <Hero
-        slides={[{ src: "/images/Bed and breakfast/Aalborg-bed-and-breakfast.webp", alt: "Specialprojekt — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Bed and breakfast/Aalborg-bed-and-breakfast.webp", alt: "Bed and breakfast, Aalborg — Yderskov Arkitekter" }]}
         tag="Special"
         subtitle="Special"
         lines={[
@@ -57,15 +52,19 @@ export default function SpecialPage() {
         </div>
       </section>
 
-      <section className="s">
+      <section className="s s-off">
         <div className="s-inner">
           <div className="proj-header">
             <div>
-              <span className="eyebrow">Udvalgte projekter</span>
-              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Specialprojekter</h2>
+              <span className="eyebrow">Projekt</span>
+              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Bed &amp; Breakfast,<br />Aalborg.</h2>
             </div>
           </div>
-          <ProjectGrid projects={projects} />
+          <ImageGrid images={[
+            { src: "/images/Bed and breakfast/Aalborg-bed-and-breakfast.webp", alt: "Bed and breakfast, Aalborg — Yderskov Arkitekter" },
+            { src: "/images/Bed and breakfast/Aalborg-bed-and-breakfast-køkken.webp", alt: "Køkken i bed and breakfast, Aalborg — Yderskov Arkitekter" },
+            { src: "/images/Bed and breakfast/Aalborg-bed-and-breakfast-spiseområde.webp", alt: "Spiseområde i bed and breakfast, Aalborg — Yderskov Arkitekter" },
+          ]} />
         </div>
       </section>
 
