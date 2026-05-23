@@ -38,7 +38,7 @@ export default function LejlighederPage() {
     <>
       <Nav />
       <Hero
-        slides={[{ src: "/images/Ågade 25/Aalborg-Ågade-renovering-vinduer.webp", alt: "Lejlighedsrenovering — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkken.webp", alt: "Lejlighedsrenovering, Ågade, Aalborg — Yderskov Arkitekter" }]}
         tag="Lejligheder"
         subtitle="Lejligheder"
         lines={[
@@ -78,17 +78,21 @@ export default function LejlighederPage() {
               <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering I<br />i Ågade, Aalborg.</h2>
             </div>
           </div>
+          <p className="proj-grid-label">Efter ombygning</p>
           <ImageGrid images={[
-            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-vinduer.webp", alt: "Restaurerede originale vinduer i lejlighedsrenovering, Ågade — Yderskov Arkitekter" },
+            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-plantegning.webp", alt: "Plantegning, lejlighedsrenovering Ågade — Yderskov Arkitekter" },
             { src: "/images/Ågade 25/Aalborg-Ågade-renovering-bad.webp", alt: "Færdigt badeværelse i lejlighedsrenovering, Ågade — Yderskov Arkitekter" },
             { src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkken.webp", alt: "Færdigt køkken i lejlighedsrenovering, Ågade — Yderskov Arkitekter" },
-            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkken-indpakket.webp", alt: "Køkken under montering i lejlighedsrenovering, Ågade — Yderskov Arkitekter" },
-            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkkenbordplads.webp", alt: "Vinduesparti under renovering, Ågade — Yderskov Arkitekter" },
-            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkken-undervejs.webp", alt: "Køkken undervejs i lejlighedsrenovering, Ågade — Yderskov Arkitekter" },
+            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-vinduer.webp", alt: "Restaurerede originale vinduer i lejlighedsrenovering, Ågade — Yderskov Arkitekter" },
+            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkkenbordplads.webp", alt: "Køkkenbordplads i lejlighedsrenovering, Ågade — Yderskov Arkitekter" },
+            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-soveværelse.webp", alt: "Soveværelse i lejlighedsrenovering, Ågade — Yderskov Arkitekter" },
+          ]} />
+          <p className="proj-grid-label" style={{ marginTop: "2rem" }}>Under ombygning</p>
+          <ImageGrid images={[
             { src: "/images/Ågade 25/Aalborg-Ågade-renovering-gang.webp", alt: "Gang under renovering, Ågade — Yderskov Arkitekter" },
+            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkken-indpakket.webp", alt: "Køkken under montering, Ågade — Yderskov Arkitekter" },
+            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkken-undervejs.webp", alt: "Køkken undervejs, Ågade — Yderskov Arkitekter" },
             { src: "/images/Ågade 25/Aalborg-Ågade-renovering-niche-amerikanerkøleskab.webp", alt: "Niche til amerikanerkøleskab under renovering, Ågade — Yderskov Arkitekter" },
-            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-soveværelse.webp", alt: "Soveværelse under renovering, Ågade — Yderskov Arkitekter" },
-            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-plantegning.webp", alt: "Plantegning, lejlighedsrenovering Ågade — Yderskov Arkitekter" },
           ]} />
         </div>
       </section>
