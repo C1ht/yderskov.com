@@ -38,7 +38,7 @@ export default function LejlighederPage() {
     <>
       <Nav />
       <Hero
-        slides={[{ src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkken.webp", alt: "Lejlighedsrenovering, Ågade, Aalborg — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkken.webp", alt: "Lejlighedsrenovering, Ågade, Aalborg — Yderskov Arkitekter", style: { transform: "rotate(180deg)" } }]}
         tag="Lejligheder"
         subtitle="Lejligheder"
         lines={[

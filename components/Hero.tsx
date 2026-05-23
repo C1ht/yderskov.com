@@ -8,6 +8,7 @@ import HeroForm from "./HeroForm";
 interface HeroSlide {
   src: string;
   alt: string;
+  style?: React.CSSProperties;
 }
 
 interface HeroProps {
@@ -93,7 +94,7 @@ subtitle = "Tanker & Streger",
             alt={slide.alt}
             fill
             sizes="100vw"
-            style={{ objectFit: "cover" }}
+            style={{ objectFit: "cover", ...slide.style }}
             priority={i === 0}
           />
         </div>
