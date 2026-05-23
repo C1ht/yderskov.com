@@ -1,6 +1,8 @@
 import { MetadataRoute } from "next";
 import { posts } from "./blog/posts";
 
+export const dynamic = "force-static";
+
 const BASE = "https://yderskov.dk";
 
 export default function sitemap(): MetadataRoute.Sitemap {
