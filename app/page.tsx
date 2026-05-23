@@ -33,12 +33,12 @@ const localBusinessSchema = {
 };
 
 const projects = [
-  { src: "/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp", title: "Arkitekttegnet sommerhus" },
-  { src: "/images/Karetmagervej/Sæby-ny-villa-funkis-forside.webp", title: "Funkis villa" },
+  { src: "/images/Vestvej/Grønhøj-Vestvej-sommerhus-indkørsel.webp", title: "Arkitekttegnet sommerhus" },
+  { src: "/images/Strandkanten/Sæby-strandkanten-ny-funkisvilla.webp", title: "Ny funkisvilla" },
   { src: "/images/Løvevej/Ålbæk-poolhus-terrasse.webp", title: "Sommerhus med pool" },
-  { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-vejside.webp", title: "Ombygning af villa" },
-  { src: "/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-indkørsel.webp", title: "Nyt sommerhus" },
-  { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-4.webp", title: "Ombygning og modernisering" },
+  { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-renovering-indkørsel.webp", title: "Ombygning af parcelhus" },
+  { src: "/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-terrasse.webp", title: "Nyt sommerhus" },
+  { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-haveside.webp", title: "Ombygning af villa" },
 ];
 
 const testimonials = [
@@ -103,7 +103,7 @@ export default function HomePage() {
       <Nav />
 
       <Hero
-        slides={[{ src: "/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp", alt: "Arkitekttegnet villa med udsigt — Yderskov" }]}
+        slides={[{ src: "/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp", alt: "Udsigtsvilla med terrasse og byudsigt, Frederikshavn — Yderskov Arkitekter" }]}
         tag="Hjem"
         showQuote
         bright
