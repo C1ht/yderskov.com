@@ -5,10 +5,10 @@ export default function Footer() {
     <footer>
       <div className="ftop">
         <div className="fbrand fcol">
-          <strong>Arkitekttegnestuen Yderskov ApS</strong>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/images/logofiles/SVG/Arkitect 5.svg" alt="Arkitekttegnestuen Yderskov" className="footer-logo" />
           <p>
-            Arkitekttegnestuen Yderskov ApS — arkitekttegnede villaer,
-            sommerhuse og tilbygninger med fast pris i Aalborg og Danmark.
+            Arkitekttegnede villaer, sommerhuse og tilbygninger med fast pris i Aalborg og Danmark.
           </p>
         </div>
 

@@ -115,6 +115,11 @@ export default function Nav() {
   return (
     <nav>
       <div className="nav-inner" ref={innerRef}>
+        <Link href="/" className="nav-logo" aria-label="Yderskov Arkitekter — forside">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/images/logofiles/SVG/Arkitect 5icon.svg" alt="Yderskov Arkitekter logo" width={30} height={30} />
+        </Link>
+
         <ul className="nav-links">
           {navItems.map((item) =>
             item.children ? (
