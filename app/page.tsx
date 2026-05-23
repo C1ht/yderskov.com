@@ -73,22 +73,22 @@ const processSteps = [
 
 const blogPosts = [
   {
-    href: "/blog/hvordan-vurderer-man-om-en-byggegrund-er-god",
-    date: "04 / 09 / 2024",
-    title: "Hvad laver en arkitekt i et byggeprojekt?",
-    excerpt: "Vil du vide hvad en arkitekt laver, så læs med her.",
+    href: "/blog/velegnet-byggegrund",
+    date: "09 / 04 / 2026",
+    title: "Hvordan vurderer man om en byggegrund er velegnet?",
+    excerpt: "Vi gennemgår hvad du skal kigge efter — før du køber grunden.",
   },
   {
-    href: "/blog/hvad-er-fordelene-ved-store-vinduespartier",
-    date: "04 / 09 / 2024",
-    title: "Arkitekttegnet hus eller typehus — hvad er forskellen?",
-    excerpt: "Vi gennemgår fordele og ulemper ved begge valg.",
+    href: "/blog/lille-sommerhus",
+    date: "16 / 04 / 2026",
+    title: "Hvordan bygger man et lille sommerhus?",
+    excerpt: "Lille areal behøver ikke betyde lille oplevelse. Vi viser hvordan.",
   },
   {
-    href: "/blog/hvordan-designer-man-et-sommerhus-til-udsigtsgrunde",
-    date: "04 / 09 / 2024",
-    title: "Hvad koster et arkitekttegnet sommerhus?",
-    excerpt: "Få indblik i hvad det koster at bygge et arkitekttegnet sommerhus.",
+    href: "/blog/bolig-med-niveauer",
+    date: "08 / 04 / 2025",
+    title: "Design af bolig med niveauer — sådan udnytter du højdeforskellene.",
+    excerpt: "Niveauforskelle giver dynamik, lys og bedre udnyttelse af grunden.",
   },
 ];
 
