@@ -20,7 +20,7 @@ export default function PrisberegnPage() {
     <>
       <Nav />
       <Hero
-        slides={[{ src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp", alt: "Villa med tilbygning — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Gjøl/Gjøl-ny-villa-have.webp", alt: "Ny villa i Gjøl — Yderskov Arkitekter" }]}
         tag="Prisberegner"
         showForm={false}
         lines={[
@@ -51,7 +51,7 @@ export default function PrisberegnPage() {
             </div>
             <div className="pb-intro-img">
               <Image
-                src="/images/Neptunvej/IMG_2588.jpeg"
+                src="/images/Neptunvej/Aalborg-neptunvej-tilbygning-terrasse.webp"
                 alt="Tilbygning og renovering — Yderskov Arkitekter"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"

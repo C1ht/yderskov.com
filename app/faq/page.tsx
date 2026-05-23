@@ -87,7 +87,7 @@ export default function FAQPage() {
       />
       <Nav />
       <Hero
-        slides={[{ src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-vejside.webp", alt: "Arkitekttegnet bolig — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Løvevej/Ålbæk-poolhus-terrasse.webp", alt: "Arkitekttegnet bolig — Yderskov Arkitekter" }]}
         tag="FAQ"
         subtitle="FAQ"
         lines={[

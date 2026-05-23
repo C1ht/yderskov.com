@@ -474,7 +474,7 @@ export default function BlogPage() {
     <>
       <Nav />
       <Hero
-        slides={[{ src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-4.webp", alt: "Ombygning og modernisering — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Ikarosvej/Aalborg-Ikarosvej-ny-villa-indkørsel.webp", alt: "Ny villa i Aalborg — Yderskov Arkitekter" }]}
         showTabs={false}
         tag="Blog"
         subtitle="Blog"

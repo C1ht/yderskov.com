@@ -67,7 +67,7 @@ export default function PriserPage() {
     <>
       <Nav />
       <Hero
-        slides={[{ src: "/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-terrasse.webp", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-terrasse.webp", alt: "Arkitekttegnet sommerhus i Løkken — Yderskov Arkitekter" }]}
         tag="Priser"
         subtitle="Priser"
         lines={[
