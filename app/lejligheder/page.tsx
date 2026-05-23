@@ -82,7 +82,7 @@ export default function LejlighederPage() {
           <ImageGrid images={[
             { src: "/images/Ågade 25/Aalborg-Ågade-renovering-plantegning.webp", alt: "Plantegning, lejlighedsrenovering Ågade — Yderskov Arkitekter" },
             { src: "/images/Ågade 25/Aalborg-Ågade-renovering-bad.webp", alt: "Færdigt badeværelse i lejlighedsrenovering, Ågade — Yderskov Arkitekter" },
-            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkken.webp", alt: "Færdigt køkken i lejlighedsrenovering, Ågade — Yderskov Arkitekter" },
+            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkken.webp", alt: "Færdigt køkken i lejlighedsrenovering, Ågade — Yderskov Arkitekter", imgStyle: { transform: "rotate(180deg)" } },
             { src: "/images/Ågade 25/Aalborg-Ågade-renovering-vinduer.webp", alt: "Restaurerede originale vinduer i lejlighedsrenovering, Ågade — Yderskov Arkitekter" },
           ]} />
           <p className="proj-grid-label" style={{ marginTop: "2rem" }}>Under ombygning</p>
