@@ -16,6 +16,60 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "hundevaskeplads-vestbjerg",
+    metaTitle: "Hundevaskeplads i bryggers — ny funkisvilla i Vestbjerg — Yderskov Arkitekter",
+    title: "Hundevaskeplads i bryggers — ny funkisvilla i Vestbjerg.",
+    description: "En familie i Vestbjerg får skitseret ny funkisvilla. Familien elsker at gå tur med hunden i Hammer Bakker — og bryggersets hundevaskeplads er derefter.",
+    date: "23 / 05 / 2026",
+    cat: "Cases fra praksis",
+    catKey: "case",
+    lead: "En familie i Vestbjerg kom til os med et klart ønske: en ny funkisvilla der passer til deres aktive hverdagsliv. De er glade for at gå ture i Hammer Bakker — og hunden er familiens absolutte centrum. Bryggersets indretning var fra start et nøglespørgsmål.",
+    sections: [
+      {
+        heading: "Projektet i tal",
+        paragraphs: [
+          "Vestbjerg, Nordjylland · 205 m² bolig · 70 m² garage · 6 m² overdækning.",
+          "Projektet er i skitsefasen og vi arbejder med planløsning, facader og de konkrete detaljer i bryggersets indretning.",
+        ],
+        type: "case",
+      },
+      {
+        heading: "Hunden er familiens centrum",
+        paragraphs: [
+          "Familien har hund og bruger den aktivt — lange ture i Hammer Bakker hører til hverdagen. Det betyder at de altid kommer hjem med en våd og mudret hund der skal vaskes inden den slipper løs i resten af huset.",
+          "Mange nybyggede villaer tager slet ikke stilling til det. Hunden bliver vasket i badekar eller udenfor med haveslangen — begge dele er dårlige løsninger. Vi ville gøre det rigtigt fra starten.",
+        ],
+      },
+      {
+        heading: "Bryggersets hundevaskeplads",
+        paragraphs: [
+          "Løsningen er en dedikeret hundevaskeplads i bryggersets. Den placeres ved indgangen fra haven, i direkte forlængelse af den rute familien bruger når de kommer hjem fra tur.",
+          "Praktisk indretning: en lavtsiddende bruser med blandet vand, et hundefast gulvafløb, klinker der tåler mudder og vand, og ophæng til snor og udstyr på samme væg. Enkelt og gennemtænkt.",
+          "Resten af bryggersets indrettes til en aktiv familie: vaskemaskine og tørretumbler, skabs- og reolplads til udstyr, og direkte adgang til både garage og have.",
+        ],
+      },
+      {
+        heading: "Funkisvillaen",
+        paragraphs: [
+          "Selve villaen tegnes i et rent funktionalistisk formsprog med fladt tag og markante vandrette linjer. Facaderne spiller på kontrasten mellem mørk beklædning og store lyse vinduespartier.",
+          "Garagen på 70 m² er dimensioneret til to biler og ekstra opbevaringsplads — og er forbundet til huset via bryggersets, så man aldrig behøver gå udenfor.",
+          "Overdækningen på 6 m² lægger sig som en naturlig forlængelse ud fra huset og skaber et halvt uderum der kan bruges hele sæsonen.",
+        ],
+      },
+      {
+        heading: "Vil du have et bryggers der passer til din hverdag?",
+        paragraphs: [
+          "Et bryggers er meget mere end en vaskerum — det er boligens praktiske buffer mellem ude og inde. Vi tegner det til præcis din hverdag, uanset om der er hund, børn, haveredskaber eller en stor motorcykel involveret.",
+          "Ring til os på 29 72 34 27 eller skriv til cy@yderskov.com — første møde er gratis og uforpligtende.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Se vores villaprojekter med billeder", href: "/villaer" },
+      { label: "Hvordan planlægger man et bryggers?", href: "/blog/bryggers" },
+    ],
+  },
+  {
     slug: "fortidsminde-fredningslinje-koege",
     metaTitle: "Fortidsminde og fredningslinje på byggegrunden — case fra Køge — Yderskov Arkitekter",
     title: "Fortidsminde og fredningslinje på byggegrunden — case fra Køge.",

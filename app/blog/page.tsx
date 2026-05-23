@@ -19,6 +19,15 @@ type Post = {
 const posts: Post[] = [
   // 2026
   {
+    href: "/blog/hundevaskeplads-vestbjerg",
+    date: "23 / 05 / 2026",
+    cat: "Cases fra praksis",
+    catKey: "case",
+    title: "Hundevaskeplads i bryggers — ny funkisvilla i Vestbjerg.",
+    subtitle: "En case fra Vestbjerg",
+    excerpt: "En familie i Vestbjerg får skitseret ny funkisvilla. Familien elsker at gå tur med hunden i Hammer Bakker — og bryggersets hundevaskeplads er derefter.",
+  },
+  {
     href: "/blog/fortidsminde-fredningslinje-koege",
     date: "22 / 05 / 2026",
     cat: "Cases fra praksis",
