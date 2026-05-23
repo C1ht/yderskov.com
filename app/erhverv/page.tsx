@@ -71,7 +71,7 @@ export default function ErhvervPage() {
     <>
       <Nav />
       <Hero
-        slides={[{ src: "/images/Assensvej Kontormiljø/Aalborg-Assensvej-kontormiljø.webp", alt: "Erhvervsbyggeri — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Hals Rækkehuse/Hals-Aalborgvej40-udlejning-.webp", alt: "Udlejningsboliger i Hals — Yderskov Arkitekter" }]}
         tag="Erhverv"
         subtitle="Erhverv"
         lines={[
