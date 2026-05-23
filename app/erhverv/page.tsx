@@ -29,9 +29,13 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Fabrik ombygget\ntil lejligheder i bycentrum, Aarhus.",
     images: [
-      { src: "/images/Fabrik Aarhus/Aarhus-fabrik-ombygget-lejligheder.webp", alt: "Fabrik ombygget til lejligheder i Aarhus — Yderskov Arkitekter" },
-      { src: "/images/Fabrik Aarhus/Aarhus-fabrik-ombygget.webp", alt: "Ombygget fabrik i Aarhus centrum — Yderskov Arkitekter" },
       { src: "/images/Fabrik Aarhus/Aarhus-fabrik-ombygget-køkken-og-altan.webp", alt: "Køkken og altan i ombygget fabrik, Aarhus — Yderskov Arkitekter" },
+    ],
+    afterLabel: "Efter renovering",
+    beforeLabel: "Før renovering",
+    beforeImages: [
+      { src: "/images/Fabrik Aarhus/Aarhus-fabrik-ombygget.webp", alt: "Ombygget fabrik i Aarhus centrum — Yderskov Arkitekter" },
+      { src: "/images/Fabrik Aarhus/Aarhus-fabrik-ombygget-lejligheder.webp", alt: "Fabrik ombygget til lejligheder i Aarhus — Yderskov Arkitekter" },
     ],
     dark: true,
   },
@@ -114,7 +118,14 @@ export default function ErhvervPage() {
                 </h2>
               </div>
             </div>
+            {"afterLabel" in gallery && <p className="proj-grid-label">{gallery.afterLabel}</p>}
             <ImageGrid images={gallery.images} />
+            {"beforeImages" in gallery && gallery.beforeImages && (
+              <>
+                <p className="proj-grid-label" style={{ marginTop: "2rem" }}>{gallery.beforeLabel}</p>
+                <ImageGrid images={gallery.beforeImages} />
+              </>
+            )}
           </div>
         </section>
       ))}
