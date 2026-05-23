@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     locale: "da_DK",
     url: "https://yderskov.dk/",
     siteName: "Yderskov Arkitekter",
-    images: [{ url: "https://yderskov.dk/images/topbanner-new.png" }],
+    images: [{ url: "https://yderskov.dk/images/topbanner-new.webp" }],
   },
 };
 
