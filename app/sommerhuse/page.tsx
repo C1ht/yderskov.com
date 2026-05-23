@@ -19,7 +19,6 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Sommerhus med\nstore vinduespartier, Hals.",
     images: [
-      { src: "/images/Torndalsvej/Hals-Torndalsvej-indgang.webp", alt: "Indgang til sommerhus i Hals — Yderskov Arkitekter" },
       { src: "/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp", alt: "Terrasse ved sommerhus i Hals — Yderskov Arkitekter" },
       { src: "/images/Torndalsvej/Hals-Torndalsvej-køkken.webp", alt: "Køkken i sommerhus i Hals — Yderskov Arkitekter" },
       { src: "/images/Torndalsvej/Hals-Torndalsvej-stue.webp", alt: "Stue i sommerhus i Hals — Yderskov Arkitekter" },
