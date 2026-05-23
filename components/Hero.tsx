@@ -24,15 +24,12 @@ interface HeroProps {
 }
 
 const defaultSlides: HeroSlide[] = [
-  { src: "/images/Lerstien/IMG_7931.webp", alt: "Arkitekttegnet villa — Yderskov" },
-  { src: "/images/Torndalsvej/IMG_3181.webp", alt: "Arkitekttegnet sommerhus — Yderskov" },
-  { src: "/images/Gravenstenvej/EEBD18F8-48F7-43CE-AE15-91FF91953CF7-2.webp", alt: "Arkitekttegnet bolig — Yderskov" },
-  { src: "/images/Harald Jensens Vej/IMG_2937.webp", alt: "Tilbygning — Yderskov" },
-  { src: "/images/Karetmagervej/IMG_9184.webp", alt: "Arkitekttegnet villa — Yderskov" },
-  { src: "/images/Leonoravej villa tilbygning/IMG_7376.webp", alt: "Villa med tilbygning — Yderskov" },
-  { src: "/images/Løvevej/Ålbæk-poolhus-terrasse.webp", alt: "Ny villa — Yderskov" },
-  { src: "/images/Godthåbsvej/yderskov-ombygning-efter-2.webp", alt: "Ombygning — Yderskov" },
-  { src: "/images/Vesterhavsbakken tilbygning sommerhus/IMG_7455.webp", alt: "Sommerhus med tilbygning — Yderskov" },
+  { src: "/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp", alt: "Udsigtsvilla, Frederikshavn — Yderskov Arkitekter" },
+  { src: "/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp", alt: "Arkitekttegnet sommerhus, Hals — Yderskov Arkitekter" },
+  { src: "/images/Karetmagervej/Sæby-ny-villa-funkis-haveside.webp", alt: "Funkisvilla, Sæby — Yderskov Arkitekter" },
+  { src: "/images/Løvevej/Ålbæk-poolhus-terrasse.webp", alt: "Sommerhus med pool, Ålbæk — Yderskov Arkitekter" },
+  { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-2.webp", alt: "Moderniseret villa, Brønderslev — Yderskov Arkitekter" },
+  { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp", alt: "Villa med tilbygning, Hasseris — Yderskov Arkitekter" },
 ];
 
 export default function Hero({
