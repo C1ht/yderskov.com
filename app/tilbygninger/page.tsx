@@ -28,9 +28,9 @@ const projectGalleries = [
     afterLabel: "Efter ombygning",
     beforeLabel: "Før ombygning",
     beforeImages: [
-      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-1.webp", alt: "Indgangsside før modernisering, Brønderslev — Yderskov Arkitekter" },
-      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-2.webp", alt: "Haveside før modernisering, Brønderslev — Yderskov Arkitekter" },
       { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-3.webp", alt: "Side med birketræ før modernisering, Brønderslev — Yderskov Arkitekter" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-2.webp", alt: "Haveside før modernisering, Brønderslev — Yderskov Arkitekter" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-1.webp", alt: "Indgangsside før modernisering, Brønderslev — Yderskov Arkitekter" },
       { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-4.webp", alt: "Facade før modernisering, Brønderslev — Yderskov Arkitekter" },
     ],
     dark: true,
