@@ -198,7 +198,7 @@ export default function VillaerPage() {
           <div className="text-2col">
             <div>
               <span className="eyebrow">Projektkatalog</span>
-              <h2 className="sec-hed">Download vores<br />villaer-katalog.</h2>
+              <h2 className="sec-hed">Download vores<br />villa-katalog.</h2>
             </div>
             <div>
               <p className="body-p">
@@ -207,7 +207,7 @@ export default function VillaerPage() {
               <div style={{ display: "flex", gap: "1rem", marginTop: "1.5rem", flexWrap: "wrap" }}>
                 <a
                   href="/katalog-villaer.pdf"
-                  download="Yderskov-Arkitekter-Villaer-katalog.pdf"
+                  download="Yderskov-Arkitekter-Villa-katalog.pdf"
                   style={{ display: "inline-block", padding: "0.75rem 1.5rem", background: "#161616", color: "#fff", fontWeight: 500, fontSize: "0.875rem", letterSpacing: "0.04em", textDecoration: "none" }}
                 >
                   Download katalog
