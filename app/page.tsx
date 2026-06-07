@@ -51,7 +51,7 @@ export default function HomePage() {
           </div>
           <div className="trust-item">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-            <span>Fast pris fra første dag</span>
+            <span>Fast pris</span>
           </div>
         </div>
       </div>
@@ -62,7 +62,7 @@ export default function HomePage() {
           <div className="announcement-badge">Nyt</div>
           <div className="announcement-body">
             <p className="announcement-title">Byg nyt sommerhus fra <strong>kr. 12.000 pr. m²</strong></p>
-            <p className="announcement-sub">Vi tegner og bygger arkitekttegnede sommerhuse nøglefærdigt — med fast pris fra første dag og egne håndværkere. Gratis og uforpligtende første møde.</p>
+            <p className="announcement-sub">Vi tegner og bygger arkitekttegnede sommerhuse nøglefærdigt — med fast pris og egne håndværkere. Gratis og uforpligtende første møde.</p>
           </div>
           <Link href="/sommerhuse" className="announcement-cta">Se sommerhuse →</Link>
         </div>
@@ -144,7 +144,7 @@ export default function HomePage() {
               <p className="body-intro">Arkitekttegnestuen Yderskov ApS er en tegnestue i Nordjylland med speciale i arkitekttegnede villaer, sommerhuse, tilbygninger og erhvervsprojekter.</p>
               <p className="body-p">Vi arbejder med en samlet proces fra idé til færdigt byggeri — med egne faste håndværkere og fokus på at holde styr på din økonomi undervejs.</p>
               <p className="body-p">Tegnestuen blev grundlagt i 2009 og har siden arbejdet med projekter i hele Danmark, primært i Nordjylland og Aalborg-området.</p>
-              <p className="body-p">Hos os taler du altid direkte med arkitekten — ingen mellemled, fast pris fra første dag.</p>
+              <p className="body-p">Hos os taler du altid direkte med arkitekten — ingen mellemled, fast pris.</p>
             </div>
           </div>
         </div>
