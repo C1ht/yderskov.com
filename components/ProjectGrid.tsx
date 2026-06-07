@@ -11,7 +11,7 @@ export default function ProjectGrid({ projects }: { projects: Project[] }) {
           key={p.src}
           className="proj-card"
         >
-          <Image src={p.src} alt={p.title} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" style={{ objectFit: "cover" }} />
+          <Image src={p.src} alt={p.title} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 480px" style={{ objectFit: "cover" }} />
           <div className="proj-foot">
             <span className="proj-title">{p.title}</span>
           </div>
