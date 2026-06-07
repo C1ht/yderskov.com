@@ -8,7 +8,7 @@ import ImageGrid from "@/components/ImageGrid";
 import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
-  title: "Arkitekttegnet lejlighed — renovering og ombygning — Yderskov Arkitekter",
+  title: "Arkitekttegnet lejlighed — renovering — Yderskov Arkitekter",
   description:
     "Arkitekttegnet lejlighedsrenovering og ombygning. Vi tegner og projekterer dit lejlighedsprojekt. Gratis første møde.",
   alternates: { canonical: "https://yderskov.dk/lejligheder" },
@@ -57,7 +57,7 @@ export default function LejlighederPage() {
             </div>
             <div>
               <p className="body-p">
-                Vi tegner og projekterer lejlighedsrenoveringer — fra enkle opdateringer til fuld ombygning af planløsning. Med arkitektfaglig sparring sikrer vi at resultatet holder i mange år.
+                Vi tegner og projekterer lejlighedsrenoveringer — fra enkle opdateringer til fuld ombygning af planløsning. Se også vores andre <Link href="/villaer" className="text-link">villaer og byggeprojekter</Link>, eller læs mere om <Link href="/om" className="text-link">vores tegnestue</Link> og vores samlede proces.
               </p>
               <p className="body-p">
                 Vi håndterer tegninger, myndighedsgodkendelse og koordinering med håndværkere.

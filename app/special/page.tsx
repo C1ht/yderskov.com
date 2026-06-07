@@ -39,7 +39,7 @@ export default function SpecialPage() {
             </div>
             <div>
               <p className="body-p">
-                Ikke alle projekter passer i en standardkasse. Vi tegner særlige byggerier — fra wellness og poolhuse til carporte, annekser og erhvervsbygninger med en unik karakter.
+                Ikke alle projekter passer i en standardkasse. Vi tegner særlige byggerier — fra wellness og poolhuse til carporte, annekser og <Link href="/erhverv" className="text-link">erhvervsbygninger</Link> med en unik karakter. Se også vores <Link href="/om" className="text-link">om os-side</Link> for at lære mere om vores baggrund og samlede proces.
               </p>
               <p className="body-p">
                 Uanset hvad du drømmer om, starter vi med at lytte — og finder den bedste arkitektoniske løsning til netop dit projekt.
@@ -65,6 +65,28 @@ export default function SpecialPage() {
             { src: "/images/Bed and breakfast/Aalborg-bed-and-breakfast-køkken.webp", alt: "Køkken i bed and breakfast, Aalborg — Yderskov Arkitekter" },
             { src: "/images/Bed and breakfast/Aalborg-bed-and-breakfast-spiseområde.webp", alt: "Spiseområde i bed and breakfast, Aalborg — Yderskov Arkitekter" },
           ]} />
+        </div>
+      </section>
+
+      <section className="s">
+        <div className="s-inner">
+          <div className="text-2col">
+            <div>
+              <span className="eyebrow">Unikke behov</span>
+              <h2 className="sec-hed">Når byggeriet<br />kræver noget ekstra.</h2>
+            </div>
+            <div>
+              <p className="body-p">
+                Særlige funktioner kræver særlige løsninger. Uanset om det drejer sig om et professionelt lydstudie, et poolhus med avanceret styring af luftfugtighed, eller en garage tilpasset klassiske biler med indbygget værksted, så dykker vi ned i de tekniske og funktionelle krav. Vi forener de praktiske nødvendigheder med en stærk arkitektonisk rød tråd, så bygningen bliver både funktionel og smuk.
+              </p>
+              <p className="body-p">
+                Vi har stor erfaring med at samarbejde med specialiserede konsulenter og ingeniører for at sikre, at komplekse installationer — såsom ventilationsanlæg til indendørs swimmingpools eller akustiske reguleringer — integreres usynligt og elegant i arkitekturen.
+              </p>
+              <p className="body-p">
+                Ingen idé er for vild eller for kompleks. Vi ser udfordringer som en mulighed for at skabe noget helt enestående. Vi guider dig igennem myndighedsbehandling, lokalplaner og tekniske beregninger, så dit drømmeprojekt kan realiseres inden for de givne rammer.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 

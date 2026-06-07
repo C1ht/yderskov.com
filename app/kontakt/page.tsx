@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -29,6 +30,10 @@ export default function KontaktPage() {
 
       <section className="s">
         <div className="s-inner">
+          <div style={{ marginBottom: "2.5rem" }}>
+            <span className="eyebrow">Kontakt</span>
+            <h1 className="sec-hed">Kontakt os</h1>
+          </div>
           <div className="contact-layout">
             {/* Firma info */}
             <div>
@@ -75,6 +80,28 @@ export default function KontaktPage() {
 
             {/* Contact form */}
             <ContactForm />
+          </div>
+        </div>
+      </section>
+
+      <section className="s s-off">
+        <div className="s-inner">
+          <div className="text-2col">
+            <div>
+              <span className="eyebrow">Det første skridt</span>
+              <h2 className="sec-hed">Det gratis idémøde<br />— hvad kan du forvente?</h2>
+            </div>
+            <div>
+              <p className="body-p">
+                Et byggeprojekt starter altid med en god snak. Vi tilbyder et gratis og helt uforpligtende idémøde, hvor vi typisk mødes på din byggegrund eller på den eksisterende ejendom. Her gennemgår vi dine ønsker, behov og budgetrammer, og vi kigger på de fysiske rammer samt eventuelle lokalplaner, der har indflydelse på projektet.
+              </p>
+              <p className="body-p">
+                Under mødet lytter vi til dine visioner og kommer med vores umiddelbare faglige input til, hvordan grunden eller huset kan udnyttes bedst muligt. Se gerne <Link href="/inspiration" className="text-link">vores inspirationsside</Link> for konkrete eksempler. Vi taler også om de økonomiske realiteter og <Link href="/priser" className="text-link">vores faste priser</Link>, så vi fra start har afstemt forventningerne.
+              </p>
+              <p className="body-p">
+                Efter mødet udarbejder vi et skriftligt tilbud på arkitektydelsen. Du får dermed et klart overblik over processen og økonomien, før du beslutter dig for at gå videre. Det er enkelt, trygt og helt gennemskueligt.
+              </p>
+            </div>
           </div>
         </div>
       </section>

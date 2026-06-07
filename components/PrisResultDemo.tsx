@@ -1,4 +1,3 @@
-"use client";
 
 import PrisResultDoc from "@/components/PrisResultDoc";
 

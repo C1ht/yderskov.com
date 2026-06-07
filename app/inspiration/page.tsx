@@ -143,6 +143,28 @@ export default function InspirationPage() {
 
       <section className="s s-off">
         <div className="s-inner">
+          <div className="text-2col">
+            <div>
+              <span className="eyebrow">Din proces</span>
+              <h2 className="sec-hed">Sådan finder du<br />inspiration til projektet.</h2>
+            </div>
+            <div>
+              <p className="body-p">
+                At bygge nyt eller renovere er en stor beslutning. Når du går på opdagelse i vores galleri af tidligere projekter, skal du ikke kun se på det samlede udtryk, men også bide mærke i de små detaljer. Bemærk lysindfaldet fra de store vinduespartier, måden hvorpå terrassen smelter sammen med haven, eller hvordan materialerne patinerer smukt i det danske vejr.
+              </p>
+              <p className="body-p">
+                Vores inspirationsgalleri spænder bredt — lige fra moderne funkisvillaer med rene linjer og rå detaljer, over klassiske murstenshuse med hyggelige kroge, til sommerhuse i pagt med naturen, hvor træ og store glasflader dominerer. Alle projekter er skabt med udgangspunkt i bygherrens drømme og grundens unikke beliggenhed.
+              </p>
+              <p className="body-p">
+                Når vi holder vores første uforpligtende idémøde, tager vi udgangspunkt i dine egne referencer. Tag gerne billeder med fra vores portefølje eller andre steder, som taler til dig. Det hjælper os med at spore os ind på den helt rette arkitektoniske retning for dit kommende hjem.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="s">
+        <div className="s-inner">
           <InspirationGallery images={images} />
         </div>
       </section>

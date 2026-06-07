@@ -13,6 +13,7 @@ const categoryLinks: Record<string, RelatedLink[]> = {
   ],
   sommerhus: [
     { label: "Se vores sommerhusprojekter med billeder", href: "/sommerhuse" },
+    { label: "Beregn prisen på dit sommerhus", href: "/prisberegner" },
   ],
   arkitekt: [
     { label: "Beregn prisen på dit projekt", href: "/prisberegner" },

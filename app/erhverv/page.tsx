@@ -94,7 +94,7 @@ export default function ErhvervPage() {
             </div>
             <div>
               <p className="body-p">
-                Vi tegner erhvervsbyggeri der afspejler jeres virksomhed — fra funktionelle kontorlokaler til produktionsfaciliteter med arkitektonisk identitet.
+                Vi tegner erhvervsbyggeri der afspejler jeres virksomhed — fra funktionelle kontorlokaler til produktionsfaciliteter med arkitektonisk identitet. Læs mere om <Link href="/om" className="text-link">vores samlede proces</Link> eller se vores generelle <Link href="/priser" className="text-link">priser på erhverv og bolig</Link>.
               </p>
               <p className="body-p">
                 Vi håndterer hele processen fra idé til indvielse — med focus på jeres budget og tidsplan.

@@ -104,8 +104,7 @@ export default function FAQPage() {
             <span className="eyebrow">Spørgsmål og svar</span>
             <h1 className="sec-hed">Ofte stillede spørgsmål</h1>
             <p className="body-p" style={{ marginTop: "1rem" }}>
-              Her har vi samlet svar på de spørgsmål vi oftest får. Finder du ikke svar på dit spørgsmål, er du velkommen til at{" "}
-              <Link href="/kontakt" className="text-link">kontakte os</Link>.
+              Her har vi samlet svar på de spørgsmål vi oftest får. Du kan også læse om <Link href="/om" className="text-link">vores proces</Link> eller se vores prissatser på <Link href="/priser" className="text-link">vores prisside</Link>. Finder du ikke svar på dit spørgsmål, er du altid velkommen til at <Link href="/kontakt" className="text-link">kontakte os</Link>.
             </p>
           </div>
         </div>

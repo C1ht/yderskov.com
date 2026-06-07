@@ -17,7 +17,7 @@ export type BlogPost = {
 export const posts: BlogPost[] = [
   {
     slug: "hundevaskeplads-vestbjerg",
-    metaTitle: "Hundevaskeplads i bryggers — ny funkisvilla i Vestbjerg — Yderskov Arkitekter",
+    metaTitle: "Hundevaskeplads i bryggers — villa i Vestbjerg — Yderskov",
     title: "Hundevaskeplads i bryggers — ny funkisvilla i Vestbjerg.",
     description: "En familie i Vestbjerg får skitseret ny funkisvilla. Familien elsker at gå tur med hunden i Hammer Bakker — og bryggersets hundevaskeplads er derefter.",
     date: "23 / 05 / 2026",
@@ -71,7 +71,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "fortidsminde-fredningslinje-koege",
-    metaTitle: "Fortidsminde og fredningslinje på byggegrunden — case fra Køge — Yderskov Arkitekter",
+    metaTitle: "Fortidsminde og fredningslinje på byggegrund i Køge — Yderskov",
     title: "Fortidsminde og fredningslinje på byggegrunden — case fra Køge.",
     description: "En bygherre i Køge stod med en drømmgrund belastet af fortidsminde og fredningslinje. Her fortæller vi hvad der skete — og hvordan vi alligevel fik alle ønsker opfyldt.",
     date: "22 / 05 / 2026",
@@ -113,7 +113,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "naturlig-kilde-sebbersund",
-    metaTitle: "Kilden der løb ud af bakken i Sebbersund — og hvordan vi gjorde den til et smukt element — Yderskov Arkitekter",
+    metaTitle: "Kilde på grunden i Sebbersund: Fra problem til aktiv — Yderskov",
     title: "Kilden der løb ud af bakken i Sebbersund — og hvordan vi gjorde den til et smukt element.",
     description: "En naturlig kilde på sommerhusgrunden i Sebbersund skulle håndteres inden byggeriet. Arkitekten foreslog at gøre den til et smukt haveelement med sten og beplantning.",
     date: "01 / 05 / 2026",
@@ -159,7 +159,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "sommerhus-sebbersund-snestorm",
-    metaTitle: "Bygget under snestorm, leveret på blokvogn — case fra Sebbersund ved Halkær Bredning — Yderskov Arkitekter",
+    metaTitle: "Byggeri under snestorm leveret på blokvogn — Yderskov",
     title: "Bygget under snestorm, leveret på blokvogn — case fra Sebbersund ved Halkær Bredning.",
     description: "Sommerhuset blev bygget som præfabrikerede elementer i en hal under snestorm, kørt til Sebbersund på blokvogn og hejst på plads med kran. En case om vinterstrategi og udsigt over Halkær Bredning.",
     date: "08 / 05 / 2026",
@@ -210,7 +210,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "flyhangar-nordjylland",
-    metaTitle: "Arkitekttegnet flyhangar på nordjysk airstrip — case fra en passioneret sportsflypilot — Yderskov Arkitekter",
+    metaTitle: "Arkitekttegnet flyhangar på nordjysk airstrip — Yderskov",
     title: "Arkitekttegnet flyhangar på nordjysk airstrip — case fra en passioneret sportsflypilot.",
     description: "En nordjysk bygherre med eget sportsfly og egen airstrip vil have en ordentlig hangar. Her fortæller vi om projektet og hvad der kræves af arkitekturen.",
     date: "15 / 05 / 2026",
@@ -249,7 +249,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "boligdetalje-gaspejs",
-    metaTitle: "Boligdetalje #8: Gaspejs — sådan planlægger du det i dit hjem — Yderskov Arkitekter",
+    metaTitle: "Boligdetalje #8: Planlæg gaspejs i dit hjem — Yderskov",
     title: "Boligdetalje #8: Gaspejs — sådan planlægger du det i dit hjem.",
     description: "En gaspejs giver ægte flamme uden brænde og røg. Her gennemgår vi installation, indbygning, dobbeltsidede modeller, sikkerhed og hvad det koster at drive.",
     date: "27 / 05 / 2025",
@@ -376,7 +376,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "boligdetalje-trappe-aaben-lukket",
-    metaTitle: "Boligdetalje #7: Åben eller lukket trappe mellem etagerne — Yderskov Arkitekter",
+    metaTitle: "Boligdetalje #7: Åben/lukket trappe mellem etager — Yderskov",
     title: "Boligdetalje #7: Åben eller lukket trappe mellem etagerne.",
     description: "Åben eller lukket trappe? Valget påvirker lys, lyd, rum og klima i hele boligen. Her gennemgår vi forskelle, fordele og ulemper og hvornår det ene er bedre end det andet.",
     date: "13 / 05 / 2025",
@@ -494,7 +494,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "boligdetalje-akvarium",
-    metaTitle: "Boligdetalje #6: Indbygget akvarium — sådan planlægger du det i dit hjem — Yderskov Arkitekter",
+    metaTitle: "Boligdetalje #6: Indbygget akvarium i dit hjem — Yderskov",
     title: "Boligdetalje #6: Indbygget akvarium — sådan planlægger du det i dit hjem.",
     description: "Et indbygget akvarium er et levende designelement der definerer rummet. Her gennemgår vi placering, konstruktion, teknikrum, belysning og hvad der kræves af gulv og væg.",
     date: "29 / 04 / 2025",
@@ -552,7 +552,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "boligdetalje-betonbordplade",
-    metaTitle: "Boligdetalje #5: Betonbordplade — sådan planlægger du det i dit hjem — Yderskov Arkitekter",
+    metaTitle: "Boligdetalje #5: Betonbordplade i dit hjem — Yderskov",
     title: "Boligdetalje #5: Betonbordplade — sådan planlægger du det i dit hjem.",
     description: "En betonbordplade er holdbar, unik og kan formes frit. Her gennemgår vi støbt versus præfabrikeret, overflader, forseglingg og hvad du skal tænke på i køkken og badeværelse.",
     date: "22 / 04 / 2025",
@@ -610,7 +610,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "boligdetalje-betongulv",
-    metaTitle: "Boligdetalje #4: Betongulv — sådan planlægger du det i dit hjem — Yderskov Arkitekter",
+    metaTitle: "Boligdetalje #4: Betongulv i dit hjem — Yderskov",
     title: "Boligdetalje #4: Betongulv — sådan planlægger du det i dit hjem.",
     description: "Et betongulv er holdbart, sømløst og tidløst. Her gennemgår vi poleret beton, microcement, gulvvarme, revnedannelse og hvad du skal tænke på inden du vælger det.",
     date: "15 / 04 / 2025",
@@ -668,7 +668,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "bolig-med-niveauer",
-    metaTitle: "Design af bolig med niveauer — split-level og terrænfølgende huse — Yderskov Arkitekter",
+    metaTitle: "Design af bolig med niveauer — split-level huse — Yderskov",
     title: "Design af bolig med niveauer — sådan udnytter du højdeforskellene.",
     description: "En bolig med niveauer udnytter terrænet, skaber rumlige oplevelser og giver naturlig zonering. Her gennemgår vi split-level, terrænfølgende huse og hvad du skal tænke på.",
     date: "08 / 04 / 2025",
@@ -726,7 +726,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "betonterrasse",
-    metaTitle: "Betonterrasse — hvad skal du vide inden du vælger det? — Yderskov Arkitekter",
+    metaTitle: "Betonterrasse — værd at vide inden du vælger — Yderskov",
     title: "Betonterrasse — hvad skal du vide inden du vælger det?",
     description: "En betonterrasse er holdbar, lav-vedligeholdelse og kan formes frit. Her gennemgår vi støbt beton mod betonfliser, overfladebehandling, afvanding og hvad det koster.",
     date: "01 / 04 / 2025",
@@ -853,7 +853,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "sedumtag",
-    metaTitle: "Sedumtag — hvad er det, og er det det rigtige tag til dit hus? — Yderskov Arkitekter",
+    metaTitle: "Sedumtag — er det det rigtige tag til dit hus? — Yderskov",
     title: "Sedumtag — hvad er det, og er det det rigtige tag til dit hus?",
     description: "Et sedumtag er et levende tag beplantet med stenurt. Det ser smukt ud, isolerer godt og håndterer regnvand. Her gennemgår vi hvad du skal vide inden du vælger det.",
     date: "18 / 03 / 2025",
@@ -1038,7 +1038,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "inde-ude",
-    metaTitle: "Hvordan laver man en god overgang mellem inde og ude? — Yderskov Arkitekter",
+    metaTitle: "God overgang mellem inde og ude i boligen — Yderskov",
     title: "Hvordan laver man en god overgang mellem inde og ude?",
     description: "En god overgang mellem inde og ude forlænger boligen og gør hverdagen rigere. Her gennemgår vi de vigtigste greb — fra terrassedøre og niveauforskelle til materialer og overdækning.",
     date: "01 / 05 / 2026",
@@ -1340,7 +1340,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "velegnet-byggegrund",
-    metaTitle: "Hvordan vurderer man om en byggegrund er velegnet? — Yderskov Arkitekter",
+    metaTitle: "Vurdering af byggegrund: Er den velegnet? — Yderskov",
     title: "Hvordan vurderer man om en byggegrund er velegnet?",
     description: "Ikke alle byggegrunde er skabt ens. Her guider vi dig gennem de vigtigste faktorer — og forklarer hvordan en arkitekt kan vejlede dig til det rigtige valg.",
     date: "09 / 04 / 2026",
@@ -1628,7 +1628,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "boligdetalje-trappe",
-    metaTitle: "Boligdetalje #3: Trappen — sådan planlægger du trappen i dit arkitekttegnede hus — Yderskov Arkitekter",
+    metaTitle: "Boligdetalje #3: Planlæg trappen i dit nye hus — Yderskov",
     title: "Boligdetalje #3: Trappen — sådan planlægger du trappen i dit arkitekttegnede hus.",
     description: "Trappen er en af de mest iøjnefaldende detaljer i et arkitekttegnet hus. Her gennemgår vi hvordan du planlægger den rigtigt — fra placering og konstruktion til materialer, gelænder og lys.",
     date: "14 / 02 / 2026",
@@ -1687,7 +1687,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "boligdetalje-groent-miljoe",
-    metaTitle: "Boligdetalje #2: Grønt miljø inde — sådan planlægger du planter i dit arkitekttegnede hus — Yderskov Arkitekter",
+    metaTitle: "Boligdetalje #2: Planter i dit arkitekttegnede hus — Yderskov",
     title: "Boligdetalje #2: Grønt miljø inde — sådan planlægger du planter i dit arkitekttegnede hus.",
     description: "Planter inde i boligen forbedrer luftkvaliteten, dæmper lyd og giver rum en levende, organisk kvalitet. Her gennemgår vi hvordan du planlægger grønne elementer som en integreret del af arkitekturen.",
     date: "07 / 02 / 2026",

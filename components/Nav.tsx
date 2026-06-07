@@ -48,8 +48,11 @@ export default function Nav() {
   }, [open]);
 
   useEffect(() => {
-    setOpen(false);
-    setActiveDropdown(null);
+    const raf = requestAnimationFrame(() => {
+      setOpen(false);
+      setActiveDropdown(null);
+    });
+    return () => cancelAnimationFrame(raf);
   }, [pathname]);
 
   const [closingDropdown, setClosingDropdown] = useState(false);

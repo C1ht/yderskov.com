@@ -146,7 +146,7 @@ export default function VillaerPage() {
             </div>
             <div>
               <p className="body-p">
-                Hvert villaprojekt starter med en grundig dialog om jeres ønsker, behov og økonomi. Vi tegner, projekterer og bygger — med egne håndværkere og ét samlet ansvar.
+                Hvert villaprojekt starter med en grundig dialog om jeres ønsker, behov og økonomi. Vi tegner, projekterer og bygger — med egne håndværkere og ét samlet ansvar. Læs mere om <Link href="/om" className="text-link">vores tegnestue</Link> eller få et overblik over <Link href="/priser" className="text-link">vores prissatser</Link>.
               </p>
               <p className="body-p">
                 Se vores projekter og lad dig inspirere. Kontakt os for et gratis første møde direkte på grunden.

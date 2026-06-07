@@ -222,7 +222,7 @@ export default function HomePage() {
           <div className="text-2col">
             <div>
               <span className="eyebrow">Om tegnestuen</span>
-              <h2 className="sec-hed">Vi er arkitekter<br />med styr på processen.</h2>
+              <h1 className="sec-hed">Vi er arkitekter<br />med styr på processen.</h1>
               <div className="about-tags" style={{ marginTop: "1.5rem" }}>
                 <Link href="/kontakt" className="tag tag-dark">Kontakt os →</Link>
                 <Link href="/priser" className="tag">Se priser</Link>

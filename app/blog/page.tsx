@@ -1,10 +1,16 @@
-"use client";
-
-import { useState } from "react";
+import type { Metadata } from "next";
 import Link from "next/link";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
+import BlogListing from "@/components/BlogListing";
+
+export const metadata: Metadata = {
+  title: "Blog — arkitektur, priser og proces — Yderskov Arkitekter",
+  description:
+    "Læs vores blog om arkitektur, priser og proces for arkitekttegnet boligbyggeri.",
+  alternates: { canonical: "https://yderskov.dk/blog" },
+};
 
 type Post = {
   href: string;
@@ -461,24 +467,7 @@ const categories = [
   { key: "case", label: "Cases fra praksis" },
 ];
 
-function parseDate(dateStr: string): Date {
-  const [day, month, year] = dateStr.split(" / ").map(Number);
-  return new Date(year, month - 1, day);
-}
-
 export default function BlogPage() {
-  const [active, setActive] = useState("alle");
-  const [sortAsc, setSortAsc] = useState(false);
-
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-  const published = posts.filter((p) => parseDate(p.date) <= today);
-  const filtered = (active === "alle" ? published : published.filter((p) => p.catKey === active));
-  const sorted = [...filtered].sort((a, b) => {
-    const diff = parseDate(b.date).getTime() - parseDate(a.date).getTime();
-    return sortAsc ? -diff : diff;
-  });
-
   return (
     <>
       <Nav />
@@ -501,40 +490,11 @@ export default function BlogPage() {
             <span className="eyebrow">Fra arkitektens blog</span>
             <h1 className="sec-hed">Arkitektens blog</h1>
             <p className="body-p" style={{ marginTop: "1rem" }}>
-              Her skriver vi om alt der har med arkitektur og byggeri at gøre — fra processen og priserne til konkrete designvalg.
+              Her skriver vi om alt, der har med arkitektur og byggeri at gøre — fra <Link href="/priser" className="text-link">vores priser</Link> og <Link href="/om" className="text-link">vores samlede proces</Link> til konkrete designvalg og færdige byggerier.
             </p>
           </div>
 
-          <div className="blog-filters">
-            {categories.map((cat) => (
-              <button
-                key={cat.key}
-                className={`blog-filter-btn${active === cat.key ? " active" : ""}`}
-                onClick={() => setActive(cat.key)}
-              >
-                {cat.label}
-              </button>
-            ))}
-            <button
-              className={`blog-filter-btn${sortAsc ? " active" : ""}`}
-              onClick={() => setSortAsc((s) => !s)}
-            >
-              {sortAsc ? "Nyeste først" : "Ældste først"}
-            </button>
-          </div>
-
-          <div className="post-grid">
-            {sorted.map((post) => (
-              <Link key={post.href} href={post.href} className="post-card">
-                <span className="post-date">{post.date}</span>
-                <span className="post-cat">{post.cat}</span>
-                <p className="post-title">{post.title}</p>
-                {post.subtitle && <p className="post-subtitle">{post.subtitle}</p>}
-                <p className="post-excerpt">{post.excerpt}</p>
-                <span className="post-link">Læs mere →</span>
-              </Link>
-            ))}
-          </div>
+          <BlogListing posts={posts} categories={categories} />
         </div>
       </section>
 
