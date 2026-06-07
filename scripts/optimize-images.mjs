@@ -14,7 +14,7 @@ async function findImages(dir) {
     const full = path.join(dir, entry.name)
     if (entry.isDirectory()) {
       files.push(...(await findImages(full)))
-    } else if (/\.(jpg|jpeg|png)$/i.test(entry.name)) {
+    } else if (/\.(jpg|jpeg|png|webp)$/i.test(entry.name)) {
       files.push(full)
     }
   }
