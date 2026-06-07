@@ -64,7 +64,7 @@ const projectGalleries = [
 const faqItems = [
   {
     q: "Hvad koster et arkitekttegnet sommerhus?",
-    a: "Et arkitekttegnet sommerhus starter fra 14.000 kr. pr. m². Prisen afhænger af størrelse, materialer og placering. Kontakt os for en uforpligtende vurdering.",
+    a: "Et arkitekttegnet sommerhus starter fra 12.000 kr. pr. m². Prisen afhænger af størrelse, materialer og placering. Kontakt os for en uforpligtende vurdering.",
   },
   {
     q: "Kan I tegne sommerhuse til specielle grunde?",
@@ -143,7 +143,7 @@ export default function SommerhusePage() {
 
       <div className="stats-bg">
         <div className="stats-inner">
-          <div className="stat"><div className="stat-num">14.000<sup> kr.</sup></div><div className="stat-lbl">Fra pr. m²</div></div>
+          <div className="stat"><div className="stat-num">12.000<sup> kr.</sup></div><div className="stat-lbl">Fra pr. m²</div></div>
           <div className="stat"><div className="stat-num">24<sup> timer</sup></div><div className="stat-lbl">Svar inden</div></div>
           <div className="stat"><div className="stat-num">10<sup>+</sup></div><div className="stat-lbl">Igangværende projekter</div></div>
           <div className="stat"><div className="stat-num">300<sup>+</sup></div><div className="stat-lbl">Projekter gennemført</div></div>

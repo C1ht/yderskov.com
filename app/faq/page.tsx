@@ -56,7 +56,7 @@ const sections = [
   {
     title: "Sommerhus",
     items: [
-      { q: "Hvad koster et arkitekttegnet sommerhus?", a: "Et arkitekttegnet sommerhus starter fra 14.000 kr. pr. m². Prisen afhænger af størrelse, materialer og placering." },
+      { q: "Hvad koster et arkitekttegnet sommerhus?", a: "Et arkitekttegnet sommerhus starter fra 12.000 kr. pr. m². Prisen afhænger af størrelse, materialer og placering." },
       { q: "Kan sommerhuset bruges hele året?", a: "Det afhænger af lokalplanen. Vi rådgiver om mulighederne og søger dispensation hvis relevant." },
       { q: "Kan I tegne sommerhuse til udsigtsgrunde?", a: "Ja — vi er specialister i at tilpasse sommerhuset til grunden, hvad enten det er en udsigtsgrund, klitgrund eller skovgrund." },
       { q: "Hvad er reglerne for sommerhuse?", a: "Sommerhuse er reguleret af planloven, lokalplaner og bygningsreglementet. Vi kender reglerne og sikrer at dit sommerhus overholder dem." },
