@@ -201,8 +201,8 @@ export default function HomePage() {
         <div className="stats-bg home-stats">
           <div className="stats-inner">
             <div className="stat">
-              <div className="stat-num">14.000<sup> kr.</sup></div>
-              <div className="stat-lbl">Fra pr. m²</div>
+              <div className="stat-num">12.000<sup> kr.</sup></div>
+              <div className="stat-lbl">Fra pr. m² (sommerhus)</div>
             </div>
             <div className="stat">
               <div className="stat-num">24<sup> timer</sup></div>
