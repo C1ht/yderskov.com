@@ -1,15 +1,6 @@
-"use client";
-
 import Link from "next/link";
-import Image from "next/image";
-import { useState, useEffect, useCallback, useRef } from "react";
 import HeroForm from "./HeroForm";
-
-interface HeroSlide {
-  src: string;
-  alt: string;
-  style?: React.CSSProperties;
-}
+import HeroCarousel, { type HeroSlide } from "./HeroCarousel";
 
 interface HeroProps {
   slides?: HeroSlide[];
@@ -33,10 +24,16 @@ const defaultSlides: HeroSlide[] = [
   { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp", alt: "Villa med tilbygning, Hasseris — Yderskov Arkitekter" },
 ];
 
+/**
+ * Hero is a Server Component — text and layout render immediately from static
+ * HTML without waiting for JavaScript. Only the image carousel (HeroCarousel)
+ * and contact form (HeroForm) are client components.
+ */
 export default function Hero({
   slides = defaultSlides,
   title = "Arkitekt Yderskov",
-subtitle = "Tanker & Streger",
+  tag,
+  subtitle = "Tanker & Streger",
   lines = [
     "I har tankerne, vi sætter stregerne.",
     "Gratis og uforpligtende første idemøde. Vi kommer ud til jer.",
@@ -48,64 +45,18 @@ subtitle = "Tanker & Streger",
   showQuote = true,
   bright = false,
 }: HeroProps) {
-  const isCarousel = slides.length > 1;
-  const [current, setCurrent] = useState(0);
-  const [prev, setPrev] = useState<number | null>(null);
-  const heroRef = useRef<HTMLElement>(null);
-  const isVisible = useRef(true);
-
-  const goTo = useCallback(
-    (index: number) => {
-      setPrev(current);
-      setCurrent(index);
-    },
-    [current]
-  );
-
-  useEffect(() => {
-    if (!isCarousel) return;
-    const el = heroRef.current;
-    if (!el) return;
-    const observer = new IntersectionObserver(
-      ([entry]) => { isVisible.current = entry.isIntersecting; },
-      { threshold: 0 }
-    );
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, [isCarousel]);
-
-  useEffect(() => {
-    if (!isCarousel) return;
-    const id = setInterval(() => {
-      if (isVisible.current) goTo((current + 1) % slides.length);
-    }, 5000);
-    return () => clearInterval(id);
-  }, [current, slides.length, goTo, isCarousel]);
-
   return (
-    <section className={`hero${bright ? " hero-bright" : ""}`} ref={heroRef}>
-      {slides.map((slide, i) => (
-        <div
-          key={slide.src}
-          className={`hero-slide${i === current ? " active" : i === prev ? " prev" : ""}`}
-        >
-          <Image
-            src={slide.src}
-            alt={slide.alt}
-            fill
-            sizes="100vw"
-            style={{ objectFit: "cover", ...slide.style }}
-            priority={i === 0}
-          />
-        </div>
-      ))}
+    <section className={`hero${bright ? " hero-bright" : ""}`}>
+      {/* Image carousel — client component, isolated */}
+      <HeroCarousel slides={slides} />
 
       <div className="hero-overlay" />
 
       <div className="hero-body">
         <div className="hero-main">
           <div className="hero-left">
-            <p className="hero-left-super">{title}</p>
+            {/* LCP element — server-rendered, no JS dependency */}
+            <p className={`hero-left-super${tag ? " hero-tag" : ""}`}>{tag ?? title}</p>
             <p className="hero-left-title">{subtitle}</p>
             {lines.map((line, i) => (
               <p
@@ -146,19 +97,6 @@ subtitle = "Tanker & Streger",
           <Link href="/sommerhuse" className="hero-tab">Sommerhus</Link>
           <Link href="/erhverv" className="hero-tab">Erhverv</Link>
           <Link href="/special" className="hero-tab">Special</Link>
-        </div>
-      )}
-
-      {slides.length > 1 && (
-        <div className="hero-dots">
-          {slides.map((_, i) => (
-            <button
-              key={i}
-              className={`hero-dot${i === current ? " active" : ""}`}
-              onClick={() => goTo(i)}
-              aria-label={`Slide ${i + 1}`}
-            />
-          ))}
         </div>
       )}
     </section>
