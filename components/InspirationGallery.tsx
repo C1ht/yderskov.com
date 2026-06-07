@@ -2,17 +2,12 @@
 
 import Image from "next/image";
 import { useState, useEffect, useCallback } from "react";
+import { inspirationImages } from "./inspiration-images";
 
-interface GalleryImage {
-  src: string;
-  alt: string;
-  rotate?: boolean;
-  rotateCCW?: boolean;
-  rotateMobile?: boolean;
-}
-
-export default function InspirationGallery({ images }: { images: GalleryImage[] }) {
+export default function InspirationGallery() {
+  const images = inspirationImages;
   const [selected, setSelected] = useState<number | null>(null);
+  const [limit, setLimit] = useState(24);
 
   const close = useCallback(() => setSelected(null), []);
 
@@ -40,11 +35,12 @@ export default function InspirationGallery({ images }: { images: GalleryImage[] 
   }, [selected, close, prev, next]);
 
   const activeImg = selected !== null ? images[selected] : null;
+  const visibleImages = images.slice(0, limit);
 
   return (
     <>
       <div className="insp-grid">
-        {images.map((img, i) => (
+        {visibleImages.map((img, i) => (
           <div
             key={i}
             className="insp-item"
@@ -72,6 +68,18 @@ export default function InspirationGallery({ images }: { images: GalleryImage[] 
           </div>
         ))}
       </div>
+
+      {limit < images.length && (
+        <div style={{ display: "flex", justifyContent: "center", marginTop: "3rem", marginBottom: "1.5rem" }}>
+          <button
+            onClick={() => setLimit((prev) => prev + 24)}
+            className="tag tag-dark"
+            style={{ cursor: "pointer", border: "none", padding: "0.8rem 2rem", fontSize: "0.9rem" }}
+          >
+            Vis flere billeder →
+          </button>
+        </div>
+      )}
 
       {selected !== null && activeImg && (
         <div className="lb-backdrop" onClick={close} role="dialog" aria-modal="true">

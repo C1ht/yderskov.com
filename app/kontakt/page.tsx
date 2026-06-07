@@ -4,6 +4,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
+import InteractiveMap from "@/components/InteractiveMap";
 
 export const metadata: Metadata = {
   title: "Kontakt Yderskov Arkitekter — ring eller skriv",
@@ -107,15 +108,7 @@ export default function KontaktPage() {
       </section>
 
       {/* Map */}
-      <div className="map-wrap">
-        <iframe
-          src="https://maps.google.com/maps?q=57.250538,10.005283&z=15&output=embed"
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          title="Arkitekttegnestuen Yderskov — Danserhøj 38, 9700 Brønderslev"
-          aria-label="Kort over Arkitekttegnestuen Yderskov"
-        />
-      </div>
+      <InteractiveMap />
 
       <Footer />
     </>
