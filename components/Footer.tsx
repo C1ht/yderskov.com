@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="ftop">
         <div className="fbrand fcol">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/logofiles/SVG/Arkitect 5.svg" alt="Arkitekttegnestuen Yderskov" className="footer-logo" />
+          <img src="/images/logofiles/SVG/Arkitect 5.svg" alt="Arkitekttegnestuen Yderskov" className="footer-logo" width="160" height="128" />
           <p>
             Arkitekttegnede villaer, sommerhuse og tilbygninger med fast pris i Aalborg og Danmark.
           </p>
