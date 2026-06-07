@@ -137,6 +137,24 @@ export default function HomePage() {
         </div>
       </div>
 
+      {/* Sommerhus prisnyt */}
+      <div className="announcement-bar">
+        <div className="announcement-inner">
+          <div className="announcement-badge">Nyt</div>
+          <div className="announcement-body">
+            <p className="announcement-title">
+              Byg nyt sommerhus fra <strong>kr. 12.000 pr. m²</strong>
+            </p>
+            <p className="announcement-sub">
+              Vi tegner og bygger arkitekttegnede sommerhuse nøglefærdigt — med fast pris fra første dag og egne håndværkere. Gratis og uforpligtende første møde.
+            </p>
+          </div>
+          <Link href="/sommerhuse" className="announcement-cta">
+            Se sommerhuse →
+          </Link>
+        </div>
+      </div>
+
       {/* Hvad er dit projekt */}
       <section className="s" style={{ paddingTop: "3rem", paddingBottom: "3rem" }}>
         <div className="s-inner">
