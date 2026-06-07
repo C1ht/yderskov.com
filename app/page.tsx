@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import ProjectGrid from "@/components/ProjectGrid";
 import CtaBand from "@/components/CtaBand";
+import { localBusinessSchema, projects, testimonials, processSteps, blogPosts } from "./home-data";
 
 export const metadata: Metadata = {
   title: "Arkitekt til villa, sommerhus og tilbygning — Yderskov Arkitekter",
@@ -13,92 +14,10 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://yderskov.dk/" },
 };
 
-const localBusinessSchema = {
-  "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  name: "Yderskov Arkitekter",
-  url: "https://yderskov.dk",
-  telephone: "+4529723427",
-  email: "cy@yderskov.com",
-  address: {
-    "@type": "PostalAddress",
-    addressCountry: "DK",
-    addressRegion: "Nordjylland",
-  },
-  areaServed: { "@type": "Country", name: "Danmark" },
-  description: "Arkitekttegnede villaer, sommerhuse og tilbygninger med fast pris og egne håndværkere. Gratis første møde.",
-  priceRange: "$$",
-  foundingDate: "2009",
-  sameAs: ["https://yderskov.dk"],
-};
-
-const projects = [
-  { src: "/images/Vestvej/Grønhøj-Vestvej-sommerhus-indkørsel.webp", title: "Arkitekttegnet sommerhus" },
-  { src: "/images/Strandkanten/Sæby-strandkanten-ny-funkisvilla.webp", title: "Ny funkisvilla" },
-  { src: "/images/Løvevej/Ålbæk-poolhus-terrasse.webp", title: "Sommerhus med pool" },
-  { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-renovering-indkørsel.webp", title: "Ombygning af parcelhus" },
-  { src: "/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-terrasse.webp", title: "Nyt sommerhus" },
-  { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-haveside.webp", title: "Ombygning af villa" },
-];
-
-const testimonials = [
-  {
-    quote: "Vores allerbedste anbefalinger til Arkitekttegnestuen Yderskov. De lyttede til vores ønsker og leverede langt over vores forventninger.",
-    name: "Cathrine Rasmussen",
-  },
-  {
-    quote: "Processen var nem og overskuelig fra start til slut. Vi fik præcis det hus vi drømte om — til den pris vi aftalte.",
-    name: "Morten & Lene Kjærgaard",
-  },
-  {
-    quote: "Fantastisk samarbejde. Arkitekten var altid tilgængelig og sikrede at alt gik som planlagt — med egne håndværkere.",
-    name: "Susanne Bonde",
-  },
-  {
-    quote: "Vi er så glade for vores nye sommerhus. Det passer perfekt til grunden og udsigten. Kan varmt anbefales!",
-    name: "Jens & Hanne Nielsen",
-  },
-];
-
-const processSteps = [
-  { num: "01", title: "Gratis første møde", desc: "Vi kommer ud til dig — gratis og uforpligtende. Vi lytter til dine ønsker og vurderer mulighederne på din grund." },
-  { num: "02", title: "Skitseforslag", desc: "Vi udarbejder et skitseforslag med planløsning, facader og et samlet indtryk af projektet." },
-  { num: "03", title: "Myndighedsprojekt", desc: "Vi tegner og beregner projektet til brug for ansøgning om byggetilladelse." },
-  { num: "04", title: "Byggetilladelse", desc: "Vi sender ansøgningen til kommunen og følger op indtil tilladelsen er i hus." },
-  { num: "05", title: "Prisindhentning", desc: "Vi indhenter tilbud fra håndværkere og forhandler den bedste pris til dig." },
-  { num: "06", title: "Byggefase", desc: "Vi styrer byggeriet og koordinerer håndværkerne, så du slipper for bekymringer." },
-  { num: "07", title: "Aflevering til bygherre", desc: "Vi gennemgår byggeriet med dig og sikrer at alt er udført korrekt og som aftalt." },
-  { num: "08", title: "Færdigmelding hos kommunen", desc: "Vi sørger for færdigmelding hos kommunen, som udsteder ibrugtagningstilladelse." },
-];
-
-const blogPosts = [
-  {
-    href: "/blog/velegnet-byggegrund",
-    date: "09 / 04 / 2026",
-    title: "Hvordan vurderer man om en byggegrund er velegnet?",
-    excerpt: "Vi gennemgår hvad du skal kigge efter — før du køber grunden.",
-  },
-  {
-    href: "/blog/lille-sommerhus",
-    date: "16 / 04 / 2026",
-    title: "Hvordan bygger man et lille sommerhus?",
-    excerpt: "Lille areal behøver ikke betyde lille oplevelse. Vi viser hvordan.",
-  },
-  {
-    href: "/blog/bolig-med-niveauer",
-    date: "08 / 04 / 2025",
-    title: "Design af bolig med niveauer — sådan udnytter du højdeforskellene.",
-    excerpt: "Niveauforskelle giver dynamik, lys og bedre udnyttelse af grunden.",
-  },
-];
-
 export default function HomePage() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
 
       <Nav />
 
@@ -142,16 +61,10 @@ export default function HomePage() {
         <div className="announcement-inner">
           <div className="announcement-badge">Nyt</div>
           <div className="announcement-body">
-            <p className="announcement-title">
-              Byg nyt sommerhus fra <strong>kr. 12.000 pr. m²</strong>
-            </p>
-            <p className="announcement-sub">
-              Vi tegner og bygger arkitekttegnede sommerhuse nøglefærdigt — med fast pris fra første dag og egne håndværkere. Gratis og uforpligtende første møde.
-            </p>
+            <p className="announcement-title">Byg nyt sommerhus fra <strong>kr. 12.000 pr. m²</strong></p>
+            <p className="announcement-sub">Vi tegner og bygger arkitekttegnede sommerhuse nøglefærdigt — med fast pris fra første dag og egne håndværkere. Gratis og uforpligtende første møde.</p>
           </div>
-          <Link href="/sommerhuse" className="announcement-cta">
-            Se sommerhuse →
-          </Link>
+          <Link href="/sommerhuse" className="announcement-cta">Se sommerhuse →</Link>
         </div>
       </div>
 
@@ -160,35 +73,27 @@ export default function HomePage() {
         <div className="s-inner">
           <div style={{ marginBottom: "1.75rem" }}>
             <span className="eyebrow">Se hvad vi kan tilbyde</span>
-            <h2 className="sec-hed" style={{ marginBottom: 0 }}>
-              Hvad er dit projekt?
-            </h2>
+            <h2 className="sec-hed" style={{ marginBottom: 0 }}>Hvad er dit projekt?</h2>
           </div>
           <div className="project-choice">
             <Link href="/villaer" className="project-choice-card">
               <div>
                 <p className="project-choice-title">Ny villa eller hus</p>
-                <p className="project-choice-sub">
-                  Vi tegner din drømmebolig fra bunden — tilpasset grunden, familien og budgettet.
-                </p>
+                <p className="project-choice-sub">Vi tegner din drømmebolig fra bunden — tilpasset grunden, familien og budgettet.</p>
               </div>
               <div className="project-choice-arr">→</div>
             </Link>
             <Link href="/tilbygninger" className="project-choice-card">
               <div>
                 <p className="project-choice-title">Om- og tilbygning</p>
-                <p className="project-choice-sub">
-                  Din bolig rummer mere end du tror. Vi ser mulighederne og skaber mere lys, plads og en planløsning der endelig passer til jer.
-                </p>
+                <p className="project-choice-sub">Din bolig rummer mere end du tror. Vi ser mulighederne og skaber mere lys, plads og en planløsning der endelig passer til jer.</p>
               </div>
               <div className="project-choice-arr">→</div>
             </Link>
             <Link href="/sommerhuse" className="project-choice-card">
               <div>
                 <p className="project-choice-title">Sommerhus</p>
-                <p className="project-choice-sub">
-                  Dit fristed tegnet netop til dig — til din grund, din udsigt og dine drømme om den perfekte ferie.
-                </p>
+                <p className="project-choice-sub">Dit fristed tegnet netop til dig — til din grund, din udsigt og dine drømme om den perfekte ferie.</p>
               </div>
               <div className="project-choice-arr">→</div>
             </Link>
@@ -200,22 +105,10 @@ export default function HomePage() {
         {/* Stats */}
         <div className="stats-bg home-stats">
           <div className="stats-inner">
-            <div className="stat">
-              <div className="stat-num">12.000<sup> kr.</sup></div>
-              <div className="stat-lbl">Fra pr. m² (sommerhus)</div>
-            </div>
-            <div className="stat">
-              <div className="stat-num">24<sup> timer</sup></div>
-              <div className="stat-lbl">Svar inden</div>
-            </div>
-            <div className="stat">
-              <div className="stat-num">10<sup>+</sup></div>
-              <div className="stat-lbl">Igangværende projekter</div>
-            </div>
-            <div className="stat">
-              <div className="stat-num">300<sup>+</sup></div>
-              <div className="stat-lbl">Projekter gennemført</div>
-            </div>
+            <div className="stat"><div className="stat-num">12.000<sup> kr.</sup></div><div className="stat-lbl">Fra pr. m² (sommerhus)</div></div>
+            <div className="stat"><div className="stat-num">24<sup> timer</sup></div><div className="stat-lbl">Svar inden</div></div>
+            <div className="stat"><div className="stat-num">10<sup>+</sup></div><div className="stat-lbl">Igangværende projekter</div></div>
+            <div className="stat"><div className="stat-num">300<sup>+</sup></div><div className="stat-lbl">Projekter gennemført</div></div>
           </div>
         </div>
 
@@ -248,24 +141,16 @@ export default function HomePage() {
               </div>
             </div>
             <div>
-              <p className="body-intro">
-                Arkitekttegnestuen Yderskov ApS er en tegnestue i Nordjylland med speciale i arkitekttegnede villaer, sommerhuse, tilbygninger og erhvervsprojekter.
-              </p>
-              <p className="body-p">
-                Vi arbejder med en samlet proces fra idé til færdigt byggeri — med egne faste håndværkere og fokus på at holde styr på din økonomi undervejs.
-              </p>
-              <p className="body-p">
-                Tegnestuen blev grundlagt i 2009 og har siden arbejdet med projekter i hele Danmark, primært i Nordjylland og Aalborg-området.
-              </p>
-              <p className="body-p">
-                Hos os taler du altid direkte med arkitekten — ingen mellemled, fast pris fra første dag.
-              </p>
+              <p className="body-intro">Arkitekttegnestuen Yderskov ApS er en tegnestue i Nordjylland med speciale i arkitekttegnede villaer, sommerhuse, tilbygninger og erhvervsprojekter.</p>
+              <p className="body-p">Vi arbejder med en samlet proces fra idé til færdigt byggeri — med egne faste håndværkere og fokus på at holde styr på din økonomi undervejs.</p>
+              <p className="body-p">Tegnestuen blev grundlagt i 2009 og har siden arbejdet med projekter i hele Danmark, primært i Nordjylland og Aalborg-området.</p>
+              <p className="body-p">Hos os taler du altid direkte med arkitekten — ingen mellemled, fast pris fra første dag.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Testimonials */}
+      {/* Anbefalinger */}
       <section className="s">
         <div className="s-inner">
           <span className="eyebrow">Hvad siger kunderne</span>
@@ -281,7 +166,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Process */}
+      {/* Processen */}
       <section className="s s-off">
         <div className="s-inner">
           <span className="eyebrow">Sådan arbejder vi</span>
@@ -298,7 +183,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Blog preview */}
+      {/* Blog */}
       <div className="blog-bg">
         <div className="blog-inner">
           <div className="blog-head">
