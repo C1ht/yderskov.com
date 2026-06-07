@@ -33,7 +33,6 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo-icon.svg" type="image/svg+xml" />
-        <link rel="preconnect" href="https://maps.google.com" />
       </head>
       <body>
         {children}
@@ -42,3 +41,4 @@ export default function RootLayout({
     </html>
   );
 }
+
