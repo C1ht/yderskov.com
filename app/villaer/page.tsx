@@ -74,6 +74,10 @@ const projectGalleries = [
   {
     eyebrow: "Projekt",
     title: "Klassisk\nvilla, Hjørring.",
+    location: "Hjørring, Nordjylland",
+    size: "215 m² bolig · 42 m² garage",
+    year: "2022",
+    description: "Klassisk villa med traditionelt formsprog, symmetrisk facade og omhyggeligt udvalgte materialer. Huset er placeret i et etableret villakvarter med god forbindelse til naturen. Familien ønskede et klassisk udtryk med moderne funktionalitet indvendigt — store, lyse opholdsrum med direkte udgang til det ugenerede gårdhavemiljø. Materialerne er valgt ud fra et ønske om minimal vedligeholdelse og lang levetid.",
     images: [
       { src: "/images/Gartnerhaven/Hjørring-garnterhaven-ny-villa.webp", alt: "Klassisk ny villa i Hjørring — Yderskov Arkitekter" },
       { src: "/images/Gartnerhaven/Hjørring-gartnehaven-ny-villa-haveside.webp", alt: "Haveside på klassisk villa i Hjørring — Yderskov Arkitekter" },
@@ -85,6 +89,10 @@ const projectGalleries = [
   {
     eyebrow: "Projekt",
     title: "Villa med\nensidig taghældning, Vestbjerg.",
+    location: "Vestbjerg, Nordjylland",
+    size: "190 m² bolig · 55 m² garage · 22 m² overdækning",
+    year: "2023",
+    description: "Villa med ensidig taghældning og overdækket terrasse i direkte forbindelse med stuens store glaspartier. Huset er udformet med en tydelig fløjstruktur, der skaber naturlig zonering mellem opholdsrum og børne-/forældreafdelinger. Familien lagde vægt på optimalt lysindfald, god loftshøjde og en flydende overgang mellem inde og ude under den overdækkede terrasse.",
     images: [
       { src: "/images/Hanebjælken/Vestbjerg-Hanebjælken-ny-villa-haveside.webp", alt: "Villa med ensidig taghældning, haveside, Vestbjerg — Yderskov Arkitekter" },
       { src: "/images/Hanebjælken/Vestbjerg-Hanebjælken-ny-villa-overdækket-terrasse.webp", alt: "Overdækket terrasse på villa i Vestbjerg — Yderskov Arkitekter" },
