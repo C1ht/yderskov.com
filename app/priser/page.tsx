@@ -87,7 +87,7 @@ export default function PriserPage() {
             </div>
             <div>
               <p className="body-intro">
-                Vi tilbyder fast pris på arkitekthonoraret — så du altid ved hvad du betaler. Det første møde er altid gratis og uforpligtende.
+                Vi tilbyder fast pris på arkitekthonoraret — så du altid ved hvad du betaler. Prøv også vores <Link href="/prisberegner" className="text-link">prisberegner</Link> eller se et <Link href="/prisberegner/demo" className="text-link">demo-prisskøn</Link> med det samme. Det første møde er altid gratis og uforpligtende.
               </p>
               <p className="body-p">
                 Alle priser er inkl. moms og er vejledende. Kontakt os for et præcist tilbud baseret på dit projekt.

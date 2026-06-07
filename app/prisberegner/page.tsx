@@ -39,7 +39,7 @@ export default function PrisberegnPage() {
               <span className="eyebrow">Prisberegner</span>
               <h1 className="sec-hed">Få et prisskøn<br />over din tilbygning.</h1>
               <p className="body-intro">
-                Udfyld felterne og få et vejledende skøn over byggeomkostninger baseret på materialer du vælger. Et gratis arkitektmøde giver dig et mere præcist billede.
+                Udfyld felterne og få et vejledende skøn over byggeomkostninger baseret på materialer du vælger. Du kan også se et <Link href="/prisberegner/demo" className="text-link">eksempel på et prisskøn her</Link>. Et gratis arkitektmøde giver dig dog altid det mest præcise billede.
               </p>
               <p className="body-p">
                 Priser er inkl. moms og baseret på aktuelle markedspriser. Kontakt os for mere info om tilbud.
