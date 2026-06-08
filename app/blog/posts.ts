@@ -16,19 +16,71 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
-    slug: "hundevaskeplads-vestbjerg",
-    metaTitle: "Hundevaskeplads i bryggers — villa i Vestbjerg — Yderskov",
-    title: "Hundevaskeplads i bryggers — ny funkisvilla i Vestbjerg.",
-    description: "En familie i Vestbjerg får skitseret ny funkisvilla. Familien elsker at gå tur med hunden i Hammer Bakker — og bryggersets hundevaskeplads er derefter.",
-    date: "23 / 05 / 2026",
+    slug: "villa-herresaede-noerholm-aalborg",
+    metaTitle: "Villa som engelsk herresæde i Nørholm nær Aalborg — Yderskov",
+    title: "Drømmen om et engelsk herresæde — ny eksklusiv villa i Nørholm nær Aalborg.",
+    description: "Et par kom til os med et postkort af et engelsk herresæde. Vi tegnede deres drømmevilla i Nørholm nær Aalborg med sortglasserede tegl, hall og fjordudsigt.",
+    date: "08 / 06 / 2026",
     cat: "Cases fra praksis",
     catKey: "case",
-    lead: "En familie i Vestbjerg kom til os med et klart ønske: en ny funkisvilla der passer til deres aktive hverdagsliv. De er glade for at gå ture i Hammer Bakker — og hunden er familiens absolutte centrum. Bryggersets indretning var fra start et nøglespørgsmål.",
+    lead: "Et par kom til tegnestuen med et postkort af en villa ala engelsk herresæde. De ønskede at deres kommende bolig skulle have det udtryk. Vi tegnede og opførte deres drømmehjem: En hvid herskabsvilla i to etager med storslået åben hall, småsprodsede vinduer, sortglasserede tegl og panoramaudsigt over Limfjorden, beliggende på en hesteejendom i Nørholm nær Aalborg.",
     sections: [
       {
         heading: "Projektet i tal",
         paragraphs: [
-          "Vestbjerg, Nordjylland · 205 m² bolig · 70 m² garage · 6 m² overdækning.",
+          "Nørholm nær Aalborg · Herskabsvilla i 2 etager · Beliggende på hesteejendom med udsigt over Limfjorden · Småsprodsede vinduer og sortglasserede tagsten.",
+          "Projektet er opført og afleveret i samarbejde med vores egne faste håndværkere.",
+        ],
+        type: "case",
+      },
+      {
+        heading: "Inspirationen fra et postkort",
+        paragraphs: [
+          "Nogle gange starter et stort byggeprojekt med en ganske lille detalje. For dette par var det et postkort af en klassisk engelsk herregård. De forelskede sig i stilen, symmetrien og de herskabelige detaljer, og de spurgte os, om vi kunne omsætte drømmen til virkelighed på deres nye grund i Nordjylland.",
+          "Udfordringen i et sådant projekt er at bevare den historiske sjæl og de klassiske proportioner, samtidig med at boligen fungerer som et moderne, energivenligt og praktisk hjem for en moderne familie.",
+        ],
+      },
+      {
+        heading: "Herskabelige detaljer og klassisk elegance",
+        paragraphs: [
+          "Boligen er tegnet i to fulde etager med hvidt murværk og småsprodsede vinduespartier, der skaber et tidløst og harmonisk udtryk. Taget er lagt med sorte, glasserede teglsten, der giver en fantastisk kontrast til de lyse facader og reflekterer lyset smukt.",
+          "Indenfor mødes man af en storslået, åben hall med højt til loftet og kig til førstesalen. Det giver en imponerende ankomst og en følelse af luft og kvalitet fra det sekund, man træder ind ad døren.",
+        ],
+      },
+      {
+        heading: "Med udsigt over Limfjorden",
+        paragraphs: [
+          "Grunden ligger i Nørholm nær Aalborg, omgivet af natur og med en storslået panoramaudsigt over Limfjorden. Huset er placeret højt på terrænet, så udsigten kan nydes fuldt ud fra de store opholdsrum i stueetagen og de private værelser på førstesalen.",
+          "Ejendommen fungerer i dag som hesteejendom, og arkitekturen formår at binde de praktiske behov for udelivet sammen med en kompromisløs boligkvalitet.",
+        ],
+      },
+      {
+        heading: "Går du med en byggedrøm?",
+        paragraphs: [
+          "Har du fundet et billede, et postkort eller en skitse af det hus, du drømmer om? Vi hjælper dig med at omsætte dine idéer til et konkret byggeprojekt.",
+          "Kontakt os på 29 72 34 27 eller cy@yderskov.com for en uforpligtende samtale om dine muligheder.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Se vores villaprojekter med billeder", href: "/villaer" },
+      { label: "Se om- og tilbygninger med billeder", href: "/tilbygninger" },
+    ],
+  },
+  {
+    slug: "hundevaskeplads-vestbjerg",
+    metaTitle: "Hundevaskeplads i bryggers — villa i Vestbjerg nær Aalborg — Yderskov",
+    title: "Hundevaskeplads i bryggers — ny funkisvilla i Vestbjerg nær Aalborg.",
+    description: "En familie i Vestbjerg nær Aalborg får skitseret ny funkisvilla. Familien elsker at gå tur med hunden i Hammer Bakker — og bryggersets hundevaskeplads er derefter.",
+    date: "23 / 05 / 2026",
+    cat: "Cases fra praksis",
+    catKey: "case",
+    lead: "En familie i Vestbjerg nær Aalborg kom til os med et klart ønske: en ny funkisvilla der passer til deres aktive hverdagsliv. De er glade for at gå ture i Hammer Bakker — og hunden er familiens absolutte centrum. Bryggersets indretning var fra start et nøglespørgsmål.",
+    sections: [
+      {
+        heading: "Projektet i tal",
+        paragraphs: [
+          "Vestbjerg nær Aalborg, Nordjylland · 205 m² bolig · 70 m² garage · 6 m² overdækning.",
           "Projektet er i skitsefasen og vi arbejder med planløsning, facader og de konkrete detaljer i bryggersets indretning.",
         ],
         type: "case",
@@ -113,18 +165,18 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "naturlig-kilde-sebbersund",
-    metaTitle: "Kilde på grunden i Sebbersund: Fra problem til aktiv — Yderskov",
-    title: "Kilden der løb ud af bakken i Sebbersund — og hvordan vi gjorde den til et smukt element.",
-    description: "En naturlig kilde på sommerhusgrunden i Sebbersund skulle håndteres inden byggeriet. Arkitekten foreslog at gøre den til et smukt haveelement med sten og beplantning.",
+    metaTitle: "Kilde på grunden i Sebbersund nær Aalborg: Fra problem til aktiv — Yderskov",
+    title: "Kilden der løb ud af bakken i Sebbersund nær Aalborg — og hvordan vi gjorde den til et smukt element.",
+    description: "En naturlig kilde på sommerhusgrunden i Sebbersund nær Aalborg skulle håndteres inden byggeriet. Arkitekten foreslog at gøre den til et smukt haveelement med sten og beplantning.",
     date: "01 / 05 / 2026",
     cat: "Cases fra praksis",
     catKey: "case",
-    lead: "De fleste bygherrer håber at grunden er enkel. Men hvad gør man når der løber en naturlig kilde ud af bakken — og direkte mod byggepladsen? På sommerhusgrunden i Sebbersund var det præcis det der skete. Her er hvad vi gjorde, og hvad en kilde egentlig kan blive til.",
+    lead: "De fleste bygherrer håber at grunden er enkel. Met hvad gør man når der løber en naturlig kilde ud af bakken — og direkte mod byggepladsen? På sommerhusgrunden i Sebbersund nær Aalborg var det præcis det der skete. Her er hvad vi gjorde, og hvad en kilde egentlig kan blive til.",
     sections: [
       {
         heading: "Kilden der kom med grunden",
         paragraphs: [
-          "Da vi arbejdede med sommerhuset ved Halkær Bredning i Sebbersund, viste grunden sig at have et særligt element: en naturlig kilde der bryder frem fra bakken og finder sin egen vej nedad. Det er ikke ualmindeligt i det nordjyske landskab — men det stiller krav til projekteringen. Vand og fundamenter er ikke venner, og kilden måtte håndteres før huset kom på plads.",
+          "Da vi arbejdede med sommerhuset ved Halkær Bredning i Sebbersund nær Aalborg, viste grunden sig at have et særligt element: en naturlig kilde der bryder frem fra bakken og finder sin egen vej nedad. Det er ikke ualmindeligt i det nordjyske landskab — men det stiller krav til projekteringen. Vand og fundamenter er ikke venner, og kilden måtte håndteres før huset kom på plads.",
         ],
       },
       {
@@ -160,23 +212,23 @@ export const posts: BlogPost[] = [
   {
     slug: "sommerhus-sebbersund-snestorm",
     metaTitle: "Byggeri under snestorm leveret på blokvogn — Yderskov",
-    title: "Bygget under snestorm, leveret på blokvogn — case fra Sebbersund ved Halkær Bredning.",
-    description: "Sommerhuset blev bygget som præfabrikerede elementer i en hal under snestorm, kørt til Sebbersund på blokvogn og hejst på plads med kran. En case om vinterstrategi og udsigt over Halkær Bredning.",
+    title: "Bygget under snestorm, leveret på blokvogn — case fra Sebbersund nær Aalborg ved Halkær Bredning.",
+    description: "Sommerhuset blev bygget som præfabrikerede elementer i en hal under snestorm, kørt til Sebbersund nær Aalborg på blokvogn og hejst på plads med kran. En case om vinterstrategi og udsigt over Halkær Bredning.",
     date: "08 / 05 / 2026",
     cat: "Cases fra praksis",
     catKey: "case",
-    lead: "Vinteren satte hårdt ind. Men byggepladsen i Sebbersund stod ikke stille — for sommerhuset blev ikke bygget der. Det blev bygget i en hal, kilometer væk, mens sneen føg. Da vejret lettede, kom det med blokvogn.",
+    lead: "Vinteren satte hårdt ind. Men byggepladsen i Sebbersund nær Aalborg stod ikke stille — for sommerhuset blev ikke bygget der. Det blev bygget i en hal, kilometer væk, mens sneen føg. Da vejret lettede, kom det med blokvogn.",
     sections: [
       {
         heading: "Grunden og udgangspunktet",
         paragraphs: [
-          "Et ægtepar ejede en grund i Sebbersund med udsigt over Halkær Bredning og Sebber Kloster. På grunden stod et ældre sommerhus der havde set bedre dage — konstruktionen var i så dårlig forfatning at renovering ikke gav mening. Det blev revet ned. Nu skulle der bygges nyt — og gerne hurtigt, men rigtigt.",
+          "Et ægtepar ejede en grund i Sebbersund nær Aalborg med udsigt over Halkær Bredning og Sebber Kloster. På grunden stod et ældre sommerhus der havde set bedre dage — konstruktionen var i så dårlig forfatning at renovering ikke gav mening. Det blev revet ned. Nu skulle der bygges nyt — og gerne hurtigt, men rigtigt.",
         ],
       },
       {
         heading: "Fundamentet først — inden frosten",
         paragraphs: [
-          "Det afgørende første skridt var at støbe fundamentet i god tid inden frosten satte ind. Med fundament i jorden tidligt på efteråret var grunden klar til at modtage det nye hus — uanset hvad vejret gjorde resten af vinteren. Det er præcis den slags forudseenhed der adskiller et veltilrettelagt byggeprojekt fra et der hænger i bremsen til april.",
+          "Det afgørende første skridt var at støbe fundamentet i god tid inden frosten satte ind. Med fundament i jorden tidligt på efteråret var grunden klar til at modtage det nye hus — uanset hvad vejret gjorde resten av vinteren. Det er præcis den slags forudseenhed der adskiller et veltilrettelagt byggeprojekt fra et der hænger i bremsen til april.",
         ],
       },
       {
@@ -188,7 +240,7 @@ export const posts: BlogPost[] = [
       {
         heading: "Blokvogn og kran",
         paragraphs: [
-          "Da elementerne var færdige og vejret vendte, kom blokvognen. Elementerne blev lastet og kørt til Sebbersund — og hejst på plads med kran. Det der tog uger at bygge tog timer at samle. Præcisionen i elementproduktionen betød at delene passede milimeterpræcist på fundamentet der ventede.",
+          "Da elementerne var færdige og vejret vendte, kom blokvognen. Elementerne blev lastet og kørt til Sebbersund nær Aalborg — og hejst på plads med kran. Det der tog uger at bygge tog timer at samle. Præcisionen i elementproduktionen betød at delene passede milimeterpræcist på fundamentet der ventede.",
         ],
       },
       {

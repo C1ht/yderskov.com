@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const projectGalleries = [
   {
     eyebrow: "Projekt",
-    title: "Ombygning og\nmodernisering af 50er-villa, Brønderslev.",
+    title: "Ombygning og\nmodernisering af 50er-villa, Brønderslev nær Aalborg.",
     images: [
       { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-3.webp", alt: "Haveside med birketræ efter modernisering, Brønderslev — Yderskov Arkitekter" },
       { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-2.webp", alt: "Gårdside med skydedøre efter modernisering, Brønderslev — Yderskov Arkitekter" },
@@ -67,7 +67,7 @@ const projectGalleries = [
   },
   {
     eyebrow: "Projekt",
-    title: "Lille, gammelt parcelhus\nombygget til moderne bolig, Brønderslev.",
+    title: "Lille, gammelt parcelhus\nombygget til moderne bolig, Brønderslev nær Aalborg.",
     images: [
       { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-vejside.webp", alt: "Vejside efter ombygning i Brønderslev — Yderskov Arkitekter" },
       { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-indkørsel.webp", alt: "Indkørsel efter ombygning i Brønderslev — Yderskov Arkitekter" },
@@ -116,7 +116,7 @@ export default function TilbygningerPage() {
     <>
       <Nav />
       <Hero
-        slides={[{ src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-2.webp", alt: "Ombygning og modernisering af 50er-villa, Brønderslev — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-2.webp", alt: "Ombygning og modernisering af 50er-villa, Brønderslev nær Aalborg — Yderskov Arkitekter" }]}
         tag="Om- og tilbygninger"
         subtitle="Om- og tilbygninger"
         lines={[

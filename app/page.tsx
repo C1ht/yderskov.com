@@ -8,9 +8,9 @@ import CtaBand from "@/components/CtaBand";
 import { localBusinessSchema, projects, testimonials, processSteps, blogPosts } from "./home-data";
 
 export const metadata: Metadata = {
-  title: "Arkitekt til villa, sommerhus og tilbygning — Yderskov Arkitekter",
+  title: "Arkitekt Aalborg & Tegnestue Nordjylland — Yderskov Arkitekter",
   description:
-    "Arkitekttegnede villaer, sommerhuse og tilbygninger med fast pris og egne håndværkere. Gratis første møde. Se projekter og priser.",
+    "Erfaren arkitekt i Aalborg og professionel tegnestue i Nordjylland. Vi tegner og opfører unikke villaer, sommerhuse og tilbygninger til fast pris.",
   alternates: { canonical: "https://yderskov.dk/" },
 };
 
@@ -133,7 +133,7 @@ export default function HomePage() {
           <div className="text-2col">
             <div>
               <span className="eyebrow">Om tegnestuen</span>
-              <h1 className="sec-hed">Vi er arkitekter<br />med styr på processen.</h1>
+              <h1 className="sec-hed">Arkitekt i Aalborg &amp;<br />tegnestue i Nordjylland.</h1>
               <div className="about-tags" style={{ marginTop: "1.5rem" }}>
                 <Link href="/kontakt" className="tag tag-dark">Kontakt os →</Link>
                 <Link href="/priser" className="tag">Se priser</Link>
@@ -141,9 +141,9 @@ export default function HomePage() {
               </div>
             </div>
             <div>
-              <p className="body-intro">Arkitekttegnestuen Yderskov ApS er en tegnestue i Nordjylland med speciale i arkitekttegnede villaer, sommerhuse, tilbygninger og erhvervsprojekter.</p>
+              <p className="body-intro">Arkitekttegnestuen Yderskov ApS er en erfaren tegnestue i Nordjylland med speciale i arkitekttegnede villaer, sommerhuse og tilbygninger. Vi hører til blandt de foretrukne Aalborg arkitekter for private bygherrer.</p>
               <p className="body-p">Vi arbejder med en samlet proces fra idé til færdigt byggeri — med egne faste håndværkere og fokus på at holde styr på din økonomi undervejs.</p>
-              <p className="body-p">Tegnestuen blev grundlagt i 2009 og har siden arbejdet med projekter i hele Danmark, primært i Nordjylland og Aalborg-området.</p>
+              <p className="body-p">Tegnestuen blev grundlagt i 2009, og som din arkitekt i Aalborg og omegn har vi siden arbejdet med projekter i hele Danmark, primært i Nordjylland og Aalborg-området.</p>
               <p className="body-p">Hos os taler du altid direkte med arkitekten — ingen mellemled, fast pris.</p>
             </div>
           </div>

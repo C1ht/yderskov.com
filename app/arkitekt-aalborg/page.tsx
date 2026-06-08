@@ -7,9 +7,9 @@ import ContactForm from "@/components/ContactForm";
 import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
-  title: "Arkitekt Aalborg — arkitekttegnede villaer med fast pris — Yderskov",
+  title: "Arkitekt Aalborg & Tegnestue Nordjylland — Yderskov Arkitekter",
   description:
-    "Søger du en arkitekt i Aalborg eller Nordjylland? Yderskov Arkitekter tegner unikke huse med fast pris, egne faste håndværkere og én samlet proces.",
+    "Søger du en arkitekt i Aalborg eller en erfaren tegnestue i Nordjylland? Yderskov Arkitekter er blandt de førende Aalborg arkitekter med fast pris.",
   alternates: { canonical: "https://yderskov.dk/arkitekt-aalborg" },
 };
 
@@ -38,8 +38,8 @@ export default function ArkitektAalborgPage() {
       <Nav />
       <Hero
         slides={[{ src: "/images/Karetmagervej/Sæby-ny-villa-funkis-haveside.webp", alt: "Arkitekttegnet villa i Nordjylland — Yderskov Arkitekter" }]}
-        tag="Arkitekt Aalborg"
-        subtitle="Arkitekt i Aalborg"
+        tag="Arkitekt Aalborg &amp; Tegnestue Nordjylland"
+        subtitle="Arkitekt Aalborg &amp; Tegnestue Nordjylland"
         lines={[
           "Fra første idé til færdigt byggeri i Aalborg og hele Nordjylland.",
           "Vi tegner huse tilpasset det nordjyske landskab, jeres ønsker og jeres budget.",
@@ -54,17 +54,17 @@ export default function ArkitektAalborgPage() {
           <div className="text-2col">
             <div>
               <span className="eyebrow">Din lokale arkitekt</span>
-              <h1 className="sec-hed">Unik arkitektur.<br />Tryg byggeproces.</h1>
+              <h1 className="sec-hed">Arkitekt Aalborg &amp;<br />Tegnestue Nordjylland.</h1>
               <p style={{ fontSize: "1.1rem", fontWeight: 200, color: "var(--sub)", marginTop: "1rem", letterSpacing: "-0.01em", lineHeight: 1.6 }}>
-                — Arkitekttegnestuen Yderskov i Aalborg og Nordjylland
+                — Din tegnestue i Nordjylland og arkitekt i Aalborg
               </p>
             </div>
             <div>
               <p className="body-intro">
-                Går du med drømme om at bygge nyt eller lave en tilbygning i Aalborg, Nørresundby eller omegn? Hos Yderskov Arkitekter forener vi stærkt arkitektonisk design med fuldstændig økonomisk tryghed.
+                Går du med drømme om at bygge nyt eller lave en tilbygning, og søger du en kompetent arkitekt i Aalborg eller en tegnestue i Nordjylland? Yderskov Arkitekter er blandt de mest erfarne Aalborg arkitekter inden for private boligbyggerier.
               </p>
               <p className="body-p">
-                Mange frygter, at et arkitekttegnet hus bliver uforudsigeligt dyrt. Vi har løst dette ved at tilbyde en samlet proces: Vi tegner dit projekt, projekterer myndighedsgodkendelsen og bygger det med vores egne faste håndværkere. 
+                Mange frygter, at det at bruge arkitekter i Nordjylland til et nyt hus bliver uforudsigeligt dyrt. Hos Yderskov Arkitekter forener vi stærkt arkitektonisk design med fuldstændig økonomisk tryghed ved at tilbyde en fast pris. 
               </p>
               <p className="body-p">
                 Det giver dig én enkelt samarbejdspartner fra start til slut, fast pris på både tegnearbejde og byggeri, samt fuld kontrol over kvaliteten.
@@ -85,7 +85,7 @@ export default function ArkitektAalborgPage() {
           <div className="text-2col">
             <div>
               <span className="eyebrow">Lokalt fokus</span>
-              <h2 className="sec-hed">Vi kender<br />Aalborg.</h2>
+              <h2 className="sec-hed">Erfaren arkitekt<br />i Aalborg og omegn.</h2>
               <p className="body-p" style={{ marginTop: "1rem" }}>
                 Vi har gennemført en lang række projekter i Aalborg-området — herunder moderne funkisvillaer i Vestbjerg, arkitekttegnede villaer i Hjørring og eksklusive renoveringer. 
               </p>
