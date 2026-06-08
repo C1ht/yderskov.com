@@ -130,8 +130,33 @@ const faqItems = [
 ];
 
 export default function VillaerPage() {
+  const projectSchema = {
+    "@context": "https://schema.org",
+    "@graph": projectGalleries.map((p) => ({
+      "@type": "SingleFamilyResidence",
+      "name": p.title.replace(/\n/g, " "),
+      "description": p.description,
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": p.location,
+        "addressCountry": "DK",
+      },
+      "image": p.images.map((img) => `https://yderskov.com${img.src}`),
+      "architect": {
+        "@type": "LocalBusiness",
+        "name": "Yderskov Arkitekter",
+        "url": "https://yderskov.com/",
+      },
+      "yearBuilt": p.year ? parseInt(p.year) : undefined,
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(projectSchema) }}
+      />
       <Nav />
       <Hero
         slides={[{ src: "/images/Karetmagervej/Sæby-ny-villa-funkis-haveside.webp", alt: "Arkitekttegnet villa — Yderskov Arkitekter" }]}
