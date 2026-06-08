@@ -46,7 +46,7 @@ export default function InspirationPage() {
                 Vores inspirationsgalleri spænder bredt — lige fra moderne funkisvillaer med rene linjer og rå detaljer, over klassiske murstenshuse med hyggelige kroge, til sommerhuse i pagt med naturen, hvor træ og store glasflader dominerer. Alle projekter er skabt med udgangspunkt i bygherrens drømme og grundens unikke beliggenhed.
               </p>
               <p className="body-p">
-                Når vi holder vores første uforpligtende idémøde, tager vi udgangspunkt i dine egne referencer. Tag gerne billeder med fra vores portefølje eller andre steder, som taler til dig. Det hjælper os med at spore os ind på den helt rette arkitektoniske retning for dit kommende hjem.
+                Når vi holder vores første uforpligtende idémøde, tager vi udgangspunkt i dine egne referencer. Tag gerne billeder med fra vores portefølje eller andre steder, som taler til dig — ligesom parret, der henvendte sig med et postkort af et <Link href="/blog/villa-herresaede-noerholm-aalborg" className="text-link">engelsk herresæde</Link> og fik realiseret deres drømmehjem. Det hjælper os med at spore os ind på den helt rette arkitektoniske retning for dit kommende hjem.
               </p>
             </div>
           </div>
