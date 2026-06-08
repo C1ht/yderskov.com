@@ -56,8 +56,8 @@ export default function Hero({
         <div className="hero-main">
           <div className="hero-left">
             {/* LCP element — server-rendered, no JS dependency */}
-            <p className={`hero-left-super${tag ? " hero-tag" : ""}`}>{tag ?? title}</p>
-            <p className="hero-left-title">{subtitle}</p>
+            <p className="hero-left-super hero-tag">Arkitekt Yderskov</p>
+            <p className="hero-left-title">{subtitle === "Tanker & Streger" && tag !== "Hjem" ? tag : subtitle}</p>
             {lines.map((line, i) => (
               <p
                 key={i}
