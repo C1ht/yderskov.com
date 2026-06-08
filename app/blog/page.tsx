@@ -6,9 +6,9 @@ import Hero from "@/components/Hero";
 import BlogListing from "@/components/BlogListing";
 
 export const metadata: Metadata = {
-  title: "Blog — arkitektur, priser og proces — Yderskov Arkitekter",
+  title: "Inspiration, byggeguides og cases — Blog — Yderskov Arkitekter",
   description:
-    "Læs vores blog om arkitektur, priser og proces for arkitekttegnet boligbyggeri.",
+    "Læs virkelige cases fra vores tegnestue, og få gode råd om boligdesign, byggetilladelse, priser og processen for arkitekttegnede huse.",
   alternates: { canonical: "https://yderskov.com/blog" },
 };
 
