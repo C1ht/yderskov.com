@@ -51,7 +51,7 @@ export const posts: BlogPost[] = [
         heading: "Med udsigt over Limfjorden",
         paragraphs: [
           "Grunden ligger i Nørholm nær Aalborg, omgivet af natur og med en storslået panoramaudsigt over Limfjorden. Huset er placeret højt på terrænet, så udsigten kan nydes fuldt ud fra de store opholdsrum i stueetagen og de private værelser på førstesalen.",
-          "Ejendommen fungerer i dag som hesteejendom, og arkitekturen formår at binde de praktiske behov for udelivet sammen med en kompromisløs boligkvalitet.",
+          "Ejendommen fungerer i dag som hesteejendom, og bygherrens erhvervsvirksomhed drives ligeledes direkte fra den store, naturskønne grund. Arkitekturen formår dermed at binde både de erhvervsmæssige og de praktiske behov for udelivet sammen med en kompromisløs boligkvalitet.",
         ],
       },
       {
