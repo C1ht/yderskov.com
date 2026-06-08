@@ -9,7 +9,7 @@ import CtaBand from "@/components/CtaBand";
 export const metadata: Metadata = {
   title: "Om Yderskov Arkitekter — arkitekt med samlet proces",
   description:
-    "Lær om Arkitekttegnestuen Yderskov ApS — arkitekt med samlet proces, egne håndværkere og fast pris i Aalborg og Nordjylland.",
+    "Lær om Arkitekttegnestuen Yderskov ApS — arkitekt med samlet proces, egne håndværkere og fast pris i Aalborg, Nordjylland og på Sjælland.",
   alternates: { canonical: "https://yderskov.dk/om" },
 };
 
@@ -24,7 +24,7 @@ const miniFAQ = [
   },
   {
     q: "Hvilke geografiske områder dækker I?",
-    a: "Vi arbejder primært i Nordjylland og Aalborg-området, men tager gerne projekter i hele Danmark.",
+    a: "Vi er baseret i Nordjylland og tegner mange projekter i Aalborg og omegn, men dækker også projekter på Sjælland samt i resten af Danmark.",
   },
   {
     q: "Hvad er jeres erfaring?",
@@ -69,13 +69,13 @@ export default function OmPage() {
             </div>
             <div>
               <p className="body-intro">
-                Arkitekttegnestuen Yderskov ApS er en tegnestue i Nordjylland med speciale i arkitekttegnede villaer, sommerhuse, tilbygninger og erhvervsprojekter.
+                Arkitekttegnestuen Yderskov ApS er din lokale arkitekt i Aalborg, Nordjylland og på Sjælland. Vi har speciale i arkitekttegnede villaer, sommerhuse, tilbygninger og erhvervsprojekter.
               </p>
               <p className="body-p">
                 Vi arbejder med en samlet proces fra idé til færdigt byggeri — med egne faste håndværkere og fokus på at holde styr på din økonomi undervejs.
               </p>
               <p className="body-p">
-                Tegnestuen blev grundlagt i 2009 og har siden arbejdet med projekter i hele Danmark, primært i Nordjylland og Aalborg-området.
+                Tegnestuen blev grundlagt i 2009 og har siden tegnet og bygget projekter i hele Danmark — med særligt fokus på vores nærområde i Aalborg og Nordjylland, samt en voksende portefølje af spændende projekter på Sjælland.
               </p>
               <div className="about-tags">
                 <Link href="/kontakt" className="tag tag-dark">Kontakt os →</Link>
@@ -115,6 +115,8 @@ export default function OmPage() {
               </ul>
               <span className="info-box-lbl">Geografi</span>
               <ul>
+                <li>Aalborg &amp; Nordjylland</li>
+                <li>Sjælland &amp; København</li>
                 <li>Projekter i hele Danmark</li>
                 <li>Danserhøj 38, 9700 Brønderslev</li>
               </ul>

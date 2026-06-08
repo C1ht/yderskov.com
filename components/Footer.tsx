@@ -29,6 +29,7 @@ export default function Footer() {
             <li><Link href="/om">Om</Link></li>
             <li><Link href="/faq">FAQ</Link></li>
             <li><Link href="/kontakt">Kontakt</Link></li>
+            <li><Link href="/arkitekt-aalborg">Arkitekt Aalborg</Link></li>
           </ul>
         </div>
 
