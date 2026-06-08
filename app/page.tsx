@@ -10,7 +10,7 @@ import { localBusinessSchema, projects, testimonials, processSteps, blogPosts } 
 export const metadata: Metadata = {
   title: "Arkitekt Aalborg | Yderskov Tegnestue",
   description:
-    "Yderskov Tegnestue tilbyder professionel arkitektrådgivning i Aalborg, Nordjylland og på Sjælland. Kontakt os i dag.",
+    "Yderskov Tegnestue tilbyder professionel arkitektrådgivning i Aalborg, Nordjylland og på Sjælland. Få et gratis første møde – vi kommer ud til jer.",
   alternates: { canonical: "https://yderskov.com/" },
 };
 
