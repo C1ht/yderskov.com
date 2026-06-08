@@ -10,7 +10,7 @@ import CtaBand from "@/components/CtaBand";
 export const metadata: Metadata = {
   title: "Arkitekttegnet villa — pris og projekter — Yderskov Arkitekter",
   description:
-    "Arkitekttegnede villaer i Aalborg og Nordjylland. Se projekter, priser og proces for arkitekt nybyggeri. Gratis første møde.",
+    "Arkitekttegnede villaer i Aalborg og Nordjylland til gode priser. Se projekter, priser og proces for arkitekt nybyggeri. Gratis første møde.",
   alternates: { canonical: "https://yderskov.com/villaer" },
 };
 
