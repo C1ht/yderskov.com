@@ -89,8 +89,35 @@ const faqItems = [
 ];
 
 export default function SommerhusePage() {
+  const projectSchema = {
+    "@context": "https://schema.org",
+    "@graph": projectGalleries.map((p) => {
+      const location = p.title.split(",").pop()?.trim().replace(".", "").replace(/\n/g, " ") || "Danmark";
+      return {
+        "@type": "SingleFamilyResidence",
+        "name": p.title.replace(/\n/g, " "),
+        "description": `Arkitekttegnet sommerhus i ${location} tegnet af Yderskov Arkitekter.`,
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": location,
+          "addressCountry": "DK",
+        },
+        "image": p.images.map((img) => `https://yderskov.com${img.src}`),
+        "architect": {
+          "@type": "LocalBusiness",
+          "name": "Yderskov Arkitekter",
+          "url": "https://yderskov.com/",
+        },
+      };
+    }),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(projectSchema) }}
+      />
       <Nav />
       <Hero
         slides={[{ src: "/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" }]}
