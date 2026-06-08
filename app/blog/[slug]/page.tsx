@@ -61,8 +61,40 @@ export default async function BlogPostPage({
   const post = getPost(slug);
   if (!post) notFound();
 
+  const dateParts = post.date.split("/").map((s) => s.trim());
+  const dateISO = dateParts.length === 3 ? `${dateParts[2]}-${dateParts[1]}-${dateParts[0]}` : undefined;
+
+  const blogSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": post.title,
+    "description": post.description,
+    "datePublished": dateISO,
+    "author": {
+      "@type": "Organization",
+      "name": "Yderskov Arkitekter",
+      "url": "https://yderskov.com/",
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Yderskov Arkitekter",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://yderskov.com/favicon.svg",
+      },
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://yderskov.com/blog/${post.slug}`,
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
+      />
       <Nav />
 
       <article>
