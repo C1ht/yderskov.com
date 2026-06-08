@@ -8,9 +8,9 @@ import ImageGrid from "@/components/ImageGrid";
 import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
-  title: "Erhvervsbyggeri — arkitekt til kontor og butik — Yderskov Arkitekter",
+  title: "Erhvervsbyggeri — Arkitekttegnede kontorer & cases | Yderskov",
   description:
-    "Arkitekttegnet erhvervsbyggeri i Aalborg og Danmark. Kontorer, butikker, udlejningsboliger og ombygning. Gratis første møde.",
+    "Vi tegner erhvervsbyggeri, der matcher jeres behov — fra kontorer til udlejningsboliger og ombygninger. Få arkitektrådgivning til aftalt fast pris.",
   alternates: { canonical: "https://yderskov.com/erhverv" },
 };
 

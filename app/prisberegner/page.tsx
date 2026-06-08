@@ -8,9 +8,9 @@ import PrisCalculator from "@/components/PrisCalculator";
 import HeroForm from "@/components/HeroForm";
 
 export const metadata: Metadata = {
-  title: "Prisberegner tilbygning — vejledende prisskøn — Yderskov Arkitekter",
+  title: "Prisberegner til tilbygning — Beregn prisskøn | Yderskov",
   description:
-    "Få et vejledende prisskøn over din tilbygning baseret på materialevalg. Beregn byggeomkostninger for mur, tag, gulv og mere.",
+    "Prøv vores gratis prisberegner og få et lynhurtigt prisskøn på din tilbygning. Vælg tag, mur, gulv og beregn dine byggeomkostninger online med det samme!",
   alternates: { canonical: "https://yderskov.com/prisberegner" },
 };
 

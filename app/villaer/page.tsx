@@ -8,9 +8,9 @@ import ImageGrid from "@/components/ImageGrid";
 import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
-  title: "Arkitekttegnet villa — pris og projekter — Yderskov Arkitekter",
+  title: "Arkitekttegnet villa — Se priser & projekter | Yderskov",
   description:
-    "Arkitekttegnede villaer i Aalborg og Nordjylland til gode priser. Se projekter, priser og proces for arkitekt nybyggeri. Gratis første møde.",
+    "Drømmer du om en arkitekttegnet villa? Se projekter, priser og byggeproces hos Yderskov. Vi tilbyder fast pris, egne håndværkere & gratis første møde.",
   alternates: { canonical: "https://yderskov.com/villaer" },
 };
 

@@ -8,9 +8,9 @@ import CtaBand from "@/components/CtaBand";
 import { localBusinessSchema, projects, testimonials, processSteps, blogPosts } from "./home-data";
 
 export const metadata: Metadata = {
-  title: "Arkitekt Aalborg | Yderskov Tegnestue",
+  title: "Arkitekt Aalborg | Tegnestue i Nordjylland — Yderskov",
   description:
-    "Yderskov Tegnestue tilbyder professionel arkitektrådgivning i Aalborg, Nordjylland og på Sjælland. Få et gratis første møde – vi kommer ud til jer.",
+    "Søger du en arkitekt i Aalborg el. Nordjylland? Yderskov Tegnestue tegner dit drømmehus til fast pris. Få et gratis første møde — vi kommer ud til dig!",
   alternates: { canonical: "https://yderskov.com/" },
 };
 

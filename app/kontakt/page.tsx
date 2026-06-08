@@ -7,9 +7,9 @@ import ContactForm from "@/components/ContactForm";
 import InteractiveMap from "@/components/InteractiveMap";
 
 export const metadata: Metadata = {
-  title: "Kontakt Yderskov Arkitekter — ring eller skriv",
+  title: "Kontakt Yderskov Arkitekter — Ring eller book gratis møde",
   description:
-    "Kontakt Arkitekttegnestuen Yderskov ApS. Gratis og uforpligtende første møde. Ring 29 72 34 27 eller skriv til cy@yderskov.com.",
+    "Har du et byggeprojekt i tankerne? Kontakt Yderskov Arkitekter i dag. We tilbyder et gratis og uforpligtende idémøde direkte på din byggegrund.",
   alternates: { canonical: "https://yderskov.com/kontakt" },
 };
 

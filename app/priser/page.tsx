@@ -7,9 +7,9 @@ import ContactForm from "@/components/ContactForm";
 import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
-  title: "Priser — arkitekt fast pris — Yderskov Arkitekter",
+  title: "Hvad koster en arkitekt? Se vores faste priser | Yderskov",
   description:
-    "Se priser på arkitektydelser hos Yderskov Arkitekter. Fast pris på skitse, myndighedsprojekt, byggestyring og mere. Gratis første møde.",
+    "Hvad koster en arkitekt? Se vores gennemskuelige priser på skitseforslag, myndighedsprojekter og byggestyring. Få fast pris og et gratis første møde.",
   alternates: { canonical: "https://yderskov.com/priser" },
 };
 

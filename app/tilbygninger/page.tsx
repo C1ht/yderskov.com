@@ -8,9 +8,9 @@ import ImageGrid from "@/components/ImageGrid";
 import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
-  title: "Om- og tilbygning — arkitekt pris og projekter — Yderskov Arkitekter",
+  title: "Arkitekt til om- & tilbygning — Priser & cases | Yderskov",
   description:
-    "Arkitekttegnede tilbygninger og ombygninger i Aalborg og Danmark. Se projekter, priser og proces. Gratis første møde.",
+    "Skal du bygge til eller bygge om? Få tegnet din tilbygning af en arkitekt til fast pris. Se priser og eksempler på ombygning. Book et gratis møde!",
   alternates: { canonical: "https://yderskov.com/tilbygninger" },
 };
 

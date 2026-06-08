@@ -7,9 +7,9 @@ import ContactForm from "@/components/ContactForm";
 import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
-  title: "FAQ — spørgsmål og svar om arkitekt — Yderskov Arkitekter",
+  title: "Spørgsmål & svar om arkitekt, priser og byggeri | Yderskov",
   description:
-    "Svar på de mest stillede spørgsmål om arkitekt, byggeri, priser og proces hos Yderskov Arkitekter.",
+    "Få svar på dine spørgsmål om arkitektpriser, byggeproces, myndighedsprojekter og håndværkere. Læs vores FAQ og bliv klar til dit byggeprojekt.",
   alternates: { canonical: "https://yderskov.com/faq" },
 };
 

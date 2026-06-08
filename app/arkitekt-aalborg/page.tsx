@@ -7,9 +7,9 @@ import ContactForm from "@/components/ContactForm";
 import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
-  title: "Arkitekt Aalborg | Yderskov",
+  title: "Arkitekt Aalborg — Tegnestue med fast pris | Yderskov",
   description:
-    "Søger du en arkitekt i Aalborg eller Nordjylland? Yderskov Tegnestue tilbyder unikke huse med fast pris, egne håndværkere og et gratis første møde.",
+    "Vil du bygge i Aalborg? Få en arkitekttegnet villa til fast pris med egne håndværkere. Book et gratis første møde på din byggegrund — vi kommer til dig!",
   alternates: { canonical: "https://yderskov.com/arkitekt-aalborg" },
 };
 

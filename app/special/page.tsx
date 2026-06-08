@@ -8,9 +8,9 @@ import ImageGrid from "@/components/ImageGrid";
 import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
-  title: "Specialbyggeri — arkitekttegnet — Yderskov Arkitekter",
+  title: "Specialbyggeri & unik arkitektur | Yderskov Arkitekter",
   description:
-    "Specialbyggeri og unikke projekter tegnet af arkitekt. Wellness, carporte, udhuse, garager og meget mere. Gratis første møde.",
+    "Vi tegner specialbyggeri tilpasset dine drømme — fra garage og carport til anneks, wellness og B&B. Få et unikt arkitekttegnet projekt til fast pris.",
   alternates: { canonical: "https://yderskov.com/special" },
 };
 

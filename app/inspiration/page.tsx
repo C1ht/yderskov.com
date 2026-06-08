@@ -6,9 +6,9 @@ import CtaBand from "@/components/CtaBand";
 import InspirationGallery from "@/components/InspirationGallery";
 
 export const metadata: Metadata = {
-  title: "Inspiration — arkitekttegnede projekter — Yderskov Arkitekter",
+  title: "Inspiration til dit byggeri — Se udvalgte cases | Yderskov",
   description:
-    "Lad dig inspirere af vores projekter — villaer, sommerhuse, tilbygninger og specialbyggerier tegnet af Yderskov Arkitekter i Aalborg og hele Danmark.",
+    "Find inspiration til din nye villa, dit sommerhus eller din tilbygning. Se gallerier af færdige huse tegnet af Yderskov Arkitekter i hele landet.",
   alternates: { canonical: "https://yderskov.com/inspiration" },
 };
 
