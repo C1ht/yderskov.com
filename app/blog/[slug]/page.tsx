@@ -8,6 +8,7 @@ import { getPost, posts, type RelatedLink } from "../posts";
 
 const categoryLinks: Record<string, RelatedLink[]> = {
   villa: [
+    { label: "Læs om Yderskov som arkitekt i Aalborg", href: "/arkitekt-aalborg" },
     { label: "Se vores villaprojekter med billeder", href: "/villaer" },
     { label: "Se om- og tilbygninger med billeder", href: "/tilbygninger" },
   ],
@@ -16,14 +17,17 @@ const categoryLinks: Record<string, RelatedLink[]> = {
     { label: "Beregn prisen på dit sommerhus", href: "/prisberegner" },
   ],
   arkitekt: [
+    { label: "Læs om Yderskov som arkitekt i Aalborg", href: "/arkitekt-aalborg" },
     { label: "Beregn prisen på dit projekt", href: "/prisberegner" },
     { label: "Se vores priser", href: "/priser" },
   ],
   grund: [
+    { label: "Læs om Yderskov som arkitekt i Aalborg", href: "/arkitekt-aalborg" },
     { label: "Se vores villaprojekter med billeder", href: "/villaer" },
     { label: "Se vores sommerhusprojekter med billeder", href: "/sommerhuse" },
   ],
   boligdetalje: [
+    { label: "Læs om Yderskov som arkitekt i Aalborg", href: "/arkitekt-aalborg" },
     { label: "Se vores villaprojekter med billeder", href: "/villaer" },
     { label: "Se om- og tilbygninger med billeder", href: "/tilbygninger" },
   ],

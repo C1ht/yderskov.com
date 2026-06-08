@@ -135,7 +135,7 @@ export default function TilbygningerPage() {
             </div>
             <div>
               <p className="body-p">
-                Din bolig rummer sandsynligvis mere potentiale end du tror. Vi ser mulighederne og tegner en løsning der giver mere lys, plads og en bedre planløsning. Se også vores færdige <Link href="/villaer" className="text-link">villaer</Link> samt vores <Link href="/prisberegner" className="text-link">prisberegner</Link> for tilbygninger.
+                Din bolig rummer sandsynligvis mere potentiale end du tror. Vi ser mulighederne og tegner en løsning der giver mere lys, plads og en bedre planløsning. Søger du en <Link href="/arkitekt-aalborg" className="text-link">arkitekt i Aalborg</Link> til din ombygning, står vi klar. Se også vores færdige <Link href="/villaer" className="text-link">villaer</Link> samt vores <Link href="/prisberegner" className="text-link">prisberegner</Link>.
               </p>
               <p className="body-p">
                 Vi styrer hele projektet — fra tegning og byggetilladelse til den færdige tilbygning med egne håndværkere.

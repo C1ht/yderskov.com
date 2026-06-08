@@ -115,7 +115,7 @@ export default function SommerhusePage() {
                 Dit sommerhus skal passe til netop din grund — uanset om det er ved kysten, i skoven eller på et udsigtsareal. Vi tegner, projekterer og bygger med egne håndværkere.
               </p>
               <p className="body-p">
-                Se vores sommerhusprojekter og lad dig inspirere på <Link href="/inspiration" className="text-link">vores inspirationsside</Link>. Du kan også læse mere om <Link href="/priser" className="text-link">vores priser</Link> og faste aftaler. Gratis første møde på grunden.
+                Se vores sommerhusprojekter og lad dig inspirere på <Link href="/inspiration" className="text-link">vores inspirationsside</Link>. Som erfaren <Link href="/arkitekt-aalborg" className="text-link">arkitekt i Aalborg</Link> og resten af Jylland rådgiver vi gerne. Du kan også læse mere om <Link href="/priser" className="text-link">vores priser</Link> og faste aftaler. Gratis første møde på grunden.
               </p>
               <p className="body-p">
                 <Link href="#kontakt" className="text-link">→ Kom i gang</Link>

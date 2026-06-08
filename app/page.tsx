@@ -143,7 +143,7 @@ export default function HomePage() {
             <div>
               <p className="body-intro">Arkitekttegnestuen Yderskov ApS er en erfaren tegnestue i Nordjylland med speciale i arkitekttegnede villaer, sommerhuse og tilbygninger. Vi hører til blandt de foretrukne Aalborg arkitekter for private bygherrer.</p>
               <p className="body-p">Vi arbejder med en samlet proces fra idé til færdigt byggeri — med egne faste håndværkere og fokus på at holde styr på din økonomi undervejs.</p>
-              <p className="body-p">Tegnestuen blev grundlagt i 2009, og som din arkitekt i Aalborg og omegn har vi siden arbejdet med projekter i hele Danmark, primært i Nordjylland og Aalborg-området.</p>
+              <p className="body-p">Tegnestuen blev grundlagt i 2009, og som din <Link href="/arkitekt-aalborg" className="text-link">arkitekt i Aalborg</Link> og omegn har vi siden arbejdet med projekter i hele Danmark, primært i Nordjylland og Aalborg-området.</p>
               <p className="body-p">Hos os taler du altid direkte med arkitekten — ingen mellemled, fast pris.</p>
             </div>
           </div>

@@ -69,7 +69,7 @@ export default function OmPage() {
             </div>
             <div>
               <p className="body-intro">
-                Arkitekttegnestuen Yderskov ApS er din lokale arkitekt i Aalborg, Nordjylland og på Sjælland. Vi har speciale i arkitekttegnede villaer, sommerhuse, tilbygninger og erhvervsprojekter.
+                Arkitekttegnestuen Yderskov ApS er din lokale <Link href="/arkitekt-aalborg" className="text-link">arkitekt i Aalborg</Link>, Nordjylland og på Sjælland. Vi har speciale i arkitekttegnede villaer, sommerhuse, tilbygninger og erhvervsprojekter.
               </p>
               <p className="body-p">
                 Vi arbejder med en samlet proces fra idé til færdigt byggeri — med egne faste håndværkere og fokus på at holde styr på din økonomi undervejs.
