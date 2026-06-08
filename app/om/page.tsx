@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Arkitekt Nordjylland | Yderskov Tegnestue",
   description:
     "Yderskov er en anerkendt tegnestue i Nordjylland. Vi tilbyder arkitekttjenester i Aalborg, på Sjælland og i hele Danmark.",
-  alternates: { canonical: "https://yderskov.dk/om" },
+  alternates: { canonical: "https://yderskov.com/om" },
 };
 
 const miniFAQ = [

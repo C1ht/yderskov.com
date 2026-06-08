@@ -193,7 +193,7 @@ const html = `<!DOCTYPE html>
       <div class="cover-title">Villaer</div>
       <div class="cover-sub">Arkitekttegnede villaer i Danmark</div>
     </div>
-    <div class="cover-bottom"><div class="cover-site">yderskov.dk</div></div>
+    <div class="cover-bottom"><div class="cover-site">yderskov.com</div></div>
   </div>
 </div>
 
@@ -212,7 +212,7 @@ const html = `<!DOCTYPE html>
   </div>
   <div class="toc-footer">
     <img class="toc-footer-logo" src="${logoData}" />
-    <span class="toc-footer-text">Arkitekttegnestuen Yderskov ApS · yderskov.dk · cy@yderskov.com · 29 72 34 27</span>
+    <span class="toc-footer-text">Arkitekttegnestuen Yderskov ApS · yderskov.com · cy@yderskov.com · 29 72 34 27</span>
   </div>
 </div>
 
@@ -243,7 +243,7 @@ ${projects.map((p, i) => `
   <div class="back-info">
     <p>29 72 34 27</p>
     <p>cy@yderskov.com</p>
-    <p>yderskov.dk</p>
+    <p>yderskov.com</p>
     <p>Damsøvej 38, 9700 Brønderslev</p>
   </div>
   <div class="back-cvr">CVR: 39391813</div>

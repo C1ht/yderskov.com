@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Arkitekt Sjælland | Yderskov Tegnestue",
   description:
     "Yderskov Tegnestue påtager sig arkitektopgaver på Sjælland og i København. Vi er klar til at køre efter opgaverne – kontakt os i dag.",
-  alternates: { canonical: "https://yderskov.dk/arkitekt-sjaelland" },
+  alternates: { canonical: "https://yderskov.com/arkitekt-sjaelland" },
 };
 
 const sjaellandFAQ = [

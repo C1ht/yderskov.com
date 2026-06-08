@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Om- og tilbygning — arkitekt pris og projekter — Yderskov Arkitekter",
   description:
     "Arkitekttegnede tilbygninger og ombygninger i Aalborg og Danmark. Se projekter, priser og proces. Gratis første møde.",
-  alternates: { canonical: "https://yderskov.dk/tilbygninger" },
+  alternates: { canonical: "https://yderskov.com/tilbygninger" },
 };
 
 const projectGalleries = [

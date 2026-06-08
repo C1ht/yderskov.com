@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Erhvervsbyggeri — arkitekt til kontor og butik — Yderskov Arkitekter",
   description:
     "Arkitekttegnet erhvervsbyggeri i Aalborg og Danmark. Kontorer, butikker, fabrikker og produktionslokaler. Gratis første møde.",
-  alternates: { canonical: "https://yderskov.dk/erhverv" },
+  alternates: { canonical: "https://yderskov.com/erhverv" },
 };
 
 const projectGalleries = [

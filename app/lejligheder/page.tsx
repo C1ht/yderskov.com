@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Arkitekttegnet lejlighed — renovering — Yderskov Arkitekter",
   description:
     "Arkitekttegnet lejlighedsrenovering og ombygning. Vi tegner og projekterer dit lejlighedsprojekt. Gratis første møde.",
-  alternates: { canonical: "https://yderskov.dk/lejligheder" },
+  alternates: { canonical: "https://yderskov.com/lejligheder" },
 };
 
 const faqItems = [

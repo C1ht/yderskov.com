@@ -2,7 +2,7 @@ export const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   name: "Yderskov Arkitekter",
-  url: "https://yderskov.dk",
+  url: "https://yderskov.com",
   telephone: "+4529723427",
   email: "cy@yderskov.com",
   address: { "@type": "PostalAddress", addressCountry: "DK", addressRegion: "Nordjylland" },
@@ -10,7 +10,7 @@ export const localBusinessSchema = {
   description: "Arkitekttegnede villaer, sommerhuse og tilbygninger med fast pris og egne håndværkere. Gratis første møde.",
   priceRange: "$$",
   foundingDate: "2009",
-  sameAs: ["https://yderskov.dk"],
+  sameAs: ["https://yderskov.com"],
 };
 
 export const projects = [

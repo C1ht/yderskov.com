@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Inspiration — arkitekttegnede projekter — Yderskov Arkitekter",
   description:
     "Lad dig inspirere af vores projekter — villaer, sommerhuse, tilbygninger og specialbyggerier tegnet af Yderskov Arkitekter i Aalborg og hele Danmark.",
-  alternates: { canonical: "https://yderskov.dk/inspiration" },
+  alternates: { canonical: "https://yderskov.com/inspiration" },
 };
 
 export default function InspirationPage() {

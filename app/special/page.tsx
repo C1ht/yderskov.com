@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Specialbyggeri — arkitekttegnet — Yderskov Arkitekter",
   description:
     "Specialbyggeri og unikke projekter tegnet af arkitekt. Wellness, carporte, udhuse, garager og meget mere. Gratis første møde.",
-  alternates: { canonical: "https://yderskov.dk/special" },
+  alternates: { canonical: "https://yderskov.com/special" },
 };
 
 

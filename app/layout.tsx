@@ -17,9 +17,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "da_DK",
-    url: "https://yderskov.dk/",
+    url: "https://yderskov.com/",
     siteName: "Yderskov Arkitekter",
-    images: [{ url: "https://yderskov.dk/images/topbanner-new.webp" }],
+    images: [{ url: "https://yderskov.com/images/topbanner-new.webp" }],
   },
 };
 

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "FAQ — spørgsmål og svar om arkitekt — Yderskov Arkitekter",
   description:
     "Svar på de mest stillede spørgsmål om arkitekt, byggeri, priser og proces hos Yderskov Arkitekter.",
-  alternates: { canonical: "https://yderskov.dk/faq" },
+  alternates: { canonical: "https://yderskov.com/faq" },
 };
 
 const sections = [

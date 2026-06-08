@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Kontakt Yderskov Arkitekter — ring eller skriv",
   description:
     "Kontakt Arkitekttegnestuen Yderskov ApS. Gratis og uforpligtende første møde. Ring 29 72 34 27 eller skriv til cy@yderskov.com.",
-  alternates: { canonical: "https://yderskov.dk/kontakt" },
+  alternates: { canonical: "https://yderskov.com/kontakt" },
 };
 
 export default function KontaktPage() {

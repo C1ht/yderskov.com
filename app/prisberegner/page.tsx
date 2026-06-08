@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Prisberegner tilbygning — vejledende prisskøn — Yderskov Arkitekter",
   description:
     "Få et vejledende prisskøn over din tilbygning baseret på materialevalg. Beregn byggeomkostninger for mur, tag, gulv og mere.",
-  alternates: { canonical: "https://yderskov.dk/prisberegner" },
+  alternates: { canonical: "https://yderskov.com/prisberegner" },
 };
 
 

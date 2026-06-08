@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Priser — arkitekt fast pris — Yderskov Arkitekter",
   description:
     "Se priser på arkitektydelser hos Yderskov Arkitekter. Fast pris på skitse, myndighedsprojekt, byggestyring og mere. Gratis første møde.",
-  alternates: { canonical: "https://yderskov.dk/priser" },
+  alternates: { canonical: "https://yderskov.com/priser" },
 };
 
 const byggeriPrices = [

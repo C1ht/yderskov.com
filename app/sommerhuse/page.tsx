@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Arkitekttegnet sommerhus — pris og projekter — Yderskov Arkitekter",
   description:
     "Arkitekttegnede sommerhuse i Danmark. Se projekter, priser og proces. Vi tegner dit sommerhus fra bunden — til din grund og din udsigt. Gratis første møde.",
-  alternates: { canonical: "https://yderskov.dk/sommerhuse" },
+  alternates: { canonical: "https://yderskov.com/sommerhuse" },
 };
 
 const projectGalleries = [

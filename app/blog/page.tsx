@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Blog — arkitektur, priser og proces — Yderskov Arkitekter",
   description:
     "Læs vores blog om arkitektur, priser og proces for arkitekttegnet boligbyggeri.",
-  alternates: { canonical: "https://yderskov.dk/blog" },
+  alternates: { canonical: "https://yderskov.com/blog" },
 };
 
 type Post = {

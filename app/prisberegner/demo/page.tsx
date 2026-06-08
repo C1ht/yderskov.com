@@ -5,7 +5,7 @@ import PrisResultDemo from "@/components/PrisResultDemo";
 
 export const metadata = {
   robots: "noindex",
-  alternates: { canonical: "https://yderskov.dk/prisberegner/demo" },
+  alternates: { canonical: "https://yderskov.com/prisberegner/demo" },
 };
 
 export default function PrisberegnDemoPage() {

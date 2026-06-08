@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Arkitekt Aalborg | Yderskov",
   description:
     "Søger du en arkitekt i Aalborg eller Nordjylland? Yderskov Tegnestue tilbyder unikke huse med fast pris, egne faste håndværkere og én samlet proces.",
-  alternates: { canonical: "https://yderskov.dk/arkitekt-aalborg" },
+  alternates: { canonical: "https://yderskov.com/arkitekt-aalborg" },
 };
 
 const aalborgFAQ = [
