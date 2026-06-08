@@ -125,7 +125,10 @@ export default function TilbygningerPage() {
           "addressLocality": location,
           "addressCountry": "DK",
         },
-        "image": p.images.map((img) => `https://yderskov.com${img.src}`),
+        "image": [
+          ...p.images.map((img) => `https://yderskov.com${img.src}`),
+          ...('beforeImages' in p && Array.isArray(p.beforeImages) ? p.beforeImages.map((img) => `https://yderskov.com${img.src}`) : [])
+        ],
         "architect": {
           "@type": "LocalBusiness",
           "name": "Yderskov Arkitekter",

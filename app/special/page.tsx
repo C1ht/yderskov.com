@@ -16,8 +16,38 @@ export const metadata: Metadata = {
 
 
 export default function SpecialPage() {
+  const projectSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SingleFamilyResidence",
+        "name": "Bed & Breakfast, Aalborg",
+        "description": "Arkitekttegnet Bed & Breakfast i Aalborg tegnet af Yderskov Arkitekter.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Aalborg",
+          "addressCountry": "DK",
+        },
+        "image": [
+          "https://yderskov.com/images/Bed and breakfast/Aalborg-bed-and-breakfast.webp",
+          "https://yderskov.com/images/Bed and breakfast/Aalborg-bed-and-breakfast-køkken.webp",
+          "https://yderskov.com/images/Bed and breakfast/Aalborg-bed-and-breakfast-spiseområde.webp",
+        ],
+        "architect": {
+          "@type": "LocalBusiness",
+          "name": "Yderskov Arkitekter",
+          "url": "https://yderskov.com/",
+        },
+      },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(projectSchema) }}
+      />
       <Nav />
       <Hero
         slides={[{ src: "/images/Bed and breakfast/Aalborg-bed-and-breakfast.webp", alt: "Bed and breakfast, Aalborg — Yderskov Arkitekter" }]}

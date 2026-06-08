@@ -71,8 +71,40 @@ const faqItems = [
 ];
 
 export default function ErhvervPage() {
+  const projectSchema = {
+    "@context": "https://schema.org",
+    "@graph": projectGalleries.map((p) => {
+      const location = p.title.split(",").pop()?.trim().replace(".", "").replace(/\n/g, " ") || "Danmark";
+      const isApartment = p.title.toLowerCase().includes("lejlighed") || p.title.toLowerCase().includes("bolig");
+      const images = [
+        ...p.images.map((img) => `https://yderskov.com${img.src}`),
+        ...('beforeImages' in p && Array.isArray(p.beforeImages) ? p.beforeImages.map((img) => `https://yderskov.com${img.src}`) : [])
+      ];
+      return {
+        "@type": isApartment ? "ApartmentComplex" : "CommercialProperty",
+        "name": p.title.replace(/\n/g, " "),
+        "description": `Arkitekttegnet erhvervs- eller boligbyggeri i ${location} udført af Yderskov Arkitekter.`,
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": location,
+          "addressCountry": "DK",
+        },
+        "image": images,
+        "architect": {
+          "@type": "LocalBusiness",
+          "name": "Yderskov Arkitekter",
+          "url": "https://yderskov.com/",
+        },
+      };
+    }),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(projectSchema) }}
+      />
       <Nav />
       <Hero
         slides={[{ src: "/images/Hals Rækkehuse/Hals-Aalborgvej40-udlejning-.webp", alt: "Udlejningsboliger i Hals — Yderskov Arkitekter" }]}

@@ -132,23 +132,33 @@ const faqItems = [
 export default function VillaerPage() {
   const projectSchema = {
     "@context": "https://schema.org",
-    "@graph": projectGalleries.map((p) => ({
-      "@type": "SingleFamilyResidence",
-      "name": p.title.replace(/\n/g, " "),
-      "description": p.description,
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": p.location,
-        "addressCountry": "DK",
-      },
-      "image": p.images.map((img) => `https://yderskov.com${img.src}`),
-      "architect": {
-        "@type": "LocalBusiness",
-        "name": "Yderskov Arkitekter",
-        "url": "https://yderskov.com/",
-      },
-      "yearBuilt": p.year ? parseInt(p.year) : undefined,
-    })),
+    "@graph": projectGalleries.map((p) => {
+      const floorSizeMatch = p.size.match(/(\d+)\s*m²\s*bolig/);
+      const floorSize = floorSizeMatch ? parseInt(floorSizeMatch[1]) : undefined;
+      const locality = p.location.split(",")[0].trim();
+      return {
+        "@type": "SingleFamilyResidence",
+        "name": p.title.replace(/\n/g, " "),
+        "description": p.description,
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": locality,
+          "addressCountry": "DK",
+        },
+        "image": p.images.map((img) => `https://yderskov.com${img.src}`),
+        "architect": {
+          "@type": "LocalBusiness",
+          "name": "Yderskov Arkitekter",
+          "url": "https://yderskov.com/",
+        },
+        "yearBuilt": p.year ? parseInt(p.year) : undefined,
+        "floorSize": floorSize ? {
+          "@type": "QuantitativeValue",
+          "value": floorSize,
+          "unitText": "m²",
+        } : undefined,
+      };
+    }),
   };
 
   return (

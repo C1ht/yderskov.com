@@ -34,8 +34,93 @@ const faqItems = [
 ];
 
 export default function LejlighederPage() {
+  const projectSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Apartment",
+        "name": "Lejlighedsrenovering I, Ågade, Aalborg",
+        "description": "Arkitekttegnet lejlighedsrenovering og ombygning i Ågade, Aalborg udført af Yderskov Arkitekter.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Aalborg",
+          "addressCountry": "DK",
+        },
+        "image": [
+          "https://yderskov.com/images/Ågade 25/Aalborg-Ågade-renovering-plantegning.webp",
+          "https://yderskov.com/images/Ågade 25/Aalborg-Ågade-renovering-bad.webp",
+          "https://yderskov.com/images/Ågade 25/Aalborg-Ågade-renovering-køkken.webp",
+          "https://yderskov.com/images/Ågade 25/Aalborg-Ågade-renovering-vinduer.webp",
+          "https://yderskov.com/images/Ågade 25/Aalborg-Ågade-renovering-soveværelse.webp",
+          "https://yderskov.com/images/Ågade 25/Aalborg-Ågade-renovering-køkkenbordplads.webp",
+          "https://yderskov.com/images/Ågade 25/Aalborg-Ågade-renovering-gang.webp",
+          "https://yderskov.com/images/Ågade 25/Aalborg-Ågade-renovering-køkken-indpakket.webp",
+          "https://yderskov.com/images/Ågade 25/Aalborg-Ågade-renovering-køkken-undervejs.webp",
+          "https://yderskov.com/images/Ågade 25/Aalborg-Ågade-renovering-niche-amerikanerkøleskab.webp",
+        ],
+        "architect": {
+          "@type": "LocalBusiness",
+          "name": "Yderskov Arkitekter",
+          "url": "https://yderskov.com/",
+        },
+      },
+      {
+        "@type": "Apartment",
+        "name": "Lejlighedsrenovering III (1. th), Reberbansgade, Aalborg",
+        "description": "Arkitekttegnet lejlighedsrenovering af 1. th i Reberbansgade, Aalborg udført af Yderskov Arkitekter.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Aalborg",
+          "addressCountry": "DK",
+        },
+        "image": [
+          "https://yderskov.com/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-køkken.webp",
+          "https://yderskov.com/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-opvaskemaskine.webp",
+          "https://yderskov.com/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-soveværelse.webp",
+          "https://yderskov.com/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-stur.webp",
+          "https://yderskov.com/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-stue-soveværelseskik.webp",
+          "https://yderskov.com/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-soveværelse-stuekik.webp",
+          "https://yderskov.com/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-køkken-kogesektion.webp",
+          "https://yderskov.com/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-køkkengulv.webp",
+          "https://yderskov.com/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-stuegulv.webp",
+          "https://yderskov.com/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-badmiljø.webp",
+          "https://yderskov.com/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-toilet.webp",
+        ],
+        "architect": {
+          "@type": "LocalBusiness",
+          "name": "Yderskov Arkitekter",
+          "url": "https://yderskov.com/",
+        },
+      },
+      {
+        "@type": "Apartment",
+        "name": "Lejlighedsrenovering III (1. tv), Reberbansgade, Aalborg",
+        "description": "Arkitekttegnet lejlighedsrenovering af 1. tv i Reberbansgade, Aalborg udført af Yderskov Arkitekter.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Aalborg",
+          "addressCountry": "DK",
+        },
+        "image": [
+          "https://yderskov.com/images/Reberbansgade/Aalborg-reberbansgade-renovering-1tv-køkken-.webp",
+          "https://yderskov.com/images/Reberbansgade/Aalborg-reberbansgade-renovering-1tv-køkkenhylder.webp",
+          "https://yderskov.com/images/Reberbansgade/Aalborg-reberbansgade-renovering-1tv-toilet.webp",
+        ],
+        "architect": {
+          "@type": "LocalBusiness",
+          "name": "Yderskov Arkitekter",
+          "url": "https://yderskov.com/",
+        },
+      },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(projectSchema) }}
+      />
       <Nav />
       <Hero
         slides={[{ src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkken.webp", alt: "Lejlighedsrenovering, Ågade, Aalborg — Yderskov Arkitekter", style: { transform: "rotate(180deg)" } }]}
