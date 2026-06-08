@@ -10,7 +10,7 @@ import CtaBand from "@/components/CtaBand";
 export const metadata: Metadata = {
   title: "Erhvervsbyggeri — arkitekt til kontor og butik — Yderskov Arkitekter",
   description:
-    "Arkitekttegnet erhvervsbyggeri i Aalborg og Danmark. Kontorer, butikker, fabrikker og produktionslokaler. Gratis første møde.",
+    "Arkitekttegnet erhvervsbyggeri i Aalborg og Danmark. Kontorer, butikker, udlejningsboliger og ombygning. Gratis første møde.",
   alternates: { canonical: "https://yderskov.com/erhverv" },
 };
 
