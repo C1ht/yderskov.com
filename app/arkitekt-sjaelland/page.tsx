@@ -9,7 +9,7 @@ import CtaBand from "@/components/CtaBand";
 export const metadata: Metadata = {
   title: "Arkitekt Sjælland | Yderskov Tegnestue",
   description:
-    "Yderskov Tegnestue påtager sig arkitektopgaver på Sjælland og i København. Vi er klar til at køre efter opgaverne – kontakt os i dag.",
+    "Søger du en arkitekt på Sjælland eller i København? Yderskov tilbyder unik arkitektur med jysk grundighed, fast pris og et gratis første møde.",
   alternates: { canonical: "https://yderskov.com/arkitekt-sjaelland" },
 };
 
