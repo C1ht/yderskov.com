@@ -111,6 +111,14 @@ export default function PriserPage() {
               </p>
               <div className="about-tags" style={{ marginTop: "1.5rem" }}>
                 <Link href="/kontakt" className="tag tag-dark">Book gratis møde →</Link>
+                <a
+                  href="/katalog-villaer.pdf"
+                  download="Yderskov-Arkitekter-Villa-katalog.pdf"
+                  className="tag"
+                  style={{ display: "inline-block", textDecoration: "none" }}
+                >
+                  Hent inspirationskatalog (PDF)
+                </a>
                 <Link href="/faq" className="tag">Se FAQ</Link>
               </div>
             </div>

@@ -112,7 +112,7 @@ for (const p of projects) {
   console.log(`  processed project ${p.num}: ${p.title}`);
 }
 
-const tocStartPage = 3;
+const tocStartPage = 4;
 
 const html = `<!DOCTYPE html>
 <html lang="da">
@@ -155,6 +155,24 @@ const html = `<!DOCTYPE html>
   .toc-footer { margin-top:auto; padding-top:8mm; border-top:0.3pt solid #ececec; display:flex; align-items:center; gap:4mm; }
   .toc-footer-logo { height:6mm; opacity:0.3; }
   .toc-footer-text { font-size:7.5pt; color:#bbb; font-weight:300; }
+
+  /* PROCESS PAGE */
+  .proc-page { padding:20mm 18mm; display:flex; flex-direction:column; }
+  .proc-eyebrow { font-size:7pt; font-weight:500; letter-spacing:0.2em; color:#999; text-transform:uppercase; margin-bottom:4mm; }
+  .proc-heading { font-size:28pt; font-weight:500; letter-spacing:-0.02em; color:#111; margin-bottom:10mm; }
+  .proc-timeline { display:flex; flex-direction:column; gap:4.5mm; flex:1; }
+  .proc-step { display:flex; gap:6mm; align-items:flex-start; }
+  .proc-step-num-box {
+    display:flex; align-items:center; justify-content:center;
+    width:9mm; height:9mm; border-radius:50%; background:#161616; color:#fff;
+    font-size:9pt; font-weight:500; flex-shrink:0;
+  }
+  .proc-step-content { flex:1; padding-top:1.5mm; }
+  .proc-step-title { font-size:11pt; font-weight:500; color:#111; margin-bottom:1mm; }
+  .proc-step-desc { font-size:8.5pt; font-weight:300; color:#555; line-height:1.6; }
+  .proc-footer { margin-top:auto; padding-top:6mm; border-top:0.3pt solid #ececec; display:flex; align-items:center; gap:4mm; }
+  .proc-footer-logo { height:6mm; opacity:0.3; }
+  .proc-footer-text { font-size:7.5pt; color:#bbb; font-weight:300; }
 
   /* PROJECT */
   .proj-page { display:flex; flex-direction:column; }
@@ -202,6 +220,12 @@ const html = `<!DOCTYPE html>
   <div class="toc-eyebrow">Katalog — villaer</div>
   <div class="toc-heading">Indholdsfortegnelse</div>
   <div class="toc-list">
+    <div class="toc-item">
+      <span class="toc-num">00</span>
+      <span class="toc-name">Processen fra A til Z</span>
+      <span class="toc-loc">Byggeforløbet</span>
+      <span class="toc-pg">3</span>
+    </div>
     ${projects.map((p, i) => `
     <div class="toc-item">
       <span class="toc-num">0${p.num}</span>
@@ -213,6 +237,60 @@ const html = `<!DOCTYPE html>
   <div class="toc-footer">
     <img class="toc-footer-logo" src="${logoData}" />
     <span class="toc-footer-text">Arkitekttegnestuen Yderskov ApS · yderskov.com · cy@yderskov.com · 29 72 34 27</span>
+  </div>
+</div>
+
+<!-- PROCESS -->
+<div class="page proc-page">
+  <div class="proc-eyebrow">Din proces · yderskov.com</div>
+  <div class="proc-heading">Fra første møde til indflytning</div>
+  <div class="proc-timeline">
+    <div class="proc-step">
+      <div class="proc-step-num-box">01</div>
+      <div class="proc-step-content">
+        <h3 class="proc-step-title">Gratis idémøde på grunden</h3>
+        <p class="proc-step-desc">Vi mødes direkte på jeres byggegrund til en uforpligtende snak om jeres drømme, behov og budget. Vi vurderer her grundens potentiale, dagslysforhold og lokalplanens muligheder.</p>
+      </div>
+    </div>
+    <div class="proc-step">
+      <div class="proc-step-num-box">02</div>
+      <div class="proc-step-content">
+        <h3 class="proc-step-title">Skitseforslag &amp; 3D-visualisering</h3>
+        <p class="proc-step-desc">Vi udarbejder de første skitser med planløsninger, facader og situationsplan. I modtager en fotorealistisk 3D-model af huset, samt et realistisk prisoverslag på byggeriet.</p>
+      </div>
+    </div>
+    <div class="proc-step">
+      <div class="proc-step-num-box">03</div>
+      <div class="proc-step-content">
+        <h3 class="proc-step-title">Endeligt myndighedsprojekt</h3>
+        <p class="proc-step-desc">Når skitserne er godkendt af jer, udarbejder vi det fulde myndighedsprojekt. Dette indeholder alle nødvendige tekniske tegninger, snit og beregninger til ansøgningen.</p>
+      </div>
+    </div>
+    <div class="proc-step">
+      <div class="proc-step-num-box">04</div>
+      <div class="proc-step-content">
+        <h3 class="proc-step-title">Byggetilladelse &amp; Fast bindende pris</h3>
+        <p class="proc-step-desc">Vi styrer hele kommunens byggesagsbehandling til tilladelsen er i hus. Her underskriver vi en fast, bindende kontraktpris på hele byggeriet – så I slipper for uforudsete udgifter.</p>
+      </div>
+    </div>
+    <div class="proc-step">
+      <div class="proc-step-num-box">05</div>
+      <div class="proc-step-content">
+        <h3 class="proc-step-title">Byggefase med egne håndværkere</h3>
+        <p class="proc-step-desc">Vi tager det fulde totalentrepriseansvar. Vores egne faste murer- og tømrerhold opfører huset. Vi koordinerer og kvalitetssikrer hele forløbet fra start til aflevering.</p>
+      </div>
+    </div>
+    <div class="proc-step">
+      <div class="proc-step-num-box">06</div>
+      <div class="proc-step-content">
+        <h3 class="proc-step-title">Nøglefærdig aflevering</h3>
+        <p class="proc-step-desc">Efter endt byggeri foretager vi en grundig fælles gennemgang af huset. I får overdraget nøglerne til et rengjort, fejlfrit og indflytningsklart drømmehjem.</p>
+      </div>
+    </div>
+  </div>
+  <div class="proc-footer">
+    <img class="proc-footer-logo" src="${logoData}" />
+    <span class="proc-footer-text">Arkitekttegnestuen Yderskov ApS · yderskov.com · cy@yderskov.com · 29 72 34 27</span>
   </div>
 </div>
 

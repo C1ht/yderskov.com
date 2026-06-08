@@ -30,14 +30,12 @@ export const testimonials = [
 ];
 
 export const processSteps = [
-  { num: "01", title: "Gratis første møde",          desc: "Vi kommer ud til dig — gratis og uforpligtende. Vi lytter til dine ønsker og vurderer mulighederne på din grund." },
-  { num: "02", title: "Skitseforslag",               desc: "Vi udarbejder et skitseforslag med planløsning, facader og et samlet indtryk af projektet." },
-  { num: "03", title: "Myndighedsprojekt",           desc: "Vi tegner og beregner projektet til brug for ansøgning om byggetilladelse." },
-  { num: "04", title: "Byggetilladelse",             desc: "Vi sender ansøgningen til kommunen og følger op indtil tilladelsen er i hus." },
-  { num: "05", title: "Prisindhentning",             desc: "Vi indhenter tilbud fra håndværkere og forhandler den bedste pris til dig." },
-  { num: "06", title: "Byggefase",                   desc: "Vi styrer byggeriet og koordinerer håndværkerne, så du slipper for bekymringer." },
-  { num: "07", title: "Aflevering til bygherre",     desc: "Vi gennemgår byggeriet med dig og sikrer at alt er udført korrekt og som aftalt." },
-  { num: "08", title: "Færdigmelding hos kommunen",  desc: "Vi sørger for færdigmelding hos kommunen, som udsteder ibrugtagningstilladelse." },
+  { num: "01", title: "Gratis idémøde på grunden", desc: "Vi mødes direkte på din byggegrund til et gratis, uforpligtende møde. Vi drøfter dine drømme og behov, og vurderer grundens muligheder." },
+  { num: "02", title: "Skitseforslag & 3D", desc: "Vi udarbejder de første skitser med planløsninger og situationsplan. I får en 3D-visualisering af huset og et realistisk prisoverslag." },
+  { num: "03", title: "Endeligt myndighedsprojekt", desc: "Når skitserne er godkendt, tegner og projekterer vi det fulde myndighedsprojekt med alle tekniske tegninger og snit." },
+  { num: "04", title: "Byggetilladelse & Fast pris", desc: "Vi håndterer hele ansøgningen hos kommunen. Inden vi går i jorden, underskriver vi en fast, bindende kontraktpris på hele byggeriet." },
+  { num: "05", title: "Byggefase med egne håndværkere", desc: "Vi tager det fulde totalentrepriseansvar. Vores egne faste murer- og tømrerhold opfører huset under tæt tilsyn fra tegnestuen." },
+  { num: "06", title: "Nøglefærdig aflevering", desc: "Efter en grundig fælles gennemgang afleverer vi nøglerne til et komplet rengjort, fejlfrit og indflytningsklart drømmehjem." },
 ];
 
 export const blogPosts = [

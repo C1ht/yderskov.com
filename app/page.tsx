@@ -185,6 +185,16 @@ export default function HomePage() {
               </div>
             ))}
           </div>
+          <div style={{ marginTop: "3rem", textAlign: "center" }}>
+            <a
+              href="/katalog-villaer.pdf"
+              download="Yderskov-Arkitekter-Villa-katalog.pdf"
+              className="tag tag-dark"
+              style={{ padding: "0.85rem 2.2rem", fontSize: "0.875rem", letterSpacing: "0.05em", display: "inline-block", textDecoration: "none" }}
+            >
+              Download vores trykte inspirationskatalog (PDF) →
+            </a>
+          </div>
         </div>
       </section>
 
