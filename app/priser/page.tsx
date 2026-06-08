@@ -37,34 +37,51 @@ const arkitektYdelser = [
 
 const faqItems = [
   {
-    q: "Hvad er en fast pris?",
-    a: "En fast pris betyder at du kender arkitektens honorar fra første dag. Ingen overraskelser undervejs.",
+    q: "Hvad koster en arkitekttegnet villa pr. m²?",
+    a: "En ny arkitekttegnet villa opført med vores egne faste håndværkere koster typisk fra 14.000 kr. pr. m² som et fuldstændig nøglefærdigt og indflytningsklart byggeri. Denne m²-pris inkluderer alle materialer, løn og komplet byggestyring.",
   },
   {
-    q: "Er det første møde gratis?",
-    a: "Ja — det første møde er altid gratis og uforpligtende. Vi kommer ud til dig.",
+    q: "Hvad koster et arkitekttegnet sommerhus pr. m²?",
+    a: "Et arkitekttegnet sommerhus koster typisk fra 12.000 kr. pr. m² inkl. moms, materialer og håndværkere. Prisen pr. m² afhænger blandt andet af de valgte vinduespartier, tagform samt jordbunden.",
   },
   {
-    q: "Hvad er inkluderet i byggeprisen pr. m²?",
-    a: "Byggeprisen pr. m² inkluderer alle håndværkerydelser og materialer. Arkitekthonoraret kommer oveni.",
+    q: "Hvad koster en tilbygning pr. m²?",
+    a: "En tilbygning til et eksisterende hus koster typisk fra 14.000 kr. pr. m² inkl. moms, materialer og håndværkere. Prisen pr. m² afhænger især af tagløsningen (f.eks. fladt tag eller sadeltag) og tilslutningsarbejdet.",
   },
   {
-    q: "Kan I give et samlet tilbud?",
-    a: "Ja — vi giver gerne et samlet tilbud der dækker både arkitekthonorar og håndværkerudgifter.",
+    q: "Hvad koster en ombygning eller renovering af hus/lejlighed?",
+    a: "En indvendig ombygning og totalrenovering koster typisk fra 16.000 kr. pr. m². Arealer som køkken og badeværelse (vådrum) er væsentligt dyrere end almindelige stuer og soveværelser.",
   },
   {
-    q: "Hvad er forskellen på skitse og myndighedsprojekt?",
-    a: "En skitse viser designet og mulighederne. Et myndighedsprojekt er de tekniske tegninger der bruges til at søge byggetilladelse.",
+    q: "Hvad koster det at hyre en arkitekt?",
+    a: "Vi tilbyder faste, gennemskuelige priser på vores arkitektydelser. Et komplet skitseforslag koster fra 12.500 kr. inkl. moms, og et færdigt myndighedsprojekt til byggetilladelse koster fra 18.750 kr. inkl. moms.",
   },
   {
-    q: "Hvornår betaler jeg?",
-    a: "Vi fakturerer løbende efter aftalte milepæle. Ingen stor engangsudgift fra starten.",
+    q: "Er det første møde med arkitekten gratis?",
+    a: "Ja, det første idémøde er altid 100% gratis og uforpligtende hos Yderskov Arkitekter. We kører gerne ud og mødes direkte på din byggegrund eller adresse for at drøfte dit projekt.",
   },
 ];
 
 export default function PriserPage() {
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqItems.map((item) => ({
+      "@type": "Question",
+      "name": item.q,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.a,
+      },
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <Nav />
       <Hero
         slides={[{ src: "/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-terrasse.webp", alt: "Arkitekttegnet sommerhus i Løkken — Yderskov Arkitekter" }]}
