@@ -31,7 +31,14 @@ const navItems: NavItem[] = [
   },
   { href: "/blog", label: "Blog" },
   { href: "/inspiration", label: "Inspiration" },
-  { href: "/om", label: "Om os" },
+  {
+    label: "Om os",
+    children: [
+      { href: "/om", label: "Om tegnestuen" },
+      { href: "/arkitekt-aalborg", label: "Arkitekt Aalborg" },
+      { href: "/arkitekt-sjaelland", label: "Arkitekt Sjælland" },
+    ],
+  },
   { href: "/faq", label: "FAQ" },
 ];
 
