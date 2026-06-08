@@ -8,9 +8,9 @@ import CtaBand from "@/components/CtaBand";
 import { localBusinessSchema, projects, testimonials, processSteps, blogPosts } from "./home-data";
 
 export const metadata: Metadata = {
-  title: "Arkitekt Aalborg & Tegnestue Nordjylland — Yderskov Arkitekter",
+  title: "Arkitekt Aalborg | Yderskov Tegnestue",
   description:
-    "Erfaren arkitekt i Aalborg og professionel tegnestue i Nordjylland. Vi tegner og opfører unikke villaer, sommerhuse og tilbygninger til fast pris.",
+    "Yderskov Tegnestue tilbyder professionel arkitektrådgivning i Aalborg, Nordjylland og på Sjælland. Kontakt os i dag.",
   alternates: { canonical: "https://yderskov.dk/" },
 };
 
@@ -141,10 +141,15 @@ export default function HomePage() {
               </div>
             </div>
             <div>
-              <p className="body-intro">Arkitekttegnestuen Yderskov ApS er en erfaren tegnestue i Nordjylland med speciale i arkitekttegnede villaer, sommerhuse og tilbygninger. Vi hører til blandt de foretrukne Aalborg arkitekter for private bygherrer.</p>
-              <p className="body-p">Vi arbejder med en samlet proces fra idé til færdigt byggeri — med egne faste håndværkere og fokus på at holde styr på din økonomi undervejs.</p>
-              <p className="body-p">Tegnestuen blev grundlagt i 2009, og som din <Link href="/arkitekt-aalborg" className="text-link">arkitekt i Aalborg</Link> og omegn har vi siden arbejdet med projekter i hele Danmark, primært i Nordjylland og Aalborg-området.</p>
-              <p className="body-p">Hos os taler du altid direkte med arkitekten — ingen mellemled, fast pris.</p>
+              <p className="body-intro">
+                Søger du en erfaren <strong>arkitekt Aalborg</strong>? Arkitekttegnestuen Yderskov er en alsidig og professionel <strong>tegnestue Nordjylland</strong> med base i Brønderslev.
+              </p>
+              <p className="body-p">
+                Vi tegner og bygger unikke boliger i Aalborg og hele den nordjyske region, men vores rækkevidde stopper ikke her. Som en fleksibel og landsdækkende samarbejdspartner påtager vi os også opgaver på Sjælland og i København.
+              </p>
+              <p className="body-p">
+                Uanset om du ønsker at bygge en moderne funkisvilla nær Limfjorden, et charmerende sommerhus på den sjællandske nordkyst, eller en tilbygning i Storkøbenhavn, sikrer vi en tryg og gennemskuelig proces til fast pris. Vi styrer hele projektet fra første streg til nøglefærdigt byggeri med vores egne faste håndværkere, så du kun skal henvende dig ét sted undervejs. Læs mere <Link href="/om" className="text-link">om vores tegnestue</Link> eller se <Link href="/priser" className="text-link">vores priser</Link>.
+              </p>
             </div>
           </div>
         </div>

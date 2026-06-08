@@ -30,6 +30,7 @@ export default function Footer() {
             <li><Link href="/faq">FAQ</Link></li>
             <li><Link href="/kontakt">Kontakt</Link></li>
             <li><Link href="/arkitekt-aalborg">Arkitekt Aalborg</Link></li>
+            <li><Link href="/arkitekt-sjaelland">Arkitekt Sjælland</Link></li>
           </ul>
         </div>
 
