@@ -252,7 +252,7 @@ const posts: Post[] = [
     date: "22 / 12 / 2025",
     cat: "Arkitekt & proces",
     catKey: "arkitekt",
-    title: "Hvad koster en arkitekt — honorar og fast pris?",
+    title: "Hvad koster en arkitekt i 2026 — honorar og fast pris?",
     excerpt: "Hvad er forskellen på arkitekthonorar og fast pris? Her forklarer vi forskellen – og hvorfor vi hos Yderskov tilbyder fast pris med fuld gennemsigtighed.",
   },
   {

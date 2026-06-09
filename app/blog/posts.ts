@@ -2055,8 +2055,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "arkitekthonorar",
-    metaTitle: "Hvad koster en arkitekt — honorar og fast pris — Yderskov Arkitekter",
-    title: "Hvad koster en arkitekt — honorar og fast pris?",
+    metaTitle: "Hvad koster en arkitekt i 2026 — honorar og fast pris — Yderskov Arkitekter",
+    title: "Hvad koster en arkitekt i 2026 — honorar og fast pris?",
     description: "Hvad er forskellen på arkitekthonorar og fast pris? Her forklarer vi forskellen – og hvorfor vi hos Yderskov tilbyder fast pris.",
     date: "22 / 12 / 2025",
     cat: "Arkitekt & proces",
