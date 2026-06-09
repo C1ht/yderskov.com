@@ -122,11 +122,11 @@ const sommerhusProjects = [
     location: 'Løkken, Nordjylland',
     size: '110 m² fritidshus · klitgrund',
     year: '2020',
-    description: 'Klassisk sommerhus beliggende på en kuperet klitgrund i Løkken med storslået udsigt over landskabet og Vesterhavet. Huset er nænsomt tilpasset terrænet og råder over en ugeneret solterrasse med udendørs bruser.',
+    description: 'Klassisk sommerhus beliggende på en kuperet klitgrund i Løkken med storslået udsigt over landskabet og Vesterhavet. Huset er nænsomt tilpasset terrænet og råder over en ugeneret solterrasse.',
     images: [
-      '/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-indkørsel.webp',
-      '/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-terrasse.webp',
-      '/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej--udebruser.webp',
+      '/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-terrasse.webp',
+      '/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-indgangsparti.webp',
+      '/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-sidebygning.webp',
     ],
   },
   {
