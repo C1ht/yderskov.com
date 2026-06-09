@@ -131,7 +131,7 @@ const posts: Post[] = [
     date: "25 / 04 / 2026",
     cat: "Villa & boligdesign",
     catKey: "villa",
-    title: "Hvordan indretter man et multirum i en bolig?",
+    title: "Hvordan indretter man i 2026 et multirum i en bolig?",
     excerpt: "Et multirum er boligens mest fleksible rum — det kan være hjemmekontor, gæsteværelse og hobbylokale på én gang. Her gennemgår vi hvordan du indretter det rigtigt.",
   },
   {

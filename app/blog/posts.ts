@@ -1292,8 +1292,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "multirum",
-    metaTitle: "Hvordan indretter man et multirum i en bolig? — Yderskov Arkitekter",
-    title: "Hvordan indretter man et multirum i en bolig?",
+    metaTitle: "Hvordan indretter man i 2026 et multirum i en bolig? — Yderskov Arkitekter",
+    title: "Hvordan indretter man i 2026 et multirum i en bolig?",
     description: "Et multirum er boligens mest fleksible rum — det kan være hjemmekontor, gæsteværelse og hobbylokale på én gang. Her gennemgår vi hvordan du indretter det rigtigt.",
     date: "25 / 04 / 2026",
     cat: "Villa & boligdesign",
