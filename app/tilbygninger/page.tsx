@@ -215,7 +215,7 @@ export default function TilbygningerPage() {
               </p>
               <div style={{ display: "flex", gap: "1rem", marginTop: "1.5rem", flexWrap: "wrap" }}>
                 <a
-                  href="/katalog-tilbygninger.pdf"
+                  href="/katalog-tilbygninger-print.pdf"
                   download="Yderskov-Arkitekter-Tilbygnings-katalog.pdf"
                   style={{ display: "inline-block", padding: "0.75rem 1.5rem", background: "#161616", color: "#fff", fontWeight: 500, fontSize: "0.875rem", letterSpacing: "0.04em", textDecoration: "none" }}
                 >

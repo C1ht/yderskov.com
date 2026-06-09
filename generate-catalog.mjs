@@ -80,7 +80,7 @@ const villaProjects = [
     location: 'Hjørring, Nordjylland',
     size: '215 m² bolig · 42 m² garage',
     year: '2022',
-    description: 'Klassisk villa med traditionelt formsprog, symmetrisk facade og omhyggeligt udvalgte materialer. Huset er placeret i et etableret villakvarter med god forbindelse to naturen. Familien ønskede et klassisk udtryk med moderne funktionalitet indvendigt — store, lyse opholdsrum med direkte udgang til det ugenerede gårdhavemiljø. Materialerne er valgt ud fra et ønske om minimal vedligeholdelse.',
+    description: 'Klassisk villa med traditionelt formsprog, symmetrisk facade og omhyggeligt udvalgte materialer. Huset er placeret i et etableret villakvarter med god forbindelse til naturen. Familien ønskede et klassisk udtryk med moderne funktionalitet indvendigt — store, lyse opholdsrum med direkte udgang til det ugenerede gårdhavemiljø. Materialerne er valgt ud fra et ønske om minimal vedligeholdelse.',
     images: [
       '/images/Gartnerhaven/Hjørring-garnterhaven-ny-villa.webp',
       '/images/Gartnerhaven/Hjørring-gartnehaven-ny-villa-haveside.webp',
@@ -135,7 +135,7 @@ const sommerhusProjects = [
     location: 'Ålbæk, Nordjylland',
     size: '185 m² wellness-hus · pool & spa',
     year: '2023',
-    description: 'Luksussommerhus i Ålbæk med indendørs swimmingpool, aktivitetsrum med billard og moderne køkken-alrum. Sommerhuset er tegnet til at rumme flere generationer og er ideelt til både familiehygge og udlejning.',
+    description: 'Luksussommerhus i Ålbæk med indendørs swimmingpool, aktivitetsrum med billard og moderne køkken-alrum. Sommerhuset er tegnet til at rumme flere generationer og er ideelt to både familiehygge og udlejning.',
     images: [
       '/images/Løvevej/Ålbæk-poolhus-terrasse.webp',
       '/images/Løvevej/Ålbæk-poolhus-pool.webp',
@@ -190,7 +190,7 @@ const tilbygningProjects = [
     location: 'Hasseris, Aalborg',
     size: 'Facaderenovering · ny planløsning',
     year: '2022',
-    description: 'Renovering og ombygning af en klassisk 1970\'er-villa i Hasseris. Facaden is opdateret til et rent, moderne look, og planløsningen er optimeret til familiens behov.',
+    description: 'Renovering og ombygning af en klassisk 1970\'er-villa i Hasseris. Facaden er opdateret til et rent, moderne look, og planløsningen er optimeret til familiens behov.',
     images: [
       '/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-vejside.webp',
       '/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-haveside.webp',
@@ -219,8 +219,8 @@ const browser = await puppeteer.launch({
   args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-gpu'],
 });
 
-async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProjects) {
-  console.log(`Generating catalog for ${name}...`);
+async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProjects, printFriendly = false) {
+  console.log(`Generating catalog for ${name} (printFriendly=${printFriendly})...`);
   const coverImg = await imgB64(coverImgSrc, 1200);
 
   // Pre-process project images
@@ -230,7 +230,7 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     p.img2 = p.images[2] ? await imgB64(p.images[2], 520) : null;
   }
 
-  const tocStartPage = 4;
+  const tocStartPage = 5;
 
   const html = `<!DOCTYPE html>
 <html lang="da">
@@ -258,6 +258,17 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   .cover-sub { font-size:10pt; font-weight:300; color:rgba(255,255,255,0.45); margin-top:5mm; letter-spacing:0.07em; }
   .cover-bottom { text-align:center; }
   .cover-site { font-size:8pt; font-weight:300; color:rgba(255,255,255,0.35); letter-spacing:0.14em; }
+
+  /* INTRO PAGE */
+  .intro-page { padding:20mm 18mm; display:flex; flex-direction:column; }
+  .intro-eyebrow { font-size:7pt; font-weight:500; letter-spacing:0.2em; color:#999; text-transform:uppercase; margin-bottom:4mm; }
+  .intro-heading { font-size:28pt; font-weight:500; letter-spacing:-0.02em; color:#111; margin-bottom:8mm; }
+  .intro-text { font-size:9.5pt; font-weight:300; color:#444; line-height:1.75; flex:1; }
+  .intro-text p { margin-bottom:4.5mm; }
+  .intro-text strong { font-weight:500; color:#111; }
+  .intro-signature { margin-top:8mm; font-size:9.5pt; font-weight:500; color:#111; line-height:1.4; }
+  .intro-signature span { font-weight:300; color:#777; }
+  .intro-page-num { position:absolute; bottom:5mm; right:18mm; font-size:7pt; color:#ccc; }
 
   /* TOC */
   .toc-page { padding:20mm 18mm; display:flex; flex-direction:column; }
@@ -308,13 +319,13 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   .proj-page-num { position:absolute; bottom:5mm; right:14mm; font-size:7pt; color:#ccc; }
 
   /* BACK */
-  .back { background:#161616; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:0; }
-  .back-icon { width:17mm; filter:invert(1) brightness(2); margin-bottom:9mm; }
-  .back-name { font-size:12pt; font-weight:400; color:#fff; letter-spacing:0.06em; margin-bottom:11mm; }
-  .back-div { width:12mm; height:0.4pt; background:rgba(255,255,255,0.18); margin-bottom:11mm; }
+  .back { background:${printFriendly ? '#fff' : '#161616'}; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:0; ${printFriendly ? 'border: 1px solid #ececec;' : ''} }
+  .back-icon { width:17mm; filter:${printFriendly ? 'none' : 'invert(1) brightness(2)'}; margin-bottom:9mm; }
+  .back-name { font-size:12pt; font-weight:400; color:${printFriendly ? '#111' : '#fff'}; letter-spacing:0.06em; margin-bottom:11mm; }
+  .back-div { width:12mm; height:0.4pt; background:${printFriendly ? '#ececec' : 'rgba(255,255,255,0.18)'}; margin-bottom:11mm; }
   .back-info { text-align:center; }
-  .back-info p { font-size:9.5pt; font-weight:300; color:rgba(255,255,255,0.55); line-height:2.1; }
-  .back-cvr { margin-top:11mm; font-size:7.5pt; color:rgba(255,255,255,0.28); letter-spacing:0.12em; }
+  .back-info p { font-size:9.5pt; font-weight:300; color:${printFriendly ? '#555' : 'rgba(255,255,255,0.55)'}; line-height:2.1; }
+  .back-cvr { margin-top:11mm; font-size:7.5pt; color:${printFriendly ? '#bbb' : 'rgba(255,255,255,0.28)'}; letter-spacing:0.12em; }
 </style>
 </head>
 <body>
@@ -333,6 +344,27 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   </div>
 </div>
 
+<!-- PRESENTATION -->
+<div class="page intro-page">
+  <div class="intro-eyebrow">Velkommen · yderskov.com</div>
+  <div class="intro-heading">God læse- og kikkelyst</div>
+  <div class="intro-text">
+    <p>Drømmen om at bygge nyt, bygge til eller renovere starter altid med en god idé og en sund portion inspiration. Dette katalog er skabt som et inspirationsværktøj til jer, der går med byggeplaner. Her kan I se et udvalg af vores afsluttede projekter, studere plantegninger og lade jer inspirere af forskellige arkitektoniske former, materialevalg og lysindfald.</p>
+    <p>Hos <strong>Yderskov Arkitekter</strong> har vi mere end 15 års erfaring med at tegne og opføre unikke huse i hele Danmark. Vi har stået i spidsen for over 300 vellykkede byggerier – lige fra moderne funkisvillaer og naturskønne sommerhuse til funktionelle tilbygninger. Vores tegnestue adskiller sig ved at tilbyde en samlet totalentreprise med egne faste håndværkere, hvilket garanterer jer en tryg proces til en <strong>fast, bindende pris</strong> uden ubehagelige budgetskred.</p>
+    <p>Brug dette katalog som et moodboard. Tag noter, sæt krydser ved de løsninger, I kan lide, og tag kataloget med til vores første møde. Vi tilbyder altid et <strong>gratis og helt uforpligtende idémøde</strong> direkte på jeres byggegrund, hvor vi sammen kan drøfte mulighederne for at realisere jeres drømmehjem.</p>
+    <p>Vi glæder os til at høre om jeres tanker.</p>
+    <div class="intro-signature">
+      Christian Yderskov<br />
+      <span>Indehaver &amp; Arkitekt, Yderskov Arkitekter</span>
+    </div>
+  </div>
+  <div class="intro-footer">
+    <img class="intro-footer-logo" src="${logoData}" />
+    <span class="intro-footer-text">Arkitekttegnestuen Yderskov ApS · yderskov.com · cy@yderskov.com · 29 72 34 27</span>
+  </div>
+  <div class="intro-page-num">2</div>
+</div>
+
 <!-- TOC -->
 <div class="page toc-page">
   <div class="toc-eyebrow">Katalog — ${name}</div>
@@ -342,7 +374,7 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
       <span class="toc-num">00</span>
       <span class="toc-name">Processen fra A til Z</span>
       <span class="toc-loc">Byggeforløbet</span>
-      <span class="toc-pg">3</span>
+      <span class="toc-pg">4</span>
     </div>
     ${catalogProjects.map((p, i) => `
     <div class="toc-item">
@@ -356,6 +388,7 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     <img class="toc-footer-logo" src="${logoData}" />
     <span class="toc-footer-text">Arkitekttegnestuen Yderskov ApS · yderskov.com · cy@yderskov.com · 29 72 34 27</span>
   </div>
+  <div class="intro-page-num">3</div>
 </div>
 
 <!-- PROCESS -->
@@ -410,6 +443,7 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     <img class="proc-footer-logo" src="${logoData}" />
     <span class="proc-footer-text">Arkitekttegnestuen Yderskov ApS · yderskov.com · cy@yderskov.com · 29 72 34 27</span>
   </div>
+  <div class="intro-page-num">4</div>
 </div>
 
 <!-- PROJECTS -->
@@ -437,10 +471,10 @@ ${catalogProjects.map((p, i) => `
   <div class="back-name">Arkitekttegnestuen Yderskov</div>
   <div class="back-div"></div>
   <div class="back-info">
-    <p>29 72 34 27</p>
+    <p>📞 29 72 34 27</p>
     <p>cy@yderskov.com</p>
     <p>yderskov.com</p>
-    <p>Damsøvej 38, 9700 Brønderslev</p>
+    <p>Danserhøj 38, 9700 Brønderslev</p>
   </div>
   <div class="back-cvr">CVR: 39391813</div>
 </div>
@@ -455,8 +489,9 @@ ${catalogProjects.map((p, i) => `
   await page.goto('file:///' + tmpPath.replace(/\\/g, '/'), { waitUntil: 'networkidle0', timeout: 30000 });
   await new Promise(r => setTimeout(r, 1500));
 
+  const pdfFileName = printFriendly ? `katalog-${name}-print.pdf` : `katalog-${name}.pdf`;
   await page.pdf({
-    path: `public/katalog-${name}.pdf`,
+    path: `public/${pdfFileName}`,
     format: 'A4',
     printBackground: true,
     margin: { top: 0, right: 0, bottom: 0, left: 0 },
@@ -465,14 +500,20 @@ ${catalogProjects.map((p, i) => `
   await page.close();
   fs.unlinkSync(tmpPath);
 
-  const size = fs.statSync(`public/katalog-${name}.pdf`).size;
-  console.log(`Done generating ${name}! PDF size: ${(size / 1024 / 1024).toFixed(1)} MB`);
+  const size = fs.statSync(`public/${pdfFileName}`).size;
+  console.log(`Done generating ${name} (${printFriendly ? 'print' : 'online'})! PDF size: ${(size / 1024 / 1024).toFixed(1)} MB`);
 }
 
 try {
-  await runGenerator('villaer', 'Villaer', 'Arkitekttegnede villaer i Danmark', '/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp', villaProjects);
-  await runGenerator('sommerhuse', 'Sommerhuse', 'Arkitekttegnede sommerhuse i Danmark', '/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp', sommerhusProjects);
-  await runGenerator('tilbygninger', 'Tilbygninger', 'Arkitekttegnede om- og tilbygninger', '/images/Godthåbsvej/Brønderslev-ombygning-efter-3.webp', tilbygningProjects);
+  // Generate online catalogs (black back cover)
+  await runGenerator('villaer', 'Villaer', 'Arkitekttegnede villaer i Danmark', '/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp', villaProjects, false);
+  await runGenerator('sommerhuse', 'Sommerhuse', 'Arkitekttegnede sommerhuse i Danmark', '/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp', sommerhusProjects, false);
+  await runGenerator('tilbygninger', 'Tilbygninger', 'Arkitekttegnede om- og tilbygninger', '/images/Godthåbsvej/Brønderslev-ombygning-efter-3.webp', tilbygningProjects, false);
+
+  // Generate print-friendly catalogs (white back cover)
+  await runGenerator('villaer', 'Villaer', 'Arkitekttegnede villaer i Danmark', '/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp', villaProjects, true);
+  await runGenerator('sommerhuse', 'Sommerhuse', 'Arkitekttegnede sommerhuse i Danmark', '/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp', sommerhusProjects, true);
+  await runGenerator('tilbygninger', 'Tilbygninger', 'Arkitekttegnede om- og tilbygninger', '/images/Godthåbsvej/Brønderslev-ombygning-efter-3.webp', tilbygningProjects, true);
 } catch (err) {
   console.error('An error occurred during generation:', err);
 } finally {
