@@ -67,7 +67,7 @@ export default function ArkitektAalborgPage() {
                 Som din lokale <strong>arkitekt Aalborg</strong> tegner og projekterer vi alt fra eksklusive funkisvillaer i Hasseris og moderne familiehuse i Vestbjerg til funktionelle tilbygninger i Gug og Nørresundby. Vi har et indgående kendskab til Aalborg Kommunes lokalplaner, byggeprocedurer og de særlige geotekniske forhold i området, hvilket sikrer dig en gnidningsfri byggesagsbehandling.
               </p>
               <p className="body-p">
-                Hos Yderskov tror vi på, at god arkitektur skal gå hånd i hånd med økonomisk tryghed. Mange bygherrer frygter, at et samarbejde med en <strong>arkitekt Aalborg</strong> kan medføre uforudsigelige ekstraregninger og budgetskred. Det har vi gjort op med. Vi tilbyder en unik samlet proces, hvor vi både fungerer som din arkitekt og din entreprenør. Vi tegner projektet, udarbejder myndighedsprojektet og bygger boligen med vores egne faste tømrer- og murerhold. Det betyder, at vi kan give dig en bindende fast pris på hele projektet, inden spaden stikkes i jorden. Du slipper for ubehagelige overraskelser og skal kun kommunikere med én enkelt ansvarlig part gennem hele forløbet.
+                Hos Yderskov tror vi på, at god arkitektur skal gå hånd i hånd med økonomisk tryghed. Mange bygherrer frygter, at et samarbejde med en <strong>arkitekt Aalborg</strong> kan medføre uforudsigelige ekstraregninger og budgetskred. Det har vi gjort op med. Vi tilbyder en unik samlet proces, hvor vi både fungerer som din arkitekt og din entreprenør. Vi tegner projektet, udarbejder myndighedsprojektet og bygger boligen med vores egne faste tømrer- og murerhold. Det betyder, at vi kan give dig en fast pris på hele projektet, inden spaden stikkes i jorden. Du slipper for ubehagelige overraskelser og skal kun kommunikere med én enkelt ansvarlig part gennem hele forløbet.
               </p>
               <p className="body-p">
                 Som en erfaren tegnestue i Nordjylland tegner vi huse, der tager udgangspunkt i grundens unikke kvaliteter, dagslysets gang og din families hverdagsliv. Vores tegnestue i Brønderslev ligger kun en kort køretur fra Aalborg, og vi mødes altid gerne med dig direkte på din byggegrund i Aalborg-området til et gratis, uforpligtende idémøde. Her kan vi drøfte dine visioner, vurdere grundens potentiale og give dig de første råd om placering og formsprog.
@@ -109,7 +109,7 @@ export default function ArkitektAalborgPage() {
               </ul>
               <span className="info-box-lbl">Vores ydelser</span>
               <ul>
-                <li>Skitseforslag &amp; visualisering</li>
+                <li>Skitseforslag</li>
                 <li>Myndighedsprojekt &amp; byggetilladelse</li>
                 <li>Nøglefærdigt byggeri til fast pris</li>
               </ul>

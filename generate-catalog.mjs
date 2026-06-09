@@ -350,7 +350,7 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   <div class="intro-heading">God læse- og kikkelyst</div>
   <div class="intro-text">
     <p>Drømmen om at bygge nyt, bygge til eller renovere starter altid med en god idé og en sund portion inspiration. Dette katalog er skabt som et inspirationsværktøj til jer, der går med byggeplaner. Her kan I se et udvalg af vores afsluttede projekter, studere plantegninger og lade jer inspirere af forskellige arkitektoniske former, materialevalg og lysindfald.</p>
-    <p>Hos <strong>Yderskov Arkitekter</strong> har vi mere end 15 års erfaring med at tegne og opføre unikke huse i hele Danmark. Vi har stået i spidsen for over 300 vellykkede byggerier – lige fra moderne funkisvillaer og naturskønne sommerhuse til funktionelle tilbygninger. Vores tegnestue adskiller sig ved at tilbyde en samlet totalentreprise med egne faste håndværkere, hvilket garanterer jer en tryg proces til en <strong>fast, bindende pris</strong> uden ubehagelige budgetskred.</p>
+    <p>Hos <strong>Yderskov Arkitekter</strong> har vi mere end 15 års erfaring med at tegne og opføre unikke huse i hele Danmark. Vi har stået i spidsen for over 300 vellykkede byggerier – lige fra moderne funkisvillaer og naturskønne sommerhuse til funktionelle tilbygninger. Vores tegnestue adskiller sig ved at tilbyde en samlet totalentreprise med egne faste håndværkere, hvilket garanterer jer en tryg proces til en <strong>fast pris</strong> uden ubehagelige budgetskred.</p>
     <p>Brug dette katalog som et moodboard. Tag noter, sæt krydser ved de løsninger, I kan lide, og tag kataloget med til vores første møde. Vi tilbyder altid et <strong>gratis og helt uforpligtende idémøde</strong> direkte på jeres byggegrund, hvor vi sammen kan drøfte mulighederne for at realisere jeres drømmehjem.</p>
     <p>Vi glæder os til at høre om jeres tanker.</p>
     <div class="intro-signature">
@@ -406,8 +406,8 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     <div class="proc-step">
       <div class="proc-step-num-box">02</div>
       <div class="proc-step-content">
-        <h3 class="proc-step-title">Skitseforslag &amp; 3D-visualisering</h3>
-        <p class="proc-step-desc">Vi udarbejder de første skitser med planløsninger, facader og situationsplan. I modtager en fotorealistisk 3D-model af huset, samt et realistisk prisoverslag på byggeriet.</p>
+        <h3 class="proc-step-title">Skitseforslag</h3>
+        <p class="proc-step-desc">Vi udarbejder de første skitser med planløsninger, facader og situationsplan samt et realistisk prisoverslag på byggeriet.</p>
       </div>
     </div>
     <div class="proc-step">
@@ -420,8 +420,8 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     <div class="proc-step">
       <div class="proc-step-num-box">04</div>
       <div class="proc-step-content">
-        <h3 class="proc-step-title">Byggetilladelse &amp; Fast bindende pris</h3>
-        <p class="proc-step-desc">Vi styrer hele kommunens byggesagsbehandling til tilladelsen er i hus. Her underskriver vi en fast, bindende kontraktpris på hele byggeriet – så I slipper for uforudsete udgifter.</p>
+        <h3 class="proc-step-title">Byggetilladelse &amp; Fast pris</h3>
+        <p class="proc-step-desc">Vi styrer hele kommunens byggesagsbehandling til tilladelsen er i hus.</p>
       </div>
     </div>
     <div class="proc-step">
