@@ -37,11 +37,11 @@ const projectGalleries = [
   },
   {
     eyebrow: "Projekt",
-    title: "Villa med\ntilbygning, Hasseris.",
+    title: "Villa med\ntilbygning, Hasseris i Aalborg.",
     images: [
-      { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-terrasse.webp", alt: "Terrasse ved villa med tilbygning i Hasseris — Yderskov Arkitekter" },
-      { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp", alt: "Bagside af villa med tilbygning i Hasseris — Yderskov Arkitekter" },
-      { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-vindue.webp", alt: "Vinduesparti i villa med tilbygning i Hasseris — Yderskov Arkitekter" },
+      { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-terrasse.webp", alt: "Terrasse ved villa med tilbygning i Hasseris i Aalborg — Yderskov Arkitekter" },
+      { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp", alt: "Bagside af villa med tilbygning i Hasseris i Aalborg — Yderskov Arkitekter" },
+      { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-vindue.webp", alt: "Vinduesparti i villa med tilbygning i Hasseris i Aalborg — Yderskov Arkitekter" },
     ],
     dark: false,
   },
@@ -57,11 +57,11 @@ const projectGalleries = [
   },
   {
     eyebrow: "Projekt",
-    title: "Ombygning af\neksisterende 70er-villa, Hasseris.",
+    title: "Ombygning af\neksisterende 70er-villa, Hasseris i Aalborg.",
     images: [
-      { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-vejside.webp", alt: "Vejside efter ombygning af 70er-villa i Hasseris — Yderskov Arkitekter" },
-      { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-haveside.webp", alt: "Haveside efter ombygning af 70er-villa i Hasseris — Yderskov Arkitekter" },
-      { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-terrassearbejde.webp", alt: "Terrassearbejde ved ombygning i Hasseris — Yderskov Arkitekter" },
+      { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-vejside.webp", alt: "Vejside efter ombygning af 70er-villa i Hasseris i Aalborg — Yderskov Arkitekter" },
+      { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-haveside.webp", alt: "Haveside efter ombygning af 70er-villa i Hasseris i Aalborg — Yderskov Arkitekter" },
+      { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-terrassearbejde.webp", alt: "Terrassearbejde ved ombygning i Hasseris i Aalborg — Yderskov Arkitekter" },
     ],
     dark: false,
   },

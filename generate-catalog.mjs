@@ -161,10 +161,10 @@ const tilbygningProjects = [
   {
     num: 2,
     title: 'Villa med lys tilbygning',
-    location: 'Hasseris, Aalborg',
+    location: 'Hasseris i Aalborg',
     size: '45 m² tilbygning · terrasse',
     year: '2021',
-    description: 'Moderne tilbygning i Hasseris, der udvider den eksisterende murstensvilla med et lyst opholdsrum. Store vinduespartier og en overdækket terrasse skaber en glidende overgang til haven.',
+    description: 'Moderne tilbygning i Hasseris i Aalborg, der udvider den eksisterende murstensvilla med et lyst opholdsrum. Store vinduespartier og en overdækket terrasse skaber en glidende overgang til haven.',
     images: [
       '/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-terrasse.webp',
       '/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp',
@@ -187,10 +187,10 @@ const tilbygningProjects = [
   {
     num: 4,
     title: 'Ombygning af 70\'er-villa',
-    location: 'Hasseris, Aalborg',
+    location: 'Hasseris i Aalborg',
     size: 'Facaderenovering · ny planløsning',
     year: '2022',
-    description: 'Renovering og ombygning af en klassisk 1970\'er-villa i Hasseris. Facaden er opdateret til et rent, moderne look, og planløsningen er optimeret til familiens behov.',
+    description: 'Renovering og ombygning af en klassisk 1970\'er-villa i Hasseris i Aalborg. Facaden er opdateret til et rent, moderne look, og planløsningen er optimeret til familiens behov.',
     images: [
       '/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-vejside.webp',
       '/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-haveside.webp',

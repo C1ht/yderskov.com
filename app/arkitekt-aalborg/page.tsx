@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 const aalborgFAQ = [
   {
     q: "Hvorfor vælge en arkitekt med kendskab til Aalborg og Nordjylland?",
-    a: "Lokalt kendskab sikrer en smidig proces med Aalborg Kommune. Vi kender lokalplanerne, jordbundsforholdene i regionen og de arkitektoniske traditioner i områder som Hasseris, Vestbjerg og Gug.",
+    a: "Lokalt kendskab sikrer en smidig proces med Aalborg Kommune. Vi kender lokalplanerne, jordbundsforholdene i regionen og de arkitektoniske traditioner i områder som Hasseris i Aalborg, Vestbjerg og Gug.",
   },
   {
     q: "Hvordan sikrer I at byggeprisen holder?",
@@ -64,7 +64,7 @@ export default function ArkitektAalborgPage() {
                 Hvis du planlægger at bygge nyt eller bygge til og søger en dygtig <strong>arkitekt Aalborg</strong>, er Yderskov Tegnestue din ideelle partner. Med over 15 års erfaring inden for privat boligbyggeri har vi etableret os som en af de førende og mest troværdige arkitekter i regionen.
               </p>
               <p className="body-p">
-                Som din lokale <strong>arkitekt Aalborg</strong> tegner og projekterer vi alt fra eksklusive funkisvillaer i Hasseris og moderne familiehuse i Vestbjerg til funktionelle tilbygninger i Gug og Nørresundby. Vi har et indgående kendskab til Aalborg Kommunes lokalplaner, byggeprocedurer og de særlige geotekniske forhold i området, hvilket sikrer dig en gnidningsfri byggesagsbehandling.
+                Som din lokale <strong>arkitekt Aalborg</strong> tegner og projekterer vi alt fra eksklusive funkisvillaer i Hasseris i Aalborg og moderne familiehuse i Vestbjerg til funktionelle tilbygninger i Gug og Nørresundby. Vi har et indgående kendskab til Aalborg Kommunes lokalplaner, byggeprocedurer og de særlige geotekniske forhold i området, hvilket sikrer dig en gnidningsfri byggesagsbehandling.
               </p>
               <p className="body-p">
                 Hos Yderskov tror vi på, at god arkitektur skal gå hånd i hånd med økonomisk tryghed. Mange bygherrer frygter, at et samarbejde med en <strong>arkitekt Aalborg</strong> kan medføre uforudsigelige ekstraregninger og budgetskred. Det har vi gjort op med. Vi tilbyder en unik samlet proces, hvor vi både fungerer som din arkitekt og din entreprenør. Vi tegner projektet, udarbejder myndighedsprojektet og bygger boligen med vores egne faste tømrer- og murerhold. Det betyder, at vi kan give dig en fast pris på hele projektet, inden spaden stikkes i jorden. Du slipper for ubehagelige overraskelser og skal kun kommunikere med én enkelt ansvarlig part gennem hele forløbet.
@@ -96,7 +96,7 @@ export default function ArkitektAalborgPage() {
                 Vi har gennemført en lang række projekter i Aalborg-området — herunder moderne funkisvillaer i Vestbjerg, arkitekttegnede villaer i Hjørring og eksklusive renoveringer. 
               </p>
               <p className="body-p">
-                Uanset om du skal bygge på en skrånende grund med udsigt, tilpasse et hus til et historisk kvarter i Hasseris, eller opføre et klassisk sommerhus ved den nordjyske vestkyst, har vi erfaringen og det lokale netværk til at bringe projektet sikkert i mål.
+                Uanset om du skal bygge på en skrånende grund med udsigt, tilpasse et hus til et historisk kvarter i Hasseris i Aalborg, eller opføre et klassisk sommerhus ved den nordjyske vestkyst, har vi erfaringen og det lokale netværk til at bringe projektet sikkert i mål.
               </p>
             </div>
             <div className="info-box">
