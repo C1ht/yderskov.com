@@ -162,7 +162,7 @@ export default function HomePage() {
               <ul className="body-p" style={{ paddingLeft: "1.2rem", marginTop: "0.5rem", listStyleType: "disc" }}>
                 <li style={{ marginBottom: "0.3rem" }}>Nybyggeri af villa og sommerhus nær Aalborg og i Nordjylland</li>
                 <li style={{ marginBottom: "0.3rem" }}>Tilbygning og ombygning tilpasset dit budget</li>
-                <li style={{ marginBottom: "0.3rem" }}>Ombygning af planløsning, tagetage og køkken-alrum</li>
+                <li style={{ marginBottom: "0.3rem" }}>Ombygning af køkken-allrum, ny tagetage eller ny planløsning</li>
                 <li style={{ marginBottom: "0.3rem" }}>Mindre erhvervsbyggeri i Nordjylland</li>
                 <li style={{ marginBottom: "0.3rem" }}>Byggetilladelse og myndighedskontakt i Aalborg Kommune</li>
                 <li style={{ marginBottom: "0.3rem" }}>Fuld gennemskuelighed i byggeøkonomien – altid</li>
