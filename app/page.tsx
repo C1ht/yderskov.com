@@ -168,10 +168,10 @@ export default function HomePage() {
                 <li style={{ marginBottom: "0.3rem" }}>Fuld gennemskuelighed i byggeøkonomien – altid</li>
               </ul>
               <p className="body-p" style={{ marginTop: "1.5rem" }}>
-                Vi er en lille tegnestue med stort engagement. Hos os er du ikke et sagsnummer – du er et menneske med en drøm om et bedre hjem eller det perfekte sommerhus i Nordjylland.
+                Vi er en lille tegnestue med stort engagement. Hos os er du ikke et sagsnummer – du er et menneske med en drøm om et bedre hjem eller det perfekte sommerhus i Nordjylland. Du kan se mere <Link href="/priser" className="text-link">om vores priser</Link> og læse mere <Link href="/om" className="text-link">om tegnestuen</Link>.
               </p>
               <p className="body-p" style={{ marginTop: "1rem" }}>
-                Ring til os og få en uforpligtende snak om dit byggeprojekt i Aalborg eller Nordjylland. Vi kender prisen fra dag ét. Læs mere <Link href="/om" className="text-link">om vores tegnestue</Link> eller se <Link href="/priser" className="text-link">vores priser</Link>.
+                Ring til os og få en uforpligtende snak om dit byggeprojekt i Aalborg eller Nordjylland. Vi kender prisen fra dag ét.
               </p>
             </div>
           </div>
