@@ -258,7 +258,7 @@ export const posts: BlogPost[] = [
   {
     slug: "naturlig-kilde-sebbersund",
     metaTitle: "Kilde på grunden i Sebbersund nær Aalborg: Fra problem til aktiv — Yderskov",
-    title: "Kilden der løb ud af bakken i Sebbersund nær Aalborg — og hvordan vi gjorde den til et smukt element.",
+    title: "Kilden der løb ud af bakken i Sebbersund nær Aalborg — og hvordan vi i 2026 gjorde den til et smukt element.",
     description: "En naturlig kilde på sommerhusgrunden i Sebbersund nær Aalborg skulle håndteres inden byggeriet. Arkitekten foreslog at gøre den til et smukt haveelement med sten og beplantning.",
     date: "01 / 05 / 2026",
     cat: "Cases fra praksis",
