@@ -185,25 +185,7 @@ export default function HomePage() {
               </div>
             ))}
           </div>
-          <div style={{ marginTop: "3rem", display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
-            <a
-              href="/katalog-villaer.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="tag tag-dark"
-              style={{ padding: "0.85rem 2.2rem", fontSize: "0.875rem", letterSpacing: "0.05em", display: "inline-block", textDecoration: "none" }}
-            >
-              Åbn inspirationskatalog (PDF)
-            </a>
-            <a
-              href="/katalog-villaer-print.pdf"
-              download="Yderskov-Arkitekter-Villa-katalog.pdf"
-              className="tag"
-              style={{ padding: "0.85rem 2.2rem", fontSize: "0.875rem", letterSpacing: "0.05em", display: "inline-block", textDecoration: "none", border: "1px solid #3a3a3c", color: "#3a3a3c" }}
-            >
-              Hent katalog (Print)
-            </a>
-          </div>
+
         </div>
       </section>
 
