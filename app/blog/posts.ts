@@ -68,6 +68,98 @@ export const posts: BlogPost[] = [
     ],
   },
   {
+    slug: "bygge-nyt-hus-pris-2026",
+    metaTitle: "Hvad koster det at bygge nyt hus i 2026? Priser — Yderskov",
+    title: "Hvad koster det at bygge nyt hus i 2026?",
+    description: "Går du med planer om nybyggeri i Aalborg eller Nordjylland i 2026? Læs om kvadratmeterpriser for ny villa, andre udgifter som ingeniørberegninger, og få råd om fast pris.",
+    date: "29 / 05 / 2026",
+    cat: "Arkitekt & proces",
+    catKey: "arkitekt",
+    lead: "Drømmer du om at opføre en ny villa i Aalborg eller omegn i 2026? At bygge nyt hus er en af livets største beslutninger, og det første spørgsmål er næsten altid: Hvad koster det? Hos Arkitekttegnestuen Yderskov i Aalborg hjælper vi dig med at skabe overblik over nybyggeri-priserne i 2026. Her ser vi på kvadratmeterprisen for en arkitekttegnet villa, samt de øvrige budgetposter du skal kende.",
+    sections: [
+      {
+        heading: "Kvadratmeterpris på en arkitekttegnet ny villa i Aalborg",
+        paragraphs: [
+          "Som udgangspunkt starter prisen for en nybygget, arkitekttegnet villa i Aalborg og Nordjylland fra omkring 15.000 kr. pr. m² i 2026. Den endelige kvadratmeterpris afhænger dog i høj grad af materialevalg og husets udformning. En moderne funkisvilla med store vinduespartier og niveauforskelle i f.eks. Vestbjerg eller Hasseris i Aalborg vil ligge i den højere ende sammenlignet med et klassisk, rektangulært længehus.",
+          "Hos tegnestuen i Aalborg tegner vi altid med udgangspunkt i dit budget. Vi sikrer, at arkitekturen passer til både jeres drømme, den konkrete byggegrund og jeres økonomiske ramme."
+        ]
+      },
+      {
+        heading: "Andre udgifter til nybyggeri i 2026",
+        paragraphs: [
+          "Når du lægger et budget for nybyggeri i Aalborg Kommune, skal du huske at medregne mere end blot selve håndværkerprisen. Der er en række obligatoriske poster, som kan variere alt efter forholdene på stedet:",
+          "• Jordbundsundersøgelser og ekstra fundering (f.eks. pælefundering, hvis jorden er blød)",
+          "• Lovpligtige ingeniørberegninger (statik, energi og spildevand)",
+          "• Landinspektør til afsætning af huset og opmåling",
+          "• Tilslutningsafgifter til el, vand, varme og kloak",
+          "• Byggesagsgebyr til Aalborg Kommune",
+          "• Etablering af have, indkørsel og belægning",
+          "Som din rådgivende arkitekt i Aalborg hjælper vi dig med at skabe et komplet og realistisk budgetoverslag helt fra start, så du ikke bliver mødt af uforudsete overraskelser undervejs."
+        ]
+      },
+      {
+        heading: "Tryghed uden totalentreprise",
+        paragraphs: [
+          "Hos Yderskov Arkitekter laver vi aldrig totalentreprise. Det betyder, at vi ikke har rollen som den juridiske totalentreprenør, hvilket giver os fuld frihed to udelukkende at varetage dine interesser som bygherre. Til gengæld tilbyder vi en samlet, gennemskuelig proces til en fast pris.",
+          "Vi styrer projekteringen fra de første skitser til byggetilladelsen, og indhenter faste priser fra vores netværk af dygtige, lokale tømrer- og murerhold i Nordjylland. Det giver jer samme tryghed og økonomiske overskuelighed som ved en totalentreprise, men med en langt tættere og direkte dialog med arkitekten gennem hele forløbet."
+        ]
+      },
+      {
+        heading: "Start din byggedrøm med et gratis idémøde",
+        paragraphs: [
+          "Hvis du overvejer at bygge nyt hus i Aalborg eller et sommerhus i et af Nordjyllands smukke kystområder, kommer vi gerne ud og ser på din grund. Det første idémøde er helt gratis og uforpligtende. Vi kender lokalplanerne i Aalborg Kommune og de geotekniske særkender i området, hvilket sikrer dig en tryg og smidig start på dit projekt."
+        ]
+      }
+    ],
+    relatedLinks: [
+      { label: "Se vores færdige villaer med billeder", href: "/villaer" },
+      { label: "Læs om vores priser og faste aftaler", href: "/priser" }
+    ]
+  },
+  {
+    slug: "tilbygning-pris-2026-aalborg",
+    metaTitle: "Tilbygning pris 2026 Aalborg — Priser og råd — Yderskov",
+    title: "Tilbygning pris 2026 – hvad koster det i Aalborg?",
+    description: "Hvad koster en tilbygning i Aalborg eller Nordjylland i 2026? Se kvadratmeterpriser, yderligere udgifter (ingeniør, jordbund) og få gode råd fra arkitekten.",
+    date: "25 / 05 / 2026",
+    cat: "Arkitekt & proces",
+    catKey: "arkitekt",
+    lead: "Går du med drømmen om at udvide dit hjem i Aalborg med en tilbygning i 2026? Hos Arkitekttegnestuen Yderskov oplever vi en stor efterspørgsel på gennemskuelige priser på tilbygninger i Aalborg Kommune og resten af Nordjylland. Her gennemgår vi de reelle priser, hvad der påvirker dem, og hvilke øvrige udgifter du skal tage højde for.",
+    sections: [
+      {
+        heading: "Hvad koster en tilbygning pr. kvadratmeter i Aalborg?",
+        paragraphs: [
+          "Vores vejledende priser på en tilbygning i Aalborg-området ligger typisk på 14.000–19.000 kr. pr. m² alt efter opgavens karakter og kompleksitet. Hvis du planlægger en tilbygning til en eksisterende villa i f.eks. Hasseris i Aalborg eller Gug, vil prisen variere afhængigt af, om der er tale om et nyt badeværelse (som kræver vådrumssikring og VVS-installationer) eller et almindeligt stue- eller værelsesareal.",
+          "Som erfaren arkitekt i Aalborg anbefaler vi altid at tage højde for, at materialevalg og udformning (arkitekturen) spiller en afgørende rolle for den endelige sum. En tilbygning med store vinduespartier mod Limfjorden eller niveauforskelle i terrænet vil naturligt ligge i den øvre ende af prisskalaen."
+        ]
+      },
+      {
+        heading: "Skjulte udgifter og forhold på stedet",
+        paragraphs: [
+          "Udover selve håndværkerprisen skal bygherrer i Aalborg og Nordjylland være opmærksomme på a række andre udgifter, som kan variere betydeligt baseret på de lokale forhold. Dette inkluderer bl.a. geotekniske undersøgelser af jorden på byggegrunden, da jordbundsforholdene i og omkring Aalborg (f.eks. i områder med ler eller blød jord) kan kræve ekstra fundering.",
+          "Derudover er der udgifter til lovpligtige ingeniørberegninger (statik, energi og spildevand) samt tilslutningsafgifter og gebyrer til Aalborg Kommune for byggesagsbehandling. Vi sørger altid for at kortlægge disse poster tidligt, så du undgår ubehagelige budgetskred."
+        ]
+      },
+      {
+        heading: "Værdien af en fast pris og en samlet proces",
+        paragraphs: [
+          "Tegnestuen i Aalborg og Brønderslev har stor erfaring med at sikre tryghed under hele byggeriet. Selvom vi aldrig tilbyder totalentreprise, adskiller Yderskov sig ved at tilbyde en samlet proces med en fast, gennemskuelig pris. Det betyder, at vi fastlægger prisen på arkitekthonoraret og rådgivningen på forhånd, og hjælper dig med at indhente bindende priser i tæt samarbejde med vores faste, lokale tømrer- og murerhold.",
+          "Dette eliminerer de klassiske misforståelser mellem tegnebordet og byggepladsen, og sikrer dig et økonomisk overblik fra første dag. Vi tegner og bygger efter jeres budget, så jeres drømme hænger sammen med virkeligheden."
+        ]
+      },
+      {
+        heading: "Book et gratis idemøde på din grund",
+        paragraphs: [
+          "Uanset om du vil bygge til i Nørresundby, Gug, Hasseris i Aalborg eller omegn, tilbyder vi et gratis og helt uforpligtende idémøde direkte på din adresse. Her kan vi drøfte mulighederne, vurdere grunden og give dig de første konkrete estimater på byggeøkonomien."
+        ]
+      }
+    ],
+    relatedLinks: [
+      { label: "Se vores priser på tilbygning", href: "/priser" },
+      { label: "Læs om vores proces", href: "/om" }
+    ]
+  },
+  {
     slug: "hundevaskeplads-vestbjerg",
     metaTitle: "Hundevaskeplads i bryggers — villa i Vestbjerg nær Aalborg — Yderskov",
     title: "Hundevaskeplads i bryggers — ny funkisvilla i Vestbjerg nær Aalborg.",

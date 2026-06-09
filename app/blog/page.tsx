@@ -34,6 +34,22 @@ const posts: Post[] = [
     excerpt: "Et par kom til os med et postkort af et engelsk herresæde. Vi tegnede deres drømmevilla i Nørholm nær Aalborg med sortglasserede tegl, hall og fjordudsigt.",
   },
   {
+    href: "/blog/bygge-nyt-hus-pris-2026",
+    date: "29 / 05 / 2026",
+    cat: "Arkitekt & proces",
+    catKey: "arkitekt",
+    title: "Hvad koster det at bygge nyt hus i 2026?",
+    excerpt: "Går du med byggeplaner i Aalborg? Vi gennemgår priser, budgetposter, og hvad der påvirker prisen på en ny villa i Nordjylland i 2026.",
+  },
+  {
+    href: "/blog/tilbygning-pris-2026-aalborg",
+    date: "25 / 05 / 2026",
+    cat: "Arkitekt & proces",
+    catKey: "arkitekt",
+    title: "Tilbygning pris 2026 – hvad koster det i Aalborg?",
+    excerpt: "Søger du prisen på en tilbygning i Aalborg eller Nordjylland i 2026? Få svar på kvadratmeterpriser, yderligere udgifter og værdien af en fast pris.",
+  },
+  {
     href: "/blog/hundevaskeplads-vestbjerg",
     date: "23 / 05 / 2026",
     cat: "Cases fra praksis",
