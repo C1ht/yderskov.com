@@ -133,7 +133,7 @@ export default function HomePage() {
           <div className="text-2col">
             <div>
               <span className="eyebrow">Om tegnestuen</span>
-              <h1 className="sec-hed">Arkitekt i Aalborg &amp;<br />tegnestue i Nordjylland.</h1>
+              <h1 className="sec-hed">Arkitekt i Aalborg –<br />25 års erfaring med kvalitet og økonomisk overblik</h1>
               <div className="about-tags" style={{ marginTop: "1.5rem" }}>
                 <Link href="/kontakt" className="tag tag-dark">Kontakt os →</Link>
                 <Link href="/priser" className="tag">Se priser</Link>
@@ -142,13 +142,36 @@ export default function HomePage() {
             </div>
             <div>
               <p className="body-intro">
-                Søger du en erfaren <strong>arkitekt Aalborg</strong>? Arkitekttegnestuen Yderskov er en alsidig og professionel <strong>tegnestue Nordjylland</strong> med base i Brønderslev.
+                Hvad koster en arkitekt i Aalborg? Det spørgsmål stiller mange – og hos Arkitekttegnestuen Yderskov får du altid et ærligt svar fra dag ét. Vi har hjulpet aalborggensere med byggeri i 25 år, og gennemskuelig økonomi er ikke bare et løfte – det er måden vi arbejder på.
+              </p>
+              <p className="body-p" style={{ marginTop: "1.5rem", fontWeight: "bold" }}>
+                Tilbygning eller ombygning i Aalborg?
               </p>
               <p className="body-p">
-                Vi tegner og bygger unikke boliger i Aalborg og hele den nordjyske region, men vores rækkevidde stopper ikke her. Som en fleksibel og landsdækkende samarbejdspartner påtager vi os også opgaver på Sjælland og i København.
+                Mange vælger at bygge til eller om frem for at flytte. Det er ofte den klogeste investering – og med en lokal arkitekt i Aalborg der kender kommunens regler og de lokale byggeforhold, undgår du dyre overraskelser. Vi finder det bedste ud af din eksisterende bolig, uanset om det er et ekstra værelse, en ny tagetage, et åbent køkken-alrum eller en komplet ny planløsning.
+              </p>
+              <p className="body-p" style={{ marginTop: "1.5rem", fontWeight: "bold" }}>
+                Nybyggeri af villa eller sommerhus nær Aalborg?
               </p>
               <p className="body-p">
-                Uanset om du ønsker at bygge en moderne funkisvilla nær Limfjorden, et charmerende sommerhus på den sjællandske nordkyst, eller en tilbygning i Storkøbenhavn, sikrer vi en tryg og gennemskuelig proces til fast pris. Vi styrer hele projektet fra første streg til nøglefærdigt byggeri med vores egne faste håndværkere, så du kun skal henvende dig ét sted undervejs. Læs mere <Link href="/om" className="text-link">om vores tegnestue</Link> eller se <Link href="/priser" className="text-link">vores priser</Link>.
+                Nordjylland byder på nogle af Danmarks smukkeste sommerhusområder – fra Jammerbugten til Mariagerfjord. Vi tegner dit drømmehus eller sommerhus tilpasset netop det sted, det skal stå – og holder dig orienteret om økonomi og fremdrift hele vejen. Ingen overraskelser. Ingen skjulte omkostninger.
+              </p>
+              <p className="body-p" style={{ marginTop: "1.5rem", fontWeight: "bold" }}>
+                Det får du hos Arkitekttegnestuen Yderskov:
+              </p>
+              <ul className="body-p" style={{ paddingLeft: "1.2rem", marginTop: "0.5rem", listStyleType: "disc" }}>
+                <li style={{ marginBottom: "0.3rem" }}>Nybyggeri af villa og sommerhus nær Aalborg og i Nordjylland</li>
+                <li style={{ marginBottom: "0.3rem" }}>Tilbygning og ombygning tilpasset dit budget</li>
+                <li style={{ marginBottom: "0.3rem" }}>Ombygning af planløsning, tagetage og køkken-alrum</li>
+                <li style={{ marginBottom: "0.3rem" }}>Mindre erhvervsbyggeri i Nordjylland</li>
+                <li style={{ marginBottom: "0.3rem" }}>Byggetilladelse og myndighedskontakt i Aalborg Kommune</li>
+                <li style={{ marginBottom: "0.3rem" }}>Fuld gennemskuelighed i byggeøkonomien – altid</li>
+              </ul>
+              <p className="body-p" style={{ marginTop: "1.5rem" }}>
+                Vi er en lille tegnestue med stort engagement. Hos os er du ikke et sagsnummer – du er et menneske med en drøm om et bedre hjem eller det perfekte sommerhus i Nordjylland.
+              </p>
+              <p className="body-p" style={{ marginTop: "1rem" }}>
+                Ring til os og få en uforpligtende snak om dit byggeprojekt i Aalborg eller Nordjylland. Vi kender prisen fra dag ét.
               </p>
             </div>
           </div>
