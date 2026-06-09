@@ -171,7 +171,7 @@ export default function HomePage() {
                 Vi er en lille tegnestue med stort engagement. Hos os er du ikke et sagsnummer – du er et menneske med en drøm om et bedre hjem eller det perfekte sommerhus i Nordjylland.
               </p>
               <p className="body-p" style={{ marginTop: "1rem" }}>
-                Ring til os og få en uforpligtende snak om dit byggeprojekt i Aalborg eller Nordjylland. Vi kender prisen fra dag ét.
+                Ring til os og få en uforpligtende snak om dit byggeprojekt i Aalborg eller Nordjylland. Vi kender prisen fra dag ét. Læs mere <Link href="/om" className="text-link">om vores tegnestue</Link> eller se <Link href="/priser" className="text-link">vores priser</Link>.
               </p>
             </div>
           </div>
