@@ -6,6 +6,45 @@ import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import { getPost, posts, type RelatedLink } from "../posts";
 
+function parseParagraph(text: string) {
+  const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const parts = [];
+  let lastIndex = 0;
+  let match;
+
+  while ((match = linkRegex.exec(text)) !== null) {
+    const [fullMatch, label, url] = match;
+    const matchIndex = match.index;
+
+    if (matchIndex > lastIndex) {
+      parts.push(text.substring(lastIndex, matchIndex));
+    }
+
+    const isExternal = url.startsWith("http");
+    if (isExternal) {
+      parts.push(
+        <a key={matchIndex} href={url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>
+          {label}
+        </a>
+      );
+    } else {
+      parts.push(
+        <Link key={matchIndex} href={url} style={{ textDecoration: "underline" }}>
+          {label}
+        </Link>
+      );
+    }
+
+    lastIndex = linkRegex.lastIndex;
+  }
+
+  if (lastIndex < text.length) {
+    parts.push(text.substring(lastIndex));
+  }
+
+  return parts.length > 0 ? parts : text;
+}
+
 const categoryLinks: Record<string, RelatedLink[]> = {
   villa: [
     { label: "Læs om Yderskov som arkitekt i Aalborg", href: "/arkitekt-aalborg" },
@@ -129,7 +168,7 @@ export default async function BlogPostPage({
                 paddingLeft: "1.25rem",
               }}
             >
-              {post.lead}
+              {parseParagraph(post.lead)}
             </p>
           </div>
         </section>
@@ -157,7 +196,7 @@ export default async function BlogPostPage({
                   </h2>
                   {section.paragraphs.map((p, j) => (
                     <p key={j} className="body-p">
-                      {p}
+                      {parseParagraph(p)}
                     </p>
                   ))}
                 </div>
@@ -176,7 +215,7 @@ export default async function BlogPostPage({
                   </h2>
                   {section.paragraphs.map((p, j) => (
                     <p key={j} className="body-p">
-                      {p}
+                      {parseParagraph(p)}
                     </p>
                   ))}
                 </div>

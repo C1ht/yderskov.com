@@ -167,6 +167,14 @@ const posts: Post[] = [
     excerpt: "En stor terrasse kræver god planlægning for at fungere optimalt. Her gennemgår vi de vigtigste overvejelser — fra placering og materialer til havebyggeri og uderum.",
   },
   {
+    href: "/blog/arkitekt-aalborg-valg-2026",
+    date: "01 / 03 / 2026",
+    cat: "Arkitekt & proces",
+    catKey: "arkitekt",
+    title: "Arkitekt i Aalborg 2026 – sådan vælger du den rigtige",
+    excerpt: "Skal du bygge nyt eller bygge til i Aalborg i 2026? Få praktiske råd til, hvordan du vælger den rigtige arkitekt til dit projekt og dit budget.",
+  },
+  {
     href: "/blog/laengehus",
     date: "25 / 02 / 2026",
     cat: "Villa & boligdesign",

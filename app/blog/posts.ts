@@ -1600,6 +1600,57 @@ export const posts: BlogPost[] = [
     ],
   },
   {
+    slug: "arkitekt-aalborg-valg-2026",
+    metaTitle: "Arkitekt i Aalborg 2026 – sådan vælger du den rigtige — Yderskov",
+    title: "Arkitekt i Aalborg 2026 – sådan vælger du den rigtige",
+    description: "Skal du bygge nyt eller bygge til i Aalborg i 2026? Få praktiske råd til, hvordan du vælger den rigtige arkitekt til dit projekt og dit budget.",
+    date: "01 / 03 / 2026",
+    cat: "Arkitekt & proces",
+    catKey: "arkitekt",
+    lead: "At bygge nyt hus eller en stor tilbygning er en af de største økonomiske beslutninger i livet. Derfor er valget af den rigtige arkitekt afgørende. I 2026 handler det ikke kun om at finde en tegner – det handler om at finde en samarbejdspartner, der forstår lokalplaner, byggeøkonomi og dine drømme.",
+    sections: [
+      {
+        heading: "Hvorfor vælge en lokal arkitekt i Aalborg?",
+        paragraphs: [
+          "En lokal arkitekt i Aalborg kender Aalborg Kommunes byggesagsbehandling og lokalplanernes særlige krav i områder som Hasseris, Vestbjerg, Nørholm og Gug. Det sparer tid og minimerer risikoen for afslag på byggetilladelsen.",
+          "Derudover har en lokal tegnestue i Aalborg et stærkt netværk af lokale ingeniører, landinspektører og entreprenører, hvilket sikrer en glidende proces.",
+        ],
+      },
+      {
+        heading: "Kemien skal passe fra start",
+        paragraphs: [
+          "Byggeri er en personlig sag, og du skal arbejde tæt sammen med din arkitekt i mange måneder. Vælg en tegnestue, hvor du ikke bare er et sagsnummer, men hvor der lyttes til dine behov og hverdagens funktioner.",
+          "Hos Arkitekttegnestuen Yderskov tilbyder vi altid et gratis og uforpligtende første møde. Det giver os mulighed for at hilse på hinanden og afklare, om vi er det rigtige match til din byggedrøm. Du kan læse mere [om tegnestuen](/om) eller se vores [priser](/priser).",
+        ],
+      },
+      {
+        heading: "Gennemskuelig økonomi og fast pris",
+        paragraphs: [
+          "Mange frygter, at arkitektregningen løber løbsk. Spørg derfor ind til prisstrukturen med det samme. Tilbydes der fast pris, eller afregnes der på timebasis?",
+          "Vi mener, at tryghed i byggeøkonomien er afgørende. Derfor arbejder vi med faste priser på vores ydelser, så du kender dine omkostninger fra dag ét og undgår ubehagelige overraskelser.",
+        ],
+      },
+      {
+        heading: "Referencer og erfaring",
+        paragraphs: [
+          "Kig på arkitektens tidligere projekter. Passer stilen til det, du ønsker? Uanset om du drømmer om en funkisvilla, et klassisk sommerhus eller en moderne tilbygning, skal arkitekten have erfaring med lignende opgaver.",
+          "Med 25 års erfaring i Aalborg og Nordjylland har vi prøvet det meste – lige fra komplicerede grunde med fredningslinjer til arkitekttegnede villaer og sommerhuse.",
+        ],
+      },
+      {
+        heading: "Tag en uforpligtende snak",
+        paragraphs: [
+          "Det bedste første skridt er altid en samtale. Ring til os på 29 72 34 27, skriv til cy@yderskov.com, eller læs mere [om tegnestuen](/om) for at lære os bedre at kende.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Se vores priser", href: "/priser" },
+      { label: "Læs om tegnestuen", href: "/om" },
+      { label: "Læs om tegnestuen i Aalborg", href: "/arkitekt-aalborg" },
+    ],
+  },
+  {
     slug: "laengehus",
     metaTitle: "Hvordan planlægger man et længehus? — Yderskov Arkitekter",
     title: "Hvordan planlægger man et længehus?",
