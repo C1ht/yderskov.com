@@ -1999,7 +1999,7 @@ export const posts: BlogPost[] = [
   {
     slug: "villa-til-familien",
     metaTitle: "Villa til familien — Arkitekt Yderskov",
-    title: "Sådan bygger du en villa der passer til familien – også om 20 år.",
+    title: "Sådan bygger du i 2026 en villa der passer til familien – også om 20 år.",
     description: "Når du bygger ny villa som børnefamilie, er det fristende at fokusere på behovene her og nu. Men en god arkitekt tænker også 10 og 20 år frem.",
     date: "16 / 01 / 2026",
     cat: "Villa & boligdesign",

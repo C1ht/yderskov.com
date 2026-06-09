@@ -227,7 +227,7 @@ const posts: Post[] = [
     date: "16 / 01 / 2026",
     cat: "Villa & boligdesign",
     catKey: "villa",
-    title: "Sådan bygger du en villa der passer til familien – også om 20 år.",
+    title: "Sådan bygger du i 2026 en villa der passer til familien – også om 20 år.",
     excerpt: "Når du bygger ny villa som børnefamilie, er det fristende at fokusere på behovene her og nu. Men en god arkitekt tænker også 10 og 20 år frem.",
   },
   {
