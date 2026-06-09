@@ -167,6 +167,14 @@ const posts: Post[] = [
     excerpt: "En stor terrasse kræver god planlægning for at fungere optimalt. Her gennemgår vi de vigtigste overvejelser — fra placering og materialer til havebyggeri og uderum.",
   },
   {
+    href: "/blog/byggetilladelse-2026-regler",
+    date: "15 / 03 / 2026",
+    cat: "Arkitekt & proces",
+    catKey: "arkitekt",
+    title: "Byggetilladelse 2026 – regler du SKAL kende",
+    excerpt: "Skal du bygge nyt, bygge til eller om i 2026? Her gennemgår vi de vigtigste regler og krav for ansøgning om byggetilladelse og byggeret.",
+  },
+  {
     href: "/blog/arkitekt-aalborg-valg-2026",
     date: "01 / 03 / 2026",
     cat: "Arkitekt & proces",

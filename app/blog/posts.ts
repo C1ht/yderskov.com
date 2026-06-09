@@ -1600,6 +1600,57 @@ export const posts: BlogPost[] = [
     ],
   },
   {
+    slug: "byggetilladelse-2026-regler",
+    metaTitle: "Byggetilladelse 2026 – regler du SKAL kende — Yderskov",
+    title: "Byggetilladelse 2026 – regler du SKAL kende",
+    description: "Skal du bygge nyt, bygge til eller om i 2026? Her gennemgår vi de vigtigste regler og krav for ansøgning om byggetilladelse og byggeret.",
+    date: "15 / 03 / 2026",
+    cat: "Arkitekt & proces",
+    catKey: "arkitekt",
+    lead: "Drømmer du om at bygge nyt, lave en tilbygning eller ændre din boligs anvendelse? Så kommer du ikke uden om en byggetilladelse. I 2026 er reglerne i Bygningsreglementet (BR18) fortsat stramme, og kommunerne stiller store krav til din dokumentation. Her får du et overblik over de vigtigste regler, du skal kende, før du går i gang.",
+    sections: [
+      {
+        heading: "Byggeret vs. helhedsvurdering",
+        paragraphs: [
+          "Hvis dit byggeprojekt overholder alle bestemmelser om bebyggelsesprocent, højdeforhold, afstand til skel og lokalplaner, har du såkaldt \"byggeret\". Det betyder, at kommunen som udgangspunkt skal godkende dit byggeri.",
+          "Hvis dit projekt afviger fra disse standardregler (f.eks. ved at bygge tættere på skel eller højere end tilladt), skal kommunen foretage en \"helhedsvurdering\". Dette tager længere tid, kræver naboorientering og kan ende med et afslag.",
+        ],
+      },
+      {
+        heading: "Bebyggelsesprocenten sætter grænsen",
+        paragraphs: [
+          "Bebyggelsesprocenten bestemmer, hvor mange kvadratmeter du må bygge i forhold til din grunds størrelse. For fritliggende enfamiliehuse er standarden typisk 30%, mens den for sommerhuse er 15%.",
+          "Husk, at visse sekundære bygninger som carporte, udhuse og overdækkede terrasser tæller med i regnestykket, hvis det samlede areal af disse overstiger 50 m².",
+        ],
+      },
+      {
+        heading: "Brand- og konstruktionsklasser",
+        paragraphs: [
+          "Siden indførelsen af den certificerede statiker- og brandrådgiverordning skal alt byggeri indplaceres i brandklasser og konstruktionsklasser. Fritliggende enfamiliehuse falder heldigvis typisk i Konstruktionsklasse 1 (KK1) og Brandklasse 1 (BK1), hvilket gør processen enklere.",
+          "Hvis du bygger tættere end 2,5 meter på skel eller i flere etager, kan dit byggeri dog blive indplaceret i en højere klasse, hvilket kræver en certificeret rådgiver og øger omkostningerne markant.",
+        ],
+      },
+      {
+        heading: "Dokumentation er nøglen til hurtig sagsbehandling",
+        paragraphs: [
+          "En ansøgning om byggetilladelse sendes digitalt via Byg og Miljø. Kommunen behandler kun din sag, hvis al dokumentation er komplet. Det inkluderer situationsplan, plantegninger, facadetegninger, snittegninger, samt redegørelser for brand, fugt, ventilation og energiforbrug.",
+          "Mangelfuld dokumentation er den hyppigste årsag til lange ventetider. Som erfaren [arkitekt i Aalborg](/arkitekt-aalborg) og Nordjylland hjælper [tegnestuen](/om) dig med at udarbejde alt tegningsmateriale og dokumentation korrekt fra starten.",
+        ],
+      },
+      {
+        heading: "Start med en uforpligtende snak",
+        paragraphs: [
+          "Er du i tvivl om lokalplanen, eller om dit projekt kræver byggetilladelse? Du kan se mere [om vores priser](/priser) på myndighedsbehandling, eller kontakte os for et gratis, uforpligtende første møde. Ring til os på 29 72 34 27 eller skriv til cy@yderskov.com.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Se vores priser", href: "/priser" },
+      { label: "Læs om tegnestuen", href: "/om" },
+      { label: "Læs om tegnestuen i Aalborg", href: "/arkitekt-aalborg" },
+    ],
+  },
+  {
     slug: "arkitekt-aalborg-valg-2026",
     metaTitle: "Arkitekt i Aalborg 2026 – sådan vælger du den rigtige — Yderskov",
     title: "Arkitekt i Aalborg 2026 – sådan vælger du den rigtige",
