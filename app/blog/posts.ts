@@ -304,7 +304,7 @@ export const posts: BlogPost[] = [
   {
     slug: "sommerhus-sebbersund-snestorm",
     metaTitle: "Byggeri under snestorm leveret på blokvogn — Yderskov",
-    title: "Bygget under snestorm, leveret på blokvogn — case fra Sebbersund nær Aalborg ved Halkær Bredning.",
+    title: "Bygget under snestorm 2026, leveret på blokvogn — case fra Sebbersund nær Aalborg ved Halkær Bredning.",
     description: "Sommerhuset blev bygget som præfabrikerede elementer i en hal under snestorm, kørt til Sebbersund nær Aalborg på blokvogn og hejst på plads med kran. En case om vinterstrategi og udsigt over Halkær Bredning.",
     date: "08 / 05 / 2026",
     cat: "Cases fra praksis",
