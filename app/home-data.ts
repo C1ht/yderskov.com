@@ -34,8 +34,8 @@ export const processSteps = [
   { num: "02", title: "Skitseforslag & 3D", desc: "Vi udarbejder de første skitser med planløsninger og situationsplan. I får en 3D-visualisering af huset og et realistisk prisoverslag." },
   { num: "03", title: "Endeligt myndighedsprojekt", desc: "Når skitserne er godkendt, tegner og projekterer vi det fulde myndighedsprojekt med alle tekniske tegninger og snit." },
   { num: "04", title: "Byggetilladelse & Fast pris", desc: "Vi håndterer hele ansøgningen hos kommunen. Inden vi går i jorden, underskriver vi en fast, bindende kontraktpris på hele byggeriet." },
-  { num: "05", title: "Byggefase med egne håndværkere", desc: "Vi tager det fulde totalentrepriseansvar. Vores egne faste murer- og tømrerhold opfører huset under tæt tilsyn fra tegnestuen." },
-  { num: "06", title: "Nøglefærdig aflevering", desc: "Efter en grundig fælles gennemgang afleverer vi nøglerne til et komplet rengjort, fejlfrit og indflytningsklart drømmehjem." },
+  { num: "05", title: "Byggefase med egne håndværkere", desc: "Vores egne faste murer- og tømrerhold opfører huset under tæt tilsyn fra tegnestuen." },
+  { num: "06", title: "Nøglefærdig aflevering", desc: "Efter en grundig fælles gennemgang afleverer vi nøglerne." },
 ];
 
 export const blogPosts = [

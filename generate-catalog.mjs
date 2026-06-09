@@ -428,14 +428,14 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
       <div class="proc-step-num-box">05</div>
       <div class="proc-step-content">
         <h3 class="proc-step-title">Byggefase med egne håndværkere</h3>
-        <p class="proc-step-desc">Vi tager det fulde totalentrepriseansvar. Vores egne faste murer- og tømrerhold opfører huset. Vi koordinerer og kvalitetssikrer hele forløbet fra start til aflevering.</p>
+        <p class="proc-step-desc">Vores egne faste murer- og tømrerhold opfører huset. Vi koordinerer og kvalitetssikrer hele forløbet fra start til aflevering.</p>
       </div>
     </div>
     <div class="proc-step">
       <div class="proc-step-num-box">06</div>
       <div class="proc-step-content">
         <h3 class="proc-step-title">Nøglefærdig aflevering</h3>
-        <p class="proc-step-desc">Efter endt byggeri foretager vi en grundig fælles gennemgang af huset. I får overdraget nøglerne til et rengjort, fejlfrit og indflytningsklart drømmehjem.</p>
+        <p class="proc-step-desc">Efter endt byggeri foretager vi en grundig fælles gennemgang af huset.</p>
       </div>
     </div>
   </div>
