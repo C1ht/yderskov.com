@@ -44,7 +44,10 @@ export default function Footer() {
       </div>
 
       <div className="fbot">
-        <p>Copyright © 2024 Arkitekttegnestuen Yderskov ApS · CVR: 39391813</p>
+        <div>
+          <p>Copyright © 2024 Arkitekttegnestuen Yderskov ApS · CVR: 39391813</p>
+          <p style={{ marginTop: "0.25rem", opacity: 0.65 }}>Der tages forbehold for prisændringer og trykfejl</p>
+        </div>
         <p>LG-Revision, Nørresundby</p>
       </div>
     </footer>
