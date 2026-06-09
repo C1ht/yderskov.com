@@ -18,7 +18,10 @@ function svgB64(src) {
   return 'data:image/svg+xml;base64,' + fs.readFileSync(full).toString('base64');
 }
 
-const projects = [
+const logoData = svgB64('/images/logofiles/SVG/Arkitect 5.svg');
+const iconData = svgB64('/images/logofiles/SVG/Arkitect 5icon.svg');
+
+const villaProjects = [
   {
     num: 1,
     title: 'Funkis i træ, glas og eternit',
@@ -77,7 +80,7 @@ const projects = [
     location: 'Hjørring, Nordjylland',
     size: '215 m² bolig · 42 m² garage',
     year: '2022',
-    description: 'Klassisk villa med traditionelt formsprog, symmetrisk facade og omhyggeligt udvalgte materialer. Huset er placeret i et etableret villakvarter med god forbindelse til naturen. Familien ønskede et klassisk udtryk med moderne funktionalitet indvendigt — store, lyse opholdsrum med direkte udgang til det ugenerede gårdhavemiljø. Materialerne er valgt ud fra et ønske om minimal vedligeholdelse.',
+    description: 'Klassisk villa med traditionelt formsprog, symmetrisk facade og omhyggeligt udvalgte materialer. Huset er placeret i et etableret villakvarter med god forbindelse to naturen. Familien ønskede et klassisk udtryk med moderne funktionalitet indvendigt — store, lyse opholdsrum med direkte udgang til det ugenerede gårdhavemiljø. Materialerne er valgt ud fra et ønske om minimal vedligeholdelse.',
     images: [
       '/images/Gartnerhaven/Hjørring-garnterhaven-ny-villa.webp',
       '/images/Gartnerhaven/Hjørring-gartnehaven-ny-villa-haveside.webp',
@@ -99,22 +102,137 @@ const projects = [
   },
 ];
 
-console.log('Pre-processing images...');
-const coverImg = await imgB64('/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp', 1200);
-const logoData = svgB64('/images/logofiles/SVG/Arkitect 5.svg');
-const iconData = svgB64('/images/logofiles/SVG/Arkitect 5icon.svg');
+const sommerhusProjects = [
+  {
+    num: 1,
+    title: 'Sommerhus med store vinduespartier',
+    location: 'Hals, Nordjylland',
+    size: '95 m² fritidshus · stor terrasse',
+    year: '2022',
+    description: 'Lyst og indbydende sommerhus i Hals med store vinduespartier, der inviterer naturen helt indenfor. Sommerhuset er indrettet med fokus på fællesskab, åben forbindelse mellem køkken-alrum og stue, samt direkte udgang til et stort, ugeneret terrasseområde.',
+    images: [
+      '/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp',
+      '/images/Torndalsvej/Hals-Torndalsvej-køkken.webp',
+      '/images/Torndalsvej/Hals-Torndalsvej-stue.webp',
+    ],
+  },
+  {
+    num: 2,
+    title: 'Sommerhus til udsigtsgrund',
+    location: 'Løkken, Nordjylland',
+    size: '110 m² fritidshus · klitgrund',
+    year: '2020',
+    description: 'Klassisk sommerhus beliggende på en kuperet klitgrund i Løkken med storslået udsigt over landskabet og Vesterhavet. Huset er nænsomt tilpasset terrænet og råder over en ugeneret solterrasse med udendørs bruser.',
+    images: [
+      '/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-indkørsel.webp',
+      '/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-terrasse.webp',
+      '/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej--udebruser.webp',
+    ],
+  },
+  {
+    num: 3,
+    title: 'Sommerhus med indendørs pool',
+    location: 'Ålbæk, Nordjylland',
+    size: '185 m² wellness-hus · pool & spa',
+    year: '2023',
+    description: 'Luksussommerhus i Ålbæk med indendørs swimmingpool, aktivitetsrum med billard og moderne køkken-alrum. Sommerhuset er tegnet til at rumme flere generationer og er ideelt til både familiehygge og udlejning.',
+    images: [
+      '/images/Løvevej/Ålbæk-poolhus-terrasse.webp',
+      '/images/Løvevej/Ålbæk-poolhus-pool.webp',
+      '/images/Løvevej/Ålbæk-poolhus-køkken.webp',
+    ],
+  },
+];
 
-// Pre-process project images
-for (const p of projects) {
-  p.img0 = await imgB64(p.images[0], 1000);
-  p.img1 = await imgB64(p.images[1], 520);
-  p.img2 = p.images[2] ? await imgB64(p.images[2], 520) : null;
-  console.log(`  processed project ${p.num}: ${p.title}`);
-}
+const tilbygningProjects = [
+  {
+    num: 1,
+    title: 'Modernisering af 50\'er-villa',
+    location: 'Brønderslev, Nordjylland',
+    size: 'Komplet ombygning · nyt køkken-alrum',
+    year: '2023',
+    description: 'Gennemgribende modernisering og ombygning af en 1950\'er-villa i Brønderslev. Huset er blevet åbnet op med store skydedørspartier mod haven og et nyt, lyst køkken-alrum, hvilket har givet boligen et nutidigt arkitektonisk løft.',
+    images: [
+      '/images/Godthåbsvej/Brønderslev-ombygning-efter-3.webp',
+      '/images/Godthåbsvej/Brønderslev-ombygning-efter-2.webp',
+      '/images/Godthåbsvej/Brønderslev-ombygning-efter-1.webp',
+    ],
+  },
+  {
+    num: 2,
+    title: 'Villa med lys tilbygning',
+    location: 'Hasseris, Aalborg',
+    size: '45 m² tilbygning · terrasse',
+    year: '2021',
+    description: 'Moderne tilbygning i Hasseris, der udvider den eksisterende murstensvilla med et lyst opholdsrum. Store vinduespartier og en overdækket terrasse skaber en glidende overgang til haven.',
+    images: [
+      '/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-terrasse.webp',
+      '/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp',
+      '/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-vindue.webp',
+    ],
+  },
+  {
+    num: 3,
+    title: 'Tilbygning & træterrasse',
+    location: 'Aalborg, Nordjylland',
+    size: '35 m² tilbygning · overdækning',
+    year: '2022',
+    description: 'Tegnestuens bud på en elegant tilbygning i Aalborg med en stor træterrasse, der smelter sammen med plænen. Tilbygningen tilfører boligen vigtige kvadratmeter og optimerer lysindfaldet.',
+    images: [
+      '/images/Neptunvej/Aalborg-neptunvej-tilbygning-terrasse.webp',
+      '/images/Neptunvej/Aalborg-neptunvej-tilbygning-terrasse-og-plæne.webp',
+      '/images/Neptunvej/Aalborg-neptunvej-tilbygning.haveside.webp',
+    ],
+  },
+  {
+    num: 4,
+    title: 'Ombygning af 70\'er-villa',
+    location: 'Hasseris, Aalborg',
+    size: 'Facaderenovering · ny planløsning',
+    year: '2022',
+    description: 'Renovering og ombygning af en klassisk 1970\'er-villa i Hasseris. Facaden is opdateret til et rent, moderne look, og planløsningen er optimeret til familiens behov.',
+    images: [
+      '/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-vejside.webp',
+      '/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-haveside.webp',
+      '/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-terrassearbejde.webp',
+    ],
+  },
+  {
+    num: 5,
+    title: 'Totalrenovering af parcelhus',
+    location: 'Brønderslev, Nordjylland',
+    size: 'Komplet ombygning · energirenovering',
+    year: '2023',
+    description: 'Ombygning og totalrenovering af et ældre, traditionelt parcelhus i Brønderslev. Boligen er transformeret til et energivenligt, lyst og moderne hjem med en stærk visuel profil.',
+    images: [
+      '/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-vejside.webp',
+      '/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-indkørsel.webp',
+      '/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-haveside.webp',
+    ],
+  },
+];
 
-const tocStartPage = 4;
+console.log('Launching browser...');
+const browser = await puppeteer.launch({
+  executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe',
+  headless: true,
+  args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-gpu'],
+});
 
-const html = `<!DOCTYPE html>
+async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProjects) {
+  console.log(`Generating catalog for ${name}...`);
+  const coverImg = await imgB64(coverImgSrc, 1200);
+
+  // Pre-process project images
+  for (const p of catalogProjects) {
+    p.img0 = await imgB64(p.images[0], 1000);
+    p.img1 = await imgB64(p.images[1], 520);
+    p.img2 = p.images[2] ? await imgB64(p.images[2], 520) : null;
+  }
+
+  const tocStartPage = 4;
+
+  const html = `<!DOCTYPE html>
 <html lang="da">
 <head>
 <meta charset="UTF-8">
@@ -208,8 +326,8 @@ const html = `<!DOCTYPE html>
     <img class="cover-logo" src="${logoData}" />
     <div class="cover-center">
       <div class="cover-label">Arkitekttegnestuen Yderskov · Projektkatalog</div>
-      <div class="cover-title">Villaer</div>
-      <div class="cover-sub">Arkitekttegnede villaer i Danmark</div>
+      <div class="cover-title">${coverTitle}</div>
+      <div class="cover-sub">${coverSub}</div>
     </div>
     <div class="cover-bottom"><div class="cover-site">yderskov.com</div></div>
   </div>
@@ -217,7 +335,7 @@ const html = `<!DOCTYPE html>
 
 <!-- TOC -->
 <div class="page toc-page">
-  <div class="toc-eyebrow">Katalog — villaer</div>
+  <div class="toc-eyebrow">Katalog — ${name}</div>
   <div class="toc-heading">Indholdsfortegnelse</div>
   <div class="toc-list">
     <div class="toc-item">
@@ -226,7 +344,7 @@ const html = `<!DOCTYPE html>
       <span class="toc-loc">Byggeforløbet</span>
       <span class="toc-pg">3</span>
     </div>
-    ${projects.map((p, i) => `
+    ${catalogProjects.map((p, i) => `
     <div class="toc-item">
       <span class="toc-num">0${p.num}</span>
       <span class="toc-name">${p.title}</span>
@@ -295,7 +413,7 @@ const html = `<!DOCTYPE html>
 </div>
 
 <!-- PROJECTS -->
-${projects.map((p, i) => `
+${catalogProjects.map((p, i) => `
 <div class="page proj-page">
   <div class="proj-top">
     <div class="proj-eyebrow">Projekt 0${p.num} &nbsp;·&nbsp; ${p.location}</div>
@@ -330,29 +448,34 @@ ${projects.map((p, i) => `
 </body>
 </html>`;
 
-const tmpPath = path.resolve('tmp-catalog.html');
-fs.writeFileSync(tmpPath, html, 'utf8');
+  const tmpPath = path.resolve(`tmp-catalog-${name}.html`);
+  fs.writeFileSync(tmpPath, html, 'utf8');
 
-console.log('Launching browser...');
-const browser = await puppeteer.launch({
-  executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe',
-  headless: true,
-  args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-gpu'],
-});
+  const page = await browser.newPage();
+  await page.goto('file:///' + tmpPath.replace(/\\/g, '/'), { waitUntil: 'networkidle0', timeout: 30000 });
+  await new Promise(r => setTimeout(r, 1500));
 
-const page = await browser.newPage();
-await page.goto('file:///' + tmpPath.replace(/\\/g, '/'), { waitUntil: 'networkidle0', timeout: 30000 });
-await new Promise(r => setTimeout(r, 1500));
+  await page.pdf({
+    path: `public/katalog-${name}.pdf`,
+    format: 'A4',
+    printBackground: true,
+    margin: { top: 0, right: 0, bottom: 0, left: 0 },
+  });
 
-await page.pdf({
-  path: 'public/katalog-villaer.pdf',
-  format: 'A4',
-  printBackground: true,
-  margin: { top: 0, right: 0, bottom: 0, left: 0 },
-});
+  await page.close();
+  fs.unlinkSync(tmpPath);
 
-await browser.close();
-fs.unlinkSync(tmpPath);
+  const size = fs.statSync(`public/katalog-${name}.pdf`).size;
+  console.log(`Done generating ${name}! PDF size: ${(size / 1024 / 1024).toFixed(1)} MB`);
+}
 
-const size = fs.statSync('public/katalog-villaer.pdf').size;
-console.log(`Done! PDF: ${(size / 1024 / 1024).toFixed(1)} MB`);
+try {
+  await runGenerator('villaer', 'Villaer', 'Arkitekttegnede villaer i Danmark', '/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp', villaProjects);
+  await runGenerator('sommerhuse', 'Sommerhuse', 'Arkitekttegnede sommerhuse i Danmark', '/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp', sommerhusProjects);
+  await runGenerator('tilbygninger', 'Tilbygninger', 'Arkitekttegnede om- og tilbygninger', '/images/Godthåbsvej/Brønderslev-ombygning-efter-3.webp', tilbygningProjects);
+} catch (err) {
+  console.error('An error occurred during generation:', err);
+} finally {
+  await browser.close();
+  console.log('Browser closed.');
+}

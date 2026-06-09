@@ -168,6 +168,40 @@ export default function SommerhusePage() {
         </section>
       ))}
 
+      {/* Catalog */}
+      <section className="s s-off">
+        <div className="s-inner">
+          <div className="text-2col">
+            <div>
+              <span className="eyebrow">Projektkatalog</span>
+              <h2 className="sec-hed">Download vores<br />sommerhus-katalog.</h2>
+            </div>
+            <div>
+              <p className="body-p">
+                Se alle vores sommerhusprojekter samlet i ét katalog — med billeder, beskrivelser og fakta om hvert projekt. Kataloget er klar til print.
+              </p>
+              <div style={{ display: "flex", gap: "1rem", marginTop: "1.5rem", flexWrap: "wrap" }}>
+                <a
+                  href="/katalog-sommerhuse.pdf"
+                  download="Yderskov-Arkitekter-Sommerhus-katalog.pdf"
+                  style={{ display: "inline-block", padding: "0.75rem 1.5rem", background: "#161616", color: "#fff", fontWeight: 500, fontSize: "0.875rem", letterSpacing: "0.04em", textDecoration: "none" }}
+                >
+                  Download katalog
+                </a>
+                <a
+                  href="/katalog-sommerhuse.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ display: "inline-block", padding: "0.75rem 1.5rem", border: "1px solid #161616", color: "#161616", fontWeight: 500, fontSize: "0.875rem", letterSpacing: "0.04em", textDecoration: "none" }}
+                >
+                  Vis katalog
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <div className="stats-bg">
         <div className="stats-inner">
           <div className="stat"><div className="stat-num">12.000<sup> kr.</sup></div><div className="stat-lbl">Fra pr. m²</div></div>
