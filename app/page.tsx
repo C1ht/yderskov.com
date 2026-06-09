@@ -133,7 +133,7 @@ export default function HomePage() {
           <div className="text-2col">
             <div>
               <span className="eyebrow">Om tegnestuen</span>
-              <h1 className="sec-hed">Arkitekt i Aalborg –<br />25 års erfaring med kvalitet og økonomisk overblik</h1>
+              <h1 className="sec-hed">Arkitekt og tegnestue<br />i Aalborg, Nordjylland</h1>
               <div className="about-tags" style={{ marginTop: "1.5rem" }}>
                 <Link href="/kontakt" className="tag tag-dark">Kontakt os →</Link>
                 <Link href="/priser" className="tag">Se priser</Link>
@@ -142,7 +142,7 @@ export default function HomePage() {
             </div>
             <div>
               <p className="body-intro">
-                Hvad koster en arkitekt i Aalborg? Det spørgsmål stiller mange – og hos Arkitekttegnestuen Yderskov får du altid et ærligt svar fra dag ét. Vi har hjulpet aalborggensere med byggeri i 25 år, og gennemskuelig økonomi er ikke bare et løfte – det er måden vi arbejder på.
+                <strong>Arkitekt i Aalborg – 25 års erfaring med kvalitet og økonomisk overblik.</strong> Hvad koster en arkitekt i Aalborg? Det spørgsmål stiller mange – og hos Arkitekttegnestuen Yderskov får du altid et ærligt svar fra dag ét. Vi har hjulpet aalborggensere med byggeri i 25 år, og gennemskuelig økonomi er ikke bare et løfte – det er måden vi arbejder på.
               </p>
               <p className="body-p" style={{ marginTop: "1.5rem", fontWeight: "bold" }}>
                 Tilbygning eller ombygning i Aalborg?
