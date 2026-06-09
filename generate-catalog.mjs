@@ -326,6 +326,7 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   .back-info { text-align:center; }
   .back-info p { font-size:9.5pt; font-weight:300; color:${printFriendly ? '#555' : 'rgba(255,255,255,0.55)'}; line-height:2.1; }
   .back-cvr { margin-top:11mm; font-size:7.5pt; color:${printFriendly ? '#bbb' : 'rgba(255,255,255,0.28)'}; letter-spacing:0.12em; }
+  .back-disclaimer { margin-top:3mm; font-size:7pt; color:${printFriendly ? '#ccc' : 'rgba(255,255,255,0.2)'}; font-weight:300; }
 </style>
 </head>
 <body>
@@ -477,6 +478,7 @@ ${catalogProjects.map((p, i) => `
     <p>Danserhøj 38, 9700 Brønderslev</p>
   </div>
   <div class="back-cvr">CVR: 39391813</div>
+  <div class="back-disclaimer">Der tages forbehold for prisændringer og trykfejl</div>
 </div>
 
 </body>
