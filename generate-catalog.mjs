@@ -355,7 +355,7 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     <p>Brug dette katalog som et moodboard. Tag noter, sæt krydser ved de løsninger, I kan lide, og tag kataloget med til vores første møde. Vi tilbyder altid et <strong>gratis og helt uforpligtende idémøde</strong> direkte på jeres byggegrund, hvor vi sammen kan drøfte mulighederne for at realisere jeres drømmehjem.</p>
     <p>Vi glæder os til at høre om jeres tanker.</p>
     <div class="intro-signature">
-      Christian Yderskov<br />
+      Chris Yderskov<br />
       <span>Indehaver &amp; Arkitekt, Yderskov Arkitekter</span>
     </div>
   </div>
