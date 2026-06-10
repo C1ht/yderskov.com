@@ -280,6 +280,9 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   .intro-signature { margin-top:8mm; font-size:9.5pt; font-weight:500; color:#111; line-height:1.4; }
   .intro-signature span { font-weight:300; color:#777; }
   .intro-page-num { position:absolute; bottom:5mm; right:18mm; font-size:7pt; color:#ccc; }
+  .intro-footer { margin-top:auto; padding-top:6mm; border-top:0.3pt solid #ececec; display:flex; align-items:center; gap:4mm; }
+  .intro-footer-logo { height:6mm; opacity:0.15; }
+  .intro-footer-text { font-size:7.5pt; color:#bbb; font-weight:300; }
 
   /* TOC */
   .toc-page { padding:20mm 18mm; display:flex; flex-direction:column; }
@@ -362,12 +365,12 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   <div class="intro-heading">God læse- og kikkelyst</div>
   <div class="intro-text">
     <p>Drømmen om at bygge nyt, bygge til eller renovere starter altid med en god idé og en sund portion inspiration. Dette katalog er skabt som et inspirationsværktøj til jer, der går med byggeplaner. Her kan I se et udvalg af vores afsluttede projekter, studere plantegninger og lade jer inspirere af forskellige arkitektoniske former, materialevalg og lysindfald.</p>
-    <p>Hos <strong>Yderskov Arkitekter</strong> har vi mere end 15 års erfaring med at tegne og opføre unikke huse i hele Danmark. Vi har stået i spidsen for over 300 vellykkede byggerier – lige fra moderne funkisvillaer og naturskønne sommerhuse til funktionelle tilbygninger. Vores tegnestue adskiller sig ved at tilbyde en samlet proces med egne faste håndværkere, hvilket garanterer jer en tryg proces til en <strong>fast pris</strong> uden ubehagelige budgetskred.</p>
+    <p>Hos <strong>Arkitekttegnestuen Yderskov</strong> har vi mere end 55 års erfaring med byggeri. Vi har stået i spidsen for over 300 vellykkede byggerier – lige fra moderne funkisvillaer og naturskønne sommerhuse til funktionelle tilbygninger. Vores tegnestue adskiller sig ved at tilbyde en samlet proces med egne faste håndværkere, hvilket garanterer jer en tryg proces til en <strong>fast pris</strong> uden ubehagelige budgetskred.</p>
     <p>Brug dette katalog som et moodboard. Tag noter, sæt krydser ved de løsninger, I kan lide, og tag kataloget med til vores første møde. Vi tilbyder altid et <strong>gratis og helt uforpligtende idémøde</strong> direkte på jeres byggegrund, hvor vi sammen kan drøfte mulighederne for at realisere jeres drømmebyggeri.</p>
     <p>Vi glæder os til at høre om jeres tanker.</p>
     <div class="intro-signature">
       Chris Yderskov<br />
-      <span>Indehaver &amp; Arkitekt, Yderskov Arkitekter</span>
+      <span>Indehaver &amp; Arkitekt, Arkitekttegnestuen Yderskov</span>
     </div>
   </div>
   <div class="intro-footer">
@@ -419,35 +422,35 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
       <div class="proc-step-num-box">02</div>
       <div class="proc-step-content">
         <h3 class="proc-step-title">Skitseforslag</h3>
-        <p class="proc-step-desc">Vi udarbejder de første skitser med planløsninger, facader og situationsplan samt et realistisk prisoverslag på byggeriet.</p>
+        <p class="proc-step-desc">Vi udarbejder de første skitser med planløsninger, facader og situationsplan samt et prisskøn på byggeriet.</p>
       </div>
     </div>
     <div class="proc-step">
       <div class="proc-step-num-box">03</div>
       <div class="proc-step-content">
         <h3 class="proc-step-title">Endeligt myndighedsprojekt</h3>
-        <p class="proc-step-desc">Når skitserne er godkendt af jer, udarbejder vi det fulde myndighedsprojekt. Dette indeholder alle nødvendige tekniske tegninger, snit og beregninger til ansøgningen.</p>
+        <p class="proc-step-desc">Når skitserne er godkendt af jer, udarbejder vi det fulde myndighedsprojekt. Dette indeholder alle nødvendige tekniske tegninger, snit og beregninger til ansøgning om byggetilladelse.</p>
       </div>
     </div>
     <div class="proc-step">
       <div class="proc-step-num-box">04</div>
       <div class="proc-step-content">
-        <h3 class="proc-step-title">Byggetilladelse &amp; Fast pris</h3>
-        <p class="proc-step-desc">Vi styrer hele kommunens byggesagsbehandling til tilladelsen er i hus.</p>
+        <h3 class="proc-step-title">Byggetilladelse</h3>
+        <p class="proc-step-desc">Vi varetager al kommunikation med kommunen til byggetilladelsen er i hus.</p>
       </div>
     </div>
     <div class="proc-step">
       <div class="proc-step-num-box">05</div>
       <div class="proc-step-content">
-        <h3 class="proc-step-title">Byggefase med egne håndværkere</h3>
-        <p class="proc-step-desc">Vores egne faste murer- og tømrerhold opfører huset. Vi koordinerer og kvalitetssikrer hele forløbet fra start til aflevering.</p>
+        <h3 class="proc-step-title">Byggefase</h3>
+        <p class="proc-step-desc">Vores faste håndværkere beregner en pris på byggeriet og I det der passer jer. Huset opføres under tilsyn og økonomisk koordinering af os.</p>
       </div>
     </div>
     <div class="proc-step">
       <div class="proc-step-num-box">06</div>
       <div class="proc-step-content">
         <h3 class="proc-step-title">Nøglefærdig aflevering</h3>
-        <p class="proc-step-desc">Efter endt byggeri foretager vi en grundig fælles gennemgang af huset.</p>
+        <p class="proc-step-desc">Vi færdigmelder byggeriet hos kommunen og I kan tage det i brug.</p>
       </div>
     </div>
   </div>
