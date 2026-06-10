@@ -174,7 +174,7 @@ export default function HomePage() {
                 Mange vælger at bygge til eller om frem for at flytte. Det er ofte den klogeste investering – og med en lokal arkitekt nær Aalborg der kender kommunens regler og de lokale byggeforhold. Vi finder det bedste ud af din eksisterende bolig, uanset om det er et ekstra værelse, en ny tagetage, et åbent køkken-alrum eller en komplet ny planløsning - og uanset om du vil bygge i Aalborg eller København. Vi kommer over hele landet.
               </p>
               <p className="body-p" style={{ marginTop: "1.5rem", fontWeight: "bold" }}>
-                Nybyggeri af villa eller sommerhus nær Aalborg eller Vallensbæk?
+                Nybyggeri af villa eller sommerhus nær Aalborg eller <Link href="/arkitekt-sjaelland" className="text-link">Vallensbæk</Link>?
               </p>
               <p className="body-p">
                 Nordjylland byder på nogle af Danmarks smukkeste sommerhusområder – fra Jammerbugten til Mariagerfjord. Vi tegner dit drømmehus eller sommerhus tilpasset netop det sted, det skal stå – og holder dig orienteret om økonomi og fremdrift hele vejen. Ingen overraskelser.
