@@ -82,8 +82,8 @@ const villaProjects = [
     year: '2022',
     description: 'Klassisk villa med traditionelt formsprog, symmetrisk facade og omhyggeligt udvalgte materialer. Huset er placeret i et etableret villakvarter med god forbindelse til naturen. Familien ønskede et klassisk udtryk med moderne funktionalitet indvendigt — store, lyse opholdsrum med direkte udgang til det ugenerede gårdhavemiljø. Materialerne er valgt ud fra et ønske om minimal vedligeholdelse.',
     images: [
-      '/images/Gartnerhaven/Hjørring-garnterhaven-ny-villa.webp',
       '/images/Gartnerhaven/Hjørring-gartnehaven-ny-villa-haveside.webp',
+      '/images/Gartnerhaven/Hjørring-garnterhaven-ny-villa.webp',
       '/images/Gartnerhaven/Hjørring-gartnerhaven-indkørsel.webp',
     ],
   },
@@ -166,8 +166,8 @@ const tilbygningProjects = [
     year: '2021',
     description: 'Moderne tilbygning i Hasseris i Aalborg, der udvider den eksisterende murstensvilla med et lyst opholdsrum. Store vinduespartier og en overdækket terrasse skaber en glidende overgang til haven.',
     images: [
-      '/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-terrasse.webp',
       '/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp',
+      '/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-terrasse.webp',
       '/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-vindue.webp',
     ],
   },
@@ -192,8 +192,8 @@ const tilbygningProjects = [
     year: '2022',
     description: 'Renovering og ombygning af en klassisk 1970\'er-villa i Hasseris i Aalborg. Facaden er opdateret til et rent, moderne look, og planløsningen er optimeret til familiens behov.',
     images: [
-      '/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-vejside.webp',
       '/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-haveside.webp',
+      '/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-vejside.webp',
       '/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-terrassearbejde.webp',
     ],
   },
@@ -362,11 +362,11 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
 <!-- PRESENTATION -->
 <div class="page intro-page">
   <div class="intro-eyebrow">Velkommen · yderskov.com</div>
-  <div class="intro-heading">God læse- og kikkelyst</div>
+  <div class="intro-heading">Find inspiration til dit byggeri</div>
   <div class="intro-text">
-    <p>Drømmen om at bygge nyt, bygge til eller renovere starter altid med en god idé og en sund portion inspiration. Dette katalog er skabt som et inspirationsværktøj til jer, der går med byggeplaner. Her kan I se et udvalg af vores afsluttede projekter, studere plantegninger og lade jer inspirere af forskellige arkitektoniske former, materialevalg og lysindfald.</p>
-    <p>Hos <strong>Arkitekttegnestuen Yderskov</strong> har vi mere end 55 års erfaring med byggeri. Vi har stået i spidsen for over 300 vellykkede byggerier – lige fra moderne funkisvillaer og naturskønne sommerhuse til funktionelle tilbygninger. Vores tegnestue adskiller sig ved at tilbyde en samlet proces med egne faste håndværkere, hvilket garanterer jer en tryg proces til en <strong>fast pris</strong> uden ubehagelige budgetskred.</p>
-    <p>Brug dette katalog som et moodboard. Tag noter, sæt krydser ved de løsninger, I kan lide, og tag kataloget med til vores første møde. Vi tilbyder altid et <strong>gratis og helt uforpligtende idémøde</strong> direkte på jeres byggegrund, hvor vi sammen kan drøfte mulighederne for at realisere jeres drømmebyggeri.</p>
+    <p>Drømmen om at bygge nyt, bygge til eller renovere starter altid med en god idé og en portion inspiration. Dette katalog er skabt som et inspirationsværktøj til jer, der går med byggeplaner. Her kan I se et lille udvalg af vores afsluttede projekter, studere plantegninger og lade jer inspirere af forskellige arkitektoniske former, materialevalg og lysindfald.</p>
+    <p>Hos <strong>Arkitekttegnestuen Yderskov</strong> har vi mere end 55 års erfaring med at tegne og opføre unikke huse og byggerier i hele Danmark. Vi har stået i spidsen for over 300 vellykkede byggerier – lige fra moderne funkisvillaer og naturskønne sommerhuse til funktionelle tilbygninger. Vores tegnestue adskiller sig ved at tilbyde en samlet proces med faste håndværkere, hvilket giver jer en god byggeproces.</p>
+    <p>Brug dette katalog som et moodboard. Tag noter, sæt kryds ved de løsninger, I kan lide, og tag kataloget med til vores første møde. Vi tilbyder altid et <strong>gratis og helt uforpligtende idémøde</strong> f.eks. på jeres byggegrund, hvor vi sammen kan drøfte mulighederne for at realisere jeres drømmebyggeri.</p>
     <p>Vi glæder os til at høre om jeres tanker.</p>
     <div class="intro-signature">
       Chris Yderskov<br />
@@ -415,7 +415,7 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
       <div class="proc-step-num-box">01</div>
       <div class="proc-step-content">
         <h3 class="proc-step-title">Gratis idémøde på grunden</h3>
-        <p class="proc-step-desc">Vi mødes direkte på jeres byggegrund til en uforpligtende snak om jeres drømme, behov og budget. Vi vurderer her grundens potentiale, dagslysforhold og lokalplanens muligheder.</p>
+        <p class="proc-step-desc">Vi mødes f.eks. på jeres byggegrund til en gratis og uforpligtende snak om jeres planer, behov og budget. Vi vurderer her grundens potentiale, dagslysforhold og lokalplanens muligheder.</p>
       </div>
     </div>
     <div class="proc-step">
@@ -470,7 +470,6 @@ ${processedProjects.map((p, idx) => {
     htmlBlock += `
 <div class="page separator-page" style="background:${printFriendly ? '#fff' : '#161616'}; display:flex; flex-direction:column; align-items:center; justify-content:center; ${printFriendly ? 'border: 1px solid #ececec;' : ''}">
   <div style="text-align:center;">
-    <div style="font-size:9pt; font-weight:300; letter-spacing:0.25em; color:${printFriendly ? '#999' : 'rgba(255,255,255,0.5)'}; text-transform:uppercase; margin-bottom:6mm;">Afsnit</div>
     <div style="font-size:36pt; font-weight:500; color:${printFriendly ? '#111' : '#fff'}; letter-spacing:-0.02em; line-height:1.2; text-transform:lowercase; text-align:center; font-family:'Helvetica Neue', Arial, sans-serif;">${sectionTitle}</div>
   </div>
 </div>
