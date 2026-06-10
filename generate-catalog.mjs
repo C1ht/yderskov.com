@@ -157,6 +157,11 @@ const tilbygningProjects = [
       '/images/Godthåbsvej/Brønderslev-ombygning-efter-2.webp',
       '/images/Godthåbsvej/Brønderslev-ombygning-efter-1.webp',
     ],
+    beforeImages: [
+      '/images/Godthåbsvej/Brønderslev-ombygning-foer-1.webp',
+      '/images/Godthåbsvej/Brønderslev-ombygning-foer-2.webp',
+      '/images/Godthåbsvej/Brønderslev-ombygning-foer-3.webp',
+    ],
   },
   {
     num: 2,
@@ -205,9 +210,10 @@ const tilbygningProjects = [
     year: '2023',
     description: 'Ombygning og totalrenovering af et ældre, traditionelt parcelhus i Brønderslev. Boligen er transformeret til et energivenligt, lyst og moderne hjem med en stærk visuel profil.',
     images: [
-      '/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-vejside.webp',
       '/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-indkørsel.webp',
+      '/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-vejside.webp',
       '/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-haveside.webp',
+      '/images/Emils hus Olufsgade/Brønderslev-olufsgade-foer-vejside.webp',
     ],
   },
 ];
@@ -228,6 +234,12 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     p.img0 = await imgB64(p.images[0], 1000);
     p.img1 = await imgB64(p.images[1], 520);
     p.img2 = p.images[2] ? await imgB64(p.images[2], 520) : null;
+    p.img3 = p.images[3] ? await imgB64(p.images[3], 520) : null;
+    if (p.beforeImages && p.beforeImages.length > 0) {
+      p.bimg0 = await imgB64(p.beforeImages[0], 1000);
+      p.bimg1 = p.beforeImages[1] ? await imgB64(p.beforeImages[1], 520) : null;
+      p.bimg2 = p.beforeImages[2] ? await imgB64(p.beforeImages[2], 520) : null;
+    }
   }
 
   let currentPage = 5;
@@ -240,6 +252,10 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     }
     p.pageNumber = currentPage;
     currentPage++;
+    if (p.beforeImages && p.beforeImages.length > 0) {
+      p.beforePageNumber = currentPage;
+      currentPage++; // Before-images facing page
+    }
     processedProjects.push(p);
   }
 
@@ -476,6 +492,7 @@ ${processedProjects.map((p, idx) => {
 `;
   }
 
+
   htmlBlock += `
 <div class="page proj-page">
   <div class="proj-top">
@@ -489,11 +506,33 @@ ${processedProjects.map((p, idx) => {
     <div class="proj-img-row">
       <div><img src="${p.img1}" /></div>
       ${p.img2 ? `<div><img src="${p.img2}" /></div>` : ''}
+      ${p.img3 ? `<div><img src="${p.img3}" /></div>` : ''}
     </div>
   </div>
   <div class="proj-page-num">${p.pageNumber}</div>
 </div>
 `;
+
+  // Render before-images facing page if present
+  if (p.beforeImages && p.beforeImages.length > 0) {
+    htmlBlock += `
+<div class="page proj-page">
+  <div class="proj-top">
+    <div class="proj-eyebrow">Før &nbsp;·&nbsp; ${p.title}</div>
+    <div class="proj-title" style="font-size:16pt;">Sådan så det ud før</div>
+  </div>
+  <div class="proj-imgs">
+    <div class="proj-img-main"><img src="${p.bimg0}" /></div>
+    <div class="proj-img-row">
+      ${p.bimg1 ? `<div><img src="${p.bimg1}" /></div>` : ''}
+      ${p.bimg2 ? `<div><img src="${p.bimg2}" /></div>` : ''}
+    </div>
+  </div>
+  <div class="proj-page-num">${p.beforePageNumber}</div>
+</div>
+`;
+  }
+
   return htmlBlock;
 }).join('')}
 
