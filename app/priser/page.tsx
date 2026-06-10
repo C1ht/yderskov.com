@@ -111,23 +111,6 @@ export default function PriserPage() {
               </p>
               <div className="about-tags" style={{ marginTop: "1.5rem" }}>
                 <Link href="/kontakt" className="tag tag-dark">Book gratis møde →</Link>
-                <a
-                  href="/katalog-villaer.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="tag tag-dark"
-                  style={{ display: "inline-block", textDecoration: "none" }}
-                >
-                  Åbn inspirationskatalog (PDF)
-                </a>
-                <a
-                  href="/katalog-villaer-print.pdf"
-                  download="Yderskov-Arkitekter-Villa-katalog.pdf"
-                  className="tag"
-                  style={{ display: "inline-block", textDecoration: "none" }}
-                >
-                  Hent katalog (Print)
-                </a>
                 <Link href="/faq" className="tag">Se FAQ</Link>
               </div>
             </div>

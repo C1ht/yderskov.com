@@ -937,6 +937,40 @@ footer { background: var(--dark); color: rgba(255,255,255,0.7); }
 @media (max-width: 900px) { .ftop { grid-template-columns: 1fr 1fr; gap: 2rem; } }
 @media (max-width: 600px) { .ftop { grid-template-columns: 1fr; } }
 
+
+/* ── KATALOG BUTTONS ── */
+.btn-katalog-open {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #161616;
+  color: #fff !important;
+  font-weight: 500;
+  font-size: 0.875rem;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  border: 1px solid #161616;
+  transition: opacity 0.15s;
+}
+.btn-katalog-open:hover {
+  opacity: 0.85;
+}
+
+.btn-katalog-download {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #161616;
+  color: #161616 !important;
+  font-weight: 500;
+  font-size: 0.875rem;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+}
+.btn-katalog-download:hover {
+  background: #161616;
+  color: #fff !important;
+}
+
 /* ── PRINT ── */
 @page { size: A4 portrait; margin: 15mm 18mm; }
 @media print {

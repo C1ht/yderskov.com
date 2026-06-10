@@ -230,7 +230,18 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     p.img2 = p.images[2] ? await imgB64(p.images[2], 520) : null;
   }
 
-  const tocStartPage = 5;
+  let currentPage = 5;
+  const processedProjects = [];
+  for (let i = 0; i < catalogProjects.length; i++) {
+    const p = catalogProjects[i];
+    const needsSeparator = i > 0 && p.section !== catalogProjects[i - 1].section;
+    if (needsSeparator) {
+      currentPage++; // Separator page
+    }
+    p.pageNumber = currentPage;
+    currentPage++;
+    processedProjects.push(p);
+  }
 
   const html = `<!DOCTYPE html>
 <html lang="da">
@@ -255,7 +266,7 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   .cover-center { text-align:center; }
   .cover-label { font-size:8pt; font-weight:300; letter-spacing:0.28em; color:rgba(255,255,255,0.5); text-transform:uppercase; margin-bottom:7mm; }
   .cover-title { font-size:56pt; font-weight:500; letter-spacing:-0.03em; color:#fff; line-height:1; }
-  .cover-sub { font-size:10pt; font-weight:300; color:rgba(255,255,255,0.45); margin-top:5mm; letter-spacing:0.07em; }
+  .cover-sub { font-size:12pt; font-weight:300; color:rgba(255,255,255,0.45); margin-top:5mm; letter-spacing:0.07em; line-height:1.7; text-transform:lowercase; }
   .cover-bottom { text-align:center; }
   .cover-site { font-size:8pt; font-weight:300; color:rgba(255,255,255,0.35); letter-spacing:0.14em; }
 
@@ -275,7 +286,7 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   .toc-eyebrow { font-size:7pt; font-weight:500; letter-spacing:0.2em; color:#999; text-transform:uppercase; margin-bottom:4mm; }
   .toc-heading { font-size:28pt; font-weight:500; letter-spacing:-0.02em; color:#111; margin-bottom:10mm; }
   .toc-list { flex:1; }
-  .toc-item { display:flex; align-items:baseline; padding:4mm 0; border-bottom:0.3pt solid #ececec; }
+  .toc-item { display:flex; align-items:baseline; padding:2.2mm 0; border-bottom:0.3pt solid #ececec; }
   .toc-item:first-child { border-top:0.3pt solid #ececec; }
   .toc-num { font-size:7pt; color:#bbb; width:8mm; flex-shrink:0; }
   .toc-name { font-size:11.5pt; font-weight:400; color:#111; flex:1; }
@@ -352,7 +363,7 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   <div class="intro-text">
     <p>Drømmen om at bygge nyt, bygge til eller renovere starter altid med en god idé og en sund portion inspiration. Dette katalog er skabt som et inspirationsværktøj til jer, der går med byggeplaner. Her kan I se et udvalg af vores afsluttede projekter, studere plantegninger og lade jer inspirere af forskellige arkitektoniske former, materialevalg og lysindfald.</p>
     <p>Hos <strong>Yderskov Arkitekter</strong> har vi mere end 15 års erfaring med at tegne og opføre unikke huse i hele Danmark. Vi har stået i spidsen for over 300 vellykkede byggerier – lige fra moderne funkisvillaer og naturskønne sommerhuse til funktionelle tilbygninger. Vores tegnestue adskiller sig ved at tilbyde en samlet proces med egne faste håndværkere, hvilket garanterer jer en tryg proces til en <strong>fast pris</strong> uden ubehagelige budgetskred.</p>
-    <p>Brug dette katalog som et moodboard. Tag noter, sæt krydser ved de løsninger, I kan lide, og tag kataloget med til vores første møde. Vi tilbyder altid et <strong>gratis og helt uforpligtende idémøde</strong> direkte på jeres byggegrund, hvor vi sammen kan drøfte mulighederne for at realisere jeres drømmehjem.</p>
+    <p>Brug dette katalog som et moodboard. Tag noter, sæt krydser ved de løsninger, I kan lide, og tag kataloget med til vores første møde. Vi tilbyder altid et <strong>gratis og helt uforpligtende idémøde</strong> direkte på jeres byggegrund, hvor vi sammen kan drøfte mulighederne for at realisere jeres drømmebyggeri.</p>
     <p>Vi glæder os til at høre om jeres tanker.</p>
     <div class="intro-signature">
       Chris Yderskov<br />
@@ -377,12 +388,12 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
       <span class="toc-loc">Byggeforløbet</span>
       <span class="toc-pg">4</span>
     </div>
-    ${catalogProjects.map((p, i) => `
+    ${processedProjects.map((p) => `
     <div class="toc-item">
-      <span class="toc-num">0${p.num}</span>
+      <span class="toc-num">${p.num < 10 ? '0' + p.num : p.num}</span>
       <span class="toc-name">${p.title}</span>
       <span class="toc-loc">${p.location}</span>
-      <span class="toc-pg">${tocStartPage + i}</span>
+      <span class="toc-pg">${p.pageNumber}</span>
     </div>`).join('')}
   </div>
   <div class="toc-footer">
@@ -448,10 +459,25 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
 </div>
 
 <!-- PROJECTS -->
-${catalogProjects.map((p, i) => `
+${processedProjects.map((p, idx) => {
+  let htmlBlock = '';
+  const needsSeparator = idx > 0 && p.section !== processedProjects[idx - 1].section;
+  if (needsSeparator) {
+    const sectionTitle = p.section === 'tilbygninger' ? 'om- og tilbygninger' : 'sommerhuse';
+    htmlBlock += `
+<div class="page separator-page" style="background:${printFriendly ? '#fff' : '#161616'}; display:flex; flex-direction:column; align-items:center; justify-content:center; ${printFriendly ? 'border: 1px solid #ececec;' : ''}">
+  <div style="text-align:center;">
+    <div style="font-size:9pt; font-weight:300; letter-spacing:0.25em; color:${printFriendly ? '#999' : 'rgba(255,255,255,0.5)'}; text-transform:uppercase; margin-bottom:6mm;">Afsnit</div>
+    <div style="font-size:36pt; font-weight:500; color:${printFriendly ? '#111' : '#fff'}; letter-spacing:-0.02em; line-height:1.2; text-transform:lowercase; text-align:center; font-family:'Helvetica Neue', Arial, sans-serif;">${sectionTitle}</div>
+  </div>
+</div>
+`;
+  }
+
+  htmlBlock += `
 <div class="page proj-page">
   <div class="proj-top">
-    <div class="proj-eyebrow">Projekt 0${p.num} &nbsp;·&nbsp; ${p.location}</div>
+    <div class="proj-eyebrow">Projekt ${p.num < 10 ? '0' + p.num : p.num} &nbsp;·&nbsp; ${p.location}</div>
     <div class="proj-title">${p.title}</div>
     ${p.size || p.year ? `<div class="proj-meta">${[p.size, p.year].filter(Boolean).join(' · ')}</div>` : ''}
     <div class="proj-desc">${p.description}</div>
@@ -463,8 +489,11 @@ ${catalogProjects.map((p, i) => `
       ${p.img2 ? `<div><img src="${p.img2}" /></div>` : ''}
     </div>
   </div>
-  <div class="proj-page-num">${tocStartPage + i}</div>
-</div>`).join('')}
+  <div class="proj-page-num">${p.pageNumber}</div>
+</div>
+`;
+  return htmlBlock;
+}).join('')}
 
 <!-- BACK COVER -->
 <div class="page back">
@@ -507,15 +536,19 @@ ${catalogProjects.map((p, i) => `
 }
 
 try {
-  // Generate online catalogs (black back cover)
-  await runGenerator('villaer', 'Villaer', 'Arkitekttegnede villaer i Danmark', '/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp', villaProjects, false);
-  await runGenerator('sommerhuse', 'Sommerhuse', 'Arkitekttegnede sommerhuse i Danmark', '/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp', sommerhusProjects, false);
-  await runGenerator('tilbygninger', 'Tilbygninger', 'Arkitekttegnede om- og tilbygninger', '/images/Godthåbsvej/Brønderslev-ombygning-efter-3.webp', tilbygningProjects, false);
+  const combinedProjects = [
+    ...villaProjects.map((p, idx) => ({ ...p, num: idx + 1, section: 'villaer' })),
+    ...tilbygningProjects.map((p, idx) => ({ ...p, num: villaProjects.length + idx + 1, section: 'tilbygninger' })),
+    ...sommerhusProjects.map((p, idx) => ({ ...p, num: villaProjects.length + tilbygningProjects.length + idx + 1, section: 'sommerhuse' })),
+  ];
 
-  // Generate print-friendly catalogs (white back cover)
-  await runGenerator('villaer', 'Villaer', 'Arkitekttegnede villaer i Danmark', '/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp', villaProjects, true);
-  await runGenerator('sommerhuse', 'Sommerhuse', 'Arkitekttegnede sommerhuse i Danmark', '/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp', sommerhusProjects, true);
-  await runGenerator('tilbygninger', 'Tilbygninger', 'Arkitekttegnede om- og tilbygninger', '/images/Godthåbsvej/Brønderslev-ombygning-efter-3.webp', tilbygningProjects, true);
+  const coverSub = 'villaer<br />om- og tilbygninger<br />sommerhuse';
+
+  // Generate online catalog (black back cover)
+  await runGenerator('inspiration', 'Inspiration', coverSub, '/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp', combinedProjects, false);
+
+  // Generate print-friendly catalog (white back cover)
+  await runGenerator('inspiration', 'Inspiration', coverSub, '/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp', combinedProjects, true);
 } catch (err) {
   console.error('An error occurred during generation:', err);
 } finally {

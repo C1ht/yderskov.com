@@ -212,6 +212,46 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Katalog */}
+      <section className="s">
+        <div className="s-inner">
+          <div className="text-2col">
+            <div>
+              <span className="eyebrow">Projektkatalog</span>
+              <h2 className="sec-hed">Inspiration</h2>
+              <div style={{ fontSize: "0.85rem", fontWeight: 300, color: "var(--sub)", marginTop: "0.5rem", textTransform: "lowercase", display: "flex", flexDirection: "column", gap: "0.25rem" }}>
+                <span>villaer</span>
+                <span>om- og tilbygninger</span>
+                <span>sommerhuse</span>
+              </div>
+            </div>
+            <div>
+              <p className="body-p">
+                Vi har samlet alle vores projekter i ét fælles inspirationskatalog. Her kan du gå på opdagelse i vores afsluttede villaer, sommerhuse samt om- og tilbygninger. Få inspiration til materialevalg, planløsninger og lysindfald, og tag kataloget med til vores første uforpligtende møde.
+              </p>
+              <div style={{ display: "flex", gap: "1rem", marginTop: "1.5rem", flexWrap: "wrap" }}>
+                <a
+                  href="/katalog-inspiration.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-katalog-open"
+                >
+                  Vis katalog
+                </a>
+                <a
+                  href="/katalog-inspiration-print.pdf"
+                  download="Yderskov-Arkitekter-Inspirationskatalog.pdf"
+                  className="btn-katalog-download"
+                >
+                  Download katalog
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
       {/* Blog */}
       <div className="blog-bg">
         <div className="blog-inner">
