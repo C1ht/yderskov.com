@@ -139,6 +139,29 @@ export default function HomePage() {
                 <Link href="/priser" className="tag">Se priser</Link>
                 <Link href="/om" className="tag">Om os</Link>
               </div>
+
+              <div style={{ marginTop: "2.5rem" }}>
+                <span className="eyebrow" style={{ marginBottom: "0.6rem" }}>Se vores katalog</span>
+                <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap" }}>
+                  <a
+                    href="/katalog-inspiration.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-katalog-open"
+                    style={{ padding: "0.35rem 0.85rem", fontSize: "0.68rem" }}
+                  >
+                    Vis katalog
+                  </a>
+                  <a
+                    href="/katalog-inspiration-print.pdf"
+                    download="Yderskov-Arkitekter-Inspirationskatalog.pdf"
+                    className="btn-katalog-download"
+                    style={{ padding: "0.35rem 0.85rem", fontSize: "0.68rem" }}
+                  >
+                    Download katalog
+                  </a>
+                </div>
+              </div>
             </div>
             <div>
               <p className="body-intro">
