@@ -154,13 +154,17 @@ const tilbygningProjects = [
     description: 'Gennemgribende modernisering og ombygning af en 1950\'er-villa i Brønderslev. Huset er blevet åbnet op med store skydedørspartier mod haven og et nyt, lyst køkken-alrum, hvilket har givet boligen et nutidigt arkitektonisk løft.',
     images: [
       '/images/Godthåbsvej/Brønderslev-ombygning-efter-3.webp',
+      '/images/Godthåbsvej/Brønderslev-ombygning-efter-4.webp',
       '/images/Godthåbsvej/Brønderslev-ombygning-efter-2.webp',
       '/images/Godthåbsvej/Brønderslev-ombygning-efter-1.webp',
+      '/images/Godthåbsvej/Brønderslev-ombygning-efter-koekken-2.webp',
     ],
     beforeImages: [
       '/images/Godthåbsvej/Brønderslev-ombygning-foer-1.webp',
       '/images/Godthåbsvej/Brønderslev-ombygning-foer-2.webp',
       '/images/Godthåbsvej/Brønderslev-ombygning-foer-3.webp',
+      '/images/Godthåbsvej/Brønderslev-ombygning-foer-4.webp',
+      '/images/Godthåbsvej/Brønderslev-ombygning-foer-5.webp',
     ],
   },
   {
@@ -214,6 +218,25 @@ const tilbygningProjects = [
       '/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-vejside.webp',
       '/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-haveside.webp',
       '/images/Emils hus Olufsgade/Brønderslev-olufsgade-foer-vejside.webp',
+    ],
+  },
+  {
+    num: 6,
+    title: 'Ombygning med ny tilbygning',
+    location: 'Godthåbsvej, Nordjylland',
+    size: 'Tilbygning · facaderenovering · nyt tag',
+    year: '2024',
+    description: 'Gennemgribende ombygning af en ældre murstensbolig med tilføjelse af en markant tilbygning i sort træbeklædning og fladt tag. Facaden er pudset hvid og fremstår nu som et sammenhængende og moderne hjem med en tydelig arkitektonisk identitet.',
+    images: [
+      '/images/Godthåbsvej/yderskov-ombygning-efter-1.webp',
+      '/images/Godthåbsvej/yderskov-ombygning-efter-2.webp',
+      '/images/Godthåbsvej/yderskov-ombygning-efter-3.webp',
+      '/images/Godthåbsvej/yderskov-ombygning-efter-4.webp',
+    ],
+    beforeImages: [
+      '/images/Godthåbsvej/yderskov-ombygning-foer-1.webp',
+      '/images/Godthåbsvej/yderskov-ombygning-foer-2.webp',
+      '/images/Godthåbsvej/yderskov-ombygning-foer-3.webp',
     ],
   },
 ];
