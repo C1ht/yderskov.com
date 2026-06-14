@@ -237,25 +237,6 @@ const tilbygningProjects = [
       '/images/Emils hus Olufsgade/Brønderslev-olufsgade-foer-vejside.webp',
     ],
   },
-  {
-    num: 6,
-    title: 'Ombygning med ny tilbygning',
-    location: 'Godthåbsvej, Nordjylland',
-    size: 'Tilbygning · facaderenovering · nyt tag',
-    year: '2024',
-    description: 'Gennemgribende ombygning af en ældre murstensbolig med tilføjelse af en markant tilbygning i sort træbeklædning og fladt tag. Facaden er pudset hvid og fremstår nu som et sammenhængende og moderne hjem med en tydelig arkitektonisk identitet.',
-    images: [
-      '/images/Godthåbsvej/yderskov-ombygning-efter-1.webp',
-      '/images/Godthåbsvej/yderskov-ombygning-efter-2.webp',
-      '/images/Godthåbsvej/yderskov-ombygning-efter-3.webp',
-      '/images/Godthåbsvej/yderskov-ombygning-efter-4.webp',
-    ],
-    beforeImages: [
-      '/images/Godthåbsvej/yderskov-ombygning-foer-1.webp',
-      '/images/Godthåbsvej/yderskov-ombygning-foer-2.webp',
-      '/images/Godthåbsvej/yderskov-ombygning-foer-3.webp',
-    ],
-  },
 ];
 
 console.log('Launching browser...');
