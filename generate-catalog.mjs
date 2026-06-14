@@ -272,9 +272,17 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   // Pre-process project images
   for (const p of catalogProjects) {
     p.img0 = await imgB64(p.images[0], 1000);
-    p.img1 = await imgB64(p.images[1], 520);
+    p.img1 = p.images[1] ? await imgB64(p.images[1], 520) : null;
     p.img2 = p.images[2] ? await imgB64(p.images[2], 520) : null;
     p.img3 = p.images[3] ? await imgB64(p.images[3], 520) : null;
+
+    p.page2Images = [];
+    if (p.images.length > 4) {
+      for (let j = 4; j < p.images.length; j++) {
+        p.page2Images.push(await imgB64(p.images[j], 520));
+      }
+    }
+
     if (p.beforeImages && p.beforeImages.length > 0) {
       p.bimg0 = await imgB64(p.beforeImages[0], 1000);
       p.bimg1 = p.beforeImages[1] ? await imgB64(p.beforeImages[1], 520) : null;
@@ -291,7 +299,13 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
       currentPage++; // Separator page
     }
     p.pageNumber = currentPage;
-    currentPage++;
+    currentPage++; // Page 1
+
+    if (p.page2Images && p.page2Images.length > 0) {
+      p.page2PageNumber = currentPage;
+      currentPage++; // Page 2
+    }
+
     if (p.beforeImages && p.beforeImages.length > 0) {
       p.beforePageNumber = currentPage;
       currentPage++; // Before-images facing page
@@ -544,7 +558,7 @@ ${processedProjects.map((p, idx) => {
   <div class="proj-imgs">
     <div class="proj-img-main"><img src="${p.img0}" /></div>
     <div class="proj-img-row">
-      <div><img src="${p.img1}" /></div>
+      ${p.img1 ? `<div><img src="${p.img1}" /></div>` : ''}
       ${p.img2 ? `<div><img src="${p.img2}" /></div>` : ''}
       ${p.img3 ? `<div><img src="${p.img3}" /></div>` : ''}
     </div>
@@ -552,6 +566,37 @@ ${processedProjects.map((p, idx) => {
   <div class="proj-page-num">${p.pageNumber}</div>
 </div>
 `;
+
+  if (p.page2Images && p.page2Images.length > 0) {
+    const numRemaining = p.page2Images.length;
+    const cols = 3;
+    const rows = Math.ceil(numRemaining / cols);
+    let imgHeight = '42mm';
+    if (rows === 1) imgHeight = '80mm';
+    else if (rows === 2) imgHeight = '75mm';
+    else if (rows === 3) imgHeight = '65mm';
+    else if (rows === 4) imgHeight = '50mm';
+    else if (rows === 5) imgHeight = '42mm';
+    else if (rows === 6) imgHeight = '35mm';
+    else if (rows > 6) imgHeight = '30mm';
+
+    htmlBlock += `
+<div class="page proj-page">
+  <div class="proj-top" style="padding: 11mm 14mm 4mm;">
+    <div class="proj-eyebrow">Projekt ${p.num < 10 ? '0' + p.num : p.num} &nbsp;·&nbsp; ${p.location} (Galleri)</div>
+    <div class="proj-title" style="font-size: 16pt; margin-bottom: 0;">${p.title}</div>
+  </div>
+  <div style="margin: 0 14mm 8mm; display: grid; grid-template-columns: repeat(${cols}, 1fr); gap: 2mm; overflow: hidden;">
+    ${p.page2Images.map(imgSrc => `
+      <div style="height: ${imgHeight}; overflow: hidden;">
+        <img src="${imgSrc}" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+      </div>
+    `).join('')}
+  </div>
+  <div class="proj-page-num">${p.page2PageNumber}</div>
+</div>
+`;
+  }
 
   // Render before-images facing page if present
   if (p.beforeImages && p.beforeImages.length > 0) {
