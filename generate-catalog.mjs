@@ -279,6 +279,14 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     if (needsSeparator) {
       currentPage++; // Separator page
     }
+
+    if (p.beforeImages && p.beforeImages.length > 0) {
+      if (currentPage % 2 !== 0) {
+        p.needsPaddingPage = true;
+        currentPage++; // for the padding page
+      }
+    }
+
     p.pageNumber = currentPage;
     currentPage++; // Page 1
 
@@ -527,6 +535,14 @@ ${processedProjects.map((p, idx) => {
 `;
   }
 
+
+  if (p.needsPaddingPage) {
+    htmlBlock += `
+<div class="page padding-page" style="background:#fff; display:flex; align-items:center; justify-content:center;">
+  <img src="${iconData}" style="width:17mm; opacity:0.04; filter: none;" />
+</div>
+`;
+  }
 
   htmlBlock += `
 <div class="page proj-page">
