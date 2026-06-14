@@ -272,16 +272,9 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   const processedProjects = [];
   for (let i = 0; i < catalogProjects.length; i++) {
     const p = catalogProjects[i];
-    const needsSeparator = i > 0 && p.section !== catalogProjects[i - 1].section;
+    const needsSeparator = i === 0 || p.section !== catalogProjects[i - 1].section;
     if (needsSeparator) {
       currentPage++; // Separator page
-    }
-
-    if (p.beforeImages && p.beforeImages.length > 0) {
-      if (currentPage % 2 !== 0) {
-        p.needsPaddingPage = true;
-        currentPage++; // for the padding page
-      }
     }
 
     p.pageNumber = currentPage;
@@ -520,23 +513,14 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
 <!-- PROJECTS -->
 ${processedProjects.map((p, idx) => {
   let htmlBlock = '';
-  const needsSeparator = idx > 0 && p.section !== processedProjects[idx - 1].section;
+  const needsSeparator = idx === 0 || p.section !== processedProjects[idx - 1].section;
   if (needsSeparator) {
-    const sectionTitle = p.section === 'tilbygninger' ? 'om- og tilbygninger' : 'sommerhuse';
+    const sectionTitle = p.section === 'villaer' ? 'villaer' : (p.section === 'tilbygninger' ? 'om- og tilbygninger' : 'sommerhuse');
     htmlBlock += `
 <div class="page separator-page" style="background:${printFriendly ? '#fff' : '#161616'}; display:flex; flex-direction:column; align-items:center; justify-content:center; ${printFriendly ? 'border: 1px solid #ececec;' : ''}">
   <div style="text-align:center;">
     <div style="font-size:36pt; font-weight:500; color:${printFriendly ? '#111' : '#fff'}; letter-spacing:-0.02em; line-height:1.2; text-transform:lowercase; text-align:center; font-family:'Helvetica Neue', Arial, sans-serif;">${sectionTitle}</div>
   </div>
-</div>
-`;
-  }
-
-
-  if (p.needsPaddingPage) {
-    htmlBlock += `
-<div class="page padding-page" style="background:#fff; display:flex; align-items:center; justify-content:center;">
-  <img src="${iconData}" style="width:17mm; opacity:0.04; filter: none;" />
 </div>
 `;
   }
