@@ -974,53 +974,88 @@ footer { background: var(--dark); color: rgba(255,255,255,0.7); }
 /* ── PRINT ── */
 @page { size: A4 portrait; margin: 15mm 18mm; }
 @media print {
-  nav, footer, .dr-reset-btn, .dr-print-bar, .dr-cta-call-btn { display: none !important; }
+  /* Hide interactive/non-content elements */
+  nav, footer, .dr-reset-btn, .dr-print-bar, .dr-cta-call-btn, .about-tags, .intro-strip-inner a, .proj-see, .blog-see, .form-or-call, .announcement-cta { display: none !important; }
+  
   /* Side 1: header + projekt + prisskøn. Side 2: tips + anbefaling + cta + footer */
   .dr-block:nth-of-type(3) { break-before: page; }
-  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-  body, .dr, .dr-block, .dr-block-price, .dr-block-rec, .dr-cta, .dr-head { background: #fff !important; color: #000 !important; }
-  .dr { box-shadow: none !important; border: 1px solid #ccc !important; }
-  /* Header */
+  
+  /* Force white background and black text on all standard components and layout sections */
+  * { 
+    -webkit-print-color-adjust: exact !important; 
+    print-color-adjust: exact !important; 
+  }
+  
+  body, section, .s, .s-dark, .cta-band, .hero, .hero-body, .intro-strip, .stats-bg, .stats-row-sm, .testimonials-grid, .process-steps, .faq-grid, .pricing-grid, .calc2, .calc2-top, .calc2-live, .dr, .dr-block, .dr-block-price, .dr-block-rec, .dr-cta, .dr-head, .dr-foot, .info-box, .info-list, .form-wrap, .form-wrap input, .form-wrap textarea {
+    background: #fff !important;
+    background-color: #fff !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    border-color: #ccc !important;
+  }
+  
+  /* Reset text colors */
+  h1, h2, h3, h4, h5, h6, .sec-hed, .hero-left-title, .hero-left-sub, .hero-24h, .hero-mini-quote, .hero-mini-quote-name, .eyebrow, .body-p, .body-intro, .proj-title, .proj-desc, .stat-num, .stat-lbl, .testimonial-quote, .testimonial-name, .process-step-title, .process-step-desc, .faq-q, .faq-a, .pricing-name, .pricing-desc, .pricing-price, .cta-band-title, .cta-band-sub, .calc2-top-field .calc2-group-label, .calc2-col-title, .calc2-group-label, .calc2-live-lbl, .calc2-live-num, .calc2-live-note, .dr-head-name, .dr-head-tagline, .dr-head-type, .dr-head-date, .dr-eyebrow, .dr-eyebrow-light, .dr-block-title, .dr-block-title-light, .dr-hero-val, .dr-hero-lbl, .dr-details-heading, .dr-row-label, .dr-row-value, .dr-price-card-lbl, .dr-price-card-num, .dr-price-note, .dr-incl-heading, .dr-incl-body, .dr-incl-list li, .dr-tip-titel, .dr-tip-tekst, .dr-rec-p, .dr-cta-headline, .dr-cta-body, .dr-cta-list li, .dr-cta-number-label, .dr-cta-number, .dr-cta-mail, .dr-foot-name, .dr-foot-lbl, .dr-foot-val, .dr-foot-disclaimer {
+    color: #000 !important;
+  }
+
+  /* Make links black and underlined in print */
+  a, .text-link, .cta-band-call, .cta-band-book {
+    color: #000 !important;
+    text-decoration: underline !important;
+  }
+
+  /* Structural elements borders for printing */
+  .dr { border: 1px solid #ccc !important; }
   .dr-head { border-bottom: 1px solid #ccc !important; }
-  .dr-head-name, .dr-head-tagline, .dr-head-type, .dr-head-date { color: #000 !important; }
-  /* Eyebrows & titles */
-  .dr-eyebrow, .dr-eyebrow-light { color: #555 !important; }
-  .dr-block-title, .dr-block-title-light { color: #000 !important; }
-  /* Hero stats */
-  .dr-hero-val { color: #000 !important; }
-  .dr-hero-lbl { color: #555 !important; }
   .dr-hero-stats { border-bottom-color: #ccc !important; }
-  /* Detail rows */
-  .dr-details-heading { color: #000 !important; border-bottom-color: #000 !important; }
+  .dr-details-heading { border-bottom-color: #000 !important; }
   .dr-row { border-bottom-color: #ddd !important; }
-  .dr-row-label { color: #444 !important; }
-  .dr-row-value { color: #000 !important; }
-  /* Price cards */
+  
+  /* Grids and cards border updates */
+  .pricing-grid, .faq-grid, .testimonials-grid, .process-steps, .pb-timeline, .calc2, .info-list {
+    border: 1px solid #ccc !important;
+    background: #fff !important;
+    gap: 0 !important;
+  }
+  .pricing-item, .faq-item, .testimonial-card, .process-step, .pb-tl-step, .calc2-col, .info-row {
+    border: 1px solid #eee !important;
+    background: #fff !important;
+  }
+  
+  /* Price cards reset */
   .dr-price-cards { background: #ccc !important; border-radius: 17.6px !important; overflow: hidden !important; }
   .dr-price-card { background: #fff !important; border: 1px solid #999 !important; }
-  .dr-price-card-lbl { color: #555 !important; }
-  .dr-price-card-num { color: #000 !important; }
-  .dr-price-note { color: #555 !important; }
-  /* Incl/excl */
   .dr-incl-grid { border-top-color: #ccc !important; }
-  .dr-incl-heading { color: #000 !important; }
-  .dr-incl-body, .dr-incl-list li { color: #333 !important; }
   .dr-incl-list li::before { color: #555 !important; }
-  /* Tips */
-  .dr-tip-num { background: #fff !important; border: 1px solid #000 !important; color: #000 !important; }
-  .dr-tip-titel { color: #000 !important; }
-  .dr-tip-tekst { color: #333 !important; }
-  /* Anbefaling */
-  .dr-rec-p { color: #222 !important; }
-  /* CTA */
-  .dr-cta { border-top: 1px solid #ccc !important; }
-  .dr-cta-headline { color: #000 !important; }
-  .dr-cta-body, .dr-cta-list li { color: #222 !important; }
-  .dr-cta-number-label { color: #555 !important; }
-  .dr-cta-number, .dr-cta-mail { color: #000 !important; }
-  /* Footer */
-  .dr-foot { background: #fff !important; border-top: 1px solid #ccc !important; }
-  .dr-foot-name, .dr-foot-lbl, .dr-foot-val { color: #000 !important; }
-  .dr-foot-disclaimer { color: #555 !important; }
-  a { color: #000 !important; text-decoration: none !important; }
+  
+  /* Timeline numbers & active states */
+  .dr-tip-num, .pb-tl-num, .proc-step-num-box {
+    background: #fff !important;
+    border: 1px solid #000 !important;
+    color: #000 !important;
+  }
+  
+  /* Buttons and option selectors */
+  .tag, .tag-dark, .calc-tab, .calc2-opt {
+    background: #fff !important;
+    color: #000 !important;
+    border: 1px solid #666 !important;
+  }
+  .calc-tab-active, .calc2-opt-active {
+    background: #000 !important;
+    color: #fff !important;
+    border: 1px solid #000 !important;
+  }
+  .calc2-btn, .hero-form button, .form-btn {
+    background: #fff !important;
+    color: #000 !important;
+    border: 1px solid #000 !important;
+    font-weight: 500 !important;
+  }
+
+  /* Don't invert SVGs or dark icons */
+  .cover-logo, .back-icon, img[src*="SVG"], img[src*="svg"], svg {
+    filter: none !important;
+  }
 }

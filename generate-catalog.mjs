@@ -274,18 +274,21 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     const p = catalogProjects[i];
     const needsSeparator = i === 0 || p.section !== catalogProjects[i - 1].section;
     if (needsSeparator) {
+      console.log(`[SEPARATOR] Section: ${p.section} -> Page: ${currentPage}`);
       currentPage++; // Separator page
     }
-
+    console.log(`Project: ${p.title} (${p.location}) -> Page 1: ${currentPage}`);
     p.pageNumber = currentPage;
     currentPage++; // Page 1
 
     if (p.page2Images && p.page2Images.length > 0) {
+      console.log(`Project: ${p.title} -> Page 2 (Gallery): ${currentPage}`);
       p.page2PageNumber = currentPage;
       currentPage++; // Page 2
     }
 
     if (p.beforeImages && p.beforeImages.length > 0) {
+      console.log(`Project: ${p.title} -> Before page: ${currentPage}`);
       p.beforePageNumber = currentPage;
       currentPage++; // Before-images facing page
     }
@@ -307,17 +310,17 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   .page:last-child { break-after:auto; page-break-after:auto; }
 
   /* COVER */
-  .cover { background:#161616; }
+  .cover { background:${printFriendly ? '#fff' : '#161616'}; ${printFriendly ? 'border: 1px solid #ececec;' : ''} }
   .cover-hero { position:absolute; inset:0; }
-  .cover-hero img { width:100%; height:100%; object-fit:cover; opacity:0.2; }
+  .cover-hero img { width:100%; height:100%; object-fit:cover; opacity:${printFriendly ? 0.06 : 0.2}; }
   .cover-overlay { position:relative; z-index:1; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:space-between; padding:22mm 18mm; }
-  .cover-logo { width:54mm; filter:invert(1) brightness(2); }
+  .cover-logo { width:54mm; filter:${printFriendly ? 'none' : 'invert(1) brightness(2)'}; }
   .cover-center { text-align:center; }
-  .cover-label { font-size:8pt; font-weight:300; letter-spacing:0.28em; color:rgba(255,255,255,0.5); text-transform:uppercase; margin-bottom:7mm; }
-  .cover-title { font-size:56pt; font-weight:500; letter-spacing:-0.03em; color:#fff; line-height:1; }
-  .cover-sub { font-size:12pt; font-weight:300; color:rgba(255,255,255,0.45); margin-top:5mm; letter-spacing:0.07em; line-height:1.7; text-transform:lowercase; }
+  .cover-label { font-size:8pt; font-weight:300; letter-spacing:0.28em; color:${printFriendly ? '#555' : 'rgba(255,255,255,0.5)'}; text-transform:uppercase; margin-bottom:7mm; }
+  .cover-title { font-size:56pt; font-weight:500; letter-spacing:-0.03em; color:${printFriendly ? '#111' : '#fff'}; line-height:1; }
+  .cover-sub { font-size:12pt; font-weight:300; color:${printFriendly ? '#666' : 'rgba(255,255,255,0.45)'}; margin-top:5mm; letter-spacing:0.07em; line-height:1.7; text-transform:lowercase; }
   .cover-bottom { text-align:center; }
-  .cover-site { font-size:8pt; font-weight:300; color:rgba(255,255,255,0.35); letter-spacing:0.14em; }
+  .cover-site { font-size:8pt; font-weight:300; color:${printFriendly ? '#888' : 'rgba(255,255,255,0.35)'}; letter-spacing:0.14em; }
 
   /* INTRO PAGE */
   .intro-page { padding:20mm 18mm; display:flex; flex-direction:column; }
@@ -637,7 +640,7 @@ ${processedProjects.map((p, idx) => {
   }
 
   await page.close();
-  fs.unlinkSync(tmpPath);
+  // fs.unlinkSync(tmpPath);
 
   const size = fs.statSync(`public/${pdfFileName}`).size;
   console.log(`Done generating ${name} (${printFriendly ? 'print' : 'online'})! PDF size: ${(size / 1024 / 1024).toFixed(1)} MB`);
