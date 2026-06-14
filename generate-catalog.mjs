@@ -277,7 +277,7 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     p.img3 = p.images[3] ? await imgB64(p.images[3], 520) : null;
 
     p.page2Images = [];
-    if (p.images.length > 4) {
+    if (p.images.length > 4 && (!p.beforeImages || p.beforeImages.length === 0)) {
       for (let j = 4; j < p.images.length; j++) {
         p.page2Images.push(await imgB64(p.images[j], 520));
       }
