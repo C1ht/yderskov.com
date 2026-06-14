@@ -142,24 +142,35 @@ export default function HomePage() {
 
               <div style={{ marginTop: "2.5rem" }}>
                 <span className="eyebrow" style={{ marginBottom: "0.6rem" }}>Se vores katalog</span>
-                <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap" }}>
-                  <a
-                    href="/katalog-inspiration.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn-katalog-open"
-                    style={{ padding: "0.35rem 0.85rem", fontSize: "0.68rem" }}
-                  >
-                    Vis katalog
-                  </a>
-                  <a
-                    href="/katalog-inspiration-print.pdf"
-                    download="Yderskov-Arkitekter-Inspirationskatalog.pdf"
-                    className="btn-katalog-download"
-                    style={{ padding: "0.35rem 0.85rem", fontSize: "0.68rem" }}
-                  >
-                    Download katalog
-                  </a>
+                <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+                  <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap" }}>
+                    <a
+                      href="/katalog-inspiration.pdf?v=3"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn-katalog-open"
+                      style={{ padding: "0.35rem 0.85rem", fontSize: "0.68rem" }}
+                    >
+                      Vis katalog
+                    </a>
+                    <a
+                      href="/katalog-inspiration.pdf?v=3"
+                      download="Yderskov-Arkitekter-Inspirationskatalog.pdf"
+                      className="btn-katalog-download"
+                      style={{ padding: "0.35rem 0.85rem", fontSize: "0.68rem" }}
+                    >
+                      Download katalog
+                    </a>
+                  </div>
+                  <div style={{ fontSize: "0.68rem" }}>
+                    <a
+                      href="/katalog-inspiration-print.pdf?v=3"
+                      download="Yderskov-Arkitekter-Inspirationskatalog-Print.pdf"
+                      style={{ color: "var(--sub)", textDecoration: "underline" }}
+                    >
+                      Hent print-venlig version (hvid baggrund)
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -252,22 +263,33 @@ export default function HomePage() {
               <p className="body-p">
                 Vi har samlet alle vores projekter i ét fælles inspirationskatalog. Her kan du gå på opdagelse i vores afsluttede villaer, sommerhuse samt om- og tilbygninger. Få inspiration til materialevalg, planløsninger og lysindfald, og tag kataloget med til vores første uforpligtende møde.
               </p>
-              <div style={{ display: "flex", gap: "1rem", marginTop: "1.5rem", flexWrap: "wrap" }}>
-                <a
-                  href="/katalog-inspiration.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-katalog-open"
-                >
-                  Vis katalog
-                </a>
-                <a
-                  href="/katalog-inspiration-print.pdf"
-                  download="Yderskov-Arkitekter-Inspirationskatalog.pdf"
-                  className="btn-katalog-download"
-                >
-                  Download katalog
-                </a>
+              <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem", marginTop: "1.5rem" }}>
+                <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
+                  <a
+                    href="/katalog-inspiration.pdf?v=3"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-katalog-open"
+                  >
+                    Vis katalog
+                  </a>
+                  <a
+                    href="/katalog-inspiration.pdf?v=3"
+                    download="Yderskov-Arkitekter-Inspirationskatalog.pdf"
+                    className="btn-katalog-download"
+                  >
+                    Download katalog
+                  </a>
+                </div>
+                <div style={{ fontSize: "0.75rem" }}>
+                  <a
+                    href="/katalog-inspiration-print.pdf?v=3"
+                    download="Yderskov-Arkitekter-Inspirationskatalog-Print.pdf"
+                    style={{ color: "var(--sub)", textDecoration: "underline" }}
+                  >
+                    Hent print-venlig version (hvid baggrund)
+                  </a>
+                </div>
               </div>
             </div>
           </div>

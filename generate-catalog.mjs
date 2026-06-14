@@ -620,7 +620,7 @@ ${processedProjects.map((p, idx) => {
 </body>
 </html>`;
 
-  const tmpPath = path.resolve(`tmp-catalog-${name}.html`);
+  const tmpPath = path.resolve(`tmp-catalog-${name}-${printFriendly ? 'print' : 'online'}.html`);
   fs.writeFileSync(tmpPath, html, 'utf8');
 
   const page = await browser.newPage();
