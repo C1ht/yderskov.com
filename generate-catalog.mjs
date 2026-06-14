@@ -33,6 +33,9 @@ const villaProjects = [
       '/images/Karetmagervej/Sæby-ny-villa-funkis-haveside.webp',
       '/images/Karetmagervej/Sæby-ny-villa-funkis-forside.webp',
       '/images/Karetmagervej/Sæby-ny-villa-funkis-vejside.webp',
+      '/images/Karetmagervej/Sæby-ny-villa-funkis-haveside-2.webp',
+      '/images/Karetmagervej/Sæby-ny-villa-funkis-hjørne.webp',
+      '/images/Karetmagervej/Sæby-ny-villa-funkis-gårdside.webp',
     ],
   },
   {
