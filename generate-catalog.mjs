@@ -124,11 +124,11 @@ const villaProjects = [
   },
   {
     num: 7,
-    title: 'Moderne funkisvilla',
+    title: 'Engelsk colonial stil',
     location: 'Aalborg, Nordjylland',
     size: '210 m² bolig',
     year: '2023',
-    description: 'Modernistisk funkisvilla i Aalborg opført i lyse mursten med markante zinkinddækninger og store glaspartier. Boligen er tegnet med fokus på en optimal planløsning, lysfyldte rum og en stærk visuel forbindelse til haven.',
+    description: 'Klassisk engelsk villa i colonial-stil opført i Aalborg. Boligen forener traditionelt formsprog med moderne planløsning og komfort, hvilket skaber en stemningsfuld ramme med et tæt samspil mellem inde- og uderum.',
     images: [
       '/images/Ikarosvej/Aalborg-Ikarosvej-ny-villa-indkørsel.webp',
       '/images/Ikarosvej/Ikarosvej facade.jpeg',
