@@ -949,10 +949,14 @@ footer { background: var(--dark); color: rgba(255,255,255,0.7); }
   letter-spacing: 0.04em;
   text-decoration: none;
   border: 1px solid #161616;
-  transition: opacity 0.15s;
+  border-radius: 8px;
+  transition: opacity 0.15s, transform 0.1s;
 }
 .btn-katalog-open:hover {
   opacity: 0.85;
+}
+.btn-katalog-open:active {
+  transform: scale(0.98);
 }
 
 .btn-katalog-download {
@@ -964,11 +968,15 @@ footer { background: var(--dark); color: rgba(255,255,255,0.7); }
   font-size: 0.875rem;
   letter-spacing: 0.04em;
   text-decoration: none;
-  transition: background 0.15s, color 0.15s;
+  border-radius: 8px;
+  transition: background 0.15s, color 0.15s, transform 0.1s;
 }
 .btn-katalog-download:hover {
   background: #161616;
   color: #fff !important;
+}
+.btn-katalog-download:active {
+  transform: scale(0.98);
 }
 
 /* ── PRINT ── */
