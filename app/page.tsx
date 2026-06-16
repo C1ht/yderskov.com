@@ -83,7 +83,7 @@ export default function HomePage() {
             </div>
             <div>
               <p className="body-p">
-                Vi har samlet et udsnit af vores projekter i et fælles inspirationskatalog. Her kan du gå på opdagelse i vores afsluttede villaer, sommerhuse samt om- og tilbygninger. Få inspiration til materialevalg, planløsninger og lysindfald, og tag kataloget med til vores første uforpligtende møde.
+                Vi har samlet et udsnit af vores projekter i et inspirationskatalog. Her kan du gå på opdagelse i vores afsluttede villaer, sommerhuse samt om- og tilbygninger. Få inspiration til materialevalg, planløsninger og lysindfald. Tag gerne kataloget med til vores første gratis, uforpligtende møde.
               </p>
               <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem", marginTop: "1.5rem" }}>
                 <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
