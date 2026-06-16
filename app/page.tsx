@@ -68,6 +68,45 @@ export default function HomePage() {
         </div>
       </div>
 
+      {/* Se vores katalog band */}
+      <div style={{ background: "#fff", borderBottom: "1px solid var(--border)", padding: "1.25rem 5%" }}>
+        <div style={{ maxWidth: "1120px", margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", gap: "1.5rem", flexWrap: "wrap" }}>
+          <div>
+            <span className="eyebrow" style={{ margin: 0 }}>Se vores katalog</span>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+            <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", alignItems: "center" }}>
+              <a
+                href="/katalog-inspiration.pdf?v=3"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-katalog-open"
+                style={{ padding: "0.35rem 0.85rem", fontSize: "0.68rem" }}
+              >
+                Vis katalog
+              </a>
+              <a
+                href="/katalog-inspiration.pdf?v=3"
+                download="Yderskov-Arkitekter-Inspirationskatalog.pdf"
+                className="btn-katalog-download"
+                style={{ padding: "0.35rem 0.85rem", fontSize: "0.68rem" }}
+              >
+                Download katalog
+              </a>
+            </div>
+            <div style={{ fontSize: "0.68rem" }}>
+              <a
+                href="/katalog-inspiration-print.pdf?v=3"
+                download="Yderskov-Arkitekter-Inspirationskatalog-Print.pdf"
+                style={{ color: "var(--sub)", textDecoration: "underline" }}
+              >
+                Hent print-venlig version (hvid baggrund)
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Hvad er dit projekt */}
       <section className="s" style={{ paddingTop: "3rem", paddingBottom: "3rem" }}>
         <div className="s-inner">
@@ -140,39 +179,6 @@ export default function HomePage() {
                 <Link href="/om" className="tag">Om os</Link>
               </div>
 
-              <div style={{ marginTop: "2.5rem" }}>
-                <span className="eyebrow" style={{ marginBottom: "0.6rem" }}>Se vores katalog</span>
-                <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-                  <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap" }}>
-                    <a
-                      href="/katalog-inspiration.pdf?v=3"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn-katalog-open"
-                      style={{ padding: "0.35rem 0.85rem", fontSize: "0.68rem" }}
-                    >
-                      Vis katalog
-                    </a>
-                    <a
-                      href="/katalog-inspiration.pdf?v=3"
-                      download="Yderskov-Arkitekter-Inspirationskatalog.pdf"
-                      className="btn-katalog-download"
-                      style={{ padding: "0.35rem 0.85rem", fontSize: "0.68rem" }}
-                    >
-                      Download katalog
-                    </a>
-                  </div>
-                  <div style={{ fontSize: "0.68rem" }}>
-                    <a
-                      href="/katalog-inspiration-print.pdf?v=3"
-                      download="Yderskov-Arkitekter-Inspirationskatalog-Print.pdf"
-                      style={{ color: "var(--sub)", textDecoration: "underline" }}
-                    >
-                      Hent print-venlig version (hvid baggrund)
-                    </a>
-                  </div>
-                </div>
-              </div>
             </div>
             <div>
               <p className="body-intro">
