@@ -73,9 +73,9 @@ const villaProjects = [
     year: '2021',
     description: 'Udsigtsvilla med vandudsigt, tegnet til en skrånende naturgrund med skrappe myndighedskrav om indpasning i den beplantede skrænt. Familien ønskede et hus der svævede udover bakken — en oase med naturlige materialer og fri udsigt.',
     images: [
+      '/images/Lerstien/Frederikshavn-lerstien-vejside.webp',
       '/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp',
       '/images/Lerstien/Frederikshavn-lerstien-terrasse.webp',
-      '/images/Lerstien/Frederikshavn-lerstien-vejside.webp',
       '/images/Lerstien/Frederikshavn-lerstien-overdækket-terrasse.webp',
       '/images/Lerstien/Frederikshavn-lerstien-køkken.webp',
       '/images/Lerstien/Frederikshavn-lerstien-skorsten.webp',
@@ -314,8 +314,8 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     p.galleryPages = [];
     if (p.images.length > 4 && (!p.beforeImages || p.beforeImages.length === 0)) {
       const remainingImages = p.images.slice(4);
-      for (let j = 0; j < remainingImages.length; j += 4) {
-        const chunk = remainingImages.slice(j, j + 4);
+      for (let j = 0; j < remainingImages.length; j += 12) {
+        const chunk = remainingImages.slice(j, j + 12);
         const chunkB64 = [];
         for (const imgPath of chunk) {
           chunkB64.push(await imgB64(imgPath, 600));
@@ -446,7 +446,21 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   .proj-img-main { flex:1; overflow:hidden; margin:3mm 14mm 2mm; min-height:0; }
   .proj-img-main img { width:100%; height:100%; object-fit:cover; display:block; }
   .proj-img-row { display:flex; gap:2mm; height:46mm; margin:0 14mm 9mm; }
-  .proj-img-row div { flex:1; overflow:hidden; }
+  .proj-img-row div { flex:1; overflow:hidden; position:relative; }
+  .before-badge {
+    position: absolute;
+    top: 2.5mm;
+    left: 2.5mm;
+    background: rgba(0,0,0,0.65);
+    color: #fff;
+    padding: 0.8mm 2.2mm;
+    font-size: 7pt;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    border-radius: 2px;
+    z-index: 2;
+  }
   .proj-img-row img { width:100%; height:100%; object-fit:cover; display:block; }
   .proj-page-num { position:absolute; bottom:5mm; right:14mm; font-size:7pt; color:#ccc; }
 
@@ -603,11 +617,23 @@ ${processedProjects.map((p, idx) => {
     <div class="proj-desc">${p.description}</div>
   </div>
   <div class="proj-imgs">
-    <div class="proj-img-main"><img src="${p.img0}" /></div>
+    <div class="proj-img-main" style="position: relative;">
+      ${p.images[0] && (p.images[0].includes('foer') || p.images[0].includes('før')) ? `<div class="before-badge">Før</div>` : ''}
+      <img src="${p.img0}" />
+    </div>
     <div class="proj-img-row">
-      ${p.img1 ? `<div><img src="${p.img1}" /></div>` : ''}
-      ${p.img2 ? `<div><img src="${p.img2}" /></div>` : ''}
-      ${p.img3 ? `<div><img src="${p.img3}" /></div>` : ''}
+      ${p.img1 ? `<div>
+        ${p.images[1] && (p.images[1].includes('foer') || p.images[1].includes('før')) ? `<div class="before-badge">Før</div>` : ''}
+        <img src="${p.img1}" />
+      </div>` : ''}
+      ${p.img2 ? `<div>
+        ${p.images[2] && (p.images[2].includes('foer') || p.images[2].includes('før')) ? `<div class="before-badge">Før</div>` : ''}
+        <img src="${p.img2}" />
+      </div>` : ''}
+      ${p.img3 ? `<div>
+        ${p.images[3] && (p.images[3].includes('foer') || p.images[3].includes('før')) ? `<div class="before-badge">Før</div>` : ''}
+        <img src="${p.img3}" />
+      </div>` : ''}
     </div>
   </div>
   <div class="proj-page-num">${p.pageNumber}</div>
@@ -619,7 +645,13 @@ ${processedProjects.map((p, idx) => {
       const numImages = gp.images.length;
       let gridStyles = '';
       
-      if (numImages === 4) {
+      if (numImages > 9) {
+        gridStyles = `grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(4, 1fr);`;
+      } else if (numImages > 6) {
+        gridStyles = `grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr);`;
+      } else if (numImages > 4) {
+        gridStyles = `grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(3, 1fr);`;
+      } else if (numImages === 4) {
         gridStyles = `grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(2, 1fr);`;
       } else if (numImages === 3) {
         gridStyles = `grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(2, 1fr);`;
@@ -639,6 +671,12 @@ ${processedProjects.map((p, idx) => {
     ${gp.images.map((imgSrc, i) => {
       let itemStyle = '';
       if (numImages === 3 && i === 2) {
+        itemStyle = 'grid-column: span 2;';
+      } else if (numImages === 5 && i === 4) {
+        itemStyle = 'grid-column: span 2;';
+      } else if (numImages === 7 && i === 6) {
+        itemStyle = 'grid-column: span 3;';
+      } else if (numImages === 11 && i === 10) {
         itemStyle = 'grid-column: span 2;';
       }
       return `

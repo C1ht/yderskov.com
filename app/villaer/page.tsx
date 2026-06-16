@@ -51,9 +51,9 @@ const projectGalleries = [
     year: "2021",
     description: "Udsigtsvilla med vandudsigt, tegnet til en skrånende naturgrund med skrappe myndighedskrav om indpasning i den beplantede skrænt. Familien ønskede et hus der svævede udover bakken — en oase med nye og naturlige materialer. Garageanlæg er placeret under huset, da grunden har markant fald.",
     images: [
+      { src: "/images/Lerstien/Frederikshavn-lerstien-vejside.webp", alt: "Vejside på udsigtsvilla i Frederikshavn — Yderskov Arkitekter" },
       { src: "/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp", alt: "Udsigtsvilla med terrasse og byudsigt, Frederikshavn — Yderskov Arkitekter" },
       { src: "/images/Lerstien/Frederikshavn-lerstien-terrasse.webp", alt: "Terrasse på udsigtsvilla i Frederikshavn — Yderskov Arkitekter" },
-      { src: "/images/Lerstien/Frederikshavn-lerstien-vejside.webp", alt: "Vejside på udsigtsvilla i Frederikshavn — Yderskov Arkitekter" },
       { src: "/images/Lerstien/Frederikshavn-lerstien-overdækket-terrasse.webp", alt: "Overdækket terrasse på udsigtsvilla i Frederikshavn — Yderskov Arkitekter" },
       { src: "/images/Lerstien/Frederikshavn-lerstien-køkken.webp", alt: "Køkken og opholdsrum, udsigtsvilla i Frederikshavn — Yderskov Arkitekter" },
       { src: "/images/Lerstien/Frederikshavn-lerstien-skorsten.webp", alt: "Skorsten og facade, udsigtsvilla i Frederikshavn — Yderskov Arkitekter" },
