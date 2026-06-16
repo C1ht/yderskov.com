@@ -81,9 +81,6 @@ const villaProjects = [
       '/images/Lerstien/Frederikshavn-lerstien-skorsten.webp',
       '/images/Lerstien/Frederikshavn-lerstien-søjle.webp',
       '/images/Lerstien/Frederikshavn-lerstien-terrasse-2.webp',
-      '/images/Lerstien/Frederikshavn-lerstien-img-7912.webp',
-      '/images/Lerstien/Frederikshavn-lerstien-img-7931.webp',
-      '/images/Lerstien/Frederikshavn-lerstien-img-7936.webp',
     ],
   },
   {
