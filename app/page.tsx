@@ -118,6 +118,20 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Projekter */}
+      <section className="s home-projects" style={{ borderBottom: "1px solid var(--border)" }}>
+        <div className="s-inner">
+          <div className="proj-header">
+            <div>
+              <span className="eyebrow">Udvalgte projekter</span>
+              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Vores projekter</h2>
+            </div>
+            <Link href="/villaer" className="proj-see">Se alle projekter →</Link>
+          </div>
+          <ProjectGrid projects={projects} />
+        </div>
+      </section>
+
       {/* Hvad er dit projekt */}
       <section className="s" style={{ paddingTop: "3rem", paddingBottom: "3rem" }}>
         <div className="s-inner">
@@ -151,30 +165,14 @@ export default function HomePage() {
         </div>
       </section>
 
-      <div className="home-stats-projects">
-        {/* Stats */}
-        <div className="stats-bg home-stats">
-          <div className="stats-inner">
-            <div className="stat"><div className="stat-num">12.000<sup> kr.</sup></div><div className="stat-lbl">Fra pr. m² (sommerhus)</div></div>
-            <div className="stat"><div className="stat-num">24<sup> timer</sup></div><div className="stat-lbl">Svar inden</div></div>
-            <div className="stat"><div className="stat-num">10<sup>+</sup></div><div className="stat-lbl">Igangværende projekter</div></div>
-            <div className="stat"><div className="stat-num">300<sup>+</sup></div><div className="stat-lbl">Projekter gennemført</div></div>
-          </div>
+      {/* Stats */}
+      <div className="stats-bg home-stats">
+        <div className="stats-inner">
+          <div className="stat"><div className="stat-num">12.000<sup> kr.</sup></div><div className="stat-lbl">Fra pr. m² (sommerhus)</div></div>
+          <div className="stat"><div className="stat-num">24<sup> timer</sup></div><div className="stat-lbl">Svar inden</div></div>
+          <div className="stat"><div className="stat-num">10<sup>+</sup></div><div className="stat-lbl">Igangværende projekter</div></div>
+          <div className="stat"><div className="stat-num">300<sup>+</sup></div><div className="stat-lbl">Projekter gennemført</div></div>
         </div>
-
-        {/* Projekter */}
-        <section className="s home-projects">
-          <div className="s-inner">
-            <div className="proj-header">
-              <div>
-                <span className="eyebrow">Udvalgte projekter</span>
-                <h2 className="sec-hed" style={{ marginBottom: 0 }}>Vores projekter</h2>
-              </div>
-              <Link href="/villaer" className="proj-see">Se alle projekter →</Link>
-            </div>
-            <ProjectGrid projects={projects} />
-          </div>
-        </section>
       </div>
 
       {/* Om os */}
