@@ -69,19 +69,19 @@ export default function HomePage() {
       </div>
 
       {/* Se vores katalog band */}
-      <div style={{ background: "#fff", borderBottom: "1px solid var(--border)", padding: "1.25rem 5%" }}>
-        <div style={{ maxWidth: "1120px", margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", gap: "1.5rem", flexWrap: "wrap" }}>
+      <div style={{ background: "var(--off)", borderBottom: "1px solid var(--border)", padding: "2rem 5%" }}>
+        <div style={{ maxWidth: "600px", margin: "0 auto", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1rem" }}>
           <div>
-            <span className="eyebrow" style={{ margin: 0 }}>Se vores katalog</span>
+            <span className="eyebrow" style={{ margin: 0, fontSize: "0.75rem", letterSpacing: "0.14em", fontWeight: 500 }}>Se vores inspirationskatalog</span>
           </div>
-          <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-            <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", alignItems: "center" }}>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "0.5rem" }}>
+            <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap", justifyContent: "center", alignItems: "center" }}>
               <a
                 href="/katalog-inspiration.pdf?v=3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-katalog-open"
-                style={{ padding: "0.35rem 0.85rem", fontSize: "0.68rem" }}
+                style={{ padding: "0.5rem 1.2rem", fontSize: "0.75rem" }}
               >
                 Vis katalog
               </a>
@@ -89,12 +89,12 @@ export default function HomePage() {
                 href="/katalog-inspiration.pdf?v=3"
                 download="Yderskov-Arkitekter-Inspirationskatalog.pdf"
                 className="btn-katalog-download"
-                style={{ padding: "0.35rem 0.85rem", fontSize: "0.68rem" }}
+                style={{ padding: "0.5rem 1.2rem", fontSize: "0.75rem" }}
               >
                 Download katalog
               </a>
             </div>
-            <div style={{ fontSize: "0.68rem" }}>
+            <div style={{ fontSize: "0.72rem", marginTop: "0.25rem" }}>
               <a
                 href="/katalog-inspiration-print.pdf?v=3"
                 download="Yderskov-Arkitekter-Inspirationskatalog-Print.pdf"
