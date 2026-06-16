@@ -131,10 +131,10 @@ const villaProjects = [
     description: 'Klassisk engelsk villa i colonial-stil opført i Aalborg til en dansk familie hjemkommet efter flere år i USA. Villaen er tegnet med fokus på herskabelig rummelighed og luksuriøse faciliteter — herunder en storslået hall, flere badeværelser, biograf, bibliotek, et stort køkken samt stuer en-suite.',
     images: [
       '/images/Ikarosvej/Aalborg-Ikarosvej-ny-villa-indkørsel.webp',
-      '/images/Ikarosvej/Ikarosvej facade.jpeg',
-      '/images/Ikarosvej/Ikarosvej forhave med vin.jpeg',
-      '/images/Ikarosvej/ikarosvej facade mod have.png',
-      '/images/Ikarosvej/ikarosvej hall.png',
+      '/images/Ikarosvej/Ikarosvej facade.webp',
+      '/images/Ikarosvej/Ikarosvej forhave med vin.webp',
+      '/images/Ikarosvej/ikarosvej facade mod have.webp',
+      '/images/Ikarosvej/ikarosvej hall.webp',
     ],
   },
   {
@@ -145,10 +145,10 @@ const villaProjects = [
     year: '2024',
     description: 'Herskabelig engelsk villa opført på en stor hesteejendom nær Aalborg med en enestående udsigt over Limfjorden. Villaen er tegnet til en familie på tre og byder på eksklusive rammer med en rummelig hall, et stort køkken, stuer en-suite og flere badeværelser, der tilsammen forener det klassiske herregårdsudtryk med moderne landliv.',
     images: [
-      '/images/Nørholmsvej/Engelsk villa facade Nørholmsvej.png',
-      '/images/Nørholmsvej/Engelsk villa fra havesiden.JPG',
-      '/images/Nørholmsvej/Engelsk villa fra gavl.JPG',
-      '/images/Nørholmsvej/Engelsk villa på stor plæne.JPG',
+      '/images/Nørholmsvej/Engelsk villa facade Nørholmsvej.webp',
+      '/images/Nørholmsvej/Engelsk villa fra havesiden.webp',
+      '/images/Nørholmsvej/Engelsk villa fra gavl.webp',
+      '/images/Nørholmsvej/Engelsk villa på stor plæne.webp',
     ],
   },
 ];
@@ -210,10 +210,10 @@ const sommerhusProjects = [
       '/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-terrasse.webp',
       '/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej--udebruser.webp',
       '/images/Harald jensensvej Løkken/Harald jensens vej køkkeborde.webp',
-      '/images/Harald jensensvej Løkken/Harald jensensvej køkken.jpg',
+      '/images/Harald jensensvej Løkken/Harald jensensvej køkken.webp',
       '/images/Harald jensensvej Løkken/Harald jensensvej stue og pejs.webp',
-      '/images/Harald jensensvej Løkken/Harald jensensvej terrasse.jpeg',
-      '/images/Harald jensensvej Løkken/Harald jensensvej terrasse udebrus.jpeg',
+      '/images/Harald jensensvej Løkken/Harald jensensvej terrasse.webp',
+      '/images/Harald jensensvej Løkken/Harald jensensvej terrasse udebrus.webp',
     ],
   },
 ];
