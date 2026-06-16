@@ -121,6 +121,21 @@ const projectGalleries = [
     ],
     dark: true,
   },
+  {
+    eyebrow: "Projekt",
+    title: "Engelsk villa\nved fjorden, Aalborg.",
+    location: "Nørholm nær Aalborg, Nordjylland",
+    size: "350 m² landejendom",
+    year: "2024",
+    description: "Herskabelig engelsk villa opført på en stor hesteejendom nær Aalborg med en enestående udsigt over Limfjorden. Villaen er tegnet til en familie på tre og byder på eksklusive rammer med en rummelig hall, et stort køkken, stuer en-suite og flere badeværelser, der tilsammen forener det klassiske herregårdsudtryk med moderne landliv.",
+    images: [
+      { src: "/images/Nørholmsvej/Engelsk villa facade Nørholmsvej.png", alt: "Engelsk villa på hesteejendom, facade, Nørholm — Yderskov Arkitekter" },
+      { src: "/images/Nørholmsvej/Engelsk villa fra havesiden.JPG", alt: "Haveside på engelsk villa ved fjorden, Nørholm — Yderskov Arkitekter" },
+      { src: "/images/Nørholmsvej/Engelsk villa fra gavl.JPG", alt: "Gavl på engelsk villa ved fjorden, Nørholm — Yderskov Arkitekter" },
+      { src: "/images/Nørholmsvej/Engelsk villa på stor plæne.JPG", alt: "Engelsk villa ved fjorden på stor plæne, Nørholm — Yderskov Arkitekter" },
+    ],
+    dark: false,
+  },
 ];
 
 const faqItems = [

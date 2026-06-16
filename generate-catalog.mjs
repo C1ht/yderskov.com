@@ -137,6 +137,20 @@ const villaProjects = [
       '/images/Ikarosvej/ikarosvej hall.png',
     ],
   },
+  {
+    num: 8,
+    title: 'Engelsk villa ved fjorden',
+    location: 'Nørholm, Nordjylland',
+    size: '350 m² landejendom',
+    year: '2024',
+    description: 'Herskabelig engelsk villa opført på en stor hesteejendom nær Aalborg med en enestående udsigt over Limfjorden. Villaen er tegnet til en familie på tre og byder på eksklusive rammer med en rummelig hall, et stort køkken, stuer en-suite og flere badeværelser, der tilsammen forener det klassiske herregårdsudtryk med moderne landliv.',
+    images: [
+      '/images/Nørholmsvej/Engelsk villa facade Nørholmsvej.png',
+      '/images/Nørholmsvej/Engelsk villa fra havesiden.JPG',
+      '/images/Nørholmsvej/Engelsk villa fra gavl.JPG',
+      '/images/Nørholmsvej/Engelsk villa på stor plæne.JPG',
+    ],
+  },
 ];
 
 const sommerhusProjects = [
