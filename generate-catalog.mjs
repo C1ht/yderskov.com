@@ -126,9 +126,9 @@ const villaProjects = [
     num: 7,
     title: 'Engelsk colonial stil',
     location: 'Aalborg, Nordjylland',
-    size: '210 m² bolig',
+    size: '430 m² herskabelig bolig',
     year: '2023',
-    description: 'Klassisk engelsk villa i colonial-stil opført i Aalborg. Boligen forener traditionelt formsprog med moderne planløsning og komfort, hvilket skaber en stemningsfuld ramme med et tæt samspil mellem inde- og uderum.',
+    description: 'Klassisk engelsk villa i colonial-stil opført i Aalborg til en dansk familie hjemkommet efter flere år i USA. Villaen er tegnet med fokus på herskabelig rummelighed og luksuriøse faciliteter — herunder en storslået hall, flere badeværelser, biograf, bibliotek, et stort køkken samt stuer en-suite.',
     images: [
       '/images/Ikarosvej/Aalborg-Ikarosvej-ny-villa-indkørsel.webp',
       '/images/Ikarosvej/Ikarosvej facade.jpeg',
