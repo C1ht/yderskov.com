@@ -122,6 +122,21 @@ const villaProjects = [
       '/images/Hanebjælken/Vestbjerg-Hanebjælken-ny-villa-værelsesfløj.webp',
     ],
   },
+  {
+    num: 7,
+    title: 'Moderne funkisvilla',
+    location: 'Aalborg, Nordjylland',
+    size: '210 m² bolig',
+    year: '2023',
+    description: 'Modernistisk funkisvilla i Aalborg opført i lyse mursten med markante zinkinddækninger og store glaspartier. Boligen er tegnet med fokus på en optimal planløsning, lysfyldte rum og en stærk visuel forbindelse til haven.',
+    images: [
+      '/images/Ikarosvej/Aalborg-Ikarosvej-ny-villa-indkørsel.webp',
+      '/images/Ikarosvej/Ikarosvej facade.jpeg',
+      '/images/Ikarosvej/Ikarosvej forhave med vin.jpeg',
+      '/images/Ikarosvej/ikarosvej facade mod have.png',
+      '/images/Ikarosvej/ikarosvej hall.png',
+    ],
+  },
 ];
 
 const sommerhusProjects = [
@@ -162,6 +177,29 @@ const sommerhusProjects = [
       '/images/Løvevej/Ålbæk-poolhus-terrasse.webp',
       '/images/Løvevej/Ålbæk-poolhus-pool.webp',
       '/images/Løvevej/Ålbæk-poolhus-køkken.webp',
+      '/images/Løvevej/Løvevej køkken ophold.webp',
+      '/images/Løvevej/LØVEVEJ-BAD.webp',
+      '/images/Løvevej/Løvevej hems.webp',
+      '/images/Løvevej/Ålbæk-poolhus-aktivitetsrum.webp',
+      '/images/Løvevej/Ålbæk-poolhus-badmiljø.webp',
+    ],
+  },
+  {
+    num: 4,
+    title: 'Moderne sommerhus',
+    location: 'Løkken, Nordjylland',
+    size: '115 m² fritidshus',
+    year: '2024',
+    description: 'Arkitekttegnet sommerhus i Løkken opført i et moderne, stramt formsprog med store glaspartier og en overdækket terrasse, der forbinder huset med det omkringliggende landskab. Huset er indrettet med fokus på lysindfald og flydende overgange.',
+    images: [
+      '/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-indkørsel.webp',
+      '/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-terrasse.webp',
+      '/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej--udebruser.webp',
+      '/images/Harald jensensvej Løkken/Harald jensens vej køkkeborde.webp',
+      '/images/Harald jensensvej Løkken/Harald jensensvej køkken.jpg',
+      '/images/Harald jensensvej Løkken/Harald jensensvej stue og pejs.webp',
+      '/images/Harald jensensvej Løkken/Harald jensensvej terrasse.jpeg',
+      '/images/Harald jensensvej Løkken/Harald jensensvej terrasse udebrus.jpeg',
     ],
   },
 ];
