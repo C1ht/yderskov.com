@@ -259,10 +259,19 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     p.img2 = p.images[2] ? await imgB64(p.images[2], 520) : null;
     p.img3 = p.images[3] ? await imgB64(p.images[3], 520) : null;
 
-    p.page2Images = [];
+    p.galleryPages = [];
     if (p.images.length > 4 && (!p.beforeImages || p.beforeImages.length === 0)) {
-      for (let j = 4; j < p.images.length; j++) {
-        p.page2Images.push(await imgB64(p.images[j], 520));
+      const remainingImages = p.images.slice(4);
+      for (let j = 0; j < remainingImages.length; j += 4) {
+        const chunk = remainingImages.slice(j, j + 4);
+        const chunkB64 = [];
+        for (const imgPath of chunk) {
+          chunkB64.push(await imgB64(imgPath, 600));
+        }
+        p.galleryPages.push({
+          images: chunkB64,
+          pageNumber: null
+        });
       }
     }
 
@@ -286,10 +295,10 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     p.pageNumber = currentPage;
     currentPage++; // Page 1
 
-    if (p.page2Images && p.page2Images.length > 0) {
-      console.log(`Project: ${p.title} -> Page 2 (Gallery): ${currentPage}`);
-      p.page2PageNumber = currentPage;
-      currentPage++; // Page 2
+    for (const gp of p.galleryPages) {
+      gp.pageNumber = currentPage;
+      console.log(`Project: ${p.title} -> Gallery Page: ${currentPage}`);
+      currentPage++;
     }
 
     if (p.beforeImages && p.beforeImages.length > 0) {
@@ -553,35 +562,44 @@ ${processedProjects.map((p, idx) => {
 </div>
 `;
 
-  if (p.page2Images && p.page2Images.length > 0) {
-    const numRemaining = p.page2Images.length;
-    const cols = 3;
-    const rows = Math.ceil(numRemaining / cols);
-    let imgHeight = '42mm';
-    if (rows === 1) imgHeight = '80mm';
-    else if (rows === 2) imgHeight = '75mm';
-    else if (rows === 3) imgHeight = '65mm';
-    else if (rows === 4) imgHeight = '50mm';
-    else if (rows === 5) imgHeight = '42mm';
-    else if (rows === 6) imgHeight = '35mm';
-    else if (rows > 6) imgHeight = '30mm';
+  if (p.galleryPages && p.galleryPages.length > 0) {
+    p.galleryPages.forEach((gp) => {
+      const numImages = gp.images.length;
+      let gridStyles = '';
+      
+      if (numImages === 4) {
+        gridStyles = `grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(2, 1fr);`;
+      } else if (numImages === 3) {
+        gridStyles = `grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(2, 1fr);`;
+      } else if (numImages === 2) {
+        gridStyles = `grid-template-columns: repeat(2, 1fr); grid-template-rows: 1fr;`;
+      } else if (numImages === 1) {
+        gridStyles = `grid-template-columns: 1fr; grid-template-rows: 1fr;`;
+      }
 
-    htmlBlock += `
+      htmlBlock += `
 <div class="page proj-page">
   <div class="proj-top" style="padding: 11mm 14mm 4mm;">
     <div class="proj-eyebrow">Projekt ${p.num < 10 ? '0' + p.num : p.num} &nbsp;·&nbsp; ${p.location} (Galleri)</div>
     <div class="proj-title" style="font-size: 16pt; margin-bottom: 0;">${p.title}</div>
   </div>
-  <div style="margin: 0 14mm 8mm; display: grid; grid-template-columns: repeat(${cols}, 1fr); gap: 2mm; overflow: hidden;">
-    ${p.page2Images.map(imgSrc => `
-      <div style="height: ${imgHeight}; overflow: hidden;">
-        <img src="${imgSrc}" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
-      </div>
-    `).join('')}
+  <div style="margin: 0 14mm 12mm; display: grid; ${gridStyles} gap: 2.5mm; flex: 1; min-height: 0;">
+    ${gp.images.map((imgSrc, i) => {
+      let itemStyle = '';
+      if (numImages === 3 && i === 2) {
+        itemStyle = 'grid-column: span 2;';
+      }
+      return `
+        <div style="overflow: hidden; height: 100%; ${itemStyle}">
+          <img src="${imgSrc}" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+        </div>
+      `;
+    }).join('')}
   </div>
-  <div class="proj-page-num">${p.page2PageNumber}</div>
+  <div class="proj-page-num">${gp.pageNumber}</div>
 </div>
 `;
+    });
   }
 
   // Render before-images facing page if present
