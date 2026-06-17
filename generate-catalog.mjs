@@ -78,7 +78,7 @@ const villaProjects = [
       '/images/Lerstien/Frederikshavn-lerstien-terrasse.webp',
       '/images/Lerstien/Frederikshavn-lerstien-overdækket-terrasse.webp',
       '/images/Lerstien/Frederikshavn-lerstien-køkken.webp',
-      '/images/Lerstien/Frederikshavn-lerstien-skorsten.webp',
+      '/images/Billeder til blogindlæg/Gaspejs som rumdeler i sommerhus arkitekt yderskov.webp',
       '/images/Lerstien/Frederikshavn-lerstien-søjle.webp',
       '/images/Lerstien/Frederikshavn-lerstien-terrasse-2.webp',
     ],
@@ -376,17 +376,62 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   .page:last-child { break-after:auto; page-break-after:auto; }
 
   /* COVER */
-  .cover { background:${printFriendly ? '#fff' : '#161616'}; ${printFriendly ? 'border: 1px solid #ececec;' : ''} }
-  .cover-hero { position:absolute; inset:0; }
-  .cover-hero img { width:100%; height:100%; object-fit:cover; opacity:${printFriendly ? 0.06 : 0.2}; }
-  .cover-overlay { position:relative; z-index:1; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:space-between; padding:22mm 18mm; }
-  .cover-logo { width:54mm; filter:${printFriendly ? 'none' : 'invert(1) brightness(2)'}; }
-  .cover-center { text-align:center; }
-  .cover-label { font-size:8pt; font-weight:300; letter-spacing:0.28em; color:${printFriendly ? '#555' : 'rgba(255,255,255,0.5)'}; text-transform:uppercase; margin-bottom:7mm; }
-  .cover-title { font-size:56pt; font-weight:500; letter-spacing:-0.03em; color:${printFriendly ? '#111' : '#fff'}; line-height:1; }
-  .cover-sub { font-size:12pt; font-weight:300; color:${printFriendly ? '#666' : 'rgba(255,255,255,0.45)'}; margin-top:5mm; letter-spacing:0.07em; line-height:1.7; text-transform:lowercase; }
-  .cover-bottom { text-align:center; }
-  .cover-site { font-size:8pt; font-weight:300; color:${printFriendly ? '#888' : 'rgba(255,255,255,0.35)'}; letter-spacing:0.14em; }
+  .cover { position: relative; background:${printFriendly ? '#fff' : '#161616'}; ${printFriendly ? 'border: 1px solid #ececec;' : ''} }
+  .cover-hero { position:absolute; inset:0; z-index:1; }
+  .cover-hero img { width:100%; height:100%; object-fit:cover; opacity:${printFriendly ? 0.08 : 1.0}; }
+  .cover-overlay-gradient {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background: ${printFriendly 
+      ? 'none' 
+      : 'linear-gradient(to bottom, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 70%, rgba(0,0,0,0.7) 100%)'};
+  }
+  .cover-content-layout {
+    position: relative;
+    z-index: 3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24mm 20mm;
+    color: ${printFriendly ? '#111' : '#fff'};
+  }
+  .cover-top-brand {
+    width: 100%;
+  }
+  .cover-brand-name {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 24pt;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: ${printFriendly ? '#111' : '#fff'};
+    margin-bottom: 4mm;
+  }
+  .cover-brand-line {
+    width: 100%;
+    height: 0.5pt;
+    background: ${printFriendly ? 'rgba(0,0,0,0.15)' : 'rgba(255,255,255,0.4)'};
+  }
+  .cover-bottom-title {
+    text-align: left;
+  }
+  .cover-main-title {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 54pt;
+    font-weight: 300;
+    letter-spacing: -0.01em;
+    color: ${printFriendly ? '#111' : '#fff'};
+    line-height: 1.1;
+    margin-bottom: 2mm;
+  }
+  .cover-label-tag {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 11pt;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    color: ${printFriendly ? '#555' : 'rgba(255,255,255,0.8)'};
+  }
 
   /* INTRO PAGE */
   .intro-page { padding:20mm 18mm; display:flex; flex-direction:column; }
@@ -480,14 +525,16 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
 <!-- COVER -->
 <div class="page cover">
   <div class="cover-hero"><img src="${coverImg}" /></div>
-  <div class="cover-overlay">
-    <img class="cover-logo" src="${logoData}" />
-    <div class="cover-center">
-      <div class="cover-label">Arkitekttegnestuen Yderskov · Projektkatalog</div>
-      <div class="cover-title">${coverTitle}</div>
-      <div class="cover-sub">${coverSub}</div>
+  <div class="cover-overlay-gradient"></div>
+  <div class="cover-content-layout">
+    <div class="cover-top-brand">
+      <div class="cover-brand-name">YDERSKOV</div>
+      <div class="cover-brand-line"></div>
     </div>
-    <div class="cover-bottom"><div class="cover-site">yderskov.com</div></div>
+    <div class="cover-bottom-title">
+      <div class="cover-main-title">${coverTitle}</div>
+      <div class="cover-label-tag">PROJEKTKATALOG</div>
+    </div>
   </div>
 </div>
 
@@ -598,11 +645,25 @@ ${processedProjects.map((p, idx) => {
   let htmlBlock = '';
   const needsSeparator = idx === 0 || p.section !== processedProjects[idx - 1].section;
   if (needsSeparator) {
-    const sectionTitle = p.section === 'villaer' ? 'villaer' : (p.section === 'tilbygninger' ? 'om- og tilbygninger' : 'sommerhuse');
+    const sectionTitle = p.section === 'villaer' ? 'Villaer' : (p.section === 'tilbygninger' ? 'Om- og tilbygning' : 'Sommerhuse');
     htmlBlock += `
-<div class="page separator-page" style="background:${printFriendly ? '#fff' : '#161616'}; display:flex; flex-direction:column; align-items:center; justify-content:center; ${printFriendly ? 'border: 1px solid #ececec;' : ''}">
-  <div style="text-align:center;">
-    <div style="font-size:36pt; font-weight:500; color:${printFriendly ? '#111' : '#fff'}; letter-spacing:-0.02em; line-height:1.2; text-transform:lowercase; text-align:center; font-family:'Helvetica Neue', Arial, sans-serif;">${sectionTitle}</div>
+<div class="page separator-page" style="background:${printFriendly ? '#fff' : '#161616'}; display:flex; flex-direction:column; align-items:center; justify-content:space-between; padding:24mm 20mm; ${printFriendly ? 'border: 1px solid #ececec;' : ''}">
+  <!-- Top brand line (identical to main cover) -->
+  <div class="cover-top-brand">
+    <div class="cover-brand-name">YDERSKOV</div>
+    <div class="cover-brand-line"></div>
+  </div>
+  
+  <!-- Middle Logo and Company Name -->
+  <div style="display:flex; flex-direction:column; align-items:center; gap:5mm; margin-top: -10mm;">
+    <img src="${iconData}" style="width:32mm; height:32mm; filter:${printFriendly ? 'none' : 'invert(1) brightness(2)'};" />
+    <div style="font-size:10.5pt; font-weight:300; letter-spacing:0.18em; text-transform:uppercase; color:${printFriendly ? '#555' : 'rgba(255,255,255,0.6)'}; margin-top:2mm; font-family:'Helvetica Neue', Arial, sans-serif;">Arkitekttegnestuen Yderskov</div>
+  </div>
+  
+  <!-- Bottom Section Title (identical styling to main cover) -->
+  <div class="cover-bottom-title" style="width:100%;">
+    <div class="cover-main-title">${sectionTitle}</div>
+    <div class="cover-label-tag">PROJEKTKATALOG</div>
   </div>
 </div>
 `;

@@ -78,7 +78,7 @@ const projectGalleries = [
       { src: "/images/Lerstien/Frederikshavn-lerstien-terrasse.webp", alt: "Terrasse på udsigtsvilla i Frederikshavn — Arkitekttegnestuen Yderskov" },
       { src: "/images/Lerstien/Frederikshavn-lerstien-overdækket-terrasse.webp", alt: "Overdækket terrasse på udsigtsvilla i Frederikshavn — Arkitekttegnestuen Yderskov" },
       { src: "/images/Lerstien/Frederikshavn-lerstien-køkken.webp", alt: "Køkken og opholdsrum, udsigtsvilla i Frederikshavn — Arkitekttegnestuen Yderskov" },
-      { src: "/images/Lerstien/Frederikshavn-lerstien-skorsten.webp", alt: "Skorsten og facade, udsigtsvilla i Frederikshavn — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Billeder til blogindlæg/Gaspejs som rumdeler i sommerhus arkitekt yderskov.webp", alt: "Gaspejs som rumdeler i sommerhus — Arkitekttegnestuen Yderskov" },
       { src: "/images/Lerstien/Frederikshavn-lerstien-søjle.webp", alt: "Strukturelle detaljer og søjle, udsigtsvilla i Frederikshavn — Arkitekttegnestuen Yderskov" },
       { src: "/images/Lerstien/Frederikshavn-lerstien-terrasse-2.webp", alt: "Terrasse og facade, udsigtsvilla i Frederikshavn — Arkitekttegnestuen Yderskov" },
     ],
@@ -91,7 +91,7 @@ export default function ArkitektSjaellandPage() {
     <>
       <Nav />
       <Hero
-        slides={[{ src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-terrasse.webp", alt: "Arkitekttegnet villa tilbygning — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-terrasse.webp", alt: "Arkitekttegnet villa tilbygning — Arkitekttegnestuen Yderskov" }]}
         tag="Arkitekt Sjælland"
         subtitle="Arkitekt Sjælland"
         lines={[
