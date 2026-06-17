@@ -18,6 +18,54 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "guide-til-byggetilladelse-byggeansoegning",
+    image: "/images/Billeder til blogindlæg/byggeansøgning arkitekttegnestuen yderskov.webp",
+    metaTitle: "Guide til byggetilladelse og byggeansøgning — Yderskov",
+    title: "Guide til byggetilladelse: Sådan søger du om byggetilladelse — Arkitekttegnestuen Yderskov",
+    description: "Hvornår skal man søge byggetilladelse, og hvordan foregår en byggeansøgning? Få arkitektens guide til regler, BR18, Byg og Miljø og sagsbehandlingstider.",
+    date: "17 / 06 / 2026",
+    cat: "Arkitekt & proces",
+    catKey: "proces",
+    lead: "Uanset om du vil bygge en ny villa, et sommerhus eller en tilbygning, er byggetilladelsen en af de vigtigste milepæle i byggeprocessen. Men reglerne i Bygningsreglementet (BR18) kan virke uoverskuelige, og en mangelfuld byggeansøgning kan føre til lange forsinkelser hos kommunen. Her gennemgår vi alt, hvad du skal vide om at søge byggetilladelse, og hvordan vi som arkitekter hjælper dig sikkert igennem processen.",
+    sections: [
+      {
+        heading: "Hvornår skal man søge byggetilladelse?",
+        paragraphs: [
+          "Som udgangspunkt skal du søge om byggetilladelse hos kommunen, hver gang du opfører et nyt beboelseshus (villa eller sommerhus) eller udvider det eksisterende boligareal med en tilbygning. Det gælder også, hvis du ændrer anvendelsen af et rum — f.eks. hvis en uudnyttet tagetage eller en integreret garage skal laves om til godkendt beboelse.",
+          "Mindre bygninger på grunden som garager, carporte, udhuse og overdækkede terrasser kan i nogle tilfælde opføres uden byggetilladelse, hvis det samlede areal af disse sekundære bygninger på grunden ikke overstiger 50 m². Dog skal byggeriet stadig overholde alle gældende regler om højde, afstand til skel og bebyggelsesprocent."
+        ]
+      },
+      {
+        heading: "Reglerne du skal overholde: Lokalplaner, tinglyste deklarationer og BR18",
+        paragraphs: [
+          "Inden du sender din byggeansøgning afsted, skal du sikre dig, at dit projekt overholder tre lag av regler. Først og fremmest Bygningsreglementet (BR18), som fastsætter de generelle krav til konstruktioner, isolering, dagslys og sikkerhed. Bebyggelsesprocenten på din grund (typisk 30% for villaer og 15% for sommerhuse) er et helt afgørende element her.",
+          "Derudover skal du tjekke, om din ejendom er omfattet af en lokalplan eller en byplanvedtægt. Lokalplaner kan indeholde meget specifikke krav til alt fra tagform, farvevalg og materialer til husets maksimale højde og placering på grunden. Endelig kan der være tinglyste deklarationer (servitutter) på ejendommen, som regulerer, hvad du må bygge."
+        ]
+      },
+      {
+        heading: "Hvordan foregår en byggeansøgning i praksis?",
+        paragraphs: [
+          "Selve byggeansøgningen sendes digitalt via den nationale portal 'Byg og Miljø'. Her skal du logge ind med MitID og oprette din sag under den specifikke adresse. Ansøgningen skal indeholde en lang række tekniske tegninger og dokumenter, herunder situationsplan, plan- og snittegninger, facadetegninger, oplysninger om materialevalg samt en redegørelse for, hvordan byggeriet overholder gældende regler.",
+          "En af de hyppigste årsager til lange sagsbehandlingstider hos kommunerne er mangelfuldt tegningsmateriale eller uklarheder i ansøgningen. Hvis sagsbehandleren skal efterspørge yderligere dokumentation, starter sagsbehandlingstiden reelt forfra. Derfor betaler det sig altid at få professionelt tegningsmateriale udarbejdet af en arkitekt."
+        ]
+      },
+      {
+        heading: "Sagsbehandlingstider og gebyrer",
+        paragraphs: [
+          "Sagsbehandlingstiden for en byggetilladelse varierer enormt fra kommune til kommune. Nogle kommuner kan behandle en ansøgning på få uger, mens sagsbehandlingstiden i andre kommuner kan strække sig over mange måneder. Kommunerne opkræver desuden et gebyr for sagsbehandlingen, som typisk afregnes pr. time, der bruges på sagen.",
+          "Det er vigtigt at understrege, at du under ingen omstændigheder må påbegynde byggeriet, før du har modtaget den skriftlige byggetilladelse. Gør du det alligevel, risikerer du i værste fald at skulle rive det opførte ned igen eller betale store bøder."
+        ]
+      },
+      {
+        heading: "Lad Arkitekttegnestuen Yderskov håndtere din byggeansøgning",
+        paragraphs: [
+          "Når du samarbejder med Arkitekttegnestuen Yderskov om dit byggeprojekt, overtager vi hele myndighedsprocessen. Vi udarbejder alt det nødvendige professionelle tegningsmateriale, formulerer de tekniske redegørelser og indsender byggeansøgningen direkte i Byg og Miljø som din autoriserede rådgiver.",
+          "Vi har mere end 25 års erfaring med myndighedsbehandling og har et indgående kendskab til kravene i BR18 samt et godt samarbejde med de kommunale byggesagsafdelinger. Det sikrer dig en hurtig, smertefri proces og minimerer risikoen for uforudsete forsinkelser eller afslag. Kontakt os for et gratis og uforpligtende idemøde, hvor vi også kan vurdere mulighederne på din grund."
+        ]
+      }
+    ]
+  },
+  {
     slug: "hvordan-designer-man-et-godt-koekkenrum",
     image: "/images/Lerstien/Frederikshavn-lerstien-køkken.webp",
     metaTitle: "Hvordan designer man et godt køkkenrum? Få arkitektens 5 råd — Yderskov",
