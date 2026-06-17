@@ -40,7 +40,7 @@ const projectGalleries = [
     location: "Aalborg, Nordjylland",
     size: "430 m² herskabelig bolig",
     year: "2023",
-    description: "Klassisk engelsk villa i colonial-stil opført i Aalborg til en dansk familie hjemkommet efter flere år i USA. Villaen er tegnet med fokus på herskabelig rummelighed og luksuriøse faciliteter — herunder en storslået hall, flere badeværelser, biograf, bibliotek, et stort køkken samt stuer en-suite.",
+    description: "Eksklusiv herskabsvilla i engelsk colonial-stil opført i Aalborg. Den hvide pudsede facade med markante gesimser, søjleprydet indgangsparti og mørke sprossede vinduer komplementeres af en smuk forhave med frodige vinranker. Indvendigt rummer villaen luksuriøse faciliteter, herunder en storslået hall med en elegant svungen trappe, sildebensparket, hjemmebiograf og stuer en-suite.",
     images: [
       { src: "/images/Ikarosvej/Aalborg-Ikarosvej-ny-villa-indkørsel.webp", alt: "Engelsk villa i colonial-stil, indkørsel, Aalborg — Arkitekttegnestuen Yderskov" },
       { src: "/images/Ikarosvej/Ikarosvej facade.webp", alt: "Engelsk villa i colonial-stil, facade, Aalborg — Arkitekttegnestuen Yderskov" },
@@ -71,7 +71,7 @@ const projectGalleries = [
     location: "Frederikshavn, Nordjylland",
     size: "208 m² bolig · 63 m² garage · 37 m² overdækning",
     year: "2021",
-    description: "Udsigtsvilla med vandudsigt, tegnet til en skrånende naturgrund med skrappe myndighedskrav om indpasning i den beplantede skrænt. Familien ønskede et hus der svævede udover bakken — en oase med nye og naturlige materialer. Garageanlæg er placeret under huset, da grunden har markant fald.",
+    description: "Udsigtsvilla med vandudsigt, tegnet til en skrånende naturgrund med skrappe myndighedskrav om indpasning i den beplantede skrænt. Familien ønskede et hus der svævede udover bakken — en oase med naturlige materialer og fri udsigt.",
     images: [
       { src: "/images/Lerstien/Frederikshavn-lerstien-vejside.webp", alt: "Vejside på udsigtsvilla i Frederikshavn — Arkitekttegnestuen Yderskov" },
       { src: "/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp", alt: "Udsigtsvilla med terrasse og byudsigt, Frederikshavn — Arkitekttegnestuen Yderskov" },

@@ -58,7 +58,7 @@ const villaProjects = [
     location: 'Sæby, Nordjylland',
     size: '230 m² bolig · 50 m² garage',
     year: '2016',
-    description: 'Vinkelvilla på stor grund med kinesisk svej på sort tegltag og småsprodsede vinduer. Familiens ønske om et markant, klassisk udtryk er kombineret med en moderne og rummelig planløsning.',
+    description: 'Elegant vinkelvilla i Sæby opført på en stor grund med et karakteristisk sort tegltag med kinesisk svej ved tagfoden og klassiske hvide, småsprodsede vinduespartier. Bygningen forener et herskabeligt, klassisk udtryk med en moderne, åben planløsning. Den tilhørende fliseterrasse og store grønne have skaber fantastiske rammer for udelivet.',
     images: [
       '/images/villa sæby/Sæby-ny-villa-kinesisk-tag-haveside.webp',
       '/images/villa sæby/Sæby-ny-villa-kinesisk-tag-haveside-2.webp',
@@ -128,7 +128,7 @@ const villaProjects = [
     location: 'Aalborg, Nordjylland',
     size: '430 m² herskabelig bolig',
     year: '2023',
-    description: 'Klassisk engelsk villa i colonial-stil opført i Aalborg til en dansk familie hjemkommet efter flere år i USA. Villaen er tegnet med fokus på herskabelig rummelighed og luksuriøse faciliteter — herunder en storslået hall, flere badeværelser, biograf, bibliotek, et stort køkken samt stuer en-suite.',
+    description: 'Eksklusiv herskabsvilla i engelsk colonial-stil opført i Aalborg. Den hvide pudsede facade med markante gesimser, søjleprydet indgangsparti og mørke sprossede vinduer komplementeres af en smuk forhave med frodige vinranker. Indvendigt rummer villaen luksuriøse faciliteter, herunder en storslået hall med en elegant svungen trappe, sildebensparket, hjemmebiograf og stuer en-suite.',
     images: [
       '/images/Ikarosvej/Aalborg-Ikarosvej-ny-villa-indkørsel.webp',
       '/images/Ikarosvej/Ikarosvej facade.webp',
@@ -173,7 +173,7 @@ const sommerhusProjects = [
     location: 'Løkken, Nordjylland',
     size: '110 m² fritidshus · klitgrund',
     year: '2020',
-    description: 'Klassisk sommerhus beliggende på en kuperet klitgrund i Løkken med storslået udsigt over landskabet og Vesterhavet. Huset er nænsomt tilpasset terrænet og råder over en ugeneret solterrasse.',
+    description: 'Klassisk sort træsommerhus opført på en vild, kuperet klitgrund i Løkken med storslået panoramaudsigt over landskabet og Vesterhavet. Bygningen er nænsomt integreret i det sarte klitlandskab med en stor, ugeneret træterrasse, der smyger sig om huset. Dertil hører et matchende, fritliggende anneks til gæster, som fuldender den nordiske feriestemning midt i marehalmen.',
     images: [
       '/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-terrasse.webp',
       '/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-indgangsparti.webp',
@@ -186,7 +186,7 @@ const sommerhusProjects = [
     location: 'Ålbæk, Nordjylland',
     size: '185 m² wellness-hus · pool & spa',
     year: '2023',
-    description: 'Luksussommerhus i Ålbæk med indendørs swimmingpool, aktivitetsrum med billard og moderne køkken-alrum. Sommerhuset er tegnet til at rumme flere generationer og er ideelt to både familiehygge og udlejning.',
+    description: 'Eksklusivt luksussommerhus i Ålbæk beklædt med lyst træ og tegnet som det ultimative wellness-fristed for flere generationer. Huset rummer en storslået indendørs wellness-afdeling med swimmingpool og indbygget spa, et lyst køkken-alrum med dobbelte ovenlys og hyggelig hems, et stilrent badeværelse samt et separat aktivitetsrum med billard, der indbyder til hyggelige stunder.',
     images: [
       '/images/Løvevej/Ålbæk-poolhus-terrasse.webp',
       '/images/Løvevej/Ålbæk-poolhus-pool.webp',
@@ -204,7 +204,7 @@ const sommerhusProjects = [
     location: 'Løkken, Nordjylland',
     size: '115 m² fritidshus',
     year: '2024',
-    description: 'Arkitekttegnet sommerhus i Løkken opført i et moderne, stramt formsprog med store glaspartier og en overdækket terrasse, der forbinder huset med det omkringliggende landskab. Huset er indrettet med fokus på lysindfald og flydende overgange.',
+    description: 'Moderne sommerhus i Løkken opført i et stramt, minimalistisk formsprog med lodret, mørk listebeklædning og overdækkede terrasseområder. Huset er gennemtænkt med store glaspartier for et flydende overgangsrum, en luksuriøs udendørs bruser, og et eksklusivt interiør med betonbordplader, rå trædetaljer og en indbygget biopejs, der fungerer som et hyggeligt samlingspunkt.',
     images: [
       '/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-indkørsel.webp',
       '/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-terrasse.webp',
@@ -225,7 +225,7 @@ const tilbygningProjects = [
     location: 'Brønderslev, Nordjylland',
     size: 'Komplet ombygning · nyt køkken-alrum',
     year: '2023',
-    description: 'Gennemgribende modernisering og ombygning af en 1950\'er-villa i Brønderslev. Huset er blevet åbnet op med store skydedørspartier mod haven og et nyt, lyst køkken-alrum, hvilket har givet boligen et nutidigt arkitektonisk løft.',
+    description: 'Gennemgribende transformation af en klassisk 1950\'er-villa i Brønderslev. Huset er opgraderet fra slidt murværk til en moderne, hvidpudset facade med mørke vinduesrammer og store skydedørspartier. Indvendigt er boligen åbnet op med et imponerende køkken-alrum med loft til kip, store ovenlysvinduer og direkte adgang til en nyopført træterrasse mod haven.',
     images: [
       '/images/Godthåbsvej/yderskov-ombygning-efter-3.webp',
       '/images/Godthåbsvej/yderskov-ombygning-efter-1.webp',
@@ -244,7 +244,7 @@ const tilbygningProjects = [
     location: 'Hasseris i Aalborg',
     size: '45 m² tilbygning · terrasse',
     year: '2021',
-    description: 'Moderne tilbygning i Hasseris i Aalborg, der udvider den eksisterende murstensvilla med et lyst opholdsrum. Store vinduespartier og en overdækket terrasse skaber en glidende overgang til haven.',
+    description: 'Stilfuld tilbygning til en traditionel murstensvilla i Hasseris. Tilbygningen er udført med en mørk træbeklædning, der danner en flot kontrast til det røde murværk, og afsluttes med zinkinddækninger samt store hjørnevinduer. Den tilfører boligen et lyst, åbent opholdsrum med direkte udgang til en overdækket fliseterrasse og en smukt anlagt have.',
     images: [
       '/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp',
       '/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-terrasse.webp',
@@ -257,7 +257,7 @@ const tilbygningProjects = [
     location: 'Aalborg, Nordjylland',
     size: '35 m² tilbygning · overdækning',
     year: '2022',
-    description: 'Tegnestuens bud på en elegant tilbygning i Aalborg med en stor træterrasse, der smelter sammen med plænen. Tilbygningen tilfører boligen vigtige kvadratmeter og optimerer lysindfaldet.',
+    description: 'Elegant og moderne tilbygning i Aalborg udført med mørke facadeplader, der tilfører huset værdifulde kvadratmeter og masser af dagslys. Tilbygningen åbner sig mod haven via en stor, specialbygget træterrasse i flere niveauer, som trapper naturligt ned mod plænen og integrerer uderummet i hverdagen.',
     images: [
       '/images/Neptunvej/Aalborg-neptunvej-tilbygning-terrasse.webp',
       '/images/Neptunvej/Aalborg-neptunvej-tilbygning-terrasse-og-plæne.webp',
@@ -270,7 +270,7 @@ const tilbygningProjects = [
     location: 'Hasseris i Aalborg',
     size: 'Facaderenovering · ny planløsning',
     year: '2022',
-    description: 'Renovering og ombygning af en klassisk 1970\'er-villa i Hasseris i Aalborg. Facaden er opdateret til et rent, moderne look, og planløsningen er optimeret til familiens behov.',
+    description: 'Totalrenovering af en klassisk 1970\'er-villa i Hasseris. Den mørke facade er forvandlet med en lys, hvidpudset overflade kombineret med varme lærketræsdetaljer og en ny, hævet træterrasse. Planløsningen er gennemgribende optimeret for at skabe et stort, sammenhængende køkken-alrum med store vinduespartier mod haven.',
     images: [
       '/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-haveside.webp',
       '/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-vejside.webp',
@@ -283,7 +283,7 @@ const tilbygningProjects = [
     location: 'Brønderslev, Nordjylland',
     size: 'Komplet ombygning · energirenovering',
     year: '2023',
-    description: 'Ombygning og totalrenovering af et ældre, traditionelt parcelhus i Brønderslev. Boligen er transformeret til et energivenligt, lyst og moderne hjem med en stærk visuel profil.',
+    description: 'Markant totalrenovering og modernisering af et ældre parcelhus i Brønderslev. Bygningen er transformeret fra et traditionelt murstenshus til en lys, hvidpudset ejendom med et stærkt arkitektonisk udtryk. Renoveringen omfatter nye vinduer, energiløsninger, en nyindrettet have med grusbelagt indkørsel samt store glaspartier mod den private baghave.',
     images: [
       '/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-indkørsel.webp',
       '/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-vejside.webp',
@@ -340,32 +340,43 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     }
   }
 
-  let currentPage = 5;
+  let displayedPageNum = 4;
+  let physicalPageNum = 5;
   const processedProjects = [];
   for (let i = 0; i < catalogProjects.length; i++) {
     const p = catalogProjects[i];
     const needsSeparator = i === 0 || p.section !== catalogProjects[i - 1].section;
     if (needsSeparator) {
-      console.log(`[SEPARATOR] Section: ${p.section} -> Page: ${currentPage}`);
-      currentPage++; // Separator page
+      p.separatorPhysicalPage = physicalPageNum;
+      console.log(`[SEPARATOR] Section: ${p.section} -> Physical Page: ${physicalPageNum}`);
+      physicalPageNum++; // Separator page (no page number shown, not counted in displayedPageNum)
     }
-    console.log(`Project: ${p.title} (${p.location}) -> Page 1: ${currentPage}`);
-    p.pageNumber = currentPage;
-    currentPage++; // Page 1
+    
+    p.pageNumber = displayedPageNum;
+    p.physicalPage = physicalPageNum;
+    console.log(`Project: ${p.title} (${p.location}) -> Page number: ${displayedPageNum}, Physical Page: ${physicalPageNum}`);
+    displayedPageNum++;
+    physicalPageNum++;
 
     for (const gp of p.galleryPages) {
-      gp.pageNumber = currentPage;
-      console.log(`Project: ${p.title} -> Gallery Page: ${currentPage}`);
-      currentPage++;
+      gp.pageNumber = displayedPageNum;
+      gp.physicalPage = physicalPageNum;
+      console.log(`Project: ${p.title} -> Gallery Page number: ${displayedPageNum}, Physical Page: ${physicalPageNum}`);
+      displayedPageNum++;
+      physicalPageNum++;
     }
 
     if (p.beforeImages && p.beforeImages.length > 0) {
-      console.log(`Project: ${p.title} -> Before page: ${currentPage}`);
-      p.beforePageNumber = currentPage;
-      currentPage++; // Before-images facing page
+      p.beforePageNumber = displayedPageNum;
+      p.beforePhysicalPage = physicalPageNum;
+      console.log(`Project: ${p.title} -> Before page number: ${displayedPageNum}, Physical Page: ${physicalPageNum}`);
+      displayedPageNum++;
+      physicalPageNum++;
     }
     processedProjects.push(p);
   }
+
+  const backCoverPhysicalPage = physicalPageNum;
 
   const html = `<!DOCTYPE html>
 <html lang="da">
@@ -400,9 +411,10 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 24mm 20mm;
     color: ${printFriendly ? '#111' : '#fff'};
   }
+  .page-even.cover .cover-content-layout { padding: 24mm 26mm 24mm 20mm; }
+  .page-odd.cover .cover-content-layout { padding: 24mm 20mm 24mm 26mm; }
   .cover-top-brand {
     width: 100%;
   }
@@ -440,7 +452,9 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   }
 
   /* INTRO PAGE */
-  .intro-page { padding:20mm 18mm; display:flex; flex-direction:column; }
+  .intro-page { display:flex; flex-direction:column; }
+  .page-even.intro-page, .page-even.toc-page, .page-even.proc-page { padding: 20mm 24mm 20mm 18mm; }
+  .page-odd.intro-page, .page-odd.toc-page, .page-odd.proc-page { padding: 20mm 18mm 20mm 24mm; }
   .intro-eyebrow { font-size:7pt; font-weight:500; letter-spacing:0.2em; color:#999; text-transform:uppercase; margin-bottom:4mm; }
   .intro-heading { font-size:28pt; font-weight:500; letter-spacing:-0.02em; color:#111; margin-bottom:8mm; }
   .intro-text { font-size:9.5pt; font-weight:300; color:#444; line-height:1.75; flex:1; }
@@ -448,13 +462,15 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   .intro-text strong { font-weight:500; color:#111; }
   .intro-signature { margin-top:8mm; font-size:9.5pt; font-weight:500; color:#111; line-height:1.4; }
   .intro-signature span { font-weight:300; color:#777; }
-  .intro-page-num { position:absolute; bottom:5mm; right:18mm; font-size:7pt; color:#ccc; }
+  .intro-page-num { position:absolute; bottom:5mm; font-size:7pt; color:#ccc; }
+  .page-even .intro-page-num { left:18mm; right:auto; }
+  .page-odd .intro-page-num { right:18mm; left:auto; }
   .intro-footer { margin-top:auto; padding-top:6mm; border-top:0.3pt solid #ececec; display:flex; align-items:center; gap:4mm; }
   .intro-footer-logo { height:6mm; opacity:0.15; }
   .intro-footer-text { font-size:7.5pt; color:#bbb; font-weight:300; }
 
   /* TOC */
-  .toc-page { padding:20mm 18mm; display:flex; flex-direction:column; }
+  .toc-page { display:flex; flex-direction:column; }
   .toc-eyebrow { font-size:7pt; font-weight:500; letter-spacing:0.2em; color:#999; text-transform:uppercase; margin-bottom:4mm; }
   .toc-heading { font-size:28pt; font-weight:500; letter-spacing:-0.02em; color:#111; margin-bottom:10mm; }
   .toc-list { flex:1; }
@@ -469,7 +485,7 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   .toc-footer-text { font-size:7.5pt; color:#bbb; font-weight:300; }
 
   /* PROCESS PAGE */
-  .proc-page { padding:20mm 18mm; display:flex; flex-direction:column; }
+  .proc-page { display:flex; flex-direction:column; }
   .proc-eyebrow { font-size:7pt; font-weight:500; letter-spacing:0.2em; color:#999; text-transform:uppercase; margin-bottom:4mm; }
   .proc-heading { font-size:28pt; font-weight:500; letter-spacing:-0.02em; color:#111; margin-bottom:10mm; }
   .proc-timeline { display:flex; flex-direction:column; gap:4.5mm; flex:1; }
@@ -488,15 +504,20 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
 
   /* PROJECT */
   .proj-page { display:flex; flex-direction:column; }
-  .proj-top { padding:11mm 14mm 5mm; }
+  .page-even .proj-top { padding: 11mm 20mm 5mm 14mm; }
+  .page-odd .proj-top { padding: 11mm 14mm 5mm 20mm; }
   .proj-eyebrow { font-size:7pt; font-weight:500; letter-spacing:0.18em; color:#bbb; text-transform:uppercase; margin-bottom:2.5mm; }
   .proj-title { font-size:21pt; font-weight:500; letter-spacing:-0.025em; color:#111; line-height:1.1; margin-bottom:2.5mm; }
   .proj-meta { font-size:7.5pt; font-weight:300; color:#888; letter-spacing:0.04em; margin-bottom:3mm; }
   .proj-desc { font-size:8.5pt; font-weight:300; color:#555; line-height:1.75; max-width:158mm; }
   .proj-imgs { flex:1; display:flex; flex-direction:column; min-height:0; }
-  .proj-img-main { flex:1; overflow:hidden; margin:3mm 14mm 2mm; min-height:0; }
+  .proj-img-main { flex:1; overflow:hidden; min-height:0; }
+  .page-even .proj-img-main { margin: 3mm 20mm 2mm 14mm; }
+  .page-odd .proj-img-main { margin: 3mm 14mm 2mm 20mm; }
   .proj-img-main img { width:100%; height:100%; object-fit:cover; display:block; }
-  .proj-img-row { display:flex; gap:2mm; height:46mm; margin:0 14mm 9mm; }
+  .proj-img-row { display:flex; gap:2mm; height:46mm; }
+  .page-even .proj-img-row { margin: 0 20mm 9mm 14mm; }
+  .page-odd .proj-img-row { margin: 0 14mm 9mm 20mm; }
   .proj-img-row div { flex:1; overflow:hidden; position:relative; }
   .before-badge {
     position: absolute;
@@ -513,7 +534,9 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     z-index: 2;
   }
   .proj-img-row img { width:100%; height:100%; object-fit:cover; display:block; }
-  .proj-page-num { position:absolute; bottom:5mm; right:14mm; font-size:7pt; color:#ccc; }
+  .proj-page-num { position:absolute; bottom:5mm; font-size:7pt; color:#ccc; }
+  .page-even .proj-page-num { left:14mm; right:auto; }
+  .page-odd .proj-page-num { right:14mm; left:auto; }
 
   /* BACK */
   .back { background:${printFriendly ? '#fff' : '#161616'}; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:0; ${printFriendly ? 'border: 1px solid #ececec;' : ''} }
@@ -529,7 +552,7 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
 <body>
 
 <!-- COVER -->
-<div class="page cover">
+<div class="page cover page-odd">
   <div class="cover-hero"><img src="${coverImg}" /></div>
   <div class="cover-overlay-gradient"></div>
   <div class="cover-content-layout">
@@ -545,12 +568,12 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
 </div>
 
 <!-- PRESENTATION -->
-<div class="page intro-page">
+<div class="page intro-page page-even">
   <div class="intro-eyebrow">Velkommen · yderskov.com</div>
   <div class="intro-heading">Find inspiration til dit byggeri</div>
   <div class="intro-text">
     <p>Drømmen om at bygge nyt, bygge til eller renovere starter altid med en god idé og en portion inspiration. Dette katalog er skabt som et inspirationsværktøj til jer, der går med byggeplaner. Her kan I se et lille udvalg af vores afsluttede projekter, studere plantegninger og lade jer inspirere af forskellige arkitektoniske former, materialevalg og lysindfald.</p>
-    <p>Hos <strong>Arkitekttegnestuen Yderskov</strong> har vi mere end 25 års erfaring med at tegne og opføre unikke huse og byggerier i hele Danmark. Vi har stået i spidsen for over 300 vellykkede byggerier – lige fra moderne funkisvillaer og naturskønne sommerhuse til funktionelle tilbygninger. Vores tegnestue adskiller sig ved at tilbyde en samlet proces med faste håndværkere, hvilket giver jer en god byggeproces.</p>
+    <p>Hos <strong>Arkitekttegnestuen Yderskov</strong> har vi more end 25 års erfaring med at tegne og opføre unikke huse og byggerier i hele Danmark. Vi har stået i spidsen for over 300 vellykkede byggerier – lige fra moderne funkisvillaer og naturskønne sommerhuse til funktionelle tilbygninger. Vores tegnestue adskiller sig ved at tilbyde en samlet proces med faste håndværkere, hvilket giver jer en god byggeproces.</p>
     <p>Brug dette katalog som et moodboard. Tag noter, sæt kryds ved de løsninger, I kan lide, og tag kataloget med til vores første møde. Vi tilbyder altid et <strong>gratis og helt uforpligtende idémøde</strong> f.eks. på jeres byggegrund, hvor vi sammen kan drøfte mulighederne for at realisere jeres drømmebyggeri.</p>
     <p>Vi glæder os til at høre om jeres tanker.</p>
     <div class="intro-signature">
@@ -562,11 +585,11 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     <img class="intro-footer-logo" src="${logoData}" />
     <span class="intro-footer-text">Arkitekttegnestuen Yderskov ApS · yderskov.com · cy@yderskov.com · 29 72 34 27</span>
   </div>
-  <div class="intro-page-num">2</div>
+  <div class="intro-page-num">1</div>
 </div>
 
 <!-- TOC -->
-<div class="page toc-page">
+<div class="page toc-page page-odd">
   <div class="toc-eyebrow">Katalog — ${name}</div>
   <div class="toc-heading">Indholdsfortegnelse</div>
   <div class="toc-list">
@@ -574,7 +597,7 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
       <span class="toc-num">00</span>
       <span class="toc-name">Processen fra A til Z</span>
       <span class="toc-loc">Byggeforløbet</span>
-      <span class="toc-pg">4</span>
+      <span class="toc-pg">3</span>
     </div>
     ${processedProjects.map((p) => `
     <div class="toc-item">
@@ -588,11 +611,11 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     <img class="toc-footer-logo" src="${logoData}" />
     <span class="toc-footer-text">Arkitekttegnestuen Yderskov ApS · yderskov.com · cy@yderskov.com · 29 72 34 27</span>
   </div>
-  <div class="intro-page-num">3</div>
+  <div class="intro-page-num">2</div>
 </div>
 
 <!-- PROCESS -->
-<div class="page proc-page">
+<div class="page proc-page page-even">
   <div class="proc-eyebrow">Din proces · yderskov.com</div>
   <div class="proc-heading">Fra første møde til indflytning</div>
   <div class="proc-timeline">
@@ -643,7 +666,7 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     <img class="proc-footer-logo" src="${logoData}" />
     <span class="proc-footer-text">Arkitekttegnestuen Yderskov ApS · yderskov.com · cy@yderskov.com · 29 72 34 27</span>
   </div>
-  <div class="intro-page-num">4</div>
+  <div class="intro-page-num">3</div>
 </div>
 
 <!-- PROJECTS -->
@@ -653,7 +676,7 @@ ${processedProjects.map((p, idx) => {
   if (needsSeparator) {
     const sectionTitle = p.section === 'villaer' ? 'Villaer' : (p.section === 'tilbygninger' ? 'Om- og tilbygning' : 'Sommerhuse');
     htmlBlock += `
-<div class="page cover" style="background:${printFriendly ? '#fff' : '#161616'}; ${printFriendly ? 'border: 1px solid #ececec;' : ''}">
+<div class="page cover ${p.separatorPhysicalPage % 2 === 0 ? 'page-even' : 'page-odd'}" style="background:${printFriendly ? '#fff' : '#161616'}; ${printFriendly ? 'border: 1px solid #ececec;' : ''}">
   <div class="cover-hero"><img src="${separatorImages[p.section]}" /></div>
   <div class="cover-overlay-gradient"></div>
   <div class="cover-content-layout">
@@ -680,7 +703,7 @@ ${processedProjects.map((p, idx) => {
   }
 
   htmlBlock += `
-<div class="page proj-page">
+<div class="page proj-page ${p.physicalPage % 2 === 0 ? 'page-even' : 'page-odd'}">
   <div class="proj-top">
     <div class="proj-eyebrow">Projekt ${p.num < 10 ? '0' + p.num : p.num} &nbsp;·&nbsp; ${p.location}</div>
     <div class="proj-title">${p.title}</div>
@@ -732,13 +755,16 @@ ${processedProjects.map((p, idx) => {
         gridStyles = `grid-template-columns: 1fr; grid-template-rows: 1fr;`;
       }
 
+      const isEven = gp.physicalPage % 2 === 0;
+      const topPadding = isEven ? '11mm 20mm 4mm 14mm' : '11mm 14mm 4mm 20mm';
+      const gridMargin = isEven ? '0 20mm 12mm 14mm' : '0 14mm 12mm 20mm';
       htmlBlock += `
-<div class="page proj-page">
-  <div class="proj-top" style="padding: 11mm 14mm 4mm;">
+<div class="page proj-page ${isEven ? 'page-even' : 'page-odd'}">
+  <div class="proj-top" style="padding: ${topPadding};">
     <div class="proj-eyebrow">Projekt ${p.num < 10 ? '0' + p.num : p.num} &nbsp;·&nbsp; ${p.location} (Galleri)</div>
     <div class="proj-title" style="font-size: 16pt; margin-bottom: 0;">${p.title}</div>
   </div>
-  <div style="margin: 0 14mm 12mm; display: grid; ${gridStyles} gap: 2.5mm; flex: 1; min-height: 0;">
+  <div style="margin: ${gridMargin}; display: grid; ${gridStyles} gap: 2.5mm; flex: 1; min-height: 0;">
     ${gp.images.map((imgSrc, i) => {
       let itemStyle = '';
       if (numImages === 3 && i === 2) {
@@ -766,7 +792,7 @@ ${processedProjects.map((p, idx) => {
   // Render before-images facing page if present
   if (p.beforeImages && p.beforeImages.length > 0) {
     htmlBlock += `
-<div class="page proj-page">
+<div class="page proj-page ${p.beforePhysicalPage % 2 === 0 ? 'page-even' : 'page-odd'}">
   <div class="proj-top">
     <div class="proj-eyebrow">Før &nbsp;·&nbsp; ${p.title}</div>
     <div class="proj-title" style="font-size:16pt;">Sådan så det ud før</div>
@@ -787,7 +813,7 @@ ${processedProjects.map((p, idx) => {
 }).join('')}
 
 <!-- BACK COVER -->
-<div class="page back">
+<div class="page back ${backCoverPhysicalPage % 2 === 0 ? 'page-even' : 'page-odd'}">
   <img class="back-icon" src="${iconData}" />
   <div class="back-name">Arkitekttegnestuen Yderskov</div>
   <div class="back-div"></div>

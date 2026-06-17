@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 };
 
 const byggeriPrices = [
-  { type: "Ny villa", price: "Fra 14.000 kr. pr. m²", desc: "Inkl. alle håndværkerydelser, materialer og byggestyring." },
+  { type: "Ny villa", price: "Fra 15.000 kr. pr. m²", desc: "Inkl. alle håndværkerydelser, materialer og byggestyring." },
   { type: "Tilbygning", price: "Fra 14.000 kr. pr. m²", desc: "Inkl. integration med eksisterende bygning." },
   { type: "Sommerhus", price: "Fra 12.000 kr. pr. m²", desc: "Inkl. alle håndværkerydelser og materialer." },
   { type: "Lejlighed", price: "Fra 16.000 kr. pr. m²", desc: "Inkl. fuld renovering med arkitekttegnede løsninger." },
@@ -38,7 +38,7 @@ const arkitektYdelser = [
 const faqItems = [
   {
     q: "Hvad koster en arkitekttegnet villa pr. m²?",
-    a: "En ny arkitekttegnet villa opført med vores egne faste håndværkere koster typisk fra 14.000 kr. pr. m² som et fuldstændig nøglefærdigt og indflytningsklart byggeri. Denne m²-pris inkluderer alle materialer, løn og komplet byggestyring.",
+    a: "En ny arkitekttegnet villa opført med vores egne faste håndværkere koster typisk fra 15.000 kr. pr. m² som et fuldstændig nøglefærdigt og indflytningsklart byggeri. Denne m²-pris inkluderer alle materialer, løn og komplet byggestyring.",
   },
   {
     q: "Hvad koster et arkitekttegnet sommerhus pr. m²?",

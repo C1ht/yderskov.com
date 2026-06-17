@@ -26,6 +26,24 @@ type Post = {
 const posts: Post[] = [
   // 2026
   {
+    href: "/blog/overgang-mellem-ude-og-inde",
+    image: "/images/Sommervangen/Sommervangen sommerhus med stort glasparti og udsyn over klitterne.webp",
+    date: "17 / 06 / 2026",
+    cat: "Sommerhus",
+    catKey: "sommerhus",
+    title: "Hvordan skaber man en god overgang mellem ude og inde?",
+    excerpt: "En flydende overgang mellem uderum og indearealer bringer naturen helt tæt på. Læs arkitektens guide til niveaufri adgang, materialer og dagslys med billeder fra projektet Sommervangen.",
+  },
+  {
+    href: "/blog/indbygget-biopejs-sommerhus",
+    image: "/images/Harald jensensvej Løkken/Harald jensensvej stue og pejs.webp",
+    date: "17 / 06 / 2026",
+    cat: "Cases fra praksis",
+    catKey: "case",
+    title: "Indbygget biopejs som rumdeler i sommerhuset — en case fra Løkken",
+    excerpt: "Se hvordan vi designede en indbygget biopejs som rumdeler i et moderne sommerhus i Løkken. En stilren og miljøvenlig løsning uden skorstenspligt.",
+  },
+  {
     href: "/blog/gaspejs-sommerhus-bolig",
     image: "/images/Billeder til blogindlæg/Gaspejs som rumdeler i sommerhus arkitekt yderskov.webp",
     date: "13 / 06 / 2026",

@@ -41,7 +41,7 @@ const projectGalleries = [
     location: "Sæby, Nordjylland",
     size: "230 m² bolig · 50 m² garage",
     year: "2016",
-    description: "Vinkelvilla på stor grund med kinesisk svej på sort tegltag og småsprodsede vinduer. Familiens ønske om et markant, klassisk udtryk er kombineret med en moderne og rummelig planløsning.",
+    description: "Elegant vinkelvilla i Sæby opført på en stor grund med et karakteristisk sort tegltag med kinesisk svej ved tagfoden og klassiske hvide, småsprodsede vinduespartier. Bygningen forener et herskabeligt, klassisk udtryk med en moderne, åben planløsning. Den tilhørende fliseterrasse og store grønne have skaber fantastiske rammer for udelivet.",
     images: [
       { src: "/images/villa sæby/Sæby-ny-villa-kinesisk-tag-haveside.webp", alt: "Moderne villa med kinesisk tag, haveside, Sæby — Arkitekttegnestuen Yderskov" },
       { src: "/images/villa sæby/Sæby-ny-villa-kinesisk-tag-haveside-2.webp", alt: "Moderne villa med kinesisk tag, haveside, Sæby — Arkitekttegnestuen Yderskov" },
@@ -117,7 +117,7 @@ const projectGalleries = [
     location: "Aalborg, Nordjylland",
     size: "430 m² herskabelig bolig",
     year: "2023",
-    description: "Klassisk engelsk villa i colonial-stil opført i Aalborg til en dansk familie hjemkommet efter flere år i USA. Villaen er tegnet med fokus på herskabelig rummelighed og luksuriøse faciliteter — herunder en storslået hall, flere badeværelser, biograf, bibliotek, et stort køkken samt stuer en-suite.",
+    description: "Eksklusiv herskabsvilla i engelsk colonial-stil opført i Aalborg. Den hvide pudsede facade med markante gesimser, søjleprydet indgangsparti og mørke sprossede vinduer komplementeres af en smuk forhave med frodige vinranker. Indvendigt rummer villaen luksuriøse faciliteter, herunder en storslået hall med en elegant svungen trappe, sildebensparket, hjemmebiograf og stuer en-suite.",
     images: [
       { src: "/images/Ikarosvej/Aalborg-Ikarosvej-ny-villa-indkørsel.webp", alt: "Engelsk villa i colonial-stil, indkørsel, Aalborg — Arkitekttegnestuen Yderskov" },
       { src: "/images/Ikarosvej/Ikarosvej facade.webp", alt: "Engelsk villa i colonial-stil, facade, Aalborg — Arkitekttegnestuen Yderskov" },

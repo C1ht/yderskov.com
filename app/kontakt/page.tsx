@@ -97,7 +97,7 @@ export default function KontaktPage() {
                 Et byggeprojekt starter altid med en god snak. Vi tilbyder et gratis og helt uforpligtende idémøde, hvor vi typisk mødes på din byggegrund eller på den eksisterende ejendom. Her gennemgår vi dine ønsker, behov og budgetrammer, og vi kigger på de fysiske rammer samt eventuelle lokalplaner, der har indflydelse på projektet.
               </p>
               <p className="body-p">
-                Under mødet lytter vi til dine visioner og kommer med vores umiddelbare faglige input til, hvordan grunden eller huset kan udnyttes bedst muligt. Se gerne <Link href="/inspiration" className="text-link">vores inspirationsside</Link> for konkrete eksempler. Vi taler også om de økonomiske realiteter og <Link href="/priser" className="text-link">vores faste priser</Link>, så vi fra start har afstemt forventningerne.
+                Under mødet lytter vi til dine visioner og kommer med vores umiddelbare faglige input til, hvordan grunden eller huset kan udnyttes bedst muligt. Se gerne vores galleri af <Link href="/villaer" className="text-link">villaer</Link>, <Link href="/sommerhuse" className="text-link">sommerhuse</Link> eller <Link href="/tilbygninger" className="text-link">tilbygninger</Link> for konkrete eksempler. Vi taler også om de økonomiske realiteter og <Link href="/priser" className="text-link">vores faste priser</Link>, så vi fra start har afstemt forventningerne.
               </p>
               <p className="body-p">
                 Efter mødet udarbejder vi et skriftligt tilbud på arkitektydelsen. Du får dermed et klart overblik over processen og økonomien, før du beslutter dig for at gå videre. Det er enkelt, trygt og helt gennemskueligt.

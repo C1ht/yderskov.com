@@ -18,6 +18,98 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "overgang-mellem-ude-og-inde",
+    image: "/images/Sommervangen/Sommervangen sommerhus med stort glasparti og udsyn over klitterne.webp",
+    images: [
+      "/images/Sommervangen/Sommervangen sommerhus med stort glasparti og udsyn over klitterne.webp",
+      "/images/Sommervangen/sommervangen sommerhus med træterrasse indkik gennem store glaspartier.webp"
+    ],
+    metaTitle: "Hvordan skaber man en god overgang mellem ude og inde? — Yderskov",
+    title: "Hvordan skaber man en god overgang mellem ude og inde? Få arkitektens råd — Arkitekttegnestuen Yderskov",
+    description: "Få arkitektens råd til den perfekte overgang mellem uderum og indearealer. Læs om store glaspartier, gennemgående materialer, overdækninger og sigtelinjer.",
+    date: "17 / 06 / 2026",
+    cat: "Sommerhus",
+    catKey: "sommerhus",
+    lead: "En flydende overgang mellem uderum og indearealer kan få din bolig til at føles dobbelt så stor og bringe naturen helt tæt på. Men hvordan skaber man den perfekte synergi? Det handler om meget mere end blot store vinduer. Her deler vi vores bedste arkitektoniske råd om niveaufri adgang, gennemgående materialer, overdækninger og sigtelinjer — og viser, hvordan vi har løst det i praksis i vores sommerhusprojekt, Sommervangen.",
+    sections: [
+      {
+        heading: "1. Niveaufri adgang og store skydedøre",
+        paragraphs: [
+          "Det første skridt mod en flydende overgang er at fjerne det fysiske trin mellem inde og ude. Niveaufri adgang sikrer, at gulvet inde fortsætter direkte ud i terrassen uden afbrydelser. Det giver en ubesværet adgang og en stærk følelse af sammenhæng.",
+          "Kombineret med store skydedøre eller foldedøre af glas kan du åbne husets facade helt op på en varm sommerdag. Når dørene skydes til side, forsvinder grænsen mellem stuen og terrassen helt, og uderummet bliver en integreret del af boligens areal."
+        ]
+      },
+      {
+        heading: "2. Gennemgående materialer skaber visuel ro",
+        paragraphs: [
+          "Et af de mest effektive arkitektoniske greb er at lade materialerne fortsætte fra stuen eller køkken-alrummet ud på terrassen. Det skaber en optisk illusion, der visuelt forlænger rummet.",
+          "Det kan være de samme slidstærke klinker, som lægges både i alrummet og på terrassen udenfor, eller et trægulv, der i farvetone og plankebredde matcher træterrassen. Når øjet ikke møder en materialemæssig barriere ved facaden, opleves rummene som én flydende helhed."
+        ]
+      },
+      {
+        heading: "3. Overdækninger og udhæng som det bløde bindeled",
+        paragraphs: [
+          "En overdækket terrasse eller et markant udhæng fungerer som et fantastisk overgangsrum. Det skaber en zone, der hverken er helt ude eller helt inde, men derimod beskytter mod både skarp middagssol og en let sommerregn.",
+          "Udhænget er desuden med til at trække loftets linjer udad og ramme udsigten og naturen smukt ind. Det gør det muligt at bruge uderummet i langt flere af årets måneder, fordi det skaber læ og holder på dagens varme."
+        ]
+      },
+      {
+        heading: "4. Sigtelinjer og dagslys gennem året",
+        paragraphs: [
+          "Selv når dørene er lukket i de kolde måneder, skal den visuelle kontakt bevares. Gennem gennemtænkte sigtelinjer på tværs af huset kan du se haven, skoven eller klitterne, uanset hvor du opholder dig i boligen.",
+          "Store glaspartier trækker årstidernes skiftende farver helt ind i stuen og gør dagslyset til en active del af rumoplevelsen. Ved at placere vinduerne strategisk i forhold til verdenshjørnerne sikrer man et levende og skiftende lys gennem hele dagen."
+        ]
+      },
+      {
+        heading: "Case: Sommerhuset Sommervangen",
+        paragraphs: [
+          "Billederne øverst i dette indlæg stammer fra et af vores nyligt opførte [sommerhuse](/sommerhuse), hvor skydedørene og glaspartierne åbner huset mod naturen. Det første billede viser det store, lyse alrum, hvor de store vinduespartier skaber en panoramisk udsigt og trækker det rå klitlandskab helt ind i stuen. Det andet billede viser indkikket fra træterrassen, hvor man ser, hvordan terrassen og husets indre smelter sammen under det store udhæng.",
+          "Overgangen mellem den vilde natur og det hyggelige uderum er designet til at fungere i perfekt harmoni. Du kan se flere af vores [sommerhuse](/sommerhuse) eller læse mere [om vores proces](/om)."
+        ],
+        type: "case"
+      }
+    ]
+  },
+  {
+    slug: "indbygget-biopejs-sommerhus",
+    image: "/images/Harald jensensvej Løkken/Harald jensensvej stue og pejs.webp",
+    images: [
+      "/images/Harald jensensvej Løkken/Harald jensensvej stue og pejs.webp",
+      "/images/Harald jensensvej Løkken/Harald jensensvej terrasse.webp"
+    ],
+    metaTitle: "Case: Indbygget biopejs i moderne sommerhus i Løkken — Yderskov",
+    title: "Case: Indbygget biopejs som hyggeskaber i moderne sommerhus i Løkken — Arkitekttegnestuen Yderskov",
+    description: "Se hvordan vi integrerede en indbygget biopejs i et arkitekttegnet sommerhus i Løkken. Få inspiration til pejs uden skorsten og aftræk.",
+    date: "15 / 06 / 2026",
+    cat: "Cases fra praksis",
+    catKey: "case",
+    lead: "Drømmen om en pejs i sommerhuset handler om hygge, varme og samling. Men i moderne, velisolerede sommerhuse kan en traditionel brændeovn give for meget varme, og det kræver skorsten. I dette nyligt opførte sommerhus i Løkken har vi designet en elegant løsning: En indbygget biopejs, der kører på bioethanol, og som fungerer som rummets naturlige midtpunkt uden behov for aftræk eller skorsten.",
+    sections: [
+      {
+        heading: "Hvorfor vælge biopejs frem for gaspejs?",
+        paragraphs: [
+          "Hvor en [gaspejs](/blog/gaspejs-sommerhus-bolig) kræver et balanceret aftræk (skorsten) gennem tag eller facade samt gasforsyning via flasker eller ledning, er en biopejs langt mere fleksibel. Den afgiver primært varme og en smule vanddamp og CO2, hvilket betyder, at den overhovedet ikke skal have skorsten eller aftræk.",
+          "Det giver en enorm frihed i designet. Vi kan indbygge biopejsen direkte i halvmure, under fjernsynet eller som en del af en rumdeler. Samtidig afgiver en biopejs en moderat varme, hvilket gør den perfekt til nybyggede, tætte sommerhuse, hvor en traditionel ovn hurtigt vil skabe ulidelig varme."
+        ]
+      },
+      {
+        heading: "Designet i sommerhuset i Løkken",
+        paragraphs: [
+          "I projektet i Løkken er biopejsen tænkt ind fra de allerførste skitser. Den er bygget ind i en central halvmur af gips og brandhæmmende materialer, som adskiller spiseafdelingen fra den hyggelige sofagruppe. Pejsen er åben fra tre sider (en såkaldt 3-sidet pejs), hvilket betyder, at flammerne kan ses og nydes, uanset om man laver mad i køkkenet eller slapper af i sofaen.",
+          "Over pejsen er der lavet en lille niche, og alle kabler og installationer er skjult i vægkonstruktionen. Den sorte stålbase i pejsen komplementerer de lyse egetræselementer og det polerede betongulv i sommerhuset og underbygger den minimalistiske nordiske stil."
+        ],
+        type: "case"
+      },
+      {
+        heading: "Sikkerhed og betjening i hverdagen",
+        paragraphs: [
+          "Mange er bekymrede for sikkerheden ved bioethanol, men moderne biopejse er ekstremt sikre. Vi anvender udelukkende automatiske brandkar, hvor bioethanolen fyldes i en lukket tank. Flammerne tændes og reguleres via en fjernbetjening eller en app, og sensorer overvåger konstant temperatur og CO2-niveau og slukker pejsen automatisk ved uregelmæssigheder.",
+          "Det gør betjeningen lige så nem og bekvem som en [gaspejs](/blog/gaspejs-sommerhus-bolig) — du trykker blot på en knap, og få sekunder efter har du levende, dansende flammer og masser af sommerhushygge. Se også vores [sommerhuse](/sommerhuse) eller vores [priser](/priser) for yderligere information."
+        ]
+      }
+    ]
+  },
+  {
     slug: "hvordan-designer-man-et-godt-orangeri",
     image: "/images/Billeder til blogindlæg/orangeri saksild arkitekttegnestuen yderskov.webp",
     images: [
@@ -200,7 +292,7 @@ export const posts: BlogPost[] = [
         heading: "Case: Gaspejs i det moderne sommerhus",
         paragraphs: [
           "Billederne i dette indlæg stammer fra et af vores nyligt opførte [sommerhuse](/sommerhuse), hvor gaspejsen er tænkt ind som hjertet i det store opholdsrum. Her er pejsen bygget ind i en central kerne af gips og brandhæmmende materialer, der også rummer skjulte installationer.",
-          "Pejsen er placeret, så den er synlig fra både sofaafdelingen, spisebordet og køkkenet. Den fungerer som en hyggelig varmekilde på kolde efterårs- og vinterdage, og det stilrene design understøtter sommerhusets minimalistiske, nordiske æstetik med store vinduespartier og rå træelementer. Læs også om vores [priser](/priser) eller [vores proces](/om)."
+          "Pejsen er placeret, så den er synlig fra både sofaafdelingen, spisebordet og køkkenet. Den fungerer som en hyggelig varmekilde på kolde efterårs- og vinterdage, og det stilrene design understøtter sommerhusets minimalistiske, nordiske æstetik med store vinduespartier og rå træelementer. Hvis du ønsker en løsning helt uden behov for aftræk eller gasforsyning, kan du læse vores case om en [indbygget biopejs i et sommerhus i Løkken](/blog/indbygget-biopejs-sommerhus). Læs også om vores [priser](/priser) eller [vores proces](/om)."
         ],
         type: "case"
       },

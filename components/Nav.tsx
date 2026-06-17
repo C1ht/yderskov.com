@@ -30,7 +30,7 @@ const navItems: NavItem[] = [
     ],
   },
   { href: "/blog", label: "Blog" },
-  { href: "/inspiration", label: "Inspiration" },
+
   {
     label: "Om os",
     children: [

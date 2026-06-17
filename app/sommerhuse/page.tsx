@@ -35,7 +35,7 @@ const projectGalleries = [
     location: "Løkken, Nordjylland",
     size: "110 m² fritidshus · klitgrund",
     year: "2020",
-    description: "Klassisk sommerhus beliggende på en kuperet klitgrund i Løkken med storslået udsigt over landskabet og Vesterhavet. Huset er nænsomt tilpasset terrænet og råder over en ugeneret solterrasse.",
+    description: "Klassisk sort træsommerhus opført på en vild, kuperet klitgrund i Løkken med storslået panoramaudsigt over landskabet og Vesterhavet. Bygningen er nænsomt integreret i det sarte klitlandskab med en stor, ugeneret træterrasse, der smyger sig om huset. Dertil hører et matchende, fritliggende anneks til gæster, som fuldender den nordiske feriestemning midt i marehalmen.",
     images: [
       { src: "/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-indgangsparti.webp", alt: "Indgangsparti ved sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
       { src: "/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-terrasse.webp", alt: "Terrasse ved sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
@@ -49,7 +49,7 @@ const projectGalleries = [
     location: "Ålbæk, Nordjylland",
     size: "185 m² wellness-hus · pool & spa",
     year: "2023",
-    description: "Luksussommerhus i Ålbæk med indendørs swimmingpool, aktivitetsrum med billard og moderne køkken-alrum. Sommerhuset er tegnet til at rumme flere generationer og er ideelt til både familiehygge og udlejning.",
+    description: "Eksklusivt luksussommerhus i Ålbæk beklædt med lyst træ og tegnet som det ultimative wellness-fristed for flere generationer. Huset rummer en storslået indendørs wellness-afdeling med swimmingpool og indbygget spa, et lyst køkken-alrum med dobbelte ovenlys og hyggelig hems, et stilrent badeværelse samt et separat aktivitetsrum med billard, der indbyder til hyggelige stunder.",
     images: [
       { src: "/images/Løvevej/Ålbæk-poolhus-terrasse.webp", alt: "Arkitekttegnet poolhus i Ålbæk — Arkitekttegnestuen Yderskov" },
       { src: "/images/Løvevej/Ålbæk-poolhus-pool.webp", alt: "Indendørs pool i arkitekttegnet sommerhus — Arkitekttegnestuen Yderskov" },
@@ -70,7 +70,7 @@ const projectGalleries = [
     location: "Løkken, Nordjylland",
     size: "115 m² fritidshus",
     year: "2024",
-    description: "Arkitekttegnet sommerhus i Løkken opført i et moderne, stramt formsprog med store glaspartier og en overdækket terrasse, der forbinder huset med det omkringliggende landskab. Huset er indrettet med fokus på lysindfald og flydende overgange.",
+    description: "Moderne sommerhus i Løkken opført i et stramt, minimalistisk formsprog med lodret, mørk listebeklædning og overdækkede terrasseområder. Huset er gennemtænkt med store glaspartier for et flydende overgangsrum, en luksuriøs udendørs bruser, og et eksklusivt interiør med betonbordplader, rå trædetaljer og en indbygget biopejs, der fungerer som et hyggeligt samlingspunkt.",
     images: [
       { src: "/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-indkørsel.webp", alt: "Nyt sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
       { src: "/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-terrasse.webp", alt: "Terrasse ved sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
@@ -166,7 +166,7 @@ export default function SommerhusePage() {
                 Dit sommerhus skal passe til netop din grund — uanset om det er ved kysten, i skoven eller på et udsigtsareal. Vi tegner, projekterer og bygger med egne håndværkere.
               </p>
               <p className="body-p">
-                Se vores sommerhusprojekter og lad dig inspirere på <Link href="/inspiration" className="text-link">vores inspirationsside</Link>. Som erfaren <Link href="/arkitekt-aalborg" className="text-link">arkitekt i Aalborg</Link> og resten af Jylland rådgiver vi gerne. Du kan også læse mere om <Link href="/priser" className="text-link">vores priser</Link> og faste aftaler. Gratis første møde på grunden.
+                Se vores sommerhusprojekter her på siden eller læs mere om <Link href="/om" className="text-link">vores proces</Link>. Som erfaren <Link href="/arkitekt-aalborg" className="text-link">arkitekt i Aalborg</Link> og resten af Jylland rådgiver vi gerne. Du kan også læse mere om <Link href="/priser" className="text-link">vores priser</Link> og faste aftaler. Gratis første møde på grunden.
               </p>
               <p className="body-p">
                 <Link href="#kontakt" className="text-link">→ Kom i gang</Link>

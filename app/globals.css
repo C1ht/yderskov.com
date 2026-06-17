@@ -1264,30 +1264,26 @@ footer { background: var(--dark); color: rgba(255,255,255,0.7); }
   h1, h2, h3, h4, h5, h6, .sec-hed, .hero-left-title, .hero-left-sub, .hero-24h, .hero-mini-quote, .hero-mini-quote-name, .eyebrow, .body-p, .body-intro, .proj-title, .proj-desc, .stat-num, .stat-lbl, .testimonial-quote, .testimonial-name, .process-step-title, .process-step-desc, .faq-q, .faq-a, .pricing-name, .pricing-desc, .pricing-price, .cta-band-title, .cta-band-sub, .calc2-top-field .calc2-group-label, .calc2-col-title, .calc2-group-label, .calc2-live-lbl, .calc2-live-num, .calc2-live-note, .dr-head-name, .dr-head-tagline, .dr-head-type, .dr-head-date, .dr-eyebrow, .dr-eyebrow-light, .dr-block-title, .dr-block-title-light, .dr-hero-val, .dr-hero-lbl, .dr-details-heading, .dr-row-label, .dr-row-value, .dr-price-card-lbl, .dr-price-card-num, .dr-price-note, .dr-incl-heading, .dr-incl-body, .dr-incl-list li, .dr-tip-titel, .dr-tip-tekst, .dr-rec-p, .dr-cta-headline, .dr-cta-body, .dr-cta-list li, .dr-cta-number-label, .dr-cta-number, .dr-cta-mail, .dr-foot-name, .dr-foot-lbl, .dr-foot-val, .dr-foot-disclaimer {
     color: #000 !important;
   }
+}
 
-  .why-us-grid {
+.why-us-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
-  background: transparent;
+  gap: 1px;
+  background: var(--border);
+  border-radius: 16px;
+  overflow: hidden;
 }
 .why-us-card {
   background: var(--white);
-  border: 1px solid #f2eedf;
-  border-radius: 16px;
   padding: 1.85rem 1.5rem;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.015);
-  transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-              box-shadow 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-              border-color 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: background 0.25s ease;
 }
 .why-us-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 30px rgba(212, 145, 10, 0.08);
-  border-color: #d4910a;
+  background: #fdfdfc;
 }
 .why-us-title-row {
   display: flex;
@@ -1328,6 +1324,7 @@ footer { background: var(--dark); color: rgba(255,255,255,0.7); }
   line-height: 1.6;
 }
 
+@media print {
   /* Make links black and underlined in print */
   a, .text-link, .cta-band-call, .cta-band-book {
     color: #000 !important;

@@ -123,6 +123,75 @@ export default function ArkitektAalborgPage() {
         </div>
       </section>
 
+      {/* Katalog */}
+      <section className="s catalog-section" style={{ borderBottom: "1px solid var(--border)" }}>
+        <div className="s-inner">
+          <div className="catalog-card">
+            <div className="catalog-visual">
+              <div className="catalog-mockup">
+                <div className="book">
+                  {/* Fanned page layers behind the cover */}
+                  <div className="page-layer page-layer-3"></div>
+                  <div className="page-layer page-layer-2"></div>
+                  <div className="page-layer page-layer-1"></div>
+
+                  <div className="book-cover">
+                    <img src="/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp" alt="Arkitekttegnestuen Yderskov Inspirationskatalog" />
+                    <div className="book-overlay">
+                      <div className="book-top-brand">
+                        <div className="book-brand-name">YDERSKOV</div>
+                        <div className="book-brand-line"></div>
+                      </div>
+                      <div className="book-bottom-title">
+                        <div className="book-title">Inspiration</div>
+                        <div className="book-subtitle">PROJEKTKATALOG</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="book-spine"></div>
+                </div>
+              </div>
+            </div>
+
+            <div className="catalog-content">
+              <span className="eyebrow">Projektkatalog</span>
+              <h2 className="sec-hed">Få inspiration til dit byggeprojekt</h2>
+              <p className="body-p" style={{ marginTop: "1rem" }}>
+                Vi har samlet et udsnit af vores projekter i et inspirationskatalog. Gå på opdagelse i vores afsluttede villaer, sommerhuse samt om- og tilbygninger. Få inspiration til materialevalg, planløsninger og lysindfald. Tag gerne kataloget med til vores første gratis, uforpligtende møde.
+              </p>
+              
+              <div className="catalog-actions">
+                <a
+                  href="/katalog-inspiration.pdf?v=3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-katalog-open"
+                >
+                  Se vores inspirationskatalog →
+                </a>
+                <a
+                  href="/katalog-inspiration.pdf?v=3"
+                  download="Yderskov-Arkitekter-Inspirationskatalog.pdf"
+                  className="btn-katalog-download"
+                >
+                  Download inspirationskatalog
+                </a>
+              </div>
+              
+              <div className="catalog-extra">
+                <a
+                  href="/katalog-inspiration-print.pdf?v=3"
+                  download="Yderskov-Arkitekter-Inspirationskatalog-Print.pdf"
+                  className="catalog-print-link"
+                >
+                  Hent print-venlig version (hvid baggrund)
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Local Projects */}
       <section className="s">
         <div className="s-inner">
