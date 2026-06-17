@@ -27,7 +27,7 @@ const posts: Post[] = [
   // 2026
   {
     href: "/blog/gaspejs-sommerhus-bolig",
-    image: "/images/Billeder til blogindlæg/Gaspejs sommerhus arkitekt yderskov.webp",
+    image: "/images/Billeder til blogindlæg/Gaspejs som rumdeler i sommerhus arkitekt yderskov.webp",
     date: "13 / 06 / 2026",
     cat: "Boligdetaljer",
     catKey: "boligdetalje",

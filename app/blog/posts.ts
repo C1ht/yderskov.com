@@ -169,9 +169,9 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "gaspejs-sommerhus-bolig",
-    image: "/images/Billeder til blogindlæg/Gaspejs sommerhus arkitekt yderskov.webp",
+    image: "/images/Billeder til blogindlæg/Gaspejs som rumdeler i sommerhus arkitekt yderskov.webp",
     images: [
-      "/images/Billeder til blogindlæg/Gaspejs sommerhus arkitekt yderskov.webp",
+      "/images/Billeder til blogindlæg/Gaspejs som rumdeler i sommerhus arkitekt yderskov.webp",
       "/images/Billeder til blogindlæg/gaspejs sommerhus arkitekttegnestuen yderskov.webp"
     ],
     metaTitle: "Indbygning af gaspejs i sommerhus og bolig — Yderskov Arkitekter",
