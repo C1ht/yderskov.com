@@ -86,7 +86,7 @@ export default function BlogListing({ posts, categories }: BlogListingProps) {
               </div>
               {post.image && (
                 <div className="post-card-image">
-                  <img src={post.image} alt={post.title} />
+                  <img src={post.image} alt={post.title.includes("Arkitekttegnestuen Yderskov") ? post.title : `${post.title} — Arkitekttegnestuen Yderskov`} />
                 </div>
               )}
             </div>

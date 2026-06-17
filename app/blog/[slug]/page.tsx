@@ -174,13 +174,13 @@ export default async function BlogPostPage({
               <div className="blog-gallery">
                 {post.images.map((img, index) => (
                   <div key={index} style={{ borderRadius: "12px", overflow: "hidden", aspectRatio: "4/3", position: "relative" }}>
-                    <img src={img} alt={`${post.title} - billede ${index + 1}`} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                    <img src={img} alt={`${post.title.includes("Arkitekttegnestuen Yderskov") ? post.title.replace(/ — Arkitekttegnestuen Yderskov$/, '') : post.title} - billede ${index + 1} — Arkitekttegnestuen Yderskov`} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                   </div>
                 ))}
               </div>
             ) : post.image ? (
               <div style={{ marginTop: "2.5rem", borderRadius: "12px", overflow: "hidden", aspectRatio: "16/10", position: "relative" }}>
-                <img src={post.image} alt={post.title} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                <img src={post.image} alt={post.title.includes("Arkitekttegnestuen Yderskov") ? post.title : `${post.title} — Arkitekttegnestuen Yderskov`} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
               </div>
             ) : null}
           </div>

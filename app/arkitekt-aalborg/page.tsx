@@ -137,7 +137,7 @@ export default function ArkitektAalborgPage() {
           <div className="proj-grid">
             <Link href="/villaer" className="proj-card" id="proj-vestbjerg">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/images/Højgården/Vestsbjerg-ny-funkisvilla-haveside.webp" alt="Funkisvilla med niveauforskelle i Vestbjerg" />
+              <img src="/images/Højgården/Vestsbjerg-ny-funkisvilla-haveside.webp" alt="Funkisvilla med niveauforskelle i Vestbjerg — Arkitekttegnestuen Yderskov" />
               <div className="proj-foot">
                 <span className="proj-title">Funkisvilla, Vestbjerg</span>
                 <span className="proj-arr">→</span>
@@ -145,7 +145,7 @@ export default function ArkitektAalborgPage() {
             </Link>
             <Link href="/villaer" className="proj-card" id="proj-hjoerring">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/images/Gartnerhaven/Hjørring-garnterhaven-ny-villa.webp" alt="Klassisk ny villa i Hjørring" />
+              <img src="/images/Gartnerhaven/Hjørring-garnterhaven-ny-villa.webp" alt="Klassisk ny villa i Hjørring — Arkitekttegnestuen Yderskov" />
               <div className="proj-foot">
                 <span className="proj-title">Klassisk villa, Hjørring</span>
                 <span className="proj-arr">→</span>
@@ -153,7 +153,7 @@ export default function ArkitektAalborgPage() {
             </Link>
             <Link href="/sommerhuse" className="proj-card" id="proj-loekken">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-terrasse.webp" alt="Arkitekttegnet sommerhus i Løkken" />
+              <img src="/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-terrasse.webp" alt="Arkitekttegnet sommerhus i Løkken — Arkitekttegnestuen Yderskov" />
               <div className="proj-foot">
                 <span className="proj-title">Sommerhus, Løkken</span>
                 <span className="proj-arr">→</span>
