@@ -56,81 +56,6 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* Hvorfor vælge os */}
-      <section className="s why-us-section">
-        <div className="s-inner">
-          <div className="why-us-header">
-            <span className="eyebrow">Hvorfor vælge os</span>
-            <h2 className="sec-hed">4 gode grunde til at vælge Yderskov</h2>
-          </div>
-          <div className="why-us-grid">
-            <div className="why-us-card">
-              <div className="why-us-title-row">
-                <div className="why-us-icon-wrapper">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                    <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" />
-                    <line x1="7" y1="7" x2="7.01" y2="7" strokeWidth="2.5" />
-                  </svg>
-                </div>
-                <h3>Fast pris på honorar</h3>
-              </div>
-              <p>Vi tilbyder <Link href="/priser" className="text-link" style={{ fontSize: "inherit" }}>fast pris på arkitekthonoraret</Link>, så du kender de præcise udgifter fra start. Ingen uforudsete regninger.</p>
-            </div>
-
-            <div className="why-us-card">
-              <div className="why-us-title-row">
-                <div className="why-us-icon-wrapper">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                  </svg>
-                </div>
-                <h3>Vi styrer håndværkere og byggeøkonomien</h3>
-              </div>
-              <p>Vi koordinerer og styrer håndværkerne for dig, så du er sikret kvalitet og økonomi hele vejen til et <Link href="/om" className="text-link" style={{ fontSize: "inherit" }}>nøglefærdigt resultat</Link>.</p>
-            </div>
-
-            <div className="why-us-card">
-              <div className="why-us-title-row">
-                <div className="why-us-icon-wrapper">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
-                  </svg>
-                </div>
-                <h3>Samme arkitekt hver gang</h3>
-              </div>
-              <p>Hos os taler du med den <Link href="/om" className="text-link" style={{ fontSize: "inherit" }}>samme projekterende arkitekt</Link> gennem hele forløbet. Det giver tryghed, tæt dialog og sparer værdifuld tid.</p>
-            </div>
-
-            <div className="why-us-card">
-              <div className="why-us-title-row">
-                <div className="why-us-icon-wrapper">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-                    <circle cx="12" cy="10" r="3" />
-                  </svg>
-                </div>
-                <h3>Gratis idémøde på din grund</h3>
-              </div>
-              <p>Vi kommer ud på din byggegrund eller adresse til et <Link href="/kontakt" className="text-link" style={{ fontSize: "inherit" }}>gratis idémøde</Link> for en uforpligtende professionel vurdering og sparring på dine idéer.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      {/* Sommerhus prisnyt */}
-      <div className="announcement-bar">
-        <div className="announcement-inner">
-          <div className="announcement-badge">Nyt</div>
-          <div className="announcement-body">
-            <p className="announcement-title">Byg nyt <Link href="/sommerhuse" style={{ textDecoration: "underline", color: "inherit" }}>sommerhus</Link> fra <strong><Link href="/priser" style={{ textDecoration: "underline", color: "#b87c08" }}>kr. 12.000 pr. m²</Link></strong></p>
-            <p className="announcement-sub">Vi tegner og bygger arkitekttegnede sommerhuse nøglefærdigt — med fast pris og egne håndværkere. Gratis og uforpligtende første møde.</p>
-          </div>
-          <Link href="/sommerhuse" className="announcement-cta">Se sommerhuse →</Link>
-          <Link href="/priser" className="announcement-cta" style={{ background: "transparent", border: "1px solid var(--text)", color: "var(--text) !important" }}>Se priser →</Link>
-        </div>
-      </div>
-
       {/* Katalog */}
       <section className="s catalog-section" style={{ borderBottom: "1px solid var(--border)" }}>
         <div className="s-inner">
@@ -199,6 +124,80 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Hvorfor vælge os */}
+      <section className="s why-us-section">
+        <div className="s-inner">
+          <div className="why-us-header">
+            <span className="eyebrow">Hvorfor vælge os</span>
+            <h2 className="sec-hed">4 gode grunde til at vælge Yderskov</h2>
+          </div>
+          <div className="why-us-grid">
+            <div className="why-us-card">
+              <div className="why-us-title-row">
+                <div className="why-us-icon-wrapper">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" />
+                    <line x1="7" y1="7" x2="7.01" y2="7" strokeWidth="2.5" />
+                  </svg>
+                </div>
+                <h3>Fast pris på honorar</h3>
+              </div>
+              <p>Vi tilbyder <Link href="/priser" className="text-link" style={{ fontSize: "inherit" }}>fast pris på arkitekthonoraret</Link>, så du kender de præcise udgifter fra start. Ingen uforudsete regninger.</p>
+            </div>
+
+            <div className="why-us-card">
+              <div className="why-us-title-row">
+                <div className="why-us-icon-wrapper">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                  </svg>
+                </div>
+                <h3>Vi styrer håndværkere og byggeøkonomien</h3>
+              </div>
+              <p>Vi koordinerer og styrer håndværkerne for dig, så du er sikret kvalitet og økonomi hele vejen til et <Link href="/om" className="text-link" style={{ fontSize: "inherit" }}>nøglefærdigt resultat</Link>.</p>
+            </div>
+
+            <div className="why-us-card">
+              <div className="why-us-title-row">
+                <div className="why-us-icon-wrapper">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                  </svg>
+                </div>
+                <h3>Samme arkitekt hver gang</h3>
+              </div>
+              <p>Hos os taler du med den <Link href="/om" className="text-link" style={{ fontSize: "inherit" }}>samme projekterende arkitekt</Link> gennem hele forløbet. Det giver tryghed, tæt dialog og sparer værdifuld tid.</p>
+            </div>
+
+            <div className="why-us-card">
+              <div className="why-us-title-row">
+                <div className="why-us-icon-wrapper">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                </div>
+                <h3>Gratis idémøde på din grund</h3>
+              </div>
+              <p>Vi kommer ud på din byggegrund eller adresse til et <Link href="/kontakt" className="text-link" style={{ fontSize: "inherit" }}>gratis idémøde</Link> for en uforpligtende professionel vurdering og sparring på dine idéer.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Sommerhus prisnyt */}
+      <div className="announcement-bar">
+        <div className="announcement-inner">
+          <div className="announcement-badge">Nyt</div>
+          <div className="announcement-body">
+            <p className="announcement-title">Byg nyt <Link href="/sommerhuse" style={{ textDecoration: "underline", color: "inherit" }}>sommerhus</Link> fra <strong><Link href="/priser" style={{ textDecoration: "underline", color: "#b87c08" }}>kr. 12.000 pr. m²</Link></strong></p>
+            <p className="announcement-sub">Vi tegner og bygger arkitekttegnede sommerhuse nøglefærdigt — med fast pris og egne håndværkere. Gratis og uforpligtende første møde.</p>
+          </div>
+          <Link href="/sommerhuse" className="announcement-cta">Se sommerhuse →</Link>
+          <Link href="/priser" className="announcement-cta" style={{ background: "transparent", border: "1px solid var(--text)", color: "var(--text) !important" }}>Se priser →</Link>
+        </div>
+      </div>
 
       {/* Projekter */}
       <section className="s home-projects" style={{ borderBottom: "1px solid var(--border)" }}>
