@@ -182,7 +182,7 @@ export default function HomePage() {
                   download="Yderskov-Arkitekter-Inspirationskatalog.pdf"
                   className="btn-katalog-download"
                 >
-                  Download katalog
+                  Download inspirationskatalog
                 </a>
               </div>
               
