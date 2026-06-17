@@ -212,7 +212,10 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "hvordan-designer-man-et-godt-koekkenrum",
-    image: "/images/Lerstien/Frederikshavn-lerstien-køkken.webp",
+    image: "/images/Løvevej/Ålbæk-poolhus-køkken.webp",
+    images: [
+      "/images/Løvevej/Ålbæk-poolhus-køkken.webp"
+    ],
     metaTitle: "Hvordan designer man et godt køkkenrum? Få arkitektens 5 råd — Yderskov",
     title: "Hvordan designer man et godt køkkenrum? Få arkitektens råd — Arkitekttegnestuen Yderskov",
     description: "Drømmer du om det perfekte køkken? Læs arkitektens råd om arbejdszoner, lysindfald, materialevalg og akustik i det moderne køkken-alrum.",
@@ -1714,6 +1717,10 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "koekken-design",
+    image: "/images/Løvevej/Ålbæk-poolhus-køkken.webp",
+    images: [
+      "/images/Løvevej/Ålbæk-poolhus-køkken.webp"
+    ],
     metaTitle: "Hvordan designer man et godt køkkenrum? — Yderskov Arkitekter",
     title: "Hvordan designer man et godt køkkenrum?",
     description: "Køkkenet er boligens arbejdsrum og samlingssted på én gang. Her gennemgår vi de vigtigste principper — fra planløsning og arbejdstrekant til lys, materialer og ventilation.",
@@ -2287,6 +2294,10 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "boligdetalje-hems",
+    image: "/images/Løvevej/Løvevej hems.webp",
+    images: [
+      "/images/Løvevej/Løvevej hems.webp"
+    ],
     metaTitle: "Boligdetalje #1: Hemsen — Yderskov Arkitekter",
     title: "Boligdetalje #1: Hemsen — sådan planlægger du en hems i dit arkitekttegnede hus.",
     description: "En hems er en af de mest karakteristiske detaljer i et arkitekttegnet hus. Her gennemgår vi hvordan du planlægger den rigtigt — fra rumhøjde og konstruktion til lys og adgang.",

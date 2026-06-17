@@ -176,6 +176,7 @@ const posts: Post[] = [
   },
   {
     href: "/blog/koekken-design",
+    image: "/images/Løvevej/Ålbæk-poolhus-køkken.webp",
     date: "16 / 04 / 2026",
     cat: "Villa & boligdesign",
     catKey: "villa",
@@ -256,6 +257,7 @@ const posts: Post[] = [
   },
   {
     href: "/blog/boligdetalje-hems",
+    image: "/images/Løvevej/Løvevej hems.webp",
     date: "31 / 01 / 2026",
     cat: "Boligdetaljer",
     catKey: "boligdetalje",
