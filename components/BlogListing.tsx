@@ -11,6 +11,7 @@ type Post = {
   title: string;
   subtitle?: string;
   excerpt: string;
+  image?: string;
 };
 
 type Category = {
@@ -74,6 +75,11 @@ export default function BlogListing({ posts, categories }: BlogListingProps) {
       <div className="post-grid">
         {sorted.map((post) => (
           <Link key={post.href} href={post.href} className="post-card">
+            {post.image && (
+              <div className="post-image" style={{ width: "100%", height: "200px", overflow: "hidden", marginBottom: "1rem", borderRadius: "6px" }}>
+                <img src={post.image} alt={post.title} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+              </div>
+            )}
             <span className="post-date">{post.date}</span>
             <span className="post-cat">{post.cat}</span>
             <p className="post-title">{post.title}</p>

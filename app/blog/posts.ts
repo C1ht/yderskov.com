@@ -12,11 +12,13 @@ export type BlogPost = {
   lead: string;
   sections: Section[];
   relatedLinks?: RelatedLink[];
+  image?: string;
 };
 
 export const posts: BlogPost[] = [
   {
     slug: "villa-herresaede-noerholm-aalborg",
+    image: "/images/Nørholmsvej/Engelsk villa facade Nørholmsvej.webp",
     metaTitle: "Villa som engelsk herresæde i Nørholm nær Aalborg — Yderskov",
     title: "Drømmen om et engelsk herresæde — ny eksklusiv villa i Nørholm nær Aalborg.",
     description: "Et par kom til os med et postkort af et engelsk herresæde. Vi tegnede deres drømmevilla i Nørholm nær Aalborg med sortglasserede tegl, hall og fjordudsigt.",
@@ -161,6 +163,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "hundevaskeplads-vestbjerg",
+    image: "/images/Billeder til blogindlæg/sød hund hundevask funkisvilla vestbjerg.webp",
     metaTitle: "Hundevaskeplads i bryggers — villa i Vestbjerg nær Aalborg — Yderskov",
     title: "Hundevaskeplads i bryggers — ny funkisvilla i Vestbjerg nær Aalborg.",
     description: "En familie i Vestbjerg nær Aalborg får skitseret ny funkisvilla. Familien elsker at gå tur med hunden i Hammer Bakker — og bryggersets hundevaskeplads er derefter.",
@@ -303,6 +306,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "sommerhus-sebbersund-snestorm",
+    image: "/images/Bjerget 13/Bjerget 13 sommerhus facade uden tag arkitekttegnestuen yderskov.webp",
     metaTitle: "Byggeri under snestorm leveret på blokvogn — Yderskov",
     title: "Bygget under snestorm 2026, leveret på blokvogn — case fra Sebbersund nær Aalborg ved Halkær Bredning.",
     description: "Sommerhuset blev bygget som præfabrikerede elementer i en hal under snestorm, kørt til Sebbersund nær Aalborg på blokvogn og hejst på plads med kran. En case om vinterstrategi og udsigt over Halkær Bredning.",
@@ -1124,6 +1128,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "udsigt",
+    image: "/images/Billeder til blogindlæg/udsigt fra sommerhus arkitekttegnestuen yderskov.webp",
     metaTitle: "Hvordan planlægger man udsigt fra en bolig? — Yderskov Arkitekter",
     title: "Hvordan planlægger man udsigt fra en bolig?",
     description: "Udsigt er en af de mest værdifulde kvaliteter i en bolig — men den skal planlægges fra første streg. Her gennemgår vi hvordan du og din arkitekt maksimerer udsigten uden at gå på kompromis med privatliv og energi.",

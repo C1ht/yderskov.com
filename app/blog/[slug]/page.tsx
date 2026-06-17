@@ -170,6 +170,11 @@ export default async function BlogPostPage({
             >
               {parseParagraph(post.lead)}
             </p>
+            {post.image && (
+              <div style={{ marginTop: "2.5rem", borderRadius: "12px", overflow: "hidden", aspectRatio: "16/10", position: "relative" }}>
+                <img src={post.image} alt={post.title} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+              </div>
+            )}
           </div>
         </section>
 

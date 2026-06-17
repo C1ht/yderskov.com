@@ -20,12 +20,14 @@ type Post = {
   title: string;
   subtitle?: string;
   excerpt: string;
+  image?: string;
 };
 
 const posts: Post[] = [
   // 2026
   {
     href: "/blog/villa-herresaede-noerholm-aalborg",
+    image: "/images/Nørholmsvej/Engelsk villa facade Nørholmsvej.webp",
     date: "08 / 06 / 2026",
     cat: "Cases fra praksis",
     catKey: "case",
@@ -51,6 +53,7 @@ const posts: Post[] = [
   },
   {
     href: "/blog/hundevaskeplads-vestbjerg",
+    image: "/images/Billeder til blogindlæg/sød hund hundevask funkisvilla vestbjerg.webp",
     date: "23 / 05 / 2026",
     cat: "Cases fra praksis",
     catKey: "case",
@@ -78,6 +81,7 @@ const posts: Post[] = [
   },
   {
     href: "/blog/sommerhus-sebbersund-snestorm",
+    image: "/images/Bjerget 13/Bjerget 13 sommerhus facade uden tag arkitekttegnestuen yderskov.webp",
     date: "08 / 05 / 2026",
     cat: "Cases fra praksis",
     catKey: "case",
@@ -104,6 +108,7 @@ const posts: Post[] = [
   },
   {
     href: "/blog/udsigt",
+    image: "/images/Billeder til blogindlæg/udsigt fra sommerhus arkitekttegnestuen yderskov.webp",
     date: "09 / 05 / 2026",
     cat: "Villa & boligdesign",
     catKey: "villa",
