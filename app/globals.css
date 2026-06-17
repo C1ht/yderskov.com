@@ -1104,12 +1104,47 @@ footer { background: var(--dark); color: rgba(255,255,255,0.7); }
   transform: rotateY(-3deg) rotateX(2deg) rotateZ(0deg) scale(1.03);
   box-shadow: 18px 18px 36px rgba(0,0,0,0.16), 6px 6px 15px rgba(0,0,0,0.1);
 }
+.page-layer {
+  position: absolute;
+  inset: 0;
+  background: #fdfdfb;
+  border: 1px solid var(--border);
+  border-radius: 3px 9px 9px 3px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.03);
+  transition: transform 0.4s ease, background 0.4s ease;
+  transform-origin: left center;
+}
+.page-layer-1 {
+  transform: translate3d(2px, 0, -2px) rotateY(-1deg);
+  background: #fff;
+  z-index: 4;
+}
+.page-layer-2 {
+  transform: translate3d(4px, 0, -4px) rotateY(-2deg);
+  background: #faf9f6;
+  z-index: 3;
+}
+.page-layer-3 {
+  transform: translate3d(6px, 0, -6px) rotateY(-3deg);
+  background: #f6f5f0;
+  z-index: 2;
+}
+.book:hover .page-layer-1 {
+  transform: translate3d(6px, 0, -3px) rotateY(0deg);
+}
+.book:hover .page-layer-2 {
+  transform: translate3d(12px, 0, -6px) rotateY(1deg);
+}
+.book:hover .page-layer-3 {
+  transform: translate3d(18px, 0, -9px) rotateY(2deg);
+}
 .book-cover {
   width: 100%;
   height: 100%;
   position: relative;
   overflow: hidden;
   border-radius: 3px 9px 9px 3px;
+  z-index: 5;
 }
 .book-cover img {
   width: 100%;

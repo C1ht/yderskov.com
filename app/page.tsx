@@ -137,6 +137,11 @@ export default function HomePage() {
             <div className="catalog-visual">
               <div className="catalog-mockup">
                 <div className="book">
+                  {/* Fanned page layers behind the cover */}
+                  <div className="page-layer page-layer-3"></div>
+                  <div className="page-layer page-layer-2"></div>
+                  <div className="page-layer page-layer-1"></div>
+
                   <div className="book-cover">
                     <img src="/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp" alt="Arkitekttegnestuen Yderskov Inspirationskatalog" />
                     <div className="book-overlay">
