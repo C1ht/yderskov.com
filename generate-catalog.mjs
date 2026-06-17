@@ -160,7 +160,7 @@ const sommerhusProjects = [
     location: 'Hals, Nordjylland',
     size: '95 m² fritidshus · stor terrasse',
     year: '2022',
-    description: 'Lyst og indbydende sommerhus i Hals med store vinduespartier, der inviterer naturen helt indenfor. Sommerhuset er indrettet med fokus på fællesskab, åben forbindelse mellem køkken-alrum og stue, samt direkte udgang til et stort, ugeneret terrasseområde.',
+    description: 'Lyst sommerhus i Hals, smukt beliggende på en åben lyngslette omgivet af et fredeligt skovområde. Huset er tegnet med store glaspartier, der sikrer et fantastisk lysindfald og tæt kontakt til naturen. Indvendigt er køkkenet adskilt fra stuen med en elegant rumdeler, som skaber en perfekt balance mellem funktionel opdeling og den åbne rumfornemmelse.',
     images: [
       '/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp',
       '/images/Torndalsvej/Hals-Torndalsvej-køkken.webp',

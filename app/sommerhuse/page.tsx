@@ -18,6 +18,10 @@ const projectGalleries = [
   {
     eyebrow: "Projekt",
     title: "Sommerhus med\nstore vinduespartier, Hals.",
+    location: "Hals, Nordjylland",
+    size: "95 m² fritidshus · stor terrasse",
+    year: "2022",
+    description: "Dette lyse sommerhus i Hals er smukt beliggende på en åben lyngslette, omgivet af et roligt skovområde. Huset er tegnet med store glaspartier for at sikre et fantastisk lysindfald og en tæt kontakt til naturen. Indvendigt er køkkenet adskilt fra stuen med en elegant rumdeler, som skaber en perfekt balance mellem funktionel opdeling og den åbne rumfornemmelse.",
     images: [
       { src: "/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp", alt: "Terrasse ved sommerhus i Hals — Arkitekttegnestuen Yderskov" },
       { src: "/images/Torndalsvej/Hals-Torndalsvej-køkken.webp", alt: "Køkken i sommerhus i Hals — Arkitekttegnestuen Yderskov" },
@@ -28,6 +32,10 @@ const projectGalleries = [
   {
     eyebrow: "Projekt",
     title: "Sommerhus\ntil udsigtsgrund, Løkken.",
+    location: "Løkken, Nordjylland",
+    size: "110 m² fritidshus · klitgrund",
+    year: "2020",
+    description: "Klassisk sommerhus beliggende på en kuperet klitgrund i Løkken med storslået udsigt over landskabet og Vesterhavet. Huset er nænsomt tilpasset terrænet og råder over en ugeneret solterrasse.",
     images: [
       { src: "/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-indgangsparti.webp", alt: "Indgangsparti ved sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
       { src: "/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-terrasse.webp", alt: "Terrasse ved sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
@@ -38,6 +46,10 @@ const projectGalleries = [
   {
     eyebrow: "Projekt",
     title: "Sommerhus\nmed pool, Ålbæk.",
+    location: "Ålbæk, Nordjylland",
+    size: "185 m² wellness-hus · pool & spa",
+    year: "2023",
+    description: "Luksussommerhus i Ålbæk med indendørs swimmingpool, aktivitetsrum med billard og moderne køkken-alrum. Sommerhuset er tegnet til at rumme flere generationer og er ideelt til både familiehygge og udlejning.",
     images: [
       { src: "/images/Løvevej/Ålbæk-poolhus-terrasse.webp", alt: "Arkitekttegnet poolhus i Ålbæk — Arkitekttegnestuen Yderskov" },
       { src: "/images/Løvevej/Ålbæk-poolhus-pool.webp", alt: "Indendørs pool i arkitekttegnet sommerhus — Arkitekttegnestuen Yderskov" },
@@ -55,6 +67,10 @@ const projectGalleries = [
   {
     eyebrow: "Projekt",
     title: "Nyt\nsommerhus, Løkken.",
+    location: "Løkken, Nordjylland",
+    size: "115 m² fritidshus",
+    year: "2024",
+    description: "Arkitekttegnet sommerhus i Løkken opført i et moderne, stramt formsprog med store glaspartier og en overdækket terrasse, der forbinder huset med det omkringliggende landskab. Huset er indrettet med fokus på lysindfald og flydende overgange.",
     images: [
       { src: "/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-indkørsel.webp", alt: "Nyt sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
       { src: "/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-terrasse.webp", alt: "Terrasse ved sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
@@ -169,6 +185,14 @@ export default function SommerhusePage() {
                 <h2 className="sec-hed" style={{ marginBottom: 0, whiteSpace: "pre-line" }}>
                   {gallery.title}
                 </h2>
+                {"location" in gallery && gallery.location && (
+                  <p className="proj-meta">
+                    {gallery.location}{gallery.size ? ` · ${gallery.size}` : ""}{gallery.year ? ` · ${gallery.year}` : ""}
+                  </p>
+                )}
+                {"description" in gallery && gallery.description && (
+                  <p className="proj-desc">{gallery.description}</p>
+                )}
               </div>
             </div>
             <ImageGrid images={gallery.images} />
