@@ -86,7 +86,7 @@ export default function HomePage() {
                 </div>
                 <h3>Vi styrer håndværkerne</h3>
               </div>
-              <p>Vi koordinerer og styrer håndværkerne for dig, så du er sikret kvalitet og økonomi hele vejen til et fejlfrit, nøglefærdigt resultat.</p>
+              <p>Vi koordinerer og styrer håndværkerne for dig, så du er sikret kvalitet og økonomi hele vejen til et nøglefærdigt resultat.</p>
             </div>
 
             <div className="why-us-card">
