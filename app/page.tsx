@@ -84,7 +84,7 @@ export default function HomePage() {
                     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                   </svg>
                 </div>
-                <h3>Vi styrer håndværkerne</h3>
+                <h3>Håndværkere og økonomi</h3>
               </div>
               <p>Vi koordinerer og styrer håndværkerne for dig, så du er sikret kvalitet og økonomi hele vejen til et nøglefærdigt resultat.</p>
             </div>
