@@ -401,14 +401,6 @@ const posts: Post[] = [
   },
   // 2024
   {
-    href: "/blog/hvordan-vurderer-man-om-en-byggegrund-er-god",
-    date: "04 / 09 / 2024",
-    cat: "Grund & placering",
-    catKey: "grund",
-    title: "Sådan vurderer du om en byggegrund er god — guide til byggegrundets kvalitet.",
-    excerpt: "En god byggegrund øger værdien af dit fremtidigt hus. Læs om hvad du skal lede efter når du handler byggegrund — og hvad du skal være opmærksom på.",
-  },
-  {
     href: "/blog/valg-af-byggegrund",
     date: "31 / 08 / 2024",
     cat: "Grund & placering",
@@ -487,14 +479,6 @@ const posts: Post[] = [
     catKey: "sommerhus",
     title: "Sådan designer du et sommerhus til udsigtsgrunde — arkitekt vejledning.",
     excerpt: "Et sommerhus på udsigtsgrund skal udnytte udsigten, lyset og naturens kvaliteter. Læs om designprincipper for sommerhuse på udsigtsgrunde.",
-  },
-  {
-    href: "/blog/orangeri-ved-huset",
-    date: "20 / 02 / 2024",
-    cat: "Villa & boligdesign",
-    catKey: "villa",
-    title: "Hvordan designer man et orangeri ved huset?",
-    excerpt: "Et orangeri er en af de mest stemningsfulde tilbygninger du kan give dit hus. Her gennemgår vi placering, konstruktion, glastyper, opvarmning og indretning.",
   },
 ];
 

@@ -43,22 +43,32 @@ export default function BlogListing({ posts, categories }: BlogListingProps) {
 
   return (
     <>
-      <div className="blog-filters">
-        {categories.map((cat) => (
+      <div className="blog-filters" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "1rem" }}>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
+          {categories.map((cat) => (
+            <button
+              key={cat.key}
+              className={`blog-filter-btn${active === cat.key ? " active" : ""}`}
+              onClick={() => setActive(cat.key)}
+            >
+              {cat.label}
+            </button>
+          ))}
+        </div>
+        <div style={{ display: "flex", gap: "0.5rem" }}>
           <button
-            key={cat.key}
-            className={`blog-filter-btn${active === cat.key ? " active" : ""}`}
-            onClick={() => setActive(cat.key)}
+            className={`blog-filter-btn${!sortAsc ? " active" : ""}`}
+            onClick={() => setSortAsc(false)}
           >
-            {cat.label}
+            Nyeste først
           </button>
-        ))}
-        <button
-          className={`blog-filter-btn${sortAsc ? " active" : ""}`}
-          onClick={() => setSortAsc((s) => !s)}
-        >
-          {sortAsc ? "Nyeste først" : "Ældste først"}
-        </button>
+          <button
+            className={`blog-filter-btn${sortAsc ? " active" : ""}`}
+            onClick={() => setSortAsc(true)}
+          >
+            Ældste først
+          </button>
+        </div>
       </div>
 
       <div className="post-grid">
