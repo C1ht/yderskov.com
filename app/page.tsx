@@ -74,7 +74,7 @@ export default function HomePage() {
                 </div>
                 <h3>Fast pris på honorar</h3>
               </div>
-              <p>Vi tilbyder fast pris på arkitekthonoraret, så du kender de præcise udgifter fra start. Ingen uforudsete regninger.</p>
+              <p>Vi tilbyder <Link href="/priser" className="text-link" style={{ fontSize: "inherit" }}>fast pris på arkitekthonoraret</Link>, så du kender de præcise udgifter fra start. Ingen uforudsete regninger.</p>
             </div>
 
             <div className="why-us-card">
@@ -86,7 +86,7 @@ export default function HomePage() {
                 </div>
                 <h3>Håndværkere og økonomi</h3>
               </div>
-              <p>Vi koordinerer og styrer håndværkerne for dig, så du er sikret kvalitet og økonomi hele vejen til et nøglefærdigt resultat.</p>
+              <p>Vi koordinerer og styrer håndværkerne for dig, så du er sikret kvalitet og økonomi hele vejen til et <Link href="/om" className="text-link" style={{ fontSize: "inherit" }}>nøglefærdigt resultat</Link>.</p>
             </div>
 
             <div className="why-us-card">
@@ -98,7 +98,7 @@ export default function HomePage() {
                 </div>
                 <h3>Samme arkitekt hver gang</h3>
               </div>
-              <p>Hos os taler du med den samme projekterende arkitekt gennem hele forløbet. Det giver tryghed, tæt dialog og sparer værdifuld tid.</p>
+              <p>Hos os taler du med den <Link href="/om" className="text-link" style={{ fontSize: "inherit" }}>samme projekterende arkitekt</Link> gennem hele forløbet. Det giver tryghed, tæt dialog og sparer værdifuld tid.</p>
             </div>
 
             <div className="why-us-card">
@@ -111,7 +111,7 @@ export default function HomePage() {
                 </div>
                 <h3>Gratis idémøde på din grund</h3>
               </div>
-              <p>Vi kommer ud på din byggegrund eller adresse til en uforpligtende professionel vurdering og sparring på dine idéer.</p>
+              <p>Vi kommer ud på din byggegrund eller adresse til et <Link href="/kontakt" className="text-link" style={{ fontSize: "inherit" }}>gratis idémøde</Link> for en uforpligtende professionel vurdering og sparring på dine idéer.</p>
             </div>
           </div>
         </div>
@@ -123,10 +123,11 @@ export default function HomePage() {
         <div className="announcement-inner">
           <div className="announcement-badge">Nyt</div>
           <div className="announcement-body">
-            <p className="announcement-title">Byg nyt sommerhus fra <strong>kr. 12.000 pr. m²</strong></p>
+            <p className="announcement-title">Byg nyt <Link href="/sommerhuse" style={{ textDecoration: "underline", color: "inherit" }}>sommerhus</Link> fra <strong><Link href="/priser" style={{ textDecoration: "underline", color: "#b87c08" }}>kr. 12.000 pr. m²</Link></strong></p>
             <p className="announcement-sub">Vi tegner og bygger arkitekttegnede sommerhuse nøglefærdigt — med fast pris og egne håndværkere. Gratis og uforpligtende første møde.</p>
           </div>
           <Link href="/sommerhuse" className="announcement-cta">Se sommerhuse →</Link>
+          <Link href="/priser" className="announcement-cta" style={{ background: "transparent", border: "1px solid var(--text)", color: "var(--text) !important" }}>Se priser →</Link>
         </div>
       </div>
 

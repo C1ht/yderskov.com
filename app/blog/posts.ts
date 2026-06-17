@@ -63,8 +63,8 @@ export const posts: BlogPost[] = [
       {
         heading: "Cases: Orangeri Saksild og Orangeri Fredensgade",
         paragraphs: [
-          "Billederne i dette indlæg viser to vidt forskellige orangeriløsninger fra vores tegnestue. I sommerhuset i Saksild er orangeriet designet som et integreret, let glashus i direkte forbindelse med det sorte træhus. Det fungerer som en lysfyldt oase midt i den vilde have.",
-          "I projektet på Fredensgade er orangeriet udført med en markant muret base, rå murstensvægge indendørs og store sprossede glaspartier, der skaber et klassisk, herskabeligt udtryk. Begge projekter viser, hvordan et orangeri kan tilpasses boligens overordnede arkitektur og skabe et helt unikt opholdsrum."
+          "Billederne i dette indlæg viser to vidt forskellige orangeriløsninger fra vores tegnestue. I [sommerhuset i Saksild](/sommerhuse) er orangeriet designet som et integreret, let glashus i direkte forbindelse med det sorte træhus. Det fungerer som en lysfyldt oase midt i den vilde have.",
+          "I projektet på Fredensgade er orangeriet udført med en markant muret base, rå murstensvægge indendørs og store sprossede glaspartier, der skaber et klassisk, herskabeligt udtryk. Begge projekter viser, hvordan et orangeri kan tilpasses boligens overordnede arkitektur. Du kan læse mere [om vores tegnestue](/om) eller se vores [priser](/priser) for yderligere information."
         ],
         type: "case"
       }
@@ -79,7 +79,7 @@ export const posts: BlogPost[] = [
     date: "17 / 06 / 2026",
     cat: "Arkitekt & proces",
     catKey: "proces",
-    lead: "Uanset om du vil bygge en ny villa, et sommerhus eller en tilbygning, er byggetilladelsen en af de vigtigste milepæle i byggeprocessen. Men reglerne i Bygningsreglementet (BR18) kan virke uoverskuelige, og en mangelfuld byggeansøgning kan føre til lange forsinkelser hos kommunen. Her gennemgår vi alt, hvad du skal vide om at søge byggetilladelse, og hvordan vi som arkitekter hjælper dig sikkert igennem processen.",
+    lead: "Uanset om du vil bygge en [ny villa](/villaer), et [sommerhus](/sommerhuse) eller en [tilbygning](/tilbygninger), er byggetilladelsen en af de vigtigste milepæle i byggeprocessen. Men reglerne i Bygningsreglementet (BR18) kan virke uoverskuelige, og en mangelfuld byggeansøgning kan føre til lange forsinkelser hos kommunen. Her gennemgår vi alt, hvad du skal vide om at søge byggetilladelse, og hvordan vi som arkitekter hjælper dig sikkert igennem processen.",
     sections: [
       {
         heading: "Hvornår skal man søge byggetilladelse?",
@@ -160,8 +160,8 @@ export const posts: BlogPost[] = [
       {
         heading: "5. Case: Køkkenet i udsigtsvillaen i Frederikshavn",
         paragraphs: [
-          "Billedet øverst i dette indlæg viser køkkenet fra vores projekt 'Udsigtsvilla i Frederikshavn' (Lerstien). Her er køkken-alrummet udformet med loft til kip, store ovenlysvinduer, der trækker dagslyset dybt ind i rummet, og store glaspartier mod terrassen.",
-          "Køkkenet er designet med en central køkkenø i mørke, varme toner, der komplementerer de rå, grålige murstensvægge og det lyse trægulv. Akustikloftet sikrer en behagelig lyd, selv når hele familien er samlet, og placeringen af højskabene mod bagvæggen lader lyset flyde frit igennem det store leverum."
+          "Billedet øverst i dette indlæg viser køkkenet fra vores projekt '[Udsigtsvilla i Frederikshavn](/villaer)' (Lerstien). Her er køkken-alrummet udformet med loft til kip, store ovenlysvinduer, der trækker dagslyset dybt ind i rummet, og store glaspartier mod terrassen.",
+          "Køkkenet is designet med en central køkkenø i mørke, varme toner, der komplementerer de rå, grålige murstensvægge og det lyse trægulv. Akustikloftet sikrer en behagelig lyd, selv når hele familien er samlet. Se også vores andre [villaer](/villaer) eller læs om [vores priser](/priser) for yderligere information."
         ],
         type: "case"
       }
@@ -186,7 +186,7 @@ export const posts: BlogPost[] = [
         heading: "Hvorfor vælge en gaspejs frem for traditionel brændeovn?",
         paragraphs: [
           "En gaspejs giver de samme smukke, dansende flammer som en traditionel brændeovn, men uden de praktiske udfordringer. Du slipper for at flække, tørre og slæbe brænde ind, og du skal aldrig tømme pejsen for aske eller rense sod af glasset.",
-          "En anden stor fordel er den præcise varmeregulering. Med en fjernbetjening eller en app på mobilen kan du tænde pejsen på et splitsekund, skrue op og ned for varmen, eller slukke den igen med det samme. Det gør gaspejsen ekstremt velegnet til moderne, velisolerede huse, hvor en almindelig brændeovn hurtigt kan gøre rummet alt for varmt."
+          "En anden stor fordel er den præcise varmeregulering. Med en fjernbetjening eller en app på mobilen kan du tænde pejsen på et splitsekund, skrue op og ned for varmen, eller slukke den igen med det samme. Det gør gaspejsen ekstremt velegnet til moderne, [velisolerede huse](/villaer), hvor en almindelig brændeovn hurtigt kan gøre rummet alt for varmt."
         ]
       },
       {
@@ -199,8 +199,8 @@ export const posts: BlogPost[] = [
       {
         heading: "Case: Gaspejs i det moderne sommerhus",
         paragraphs: [
-          "Billederne i dette indlæg stammer fra et af vores nyligt opførte sommerhuse, hvor gaspejsen er tænkt ind som hjertet i det store opholdsrum. Her er pejsen bygget ind i en central kerne af gips og brandhæmmende materialer, der også rummer skjulte installationer.",
-          "Pejsen er placeret, så den er synlig fra både sofaafdelingen, spisebordet og køkkenet. Den fungerer som en hyggelig varmekilde på kolde efterårs- og vinterdage, og det stilrene design understøtter sommerhusets minimalistiske, nordiske æstetik med store vinduespartier og rå træelementer."
+          "Billederne i dette indlæg stammer fra et af vores nyligt opførte [sommerhuse](/sommerhuse), hvor gaspejsen er tænkt ind som hjertet i det store opholdsrum. Her er pejsen bygget ind i en central kerne af gips og brandhæmmende materialer, der også rummer skjulte installationer.",
+          "Pejsen er placeret, så den er synlig fra både sofaafdelingen, spisebordet og køkkenet. Den fungerer som en hyggelig varmekilde på kolde efterårs- og vinterdage, og det stilrene design understøtter sommerhusets minimalistiske, nordiske æstetik med store vinduespartier og rå træelementer. Læs også om vores [priser](/priser) eller [vores proces](/om)."
         ],
         type: "case"
       },
