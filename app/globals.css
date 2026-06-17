@@ -513,54 +513,66 @@ body.menu-open { overflow: hidden; }
 
 /* ── WHY US SECTION ── */
 .why-us-section {
-  padding: 6rem 2rem 5rem;
+  padding: 3.5rem 2rem 3rem;
   border-bottom: 1px solid var(--border);
 }
 .why-us-header {
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.75rem;
+}
+.why-us-section .sec-hed {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-weight: 300;
+  letter-spacing: -0.025em;
+  margin-top: 0.2rem;
 }
 .why-us-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1px;
   background: var(--border);
-  border-radius: 24px;
+  border-radius: 16px;
   overflow: hidden;
 }
 .why-us-card {
   background: var(--white);
-  padding: 2.5rem 2rem;
+  padding: 1.5rem 1.25rem;
   display: flex;
   flex-direction: column;
-  gap: 0.85rem;
-  transition: background 0.25s, transform 0.25s;
+  gap: 0.5rem;
+  transition: background 0.2s;
 }
 .why-us-card:hover {
   background: #fdfdfc;
 }
+.why-us-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
 .why-us-icon-wrapper {
   color: var(--text);
-  width: 44px;
-  height: 44px;
+  width: 32px;
+  height: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 10px;
+  border-radius: 6px;
   background: #f7f6f3;
-  margin-bottom: 0.25rem;
+  flex-shrink: 0;
 }
 .why-us-card h3 {
   font-family: var(--sans);
-  font-size: 1.05rem;
-  font-weight: 400;
-  letter-spacing: -0.015em;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
   color: var(--text);
+  margin: 0;
 }
 .why-us-card p {
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   font-weight: 300;
   color: var(--sub);
-  line-height: 1.65;
+  line-height: 1.55;
 }
 @media (max-width: 1024px) {
   .why-us-grid {
@@ -572,7 +584,7 @@ body.menu-open { overflow: hidden; }
     grid-template-columns: 1fr;
   }
   .why-us-card {
-    padding: 2rem 1.5rem;
+    padding: 1.5rem 1.25rem;
   }
 }
 

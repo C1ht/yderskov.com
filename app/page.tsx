@@ -65,44 +65,52 @@ export default function HomePage() {
           </div>
           <div className="why-us-grid">
             <div className="why-us-card">
-              <div className="why-us-icon-wrapper">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" />
-                  <line x1="7" y1="7" x2="7.01" y2="7" strokeWidth="2.5" />
-                </svg>
+              <div className="why-us-title-row">
+                <div className="why-us-icon-wrapper">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" />
+                    <line x1="7" y1="7" x2="7.01" y2="7" strokeWidth="2.5" />
+                  </svg>
+                </div>
+                <h3>Fast pris på honorar</h3>
               </div>
-              <h3>Fast pris på honorar</h3>
               <p>Vi tilbyder fast pris på arkitekthonoraret, så du kender de præcise udgifter fra start. Ingen uforudsete regninger.</p>
             </div>
 
             <div className="why-us-card">
-              <div className="why-us-icon-wrapper">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                </svg>
+              <div className="why-us-title-row">
+                <div className="why-us-icon-wrapper">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                  </svg>
+                </div>
+                <h3>Vi styrer håndværkerne</h3>
               </div>
-              <h3>Vi styrer håndværkerne</h3>
               <p>Vi koordinerer og styrer håndværkerne for dig, så du er sikret kvalitet og økonomi hele vejen til et fejlfrit, nøglefærdigt resultat.</p>
             </div>
 
             <div className="why-us-card">
-              <div className="why-us-icon-wrapper">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
-                </svg>
+              <div className="why-us-title-row">
+                <div className="why-us-icon-wrapper">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                  </svg>
+                </div>
+                <h3>Samme arkitekt hver gang</h3>
               </div>
-              <h3>Samme arkitekt hver gang</h3>
               <p>Hos os taler du med den samme projekterende arkitekt gennem hele forløbet. Det giver tryghed, tæt dialog og sparer værdifuld tid.</p>
             </div>
 
             <div className="why-us-card">
-              <div className="why-us-icon-wrapper">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-                  <circle cx="12" cy="10" r="3" />
-                </svg>
+              <div className="why-us-title-row">
+                <div className="why-us-icon-wrapper">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                </div>
+                <h3>Gratis idémøde på din grund</h3>
               </div>
-              <h3>Gratis idémøde på din grund</h3>
               <p>Vi kommer ud på din byggegrund eller adresse til en uforpligtende professionel vurdering og sparring på dine idéer.</p>
             </div>
           </div>
