@@ -75,17 +75,21 @@ export default function BlogListing({ posts, categories }: BlogListingProps) {
       <div className="post-grid">
         {sorted.map((post) => (
           <Link key={post.href} href={post.href} className="post-card">
-            {post.image && (
-              <div className="post-image" style={{ width: "100%", height: "200px", overflow: "hidden", marginBottom: "1rem", borderRadius: "6px" }}>
-                <img src={post.image} alt={post.title} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+            <div className="post-card-inner">
+              <div className="post-card-content">
+                <span className="post-date">{post.date}</span>
+                <span className="post-cat">{post.cat}</span>
+                <p className="post-title">{post.title}</p>
+                {post.subtitle && <p className="post-subtitle">{post.subtitle}</p>}
+                <p className="post-excerpt">{post.excerpt}</p>
+                <span className="post-link">Læs mere →</span>
               </div>
-            )}
-            <span className="post-date">{post.date}</span>
-            <span className="post-cat">{post.cat}</span>
-            <p className="post-title">{post.title}</p>
-            {post.subtitle && <p className="post-subtitle">{post.subtitle}</p>}
-            <p className="post-excerpt">{post.excerpt}</p>
-            <span className="post-link">Læs mere →</span>
+              {post.image && (
+                <div className="post-card-image">
+                  <img src={post.image} alt={post.title} />
+                </div>
+              )}
+            </div>
           </Link>
         ))}
       </div>
