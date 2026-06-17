@@ -1117,19 +1117,19 @@ footer { background: var(--dark); color: rgba(255,255,255,0.7); }
   box-shadow: 2px 2px 5px rgba(0,0,0,0.03);
 }
 .page-layer-1 {
-  transform: translate3d(3px, 0, -3px);
+  transform: translate3d(1.5px, 0, 3px);
   background: #fff;
-  z-index: 4;
-}
-.page-layer-2 {
-  transform: translate3d(6px, 0, -6px);
-  background: #faf9f6;
   z-index: 3;
 }
-.page-layer-3 {
-  transform: translate3d(9px, 0, -9px);
-  background: #f6f5f0;
+.page-layer-2 {
+  transform: translate3d(3px, 0, 2px);
+  background: #faf9f6;
   z-index: 2;
+}
+.page-layer-3 {
+  transform: translate3d(4.5px, 0, 1px);
+  background: #f6f5f0;
+  z-index: 1;
 }
 .book-cover {
   width: 100%;
@@ -1138,7 +1138,7 @@ footer { background: var(--dark); color: rgba(255,255,255,0.7); }
   overflow: hidden;
   border-radius: 3px 9px 9px 3px;
   z-index: 5;
-  transform: translate3d(0, 0, 0); /* Force 3D context positioning in front of page layers */
+  transform: translate3d(0, 0, 5px); /* Force 3D context positioning in front of page layers */
 }
 .book-cover img {
   width: 100%;
