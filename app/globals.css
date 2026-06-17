@@ -1218,6 +1218,20 @@ footer { background: var(--dark); color: rgba(255,255,255,0.7); }
   transform: scale(0.98);
 }
 
+/* ── BLOG GALLERY ── */
+.blog-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin-top: 2.5rem;
+}
+@media (max-width: 600px) {
+  .blog-gallery {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
 /* ── PRINT ── */
 @page { size: A4 portrait; margin: 15mm 18mm; }
 @media print {

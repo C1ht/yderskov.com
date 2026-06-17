@@ -26,6 +26,15 @@ type Post = {
 const posts: Post[] = [
   // 2026
   {
+    href: "/blog/gaspejs-sommerhus-bolig",
+    image: "/images/Billeder til blogindlæg/Gaspejs sommerhus arkitekt yderskov.webp",
+    date: "13 / 06 / 2026",
+    cat: "Boligdetaljer",
+    catKey: "boligdetalje",
+    title: "Gaspejs i boligen og sommerhuset — den ultimative guide til indbygning og hygge",
+    excerpt: "Overvejer du gaspejs? Få råd fra arkitekten om indbygning, dobbeltsidet glas, tunnelmodeller og hvordan en gaspejs skaber hygge i sommerhuset og villaen.",
+  },
+  {
     href: "/blog/villa-herresaede-noerholm-aalborg",
     image: "/images/Nørholmsvej/Engelsk villa facade Nørholmsvej.webp",
     date: "08 / 06 / 2026",

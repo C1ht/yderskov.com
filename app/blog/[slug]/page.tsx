@@ -170,11 +170,19 @@ export default async function BlogPostPage({
             >
               {parseParagraph(post.lead)}
             </p>
-            {post.image && (
+            {post.images && post.images.length > 0 ? (
+              <div className="blog-gallery">
+                {post.images.map((img, index) => (
+                  <div key={index} style={{ borderRadius: "12px", overflow: "hidden", aspectRatio: "4/3", position: "relative" }}>
+                    <img src={img} alt={`${post.title} - billede ${index + 1}`} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                  </div>
+                ))}
+              </div>
+            ) : post.image ? (
               <div style={{ marginTop: "2.5rem", borderRadius: "12px", overflow: "hidden", aspectRatio: "16/10", position: "relative" }}>
                 <img src={post.image} alt={post.title} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
               </div>
-            )}
+            ) : null}
           </div>
         </section>
 

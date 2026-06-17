@@ -13,9 +13,58 @@ export type BlogPost = {
   sections: Section[];
   relatedLinks?: RelatedLink[];
   image?: string;
+  images?: string[];
 };
 
 export const posts: BlogPost[] = [
+  {
+    slug: "gaspejs-sommerhus-bolig",
+    image: "/images/Billeder til blogindlæg/Gaspejs sommerhus arkitekt yderskov.webp",
+    images: [
+      "/images/Billeder til blogindlæg/Gaspejs sommerhus arkitekt yderskov.webp",
+      "/images/Billeder til blogindlæg/gaspejs sommerhus arkitekttegnestuen yderskov.webp"
+    ],
+    metaTitle: "Indbygning af gaspejs i sommerhus og bolig — Yderskov Arkitekter",
+    title: "Gaspejs i boligen og sommerhuset — den ultimative guide til indbygning og hygge",
+    description: "Overvejer du gaspejs? Få råd fra arkitekten om indbygning, dobbeltsidet glas, tunnelmodeller og hvordan en gaspejs skaber hygge i sommerhuset og villaen.",
+    date: "13 / 06 / 2026",
+    cat: "Boligdetaljer",
+    catKey: "boligdetalje",
+    lead: "Mange drømmer om den helt særlige hygge, som en pejs giver. Men i en travl hverdag — eller i et moderne sommerhus — kan brændeslæb, aske og sod være en hæmsko. Her er en indbygget gaspejs den perfekte løsning. Med levende flammer, nem regulering og muligheden for at se ilden fra flere rum, skaber gaspejsen et fantastisk samlingspunkt. Her ser vi på, hvordan du integrerer en gaspejs arkitektonisk i din bolig eller dit fritidshus.",
+    sections: [
+      {
+        heading: "Hvorfor vælge en gaspejs frem for traditionel brændeovn?",
+        paragraphs: [
+          "En gaspejs giver de samme smukke, dansende flammer som en traditionel brændeovn, men uden de praktiske udfordringer. Du slipper for at flække, tørre og slæbe brænde ind, og du skal aldrig tømme pejsen for aske eller rense sod af glasset.",
+          "En anden stor fordel er den præcise varmeregulering. Med en fjernbetjening eller en app på mobilen kan du tænde pejsen på et splitsekund, skrue op og ned for varmen, eller slukke den igen med det samme. Det gør gaspejsen ekstremt velegnet til moderne, velisolerede huse, hvor en almindelig brændeovn hurtigt kan gøre rummet alt for varmt."
+        ]
+      },
+      {
+        heading: "Indbygning og placering: Gør pejsen til et rumligt element",
+        paragraphs: [
+          "Hvor en klassisk brændeovn ofte står frit i et hjørne, tænkes en gaspejs næsten altid ind som en integreret del af husets arkitektur. Da den bygges ind i en vægkonstruktion, kan den fungere som et markant rumligt element eller ligefrem som en rumdeler.",
+          "En af de mest populære løsninger er en dobbeltsidet gaspejs (også kaldet en tunnelpejs). Ved at placere pejsen i en skillevæg mellem f.eks. stuen og køkken-alrummet kan du nyde synet af ilden og varmen fra begge rum på samme tid. Det binder husets zoner sammen på en utrolig hyggelig måde og skaber et smukt lysindfald gennem ilden."
+        ]
+      },
+      {
+        heading: "Case: Gaspejs i det moderne sommerhus",
+        paragraphs: [
+          "Billederne i dette indlæg stammer fra et af vores nyligt opførte sommerhuse, hvor gaspejsen er tænkt ind som hjertet i det store opholdsrum. Her er pejsen bygget ind i en central kerne af gips og brandhæmmende materialer, der også rummer skjulte installationer.",
+          "Pejsen er placeret, så den er synlig fra både sofaafdelingen, spisebordet og køkkenet. Den fungerer som en hyggelig varmekilde på kolde efterårs- og vinterdage, og det stilrene design understøtter sommerhusets minimalistiske, nordiske æstetik med store vinduespartier og rå træelementer."
+        ],
+        type: "case"
+      },
+      {
+        heading: "Hvad skal du overveje inden indbygning?",
+        paragraphs: [
+          "Når du planlægger at indbygge en gaspejs, er der tre væsentlige ting, du skal tage stilling til: forsyning, aftræk og arkitektonisk integration.",
+          "1. Gasforsyning: Pejsen kan køre på enten naturgas, bygas eller flaskegas. I sommerhuse eller områder uden indlagt gas anvender man typisk flaskegas, hvor gasflaskerne placeres i et diskret skab på ydersiden af huset.",
+          "2. Aftræk: En gaspejs kræver et såkaldt balanceret aftræk (et rør-i-rør system), der både trækker frisk luft ind til forbrændingen udefra og leder røggassen ud. Dette kan føres enten direkte ud gennem ydervæggen eller op igennem taget. Det giver en enorm fleksibilitet i forhold til placeringen i huset.",
+          "3. Integration: Tænk pejsen ind tidligt i skitsefasen. Det giver mulighed for at bygge nicher til kunst, integrere fjernsynet over pejsen med brandhæmmende isolering, eller skabe hyggelige siddebænke i forlængelse af pejsens base."
+        ]
+      }
+    ]
+  },
   {
     slug: "villa-herresaede-noerholm-aalborg",
     image: "/images/Nørholmsvej/Engelsk villa facade Nørholmsvej.webp",
