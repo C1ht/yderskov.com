@@ -11,13 +11,16 @@ export const metadata: Metadata = {
   title: "Arkitekt til om- & tilbygning — Priser & cases | Yderskov",
   description:
     "Skal du bygge til eller bygge om? Få tegnet din tilbygning af en arkitekt til fast pris. Se priser og eksempler på ombygning. Book et gratis møde!",
-  alternates: { canonical: "https://yderskov.com/tilbygninger" },
 };
 
 const projectGalleries = [
   {
     eyebrow: "Projekt",
     title: "Ombygning og\nmodernisering af 50er-villa, Brønderslev nær Aalborg.",
+    location: "Brønderslev, Nordjylland",
+    size: "Komplet ombygning · nyt køkken-alrum",
+    year: "2023",
+    description: "Gennemgribende modernisering og ombygning af en 1950'er-villa i Brønderslev. Huset er blevet åbnet op med store skydedørspartier mod haven og et nyt, lyst køkken-alrum, hvilket har givet boligen et nutidigt arkitektonisk løft.",
     images: [
       { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-3.webp", alt: "Haveside med birketræ efter modernisering, Brønderslev — Arkitekttegnestuen Yderskov" },
       { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-2.webp", alt: "Gårdside med skydedøre efter modernisering, Brønderslev — Arkitekttegnestuen Yderskov" },
@@ -38,6 +41,10 @@ const projectGalleries = [
   {
     eyebrow: "Projekt",
     title: "Villa med\ntilbygning, Hasseris i Aalborg.",
+    location: "Hasseris, Aalborg",
+    size: "45 m² tilbygning · terrasse",
+    year: "2021",
+    description: "Moderne tilbygning i Hasseris i Aalborg, der udvider den eksisterende murstensvilla med et lyst opholdsrum. Store vinduespartier og en overdækket terrasse skaber en glidende overgang til haven.",
     images: [
       { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-terrasse.webp", alt: "Terrasse ved villa med tilbygning i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
       { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp", alt: "Bagside af villa med tilbygning i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
@@ -48,9 +55,13 @@ const projectGalleries = [
   {
     eyebrow: "Projekt",
     title: "Tilbygning og\nrenovering, Aalborg.",
+    location: "Aalborg, Nordjylland",
+    size: "35 m² tilbygning · overdækning",
+    year: "2022",
+    description: "Tegnestuens bud på en elegant tilbygning i Aalborg med en stor træterrasse, der smelter sammen med plænen. Tilbygningen tilfører boligen vigtige kvadratmeter og optimerer lysindfaldet.",
     images: [
       { src: "/images/Neptunvej/Aalborg-neptunvej-tilbygning-terrasse.webp", alt: "Terrasse ved tilbygning i Aalborg — Arkitekttegnestuen Yderskov" },
-      { src: "/images/Neptunvej/Aalborg-neptunvej-tilbygning-terrasse-og-plæne.webp", alt: "Terrasse og plæne ved tilbygning i Aalborg — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Neptunvej/Aalborg-neptunvej-tilbygning-terrasse-og-plæne.webp", alt: "Terrasse and plæne ved tilbygning i Aalborg — Arkitekttegnestuen Yderskov" },
       { src: "/images/Neptunvej/Aalborg-neptunvej-tilbygning.haveside.webp", alt: "Haveside ved tilbygning i Aalborg — Arkitekttegnestuen Yderskov" },
     ],
     dark: true,
@@ -58,6 +69,10 @@ const projectGalleries = [
   {
     eyebrow: "Projekt",
     title: "Ombygning af\neksisterende 70er-villa, Hasseris i Aalborg.",
+    location: "Hasseris, Aalborg",
+    size: "Facaderenovering · ny planløsning",
+    year: "2022",
+    description: "Renovering og ombygning af en klassisk 1970'er-villa i Hasseris i Aalborg. Facaden er opdateret til et rent, moderne look, og planløsningen er optimeret til familiens behov.",
     images: [
       { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-vejside.webp", alt: "Vejside efter ombygning af 70er-villa i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
       { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-haveside.webp", alt: "Haveside efter ombygning af 70er-villa i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
@@ -68,6 +83,10 @@ const projectGalleries = [
   {
     eyebrow: "Projekt",
     title: "Lille, gammelt parcelhus\nombygget til moderne bolig, Brønderslev nær Aalborg.",
+    location: "Brønderslev, Nordjylland",
+    size: "Komplet ombygning · energirenovering",
+    year: "2023",
+    description: "Ombygning og totalrenovering af et ældre, traditionelt parcelhus i Brønderslev. Boligen er transformeret til et energivenligt, lyst og moderne hjem med en stærk visuel profil.",
     images: [
       { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-vejside.webp", alt: "Vejside efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
       { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-indkørsel.webp", alt: "Indkørsel efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
@@ -80,7 +99,6 @@ const projectGalleries = [
     beforeImages: [
       { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-foer-vejside.webp", alt: "Vejside før ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
     ],
-    dark: false,
   },
 ];
 
@@ -190,6 +208,14 @@ export default function TilbygningerPage() {
                 <h2 className="sec-hed" style={{ marginBottom: 0, whiteSpace: "pre-line" }}>
                   {gallery.title}
                 </h2>
+                {"location" in gallery && gallery.location && (
+                  <p className="proj-meta">
+                    {gallery.location}{gallery.size ? ` · ${gallery.size}` : ""}{gallery.year ? ` · ${gallery.year}` : ""}
+                  </p>
+                )}
+                {"description" in gallery && gallery.description && (
+                  <p className="proj-desc">{gallery.description}</p>
+                )}
               </div>
             </div>
             {"afterLabel" in gallery && <p className="proj-grid-label">{gallery.afterLabel}</p>}

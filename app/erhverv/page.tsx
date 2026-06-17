@@ -18,6 +18,10 @@ const projectGalleries = [
   {
     eyebrow: "Projekt",
     title: "Kontormiljø\nfor IT-virksomhed, Aalborg.",
+    location: "Aalborg, Nordjylland",
+    size: "320 m² kontor og faciliteter",
+    year: "2022",
+    description: "Indretning og design af et moderne, åbent kontormiljø for en IT-virksomhed i Aalborg. Der er lagt vægt på optimal udnyttelse af dagslyset, godt arbejdsmiljø og fremragende akustik ved brug af stilrene trælameller på vægge og lofter. Mødelokaler og kontorer er opdelt med rå glasvægspartier med sorte rammer, hvilket skaber en transparent og indbydende atmosfære, der styrker det visuelle fællesskab.",
     images: [
       { src: "/images/Assensvej Kontormiljø/Aalborg-Assensvej-kontormiljø.webp", alt: "Kontormiljø for IT-virksomhed, Aalborg — Arkitekttegnestuen Yderskov" },
       { src: "/images/Assensvej Kontormiljø/Aalborg-Assensvej-kontormiljø-kontor.webp", alt: "Kontor i kontormiljø, Aalborg — Arkitekttegnestuen Yderskov" },
@@ -28,6 +32,10 @@ const projectGalleries = [
   {
     eyebrow: "Projekt",
     title: "Fabrik ombygget\ntil lejligheder i bycentrum, Aarhus.",
+    location: "Aarhus Centrum",
+    size: "1.200 m² (12 lejligheder)",
+    year: "2021",
+    description: "Gennemgribende transformation af en historisk fabriksbygning i Aarhus bycentrum til moderne, karakterfulde loftslejligheder. Projektet bevarer bygningens rå sjæl med synlige teglstensvægge, stålspær og store, industrielle sprossevinduer. Lejlighederne er indrettet med moderne køkkener, lyse opholdsrum og private altaner, som komplementerer den rå, industrielle æstetik.",
     images: [
       { src: "/images/Fabrik Aarhus/Aarhus-fabrik-ombygget-køkken-og-altan.webp", alt: "Køkken og altan i ombygget fabrik, Aarhus — Arkitekttegnestuen Yderskov" },
     ],
@@ -42,6 +50,10 @@ const projectGalleries = [
   {
     eyebrow: "Projekt",
     title: "Udlejningsboliger,\nHals.",
+    location: "Hals, Nordjylland",
+    size: "6 boliger á 85-95 m²",
+    year: "2023",
+    description: "Nye, moderne udlejningsboliger opført i Hals som rækkehuse. Byggeriet er tegnet med fokus på vedligeholdelsesvenlige materialer af høj kvalitet — herunder en harmonisk kombination af lyse teglsten, mørk listebeklædning i træ og holdbare detaljer. Hver bolig har eget indgangsparti, private udearealer og en gennemtænkt planløsning, der henvender sig bredt til lejere.",
     images: [
       { src: "/images/Hals Rækkehuse/Hals-Aalborgvej20-udlejning-indgangsparti.webp", alt: "Indgangsparti, udlejningsboliger i Hals — Arkitekttegnestuen Yderskov" },
       { src: "/images/Hals Rækkehuse/Hals-Aalborgvej30-udlejning-.webp", alt: "Udlejningsbolig, Hals — Arkitekttegnestuen Yderskov" },
@@ -148,6 +160,14 @@ export default function ErhvervPage() {
                 <h2 className="sec-hed" style={{ marginBottom: 0, whiteSpace: "pre-line" }}>
                   {gallery.title}
                 </h2>
+                {"location" in gallery && gallery.location && (
+                  <p className="proj-meta">
+                    {gallery.location}{gallery.size ? ` · ${gallery.size}` : ""}{gallery.year ? ` · ${gallery.year}` : ""}
+                  </p>
+                )}
+                {"description" in gallery && gallery.description && (
+                  <p className="proj-desc">{gallery.description}</p>
+                )}
               </div>
             </div>
             {"afterLabel" in gallery && <p className="proj-grid-label">{gallery.afterLabel}</p>}
