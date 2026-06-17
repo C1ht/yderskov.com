@@ -1014,6 +1014,143 @@ footer { background: var(--dark); color: rgba(255,255,255,0.7); }
 @media (max-width: 900px) { .ftop { grid-template-columns: 1fr 1fr; gap: 2rem; } }
 @media (max-width: 600px) { .ftop { grid-template-columns: 1fr; } }
 
+/* ── CATALOG SECTION ── */
+.catalog-section {
+  padding: 5rem 2rem;
+  background: #fff;
+}
+.catalog-card {
+  background: #fdfdfc;
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  padding: 3.5rem 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 4.5rem;
+  align-items: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.01);
+}
+.catalog-visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.catalog-content {
+  display: flex;
+  flex-direction: column;
+}
+.catalog-content .sec-hed {
+  margin-bottom: 0.5rem;
+}
+.catalog-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.75rem;
+  margin-bottom: 1rem;
+}
+.catalog-extra {
+  font-size: 0.78rem;
+}
+.catalog-print-link {
+  color: var(--sub);
+  text-decoration: underline;
+  transition: color 0.15s;
+}
+.catalog-print-link:hover {
+  color: var(--text);
+}
+
+/* ── 3D BOOK MOCKUP ── */
+.catalog-mockup {
+  perspective: 1000px;
+  padding: 1rem;
+}
+.book {
+  position: relative;
+  width: 220px;
+  height: 311px; /* A4 aspect ratio */
+  background: #fff;
+  border-radius: 3px 9px 9px 3px;
+  box-shadow: 12px 12px 28px rgba(0,0,0,0.12), 4px 4px 10px rgba(0,0,0,0.08);
+  transform: rotateY(-9deg) rotateX(4deg) rotateZ(-1deg);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transform-style: preserve-3d;
+}
+.book:hover {
+  transform: rotateY(-3deg) rotateX(2deg) rotateZ(0deg) scale(1.03);
+  box-shadow: 18px 18px 36px rgba(0,0,0,0.16), 6px 6px 15px rgba(0,0,0,0.1);
+}
+.book-cover {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px 9px 9px 3px;
+}
+.book-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.92);
+}
+.book-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.1) 40%, rgba(0,0,0,0.45) 100%);
+  padding: 1.5rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  text-align: left;
+}
+.book-logo {
+  font-family: var(--sans);
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255,255,255,0.25);
+  padding-bottom: 0.4rem;
+}
+.book-title {
+  font-family: var(--sans);
+  font-size: 1.8rem;
+  font-weight: 200;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-bottom: 0.2rem;
+}
+.book-subtitle {
+  font-size: 0.58rem;
+  font-weight: 400;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+.book-spine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0,0,0,0.12) 0%, rgba(255,255,255,0.08) 50%, rgba(0,0,0,0.04) 100%);
+  border-radius: 3px 0 0 3px;
+  z-index: 10;
+}
+
+@media (max-width: 900px) {
+  .catalog-card {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding: 2.5rem 1.75rem;
+    border-radius: 20px;
+  }
+  .catalog-mockup {
+    transform: scale(0.95);
+  }
+}
 
 /* ── KATALOG BUTTONS ── */
 .btn-katalog-open {
