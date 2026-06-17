@@ -1102,12 +1102,11 @@ footer { background: var(--dark); color: rgba(255,255,255,0.7); }
   border-radius: 3px 9px 9px 3px;
   box-shadow: 12px 12px 28px rgba(0,0,0,0.12), 4px 4px 10px rgba(0,0,0,0.08);
   transform: rotateY(-9deg) rotateX(4deg) rotateZ(-1deg);
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transition: box-shadow 0.4s ease;
   transform-style: preserve-3d;
 }
 .book:hover {
-  transform: rotateY(-3deg) rotateX(2deg) rotateZ(0deg) scale(1.03);
-  box-shadow: 18px 18px 36px rgba(0,0,0,0.16), 6px 6px 15px rgba(0,0,0,0.1);
+  box-shadow: 16px 16px 36px rgba(0,0,0,0.15), 6px 6px 15px rgba(0,0,0,0.1);
 }
 .page-layer {
   position: absolute;
@@ -1116,32 +1115,21 @@ footer { background: var(--dark); color: rgba(255,255,255,0.7); }
   border: 1px solid var(--border);
   border-radius: 3px 9px 9px 3px;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.03);
-  transition: transform 0.4s ease, background 0.4s ease;
-  transform-origin: left center;
 }
 .page-layer-1 {
-  transform: translate3d(2px, 0, -2px) rotateY(-1deg);
+  transform: translate3d(3px, 0, -3px);
   background: #fff;
   z-index: 4;
 }
 .page-layer-2 {
-  transform: translate3d(4px, 0, -4px) rotateY(-2deg);
+  transform: translate3d(6px, 0, -6px);
   background: #faf9f6;
   z-index: 3;
 }
 .page-layer-3 {
-  transform: translate3d(6px, 0, -6px) rotateY(-3deg);
+  transform: translate3d(9px, 0, -9px);
   background: #f6f5f0;
   z-index: 2;
-}
-.book:hover .page-layer-1 {
-  transform: translate3d(5px, 0, -3px) rotateY(0deg);
-}
-.book:hover .page-layer-2 {
-  transform: translate3d(10px, 0, -6px) rotateY(1deg);
-}
-.book:hover .page-layer-3 {
-  transform: translate3d(15px, 0, -9px) rotateY(2deg);
 }
 .book-cover {
   width: 100%;
@@ -1150,6 +1138,7 @@ footer { background: var(--dark); color: rgba(255,255,255,0.7); }
   overflow: hidden;
   border-radius: 3px 9px 9px 3px;
   z-index: 5;
+  transform: translate3d(0, 0, 0); /* Force 3D context positioning in front of page layers */
 }
 .book-cover img {
   width: 100%;
