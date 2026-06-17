@@ -18,6 +18,59 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "hvordan-designer-man-et-godt-orangeri",
+    image: "/images/Billeder til blogindlæg/orangeri saksild arkitekttegnestuen yderskov.webp",
+    images: [
+      "/images/Billeder til blogindlæg/orangeri saksild arkitekttegnestuen yderskov.webp",
+      "/images/Billeder til blogindlæg/Orangeri fredensgade arkitekt yderskov.webp"
+    ],
+    metaTitle: "Hvordan designer man et godt orangeri? Få arkitektens råd — Yderskov",
+    title: "Hvordan designer man et godt orangeri? Arkitektens guide til glas og lys — Arkitekttegnestuen Yderskov",
+    description: "Drømmer du om et orangeri? Få arkitektens guide til placering, materialevalg, isolering, dagslys og plantevalg for det perfekte uderum.",
+    date: "17 / 06 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    lead: "Et orangeri er det ultimative bindeled mellem boligen og haven. Det er et rum af glas og lys, hvor grænsen mellem ude og inde viskes ud, og hvor du kan forlænge sommeren i begge ender. Men et godt orangeri handler om mere end blot glasvægge. Det handler om præcis styring af dagslys, ventilation, materialevalg og integration med husets øvrige arkitektur. Her deler vi vores råd til, hvordan du designer et velfungerende og smukt orangeri.",
+    sections: [
+      {
+        heading: "Hvorfor vælge et orangeri frem for en udestue?",
+        paragraphs: [
+          "Mange forveksler et orangeri med en udestue eller et drivhus, men der er væsentlige forskelle. Hvor et drivhus primært er til dyrkning og udestuen ofte er en simpel forlængelse af huset, er orangeriet historisk set opstået som et opvarmet beskyttelsesrum til sarte planter som citrustræer og oliventræer i de kolde måneder.",
+          "I moderne boligarkitektur er orangeriet et arkitektonisk og socialt leverum. Det udføres typisk i højere kvalitet end en klassisk udestue med gedigne materialer som murede sokler, solide glaspartier, god isolering og et behageligt indeklima, der gør det muligt at bruge rummet som opholdsstue det meste af året."
+        ]
+      },
+      {
+        heading: "Placering og orientering mod verdenshjørnerne",
+        paragraphs: [
+          "Placeringen af orangeriet er afgørende for, hvordan du kan bruge det. Hvis det orienteres mod stik syd, vil det blive ekstremt varmt i sommermånederne og kræve markant solafskærmning og udluftning. Modsat vil en ren nordvendt placering gøre det svært at få tilstrækkeligt lys og varme til planterne.",
+          "Den ideelle placering er mod sydøst eller sydvest. Det sikrer et behageligt lysindfald og en god opvarmning i løbet af dagen, uden at rummet forvandles til en drivhuseffekt om eftermiddagen. Overvej også, hvordan orangeriet placeres i forhold til vind og læ — et orangeri integreret i en vinkel på huset er ofte godt beskyttet."
+        ]
+      },
+      {
+        heading: "Materialer, isolering og opvarmning",
+        paragraphs: [
+          "Et godt orangeri skal bygges af robuste materialer, der kan tåle det omskiftelige danske klima. En muret base (sokkel) af mursten eller pudset beton giver tyngde og binder orangeriet sammen med boligen. Samtidig fungerer murværket som en termisk masse, der optager solens varme om dagen og afgiver den langsomt i de kølige aftentimer.",
+          "Hvis orangeriet skal bruges i de kolde måneder, anbefaler vi energiglas og en let opvarmningskilde — f.eks. gulvvarme under smukke teglklinker eller en indbygget gaspejs. Gulvvarmen sikrer, at planternes rødder ikke fryser, og klinkerne er nemme at holde rene ved vanding."
+        ]
+      },
+      {
+        heading: "Ventilation og indeklima",
+        paragraphs: [
+          "Glas absorberer solens stråler lynhurtigt, og uden ordentlig ventilation kan temperaturen i et orangeri stige to over 40 grader på en solskinsdag. Det er skadeligt for både mennesker og planter. Derfor skal du planlægge naturlig udluftning tidligt i processen.",
+          "Automatiske vinduesåbnere i taget, der reagerer på temperaturen, er en uundværlig detalje. Derudover bør der være store dørpartier, f.eks. dobbelte glasdøre eller skydedøre, som kan åbnes helt op mod haven på varme dage for at skabe et flydende uderum."
+        ]
+      },
+      {
+        heading: "Cases: Orangeri Saksild og Orangeri Fredensgade",
+        paragraphs: [
+          "Billederne i dette indlæg viser to vidt forskellige orangeriløsninger fra vores tegnestue. I sommerhuset i Saksild er orangeriet designet som et integreret, let glashus i direkte forbindelse med det sorte træhus. Det fungerer som en lysfyldt oase midt i den vilde have.",
+          "I projektet på Fredensgade er orangeriet udført med en markant muret base, rå murstensvægge indendørs og store sprossede glaspartier, der skaber et klassisk, herskabeligt udtryk. Begge projekter viser, hvordan et orangeri kan tilpasses boligens overordnede arkitektur og skabe et helt unikt opholdsrum."
+        ],
+        type: "case"
+      }
+    ]
+  },
+  {
     slug: "guide-til-byggetilladelse-byggeansoegning",
     image: "/images/Billeder til blogindlæg/byggeansøgning arkitekttegnestuen yderskov.webp",
     metaTitle: "Guide til byggetilladelse og byggeansøgning — Yderskov",
