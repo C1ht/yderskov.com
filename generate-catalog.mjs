@@ -304,6 +304,12 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   console.log(`Generating catalog for ${name} (printFriendly=${printFriendly})...`);
   const coverImg = await imgB64(coverImgSrc, 1200);
 
+  const separatorImages = {
+    villaer: await imgB64('/images/Karetmagervej/Sæby-ny-villa-funkis-haveside.webp', 1200),
+    tilbygninger: await imgB64('/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp', 1200),
+    sommerhuse: await imgB64('/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-terrasse.webp', 1200)
+  };
+
   // Pre-process project images
   for (const p of catalogProjects) {
     p.img0 = await imgB64(p.images[0], 1000);
@@ -647,23 +653,27 @@ ${processedProjects.map((p, idx) => {
   if (needsSeparator) {
     const sectionTitle = p.section === 'villaer' ? 'Villaer' : (p.section === 'tilbygninger' ? 'Om- og tilbygning' : 'Sommerhuse');
     htmlBlock += `
-<div class="page separator-page" style="background:${printFriendly ? '#fff' : '#161616'}; display:flex; flex-direction:column; align-items:center; justify-content:space-between; padding:24mm 20mm; ${printFriendly ? 'border: 1px solid #ececec;' : ''}">
-  <!-- Top brand line (identical to main cover) -->
-  <div class="cover-top-brand">
-    <div class="cover-brand-name">YDERSKOV</div>
-    <div class="cover-brand-line"></div>
-  </div>
-  
-  <!-- Middle Logo and Company Name -->
-  <div style="display:flex; flex-direction:column; align-items:center; gap:5mm; margin-top: -10mm;">
-    <img src="${iconData}" style="width:32mm; height:32mm; filter:${printFriendly ? 'none' : 'invert(1) brightness(2)'};" />
-    <div style="font-size:10.5pt; font-weight:300; letter-spacing:0.18em; text-transform:uppercase; color:${printFriendly ? '#555' : 'rgba(255,255,255,0.6)'}; margin-top:2mm; font-family:'Helvetica Neue', Arial, sans-serif;">Arkitekttegnestuen Yderskov</div>
-  </div>
-  
-  <!-- Bottom Section Title (identical styling to main cover) -->
-  <div class="cover-bottom-title" style="width:100%;">
-    <div class="cover-main-title">${sectionTitle}</div>
-    <div class="cover-label-tag">PROJEKTKATALOG</div>
+<div class="page cover" style="background:${printFriendly ? '#fff' : '#161616'}; ${printFriendly ? 'border: 1px solid #ececec;' : ''}">
+  <div class="cover-hero"><img src="${separatorImages[p.section]}" /></div>
+  <div class="cover-overlay-gradient"></div>
+  <div class="cover-content-layout">
+    <!-- Top brand line (identical to main cover) -->
+    <div class="cover-top-brand">
+      <div class="cover-brand-name">YDERSKOV</div>
+      <div class="cover-brand-line"></div>
+    </div>
+    
+    <!-- Middle Logo and Company Name -->
+    <div style="display:flex; flex-direction:column; align-items:center; gap:5mm;">
+      <img src="${iconData}" style="width:32mm; height:32mm; filter:${printFriendly ? 'none' : 'invert(1) brightness(2)'};" />
+      <div style="font-size:10.5pt; font-weight:300; letter-spacing:0.18em; text-transform:uppercase; color:${printFriendly ? '#555' : 'rgba(255,255,255,0.75)'}; margin-top:2mm; font-family:'Helvetica Neue', Arial, sans-serif;">Arkitekttegnestuen Yderskov</div>
+    </div>
+    
+    <!-- Bottom Section Title (identical styling to main cover) -->
+    <div class="cover-bottom-title">
+      <div class="cover-main-title">${sectionTitle}</div>
+      <div class="cover-label-tag">PROJEKTKATALOG</div>
+    </div>
   </div>
 </div>
 `;
