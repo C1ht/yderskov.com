@@ -18,6 +18,55 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "hvordan-designer-man-et-godt-koekkenrum",
+    image: "/images/Lerstien/Frederikshavn-lerstien-køkken.webp",
+    metaTitle: "Hvordan designer man et godt køkkenrum? Få arkitektens 5 råd — Yderskov",
+    title: "Hvordan designer man et godt køkkenrum? Få arkitektens råd — Arkitekttegnestuen Yderskov",
+    description: "Drømmer du om det perfekte køkken? Læs arkitektens råd om arbejdszoner, lysindfald, materialevalg og akustik i det moderne køkken-alrum.",
+    date: "17 / 06 / 2026",
+    cat: "Villa & boligdesign",
+    catKey: "villa",
+    lead: "Køkkenet er ikke længere blot et praktisk arbejdsrum, men husets absolutte hjerte. I det moderne køkken-alrum laver vi mad, læser lektier, arbejder og samles med gæster. Men hvordan designer man et køkkenrum, der både er funktionelt i en travl hverdag og æstetisk indbydende? Her deler vi vores erfaringer og giver dig arkitektens bedste råd til planlægning, arbejdszoner, lys og materialevalg.",
+    sections: [
+      {
+        heading: "1. Planlæg ud fra køkkenets arbejdstrekant og zoner",
+        paragraphs: [
+          "I arkitekturen taler vi ofte om 'arbejdstrekanten' — den usynlige linje mellem køkkenets tre vigtigste funktioner: kogepladen, vasken og køleskabet. For at skabe et velfungerende køkken skal afstanden mellem disse tre punkter hverken være for lang eller for kort, og der skal være fri passage.",
+          "I det moderne køkken-alrum udvider vi ofte denne tankegang til 'arbejdszoner'. Tænk køkkenet ind i zoner for opbevaring (køleskab og tørvarer), tilberedning (bordplads med let adgang til redskaber og affaldssortering), madlavning (ovn og kogeplade) og oprydning (vask og opvaskemaskine). Ved at gruppere funktionerne glider hverdagens madlavning og oprydning meget lettere."
+        ]
+      },
+      {
+        heading: "2. Lysindfald og kontakt til omgivelserne",
+        paragraphs: [
+          "Et godt køkkenrum skal have masser af naturligt lys, men det skal placeres rigtigt. Ideelt set bør køkken-alrummet orienteres mod øst eller sydøst, så du får det smukke morgenlys ind, når familien vågner. Store vinduespartier, der strækker sig fra gulv til loft, skaber en flydende overgang til haven og terrassen.",
+          "Det handler også om udsyn. Når du står ved køkkenøen eller vasken, skal du helst have kig ud mod haven eller mod resten af alrummet, så du kan tale med gæster eller holde øje med børnene. Placer højskabe og tunge elementer mod indervæggene, så de ikke skygger for lyset eller blokerer for udsigten."
+        ]
+      },
+      {
+        heading: "3. Køkkenøen som det sociale samlingspunkt",
+        paragraphs: [
+          "Køkkenøen er blevet et centralt element i moderne boligdesign. Den fungerer som en uformel siddeplads, lektiestation og buffét ved selskaber. Men en køkkenø kræver plads. Som tommelfingerregel skal der være mindst 110–120 cm friplads hele vejen rundt om øen, så to personer nemt kan passere hinanden, og skuffer samt låger kan åbnes helt.",
+          "Overvej nøje, hvad din køkkenø skal rumme. Hvis du placerer kogepladen eller vasken på øen, skal du tænke over emhætteløsningen (f.eks. en kogeplade med integreret emhætte for at undgå en hængende emhætte i øjenhøjde) og rørføringen i gulvet. En helt ren køkkenø dedikeret to forberedelse og socialt samvær er ofte den mest fleksible løsning."
+        ]
+      },
+      {
+        heading: "4. Akustik og lofthøjde",
+        paragraphs: [
+          "Når køkkenet integreres med spiseafdelingen og stuen i ét stort alrum, og der anvendes hårde materialer som gips, beton og glas, kan akustikken hurtigt blive en udfordring. Klirren fra tallerkener og snak kan skabe en ubehagelig rumklang.",
+          "Her er loftsdesignet afgørende. I vores projekter arbejder vi ofte med akustiklofter — f.eks. Troldtekt eller trælamellofter — der absorberer lyden effektivt. En god loftshøjde, eventuelt med ensidig taghældning eller loft til kip, giver en fantastisk rumfornemmelse, men det kræver den rette akustiske dæmpning for at rummet føles rart at opholde sig i."
+        ]
+      },
+      {
+        heading: "5. Case: Køkkenet i udsigtsvillaen i Frederikshavn",
+        paragraphs: [
+          "Billedet øverst i dette indlæg viser køkkenet fra vores projekt 'Udsigtsvilla i Frederikshavn' (Lerstien). Her er køkken-alrummet udformet med loft til kip, store ovenlysvinduer, der trækker dagslyset dybt ind i rummet, og store glaspartier mod terrassen.",
+          "Køkkenet er designet med en central køkkenø i mørke, varme toner, der komplementerer de rå, grålige murstensvægge og det lyse trægulv. Akustikloftet sikrer en behagelig lyd, selv når hele familien er samlet, og placeringen af højskabene mod bagvæggen lader lyset flyde frit igennem det store leverum."
+        ],
+        type: "case"
+      }
+    ]
+  },
+  {
     slug: "gaspejs-sommerhus-bolig",
     image: "/images/Billeder til blogindlæg/Gaspejs sommerhus arkitekt yderskov.webp",
     images: [
