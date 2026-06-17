@@ -22,7 +22,7 @@ const sections = [
       { q: "Hvad er inkluderet i prisen?", a: "Vi tilbyder fast pris på alle ydelser — fra skitseforslag og myndighedsprojekt til byggestyring og færdigmelding. Alt specificeres i tilbuddet." },
       { q: "Hvornår betaler jeg?", a: "Vi fakturerer løbende efter aftalte milepæle. Ingen stor engangsudgift fra starten." },
       { q: "Kan I give et samlet tilbud på arkitekt og byggeri?", a: "Ja — vi giver gerne et samlet tilbud der dækker både arkitekthonorar og håndværkerudgifter med egne håndværkere." },
-      { q: "Tilbyder I totalentreprise?", a: "Nej, vi tilbyder ikke totalentreprise. Vi tilbyder i stedet en samlet, gennemskuelig proces til en fast pris i samarbejde med vores egne faste tømrer- og murerhold, hvor vi styrer forløbet fra start til slut." },
+      { q: "Hvilken entrepriseform arbejder I med?", a: "Vi arbejder med fagentreprise — vi styrer og koordinerer de enkelte håndværkerfag og sikrer kvalitet og økonomi hele vejen. Du får et nøglefærdigt resultat." },
       { q: "Arbejder I med faste priser?", a: "Ja. Vi tilbyder fast pris på arkitekthonoraret, så du altid kender dine udgifter. Ingen ubehagelige overraskelser undervejs." },
       { q: "Hvad er forskellen på skitse og myndighedsprojekt?", a: "En skitse viser designet og mulighederne. Et myndighedsprojekt er de tekniske tegninger der bruges til at søge byggetilladelse." },
       { q: "Tager I projekter uden for Nordjylland?", a: "Ja — vi arbejder primært i Nordjylland, men tager gerne projekter i hele Danmark." },
@@ -88,7 +88,7 @@ export default function FAQPage() {
       />
       <Nav />
       <Hero
-        slides={[{ src: "/images/Løvevej/Ålbæk-poolhus-terrasse.webp", alt: "Arkitekttegnet bolig — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Løvevej/Ålbæk-poolhus-terrasse.webp", alt: "Arkitekttegnet bolig — Arkitekttegnestuen Yderskov" }]}
         tag="FAQ"
         subtitle="FAQ"
         lines={[

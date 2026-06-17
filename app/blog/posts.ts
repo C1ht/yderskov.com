@@ -100,10 +100,10 @@ export const posts: BlogPost[] = [
         ]
       },
       {
-        heading: "Tryghed uden totalentreprise",
+        heading: "Tryghed med fagentreprise",
         paragraphs: [
-          "Hos Yderskov Arkitekter laver vi aldrig totalentreprise. Det betyder, at vi ikke har rollen som den juridiske totalentreprenør, hvilket giver os fuld frihed to udelukkende at varetage dine interesser som bygherre. Til gengæld tilbyder vi en samlet, gennemskuelig proces til en fast pris.",
-          "Vi styrer projekteringen fra de første skitser til byggetilladelsen, og indhenter faste priser fra vores netværk af dygtige, lokale tømrer- og murerhold i Nordjylland. Det giver jer samme tryghed og økonomiske overskuelighed som ved en totalentreprise, men med en langt tættere og direkte dialog med arkitekten gennem hele forløbet."
+          "Hos Yderskov Arkitekter arbejder vi med fagentreprise. Det betyder, at vi styrer og koordinerer de enkelte håndværkerfag og sikrer kvalitet og økonomi hele vejen. Som bygherrerådgiver har vi fuld frihed til udelukkende at varetage dine interesser som bygherre, og vi tilbyder en samlet, gennemskuelig proces til en fast pris.",
+          "Vi styrer projekteringen fra de første skitser til byggetilladelsen, og indhenter faste priser fra vores netweark af dygtige, lokale tømrer- og murerhold i Nordjylland. Du får et nøglefærdigt resultat med samme tryghed og økonomiske overskuelighed som ved en totalentreprise, men med en langt tættere og direkte dialog med arkitekten gennem hele forløbet."
         ]
       },
       {
@@ -145,7 +145,7 @@ export const posts: BlogPost[] = [
       {
         heading: "Værdien af en fast pris og en samlet proces",
         paragraphs: [
-          "Tegnestuen i Aalborg og Brønderslev har stor erfaring med at sikre tryghed under hele byggeriet. Selvom vi aldrig tilbyder totalentreprise, adskiller Yderskov sig ved at tilbyde en samlet proces med en fast, gennemskuelig pris. Det betyder, at vi fastlægger prisen på arkitekthonoraret og rådgivningen på forhånd, og hjælper dig med at indhente bindende priser i tæt samarbejde med vores faste, lokale tømrer- og murerhold.",
+          "Tegnestuen i Aalborg og Brønderslev har stor erfaring med at sikre tryghed under hele byggeriet. Vi arbejder med fagentreprise, hvor vi styrer og koordinerer de enkelte håndværkerfag og sikrer kvalitet og økonomi hele vejen. Yderskov adskiller sig ved at tilbyde en samlet proces med en fast, gennemskuelig pris. Det betyder, at vi fastlægger prisen på arkitekthonoraret og rådgivningen på forhånd, og hjælper dig med at indhente bindende priser i tæt samarbejde med vores faste, lokale tømrer- og murerhold.",
           "Dette eliminerer de klassiske misforståelser mellem tegnebordet og byggepladsen, og sikrer dig et økonomisk overblik fra første dag. Vi tegner og bygger efter jeres budget, så jeres drømme hænger sammen med virkeligheden."
         ]
       },

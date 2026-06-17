@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
 import CtaBand from "@/components/CtaBand";
+import ImageGrid from "@/components/ImageGrid";
 
 export const metadata: Metadata = {
   title: "Arkitekt Sjælland & København — Tegnestue | Yderskov",
@@ -29,6 +30,59 @@ const sjaellandFAQ = [
   {
     q: "Hvilke typer projekter laver I på Sjælland?",
     a: "Vi tegner og opfører alt fra nye, eksklusive villaer og fritidshuse til gennemtænkte ombygninger og tilbygninger på eksisterende boliger.",
+  },
+];
+
+const projectGalleries = [
+  {
+    eyebrow: "Projekt",
+    title: "Engelsk villa\ni colonial-stil, Aalborg.",
+    location: "Aalborg, Nordjylland",
+    size: "430 m² herskabelig bolig",
+    year: "2023",
+    description: "Klassisk engelsk villa i colonial-stil opført i Aalborg til en dansk familie hjemkommet efter flere år i USA. Villaen er tegnet med fokus på herskabelig rummelighed og luksuriøse faciliteter — herunder en storslået hall, flere badeværelser, biograf, bibliotek, et stort køkken samt stuer en-suite.",
+    images: [
+      { src: "/images/Ikarosvej/Aalborg-Ikarosvej-ny-villa-indkørsel.webp", alt: "Engelsk villa i colonial-stil, indkørsel, Aalborg — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Ikarosvej/Ikarosvej facade.webp", alt: "Engelsk villa i colonial-stil, facade, Aalborg — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Ikarosvej/Ikarosvej forhave med vin.webp", alt: "Forhave ved engelsk villa i colonial-stil, Aalborg — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Ikarosvej/ikarosvej facade mod have.webp", alt: "Haveside på engelsk villa i colonial-stil, Aalborg — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Ikarosvej/ikarosvej hall.webp", alt: "Hall i engelsk villa i colonial-stil, Aalborg — Arkitekttegnestuen Yderskov" },
+    ],
+    dark: true,
+  },
+  {
+    eyebrow: "Projekt",
+    title: "Engelsk villa\nved fjorden, Aalborg.",
+    location: "Nørholm nær Aalborg, Nordjylland",
+    size: "350 m² landejendom",
+    year: "2024",
+    description: "Herskabelig engelsk villa opført på en stor hesteejendom nær Aalborg med en enestående udsigt over Limfjorden. Villaen er tegnet til en familie på tre og byder på eksklusive rammer med en rummelig hall, et stort køkken, stuer en-suite og flere badeværelser, der tilsammen forener det klassiske herregårdsudtryk med moderne landliv.",
+    images: [
+      { src: "/images/Nørholmsvej/Engelsk villa facade Nørholmsvej.webp", alt: "Engelsk villa på hesteejendom, facade, Nørholm — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Nørholmsvej/Engelsk villa fra havesiden.webp", alt: "Haveside på engelsk villa ved fjorden, Nørholm — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Nørholmsvej/Engelsk villa fra gavl.webp", alt: "Gavl på engelsk villa ved fjorden, Nørholm — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Nørholmsvej/Engelsk villa på stor plæne.webp", alt: "Engelsk villa ved fjorden på stor plæne, Nørholm — Arkitekttegnestuen Yderskov" },
+    ],
+    dark: false,
+  },
+  {
+    eyebrow: "Projekt",
+    title: "Udsigtsvilla med\nnaturlige materialer, Frederikshavn.",
+    location: "Frederikshavn, Nordjylland",
+    size: "208 m² bolig · 63 m² garage · 37 m² overdækning",
+    year: "2021",
+    description: "Udsigtsvilla med vandudsigt, tegnet til en skrånende naturgrund med skrappe myndighedskrav om indpasning i den beplantede skrænt. Familien ønskede et hus der svævede udover bakken — en oase med nye og naturlige materialer. Garageanlæg er placeret under huset, da grunden har markant fald.",
+    images: [
+      { src: "/images/Lerstien/Frederikshavn-lerstien-vejside.webp", alt: "Vejside på udsigtsvilla i Frederikshavn — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp", alt: "Udsigtsvilla med terrasse og byudsigt, Frederikshavn — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Lerstien/Frederikshavn-lerstien-terrasse.webp", alt: "Terrasse på udsigtsvilla i Frederikshavn — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Lerstien/Frederikshavn-lerstien-overdækket-terrasse.webp", alt: "Overdækket terrasse på udsigtsvilla i Frederikshavn — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Lerstien/Frederikshavn-lerstien-køkken.webp", alt: "Køkken og opholdsrum, udsigtsvilla i Frederikshavn — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Lerstien/Frederikshavn-lerstien-skorsten.webp", alt: "Skorsten og facade, udsigtsvilla i Frederikshavn — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Lerstien/Frederikshavn-lerstien-søjle.webp", alt: "Strukturelle detaljer og søjle, udsigtsvilla i Frederikshavn — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Lerstien/Frederikshavn-lerstien-terrasse-2.webp", alt: "Terrasse og facade, udsigtsvilla i Frederikshavn — Arkitekttegnestuen Yderskov" },
+    ],
+    dark: true,
   },
 ];
 
@@ -85,45 +139,30 @@ export default function ArkitektSjaellandPage() {
         </div>
       </section>
 
-      {/* Local Projects */}
-      <section className="s s-off">
-        <div className="s-inner">
-          <span className="eyebrow">Portefølje</span>
-          <div className="proj-header">
-            <div>
-              <h2 className="sec-hed">Udvalgte projekter</h2>
-              <p className="proj-desc">Vi tegner huse, der udnytter grundens potentiale og passer til bygherrens livsstil.</p>
+      {/* Project galleries */}
+      {projectGalleries.map((gallery, i) => (
+        <section key={i} className={`s${gallery.dark ? " s-off" : ""}`}>
+          <div className="s-inner">
+            <div className="proj-header">
+              <div>
+                <span className="eyebrow">{gallery.eyebrow}</span>
+                <h2 className="sec-hed" style={{ marginBottom: 0, whiteSpace: "pre-line" }}>
+                  {gallery.title}
+                </h2>
+                {"location" in gallery && (
+                  <p className="proj-meta">
+                    {gallery.location}{gallery.size ? ` · ${gallery.size}` : ""}{gallery.year ? ` · ${gallery.year}` : ""}
+                  </p>
+                )}
+                {"description" in gallery && (
+                  <p className="proj-desc">{gallery.description}</p>
+                )}
+              </div>
             </div>
-            <Link href="/villaer" className="proj-see">Se alle villaer →</Link>
+            <ImageGrid images={gallery.images} />
           </div>
-          <div className="proj-grid">
-            <Link href="/villaer" className="proj-card" id="proj-vestbjerg">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/images/Højgården/Vestsbjerg-ny-funkisvilla-haveside.webp" alt="Ny funkisvilla nær Aalborg" />
-              <div className="proj-foot">
-                <span className="proj-title">Funkisvilla, Vestbjerg</span>
-                <span className="proj-arr">→</span>
-              </div>
-            </Link>
-            <Link href="/tilbygninger" className="proj-card" id="proj-broenderslev">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/images/Godthåbsvej/Brønderslev-ombygning-efter-2.webp" alt="Ombygning af villa i Brønderslev" />
-              <div className="proj-foot">
-                <span className="proj-title">Ombygning, Brønderslev</span>
-                <span className="proj-arr">→</span>
-              </div>
-            </Link>
-            <Link href="/sommerhuse" className="proj-card" id="proj-loekken">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-terrasse.webp" alt="Arkitekttegnet sommerhus i Løkken" />
-              <div className="proj-foot">
-                <span className="proj-title">Sommerhus, Løkken</span>
-                <span className="proj-arr">→</span>
-              </div>
-            </Link>
-          </div>
-        </div>
-      </section>
+        </section>
+      ))}
 
       {/* FAQ */}
       <section className="s">

@@ -37,7 +37,7 @@ export default function ArkitektAalborgPage() {
     <>
       <Nav />
       <Hero
-        slides={[{ src: "/images/Karetmagervej/Sæby-ny-villa-funkis-haveside.webp", alt: "Arkitekttegnet villa i Nordjylland — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Karetmagervej/Sæby-ny-villa-funkis-haveside.webp", alt: "Arkitekttegnet villa i Nordjylland — Arkitekttegnestuen Yderskov" }]}
         tag="Arkitekt Aalborg"
         subtitle="Arkitekt Aalborg"
         lines={[

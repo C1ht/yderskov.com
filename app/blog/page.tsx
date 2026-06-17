@@ -502,7 +502,7 @@ export default function BlogPage() {
     <>
       <Nav />
       <Hero
-        slides={[{ src: "/images/Ikarosvej/Aalborg-Ikarosvej-ny-villa-indkørsel.webp", alt: "Ny villa i Aalborg — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Ikarosvej/Aalborg-Ikarosvej-ny-villa-indkørsel.webp", alt: "Ny villa i Aalborg — Arkitekttegnestuen Yderskov" }]}
         showTabs={false}
         tag="Blog"
         subtitle="Blog"

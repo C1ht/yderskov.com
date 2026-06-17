@@ -50,7 +50,7 @@ export default function SpecialPage() {
       />
       <Nav />
       <Hero
-        slides={[{ src: "/images/Bed and breakfast/Aalborg-bed-and-breakfast.webp", alt: "Bed and breakfast, Aalborg — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Bed and breakfast/Aalborg-bed-and-breakfast.webp", alt: "Bed and breakfast, Aalborg — Arkitekttegnestuen Yderskov" }]}
         tag="Special"
         subtitle="Special"
         lines={[
@@ -91,9 +91,9 @@ export default function SpecialPage() {
             </div>
           </div>
           <ImageGrid images={[
-            { src: "/images/Bed and breakfast/Aalborg-bed-and-breakfast.webp", alt: "Bed and breakfast, Aalborg — Yderskov Arkitekter" },
-            { src: "/images/Bed and breakfast/Aalborg-bed-and-breakfast-køkken.webp", alt: "Køkken i bed and breakfast, Aalborg — Yderskov Arkitekter" },
-            { src: "/images/Bed and breakfast/Aalborg-bed-and-breakfast-spiseområde.webp", alt: "Spiseområde i bed and breakfast, Aalborg — Yderskov Arkitekter" },
+            { src: "/images/Bed and breakfast/Aalborg-bed-and-breakfast.webp", alt: "Bed and breakfast, Aalborg — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Bed and breakfast/Aalborg-bed-and-breakfast-køkken.webp", alt: "Køkken i bed and breakfast, Aalborg — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Bed and breakfast/Aalborg-bed-and-breakfast-spiseområde.webp", alt: "Spiseområde i bed and breakfast, Aalborg — Arkitekttegnestuen Yderskov" },
           ]} />
         </div>
       </section>

@@ -18,7 +18,7 @@ export default function KontaktPage() {
     <>
       <Nav />
       <Hero
-        slides={[{ src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp", alt: "Villa med tilbygning — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp", alt: "Villa med tilbygning — Arkitekttegnestuen Yderskov" }]}
         showTabs={false}
         tag="Kontakt"
         lines={[

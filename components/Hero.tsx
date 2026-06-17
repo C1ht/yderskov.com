@@ -16,12 +16,12 @@ interface HeroProps {
 }
 
 const defaultSlides: HeroSlide[] = [
-  { src: "/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp", alt: "Udsigtsvilla, Frederikshavn — Yderskov Arkitekter" },
-  { src: "/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp", alt: "Arkitekttegnet sommerhus, Hals — Yderskov Arkitekter" },
-  { src: "/images/Karetmagervej/Sæby-ny-villa-funkis-haveside.webp", alt: "Funkisvilla, Sæby — Yderskov Arkitekter" },
-  { src: "/images/Løvevej/Ålbæk-poolhus-terrasse.webp", alt: "Sommerhus med pool, Ålbæk — Yderskov Arkitekter" },
-  { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-2.webp", alt: "Moderniseret villa, Brønderslev — Yderskov Arkitekter" },
-  { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp", alt: "Villa med tilbygning, Hasseris i Aalborg — Yderskov Arkitekter" },
+  { src: "/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp", alt: "Udsigtsvilla, Frederikshavn — Arkitekttegnestuen Yderskov" },
+  { src: "/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp", alt: "Arkitekttegnet sommerhus, Hals — Arkitekttegnestuen Yderskov" },
+  { src: "/images/Karetmagervej/Sæby-ny-villa-funkis-haveside.webp", alt: "Funkisvilla, Sæby — Arkitekttegnestuen Yderskov" },
+  { src: "/images/Løvevej/Ålbæk-poolhus-terrasse.webp", alt: "Sommerhus med pool, Ålbæk — Arkitekttegnestuen Yderskov" },
+  { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-2.webp", alt: "Moderniseret villa, Brønderslev — Arkitekttegnestuen Yderskov" },
+  { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp", alt: "Villa med tilbygning, Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
 ];
 
 /**

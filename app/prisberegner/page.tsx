@@ -20,7 +20,7 @@ export default function PrisberegnPage() {
     <>
       <Nav />
       <Hero
-        slides={[{ src: "/images/Gjøl/Gjøl-ny-villa-have.webp", alt: "Ny villa i Gjøl — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Gjøl/Gjøl-ny-villa-have.webp", alt: "Ny villa i Gjøl — Arkitekttegnestuen Yderskov" }]}
         tag="Prisberegner"
         showForm={false}
         lines={[
@@ -52,7 +52,7 @@ export default function PrisberegnPage() {
             <div className="pb-intro-img">
               <Image
                 src="/images/Neptunvej/Aalborg-neptunvej-tilbygning-terrasse.webp"
-                alt="Tilbygning og renovering — Yderskov Arkitekter"
+                alt="Tilbygning og renovering — Arkitekttegnestuen Yderskov"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 style={{ objectFit: "cover" }}

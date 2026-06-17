@@ -19,9 +19,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Kontormiljø\nfor IT-virksomhed, Aalborg.",
     images: [
-      { src: "/images/Assensvej Kontormiljø/Aalborg-Assensvej-kontormiljø.webp", alt: "Kontormiljø for IT-virksomhed, Aalborg — Yderskov Arkitekter" },
-      { src: "/images/Assensvej Kontormiljø/Aalborg-Assensvej-kontormiljø-kontor.webp", alt: "Kontor i kontormiljø, Aalborg — Yderskov Arkitekter" },
-      { src: "/images/Assensvej Kontormiljø/Aalborg-Assensvej-kontormiljø-glasvæg.webp", alt: "Glasvæg i kontormiljø, Aalborg — Yderskov Arkitekter" },
+      { src: "/images/Assensvej Kontormiljø/Aalborg-Assensvej-kontormiljø.webp", alt: "Kontormiljø for IT-virksomhed, Aalborg — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Assensvej Kontormiljø/Aalborg-Assensvej-kontormiljø-kontor.webp", alt: "Kontor i kontormiljø, Aalborg — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Assensvej Kontormiljø/Aalborg-Assensvej-kontormiljø-glasvæg.webp", alt: "Glasvæg i kontormiljø, Aalborg — Arkitekttegnestuen Yderskov" },
     ],
     dark: false,
   },
@@ -29,13 +29,13 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Fabrik ombygget\ntil lejligheder i bycentrum, Aarhus.",
     images: [
-      { src: "/images/Fabrik Aarhus/Aarhus-fabrik-ombygget-køkken-og-altan.webp", alt: "Køkken og altan i ombygget fabrik, Aarhus — Yderskov Arkitekter" },
+      { src: "/images/Fabrik Aarhus/Aarhus-fabrik-ombygget-køkken-og-altan.webp", alt: "Køkken og altan i ombygget fabrik, Aarhus — Arkitekttegnestuen Yderskov" },
     ],
     afterLabel: "Efter renovering",
     beforeLabel: "Før renovering",
     beforeImages: [
-      { src: "/images/Fabrik Aarhus/Aarhus-fabrik-ombygget.webp", alt: "Ombygget fabrik i Aarhus centrum — Yderskov Arkitekter" },
-      { src: "/images/Fabrik Aarhus/Aarhus-fabrik-ombygget-lejligheder.webp", alt: "Fabrik ombygget til lejligheder i Aarhus — Yderskov Arkitekter" },
+      { src: "/images/Fabrik Aarhus/Aarhus-fabrik-ombygget.webp", alt: "Ombygget fabrik i Aarhus centrum — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Fabrik Aarhus/Aarhus-fabrik-ombygget-lejligheder.webp", alt: "Fabrik ombygget til lejligheder i Aarhus — Arkitekttegnestuen Yderskov" },
     ],
     dark: true,
   },
@@ -43,9 +43,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Udlejningsboliger,\nHals.",
     images: [
-      { src: "/images/Hals Rækkehuse/Hals-Aalborgvej20-udlejning-indgangsparti.webp", alt: "Indgangsparti, udlejningsboliger i Hals — Yderskov Arkitekter" },
-      { src: "/images/Hals Rækkehuse/Hals-Aalborgvej30-udlejning-.webp", alt: "Udlejningsbolig, Hals — Yderskov Arkitekter" },
-      { src: "/images/Hals Rækkehuse/Hals-Aalborgvej40-udlejning-.webp", alt: "Udlejningsbolig, Hals — Yderskov Arkitekter" },
+      { src: "/images/Hals Rækkehuse/Hals-Aalborgvej20-udlejning-indgangsparti.webp", alt: "Indgangsparti, udlejningsboliger i Hals — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Hals Rækkehuse/Hals-Aalborgvej30-udlejning-.webp", alt: "Udlejningsbolig, Hals — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Hals Rækkehuse/Hals-Aalborgvej40-udlejning-.webp", alt: "Udlejningsbolig, Hals — Arkitekttegnestuen Yderskov" },
     ],
     dark: false,
   },
@@ -107,7 +107,7 @@ export default function ErhvervPage() {
       />
       <Nav />
       <Hero
-        slides={[{ src: "/images/Hals Rækkehuse/Hals-Aalborgvej40-udlejning-.webp", alt: "Udlejningsboliger i Hals — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Hals Rækkehuse/Hals-Aalborgvej40-udlejning-.webp", alt: "Udlejningsboliger i Hals — Arkitekttegnestuen Yderskov" }]}
         tag="Erhverv"
         subtitle="Erhverv"
         lines={[

@@ -19,9 +19,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Sommerhus med\nstore vinduespartier, Hals.",
     images: [
-      { src: "/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp", alt: "Terrasse ved sommerhus i Hals — Yderskov Arkitekter" },
-      { src: "/images/Torndalsvej/Hals-Torndalsvej-køkken.webp", alt: "Køkken i sommerhus i Hals — Yderskov Arkitekter" },
-      { src: "/images/Torndalsvej/Hals-Torndalsvej-stue.webp", alt: "Stue i sommerhus i Hals — Yderskov Arkitekter" },
+      { src: "/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp", alt: "Terrasse ved sommerhus i Hals — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Torndalsvej/Hals-Torndalsvej-køkken.webp", alt: "Køkken i sommerhus i Hals — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Torndalsvej/Hals-Torndalsvej-stue.webp", alt: "Stue i sommerhus i Hals — Arkitekttegnestuen Yderskov" },
     ],
     dark: false,
   },
@@ -29,9 +29,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Sommerhus\ntil udsigtsgrund, Løkken.",
     images: [
-      { src: "/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-indgangsparti.webp", alt: "Indgangsparti ved sommerhus i Løkken — Yderskov Arkitekter" },
-      { src: "/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-terrasse.webp", alt: "Terrasse ved sommerhus i Løkken — Yderskov Arkitekter" },
-      { src: "/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-sidebygning.webp", alt: "Sidebygning ved sommerhus i Løkken — Yderskov Arkitekter" },
+      { src: "/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-indgangsparti.webp", alt: "Indgangsparti ved sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-terrasse.webp", alt: "Terrasse ved sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-sidebygning.webp", alt: "Sidebygning ved sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
     ],
     dark: true,
   },
@@ -39,16 +39,16 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Sommerhus\nmed pool, Ålbæk.",
     images: [
-      { src: "/images/Løvevej/Ålbæk-poolhus-terrasse.webp", alt: "Arkitekttegnet poolhus i Ålbæk — Yderskov Arkitekter" },
-      { src: "/images/Løvevej/Ålbæk-poolhus-pool.webp", alt: "Indendørs pool i arkitekttegnet sommerhus — Yderskov Arkitekter" },
-      { src: "/images/Løvevej/Ålbæk-poolhus-køkken.webp", alt: "Moderne køkken med ø i poolhus — Yderskov Arkitekter" },
-      { src: "/images/Løvevej/Løvevej køkken ophold.webp", alt: "Køkken og opholdsstue i poolhus — Yderskov Arkitekter" },
-      { src: "/images/Løvevej/LØVEVEJ-BAD.webp", alt: "Flot badeværelse i poolhus — Yderskov Arkitekter" },
-      { src: "/images/Løvevej/Løvevej hems.webp", alt: "Hyggelig hems i poolhus — Yderskov Arkitekter" },
-      { src: "/images/Løvevej/Ålbæk-poolhus-køkken-spise-plads-alkove.webp", alt: "Køkken, spiseplads og alkove i poolhus — Yderskov Arkitekter" },
-      { src: "/images/Løvevej/Ålbæk-poolhus-aktivitetsrum.webp", alt: "Aktivitetsrum med bordfodbold og billardbord — Yderskov Arkitekter" },
-      { src: "/images/Løvevej/Ålbæk-poolhus-badmiljø.webp", alt: "Badmiljø i arkitekttegnet poolhus — Yderskov Arkitekter" },
-      { src: "/images/Løvevej/Ålbæk-poolhus-toilet.webp", alt: "Badeværelse i arkitekttegnet poolhus — Yderskov Arkitekter" },
+      { src: "/images/Løvevej/Ålbæk-poolhus-terrasse.webp", alt: "Arkitekttegnet poolhus i Ålbæk — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Løvevej/Ålbæk-poolhus-pool.webp", alt: "Indendørs pool i arkitekttegnet sommerhus — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Løvevej/Ålbæk-poolhus-køkken.webp", alt: "Moderne køkken med ø i poolhus — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Løvevej/Løvevej køkken ophold.webp", alt: "Køkken og opholdsstue i poolhus — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Løvevej/LØVEVEJ-BAD.webp", alt: "Flot badeværelse i poolhus — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Løvevej/Løvevej hems.webp", alt: "Hyggelig hems i poolhus — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Løvevej/Ålbæk-poolhus-køkken-spise-plads-alkove.webp", alt: "Køkken, spiseplads og alkove i poolhus — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Løvevej/Ålbæk-poolhus-aktivitetsrum.webp", alt: "Aktivitetsrum med bordfodbold og billardbord — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Løvevej/Ålbæk-poolhus-badmiljø.webp", alt: "Badmiljø i arkitekttegnet poolhus — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Løvevej/Ålbæk-poolhus-toilet.webp", alt: "Badeværelse i arkitekttegnet poolhus — Arkitekttegnestuen Yderskov" },
     ],
     dark: false,
   },
@@ -56,14 +56,14 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Nyt\nsommerhus, Løkken.",
     images: [
-      { src: "/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-indkørsel.webp", alt: "Nyt sommerhus i Løkken — Yderskov Arkitekter" },
-      { src: "/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-terrasse.webp", alt: "Terrasse ved sommerhus i Løkken — Yderskov Arkitekter" },
-      { src: "/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej--udebruser.webp", alt: "Udebruser ved sommerhus i Løkken — Yderskov Arkitekter" },
-      { src: "/images/Harald jensensvej Løkken/Harald jensens vej køkkeborde.webp", alt: "Køkkenborde i nyt sommerhus, Løkken — Yderskov Arkitekter" },
-      { src: "/images/Harald jensensvej Løkken/Harald jensensvej køkken.webp", alt: "Køkken i nyt sommerhus, Løkken — Yderskov Arkitekter" },
-      { src: "/images/Harald jensensvej Løkken/Harald jensensvej stue og pejs.webp", alt: "Stue og pejs i nyt sommerhus, Løkken — Yderskov Arkitekter" },
-      { src: "/images/Harald jensensvej Løkken/Harald jensensvej terrasse.webp", alt: "Terrasse ved nyt sommerhus, Løkken — Yderskov Arkitekter" },
-      { src: "/images/Harald jensensvej Løkken/Harald jensensvej terrasse udebrus.webp", alt: "Udendørs bruser ved nyt sommerhus, Løkken — Yderskov Arkitekter" },
+      { src: "/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-indkørsel.webp", alt: "Nyt sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-terrasse.webp", alt: "Terrasse ved sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej--udebruser.webp", alt: "Udebruser ved sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Harald jensensvej Løkken/Harald jensens vej køkkeborde.webp", alt: "Køkkenborde i nyt sommerhus, Løkken — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Harald jensensvej Løkken/Harald jensensvej køkken.webp", alt: "Køkken i nyt sommerhus, Løkken — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Harald jensensvej Løkken/Harald jensensvej stue og pejs.webp", alt: "Stue og pejs i nyt sommerhus, Løkken — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Harald jensensvej Løkken/Harald jensensvej terrasse.webp", alt: "Terrasse ved nyt sommerhus, Løkken — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Harald jensensvej Løkken/Harald jensensvej terrasse udebrus.webp", alt: "Udendørs bruser ved nyt sommerhus, Løkken — Arkitekttegnestuen Yderskov" },
     ],
     dark: false,
   },
@@ -128,7 +128,7 @@ export default function SommerhusePage() {
       />
       <Nav />
       <Hero
-        slides={[{ src: "/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp", alt: "Arkitekttegnet sommerhus — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp", alt: "Arkitekttegnet sommerhus — Arkitekttegnestuen Yderskov" }]}
         tag="Sommerhuse"
         subtitle="Sommerhuse"
         lines={[

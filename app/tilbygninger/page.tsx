@@ -19,19 +19,19 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Ombygning og\nmodernisering af 50er-villa, Brønderslev nær Aalborg.",
     images: [
-      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-3.webp", alt: "Haveside med birketræ efter modernisering, Brønderslev — Yderskov Arkitekter" },
-      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-2.webp", alt: "Gårdside med skydedøre efter modernisering, Brønderslev — Yderskov Arkitekter" },
-      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-1.webp", alt: "Indgangsside efter modernisering, Brønderslev — Yderskov Arkitekter" },
-      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-4.webp", alt: "Facade efter modernisering, Brønderslev — Yderskov Arkitekter" },
-      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-køkken.webp", alt: "Nyt køkken efter modernisering, Brønderslev — Yderskov Arkitekter" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-3.webp", alt: "Haveside med birketræ efter modernisering, Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-2.webp", alt: "Gårdside med skydedøre efter modernisering, Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-1.webp", alt: "Indgangsside efter modernisering, Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-4.webp", alt: "Facade efter modernisering, Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-køkken.webp", alt: "Nyt køkken efter modernisering, Brønderslev — Arkitekttegnestuen Yderskov" },
     ],
     afterLabel: "Efter ombygning",
     beforeLabel: "Før ombygning",
     beforeImages: [
-      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-3.webp", alt: "Side med birketræ før modernisering, Brønderslev — Yderskov Arkitekter" },
-      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-2.webp", alt: "Haveside før modernisering, Brønderslev — Yderskov Arkitekter" },
-      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-1.webp", alt: "Indgangsside før modernisering, Brønderslev — Yderskov Arkitekter" },
-      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-4.webp", alt: "Facade før modernisering, Brønderslev — Yderskov Arkitekter" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-3.webp", alt: "Side med birketræ før modernisering, Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-2.webp", alt: "Haveside før modernisering, Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-1.webp", alt: "Indgangsside før modernisering, Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-4.webp", alt: "Facade før modernisering, Brønderslev — Arkitekttegnestuen Yderskov" },
     ],
     dark: true,
   },
@@ -39,9 +39,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Villa med\ntilbygning, Hasseris i Aalborg.",
     images: [
-      { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-terrasse.webp", alt: "Terrasse ved villa med tilbygning i Hasseris i Aalborg — Yderskov Arkitekter" },
-      { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp", alt: "Bagside af villa med tilbygning i Hasseris i Aalborg — Yderskov Arkitekter" },
-      { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-vindue.webp", alt: "Vinduesparti i villa med tilbygning i Hasseris i Aalborg — Yderskov Arkitekter" },
+      { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-terrasse.webp", alt: "Terrasse ved villa med tilbygning i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp", alt: "Bagside af villa med tilbygning i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-vindue.webp", alt: "Vinduesparti i villa med tilbygning i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
     ],
     dark: false,
   },
@@ -49,9 +49,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Tilbygning og\nrenovering, Aalborg.",
     images: [
-      { src: "/images/Neptunvej/Aalborg-neptunvej-tilbygning-terrasse.webp", alt: "Terrasse ved tilbygning i Aalborg — Yderskov Arkitekter" },
-      { src: "/images/Neptunvej/Aalborg-neptunvej-tilbygning-terrasse-og-plæne.webp", alt: "Terrasse og plæne ved tilbygning i Aalborg — Yderskov Arkitekter" },
-      { src: "/images/Neptunvej/Aalborg-neptunvej-tilbygning.haveside.webp", alt: "Haveside ved tilbygning i Aalborg — Yderskov Arkitekter" },
+      { src: "/images/Neptunvej/Aalborg-neptunvej-tilbygning-terrasse.webp", alt: "Terrasse ved tilbygning i Aalborg — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Neptunvej/Aalborg-neptunvej-tilbygning-terrasse-og-plæne.webp", alt: "Terrasse og plæne ved tilbygning i Aalborg — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Neptunvej/Aalborg-neptunvej-tilbygning.haveside.webp", alt: "Haveside ved tilbygning i Aalborg — Arkitekttegnestuen Yderskov" },
     ],
     dark: true,
   },
@@ -59,9 +59,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Ombygning af\neksisterende 70er-villa, Hasseris i Aalborg.",
     images: [
-      { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-vejside.webp", alt: "Vejside efter ombygning af 70er-villa i Hasseris i Aalborg — Yderskov Arkitekter" },
-      { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-haveside.webp", alt: "Haveside efter ombygning af 70er-villa i Hasseris i Aalborg — Yderskov Arkitekter" },
-      { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-terrassearbejde.webp", alt: "Terrassearbejde ved ombygning i Hasseris i Aalborg — Yderskov Arkitekter" },
+      { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-vejside.webp", alt: "Vejside efter ombygning af 70er-villa i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-haveside.webp", alt: "Haveside efter ombygning af 70er-villa i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-terrassearbejde.webp", alt: "Terrassearbejde ved ombygning i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
     ],
     dark: false,
   },
@@ -69,16 +69,16 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Lille, gammelt parcelhus\nombygget til moderne bolig, Brønderslev nær Aalborg.",
     images: [
-      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-vejside.webp", alt: "Vejside efter ombygning i Brønderslev — Yderskov Arkitekter" },
-      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-indkørsel.webp", alt: "Indkørsel efter ombygning i Brønderslev — Yderskov Arkitekter" },
-      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-haveside.webp", alt: "Haveside efter ombygning i Brønderslev — Yderskov Arkitekter" },
-      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-forhave.webp", alt: "Forhave efter ombygning i Brønderslev — Yderskov Arkitekter" },
-      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-bagside.webp", alt: "Bagside efter ombygning i Brønderslev — Yderskov Arkitekter" },
+      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-vejside.webp", alt: "Vejside efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-indkørsel.webp", alt: "Indkørsel efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-haveside.webp", alt: "Haveside efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-forhave.webp", alt: "Forhave efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-bagside.webp", alt: "Bagside efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
     ],
     afterLabel: "Efter ombygning",
     beforeLabel: "Før ombygning",
     beforeImages: [
-      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-foer-vejside.webp", alt: "Vejside før ombygning i Brønderslev — Yderskov Arkitekter" },
+      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-foer-vejside.webp", alt: "Vejside før ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
     ],
     dark: false,
   },
@@ -87,7 +87,7 @@ const projectGalleries = [
 const faqItems = [
   {
     q: "Hvad koster en tilbygning?",
-    a: "En tilbygning koster typisk fra 14.000–19.000 kr. pr. m². Prisen afhænger af størrelse, konstruktion og materialer.",
+    a: "En tilbygning koster typisk fra 14.000–19.000 kr. pr. m². Dette er typisk lidt lavere end nybyggeri, da fundamentet og den eksisterende bygning ofte reducerer kompleksiteten. Prisen afhænger af størrelse, konstruktion og materialer.",
   },
   {
     q: "Kræver en tilbygning byggetilladelse?",
@@ -146,7 +146,7 @@ export default function TilbygningerPage() {
       />
       <Nav />
       <Hero
-        slides={[{ src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-2.webp", alt: "Ombygning og modernisering af 50er-villa, Brønderslev nær Aalborg — Yderskov Arkitekter" }]}
+        slides={[{ src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-2.webp", alt: "Ombygning og modernisering af 50er-villa, Brønderslev nær Aalborg — Arkitekttegnestuen Yderskov" }]}
         tag="Om- og tilbygninger"
         subtitle="Om- og tilbygninger"
         lines={[
@@ -169,6 +169,9 @@ export default function TilbygningerPage() {
               </p>
               <p className="body-p">
                 Vi styrer hele projektet — fra tegning og byggetilladelse til den færdige tilbygning med egne håndværkere.
+              </p>
+              <p className="body-p">
+                Tilbygninger starter fra 14.000 kr./m² — lidt lavere end nybyggeri, da fundamentet og den eksisterende bygning ofte reducerer kompleksiteten.
               </p>
               <p className="body-p">
                 <Link href="#kontakt" className="text-link">→ Kom i gang</Link>
