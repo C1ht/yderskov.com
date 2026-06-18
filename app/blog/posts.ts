@@ -75,7 +75,8 @@ export const posts: BlogPost[] = [
     image: "/images/Harald jensensvej Løkken/Harald jensensvej stue og pejs.webp",
     images: [
       "/images/Harald jensensvej Løkken/Harald jensensvej stue og pejs.webp",
-      "/images/Harald jensensvej Løkken/Harald jensensvej terrasse.webp"
+      "/images/Harald jensensvej Løkken/Harald jensensvej terrasse.webp",
+      "/images/Karetmagervej/Sæby-ny-villa-funkis-køkken-stue.webp"
     ],
     metaTitle: "Case: Indbygget biopejs i moderne sommerhus i Løkken — Yderskov",
     title: "Case: Indbygget biopejs som hyggeskaber i moderne sommerhus i Løkken — Arkitekttegnestuen Yderskov",
@@ -104,7 +105,8 @@ export const posts: BlogPost[] = [
         heading: "Sikkerhed og betjening i hverdagen",
         paragraphs: [
           "Mange er bekymrede for sikkerheden ved bioethanol, men moderne biopejse er ekstremt sikre. Vi anvender udelukkende automatiske brandkar, hvor bioethanolen fyldes i en lukket tank. Flammerne tændes og reguleres via en fjernbetjening eller en app, og sensorer overvåger konstant temperatur og CO2-niveau og slukker pejsen automatisk ved uregelmæssigheder.",
-          "Det gør betjeningen lige så nem og bekvem som en [gaspejs](/blog/gaspejs-sommerhus-bolig) — du trykker blot på en knap, og få sekunder efter har du levende, dansende flammer og masser af sommerhushygge. Se også vores [sommerhuse](/sommerhuse) eller vores [priser](/priser) for yderligere information."
+          "Det gør betjeningen lige så nem og bekvem som en [gaspejs](/blog/gaspejs-sommerhus-bolig) — du trykker blot på en knap, og få sekunder efter har du levende, dansende flammer og masser af sommerhushygge. Se også vores [sommerhuse](/sommerhuse) eller vores [priser](/priser) for yderligere information.",
+          "Udover sommerhuse er biopejse også yderst populære i helårsboliger, såsom i vores projekt 'Funkisvilla i Sæby' (Karetmagervej), hvor en elegant indbygget biopejs fungerer som en hyggelig og stilren rumdeler mellem køkken-alrummet og stuen, som vist på et af billederne i dette indlæg."
         ]
       }
     ]
@@ -1481,6 +1483,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "inde-ude",
+    image: "/images/Karetmagervej/Sæby-ny-villa-funkis-køkken-spiseplads.webp",
     metaTitle: "God overgang mellem inde og ude i boligen — Yderskov",
     title: "Hvordan laver man en god overgang mellem inde og ude?",
     description: "En god overgang mellem inde og ude forlænger boligen og gør hverdagen rigere. Her gennemgår vi de vigtigste greb — fra terrassedøre og niveauforskelle til materialer og overdækning.",
@@ -1532,6 +1535,7 @@ export const posts: BlogPost[] = [
         heading: "Arkitektens bidrag til inde-ude-zonen",
         paragraphs: [
           "En god inde-ude-overgang er ikke noget man tilføjer til et hus bagefter. Den er en integreret del af husets planløsning, konstruktion og facade — og den skal tænkes ind fra allerførste streg.",
+          "Billedet øverst i dette indlæg viser køkkenet og spisepladsen i vores funkisvilla i Sæby (Karetmagervej), hvor store gulv-til-loft glaspartier og en direkte udgang til terrassen forbinder køkken-alrummet med uderummet på smukkeste vis.",
           "Hos Yderskov Arkitekter tegner vi inde-ude-zonen som en naturlig del af boligen — ikke som et tillæg. Vi analyserer husets orientering, terrænets muligheder og klientens dagligdag, og tegner en løsning der giver mening i netop den kontekst. Kontakt os for et gratis, uforpligtende første møde.",
         ],
       },
@@ -2559,6 +2563,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "ovenlys",
+    image: "/images/Karetmagervej/Sæby-ny-villa-funkis-brusekabine.webp",
     metaTitle: "Hvornår giver ovenlys mening i en bolig? — Yderskov Arkitekter",
     title: "Hvornår giver ovenlys mening i en bolig?",
     description: "Ovenlys bringer dagslys ind der hvor facadevinduer ikke rækker. Her gennemgår vi hvornår det giver mening, hvilke typer der findes, og hvad du skal tænke på.",
@@ -2611,6 +2616,7 @@ export const posts: BlogPost[] = [
         heading: "Ovenlys i arkitektprojekter",
         paragraphs: [
           "Ovenlys kræver præcis projektering. Et ovenlys på det forkerte sted — eller den forkerte type — giver blænding om sommeren, kulde om vinteren og kondensproblemer hele året. Et ovenlys på det rigtige sted giver til gengæld en lysoplevelse der løfter boligen og gør det til et hjem du ikke vil flytte fra.",
+          "Billedet øverst i dette indlæg er fra vores projekt 'Funkisvilla i Sæby' (Karetmagervej), hvor et stort ovenlysvindue over brusenichen trækker dagslys ned i badeværelset og skaber en fantastisk rumfornemmelse, mens det samtidig bevarer privatlivet.",
           "Hos Yderskov Arkitekter tegner vi ovenlys som en integreret del af boligens dagslysstrategi — ikke som et eftertanket tilvalg. Kontakt os for et gratis og uforpligtende første møde.",
         ],
       },

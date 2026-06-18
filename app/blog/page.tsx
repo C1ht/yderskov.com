@@ -144,6 +144,7 @@ const posts: Post[] = [
   },
   {
     href: "/blog/inde-ude",
+    image: "/images/Karetmagervej/Sæby-ny-villa-funkis-køkken-spiseplads.webp",
     date: "01 / 05 / 2026",
     cat: "Villa & boligdesign",
     catKey: "villa",
@@ -403,6 +404,7 @@ const posts: Post[] = [
   },
   {
     href: "/blog/ovenlys",
+    image: "/images/Karetmagervej/Sæby-ny-villa-funkis-brusekabine.webp",
     date: "04 / 03 / 2025",
     cat: "Villa & boligdesign",
     catKey: "villa",
