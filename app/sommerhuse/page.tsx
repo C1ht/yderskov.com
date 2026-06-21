@@ -33,9 +33,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Sommerhus\ntil udsigtsgrund, Løkken.",
     location: "Løkken, Nordjylland",
-    size: "110 m² fritidshus · Åben grund",
+    size: "110 m² fritidshus · klitgrund",
     year: "2020",
-    description: "Klassisk sort træsommerhus opført på en dejlig, åben grund i Løkken med storslået panoramaudsigt over landskabet og Vesterhavet. Bygningen er nænsomt integreret i landskabet med en stor, ugeneret træterrasse, der smyger sig om huset.",
+    description: "Klassisk sort træsommerhus opført på en dejlig åben grund i Løkken med storslået panoramaudsigt over landskabet nær Vesterhavet. Bygningen er nænsomt integreret i det sarte landskab med en stor, ugeneret træterrasse, der smyger sig om huset.",
     images: [
       { src: "/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-indgangsparti.webp", alt: "Indgangsparti ved sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
       { src: "/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-terrasse.webp", alt: "Terrasse ved sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
