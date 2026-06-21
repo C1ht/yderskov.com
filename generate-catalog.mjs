@@ -85,7 +85,7 @@ const villaProjects = [
   },
   {
     num: 4,
-    title: 'Funkisvilla med niveauforskelle',
+    title: 'Funkisvilla nær Hammer Bakker',
     location: 'Vestbjerg, Nordjylland',
     size: '205 m² bolig · 70 m² garage · 6 m² overdækning',
     year: '',

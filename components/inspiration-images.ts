@@ -35,7 +35,7 @@ export const inspirationImages: GalleryImage[] = [
   { src: "/images/Ågade 25/Aalborg-Ågade-renovering-bad.webp", alt: "Færdigt badeværelse i lejlighedsrenovering, Ågade — Arkitekttegnestuen Yderskov" },
   { src: "/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-indkørsel.webp", alt: "Nyt sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
   { src: "/images/Hals Rækkehuse/Hals-Aalborgvej40-udlejning-.webp", alt: "Udlejningsbolig, Hals — Arkitekttegnestuen Yderskov" },
-  { src: "/images/Højgården/Vestsbjerg-ny-funkisvilla-haveside.webp", alt: "Funkisvilla med niveauforskelle, Vestbjerg — Arkitekttegnestuen Yderskov" },
+  { src: "/images/Højgården/Vestsbjerg-ny-funkisvilla-haveside.webp", alt: "Funkisvilla nær Hammer Bakker — Arkitekttegnestuen Yderskov" },
   { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-soveværelse.webp", alt: "Soveværelse i lejlighedsrenovering, Reberbansgade — Arkitekttegnestuen Yderskov" },
   { src: "/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-indgangsparti.webp", alt: "Indgangsparti ved sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
   { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-4.webp", alt: "Moderniseret 50er-villa, facade, Brønderslev — Arkitekttegnestuen Yderskov" },

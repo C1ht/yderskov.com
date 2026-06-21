@@ -206,9 +206,9 @@ export default function ArkitektAalborgPage() {
           <div className="proj-grid">
             <Link href="/villaer" className="proj-card" id="proj-vestbjerg">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/images/Højgården/Vestsbjerg-ny-funkisvilla-haveside.webp" alt="Funkisvilla med niveauforskelle i Vestbjerg — Arkitekttegnestuen Yderskov" />
+              <img src="/images/Højgården/Vestsbjerg-ny-funkisvilla-haveside.webp" alt="Funkisvilla nær Hammer Bakker — Arkitekttegnestuen Yderskov" />
               <div className="proj-foot">
-                <span className="proj-title">Funkisvilla, Vestbjerg</span>
+                <span className="proj-title">Funkisvilla nær Hammer Bakker</span>
                 <span className="proj-arr">→</span>
               </div>
             </Link>
