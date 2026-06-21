@@ -923,8 +923,8 @@ body.menu-open { overflow: hidden; }
   min-width: 0;
 }
 .post-card-image {
-  width: 72px;
-  height: 72px;
+  width: 96px;
+  height: 96px;
   border-radius: 6px;
   overflow: hidden;
   flex-shrink: 0;

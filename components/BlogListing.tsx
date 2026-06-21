@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 type Post = {
   href: string;
@@ -85,8 +86,14 @@ export default function BlogListing({ posts, categories }: BlogListingProps) {
                 <span className="post-link">Læs mere →</span>
               </div>
               {post.image && (
-                <div className="post-card-image">
-                  <img src={post.image} alt={post.title.includes("Arkitekttegnestuen Yderskov") ? post.title : `${post.title} — Arkitekttegnestuen Yderskov`} />
+                <div className="post-card-image" style={{ position: "relative" }}>
+                  <Image
+                    src={post.image}
+                    alt={post.title.includes("Arkitekttegnestuen Yderskov") ? post.title : `${post.title} — Arkitekttegnestuen Yderskov`}
+                    width={96}
+                    height={96}
+                    style={{ objectFit: "cover" }}
+                  />
                 </div>
               )}
             </div>

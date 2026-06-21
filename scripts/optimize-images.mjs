@@ -2,8 +2,8 @@ import sharp from 'sharp'
 import { readdir, mkdir, stat } from 'fs/promises'
 import path from 'path'
 
-const WIDTHS = [400, 768, 1200, 1920]
-const QUALITY = 80
+const WIDTHS = [200, 400, 768, 1200, 1920]
+const QUALITY = 85
 const SOURCE_DIR = 'public/images'
 const OUTPUT_BASE = 'public/_opt'
 

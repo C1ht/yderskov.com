@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
   images: {
     loader: "custom",
     loaderFile: "./image-loader.ts",
-    deviceSizes: [400, 768, 1200, 1920],
+    deviceSizes: [200, 400, 768, 1200, 1920],
     imageSizes: [],
   },
   webpack: (config, { isServer }) => {
