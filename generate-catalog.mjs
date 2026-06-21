@@ -173,7 +173,7 @@ const sommerhusProjects = [
     location: 'Løkken, Nordjylland',
     size: '110 m² fritidshus · klitgrund',
     year: '2020',
-    description: 'Klassisk sort træsommerhus opført på en vild, kuperet klitgrund i Løkken med storslået panoramaudsigt over landskabet og Vesterhavet. Bygningen er nænsomt integreret i det sarte klitlandskab med en stor, ugeneret træterrasse, der smyger sig om huset. Dertil hører et matchende, fritliggende anneks til gæster, som fuldender den nordiske feriestemning midt i marehalmen.',
+    description: 'Klassisk sort træsommerhus opført på en dejlig åben og lettilgængelig grund i Løkken med storslået panoramaudsigt over landskabet og Vesterhavet. Bygningen er nænsomt integreret i det åbne landskab med en stor, ugeneret træterrasse, der smyger sig om huset. Dertil store glaspartier, der lukker lyset ind.',
     images: [
       '/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-terrasse.webp',
       '/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-indgangsparti.webp',
