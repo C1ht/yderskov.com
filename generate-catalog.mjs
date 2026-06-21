@@ -521,10 +521,18 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   .proj-meta { font-size:7.5pt; font-weight:300; color:#888; letter-spacing:0.04em; margin-bottom:3mm; }
   .proj-desc { font-size:8.5pt; font-weight:300; color:#555; line-height:1.75; max-width:158mm; }
   .proj-imgs { flex:1; display:flex; flex-direction:column; min-height:0; }
-  .proj-img-main { flex:1; overflow:hidden; min-height:0; }
+  .proj-img-main {
+    flex:1;
+    overflow:hidden;
+    min-height:0;
+    background:#f7f6f3;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
   .page-even .proj-img-main { margin: 3mm 20mm 2mm 14mm; }
   .page-odd .proj-img-main { margin: 3mm 14mm 2mm 20mm; }
-  .proj-img-main img { width:100%; height:100%; object-fit:cover; display:block; }
+  .proj-img-main img { max-width:100%; max-height:100%; object-fit:contain; display:block; }
   .proj-img-row { display:flex; gap:2mm; height:46mm; }
   .page-even .proj-img-row { margin: 0 20mm 9mm 14mm; }
   .page-odd .proj-img-row { margin: 0 14mm 9mm 20mm; }
@@ -787,8 +795,8 @@ ${processedProjects.map((p, idx) => {
         itemStyle = 'grid-column: span 2;';
       }
       return `
-        <div style="overflow: hidden; height: 100%; ${itemStyle}">
-          <img src="${imgSrc}" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+        <div style="overflow: hidden; height: 100%; ${itemStyle} ${numImages === 1 ? 'background: #f7f6f3; display: flex; align-items: center; justify-content: center;' : ''}">
+          <img src="${imgSrc}" style="${numImages === 1 ? 'max-width: 100%; max-height: 100%; object-fit: contain;' : 'width: 100%; height: 100%; object-fit: cover;'} display: block;" />
         </div>
       `;
     }).join('')}
