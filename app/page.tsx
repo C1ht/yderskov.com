@@ -141,7 +141,7 @@ export default function HomePage() {
                     <line x1="7" y1="7" x2="7.01" y2="7" strokeWidth="2.5" />
                   </svg>
                 </div>
-                <h3>Fast pris på honorar</h3>
+                <h3>Fast pris på arkitekthonorar</h3>
               </div>
               <p>Vi tilbyder <Link href="/priser" className="text-link" style={{ fontSize: "inherit" }}>fast pris på arkitekthonoraret</Link>, så du kender de præcise udgifter fra start. Ingen uforudsete regninger.</p>
             </div>
@@ -165,7 +165,7 @@ export default function HomePage() {
                     <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
                   </svg>
                 </div>
-                <h3>Samme arkitekt hver gang</h3>
+                <h3>Kontakt med samme arkitekt hver gang</h3>
               </div>
               <p>Hos os taler du med den <Link href="/om" className="text-link" style={{ fontSize: "inherit" }}>samme projekterende arkitekt</Link> gennem hele forløbet. Det giver tryghed, tæt dialog og sparer værdifuld tid.</p>
             </div>
@@ -178,7 +178,7 @@ export default function HomePage() {
                     <circle cx="12" cy="10" r="3" />
                   </svg>
                 </div>
-                <h3>Gratis idémøde på din grund</h3>
+                <h3>Gratis idémøde med arkitekt på din grund</h3>
               </div>
               <p>Vi kommer ud på din byggegrund eller adresse til et <Link href="/kontakt" className="text-link" style={{ fontSize: "inherit" }}>gratis idémøde</Link> for en uforpligtende professionel vurdering og sparring på dine idéer.</p>
             </div>
