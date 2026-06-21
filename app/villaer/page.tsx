@@ -117,7 +117,7 @@ const projectGalleries = [
     location: "Aalborg, Nordjylland",
     size: "430 m² herskabelig bolig",
     year: "2023",
-    description: "Eksklusiv herskabsvilla i engelsk colonial-stil opført i Aalborg. Den hvide pudsede facade med markante gesimser, søjleprydet indgangsparti og mørke sprossede vinduer komplementeres af en smuk forhave med frodige vinranker. Indvendigt rummer villaen luksuriøse faciliteter, herunder en storslået hall med en elegant svungen trappe, sildebensparket, hjemmebiograf og stuer en-suite.",
+    description: "Eksklusiv herskabsvilla i engelsk colonial-stil opført i Aalborg. Den rødmurede facade med markante hvide pudsede gesimser, søjleprydet indgangsparti og mørke sprossede vinduer komplementeres af en smuk forhave med frodige vinranker. Indvendigt rummer villaen luksuriøse faciliteter, herunder en storslået hall med en elegant svungen trappe, sildebensparket, hjemmebiograf og stuer en-suite.",
     images: [
       { src: "/images/Ikarosvej/Aalborg-Ikarosvej-ny-villa-indkørsel.webp", alt: "Engelsk villa i colonial-stil, indkørsel, Aalborg — Arkitekttegnestuen Yderskov" },
       { src: "/images/Ikarosvej/Ikarosvej facade.webp", alt: "Engelsk villa i colonial-stil, facade, Aalborg — Arkitekttegnestuen Yderskov" },
@@ -133,7 +133,7 @@ const projectGalleries = [
     location: "Nørholm nær Aalborg, Nordjylland",
     size: "350 m² landejendom",
     year: "2024",
-    description: "Herskabelig engelsk villa opført på en stor hesteejendom nær Aalborg med en enestående udsigt over Limfjorden. Villaen er tegnet til en familie på tre og byder på eksklusive rammer med en rummelig hall, et stort køkken, stuer en-suite og flere badeværelser, der tilsammen forener det klassiske herregårdsudtryk med moderne landliv.",
+    description: "Herskabelig engelsk villa opført på en stor hesteejendom nær Aalborg med en enestående udsigt over Limfjorden. Villaen er tegnet til en familie på tre med udgangspunkt i et postkort familien kom med til tegnestuen, der viste deres drømmebolig. Villaen byder på eksklusive rammer med en rummelig hall, et stort køkken, stuer ensuite og flere badeværelser, der tilsammen forener det klassiske herregårdsudtryk med moderne landliv.",
     images: [
       { src: "/images/Nørholmsvej/Engelsk villa facade Nørholmsvej.webp", alt: "Engelsk villa på hesteejendom, facade, Nørholm — Arkitekttegnestuen Yderskov" },
       { src: "/images/Nørholmsvej/Engelsk villa fra havesiden.webp", alt: "Haveside på engelsk villa ved fjorden, Nørholm — Arkitekttegnestuen Yderskov" },

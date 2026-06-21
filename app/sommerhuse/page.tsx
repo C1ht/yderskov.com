@@ -33,9 +33,9 @@ const projectGalleries = [
     eyebrow: "Projekt",
     title: "Sommerhus\ntil udsigtsgrund, Løkken.",
     location: "Løkken, Nordjylland",
-    size: "110 m² fritidshus · klitgrund",
+    size: "110 m² fritidshus · Åben grund",
     year: "2020",
-    description: "Klassisk sort træsommerhus opført på en dejlig åben og lettilgængelig grund i Løkken med storslået panoramaudsigt over landskabet og Vesterhavet. Bygningen er nænsomt integreret i det åbne landskab med en stor, ugeneret træterrasse, der smyger sig om huset. Dertil store glaspartier, der lukker lyset ind.",
+    description: "Klassisk sort træsommerhus opført på en dejlig, åben grund i Løkken med storslået panoramaudsigt over landskabet og Vesterhavet. Bygningen er nænsomt integreret i landskabet med en stor, ugeneret træterrasse, der smyger sig om huset.",
     images: [
       { src: "/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-indgangsparti.webp", alt: "Indgangsparti ved sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
       { src: "/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-terrasse.webp", alt: "Terrasse ved sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
@@ -49,7 +49,7 @@ const projectGalleries = [
     location: "Ålbæk, Nordjylland",
     size: "185 m² wellness-hus · pool & spa",
     year: "2023",
-    description: "Eksklusivt luksussommerhus i Ålbæk beklædt med lyst træ, tegnet som et wellness-fristed. Huset rummer en storslået wellness-afdeling med swimmingpool, sauna samt både indvendig og udvendig spa. Indvendigt er der lyst køkken-alrum, hyggelig hems og et aktivitetsrum med billard.",
+    description: "Eksklusivt luksussommerhus i Ålbæk beklædt med lyst træ, tegnet som et wellness-fristed. Huset rummer en storslået wellness-afdeling med swimmingpool, sauna samt både indvendig og udvendig spa. Indvendigt er der lyst køkkenalrum, hyggelig hems og et aktivitetsrum med billard. Huset rummer flere værelser og badeværelser og er egnet til en stor familie eller udlejning.",
     images: [
       { src: "/images/Løvevej/Ålbæk-poolhus-terrasse.webp", alt: "Arkitekttegnet poolhus i Ålbæk — Arkitekttegnestuen Yderskov" },
       { src: "/images/Løvevej/Ålbæk-poolhus-pool.webp", alt: "Indendørs pool i arkitekttegnet sommerhus — Arkitekttegnestuen Yderskov" },
@@ -84,7 +84,7 @@ const projectGalleries = [
     location: "Løkken, Nordjylland",
     size: "115 m² fritidshus",
     year: "2024",
-    description: "Arkitekttegnet sommerhus i Løkken med minimalistisk nordisk interiør. Opholdsrummet har poleret betongulv og en central halvmur med indbygget biopejs som rumdeler mod køkkenet. Det lyse egetræskøkken har betonbordplader, og der er direkte udgang til en stor træterrasse med udebruser.",
+    description: "Arkitekttegnet sommerhus i Løkken med minimalistisk nordisk interiør. Opholdsrummet har lyst plankegulv og en central mur med indbygget biopejs som rumdeler mod køkkenet. Det lyse egetræskøkken har betonbordplader, og der er direkte udgang til en stor træterrasse med udebruser.",
     images: [
       { src: "/images/Harald jensensvej Løkken/Harald jensensvej stue og pejs.webp", alt: "Stue med indbygget biopejs i sommerhus, Løkken — Arkitekttegnestuen Yderskov" },
       { src: "/images/Harald jensensvej Løkken/Harald jensensvej køkken.webp", alt: "Køkken i moderne sommerhus, Løkken — Arkitekttegnestuen Yderskov" },

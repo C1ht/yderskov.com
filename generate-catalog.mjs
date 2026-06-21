@@ -128,7 +128,7 @@ const villaProjects = [
     location: 'Aalborg, Nordjylland',
     size: '430 m² herskabelig bolig',
     year: '2023',
-    description: 'Eksklusiv herskabsvilla i engelsk colonial-stil opført i Aalborg. Den hvide pudsede facade med markante gesimser, søjleprydet indgangsparti og mørke sprossede vinduer komplementeres af en smuk forhave med frodige vinranker. Indvendigt rummer villaen luksuriøse faciliteter, herunder en storslået hall med en elegant svungen trappe, sildebensparket, hjemmebiograf og stuer en-suite.',
+    description: 'Eksklusiv herskabsvilla i engelsk colonial-stil opført i Aalborg. Den rødmurede facade med markante hvide pudsede gesimser, søjleprydet indgangsparti og mørke sprossede vinduer komplementeres af en smuk forhave med frodige vinranker. Indvendigt rummer villaen luksuriøse faciliteter, herunder en storslået hall med en elegant svungen trappe, sildebensparket, hjemmebiograf og stuer en-suite.',
     images: [
       '/images/Ikarosvej/Aalborg-Ikarosvej-ny-villa-indkørsel.webp',
       '/images/Ikarosvej/Ikarosvej facade.webp',
@@ -143,7 +143,7 @@ const villaProjects = [
     location: 'Nørholm, Nordjylland',
     size: '350 m² landejendom',
     year: '2024',
-    description: 'Herskabelig engelsk villa opført på en stor hesteejendom nær Aalborg med en enestående udsigt over Limfjorden. Villaen er tegnet til en familie på tre og byder på eksklusive rammer med en rummelig hall, et stort køkken, stuer en-suite og flere badeværelser, der tilsammen forener det klassiske herregårdsudtryk med moderne landliv.',
+    description: 'Herskabelig engelsk villa opført på en stor hesteejendom nær Aalborg med en enestående udsigt over Limfjorden. Villaen er tegnet til en familie på tre med udgangspunkt i et postkort familien kom med til tegnestuen, der viste deres drømmebolig. Villaen byder på eksklusive rammer med en rummelig hall, et stort køkken, stuer ensuite og flere badeværelser, der tilsammen forener det klassiske herregårdsudtryk med moderne landliv.',
     images: [
       '/images/Nørholmsvej/Engelsk villa fra havesiden.webp',
       '/images/Nørholmsvej/Engelsk villa facade Nørholmsvej.webp',
@@ -171,9 +171,9 @@ const sommerhusProjects = [
     num: 2,
     title: 'Sommerhus til udsigtsgrund',
     location: 'Løkken, Nordjylland',
-    size: '110 m² fritidshus · klitgrund',
+    size: '110 m² fritidshus · Åben grund',
     year: '2020',
-    description: 'Klassisk sort træsommerhus opført på en dejlig åben og lettilgængelig grund i Løkken med storslået panoramaudsigt over landskabet og Vesterhavet. Bygningen er nænsomt integreret i det åbne landskab med en stor, ugeneret træterrasse, der smyger sig om huset. Dertil store glaspartier, der lukker lyset ind.',
+    description: 'Klassisk sort træsommerhus opført på en dejlig, åben grund i Løkken med storslået panoramaudsigt over landskabet og Vesterhavet. Bygningen er nænsomt integreret i landskabet med en stor, ugeneret træterrasse, der smyger sig om huset.',
     images: [
       '/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-terrasse.webp',
       '/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-indgangsparti.webp',
@@ -186,7 +186,7 @@ const sommerhusProjects = [
     location: 'Ålbæk, Nordjylland',
     size: '185 m² wellness-hus · pool & spa',
     year: '2023',
-    description: 'Eksklusivt luksussommerhus i Ålbæk beklædt med lyst træ, tegnet som et wellness-fristed. Huset rummer en storslået wellness-afdeling med swimmingpool, sauna samt både indvendig og udvendig spa. Indvendigt er der lyst køkken-alrum, hyggelig hems og et aktivitetsrum med billard.',
+    description: 'Eksklusivt luksussommerhus i Ålbæk beklædt med lyst træ, tegnet som et wellness-fristed. Huset rummer en storslået wellness-afdeling med swimmingpool, sauna samt både indvendig og udvendig spa. Indvendigt er der lyst køkkenalrum, hyggelig hems og et aktivitetsrum med billard. Huset rummer flere værelser og badeværelser og er egnet til en stor familie eller udlejning.',
     images: [
       '/images/Løvevej/Ålbæk-poolhus-terrasse.webp',
       '/images/Løvevej/Ålbæk-poolhus-pool.webp',
@@ -217,7 +217,7 @@ const sommerhusProjects = [
     location: 'Løkken, Nordjylland',
     size: '115 m² fritidshus',
     year: '2024',
-    description: 'Arkitekttegnet sommerhus i Løkken med minimalistisk nordisk interiør. Opholdsrummet har poleret betongulv og en central halvmur med indbygget biopejs som rumdeler mod køkkenet. Det lyse egetræskøkken har betonbordplader, og der er direkte udgang til en stor træterrasse med udebruser.',
+    description: 'Arkitekttegnet sommerhus i Løkken med minimalistisk nordisk interiør. Opholdsrummet har lyst plankegulv og en central mur med indbygget biopejs som rumdeler mod køkkenet. Det lyse egetræskøkken har betonbordplader, og der er direkte udgang til en stor træterrasse med udebruser.',
     images: [
       '/images/Harald jensensvej Løkken/Harald jensensvej stue og pejs.webp',
       '/images/Harald jensensvej Løkken/Harald jensensvej køkken.webp',
@@ -235,7 +235,7 @@ const tilbygningProjects = [
     location: 'Brønderslev, Nordjylland',
     size: 'Komplet ombygning · nyt køkken-alrum',
     year: '2023',
-    description: 'Gennemgribende transformation af en klassisk 1950\'er-villa i Brønderslev. Huset er opgraderet fra slidt murværk til en moderne, hvidpudset facade med mørke vinduesrammer og store skydedørspartier. Indvendigt er boligen åbnet op med et imponerende køkken-alrum med loft til kip, store ovenlysvinduer og direkte adgang til en nyopført træterrasse mod haven.',
+    description: 'Gennemgribende transformation af en klassisk 1950\'er-villa i Brønderslev. Huset er opgraderet fra slidt murværk til en moderne, hvidpudset facade med mørke vinduesrammer og store skydedørspartier. Indvendigt er boligen åbnet op med et imponerende køkken-alrum med loft til kip, store vinduespartier, direkte adgang til en nyopført træterrasse mod haven og 4 værelser samt fritliggende multirum.',
     images: [
       '/images/Godthåbsvej/yderskov-ombygning-efter-3.webp',
       '/images/Godthåbsvej/yderskov-ombygning-efter-1.webp',
@@ -254,7 +254,7 @@ const tilbygningProjects = [
     location: 'Hasseris i Aalborg',
     size: '45 m² tilbygning · terrasse',
     year: '2021',
-    description: 'Stilfuld tilbygning til en traditionel murstensvilla i Hasseris. Tilbygningen er udført med en mørk træbeklædning, der danner en flot kontrast til det røde murværk, og afsluttes med zinkinddækninger samt store hjørnevinduer. Den tilfører boligen et lyst, åbent opholdsrum med direkte udgang til en overdækket fliseterrasse og en smukt anlagt have.',
+    description: 'Stilfuld tilbygning til en traditionel murstensvilla i Hasseris. Tilbygningen er udført med en mørk træbeklædning, der danner en flot kontrast til det gule murværk, og afsluttes med zinkinddækninger samt store hjørnevinduer. Den tilfører boligen et lyst, åbent opholdsrum med direkte udgang til husets træterrasse og en smukt anlagt have.',
     images: [
       '/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp',
       '/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-terrasse.webp',
@@ -280,7 +280,7 @@ const tilbygningProjects = [
     location: 'Hasseris i Aalborg',
     size: 'Facaderenovering · ny planløsning',
     year: '2022',
-    description: 'Totalrenovering af en klassisk 1970\'er-villa i Hasseris. Den mørke facade er forvandlet med en lys, hvidpudset overflade kombineret med varme lærketræsdetaljer og en ny, hævet træterrasse. Planløsningen er gennemgribende optimeret for at skabe et stort, sammenhængende køkken-alrum med store vinduespartier mod haven.',
+    description: 'Totalrenovering af en klassisk 1970\'er-villa i Hasseris. Den mørke facade er forvandlet med en lys, hvidpudset overflade kombineret med sort træbeklædning og detaljer i zink. En ny terrasse. Planløsningen er gennemgribende optimeret for at skabe et stort, sammenhængende køkken-alrum med store vinduespartier mod haven.',
     images: [
       '/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-haveside.webp',
       '/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-vejside.webp',
@@ -293,7 +293,7 @@ const tilbygningProjects = [
     location: 'Brønderslev, Nordjylland',
     size: 'Komplet ombygning · energirenovering',
     year: '2023',
-    description: 'Markant totalrenovering og modernisering af et ældre parcelhus i Brønderslev. Bygningen er transformeret fra et traditionelt murstenshus til en lys, hvidpudset ejendom med et stærkt arkitektonisk udtryk. Renoveringen omfatter nye vinduer, energiløsninger, en nyindrettet have med grusbelagt indkørsel samt store glaspartier mod den private baghave.',
+    description: 'Markant totalrenovering og modernisering af et ældre parcelhus i Brønderslev. Bygningen er transformeret fra et traditionelt murstenshus til en lys, hvidpudset ejendom med et stærkt arkitektonisk udtryk. Renoveringen omfatter store vinduespartier, to etager samt et tårn med siddepladser og udkik over et stort opland. Desuden moderne energiløsninger, en nyindrettet have med grusbelagt indkørsel samt store glaspartier mod den private baghave. Bemærk “før-billedet” og sammenlign de to meget forskellige boliger.',
     images: [
       '/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-indkørsel.webp',
       '/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-vejside.webp',

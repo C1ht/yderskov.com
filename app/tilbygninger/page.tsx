@@ -20,7 +20,7 @@ const projectGalleries = [
     location: "Brønderslev, Nordjylland",
     size: "Komplet ombygning · nyt køkken-alrum",
     year: "2023",
-    description: "Gennemgribende transformation af en klassisk 1950'er-villa i Brønderslev. Huset er opgraderet fra slidt murværk til en moderne, hvidpudset facade med mørke vinduesrammer og store skydedørspartier. Indvendigt er boligen åbnet op med et imponerende køkken-alrum med loft til kip, store ovenlysvinduer og direkte adgang til en nyopført træterrasse mod haven.",
+    description: "Gennemgribende transformation af en klassisk 1950'er-villa i Brønderslev. Huset er opgraderet fra slidt murværk til en moderne, hvidpudset facade med mørke vinduesrammer og store skydedørspartier. Indvendigt er boligen åbnet op med et imponerende køkken-alrum med loft til kip, store vinduespartier, direkte adgang til en nyopført træterrasse mod haven og 4 værelser samt fritliggende multirum.",
     images: [
       { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-3.webp", alt: "Haveside med birketræ efter modernisering, Brønderslev — Arkitekttegnestuen Yderskov" },
       { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-2.webp", alt: "Gårdside med skydedøre efter modernisering, Brønderslev — Arkitekttegnestuen Yderskov" },
@@ -44,7 +44,7 @@ const projectGalleries = [
     location: "Hasseris, Aalborg",
     size: "45 m² tilbygning · terrasse",
     year: "2021",
-    description: "Stilfuld tilbygning til en traditionel murstensvilla i Hasseris. Tilbygningen er udført med en mørk træbeklædning, der danner en flot kontrast to det røde murværk, og afsluttes med zinkinddækninger samt store hjørnevinduer. Den tilfører boligen et lyst, åbent opholdsrum med direkte udgang til en overdækket fliseterrasse og en smukt anlagt have.",
+    description: "Stilfuld tilbygning til en traditionel murstensvilla i Hasseris. Tilbygningen er udført med en mørk træbeklædning, der danner en flot kontrast til det gule murværk, og afsluttes med zinkinddækninger samt store hjørnevinduer. Den tilfører boligen et lyst, åbent opholdsrum med direkte udgang til husets træterrasse og en smukt anlagt have.",
     images: [
       { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-terrasse.webp", alt: "Terrasse ved villa med tilbygning i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
       { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp", alt: "Bagside af villa med tilbygning i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
@@ -72,7 +72,7 @@ const projectGalleries = [
     location: "Hasseris, Aalborg",
     size: "Facaderenovering · ny planløsning",
     year: "2022",
-    description: "Totalrenovering af en klassisk 1970'er-villa i Hasseris. Den mørke facade er forvandlet med en lys, hvidpudset overflade kombineret med varme lærketræsdetaljer og en ny, hævet træterrasse. Planløsningen er gennemgribende optimeret for at skabe et stort, sammenhængende køkken-alrum med store vinduespartier mod haven.",
+    description: "Totalrenovering af en klassisk 1970'er-villa i Hasseris. Den mørke facade er forvandlet med en lys, hvidpudset overflade kombineret med sort træbeklædning og detaljer i zink. En ny terrasse. Planløsningen er gennemgribende optimeret for at skabe et stort, sammenhængende køkken-alrum med store vinduespartier mod haven.",
     images: [
       { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-vejside.webp", alt: "Vejside efter ombygning af 70er-villa i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
       { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-haveside.webp", alt: "Haveside efter ombygning af 70er-villa i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
@@ -86,7 +86,7 @@ const projectGalleries = [
     location: "Brønderslev, Nordjylland",
     size: "Komplet ombygning · energirenovering",
     year: "2023",
-    description: "Markant totalrenovering og modernisering af et ældre parcelhus i Brønderslev. Bygningen er transformeret fra et traditionelt murstenshus til en lys, hvidpudset ejendom med et stærkt arkitektonisk udtryk. Renoveringen omfatter nye vinduer, energiløsninger, en nyindrettet have med grusbelagt indkørsel samt store glaspartier mod den private baghave.",
+    description: "Markant totalrenovering og modernisering af et ældre parcelhus i Brønderslev. Bygningen er transformeret fra et traditionelt murstenshus til en lys, hvidpudset ejendom med et stærkt arkitektonisk udtryk. Renoveringen omfatter store vinduespartier, to etager samt et tårn med siddepladser og udkik over et stort opland. Desuden moderne energiløsninger, en nyindrettet have med grusbelagt indkørsel samt store glaspartier mod den private baghave. Bemærk “før-billedet” og sammenlign de to meget forskellige boliger.",
     images: [
       { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-vejside.webp", alt: "Vejside efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
       { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-indkørsel.webp", alt: "Indkørsel efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
