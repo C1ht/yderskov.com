@@ -533,10 +533,21 @@ body.menu-open { overflow: hidden; }
 }
 @media (max-width: 600px) {
   .why-us-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
   .why-us-card {
     padding: 1.25rem 1.25rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    min-height: 80px;
+  }
+  .why-us-title-row {
+    justify-content: center;
+    gap: 0;
+  }
+  .why-us-icon-wrapper {
+    display: none;
   }
   .why-us-card p {
     display: none;
