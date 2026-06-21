@@ -582,8 +582,7 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   <div class="intro-eyebrow">Velkommen · yderskov.com</div>
   <div class="intro-heading">Find inspiration til dit byggeri</div>
   <div class="intro-text">
-    <p>Vores inspirationskatalog er sammensat af udførte byggerier, her finder du ikke ai-billeder.</p>
-    <p>Her kan I se et lille udvalg af vores projekter, studere plantegninger og lade jer inspirere af forskellige udformninger, materialevalg og lysindfald osv.</p>
+    <p>Drømmen om at bygge nyt, bygge til eller renovere starter altid med en god idé og en portion inspiration. Dette katalog er skabt som et inspirationsværktøj til jer, der går med byggeplaner. Her kan I se et lille udvalg af vores afsluttede projekter, studere plantegninger og lade jer inspirere af forskellige arkitektoniske former, materialevalg og lysindfald.</p>
     <p>Hos <strong>Arkitekttegnestuen Yderskov</strong> har vi mere end 25 års erfaring med at tegne og opføre unikke huse og byggerier i hele Danmark. Vi har stået i spidsen for over 300 vellykkede byggerier – lige fra moderne funkisvillaer og naturskønne sommerhuse til funktionelle tilbygninger. Vores tegnestue adskiller sig ved at tilbyde en samlet proces med faste håndværkere, hvilket giver jer en god byggeproces.</p>
     <p>Brug dette katalog som et moodboard. Tag noter, sæt kryds ved de løsninger, I kan lide, og tag kataloget med til vores første møde. Vi tilbyder altid et <strong>gratis og helt uforpligtende idémøde</strong> f.eks. på jeres byggegrund, hvor vi sammen kan drøfte mulighederne for at realisere jeres drømmebyggeri.</p>
     <p>Vi glæder os til at høre om jeres tanker.</p>
