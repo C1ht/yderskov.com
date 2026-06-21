@@ -517,7 +517,6 @@ export const posts: BlogPost[] = [
         heading: "Projektet i tal",
         paragraphs: [
           "Vestbjerg nær Aalborg, Nordjylland · 205 m² bolig · 70 m² garage · 6 m² overdækning.",
-          "Projektet er i skitsefasen og vi arbejder med planløsning, facader og de konkrete detaljer i bryggersets indretning.",
         ],
         type: "case",
       },
@@ -525,14 +524,14 @@ export const posts: BlogPost[] = [
         heading: "Hunden er familiens centrum",
         paragraphs: [
           "Familien har hund og bruger den aktivt — lange ture i Hammer Bakker hører til hverdagen. Det betyder at de altid kommer hjem med en våd og mudret hund der skal vaskes inden den slipper løs i resten af huset.",
-          "Mange nybyggede villaer tager slet ikke stilling til det. Hunden bliver vasket i badekar eller udenfor med haveslangen — begge dele er dårlige løsninger. Vi ville gøre det rigtigt fra starten.",
+          "Mange nybyggede villaer tager slet ikke højde for det. Hunden bliver vasket i badekar eller udenfor med haveslangen — begge dele er dårlige løsninger. Vi ville gøre det rigtigt fra starten.",
         ],
       },
       {
         heading: "Bryggersets hundevaskeplads",
         paragraphs: [
           "Løsningen er en dedikeret hundevaskeplads i bryggersets. Den placeres ved indgangen fra haven, i direkte forlængelse af den rute familien bruger når de kommer hjem fra tur.",
-          "Praktisk indretning: en lavtsiddende bruser med blandet vand, et hundefast gulvafløb, klinker der tåler mudder og vand, og ophæng til snor og udstyr på samme væg. Enkelt og gennemtænkt.",
+          "Praktisk indretning: en lavtsiddende bruser med blandet vand, et hundefast gulv med afløb, klinker der tåler mudder og vand, og ophæng til snor og udstyr på samme væg. Enkelt og gennemtænkt.",
           "Resten af bryggersets indrettes til en aktiv familie: vaskemaskine og tørretumbler, skabs- og reolplads til udstyr, og direkte adgang til både garage og have.",
         ],
       },
