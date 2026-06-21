@@ -89,7 +89,7 @@ const villaProjects = [
     location: 'Vestbjerg, Nordjylland',
     size: '205 m² bolig · 70 m² garage · 6 m² overdækning',
     year: '',
-    description: 'Funkisvilla tilpasset en grund med fald og skøn udsigt over den omkringliggende natur og det åbne landskab. Naturen og lyset trækkes ind i boligen ved at designe huset med store skydedørspartier og åbne facader.',
+    description: 'Funkisvilla tilpasset en grund med fald og skøn udsigt over den omkringliggende natur og det åbne landskab. Naturen og lyset trækkes ind i boligen ved at designe huset med store skydedørspartier og åbne facader. Familien elsker deres hund og har selvfølgelig bryggers med hundevaskeplads.',
     images: [
       '/images/Højgården/Vestsbjerg-ny-funkisvilla-haveside.webp',
       '/images/Højgården/Vestsbjerg-ny-funkisvilla-indgangsparti.webp',
