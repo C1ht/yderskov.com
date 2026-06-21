@@ -18,6 +18,51 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "funkisvilla-vestbjerg-garage",
+    image: "/images/Højgården/Vestsbjerg-ny-funkisvilla-vejside.webp",
+    images: [
+      "/images/Højgården/Vestsbjerg-ny-funkisvilla-vejside.webp",
+      "/images/Højgården/Vestsbjerg-ny-funkisvilla-haveside.webp",
+      "/images/Højgården/Vestsbjerg-ny-funkisvilla-indgangsparti.webp"
+    ],
+    metaTitle: "Case: Moderne funkisvilla med 70 m² garage i Vestbjerg — Yderskov",
+    title: "Case: Funkisvilla i Vestbjerg tilpasset det kuperede terræn med stor garage — Arkitekttegnestuen Yderskov",
+    description: "Se hvordan vi designede en moderne funkisvilla i Vestbjerg til en børnefamilie. Huset er tilpasset grundens fald med store glaspartier og en stor garage.",
+    date: "20 / 06 / 2026",
+    cat: "Cases fra praksis",
+    catKey: "case",
+    lead: "Hvordan forener man en børnefamilies behov for en funktionel hverdag med en fantastisk udsigtsgrund og plads til en pladskrævende bilhobby? Svaret er denne arkitekttegnede funkisvilla i Vestbjerg. Boligen er nænsomt tilpasset en grund med fald og byder på åbne facader, store glaspartier og en specialbygget garage på hele 70 m².",
+    sections: [
+      {
+        heading: "Tilpasset grundens fald og den naturskønne udsigt",
+        paragraphs: [
+          "Vestbjerg byder på kuperet terræn og smukke landskaber, og netop denne grund havde et markant fald. I stedet for at udjævne terrænet valgte vi at tegne et hus, der følger faldet naturligt. Ved at lade niveauerne glide med jorden opnåede vi et unikt og dynamisk flow indendørs, samtidig med at villaen fremstår diskret og elegant indpasset i landskabet.",
+          "Med store skydedørspartier og åbne facader mod havesiden trækkes dagslyset helt ind i husets hjerte. Når dørene skydes til side på varme dage, forsvinder overgangen mellem det lyse køkken-alrum og uderummet, så familien kan nyde den uforstyrrede udsigt over naturen."
+        ]
+      },
+      {
+        heading: "En funktionel base for en familie på fire",
+        paragraphs: [
+          "Villaens planløsning er designet specifikt til en travl hverdag for en familie bestående af to voksne og to små børn. De 205 m² byder på en opdeling med forældreafdeling og børneafdeling, men med et centralt, samlende alrum, hvor familien kan være sammen under madlavning, leg og afslapning.",
+          "Hver detalje er tænkt ind i børnehøjde med robuste materialer, der kan tåle hverdagens slid, og smarte opbevaringsløsninger i både værelser og gangarealer. Derudover rummer huset et stort og praktisk bryggers, som er en uundværlig detalje for en børnefamilie efter udendørs leg."
+        ]
+      },
+      {
+        heading: "Drømmen om det ultimative værksted: En garage på 70 m²",
+        paragraphs: [
+          "Manden i huset er uddannet mekaniker og elsker at makke med biler i sin fritid. En standardgarage var derfor ikke nok. Løsningen blev en stor garage på 70 m², der er fuldt integreret i husets arkitektoniske formsprog.",
+          "Garagen fungerer ikke blot som bilparkering, men som et professionelt indrettet hobbyværksted med højt til loftet, god belysning og plads til alt nødvendigt værktøj. Den er placeret i direkte forbindelse med boligen, så man kan gå tørskoet fra bilen og værkstedet direkte ind i husets bryggers. Det gør garagen til en aktiv og integreret del af boligens samlede funktionalitet.",
+          "Se flere af vores [villaer](/villaer) eller læs mere [om vores proces](/om) for at se, hvordan vi kan skræddersy dit næste byggeprojekt."
+        ],
+        type: "case"
+      }
+    ],
+    relatedLinks: [
+      { label: "Se vores andre arkitekttegnede villaer", href: "/villaer" },
+      { label: "Læs om processen fra idé til færdigt hus", href: "/om" }
+    ]
+  },
+  {
     slug: "overgang-mellem-ude-og-inde",
     image: "/images/Sommervangen/Sommervangen sommerhus med stort glasparti og udsyn over klitterne.webp",
     images: [

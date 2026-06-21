@@ -26,6 +26,15 @@ type Post = {
 const posts: Post[] = [
   // 2026
   {
+    href: "/blog/funkisvilla-vestbjerg-garage",
+    image: "/images/Højgården/Vestsbjerg-ny-funkisvilla-vejside.webp",
+    date: "20 / 06 / 2026",
+    cat: "Cases fra praksis",
+    catKey: "case",
+    title: "Funkisvilla tilpasset det kuperede terræn med 70 m² garage i Vestbjerg",
+    excerpt: "Se hvordan vi designede en moderne funkisvilla til en børnefamilie i Vestbjerg. Huset er tilpasset grundens fald med store glaspartier og en stor garage på 70 m² til bilsamlingen.",
+  },
+  {
     href: "/blog/overgang-mellem-ude-og-inde",
     image: "/images/Sommervangen/Sommervangen sommerhus med stort glasparti og udsyn over klitterne.webp",
     date: "17 / 06 / 2026",
