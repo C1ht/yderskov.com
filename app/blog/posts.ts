@@ -25,33 +25,33 @@ export const posts: BlogPost[] = [
       "/images/Højgården/Vestsbjerg-ny-funkisvilla-haveside.webp",
       "/images/Højgården/Vestsbjerg-ny-funkisvilla-indgangsparti.webp"
     ],
-    metaTitle: "Case: Moderne funkisvilla med 70 m² garage i Vestbjerg — Yderskov",
-    title: "Case: Funkisvilla i Vestbjerg tilpasset det kuperede terræn med stor garage — Arkitekttegnestuen Yderskov",
-    description: "Se hvordan vi designede en moderne funkisvilla i Vestbjerg til en børnefamilie. Huset er tilpasset grundens fald med store glaspartier og en stor garage.",
+    metaTitle: "Case: Funkisvilla i Vestbjerg med integreret luksusgarage på 70 m² — Yderskov",
+    title: "Case: Funkisvilla i Vestbjerg med integreret luksusgarage på 70 m² — Arkitekttegnestuen Yderskov",
+    description: "Læs hvordan vi designede en 70 m² garage og mekanikerværksted, integreret i en moderne funkisvilla i Vestbjerg til en bilglad familie.",
     date: "20 / 06 / 2026",
     cat: "Cases fra praksis",
     catKey: "case",
-    lead: "Hvordan forener man en børnefamilies behov for en funktionel hverdag med en fantastisk udsigtsgrund og plads til en pladskrævende bilhobby? Svaret er denne arkitekttegnede funkisvilla i Vestbjerg. Boligen er nænsomt tilpasset en grund med fald og byder på åbne facader, store glaspartier og en specialbygget garage på hele 70 m².",
+    lead: "For manden i denne funkisvilla i Vestbjerg var en almindelig garage ikke nok. Som uddannet mekaniker og passioneret bilentusiast var drømmen et fuldt udstyret, integreret hobbyværksted på 70 m². Læs hvordan vi designede en garage, der arkitektonisk og funktionelt smelter sammen med familiens 205 m² funkisvilla.",
     sections: [
       {
-        heading: "Tilpasset grundens fald og den naturskønne udsigt",
+        heading: "Drømmen om det fuldendte hobbyværksted",
         paragraphs: [
-          "Vestbjerg byder på kuperet terræn og smukke landskaber, og netop denne grund havde et markant fald. I stedet for at udjævne terrænet valgte vi at tegne et hus, der følger faldet naturligt. Ved at lade niveauerne glide med jorden opnåede vi et unikt og dynamisk flow indendørs, samtidig med at villaen fremstår diskret og elegant indpasset i landskabet.",
-          "Med store skydedørspartier og åbne facader mod havesiden trækkes dagslyset helt ind i husets hjerte. Når dørene skydes til side på varme dage, forsvinder overgangen mellem det lyse køkken-alrum og uderummet, så familien kan nyde den uforstyrrede udsigt over naturen."
+          "Mange nybyggere drømmer om et stort køkken-alrum eller en forældreafdeling, men for bygherren i dette projekt i Vestbjerg var garagen det absolut vigtigste rum. Manden i huset er mekaniker og elsker at bruge sin fritid på at makke med biler. Derfor designede vi en garage på hele 70 m² – langt større end en standardgarage – skræddersyet til tunge bilprojekter og værktøj.",
+          "Garagen er opført med ekstra loftshøjde, så der er plads til en autolift. Der er tænkt på alt fra slidstærkt epoxygulv og professionel belysning til kraftige strømudtag og dedikerede arbejdszoner, der gør det muligt at arbejde under optimale forhold året rundt."
         ]
       },
       {
-        heading: "En funktionel base for en familie på fire",
+        heading: "Arkitektonisk integration med funkisvillaen",
         paragraphs: [
-          "Villaens planløsning er designet specifikt til en travl hverdag for en familie bestående af to voksne og to små børn. De 205 m² byder på en opdeling med forældreafdeling og børneafdeling, men med et centralt, samlende alrum, hvor familien kan være sammen under madlavning, leg og afslapning.",
-          "Hver detalje er tænkt ind i børnehøjde med robuste materialer, der kan tåle hverdagens slid, og smarte opbevaringsløsninger i både værelser og gangarealer. Derudover rummer huset et stort og praktisk bryggers, som er en uundværlig detalje for en børnefamilie efter udendørs leg."
+          "En stor udfordring ved garager i denne størrelsesorden er, at de let kan komme til at ligne en industrikasse, der er klistret på huset. Her har vi integreret de 70 m² direkte i villaens samlede funkis-arkitektur. Med fladt tag, matchende facadebeklædning og rene linjer fremstår garagen som en smuk, naturlig forlængelse af selve boligen.",
+          "Porten er valgt i et enkelt, stilrent design, der flugter med facadens udtryk. Naturen og lyset trækkes ind i boligen via store skydedørspartier på havesiden, mens garagen mod vejen danner en rolig, lukket ryg, der skærmer af for indblik."
         ]
       },
       {
-        heading: "Drømmen om det ultimative værksted: En garage på 70 m²",
+        heading: "Den funktionelle overgang til hverdagen",
         paragraphs: [
-          "Manden i huset er uddannet mekaniker og elsker at makke med biler i sin fritid. En standardgarage var derfor ikke nok. Løsningen blev en stor garage på 70 m², der er fuldt integreret i husets arkitektoniske formsprog.",
-          "Garagen fungerer ikke blot som bilparkering, men som et professionelt indrettet hobbyværksted med højt til loftet, god belysning og plads til alt nødvendigt værktøj. Den er placeret i direkte forbindelse med boligen, så man kan gå tørskoet fra bilen og værkstedet direkte ind i husets bryggers. Det gør garagen til en aktiv og integreret del af boligens samlede funktionalitet.",
+          "Udover at være et mekanikerværksted er garagen også tænkt ind i familiens daglige logistik med to voksne og to små børn. Der er etableret en direkte, tørskoet gennemgang fra garagen og ind i husets store bryggers. På den måde kan man gå direkte fra værkstedet eller bilen ind i huset uden at slæbe olie og snavs med ind i opholdsrummene.",
+          "Det gør garagen til en praktisk sluse i hverdagen, hvor der også er plads til børnenes overtøj, våde støvler og opbevaring, mens bilerne og værktøjet har deres helt egen, uforstyrrede zone.",
           "Se flere af vores [villaer](/villaer) eller læs mere [om vores proces](/om) for at se, hvordan vi kan skræddersy dit næste byggeprojekt."
         ],
         type: "case"

@@ -31,8 +31,8 @@ const posts: Post[] = [
     date: "20 / 06 / 2026",
     cat: "Cases fra praksis",
     catKey: "case",
-    title: "Funkisvilla tilpasset det kuperede terræn med 70 m² garage i Vestbjerg",
-    excerpt: "Se hvordan vi designede en moderne funkisvilla til en børnefamilie i Vestbjerg. Huset er tilpasset grundens fald med store glaspartier og en stor garage på 70 m² til bilsamlingen.",
+    title: "Funkisvilla i Vestbjerg med integreret luksusgarage på 70 m²",
+    excerpt: "Drømmen om det ultimative hobbyværksted blev til virkelighed i Vestbjerg. Læs hvordan vi integrerede en 70 m² stor garage til mekanikerens bilhobby i villaens funkisarkitektur.",
   },
   {
     href: "/blog/overgang-mellem-ude-og-inde",
