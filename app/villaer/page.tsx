@@ -74,7 +74,7 @@ const projectGalleries = [
     location: "Vestbjerg, Nordjylland",
     size: "205 m² bolig · 70 m² garage · 6 m² overdækning",
     year: "",
-    description: "Funkisvilla tilpasset en grund med markant fald — halvdelen af huset ligger nede, halvdelen oppe, så niveauerne følger terrænet naturligt. Indgangspartiet er forhøjet og beklædt med lister for tydeligt at markere husets entré. Store skydedørspartier og åbne facader giver lys og udsigt. Familien ønskede niveauforskelle indendørs, åben forbindelse mellem soveværelse og bad, og en stor garage. Bryggers med hundevaskeplads.",
+    description: "Funkisvilla tilpasset en grund med fald og skøn udsigt over den omkringliggende natur og det åbne landskab. Naturen og lyset trækkes ind i boligen ved at designe huset med store skydedørspartier og åbne facader.",
     images: [
       { src: "/images/Højgården/Vestsbjerg-ny-funkisvilla-haveside.webp", alt: "Funkisvilla med niveauforskelle, haveside, Vestbjerg — Arkitekttegnestuen Yderskov" },
       { src: "/images/Højgården/Vestsbjerg-ny-funkisvilla-indgangsparti.webp", alt: "Indgangsparti på funkisvilla i Vestbjerg — Arkitekttegnestuen Yderskov" },
