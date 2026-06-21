@@ -27,7 +27,7 @@ export default function HomePage() {
         showQuote
         bright
         lines={[
-          "I har tankerne, vi sætter stregerne.",
+          "Vi dækker hele landet.",
           "Byggeri tegnet kun til jer, til jeres grund, jeres ønsker og jeres budget.",
           "Gratis og uforpligtende første idemøde. Vi kommer ud til jer.",
         ]}
