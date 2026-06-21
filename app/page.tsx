@@ -24,14 +24,14 @@ export default function HomePage() {
       <Hero
         slides={[{ src: "/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp", alt: "Udsigtsvilla med terrasse og byudsigt, Frederikshavn — Arkitekttegnestuen Yderskov" }]}
         tag="Hjem"
+        subtitle="Vi løser opgaver i hele landet"
         showQuote
         bright
         lines={[
           "Vi dækker hele landet.",
-          "Byggeri tegnet kun til jer, til jeres grund, jeres ønsker og jeres budget.",
           "Gratis og uforpligtende første idemøde. Vi kommer ud til jer.",
         ]}
-        italicLines={[1, 2]}
+        italicLines={[1]}
       />
 
       {/* Trust strip */}
