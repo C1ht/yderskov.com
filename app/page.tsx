@@ -262,7 +262,7 @@ export default function HomePage() {
           <div className="text-2col">
             <div>
               <span className="eyebrow">Om tegnestuen</span>
-              <h1 className="sec-hed">Arkitekt og tegnestue<br />nær Aalborg</h1>
+              <h1 className="sec-hed" style={{ fontSize: "clamp(1.6rem, 3.5vw, 2.6rem)", lineHeight: 1.15 }}>Landsdækkende arkitekttegnestue:<br />Vi kommer til dig, uanset hvor i landet du bygger</h1>
               <div className="about-tags" style={{ marginTop: "1.5rem" }}>
                 <Link href="/kontakt" className="tag tag-dark">Kontakt os →</Link>
                 <Link href="/priser" className="tag">Se priser</Link>
