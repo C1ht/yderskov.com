@@ -582,8 +582,9 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   <div class="intro-eyebrow">Velkommen · yderskov.com</div>
   <div class="intro-heading">Find inspiration til dit byggeri</div>
   <div class="intro-text">
-    <p>Drømmen om at bygge nyt, bygge til eller renovere starter altid med en god idé og en portion inspiration. Dette katalog er skabt som et inspirationsværktøj til jer, der går med byggeplaner. Her kan I se et lille udvalg af vores afsluttede projekter, studere plantegninger og lade jer inspirere af forskellige arkitektoniske former, materialevalg og lysindfald.</p>
-    <p>Hos <strong>Arkitekttegnestuen Yderskov</strong> har vi more end 25 års erfaring med at tegne og opføre unikke huse og byggerier i hele Danmark. Vi har stået i spidsen for over 300 vellykkede byggerier – lige fra moderne funkisvillaer og naturskønne sommerhuse til funktionelle tilbygninger. Vores tegnestue adskiller sig ved at tilbyde en samlet proces med faste håndværkere, hvilket giver jer en god byggeproces.</p>
+    <p>Vores inspirationskatalog er sammensat af udførte byggerier, her finder du ikke ai-billeder.</p>
+    <p>Her kan I se et lille udvalg af vores projekter, studere plantegninger og lade jer inspirere af forskellige udformninger, materialevalg og lysindfald osv.</p>
+    <p>Hos <strong>Arkitekttegnestuen Yderskov</strong> har vi mere end 25 års erfaring med at tegne og opføre unikke huse og byggerier i hele Danmark. Vi har stået i spidsen for over 300 vellykkede byggerier – lige fra moderne funkisvillaer og naturskønne sommerhuse til funktionelle tilbygninger. Vores tegnestue adskiller sig ved at tilbyde en samlet proces med faste håndværkere, hvilket giver jer en god byggeproces.</p>
     <p>Brug dette katalog som et moodboard. Tag noter, sæt kryds ved de løsninger, I kan lide, og tag kataloget med til vores første møde. Vi tilbyder altid et <strong>gratis og helt uforpligtende idémøde</strong> f.eks. på jeres byggegrund, hvor vi sammen kan drøfte mulighederne for at realisere jeres drømmebyggeri.</p>
     <p>Vi glæder os til at høre om jeres tanker.</p>
     <div class="intro-signature">
@@ -647,21 +648,21 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
       <div class="proc-step-num-box">03</div>
       <div class="proc-step-content">
         <h3 class="proc-step-title">Endeligt myndighedsprojekt</h3>
-        <p class="proc-step-desc">Når skitserne er godkendt af jer, udarbejder vi det fulde myndighedsprojekt. Dette indeholder alle nødvendige tekniske tegninger, snit og beregninger til ansøgning om byggetilladelse.</p>
+        <p class="proc-step-desc">Når skitserne er godkendt af jer, udarbejder vi det fulde myndighedsprojekt. Dette indeholder alle nødvendige tekniske tegninger, ansøgningsskema med relevant information, beregninger m.v. til ansøgning om byggetilladelse.</p>
       </div>
     </div>
     <div class="proc-step">
       <div class="proc-step-num-box">04</div>
       <div class="proc-step-content">
         <h3 class="proc-step-title">Byggetilladelse</h3>
-        <p class="proc-step-desc">Vi varetager al kommunikation med kommunen til byggetilladelsen er i hus.</p>
+        <p class="proc-step-desc">Vi varetager al kommunikation med kommunen til vi modtager byggetilladelsen.</p>
       </div>
     </div>
     <div class="proc-step">
       <div class="proc-step-num-box">05</div>
       <div class="proc-step-content">
         <h3 class="proc-step-title">Byggefase</h3>
-        <p class="proc-step-desc">Vores faste håndværkere beregner en pris på byggeriet og I det der passer jer. Huset opføres under tilsyn og økonomisk koordinering af os.</p>
+        <p class="proc-step-desc">Vores faste håndværkere beregner en pris på byggeriet. Huset opføres under tilsyn og økonomisk koordinering af os.</p>
       </div>
     </div>
     <div class="proc-step">
