@@ -78,6 +78,9 @@ export default function HeroForm() {
       <p className="form-or-call">
         Eller ring <a href="tel:29723427">29 72 34 27</a>
       </p>
+      <p style={{ fontSize: "0.76rem", color: "var(--sub)", textAlign: "center", marginTop: "0.3rem" }}>
+        Vi vender tilbage inden 24 timer
+      </p>
     </form>
   );
 }

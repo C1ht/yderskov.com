@@ -24,7 +24,7 @@ export default function HomePage() {
       <Hero
         slides={[{ src: "/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp", alt: "Udsigtsvilla med terrasse og byudsigt, Frederikshavn — Arkitekttegnestuen Yderskov" }]}
         tag="Hjem"
-        subtitle="Vi dækker hele landet."
+        subtitle="Vi dækker hele landet"
         subtitleStyle={{ fontSize: "clamp(1.2rem, 3vw, 2.1rem)", fontWeight: 400 }}
         showQuote
         bright
