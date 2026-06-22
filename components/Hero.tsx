@@ -7,12 +7,14 @@ interface HeroProps {
   title?: string;
   tag?: string;
   subtitle?: string;
+  subtitleStyle?: React.CSSProperties;
   lines?: string[];
   italicLines?: number[];
   showForm?: boolean;
   showTabs?: boolean;
   showQuote?: boolean;
   bright?: boolean;
+  show24h?: boolean;
 }
 
 const defaultSlides: HeroSlide[] = [
@@ -34,6 +36,7 @@ export default function Hero({
   title = "Arkitekt Yderskov",
   tag,
   subtitle = "Tanker & Streger",
+  subtitleStyle,
   lines = [
     "I har tankerne, vi sætter stregerne.",
     "Gratis og uforpligtende første idemøde. Vi kommer ud til jer.",
@@ -44,6 +47,7 @@ export default function Hero({
   showTabs = false,
   showQuote = true,
   bright = false,
+  show24h = true,
 }: HeroProps) {
   return (
     <section className={`hero${bright ? " hero-bright" : ""}`}>
@@ -57,7 +61,7 @@ export default function Hero({
           <div className="hero-left">
             {/* LCP element — server-rendered, no JS dependency */}
             <p className="hero-left-super hero-tag">Arkitekt Yderskov</p>
-            <p className="hero-left-title">{subtitle === "Tanker & Streger" && tag !== "Hjem" ? tag : subtitle}</p>
+            <p className="hero-left-title" style={subtitleStyle}>{subtitle === "Tanker & Streger" && tag !== "Hjem" ? tag : subtitle}</p>
             {lines.map((line, i) => (
               <p
                 key={i}
@@ -70,9 +74,11 @@ export default function Hero({
                 {line}
               </p>
             ))}
-            <span className="hero-24h" style={{ marginTop: "0.85rem", display: "flex" }}>
-              Vi vender tilbage inden 24 timer på alle henvendelser
-            </span>
+            {show24h && (
+              <span className="hero-24h" style={{ marginTop: "0.85rem", display: "flex" }}>
+                Vi vender tilbage inden 24 timer på alle henvendelser
+              </span>
+            )}
 
             {showQuote && (
               <div className="hero-mini-quote">

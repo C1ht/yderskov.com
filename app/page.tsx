@@ -24,14 +24,12 @@ export default function HomePage() {
       <Hero
         slides={[{ src: "/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp", alt: "Udsigtsvilla med terrasse og byudsigt, Frederikshavn — Arkitekttegnestuen Yderskov" }]}
         tag="Hjem"
-        subtitle="Vi løser opgaver i hele landet"
+        subtitle="Vi dækker hele landet."
+        subtitleStyle={{ fontSize: "clamp(1.2rem, 3vw, 2.1rem)", fontWeight: 400 }}
         showQuote
         bright
-        lines={[
-          "Vi dækker hele landet.",
-          "Gratis og uforpligtende første idemøde. Vi kommer ud til jer.",
-        ]}
-        italicLines={[1]}
+        lines={[]}
+        show24h={false}
       />
 
       {/* Trust strip */}
@@ -290,7 +288,7 @@ export default function HomePage() {
                 Det får du hos Arkitekttegnestuen Yderskov:
               </p>
               <ul className="body-p" style={{ paddingLeft: "1.2rem", marginTop: "0.5rem", listStyleType: "disc" }}>
-                <li style={{ marginBottom: "0.3rem" }}>Nybyggeri af villa og sommerhus nær Aalborg og i Nordjylland</li>
+                <li style={{ marginBottom: "0.3rem" }}>Nybyggeri af villa og sommerhus nær Aalborg og i resten af landet</li>
                 <li style={{ marginBottom: "0.3rem" }}>Tilbygning og ombygning tilpasset dit budget</li>
                 <li style={{ marginBottom: "0.3rem" }}>Ombygning af planløsning, tagetage, køkken-alrum eller...</li>
                 <li style={{ marginBottom: "0.3rem" }}>Mindre erhvervsbyggeri i Nordjylland</li>
