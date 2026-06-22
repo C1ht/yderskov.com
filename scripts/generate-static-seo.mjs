@@ -8,7 +8,14 @@ const slugRegex = /slug:\s*"([^"]+)"/g;
 let match;
 const slugs = [];
 while ((match = slugRegex.exec(postsContent)) !== null) {
-  slugs.push(match[1]);
+  const slug = match[1];
+  const startIdx = match.index;
+  const nextSlugMatch = postsContent.indexOf('slug:', startIdx + 1);
+  const endIdx = nextSlugMatch !== -1 ? nextSlugMatch : postsContent.length;
+  const chunk = postsContent.substring(startIdx, endIdx);
+  if (!chunk.includes('redirect:')) {
+    slugs.push(slug);
+  }
 }
 
 // Remove duplicates if any

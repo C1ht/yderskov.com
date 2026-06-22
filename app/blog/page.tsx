@@ -41,7 +41,7 @@ const posts: Post[] = [
     cat: "Sommerhus",
     catKey: "sommerhus",
     title: "Hvordan skaber man en god overgang mellem ude og inde?",
-    excerpt: "En flydende overgang mellem uderum og indearealer bringer naturen helt tæt på. Læs arkitektens guide til niveaufri adgang, materialer og dagslys med billeder fra projektet Sommervangen.",
+    excerpt: "En flydende overgang mellem ude og inde forlænger boligen og bringer naturen tæt på. Få arkitektens råd til niveaufri adgang, materialer, dagslys og overdækning med billeder fra både sommerhuse og villaer.",
   },
   {
     href: "/blog/indbygget-biopejs-sommerhus",
@@ -150,15 +150,6 @@ const posts: Post[] = [
     catKey: "villa",
     title: "Hvordan planlægger man udsigt fra en bolig?",
     excerpt: "Udsigt er en af de mest værdifulde kvaliteter i en bolig — men den skal planlægges fra første streg. Her gennemgår vi hvordan du maksimerer udsigten uden at gå på kompromis med privatliv og energi.",
-  },
-  {
-    href: "/blog/inde-ude",
-    image: "/images/Karetmagervej/Sæby-ny-villa-funkis-køkken-spiseplads.webp",
-    date: "01 / 05 / 2026",
-    cat: "Villa & boligdesign",
-    catKey: "villa",
-    title: "Hvordan laver man en god overgang mellem inde og ude?",
-    excerpt: "En god overgang mellem inde og ude forlænger boligen og gør hverdagen rigere. Her gennemgår vi de vigtigste greb — fra terrassedøre og niveauforskelle til materialer og overdækning.",
   },
   {
     href: "/blog/legeomraade",

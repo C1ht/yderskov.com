@@ -14,6 +14,7 @@ export type BlogPost = {
   relatedLinks?: RelatedLink[];
   image?: string;
   images?: string[];
+  redirect?: string;
 };
 
 export const posts: BlogPost[] = [
@@ -67,7 +68,8 @@ export const posts: BlogPost[] = [
     image: "/images/Sommervangen/Sommervangen sommerhus med stort glasparti og udsyn over klitterne.webp",
     images: [
       "/images/Sommervangen/Sommervangen sommerhus med stort glasparti og udsyn over klitterne.webp",
-      "/images/Sommervangen/sommervangen sommerhus med træterrasse indkik gennem store glaspartier.webp"
+      "/images/Sommervangen/sommervangen sommerhus med træterrasse indkik gennem store glaspartier.webp",
+      "/images/Karetmagervej/Sæby-ny-villa-funkis-køkken-spiseplads.webp"
     ],
     metaTitle: "Hvordan skaber man en god overgang mellem ude og inde? — Yderskov",
     title: "Hvordan skaber man en god overgang mellem ude og inde? Få arkitektens råd — Arkitekttegnestuen Yderskov",
@@ -75,41 +77,62 @@ export const posts: BlogPost[] = [
     date: "17 / 06 / 2026",
     cat: "Sommerhus",
     catKey: "sommerhus",
-    lead: "En flydende overgang mellem uderum og indearealer kan få din bolig til at føles dobbelt så stor og bringe naturen helt tæt på. Men hvordan skaber man den perfekte synergi? Det handler om meget mere end blot store vinduer. Her deler vi vores bedste arkitektoniske råd om niveaufri adgang, gennemgående materialer, overdækninger og sigtelinjer — og viser, hvordan vi har løst det i praksis i vores sommerhusprojekt, Sommervangen.",
+    lead: "En flydende overgang mellem uderum og indearealer kan få din bolig til at føles dobbelt så stor og bringe naturen helt tæt på. Men hvordan skaber man den perfekte synergi? Det handler om meget mere end blot store vinduer. Her deler vi vores bedste arkitektoniske råd om niveaufri adgang, gennemgående materialer, overdækninger og sigtelinjer — og viser, hvordan vi har løst det i praksis i vores sommerhusprojekt, Sommervangen, samt i vores funkisvilla i Sæby.",
     sections: [
       {
-        heading: "1. Niveaufri adgang og store skydedøre",
+        heading: "Hvorfor overgangen betyder så meget",
         paragraphs: [
-          "Det første skridt mod en flydende overgang er at fjerne det fysiske trin mellem inde og ude. Niveaufri adgang sikrer, at gulvet inde fortsætter direkte ud i terrassen uden afbrydelser. Det giver en ubesværet adgang og en stærk følelse af sammenhæng.",
-          "Kombineret med store skydedøre eller foldedøre af glas kan du åbne husets facade helt op på en varm sommerdag. Når dørene skydes til side, forsvinder grænsen mellem stuen og terrassen helt, og uderummet bliver en integreret del af boligens areal."
+          "Grænsen mellem inde og ude er en af boligens mest brugte og mindst planlagte zoner. Vi går ud og ind hundredvis af gange om året — og hver gang vi gør det, oplever vi overgangen. En god overgang giver en følelse af lethed og sammenhæng. En dårlig overgang — en høj tærskel, et niveauskift eller en dør, der ikke matcher terrassen — bryder rytmen og gør boligen mere lukket, end den behøver at være.",
+          "Den bedste overgang er den, man næsten ikke lægger mærke til. Man bevæger sig fra stuen ud på terrassen og tilbage igen uden at tænke over det. Det kræver, at niveauerne stemmer overens, at materialeovergangen er blød, og at åbningen er stor nok til, at lys, luft og blik flyder frit."
         ]
       },
       {
-        heading: "2. Gennemgående materialer skaber visuel ro",
+        heading: "1. Niveaufri adgang og niveauforskelle — det vigtigste greb",
         paragraphs: [
-          "Et af de mest effektive arkitektoniske greb er at lade materialerne fortsætte fra stuen eller køkken-alrummet ud på terrassen. Det skaber en optisk illusion, der visuelt forlænger rummet.",
-          "Det kan være de samme slidstærke klinker, som lægges både i alrummet og på terrassen udenfor, eller et trægulv, der i farvetone og plankebredde matcher træterrassen. Når øjet ikke møder en materialemæssig barriere ved facaden, opleves rummene som én flydende helhed."
+          "Det første og mest afgørende skridt mod en flydende overgang er at fjerne det fysiske trin mellem inde og ude. Niveaufri adgang sikrer, at gulvet inde fortsætter direkte ud i terrassen uden afbrydelser. Det giver en ubesværet adgang og en stærk følelse af sammenhæng.",
+          "Hvis terrassen ligger lavere end gulvniveauet indendørs, opstår der automatisk et både psykologisk og fysisk skel — selvom man blot skal træde et enkelt trin ned. Det bedste er derfor, at terrassegulvet ligger i samme niveau som gulvet indendørs, eller maksimalt 1–2 cm lavere af hensyn til vandafledning.",
+          "Dette stiller store krav til konstruktionen helt fra begyndelsen. Terrassen skal enten hæves til gulvniveauet, eller huset skal placeres lavere i terrænet. Begge løsninger er mulige, men de skal tænkes ind på tegnebrættet, da det er langt nemmere at justere niveauerne på tegningen end at rette op på det efterfølgende.",
+          "På skrånende grunde kan niveauforskelle dog også udnyttes aktivt til at skabe spændende rumforløb — eksempelvis med et udestue-niveau, der flyder videre ud til en nedsænket have. Denne type overgang kan give terrassen en meget beskyttet, intim og hyggelig karakter."
         ]
       },
       {
-        heading: "3. Overdækninger og udhæng som det bløde bindeled",
+        heading: "2. Store glaspartier, skydedøre og åbningens placering",
         paragraphs: [
-          "En overdækket terrasse eller et markant udhæng fungerer som et fantastisk overgangsrum. Det skaber en zone, der hverken er helt ude eller helt inde, men derimod beskytter mod både skarp middagssol og en let sommerregn.",
-          "Udhænget er desuden med til at trække loftets linjer udad og ramme udsigten og naturen smukt ind. Det gør det muligt at bruge uderummet i langt flere af årets måneder, fordi det skaber læ og holder på dagens varme."
+          "En almindelig terrassedør på 90 cm er funktionel, men den skaber ikke en oplevelse af visuel sammenhæng. Kombineres store skydedøre eller foldedøre af glas med husets facade, kan du åbne boligen helt op på en varm sommerdag. Når dørene skydes til side, forsvinder grænsen mellem stuen og terrassen helt, og uderummet bliver en integreret del af boligens areal.",
+          "Store glaspartier og brede skydevægge stiller naturligvis krav til konstruktionen — der skal ofte indbygges et kraftigt bjælkelag over åbningen, ligesom fundamentet skal dimensioneres efter det. Men det er en investering, der betaler sig i både rumoplevelse og dagslys. Faktisk kan et bredt glasparti mod syd eller vest halvere behovet for kunstig belysning i dagtimerne.",
+          "Overvej også åbningens placering tidligt i processen. En terrassedør placeret i hjørnet af stuen giver en helt anden bevægelsesretning og flow end en placering midt på facaden. Den centrale dør inviterer til at gå direkte ud, mens den hjørneplacerede dør kan bruges mere selektivt og give plads til et mere skærmet og roligt opholdsområde på terrassen."
         ]
       },
       {
-        heading: "4. Sigtelinjer og dagslys gennem året",
+        heading: "3. Gennemgående materialer skaber visuel ro",
+        paragraphs: [
+          "Et af de mest effektive arkitektoniske greb til at skabe visuel sammenhæng er at lade materialerne fortsætte fra stuen eller køkken-alrummet ud på terrassen. Når øjet ikke møder en materialemæssig barriere ved facaden, opleves rummene som én flydende helhed.",
+          "Det kan f.eks. være de samme slidstærke klinker, der lægges både i alrummet og på terrassen udenfor, eller et trægulv, der i farvetone og plankebredde matcher træterrassen udenfor. Sten og beton er ligeledes klassiske materialer, der fungerer fremragende i begge zoner. Et poleret betongulv indendørs, der visuelt fortsætter ud i en støbt betonterrasse udendørs, giver et stærkt, tidløst og minimalistisk udtryk.",
+          "Vær dog altid opmærksom på overfladebehandlingen. Det indendørs trægulv er typisk lakeret eller olieret til indendørs brug, mens terrassebrædder skal tåle det omskiftelige danske vejr. Det handler om at opnå det samme visuelle udtryk og tone, selvom materialerne teknisk set har forskellige egenskaber og behandlinger."
+        ]
+      },
+      {
+        heading: "4. Overdækninger og udhæng som det bløde bindeled",
+        paragraphs: [
+          "En overdækket terrasse, et markant udhæng eller en pergola fungerer som en fantastisk mellemzone, der hverken er helt ude eller helt inde. Zonen beskytter mod både skarp middagssol og en let sommerregn, og er ofte boligens mest brugte opholdssted om foråret og efteråret, da den skaber læ og holder på dagens varme.",
+          "For at få maksimal glæde af overdækningen skal den dimensioneres rigtigt. Et udhæng på blot 60 cm kan holde regnen væk fra vinduet, men giver ikke meget reel læ, og det risikerer at skygge unødigt for den lave vintersol. Et udhæng på 1,2–1,5 meter derimod giver reel vejrbeskyttelse og plads til ophold, mens det stadig tillader den lave vintersol at trænge dybt ind i stuen. Den præcise dimensionering og vinkel beregnes bedst af en arkitekt baseret på facadeorienteringen og solens gang.",
+          "Ønsker man at forlænge sæsonen yderligere, kan løsninger som indbygget terrassevarme, halvvægge mod vinden og endda varmerør eller gulvvarme ført helt ud til terrassen tænkes ind. Disse løsninger er lettest at integrere, hvis de planlægges fra begyndelsen, før terrassen støbes."
+        ]
+      },
+      {
+        heading: "5. Sigtelinjer og dagslys gennem året",
         paragraphs: [
           "Selv når dørene er lukket i de kolde måneder, skal den visuelle kontakt bevares. Gennem gennemtænkte sigtelinjer på tværs af huset kan du se haven, skoven eller klitterne, uanset hvor du opholder dig i boligen.",
-          "Store glaspartier trækker årstidernes skiftende farver helt ind i stuen og gør dagslyset til en active del af rumoplevelsen. Ved at placere vinduerne strategisk i forhold til verdenshjørnerne sikrer man et levende og skiftende lys gennem hele dagen."
+          "Store glaspartier trækker årstidernes skiftende farver helt ind i stuen og gør dagslyset til en aktiv del af rumoplevelsen. Ved at placere vinduerne strategisk i forhold til verdenshjørnerne sikrer man et levende, naturligt og skiftende lys gennem hele dagen."
         ]
       },
       {
-        heading: "Case: Sommerhuset Sommervangen",
+        heading: "Case: Sommervangen & Karetmagervej",
         paragraphs: [
-          "Billederne øverst i dette indlæg stammer fra et af vores nyligt opførte [sommerhuse](/sommerhuse), hvor skydedørene og glaspartierne åbner huset mod naturen. Det første billede viser det store, lyse alrum, hvor de store vinduespartier skaber en panoramisk udsigt og trækker det rå klitlandskab helt ind i stuen. Det andet billede viser indkikket fra træterrassen, hvor man ser, hvordan terrassen og husets indre smelter sammen under det store udhæng.",
-          "Overgangen mellem den vilde natur og det hyggelige uderum er designet til at fungere i perfekt harmoni. Du kan se flere af vores [sommerhuse](/sommerhuse) eller læse mere [om vores proces](/om)."
+          "Billederne i dette indlæg stammer fra to af vores nylige projekter, hvor vi har arbejdet målrettet med disse principper for at skabe en flydende overgang.",
+          "De to første billeder viser vores sommerhusprojekt, **Sommervangen**, hvor de store vinduespartier og skydedørene åbner huset mod det rå klitlandskab. Det første billede viser det store, lyse alrum, hvor naturen trækkes helt ind i stuen. Det andet billede viser indkikket fra den brede træterrasse, hvor man ser, hvordan terrassen og husets indre smelter sammen under det store udhæng.",
+          "Det tredje billede stammer fra vores **Funkisvilla i Sæby** (Karetmagervej). Here ser vi, hvordan køkkenet og spisepladsen via store gulv-til-loft glaspartier og en direkte udgang til terrassen forbinder køkken-alrummet med uderummet på smukkeste vis. Det polerede betongulv og den minimalistiske indretning underbygger den flydende overgang til haven.",
+          "Fælles for begge projekter er, at inde-ude-zonen er tænkt ind som en naturlig del af boligens planløsning helt fra første streg. Se flere af vores [sommerhuse](/sommerhuse) og [villaer](/villaer) eller læs mere [om vores proces](/om)."
         ],
         type: "case"
       }
@@ -1527,63 +1550,15 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "inde-ude",
-    image: "/images/Karetmagervej/Sæby-ny-villa-funkis-køkken-spiseplads.webp",
-    metaTitle: "God overgang mellem inde og ude i boligen — Yderskov",
-    title: "Hvordan laver man en god overgang mellem inde og ude?",
-    description: "En god overgang mellem inde og ude forlænger boligen og gør hverdagen rigere. Her gennemgår vi de vigtigste greb — fra terrassedøre og niveauforskelle til materialer og overdækning.",
-    date: "01 / 05 / 2026",
-    cat: "Villa & boligdesign",
-    catKey: "villa",
-    lead: "En bolig der flyder naturligt ud i haven eller på terrassen opleves større og mere levende end én der stopper brat ved yderdøren. Den gode overgang mellem inde og ude er ikke et tilfælde — det er resultatet af bevidste valg om niveauer, materialer, lys og åbninger. Her er de vigtigste principper.",
-    sections: [
-      {
-        heading: "Hvorfor overgangen betyder så meget",
-        paragraphs: [
-          "Grænsen mellem inde og ude er en af boligens mest brugte og mindst planlagte zoner. Vi går ud og ind hundredvis af gange om året — og hver gang vi gør det, oplever vi overgangen. En god overgang giver en følelse af lethed og sammenhæng. En dårlig overgang — en høj tærskel, et niveauskift, en dør der ikke matcher terrassen — bryder rytmen og gør boligen mere lukket end den behøver at være.",
-          "Den bedste overgang er den man næsten ikke lægger mærke til. Man bevæger sig fra stuen ud på terrassen og tilbage igen uden at tænke over det. Det kræver at niveauerne stemmer overens, at materialeovergangen er blød, og at åbningen er stor nok til at lyse, luft og blik flyder frit.",
-        ],
-      },
-      {
-        heading: "Niveauforskelle — det vigtigste greb",
-        paragraphs: [
-          "Det mest afgørende for en god inde-ude-overgang er niveauet. Hvis terrassen ligger lavere end gulvniveauet indendørs, opstår der automatisk et psykologisk og fysisk skel — selv om man blot skal kravle et trin ned. Det bedste er at terrassegulvet ligger i samme niveau som gulvet indendørs, eller maksimalt 1–2 cm lavere af hensyn til vandafledning.",
-          "Det stiller krav til konstruktionen: terrassen skal enten hæves til gulvniveauet, eller huset skal placeres lavere i terrænet. Begge løsninger er mulige, men de skal tænkes ind fra begyndelsen. Det er langt billigere at justere niveauerne på tegningen end at rive en allerede støbt terrasse op.",
-          "På skrånende grunde giver niveauforskelle mulighed for et udestue-niveau der flyder videre ud til en nedsænket have. Denne type overgang kan skabe et meget spændende rumforløb og give terrassen en beskyttet, intim karakter.",
-        ],
-      },
-      {
-        heading: "Åbningens størrelse og type",
-        paragraphs: [
-          "En terrassedør på 90 cm er funktionel — men den skaber ikke en oplevelse af sammenhæng. En skydevæg eller foldedørssystem der åbner hele gavlen kan forvandle boligen radikalt. Pludselig er stuen ikke et lukket rum med en dør ud — det er et rum der fortsætter ud i det fri.",
-          "Store glaspartier stiller krav til konstruktionen — der skal ofte et bjælkelag over åbningen, og fundamentet skal dimensioneres herefter. Men det er en investering der betaler sig i oplevelse og dagslys. Et bredt glasparti mod syd eller vest kan halvere behovet for kunstig belysning i dagtimerne.",
-          "Overvej også åbningens placering. En terrassedør i hjørnet af stuen giver en anden bevægelsesretning end én midt på facaden. Den centrale dør inviterer til at gå direkte ud — den hjørneplacerede dør kan bruges mere selektivt og give et mere skærmet område af terrassen.",
-        ],
-      },
-      {
-        heading: "Materialer der binder inde og ude sammen",
-        paragraphs: [
-          "Et af de mest effektive greb til at skabe visuel sammenhæng er at bruge samme eller lignende materialer indendørs og udendørs. Et trægulv indendørs der fortsætter som terrasebelægning udendørs — eventuelt i samme farvetone men i et vejrbestandigt træ — gør overgangen næsten usynlig.",
-          "Sten og beton er andre klassiske materialer der fungerer godt i begge zoner. Et poleret betongsulv indendørs der matcher en støbt betonterrasse udendørs er et stærkt arkitektonisk greb der er tidløst og slidstærkt.",
-          "Vær opmærksom på overfladebehandling: et indendørs trægulv er typisk lakeret eller olieret til indendørs brug, mens terrasebrædder skal være ubehandlede eller behandlet til udendørs brug. Det er muligt at opnå samme visuelle udtryk — men materialerne er ikke nødvendigvis identiske.",
-        ],
-      },
-      {
-        heading: "Overdækning og vejrbeskyttelse",
-        paragraphs: [
-          "En god overgang bruges ikke kun på solskinsage. En terrasse med overdækning — et udhæng, en pergola, et shedtag — forlænger sæsonen markant og giver en mellemzone der hverken er inde eller ude. Denne zone er boligens mest brugte om foråret og efteråret.",
-          "Overdækningen skal dimensioneres rigtigt. Et udhæng på 60 cm holder regnen ude, men skærmer også for vintersolens lave stråler — hvilket er uønsket. Et udhæng på 1,2–1,5 m giver reel vejrbeskyttelse mens det stadig tillader lav vintersol at trænge ind i stuen. En arkitekt beregner det præcise udhæng baseret på husets breddegrad og facade-orientering.",
-          "Terrassevarme, halvvæg mod vejr og vind, og opvarmede gulve er andre muligheder der forlænger sæsonen. Disse løsninger er lettest at integrere hvis de planlægges fra start — det er dyrt og besværligt at føre varmerør ud i en allerede støbt terrasse.",
-        ],
-      },
-      {
-        heading: "Arkitektens bidrag til inde-ude-zonen",
-        paragraphs: [
-          "En god inde-ude-overgang er ikke noget man tilføjer til et hus bagefter. Den er en integreret del af husets planløsning, konstruktion og facade — og den skal tænkes ind fra allerførste streg.",
-          "Billedet øverst i dette indlæg viser køkkenet og spisepladsen i vores funkisvilla i Sæby (Karetmagervej), hvor store gulv-til-loft glaspartier og en direkte udgang til terrassen forbinder køkken-alrummet med uderummet på smukkeste vis.",
-          "Hos Yderskov Arkitekter tegner vi inde-ude-zonen som en naturlig del af boligen — ikke som et tillæg. Vi analyserer husets orientering, terrænets muligheder og klientens dagligdag, og tegner en løsning der giver mening i netop den kontekst. Kontakt os for et gratis, uforpligtende første møde.",
-        ],
-      },
-    ],
+    redirect: "/blog/overgang-mellem-ude-og-inde",
+    title: "",
+    metaTitle: "",
+    description: "",
+    date: "",
+    cat: "",
+    catKey: "",
+    lead: "",
+    sections: []
   },
   {
     slug: "legeomraade",
