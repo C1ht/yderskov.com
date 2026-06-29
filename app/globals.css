@@ -256,7 +256,7 @@ body.menu-open { overflow: hidden; }
 .hero-dot { width: 5px; height: 5px; border-radius: 50%; background: rgba(255,255,255,0.3); border: none; padding: 0; cursor: pointer; transition: background 0.3s, transform 0.3s; }
 .hero-dot.active { background: #fff; }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .hero { height: auto; min-height: 100svh; justify-content: flex-start !important; }
   .hero-body { padding: 6rem 1.25rem 2rem !important; justify-content: flex-start !important; }
   .hero-main { flex-direction: column; gap: 2rem; }
