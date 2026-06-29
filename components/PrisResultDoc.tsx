@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import EmailPrisskoenModal from "./EmailPrisskoenModal";
 
 const BUDGET_TIPS = [
   { titel: "Vælg standardmaterialer", tekst: "Standardiserede produkter giver samme kvalitet som specialløsninger til 20–40 % lavere pris." },
@@ -51,7 +50,6 @@ export default function PrisResultDoc({
   result: Result;
   onReset: (() => void) | null;
 }) {
-  const [isMailModalOpen, setIsMailModalOpen] = useState(false);
   const s     = result.snap;
   const nVin  = parseInt(s.vinduer)      || 0;
   const nDøre = parseInt(s.terrassedøre) || 0;
@@ -154,14 +152,6 @@ export default function PrisResultDoc({
       </div>
 
       <div className="dr-print-bar" style={{ display: "flex", gap: "1rem", justifyContent: "flex-end" }}>
-        <button type="button" className="dr-print-btn" onClick={() => setIsMailModalOpen(true)}>
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-            <rect x="2" y="4" width="20" height="16" rx="2" />
-            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
-          </svg>
-          Send til min e-mail
-        </button>
-
         <button type="button" className="dr-print-btn" onClick={() => window.print()}>
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
             <polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/>
@@ -169,13 +159,6 @@ export default function PrisResultDoc({
           Udskriv prisskøn
         </button>
       </div>
-
-      {isMailModalOpen && (
-        <EmailPrisskoenModal
-          result={result}
-          onClose={() => setIsMailModalOpen(false)}
-        />
-      )}
 
       {/* ══ 3. BUDGET-TIPS ══════════════════════════════════ */}
       <div className="dr-block">
