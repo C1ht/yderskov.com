@@ -85,7 +85,7 @@ export default function HeroForm() {
       )}
 
       <p style={{ fontSize: "0.68rem", color: "var(--sub)", textAlign: "center", marginTop: "-0.2rem", marginBottom: "0.8rem", lineHeight: "1.4" }}>
-        Ved at sende bekræfter du, at du accepterer at modtage nyhedsbrev samt eventuelt at blive kontaktet af tegnestuen.
+        Ved at sende bekræfter du, at du accepterer at modtage nyhedsbrev.
       </p>
 
       <button type="submit" disabled={loading}>

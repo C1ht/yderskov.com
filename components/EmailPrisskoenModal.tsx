@@ -165,7 +165,7 @@ Vejledende prisskøn:
               )}
 
               <p style={{ fontSize: "0.68rem", color: "var(--sub)", textAlign: "center", marginTop: "-0.5rem", marginBottom: "0.8rem", lineHeight: "1.4" }}>
-                Ved at indsende bekræfter du, at du accepterer at modtage nyhedsbrev samt eventuelt at blive kontaktet af tegnestuen.
+                Ved at indsende bekræfter du, at du accepterer at modtage nyhedsbrev.
               </p>
 
               <button type="submit" disabled={loading} style={{ width: "100%", background: "var(--text)", color: "#fff", border: "none", padding: "0.75rem", borderRadius: "8.14px", cursor: "pointer", fontWeight: 500, fontSize: "0.85rem" }}>
