@@ -28,9 +28,10 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
   // Enable the slide transition only after first render — this prevents
   // the 1.5s fade-in on initial load which was causing the LCP delay.
   useEffect(() => {
+    if (!isCarousel) return;
     const raf = requestAnimationFrame(() => setReady(true));
     return () => cancelAnimationFrame(raf);
-  }, []);
+  }, [isCarousel]);
 
   useEffect(() => {
     if (!isCarousel) return;

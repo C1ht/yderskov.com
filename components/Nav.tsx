@@ -62,33 +62,7 @@ export default function Nav() {
     return () => cancelAnimationFrame(raf);
   }, [pathname]);
 
-  const [closingDropdown, setClosingDropdown] = useState(false);
 
-  useEffect(() => {
-    if (pathname !== "/villaer") return;
-    const raf = requestAnimationFrame(() => {
-      const inner = innerRef.current;
-      const btn = inner?.querySelector<HTMLButtonElement>(".nav-has-dropdown button");
-      if (inner && btn) {
-        const innerRect = inner.getBoundingClientRect();
-        const btnRect = btn.getBoundingClientRect();
-        setDropdownLeft(btnRect.left - innerRect.left + btnRect.width / 2);
-        setActiveDropdown("Projekter");
-        setClosingDropdown(false);
-      }
-    });
-    const closeTimer = setTimeout(() => {
-      setClosingDropdown(true);
-      setTimeout(() => {
-        setActiveDropdown(null);
-        setClosingDropdown(false);
-      }, 2500);
-    }, 2000);
-    return () => {
-      cancelAnimationFrame(raf);
-      clearTimeout(closeTimer);
-    };
-  }, [pathname]);
 
   useEffect(() => {
     if (!activeDropdown) return;
@@ -179,7 +153,7 @@ export default function Nav() {
         </button>
 
         {activeDropdown && activeItem?.children && (
-          <ul className={`nav-dropdown${closingDropdown ? " nav-dropdown-closing" : ""}`} style={{ left: dropdownLeft }}>
+          <ul className="nav-dropdown" style={{ left: dropdownLeft }}>
             {activeItem.children.map((c) => (
               <li key={c.href}>
                 <Link
