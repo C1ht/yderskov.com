@@ -63,19 +63,16 @@ export default function ArkitektAalborgPage() {
             </div>
             <div>
               <p className="body-intro">
-                Hvis du planlægger at bygge nyt eller bygge til og søger en dygtig <strong>arkitekt Aalborg</strong>, er Yderskov Tegnestue din ideelle partner. Med over 15 års erfaring inden for privat boligbyggeri har vi etableret os som en af de førende og mest troværdige arkitekter i regionen.
+                Søger du en kompetent <strong>arkitekt Aalborg</strong>? Yderskov Tegnestue er din erfarne, lokale partner med over 15 års erfaring inden for privat boligbyggeri. Vi tegner og opfører huse med jysk grundighed og solid faglighed.
               </p>
               <p className="body-p">
-                Som din lokale <strong>arkitekt Aalborg</strong> tegner og projekterer vi alt fra eksklusive funkisvillaer i Hasseris i Aalborg og moderne familiehuse i Vestbjerg til funktionelle tilbygninger i Gug og Nørresundby. Vi har et indgående kendskab til Aalborg Kommunes lokalplaner, byggeprocedurer og de særlige geotekniske forhold i området, hvilket sikrer dig en gnidningsfri byggesagsbehandling.
+                Som din lokale <strong>arkitekt Aalborg</strong> designer vi alt fra moderne funkisvillaer i Hasseris til familiehuse i Vestbjerg samt tilbygninger i Gug og Nørresundby. Vi har et dybtgående kendskab til Aalborg Kommunes lokalplaner, hvilket sikrer en hurtig og gnidningsfri byggetilladelse.
               </p>
               <p className="body-p">
-                Hos Yderskov tror vi på, at god arkitektur skal gå hånd i hånd med økonomisk tryghed. Mange bygherrer frygter, at et samarbejde med en <strong>arkitekt Aalborg</strong> kan medføre uforudsigelige ekstraregninger og budgetskred. Det har vi gjort op med. Vi tilbyder en unik samlet proces. Vi tegner projektet, udarbejder myndighedsprojektet og bygger boligen med vores egne faste tømrer- og murerhold. Det betyder, at vi kan give dig en fast pris på hele projektet, inden spaden stikkes i jorden. Du slipper for ubehagelige overraskelser og skal kun kommunikere med én enkelt ansvarlig part gennem hele forløbet.
+                Hos Yderskov forener vi gennemtænkt arkitektur med fuld økonomisk tryghed. Vi projekterer, tegner og opfører dit byggeri med vores egne faste håndværkere til en <strong>aftalt fast pris</strong>. Det beskytter dig mod budgetskred, og du skal kun kommunikere med én part under hele processen.
               </p>
               <p className="body-p">
-                Som en erfaren tegnestue i Nordjylland tegner vi huse, der tager udgangspunkt i grundens unikke kvaliteter, dagslysets gang og din families hverdagsliv. Vores tegnestue i Brønderslev ligger kun en kort køretur fra Aalborg, og vi mødes altid gerne med dig direkte på din byggegrund i Aalborg-området til et gratis, uforpligtende idémøde. Her kan vi drøfte dine visioner, vurdere grundens potentiale og give dig de første råd om placering og formsprog.
-              </p>
-              <p className="body-p">
-                Uanset om du vil bygge en herskabelig patriciervilla, et minimalistisk længehus eller en moderne tilbygning, der komplementerer din nuværende bolig, sikrer vi en proces præget af høj faglig kvalitet, fleksibilitet og tæt personlig dialog. Kontakt Yderskov i dag og hør, hvordan vi som din <strong>arkitekt Aalborg</strong> kan hjælpe dig sikkert i mål med din byggedrøm.
+                Uanset om du drømmer om en patriciervilla, et minimalistisk længehus eller en moderne tilbygning, tager vi altid udgangspunkt i grundens dagslys og dine ønsker. Vi tilbyder et <strong>gratis og uforpligtende idémøde</strong> direkte på din byggegrund i Aalborg og omegn. Kontakt os i dag for at høre mere.
               </p>
               <div className="about-tags" style={{ marginTop: "2rem" }}>
                 <Link href="#kontakt" className="tag tag-dark">Book gratis idémøde →</Link>
