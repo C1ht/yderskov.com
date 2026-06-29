@@ -6,6 +6,7 @@ import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
 import CtaBand from "@/components/CtaBand";
 import InspirationGallery from "@/components/InspirationGallery";
+import CatalogDownloadButtons from "@/components/CatalogDownloadButtons";
 
 export const metadata: Metadata = {
   title: "Arkitekt Aalborg — Tegnestue med fast pris | Yderskov",
@@ -161,33 +162,7 @@ export default function ArkitektAalborgPage() {
                 Vi har samlet et udsnit af vores projekter i et inspirationskatalog. Gå på opdagelse i vores afsluttede villaer, sommerhuse samt om- og tilbygninger. Få inspiration til materialevalg, planløsninger og lysindfald. Tag gerne kataloget med til vores første gratis, uforpligtende møde.
               </p>
               
-              <div className="catalog-actions">
-                <a
-                  href="/katalog-inspiration.pdf?v=3"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-katalog-open"
-                >
-                  Se vores inspirationskatalog →
-                </a>
-                <a
-                  href="/katalog-inspiration.pdf?v=3"
-                  download="Yderskov-Arkitekter-Inspirationskatalog.pdf"
-                  className="btn-katalog-download"
-                >
-                  Download inspirationskatalog
-                </a>
-              </div>
-              
-              <div className="catalog-extra">
-                <a
-                  href="/katalog-inspiration-print.pdf?v=3"
-                  download="Yderskov-Arkitekter-Inspirationskatalog-Print.pdf"
-                  className="catalog-print-link"
-                >
-                  Hent print-venlig version (hvid baggrund)
-                </a>
-              </div>
+              <CatalogDownloadButtons />
             </div>
           </div>
         </div>
