@@ -6,6 +6,7 @@ import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
 import ImageGrid from "@/components/ImageGrid";
 import CtaBand from "@/components/CtaBand";
+import InspirationGallery from "@/components/InspirationGallery";
 
 export const metadata: Metadata = {
   title: "Specialbyggeri & unik arkitektur | Yderskov Arkitekter",
@@ -128,6 +129,15 @@ export default function SpecialPage() {
           <div className="stat"><div className="stat-num">2009</div><div className="stat-lbl">Grundlagt</div></div>
         </div>
       </div>
+
+      {/* Inspiration Galleri */}
+      <section className="s s-off">
+        <div className="s-inner">
+          <span className="eyebrow">Galleri</span>
+          <h2 className="sec-hed">Inspiration</h2>
+          <InspirationGallery />
+        </div>
+      </section>
 
       <CtaBand />
 

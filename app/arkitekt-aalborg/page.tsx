@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
 import CtaBand from "@/components/CtaBand";
+import InspirationGallery from "@/components/InspirationGallery";
 
 export const metadata: Metadata = {
   title: "Arkitekt Aalborg — Tegnestue med fast pris | Yderskov",
@@ -245,6 +246,15 @@ export default function ArkitektAalborgPage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Inspiration Galleri */}
+      <section className="s s-off">
+        <div className="s-inner">
+          <span className="eyebrow">Galleri</span>
+          <h2 className="sec-hed">Inspiration</h2>
+          <InspirationGallery />
         </div>
       </section>
 
