@@ -257,7 +257,7 @@ body.menu-open { overflow: hidden; }
 
 @media (max-width: 900px) {
   .hero { height: auto; min-height: 100svh; }
-  .hero-body { padding: 2.5rem 1.25rem 2rem; }
+  .hero-body { padding: 7rem 1.25rem 2rem !important; justify-content: flex-start !important; }
   .hero-main { flex-direction: column; gap: 2rem; }
   .hero-right { display: none; }
   .hero-tabs { display: none; }
@@ -267,7 +267,9 @@ body.menu-open { overflow: hidden; }
     top: auto !important;
     bottom: 0 !important;
     object-fit: cover !important;
+    object-position: 63% center !important;
   }
+  .nav-dropdown { display: none !important; }
 }
 
 /* ── SECTIONS ── */
