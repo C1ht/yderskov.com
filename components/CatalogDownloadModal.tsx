@@ -100,7 +100,7 @@ export default function CatalogDownloadModal({ mode, onClose }: CatalogDownloadM
           ✕
         </button>
 
-        <p className="hero-form-title" style={{ fontSize: "1.1rem", marginBottom: "0.5rem", textTransform: "none", letterSpacing: "0" }}>
+        <p className="hero-form-title" style={{ fontSize: "1.1rem", marginBottom: "0.5rem", textTransform: "none", letterSpacing: "0", paddingRight: "1.5rem" }}>
           Hent inspirationskatalog
         </p>
         <p style={{ fontSize: "0.8rem", color: "var(--sub)", marginBottom: "1.5rem", lineHeight: "1.4" }}>
@@ -117,10 +117,6 @@ export default function CatalogDownloadModal({ mode, onClose }: CatalogDownloadM
               {error}
             </p>
           )}
-
-          <p style={{ fontSize: "0.68rem", color: "var(--sub)", textAlign: "center", marginTop: "-0.5rem", marginBottom: "0.8rem", lineHeight: "1.4" }}>
-            Ved at indsende bekræfter du, at du accepterer at modtage vores nyhedsbrev.
-          </p>
 
           <button type="submit" disabled={loading} style={{ width: "100%", background: "var(--text)", color: "#fff", border: "none", padding: "0.75rem", borderRadius: "8.14px", cursor: "pointer", fontWeight: 500, fontSize: "0.85rem" }}>
             {loading ? "Henter..." : "Se katalog nu →"}

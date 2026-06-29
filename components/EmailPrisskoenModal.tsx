@@ -146,7 +146,7 @@ Vejledende prisskøn:
           </div>
         ) : (
           <>
-            <p className="hero-form-title" style={{ fontSize: "1.1rem", marginBottom: "0.5rem", textTransform: "none", letterSpacing: "0" }}>
+            <p className="hero-form-title" style={{ fontSize: "1.1rem", marginBottom: "0.5rem", textTransform: "none", letterSpacing: "0", paddingRight: "1.5rem" }}>
               Send prisskøn til min e-mail
             </p>
             <p style={{ fontSize: "0.8rem", color: "var(--sub)", marginBottom: "1.5rem", lineHeight: "1.4" }}>
@@ -158,15 +158,11 @@ Vejledende prisskøn:
               <input type="email" name="email" placeholder="E-mail" required style={{ width: "100%", padding: "0.6rem 0.8rem", marginBottom: "0.6rem", border: "1px solid var(--border)", borderRadius: "7.26px" }} />
               <input type="tel" name="telefon" placeholder="Telefon" required style={{ width: "100%", padding: "0.6rem 0.8rem", marginBottom: "1rem", border: "1px solid var(--border)", borderRadius: "7.26px" }} />
               
-              {error && (
+               {error && (
                 <p style={{ color: "#d93025", fontSize: "0.8rem", marginBottom: "0.8rem", textAlign: "center" }}>
                   {error}
                 </p>
               )}
-
-              <p style={{ fontSize: "0.68rem", color: "var(--sub)", textAlign: "center", marginTop: "-0.5rem", marginBottom: "0.8rem", lineHeight: "1.4" }}>
-                Ved at indsende bekræfter du, at du accepterer at modtage vores nyhedsbrev.
-              </p>
 
               <button type="submit" disabled={loading} style={{ width: "100%", background: "var(--text)", color: "#fff", border: "none", padding: "0.75rem", borderRadius: "8.14px", cursor: "pointer", fontWeight: 500, fontSize: "0.85rem" }}>
                 {loading ? "Sender..." : "Send prisskøn →"}
