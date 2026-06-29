@@ -202,6 +202,7 @@ body.menu-open { overflow: hidden; }
   .hamburger { display: flex; }
   .nav-links { display: none; }
   .nav-inner { gap: 0; padding: 6px 8px; }
+  .nav-dropdown { display: none !important; }
 }
 
 @media (max-width: 768px) {
@@ -269,7 +270,6 @@ body.menu-open { overflow: hidden; }
     object-fit: cover !important;
     object-position: 63% center !important;
   }
-  .nav-dropdown { display: none !important; }
 }
 
 /* ── SECTIONS ── */
