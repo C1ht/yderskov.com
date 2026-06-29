@@ -126,19 +126,16 @@ export default function ArkitektSjaellandPage() {
             </div>
             <div>
               <p className="body-intro">
-                Hvis du leder efter en erfaren <strong>arkitekt Sjælland</strong> til dit kommende byggeprojekt, er Yderskov Tegnestue klar til at hjælpe dig. Selvom vi er en nordjysk baseret tegnestue med rødder i det jyske, har vi en stolt tradition for at tegne og opføre huse over hele landet. 
+                Søger du en erfaren <strong>arkitekt Sjælland</strong>? Yderskov Tegnestue er en fleksibel, landsdækkende partner. Selvom vi har base i Nordjylland, tegner og opfører vi huse over hele landet — uden at geografisk afstand er en hindring. Vi pakker gerne bilen og mødes direkte på din byggegrund.
               </p>
               <p className="body-p">
-                Vi påtager os meget aktivt opgaver på Sjælland og i Københavnsområdet, og vi ser det som en af vores største styrker, at vi er en yderst fleksibel og landsdækkende partner. Vi elsker at køre og rejse efter de rette projekter, og geografisk afstand er for os aldrig en hindring — vi pakker gerne bilen og mødes med dig direkte på din grund.
+                Vi har stor aktivitet i øst og har i øjeblikket byggerier i gang i <strong>Odsherred, Køge, Ramløse og Brønshøj</strong>. Vores projekter spænder over alt fra arkitekttegnede villaer og eksklusive sommerhuse til funktionelle tilbygninger.
               </p>
               <p className="body-p">
-                Vores erfaring som <strong>arkitekt Sjælland</strong> tæller en række succesfulde og vidt forskellige opgaver. Senest har vi hjulpet bygherrer med projekter i <strong>Køge, Odsherred, Brønshøj og Ramløse</strong>. Disse sager spænder fra store, eksklusive familievillaer til sommerhusbyggerier på naturskønne grunde samt komplekse om- og tilbygninger. Fordelen ved at vælge en nordjysk tegnestue som Yderskov til dit sjællandske projekt er vores stærke fokus på sund fornuft, strukturerede processer og økonomisk tryghed.
+                Hos Yderskov får du fuld økonomisk tryghed. Vi projekterer, tegner og opfører dit byggeri til en <strong>aftalt fast pris</strong>. Det sikrer dig mod budgetskred og besvær med koordinering — du får ét enkelt kontaktpunkt og en tryg proces fra første skitse til færdigt nøglefærdigt hus.
               </p>
               <p className="body-p">
-                Mange sjællandske bygherrer fravælger arkitekter af frygt for uforudsigelige budgetskred. Hos Yderskov tilbyder vi en samlet proces, hvor vi både projekterer, tegner og opfører byggeriet med vores egne faste håndværkere til en aftalt fast pris. Det betyder, at du ikke skal bekymre dig om koordineringen mellem forskellige faggrupper eller frygte ubehagelige ekstraregninger midt i forløbet. Du får ét enkelt kontaktpunkt og en tryg byggeproces fra første streg til færdigt nøglefærdigt hus.
-              </p>
-              <p className="body-p">
-                Vores mål er altid at skabe gennemtænkt arkitektur, der passer præcist til din grund, dagslyset og din families behov. Uanset om du vil opføre en ny villa i Storkøbenhavn, et hyggeligt fristed i Nordsjælland, eller en tilbygning, der udvider dit nuværende hjem i Køge-området, bringer vi vores jyske grundighed og faglige ekspertise med over Storebælt. Vi tilbyder et gratis og helt uforpligtende første idemøde, hvor vi kører ud og ser på din grund. Kontakt Yderskov i dag og lad os tage en snak om, hvordan vi som din <strong>arkitekt Sjælland</strong> kan realisere dine boligdrømme.
+                Uanset om du planlægger en ny villa i Storkøbenhavn, et sommerhus i Nordsjælland eller en tilbygning i Køge-området, bringer vi vores jyske grundighed med over Storebælt. Vi tilbyder et <strong>gratis og uforpligtende idémøde</strong> direkte på din grund. Kontakt os i dag for at høre mere.
               </p>
               <div className="about-tags" style={{ marginTop: "2rem" }}>
                 <Link href="#kontakt" className="tag tag-dark">Book gratis idémøde →</Link>
