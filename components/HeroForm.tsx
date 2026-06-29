@@ -7,14 +7,22 @@ const WORKER_URL = "https://black-unit-19e0.antonyderskov.workers.dev";
 export default function HeroForm() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    setError(null);
     const form = e.currentTarget;
     const data = new FormData(form);
 
     const name = (data.get("navn") as string)?.trim();
-    if (!name) return;
+    const email = (data.get("email") as string)?.trim();
+    const phone = (data.get("telefon") as string)?.trim();
+
+    if (!name || !email || !phone) {
+      setError("Venligst udfyld både navn, e-mail og telefonnummer.");
+      return;
+    }
 
     setLoading(true);
 
@@ -24,7 +32,8 @@ export default function HeroForm() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           name,
-          phone: data.get("telefon"),
+          email,
+          phone,
           projekt: data.get("projekt"),
           message: data.get("besked"),
           _page: window.location.pathname,
@@ -33,7 +42,7 @@ export default function HeroForm() {
       if (!res.ok) throw new Error();
       setSubmitted(true);
     } catch {
-      alert("Noget gik galt. Prøv igen, eller ring til os på 29 72 34 27.");
+      setError("Noget gik galt. Prøv igen, eller ring til os på 29 72 34 27.");
     } finally {
       setLoading(false);
     }
@@ -62,6 +71,7 @@ export default function HeroForm() {
     <form className="hero-form" id="heroContactForm" onSubmit={handleSubmit}>
       <p className="hero-form-title">Fortæl os om dit projekt</p>
       <input type="text" name="navn" placeholder="Navn" required />
+      <input type="email" name="email" placeholder="E-mail" required />
       <input type="tel" name="telefon" placeholder="Telefon" required />
       <select name="projekt" defaultValue="" required>
         <option value="" disabled>Projekttype</option>
@@ -72,6 +82,13 @@ export default function HeroForm() {
         <option value="andet">Andet</option>
       </select>
       <textarea name="besked" placeholder="Beskriv kort dit projekt… (valgfrit)" />
+      
+      {error && (
+        <p style={{ color: "#d93025", fontSize: "0.8rem", marginTop: "-0.2rem", marginBottom: "0.6rem", textAlign: "center", lineHeight: "1.4" }}>
+          {error}
+        </p>
+      )}
+
       <button type="submit" disabled={loading}>
         {loading ? "Sender…" : "Send besked →"}
       </button>
