@@ -1,13 +1,12 @@
 "use client";
 
 import { useState } from "react";
+import { submitLead } from "./submitLead";
 
 interface CatalogDownloadModalProps {
   mode: "open" | "download" | "print";
   onClose: () => void;
 }
-
-const WORKER_URL = "https://black-unit-19e0.antonyderskov.workers.dev";
 
 export default function CatalogDownloadModal({ mode, onClose }: CatalogDownloadModalProps) {
   const [loading, setLoading] = useState(false);
@@ -31,18 +30,14 @@ export default function CatalogDownloadModal({ mode, onClose }: CatalogDownloadM
     }
 
     try {
-      // 1. Send data to database / worker
-      await fetch(WORKER_URL, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          name,
-          email,
-          phone,
-          projekt: "Katalog Download",
-          message: `Handling: Hentning af katalog (${mode === "print" ? "Print-version" : mode === "open" ? "Se katalog" : "Download PDF"}). Side: ${window.location.pathname}`,
-          _page: window.location.pathname,
-        }),
+      // 1. Send data to database / worker via shared helper
+      await submitLead({
+        name,
+        email,
+        phone,
+        projekt: "Katalog Download",
+        message: `Handling: Hentning af katalog (${mode === "print" ? "Print-version" : mode === "open" ? "Se katalog" : "Download PDF"}). Side: ${window.location.pathname}`,
+        _page: window.location.pathname,
       });
 
       // 2. Trigger the file opening/downloading action
@@ -122,6 +117,10 @@ export default function CatalogDownloadModal({ mode, onClose }: CatalogDownloadM
               {error}
             </p>
           )}
+
+          <p style={{ fontSize: "0.68rem", color: "var(--sub)", textAlign: "center", marginTop: "-0.5rem", marginBottom: "0.8rem", lineHeight: "1.4" }}>
+            Ved at indsende bekræfter du, at du accepterer at modtage nyhedsbrev samt eventuelt at blive kontaktet af tegnestuen.
+          </p>
 
           <button type="submit" disabled={loading} style={{ width: "100%", background: "var(--text)", color: "#fff", border: "none", padding: "0.75rem", borderRadius: "8.14px", cursor: "pointer", fontWeight: 500, fontSize: "0.85rem" }}>
             {loading ? "Henter..." : "Se katalog nu →"}

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { submitLead } from "./submitLead";
 
 interface Snapshot {
   grund: "vandret" | "skrånende";
@@ -16,8 +17,6 @@ interface EmailPrisskoenModalProps {
   result: Result;
   onClose: () => void;
 }
-
-const WORKER_URL = "https://black-unit-19e0.antonyderskov.workers.dev";
 
 function fmt(n: number) {
   return new Intl.NumberFormat("da-DK", {
@@ -72,17 +71,13 @@ Vejledende prisskøn:
 - Højeste skøn: ${fmt(result.max)}`;
 
     try {
-      await fetch(WORKER_URL, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          name,
-          email,
-          phone,
-          projekt: "Prisberegning",
-          message: messageContent,
-          _page: window.location.pathname,
-        }),
+      await submitLead({
+        name,
+        email,
+        phone,
+        projekt: "Prisberegning",
+        message: messageContent,
+        _page: window.location.pathname,
       });
 
       setSuccess(true);
@@ -168,6 +163,10 @@ Vejledende prisskøn:
                   {error}
                 </p>
               )}
+
+              <p style={{ fontSize: "0.68rem", color: "var(--sub)", textAlign: "center", marginTop: "-0.5rem", marginBottom: "0.8rem", lineHeight: "1.4" }}>
+                Ved at indsende bekræfter du, at du accepterer at modtage nyhedsbrev samt eventuelt at blive kontaktet af tegnestuen.
+              </p>
 
               <button type="submit" disabled={loading} style={{ width: "100%", background: "var(--text)", color: "#fff", border: "none", padding: "0.75rem", borderRadius: "8.14px", cursor: "pointer", fontWeight: 500, fontSize: "0.85rem" }}>
                 {loading ? "Sender..." : "Send prisskøn →"}

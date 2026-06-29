@@ -1,8 +1,7 @@
 "use client";
 
 import { useState } from "react";
-
-const WORKER_URL = "https://black-unit-19e0.antonyderskov.workers.dev";
+import { submitLead } from "./submitLead";
 
 export default function HeroForm() {
   const [submitted, setSubmitted] = useState(false);
@@ -27,19 +26,15 @@ export default function HeroForm() {
     setLoading(true);
 
     try {
-      const res = await fetch(WORKER_URL, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          name,
-          email,
-          phone,
-          projekt: data.get("projekt"),
-          message: data.get("besked"),
-          _page: window.location.pathname,
-        }),
+      const ok = await submitLead({
+        name,
+        email,
+        phone,
+        projekt: (data.get("projekt") as string) || "Andet",
+        message: (data.get("besked") as string) || "Kontaktformular",
+        _page: window.location.pathname,
       });
-      if (!res.ok) throw new Error();
+      if (!ok) throw new Error();
       setSubmitted(true);
     } catch {
       setError("Noget gik galt. Prøv igen, eller ring til os på 29 72 34 27.");
@@ -88,6 +83,10 @@ export default function HeroForm() {
           {error}
         </p>
       )}
+
+      <p style={{ fontSize: "0.68rem", color: "var(--sub)", textAlign: "center", marginTop: "-0.2rem", marginBottom: "0.8rem", lineHeight: "1.4" }}>
+        Ved at sende bekræfter du, at du accepterer at modtage nyhedsbrev samt eventuelt at blive kontaktet af tegnestuen.
+      </p>
 
       <button type="submit" disabled={loading}>
         {loading ? "Sender…" : "Send besked →"}
