@@ -106,6 +106,31 @@ export default function InspirationGallery() {
   const activeImg = selected !== null ? filteredImages[selected] : null;
   const visibleImages = filteredImages.slice(0, limit);
 
+  // Mobile swipe gestures logic
+  const [touchStart, setTouchStart] = useState<number | null>(null);
+  const [touchEnd, setTouchEnd] = useState<number | null>(null);
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    setTouchStart(e.targetTouches[0].clientX);
+  };
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    setTouchEnd(e.targetTouches[0].clientX);
+  };
+
+  const handleTouchEnd = () => {
+    if (!touchStart || !touchEnd) return;
+    const distance = touchStart - touchEnd;
+    const minSwipeDistance = 50;
+    if (distance > minSwipeDistance) {
+      next();
+    } else if (distance < -minSwipeDistance) {
+      prev();
+    }
+    setTouchStart(null);
+    setTouchEnd(null);
+  };
+
   return (
     <>
       {/* Category filters */}
@@ -189,7 +214,15 @@ export default function InspirationGallery() {
       )}
 
       {selected !== null && activeImg && (
-        <div className="lb-backdrop" onClick={close} role="dialog" aria-modal="true">
+        <div 
+          className="lb-backdrop" 
+          onClick={close} 
+          role="dialog" 
+          aria-modal="true"
+          onTouchStart={handleTouchStart}
+          onTouchMove={handleTouchMove}
+          onTouchEnd={handleTouchEnd}
+        >
           <button className="lb-close" onClick={close} aria-label="Luk">✕</button>
 
           <button
