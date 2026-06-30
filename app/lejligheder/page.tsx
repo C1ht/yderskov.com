@@ -124,7 +124,7 @@ export default function LejlighederPage() {
       />
       <Nav />
       <Hero
-        slides={[{ src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkken.webp", alt: "Lejlighedsrenovering, Ågade, Aalborg — Arkitekttegnestuen Yderskov", style: { transform: "rotate(180deg)" } }]}
+        slides={[{ src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkken.webp", alt: "Lejlighedsrenovering, Ågade, Aalborg — Arkitekttegnestuen Yderskov" }]}
         tag="Lejligheder"
         subtitle="Lejligheder"
         lines={[
@@ -168,7 +168,7 @@ export default function LejlighederPage() {
           <ImageGrid images={[
             { src: "/images/Ågade 25/Aalborg-Ågade-renovering-plantegning.webp", alt: "Plantegning, lejlighedsrenovering Ågade — Arkitekttegnestuen Yderskov" },
             { src: "/images/Ågade 25/Aalborg-Ågade-renovering-bad.webp", alt: "Færdigt badeværelse i lejlighedsrenovering, Ågade — Arkitekttegnestuen Yderskov" },
-            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkken.webp", alt: "Færdigt køkken i lejlighedsrenovering, Ågade — Arkitekttegnestuen Yderskov", imgStyle: { transform: "rotate(180deg)" } },
+            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkken.webp", alt: "Færdigt køkken i lejlighedsrenovering, Ågade — Arkitekttegnestuen Yderskov" },
             { src: "/images/Ågade 25/Aalborg-Ågade-renovering-vinduer.webp", alt: "Restaurerede originale vinduer i lejlighedsrenovering, Ågade — Arkitekttegnestuen Yderskov" },
           ]} />
           <p className="proj-grid-label" style={{ marginTop: "2rem" }}>Under ombygning</p>
