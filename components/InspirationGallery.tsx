@@ -206,7 +206,7 @@ export default function InspirationGallery() {
               height={1200}
               style={{
                 maxWidth: "90vw",
-                maxHeight: "88vh",
+                maxHeight: "80vh",
                 width: "auto",
                 height: "auto",
                 display: "block",
@@ -214,6 +214,20 @@ export default function InspirationGallery() {
               }}
               priority
             />
+            {activeImg.alt && (
+              <p style={{
+                color: "rgba(255, 255, 255, 0.75)",
+                fontSize: "0.85rem",
+                fontWeight: 300,
+                textAlign: "center",
+                marginTop: "1rem",
+                letterSpacing: "-0.01em",
+                fontFamily: "var(--sans)",
+                padding: "0 1rem"
+              }}>
+                {activeImg.alt.split(" — ")[0]}
+              </p>
+            )}
           </div>
 
           <button

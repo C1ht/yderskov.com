@@ -460,7 +460,7 @@ export const posts: BlogPost[] = [
           "• Tilslutningsafgifter til el, vand, varme og kloak",
           "• Byggesagsgebyr til Aalborg Kommune",
           "• Etablering af have, indkørsel og belægning",
-          "Som din rådgivende arkitekt i Aalborg hjælper vi dig med at skabe et komplet og realistisk budgetoverslag helt fra start, så du ikke bliver mødt af uforudsete overraskelser undervejs."
+          "Som din rådgivende [arkitekt i Aalborg](/arkitekt-aalborg) hjælper vi dig med at skabe et komplet og realistisk budgetoverslag helt fra start, så du ikke bliver mødt af uforudsete overraskelser undervejs."
         ]
       },
       {
@@ -496,7 +496,7 @@ export const posts: BlogPost[] = [
         heading: "Hvad koster en tilbygning pr. kvadratmeter i Aalborg?",
         paragraphs: [
           "Vores vejledende priser på en tilbygning i Aalborg-området ligger typisk på 14.000–19.000 kr. pr. m² alt efter opgavens karakter og kompleksitet. Hvis du planlægger en tilbygning til en eksisterende villa i f.eks. Hasseris i Aalborg eller Gug, vil prisen variere afhængigt af, om der er tale om et nyt badeværelse (som kræver vådrumssikring og VVS-installationer) eller et almindeligt stue- eller værelsesareal.",
-          "Som erfaren arkitekt i Aalborg anbefaler vi altid at tage højde for, at materialevalg og udformning (arkitekturen) spiller en afgørende rolle for den endelige sum. En tilbygning med store vinduespartier mod Limfjorden eller niveauforskelle i terrænet vil naturligt ligge i den øvre ende af prisskalaen."
+          "Som erfaren [arkitekt i Aalborg](/arkitekt-aalborg) anbefaler vi altid at tage højde for, at materialevalg og udformning (arkitekturen) spiller en afgørende rolle for den endelige sum. En tilbygning med store vinduespartier mod Limfjorden eller niveauforskelle i terrænet vil naturligt ligge i den øvre ende af prisskalaen."
         ]
       },
       {
@@ -1989,7 +1989,7 @@ export const posts: BlogPost[] = [
       {
         heading: "Hvorfor vælge en lokal arkitekt i Aalborg?",
         paragraphs: [
-          "En lokal arkitekt i Aalborg kender Aalborg Kommunes byggesagsbehandling og lokalplanernes særlige krav i områder som Hasseris, Vestbjerg, Nørholm og Gug. Det sparer tid og minimerer risikoen for afslag på byggetilladelsen.",
+          "En lokal [arkitekt i Aalborg](/arkitekt-aalborg) kender Aalborg Kommunes byggesagsbehandling og lokalplanernes særlige krav i områder som Hasseris, Vestbjerg, Nørholm og Gug. Det sparer tid og minimerer risikoen for afslag på byggetilladelsen.",
           "Derudover har en lokal tegnestue i Aalborg et stærkt netværk af lokale ingeniører, landinspektører og entreprenører, hvilket sikrer en glidende proces.",
         ],
       },
@@ -2011,7 +2011,7 @@ export const posts: BlogPost[] = [
         heading: "Referencer og erfaring",
         paragraphs: [
           "Kig på arkitektens tidligere projekter. Passer stilen til det, du ønsker? Uanset om du drømmer om en funkisvilla, et klassisk sommerhus eller en moderne tilbygning, skal arkitekten have erfaring med lignende opgaver.",
-          "Med 25 års erfaring i Aalborg og Nordjylland har vi prøvet det meste – lige fra komplicerede grunde med fredningslinjer til arkitekttegnede villaer og sommerhuse.",
+          "Med 25 års erfaring i Aalborg og Nordjylland har vi prøvet det meste – lige fra komplicerede grunde med fredningslinjer til [arkitekttegnede villaer](/villaer) og sommerhuse.",
         ],
       },
       {
