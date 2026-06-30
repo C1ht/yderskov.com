@@ -14,58 +14,7 @@ const categories = [
 ];
 
 function getCategoriesForImage(img: GalleryImage): string[] {
-  const alt = img.alt.toLowerCase();
-  const cats: string[] = [];
-  
-  if (alt.includes("sommerhus") || alt.includes("poolhus")) {
-    cats.push("sommerhuse");
-  }
-  
-  if (
-    alt.includes("villa") ||
-    alt.includes("funkis") ||
-    alt.includes("parcelhus") ||
-    alt.includes("lejlighed") ||
-    alt.includes("rækkehuse") ||
-    alt.includes("udlejningsbolig")
-  ) {
-    cats.push("villaer");
-  }
-  
-  if (
-    alt.includes("køkken") ||
-    alt.includes("stue") ||
-    alt.includes("bad") ||
-    alt.includes("toilet") ||
-    alt.includes("soveværelse") ||
-    alt.includes("kontor") ||
-    alt.includes("indendørs") ||
-    alt.includes("spiseområde") ||
-    alt.includes("gang") ||
-    alt.includes("glasvæg")
-  ) {
-    cats.push("indendørs");
-  }
-  
-  if (
-    alt.includes("terrasse") ||
-    alt.includes("have") ||
-    alt.includes("udebruser") ||
-    alt.includes("gårdmiljø") ||
-    alt.includes("ude og inde")
-  ) {
-    cats.push("udendørs");
-  }
-  
-  if (alt.includes("skitse") || alt.includes("skitseforslag") || alt.includes("tegning")) {
-    cats.push("skitser");
-  }
-
-  if (cats.length === 0) {
-    cats.push("villaer");
-  }
-
-  return cats;
+  return img.cats || [];
 }
 
 export default function InspirationGallery() {
