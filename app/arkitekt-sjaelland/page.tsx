@@ -152,7 +152,7 @@ export default function ArkitektSjaellandPage() {
                 Søger du en erfaren <strong>arkitekt på Sjælland</strong>? Yderskov Tegnestue er din landsdækkende partner. Selvom vi har base i Nordjylland, tegner og opfører vi huse på hele Sjælland og i København uden besvær med geografisk afstand.
               </p>
               <p className="body-p">
-                Vi er i øjeblikket aktive med byggeprojekter i bl.a. <strong>Odsherred, Køge, Ramløse og Brønshøj</strong>. Vores portefølje dækker alt fra unikke arkitekttegnede villaer og sommerhuse til gennemtænkte tilbygninger.
+                Vi har pt. byggerier i <strong>Køge, Ramløse, Brønshøj og Odsherred</strong>. Vores portefølje dækker alt fra unikke arkitekttegnede villaer og sommerhuse til gennemtænkte tilbygninger.
               </p>
               <p className="body-p">
                 Hos os får du fuld tryghed. Vi står for hele processen og opfører dit byggeri til en <strong>aftalt fast pris</strong>, så du undgår budgetskred. Kontakt os for et <strong>gratis idémøde</strong> direkte på din byggegrund.
