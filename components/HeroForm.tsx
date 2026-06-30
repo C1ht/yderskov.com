@@ -17,9 +17,10 @@ export default function HeroForm() {
     const name = (data.get("navn") as string)?.trim();
     const email = (data.get("email") as string)?.trim();
     const phone = (data.get("telefon") as string)?.trim();
+    const message = (data.get("besked") as string)?.trim();
 
-    if (!name || !email || !phone) {
-      setError("Venligst udfyld både navn, e-mail og telefonnummer.");
+    if (!name || !email || !phone || !message) {
+      setError("Venligst udfyld alle felter (navn, e-mail, telefonnummer og beskrivelse).");
       return;
     }
 
@@ -31,7 +32,7 @@ export default function HeroForm() {
         email,
         phone,
         projekt: (data.get("projekt") as string) || "Andet",
-        message: (data.get("besked") as string) || "Kontaktformular",
+        message,
         _page: window.location.pathname,
       });
       if (!ok) throw new Error();
@@ -65,18 +66,21 @@ export default function HeroForm() {
   return (
     <form className="hero-form" id="heroContactForm" onSubmit={handleSubmit}>
       <p className="hero-form-title">Fortæl os om dit projekt</p>
-      <input type="text" name="navn" placeholder="Navn" required />
-      <input type="email" name="email" placeholder="E-mail" required />
-      <input type="tel" name="telefon" placeholder="Telefon" required />
+      <p style={{ fontSize: "0.72rem", color: "var(--light)", marginTop: "-0.5rem", marginBottom: "1rem", textAlign: "center" }}>
+        * Markeringsfelter skal udfyldes
+      </p>
+      <input type="text" name="navn" placeholder="Navn *" required />
+      <input type="email" name="email" placeholder="E-mail *" required />
+      <input type="tel" name="telefon" placeholder="Telefon *" required />
       <select name="projekt" defaultValue="" required>
-        <option value="" disabled>Projekttype</option>
+        <option value="" disabled>Projekttype *</option>
         <option value="ny-villa">Ny villa</option>
         <option value="sommerhus">Sommerhus</option>
         <option value="tilbygning">Om- og tilbygning</option>
         <option value="erhverv">Erhverv</option>
         <option value="andet">Andet</option>
       </select>
-      <textarea name="besked" placeholder="Beskriv kort dit projekt… (valgfrit)" />
+      <textarea name="besked" placeholder="Beskriv kort dit projekt… *" required />
       
       {error && (
         <p style={{ color: "#d93025", fontSize: "0.8rem", marginTop: "-0.2rem", marginBottom: "0.6rem", textAlign: "center", lineHeight: "1.4" }}>
