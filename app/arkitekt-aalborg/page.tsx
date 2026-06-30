@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -35,8 +36,32 @@ const aalborgFAQ = [
 ];
 
 export default function ArkitektAalborgPage() {
+  const aalborgSchema = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Yderskov Arkitekter - Aalborg",
+    "url": "https://yderskov.com/arkitekt-aalborg",
+    "telephone": "+4529723427",
+    "email": "cy@yderskov.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Aalborg",
+      "addressRegion": "Nordjylland",
+      "addressCountry": "DK"
+    },
+    "description": "Erfaren arkitekttegnestue i Aalborg. Vi tegner og bygger din villa, dit sommerhus eller din tilbygning i Aalborg og hele Nordjylland med fast pris.",
+    "areaServed": [
+      { "@type": "AdministrativeArea", "name": "Aalborg" },
+      { "@type": "AdministrativeArea", "name": "Nordjylland" }
+    ]
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aalborgSchema) }}
+      />
       <Nav />
       <Hero
         slides={[{ src: "/images/Karetmagervej/Sæby-ny-villa-funkis-haveside.webp", alt: "Arkitekttegnet villa i Nordjylland — Arkitekttegnestuen Yderskov" }]}
@@ -135,7 +160,13 @@ export default function ArkitektAalborgPage() {
                   <div className="page-layer page-layer-1"></div>
 
                   <div className="book-cover">
-                    <img src="/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp" alt="Arkitekttegnestuen Yderskov Inspirationskatalog" />
+                    <Image
+                      src="/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp"
+                      alt="Arkitekttegnestuen Yderskov Inspirationskatalog"
+                      width={300}
+                      height={400}
+                      style={{ objectFit: "cover", width: "100%", height: "100%" }}
+                    />
                     <div className="book-overlay">
                       <div className="book-top-brand">
                         <div className="book-brand-name">YDERSKOV</div>
@@ -178,24 +209,39 @@ export default function ArkitektAalborgPage() {
           </div>
           <div className="proj-grid">
             <Link href="/villaer" className="proj-card" id="proj-vestbjerg">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/images/Højgården/Vestsbjerg-ny-funkisvilla-haveside.webp" alt="Funkisvilla nær Hammer Bakker — Arkitekttegnestuen Yderskov" />
+              <Image
+                src="/images/Højgården/Vestsbjerg-ny-funkisvilla-haveside.webp"
+                alt="Funkisvilla nær Hammer Bakker — Arkitekttegnestuen Yderskov"
+                fill
+                sizes="(max-width: 900px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
               <div className="proj-foot">
                 <span className="proj-title">Funkisvilla nær Hammer Bakker</span>
                 <span className="proj-arr">→</span>
               </div>
             </Link>
             <Link href="/villaer" className="proj-card" id="proj-hjoerring">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/images/Gartnerhaven/Hjørring-garnterhaven-ny-villa.webp" alt="Klassisk ny villa i Hjørring — Arkitekttegnestuen Yderskov" />
+              <Image
+                src="/images/Gartnerhaven/Hjørring-garnterhaven-ny-villa.webp"
+                alt="Klassisk ny villa i Hjørring — Arkitekttegnestuen Yderskov"
+                fill
+                sizes="(max-width: 900px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
               <div className="proj-foot">
                 <span className="proj-title">Klassisk villa, Hjørring</span>
                 <span className="proj-arr">→</span>
               </div>
             </Link>
             <Link href="/sommerhuse" className="proj-card" id="proj-loekken">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-terrasse.webp" alt="Arkitekttegnet sommerhus i Løkken — Arkitekttegnestuen Yderskov" />
+              <Image
+                src="/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-terrasse.webp"
+                alt="Arkitekttegnet sommerhus i Løkken — Arkitekttegnestuen Yderskov"
+                fill
+                sizes="(max-width: 900px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+              />
               <div className="proj-foot">
                 <span className="proj-title">Sommerhus, Løkken</span>
                 <span className="proj-arr">→</span>

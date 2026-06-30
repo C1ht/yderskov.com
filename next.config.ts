@@ -3,9 +3,6 @@ import path from "path";
 
 const nextConfig: NextConfig = {
   output: "export",
-  experimental: {
-    inlineCss: true,
-  },
   images: {
     loader: "custom",
     loaderFile: "./image-loader.ts",

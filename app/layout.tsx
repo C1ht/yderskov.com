@@ -34,6 +34,8 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-friendly version" />
+        <link rel="preconnect" href="https://black-unit-19e0.antonyderskov.workers.dev" />
+        <link rel="preconnect" href="https://script.google.com" />
       </head>
       <body>
         {children}

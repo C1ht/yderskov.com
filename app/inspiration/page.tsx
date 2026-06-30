@@ -15,8 +15,20 @@ export const metadata: Metadata = {
 };
 
 export default function InspirationPage() {
+  const inspirationSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Inspiration & galleri — Yderskov Arkitekter",
+    "description": "Få inspiration til dit byggeprojekt. Gå på opdagelse i vores galleri af afsluttede villaer, sommerhuse samt om- og tilbygninger.",
+    "url": "https://yderskov.com/inspiration"
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(inspirationSchema) }}
+      />
       <Nav />
       <Hero
         slides={[{ src: "/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp", alt: "Inspiration galleri — Arkitekttegnestuen Yderskov" }]}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
@@ -175,13 +176,26 @@ export default async function BlogPostPage({
               <div className="blog-gallery">
                 {post.images.map((img, index) => (
                   <div key={index} style={{ borderRadius: "12px", overflow: "hidden", aspectRatio: "4/3", position: "relative" }}>
-                    <img src={img} alt={`${post.title.includes("Arkitekttegnestuen Yderskov") ? post.title.replace(/ — Arkitekttegnestuen Yderskov$/, '') : post.title} - billede ${index + 1} — Arkitekttegnestuen Yderskov`} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                    <Image
+                      src={img}
+                      alt={`${post.title.includes("Arkitekttegnestuen Yderskov") ? post.title.replace(/ — Arkitekttegnestuen Yderskov$/, '') : post.title} - billede ${index + 1} — Arkitekttegnestuen Yderskov`}
+                      fill
+                      sizes="(max-width: 900px) 100vw, 50vw"
+                      style={{ objectFit: "cover" }}
+                    />
                   </div>
                 ))}
               </div>
             ) : post.image ? (
               <div style={{ marginTop: "2.5rem", borderRadius: "12px", overflow: "hidden", aspectRatio: "16/10", position: "relative" }}>
-                <img src={post.image} alt={post.title.includes("Arkitekttegnestuen Yderskov") ? post.title : `${post.title} — Arkitekttegnestuen Yderskov`} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                <Image
+                  src={post.image}
+                  alt={post.title.includes("Arkitekttegnestuen Yderskov") ? post.title : `${post.title} — Arkitekttegnestuen Yderskov`}
+                  fill
+                  sizes="(max-width: 900px) 100vw, 80vw"
+                  style={{ objectFit: "cover" }}
+                  priority
+                />
               </div>
             ) : null}
           </div>

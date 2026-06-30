@@ -98,8 +98,31 @@ const projectGalleries = [
 ];
 
 export default function ArkitektSjaellandPage() {
+  const sjaellandSchema = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Yderskov Arkitekter - Sjælland",
+    "url": "https://yderskov.com/arkitekt-sjaelland",
+    "telephone": "+4529723427",
+    "email": "cy@yderskov.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "København & Sjælland",
+      "addressCountry": "DK"
+    },
+    "description": "Erfaren landsdækkende arkitekttegnestue. Vi tegner og bygger din villa, dit sommerhus eller din tilbygning på hele Sjælland og i Københavnsområdet til fast pris.",
+    "areaServed": [
+      { "@type": "AdministrativeArea", "name": "Sjælland" },
+      { "@type": "AdministrativeArea", "name": "København" }
+    ]
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(sjaellandSchema) }}
+      />
       <Nav />
       <Hero
         slides={[{ src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-terrasse.webp", alt: "Arkitekttegnet villa tilbygning — Arkitekttegnestuen Yderskov" }]}

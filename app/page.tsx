@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -7,6 +8,7 @@ import ProjectGrid from "@/components/ProjectGrid";
 import CtaBand from "@/components/CtaBand";
 import CatalogDownloadButtons from "@/components/CatalogDownloadButtons";
 import { localBusinessSchema, projects, testimonials, processSteps, blogPosts } from "./home-data";
+
 
 export const metadata: Metadata = {
   title: "Arkitekt Aalborg | Tegnestue i Nordjylland — Yderskov",
@@ -68,7 +70,13 @@ export default function HomePage() {
                   <div className="page-layer page-layer-1"></div>
 
                   <div className="book-cover">
-                    <img src="/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp" alt="Arkitekttegnestuen Yderskov Inspirationskatalog" />
+                    <Image
+                      src="/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp"
+                      alt="Arkitekttegnestuen Yderskov Inspirationskatalog"
+                      width={300}
+                      height={400}
+                      style={{ objectFit: "cover", width: "100%", height: "100%" }}
+                    />
                     <div className="book-overlay">
                       <div className="book-top-brand">
                         <div className="book-brand-name">YDERSKOV</div>
