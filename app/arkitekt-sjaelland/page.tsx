@@ -149,16 +149,13 @@ export default function ArkitektSjaellandPage() {
             </div>
             <div>
               <p className="body-intro">
-                Søger du en erfaren <strong>arkitekt Sjælland</strong>? Yderskov Tegnestue er en fleksibel, landsdækkende partner. Selvom vi har base i Nordjylland, tegner og opfører vi huse over hele landet — uden at geografisk afstand er en hindring. Vi pakker gerne bilen og mødes direkte på din byggegrund.
+                Søger du en erfaren <strong>arkitekt på Sjælland</strong>? Yderskov Tegnestue er din landsdækkende partner. Selvom vi har base i Nordjylland, tegner og opfører vi huse på hele Sjælland og i København uden besvær med geografisk afstand.
               </p>
               <p className="body-p">
-                Vi har stor aktivitet i øst og har i øjeblikket byggerier i gang i <strong>Odsherred, Køge, Ramløse og Brønshøj</strong>. Vores projekter spænder over alt fra arkitekttegnede villaer og eksklusive sommerhuse til funktionelle tilbygninger.
+                Vi er i øjeblikket aktive med byggeprojekter i bl.a. <strong>Odsherred, Køge, Ramløse og Brønshøj</strong>. Vores portefølje dækker alt fra unikke arkitekttegnede villaer og sommerhuse til gennemtænkte tilbygninger.
               </p>
               <p className="body-p">
-                Hos Yderskov får du fuld økonomisk tryghed. Vi projekterer, tegner og opfører dit byggeri til en <strong>aftalt fast pris</strong>. Det sikrer dig mod budgetskred og besvær med koordinering — du får ét enkelt kontaktpunkt og en tryg proces fra første skitse til færdigt nøglefærdigt hus.
-              </p>
-              <p className="body-p">
-                Uanset om du planlægger en ny villa i Storkøbenhavn, et sommerhus i Nordsjælland eller en tilbygning i Køge-området, bringer vi vores jyske grundighed med over Storebælt. Vi tilbyder et <strong>gratis og uforpligtende idémøde</strong> direkte på din grund. Kontakt os i dag for at høre mere.
+                Hos os får du fuld tryghed. Vi står for hele processen og opfører dit byggeri til en <strong>aftalt fast pris</strong>, så du undgår budgetskred. Kontakt os for et <strong>gratis idémøde</strong> direkte på din byggegrund.
               </p>
               <div className="about-tags" style={{ marginTop: "2rem" }}>
                 <Link href="#kontakt" className="tag tag-dark">Book gratis idémøde →</Link>
