@@ -15,6 +15,7 @@ interface HeroProps {
   showQuote?: boolean;
   bright?: boolean;
   show24h?: boolean;
+  bodyStyle?: React.CSSProperties;
 }
 
 const defaultSlides: HeroSlide[] = [
@@ -48,6 +49,7 @@ export default function Hero({
   showQuote = true,
   bright = false,
   show24h = true,
+  bodyStyle,
 }: HeroProps) {
   return (
     <section className={`hero${bright ? " hero-bright" : ""}`}>
@@ -56,7 +58,7 @@ export default function Hero({
 
       <div className="hero-overlay" />
 
-      <div className="hero-body">
+      <div className="hero-body" style={bodyStyle}>
         <div className="hero-main">
           <div className="hero-left">
             {/* LCP element — server-rendered, no JS dependency */}

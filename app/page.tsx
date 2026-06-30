@@ -29,6 +29,7 @@ export default function HomePage() {
         tag="Hjem"
         subtitle="Vi dækker hele landet"
         subtitleStyle={{ fontSize: "clamp(1.2rem, 3vw, 2.1rem)", fontWeight: 400 }}
+        bodyStyle={{ justifyContent: "flex-start", paddingTop: "clamp(9rem, 16vh, 18rem)" }}
         showQuote
         bright
         lines={[]}
