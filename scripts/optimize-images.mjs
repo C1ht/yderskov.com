@@ -2,6 +2,10 @@ import sharp from 'sharp'
 import { readdir, mkdir, stat } from 'fs/promises'
 import path from 'path'
 
+// Limit concurrency to 1 and disable cache to prevent out-of-memory errors on limited CI environments
+sharp.concurrency(1)
+sharp.cache(false)
+
 const WIDTHS = [200, 400, 768, 1200, 1920]
 const QUALITY = 85
 const QUALITY_AVIF = 75 // AVIF at 75 is visually superior to WebP at 85 and has much smaller file sizes
