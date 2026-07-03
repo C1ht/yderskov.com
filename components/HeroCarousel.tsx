@@ -13,7 +13,6 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
   const isCarousel = slides.length > 1;
   const [current, setCurrent] = useState(0);
   const [prev, setPrev] = useState<number | null>(null);
-  const [ready, setReady] = useState(false); // enables CSS transition after first paint
   const isVisible = useRef(true);
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -24,14 +23,6 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
     },
     [current]
   );
-
-  // Enable the slide transition only after first render — this prevents
-  // the 1.5s fade-in on initial load which was causing the LCP delay.
-  useEffect(() => {
-    if (!isCarousel) return;
-    const raf = requestAnimationFrame(() => setReady(true));
-    return () => cancelAnimationFrame(raf);
-  }, [isCarousel]);
 
   useEffect(() => {
     if (!isCarousel) return;
@@ -55,8 +46,8 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
 
   return (
     <>
-      {/* Slides — is-transitioning enables CSS opacity transition only after first paint */}
-      <div ref={containerRef} aria-hidden="true" className={ready ? "is-transitioning" : undefined}>
+      {/* Slides */}
+      <div ref={containerRef} aria-hidden="true">
         {slides.map((slide, i) => (
           <div
             key={slide.src}
