@@ -382,7 +382,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "villa-herresaede-noerholm-aalborg",
-    image: "/images/Nørholmsvej/Engelsk villa facade Nørholmsvej.webp",
+    image: "/images/Nørholmsvej/Engelsk villa på stor plæne.webp",
     metaTitle: "Villa som engelsk herresæde i Nørholm nær Aalborg — Yderskov",
     title: "Drømmen om et engelsk herresæde — ny eksklusiv villa i Nørholm nær Aalborg.",
     description: "Et par kom til os med et postkort af et engelsk herresæde. Vi tegnede deres drømmevilla i Nørholm nær Aalborg med sortglasserede tegl, hall og fjordudsigt.",

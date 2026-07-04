@@ -63,7 +63,7 @@ const posts: Post[] = [
   },
   {
     href: "/blog/villa-herresaede-noerholm-aalborg",
-    image: "/images/Nørholmsvej/Engelsk villa facade Nørholmsvej.webp",
+    image: "/images/Nørholmsvej/Engelsk villa på stor plæne.webp",
     date: "08 / 06 / 2026",
     cat: "Cases fra praksis",
     catKey: "case",
