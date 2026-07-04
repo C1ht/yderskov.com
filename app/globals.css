@@ -1118,6 +1118,14 @@ footer { background: var(--dark); color: rgba(255,255,255,0.7); }
   font-weight: 700;
   letter-spacing: 0.1em;
   color: #fff;
+  margin-bottom: 0.15rem;
+}
+.book-brand-sub {
+  font-size: 0.42rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.8);
   margin-bottom: 0.25rem;
 }
 .book-brand-line {

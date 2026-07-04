@@ -80,12 +80,12 @@ export default function HomePage() {
                     />
                     <div className="book-overlay">
                       <div className="book-top-brand">
-                        <div className="book-brand-name">YDERSKOV</div>
+                        <div className="book-brand-name">Arkitekt Yderskov</div>
+                        <div className="book-brand-sub">Vi dækker hele landet</div>
                         <div className="book-brand-line"></div>
                       </div>
                       <div className="book-bottom-title">
                         <div className="book-title">Inspiration</div>
-                        <div className="book-subtitle">PROJEKTKATALOG</div>
                       </div>
                     </div>
                   </div>
