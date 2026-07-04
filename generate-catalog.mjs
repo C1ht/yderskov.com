@@ -576,11 +576,11 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   <div class="cover-content-layout">
     <div class="cover-top-brand">
       <div class="cover-brand-name">Arkitekt Yderskov</div>
+      <div class="cover-label-tag" style="margin-bottom:4mm">Vi dækker hele landet</div>
       <div class="cover-brand-line"></div>
     </div>
     <div class="cover-bottom-title">
       <div class="cover-main-title">${coverTitle}</div>
-      <div class="cover-label-tag">Vi dækker hele landet</div>
     </div>
   </div>
 </div>
