@@ -22,7 +22,7 @@ const projectGalleries = [
     location: "Aalborg, Nordjylland",
     size: "320 m² kontor og faciliteter",
     year: "2022",
-    description: "Indretning og design af et moderne, åbent kontormiljø for en IT-virksomhed i Aalborg. Der er lagt vægt på optimal udnyttelse af dagslyset, godt arbejdsmiljø og fremragende akustik ved brug af stilrene trælameller på vægge og lofter. Mødelokaler og kontorer er opdelt med rå glasvægspartier med sorte rammer, hvilket skaber en transparent og indbydende atmosfære, der styrker det visuelle fællesskab.",
+    description: "Vi har tegnet og indrettet dette åbne kontormiljø for en IT-virksomhed i Aalborg. For at skabe et godt arbejdsmiljø har vi fokuseret på at lukke masser af dagslys ind i alle lokaler. Mødelokaler og kontorer er opdelt med glasvægge, som har fået materede detaljer. Det gør det muligt at holde møder ugeneret og uden indkig, samtidig med at kontoret bevarer sin lyse og åbne rumfornemmelse.",
     images: [
       { src: "/images/Assensvej Kontormiljø/Aalborg-Assensvej-kontormiljø.webp", alt: "Kontormiljø for IT-virksomhed, Aalborg — Arkitekttegnestuen Yderskov" },
       { src: "/images/Assensvej Kontormiljø/Aalborg-Assensvej-kontormiljø-kontor.webp", alt: "Kontor i kontormiljø, Aalborg — Arkitekttegnestuen Yderskov" },
