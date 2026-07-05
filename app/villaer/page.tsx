@@ -21,7 +21,7 @@ const projectGalleries = [
     location: "Sæby, Nordjylland",
     size: "230 m² bolig · 60 m² garage",
     year: "2023",
-    description: "Funkisvilla opført i listebeklædning med åbne facader og store vinduespartier. Huset er beliggende op ad skov og natur, og det betød meget for familien at byggeriet blev indpasset omhyggeligt i det omgivende område.",
+    description: "Denne moderne funkisvilla i Sæby er tegnet med fokus på rene linjer, minimal vedligeholdelse og en harmonisk indpasning i den omgivende natur. Beliggende direkte op til et fredeligt skovområde, fungerer husets store glaspartier som levende malerier, der trækker skoven og lyset helt ind i boligens hjerte. Facaden byder på en smuk kontrast mellem varm, lodret træ-listebeklædning, store vinduespartier og hvide eternitplader. Indendørs er alrummet designet med ekstra lofthøjde og akustiklofter, der skaber et behageligt indeklima, mens en stor integreret garage fuldender det stramme, kubistiske funkisudtryk.",
     images: [
       { src: "/images/Karetmagervej/Sæby-ny-villa-funkis-forside.webp", alt: "Funkisvilla i træ, glas og eternit, Sæby — Arkitekttegnestuen Yderskov" },
       { src: "/images/Karetmagervej/Sæby-ny-villa-funkis-haveside.webp", alt: "Haveside på funkisvilla i Sæby — Arkitekttegnestuen Yderskov" },
@@ -41,7 +41,7 @@ const projectGalleries = [
     location: "Sæby, Nordjylland",
     size: "230 m² bolig · 50 m² garage",
     year: "2016",
-    description: "Elegant vinkelvilla i Sæby opført på en stor grund med et karakteristisk sort tegltag med kinesisk svej ved tagfoden og klassiske hvide, småsprodsede vinduespartier. Bygningen forener et herskabeligt, klassisk udtryk med en moderne, åben planløsning. Den tilhørende fliseterrasse og store grønne have skaber fantastiske rammer for udelivet.",
+    description: "Denne elegante vinkelvilla i Sæby er et enestående eksempel på, hvordan klassisk herskabelighed og moderne funktionalitet kan smelte sammen. Det mest markante træk ved huset er det smukke, sortglasserede tegltag, der med sin karakteristiske tagfod har et kinesisk inspireret svej, som giver en unik, svungen tagprofil. Facaden prydes af klassiske, hvide småsprodsede vinduespartier, der skaber et tidløst og herskabeligt udtryk. Store dobbeltdøre åbner op til en solrig fliseterrasse og en stor, grøn have, der danner de perfekte rammer om udelivet.",
     images: [
       { src: "/images/villa sæby/Sæby-ny-villa-kinesisk-tag-haveside.webp", alt: "Moderne villa med kinesisk tag, haveside, Sæby — Arkitekttegnestuen Yderskov" },
       { src: "/images/villa sæby/Sæby-ny-villa-kinesisk-tag-haveside-2.webp", alt: "Moderne villa med kinesisk tag, haveside, Sæby — Arkitekttegnestuen Yderskov" },
@@ -55,7 +55,7 @@ const projectGalleries = [
     location: "Frederikshavn, Nordjylland",
     size: "208 m² bolig · 63 m² garage · 37 m² overdækning",
     year: "2021",
-    description: "Udsigtsvilla med vandudsigt, tegnet til en skrånende naturgrund med skrappe myndighedskrav om indpasning i den beplantede skrænt. Familien ønskede et hus der svævede udover bakken — en oase med nye og naturlige materialer. Garageanlæg er placeret under huset, da grunden har markant fald.",
+    description: "Denne eksklusive udsigtsvilla i Frederikshavn er nænsomt tilpasset en udfordrende, skrånende naturgrund med skrappe myndighedskrav om landskabelig indpasning. Arkitekturen er designet, så villaen nærmest svæver ud over skrænten, hvilket sikrer en storslået panoramaudsigt over byen og Kattegat. Materialevalget tager afsæt i naturens egne toner med fokus på minimal vedligeholdelse, herunder rå beton og varme træelementer. På grund af det markante fald i terrænet er garageanlægget integreret i underetagen under selve boligen, hvilket skaber en optimal udnyttelse af grundens niveauer. Du kan læse mere om indretningen og se billeder af [køkken-alrummet i denne udsigtsvilla i vores blogindlæg](/blog/hvordan-designer-man-et-godt-koekkenrum).",
     images: [
       { src: "/images/Lerstien/Frederikshavn-lerstien-vejside.webp", alt: "Vejside på udsigtsvilla i Frederikshavn — Arkitekttegnestuen Yderskov" },
       { src: "/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp", alt: "Udsigtsvilla med terrasse og byudsigt, Frederikshavn — Arkitekttegnestuen Yderskov" },
@@ -87,7 +87,7 @@ const projectGalleries = [
     location: "Hjørring, Nordjylland",
     size: "215 m² bolig · 42 m² garage",
     year: "2022",
-    description: "Klassisk villa med traditionelt formsprog, symmetrisk facade og omhyggeligt udvalgte materialer. Huset er placeret i et etableret villakvarter med god forbindelse til naturen. Familien ønskede et klassisk udtryk med moderne funktionalitet indvendigt — store, lyse opholdsrum med direkte udgang til det ugenerede gårdhavemiljø. Materialerne er valgt ud fra et ønske om minimal vedligeholdelse og lang levetid.",
+    description: "Denne klassiske villa i Hjørring er opført i tråd med den klassiske danske byggestil, hvor der er lagt vægt på et traditionelt og tidløst formsprog samt eksklusive, robuste materialer med lang levetid. Villaen er placeret i et etableret villakvarter med god forbindelse til naturen og optimal udnyttelse af dagslyset. Bygherren ønskede en bolig, der forener et roligt ydre med moderne funktionalitet og store, lyse opholdsrum. Huset danner rammen om et ugeneret og læfyldt gårdhavemiljø, som forlænger stuen og køkken-alrummet ud under åben himmel. Du kan læse mere om arkitekturen bag et hyggeligt uderum i vores [guide til at designe en funktionel gårdhave](/blog/gaardhave).",
     images: [
       { src: "/images/Gartnerhaven/Hjørring-garnterhaven-ny-villa.webp", alt: "Klassisk ny villa i Hjørring — Arkitekttegnestuen Yderskov" },
       { src: "/images/Gartnerhaven/Hjørring-gartnehaven-ny-villa-haveside.webp", alt: "Haveside på klassisk villa i Hjørring — Arkitekttegnestuen Yderskov" },
@@ -102,7 +102,7 @@ const projectGalleries = [
     location: "Vestbjerg, Nordjylland",
     size: "190 m² bolig · 55 m² garage · 22 m² overdækning",
     year: "2023",
-    description: "Villa med ensidig taghældning og overdækket terrasse i direkte forbindelse med stuens store glaspartier. Huset har en tydelig fløjstruktur med en fantastisk flydende overgang mellem inde og ude under den overdækkede terrasse. [Læs mere om hvordan vi skaber overgangen mellem ude og inde her](/blog/overgang-mellem-ude-og-inde).",
+    description: "Denne moderne villa i Vestbjerg er tegnet med et ensidigt skråt tag (ensidig taghældning), som giver rigtig god lofthøjde og masser af dagslys i de store rum. Huset er bygget op i praktiske fløje, der deler boligen op i en separat børneafdeling og en forældreafdeling, med køkken-alrummet i midten som det naturlige samlingspunkt. Stuens store glaspartier og brede skydedøre gør det nemt at gå direkte ud på den overdækkede terrasse, der fungerer som en hyggelig udestue om sommeren. [Læs mere om hvordan vi skaber overgangen mellem ude og inde her](/blog/overgang-mellem-ude-og-inde).",
     images: [
       { src: "/images/Hanebjælken/Vestbjerg-Hanebjælken-ny-villa-haveside.webp", alt: "Villa med ensidig taghældning, haveside, Vestbjerg — Arkitekttegnestuen Yderskov" },
       { src: "/images/Hanebjælken/Vestbjerg-Hanebjælken-ny-villa-overdækket-terrasse.webp", alt: "Overdækket terrasse på villa i Vestbjerg — Arkitekttegnestuen Yderskov" },
