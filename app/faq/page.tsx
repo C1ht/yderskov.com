@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
 import CtaBand from "@/components/CtaBand";
+import FaqAccordion from "@/components/FaqAccordion";
 
 export const metadata: Metadata = {
   title: "Spørgsmål & svar om arkitekt, priser og byggeri | Yderskov",
@@ -116,14 +117,7 @@ export default function FAQPage() {
           <div className="s-inner">
             <span className="eyebrow">{section.title}</span>
             <h2 className="sec-hed">{section.title}</h2>
-            <div className="faq-grid">
-              {section.items.map((item, j) => (
-                <div key={j} className="faq-item">
-                  <p className="faq-q">{item.q}</p>
-                  <p className="faq-a">{item.a}</p>
-                </div>
-              ))}
-            </div>
+            <FaqAccordion items={section.items} />
           </div>
         </section>
       ))}

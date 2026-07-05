@@ -23,12 +23,13 @@ export const posts: BlogPost[] = [
     image: "/images/Bjerget 13/sommerhus Bjerget 13 udsigtsniche som siddeplads.webp",
     images: [
       "/images/Bjerget 13/sommerhus Bjerget 13 udsigtsniche som siddeplads.webp",
+      "/images/Bjerget 13/sommerhus Bjerget 13 kobberinddækning på sideniche.webp",
       "/images/Sommervangen/sommervangen sommerhus køkken åbent.webp",
       "/images/Sommervangen/sommervangen sommerhus sedumtag.webp"
     ],
     metaTitle: "Pladsoptimering i det lille sommerhus — 5 geniale tips | Yderskov",
     title: "Pladsoptimering i det lille sommerhus — Lær af vores sommerhus-cases",
-    description: "Hvordan får man 50 m² sommerhus til at føles dobbelt så stort? Se hvordan vi optimerede pladsen i Sebbersund (Bjerget 13) og Sommervangen med skydedøre, alkove, siddeniche og mere.",
+    description: "Hvordan får man 50 m² sommerhus to føles dobbelt så stort? Se hvordan vi optimerede pladsen i Sebbersund (Bjerget 13) og Sommervangen med skydedøre, alkove, siddeniche og mere.",
     date: "05 / 07 / 2026",
     cat: "Få arkitektens råd",
     catKey: "raad",
@@ -43,7 +44,7 @@ export const posts: BlogPost[] = [
       {
         heading: "2. Siddeniche med udsigt: Multifunktionelle møbler",
         paragraphs: [
-          "I et lille sommerhus skal møblerne kunne mere end én ting. I gavlvinduet på Bjerget 13 designede vi en indbygget siddeniche i smukt træ. Bænken fungerer både som en hyggelig hvileplads og læsekrog med panoramaudsigt over vandet, men fungerer også som en naturlig siddeplads og bænk til spisebordet. Det sparer gulvplads, fordi der ikke skal stå løse stole og spærre for passagen."
+          "I et lille sommerhus skal møblerne kunne mere end én ting. I gavlvinduet på Bjerget 13 designede vi en indbygget siddeniche i smukt træ. Fra ydersiden er denne siddeniche udført med en elegant kobberinddækning, der beskytter konstruktionen og patinerer smukt over tid. Bænken fungerer både som en hyggelig hvileplads og læsekrog med panoramaudsigt over vandet, men fungerer også som en naturlig siddeplads og bænk til spisebordet. Det sparer gulvplads, fordi der ikke skal stå løse stole og spærre for passagen."
         ]
       },
       {

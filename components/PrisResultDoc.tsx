@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { submitLead } from "./submitLead";
 
 const BUDGET_TIPS = [
   { titel: "Vælg standardmaterialer", tekst: "Standardiserede produkter giver samme kvalitet som specialløsninger til 20–40 % lavere pris." },
@@ -54,6 +55,57 @@ export default function PrisResultDoc({
   const nVin  = parseInt(s.vinduer)      || 0;
   const nDøre = parseInt(s.terrassedøre) || 0;
   const rum   = parseInt(s.rum)          || 0;
+
+  const [navn, setNavn] = useState("");
+  const [email, setEmail] = useState("");
+  const [telefon, setTelefon] = useState("");
+  const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  async function handleSendEmail(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setError(null);
+    setLoading(true);
+
+    const message = `
+Brugeren har foretaget en prisberegning på en tilbygning.
+
+Specifikationer:
+- Areal: ${s.areal} m²
+- Rum: ${rum} stk.
+- Terræn: ${s.grund === "skrånende" ? "Skrånende grund" : "Vandret grund"}
+- Ydervægge: ${s.extVægge}
+- Tag: ${s.tag}
+- Indervægge: ${s.intVægge}
+- Gulv: ${s.gulv}
+- Lofter: ${s.lofter}
+- Vådrum/installationer: ${s.vådrum}
+- Vinduespartier: ${nVin} stk.
+- Terrassedøre: ${nDøre} stk.
+
+Estimeret prisområde:
+- Minimum: ${fmt(result.min)}
+- Maksimum: ${fmt(result.max)}
+`;
+
+    try {
+      const ok = await submitLead({
+        name: navn,
+        email,
+        phone: telefon,
+        projekt: "Prisberegning Tilbygning",
+        message,
+        _page: window.location.pathname,
+      });
+      if (!ok) throw new Error();
+      setSubmitted(true);
+    } catch {
+      setError("Noget gik galt. Prøv igen, eller ring til os direkte på 29 72 34 27.");
+    } finally {
+      setLoading(false);
+    }
+  }
 
   return (
     <div className="dr">
@@ -150,6 +202,62 @@ export default function PrisResultDoc({
           </div>
         </div>
       </div>
+
+      {submitted ? (
+        <div className="dr-email-success no-print">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginBottom: "0.5rem" }}>
+            <polyline points="20 6 9 17 4 12" />
+          </svg>
+          <p style={{ fontWeight: 500, fontSize: "0.95rem" }}>Prisskønnet er sendt!</p>
+          <p style={{ fontSize: "0.82rem", opacity: 0.85, marginTop: "0.25rem" }}>Tjek din indbakke om et øjeblik. Vi har også modtaget dine specifikationer.</p>
+        </div>
+      ) : (
+        <div className="dr-email-card no-print">
+          <p style={{ fontSize: "0.68rem", fontWeight: 500, letterSpacing: "0.08em", textTransform: "uppercase", color: "#b87c08" }}>Gem dit resultat</p>
+          <h3 style={{ fontSize: "1.1rem", fontWeight: 300, color: "var(--text)", margin: "0.3rem 0 0.5rem 0" }}>Få prisskønnet sendt til din e-mail</h3>
+          <p style={{ fontSize: "0.8rem", color: "var(--sub)", lineHeight: "1.5" }}>
+            Indtast dine oplysninger nedenfor. Så sender vi dig en komplet rapport med dine specifikationer og prisovervejelser.
+          </p>
+          <form onSubmit={handleSendEmail} className="dr-email-form">
+            <div className="dr-email-inputs">
+              <input
+                type="text"
+                placeholder="Dit navn *"
+                value={navn}
+                onChange={(e) => setNavn(e.target.value)}
+                required
+                className="dr-email-input"
+              />
+              <input
+                type="email"
+                placeholder="Din e-mail *"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+                className="dr-email-input"
+              />
+              <input
+                type="tel"
+                placeholder="Dit telefonnummer *"
+                value={telefon}
+                onChange={(e) => setTelefon(e.target.value)}
+                required
+                className="dr-email-input"
+              />
+            </div>
+            
+            {error && (
+              <p style={{ color: "#d93025", fontSize: "0.8rem", marginTop: "0.25rem" }}>
+                {error}
+              </p>
+            )}
+
+            <button type="submit" disabled={loading} className="dr-email-submit-btn">
+              {loading ? "Sender..." : "Send prisskøn →"}
+            </button>
+          </form>
+        </div>
+      )}
 
       <div className="dr-print-bar" style={{ display: "flex", gap: "1rem", justifyContent: "flex-end" }}>
         <button type="button" className="dr-print-btn" onClick={() => window.print()}>

@@ -383,6 +383,70 @@ body.menu-open { overflow: hidden; }
 .faq-a { font-size: 0.8rem; font-weight: 300; color: var(--sub); line-height: 1.75; }
 @media (max-width: 600px) { .faq-grid { grid-template-columns: 1fr; } }
 
+/* ── FAQ ACCORDION ── */
+.faq-accordion-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 2rem;
+  max-width: 800px;
+}
+.faq-accordion-item {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+.faq-accordion-item:hover {
+  border-color: #f3e6c4;
+  box-shadow: 0 4px 12px rgba(184,124,8,0.03);
+}
+.faq-accordion-item.faq-open {
+  border-color: #f3e6c4;
+  box-shadow: 0 6px 16px rgba(184,124,8,0.04);
+}
+.faq-accordion-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: 1.25rem 1.75rem;
+  cursor: pointer;
+  text-align: left;
+  color: var(--text);
+  outline: none;
+}
+.faq-accordion-q {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--text);
+  padding-right: 1.5rem;
+  letter-spacing: -0.01em;
+}
+.faq-accordion-icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--light);
+}
+.faq-accordion-item:hover .faq-accordion-icon {
+  color: #b87c08;
+}
+.faq-accordion-item.faq-open .faq-accordion-icon {
+  color: #b87c08;
+}
+.faq-accordion-body {
+  overflow: hidden;
+}
+.faq-accordion-content {
+  padding: 0 1.75rem 1.5rem 1.75rem;
+}
+
 /* ── SECTION BREAK ── */
 .section-break { background: var(--white); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 1.25rem 2rem; }
 .section-break-inner { max-width: 1120px; margin: 0 auto; display: flex; align-items: center; justify-content: center; gap: 1.25rem; flex-wrap: wrap; }
@@ -1415,4 +1479,75 @@ footer { background: var(--dark); color: rgba(255,255,255,0.7); }
   .cover-logo, .back-icon, img[src*="SVG"], img[src*="svg"], svg {
     filter: none !important;
   }
+  .no-print, .dr-email-card, .dr-email-success {
+    display: none !important;
+  }
 }
+
+/* ── CALCULATOR EMAIL LEAD FORM ── */
+.dr-email-card {
+  background: linear-gradient(135deg, #fffcf5 0%, #fef8e7 100%);
+  border: 1px solid #f3e6c4;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  margin-top: 2rem;
+}
+.dr-email-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+.dr-email-inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.75rem;
+}
+@media (max-width: 768px) {
+  .dr-email-inputs {
+    grid-template-columns: 1fr;
+  }
+}
+.dr-email-input {
+  background: var(--white);
+  border: 1px solid var(--border);
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  font-family: var(--sans);
+  color: var(--text);
+  outline: none;
+  transition: border-color 0.2s;
+}
+.dr-email-input:focus {
+  border-color: #d4910a;
+}
+.dr-email-submit-btn {
+  background: var(--text);
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: opacity 0.2s;
+}
+.dr-email-submit-btn:hover {
+  opacity: 0.9;
+}
+.dr-email-submit-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.dr-email-success {
+  background: #fcfdfc;
+  border: 1px solid #c4e3cb;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  color: #2e7d32;
+}
+

@@ -85,10 +85,28 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = getPost(slug);
   if (!post || post.redirect) return {};
+  
+  const imageUrl = post.image ? `https://yderskov.com${post.image}` : "https://yderskov.com/images/topbanner-new.webp";
+
   return {
     title: post.metaTitle,
     description: post.description,
     alternates: { canonical: `https://yderskov.com/blog/${post.slug}` },
+    openGraph: {
+      type: "article",
+      locale: "da_DK",
+      title: post.metaTitle,
+      description: post.description,
+      url: `https://yderskov.com/blog/${post.slug}`,
+      siteName: "Yderskov Arkitekter",
+      images: [{ url: imageUrl }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.metaTitle,
+      description: post.description,
+      images: [imageUrl],
+    },
   };
 }
 
