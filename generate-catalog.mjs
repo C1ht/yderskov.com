@@ -303,6 +303,92 @@ const tilbygningProjects = [
   },
 ];
 
+const skitseProjects = [
+  // VILLA-SKITSER
+  {
+    title: 'Skitseforslag: Ny villa',
+    location: 'Hou, Nordjylland',
+    size: 'Skitseforslag · villa',
+    year: '',
+    description: 'Skitseforslag til en moderne og rummelig villa i Hou med store glaspartier og en god forbindelse mellem inde- og uderum.',
+    images: [
+      '/images/Skitseforslag/Skitseforslag-Hou.webp',
+    ],
+  },
+  {
+    title: 'Skitseforslag: Tilbygning & modernisering',
+    location: 'Brovst, Nordjylland',
+    size: 'Skitseforslag · tilbygning',
+    year: '',
+    description: 'Skitseforslag til en større ombygning og tilbygning af en eksisterende bolig i Brovst for at skabe bedre lysindfald og ekstra opholdsareal.',
+    images: [
+      '/images/Skitseforslag/Skitseforslag-om-og-tilbygning-Brovst.webp',
+    ],
+  },
+  // SOMMERHUS-SKITSER
+  {
+    title: 'Skitseforslag: Kompakt sommerhus',
+    location: 'Danmark',
+    size: '50 m² skitseforslag',
+    year: '',
+    description: 'Skitseforslag til et kompakt og funktionelt sommerhus på 50 kvadratmeter, der udnytter pladsen optimalt med fokus på det enkle udeliv.',
+    images: [
+      '/images/Skitseforslag/Skitseforslag-50m2-Sommerhus.webp',
+    ],
+  },
+  {
+    title: 'Skitseforslag: Sommerhus',
+    location: 'Blokhus, Nordjylland',
+    size: 'Skitseforslag · sommerhus',
+    year: '',
+    description: 'Skitseforslag til et moderne træsommerhus i Blokhus, tegnet til at falde naturligt ind i klitlandskabet med store træterrasser.',
+    images: [
+      '/images/Skitseforslag/Skitseforslag-Blokhus.webp',
+    ],
+  },
+  {
+    title: 'Skitseforslag: Sommerhus',
+    location: 'Løkken, Nordjylland',
+    size: 'Skitseforslag · sommerhus',
+    year: '',
+    description: 'Skitseforslag til et klassisk sort træsommerhus i Løkken med et lyst, åbent køkken-alrum og direkte udgang til terrassen.',
+    images: [
+      '/images/Skitseforslag/Skitseforslag-Loekken.webp',
+    ],
+  },
+  {
+    title: 'Skitseforslag: Sommerhus med fladt tag',
+    location: 'Løkken, Nordjylland',
+    size: 'Skitseforslag · sommerhus',
+    year: '',
+    description: 'Skitseforslag til et moderne, kubistisk sommerhus med fladt tag i Løkken, tegnet med store glaspartier og overdækkede uderum.',
+    images: [
+      '/images/Skitseforslag/Skitseforslag-Loekken-fladt-tag.webp',
+    ],
+  },
+  {
+    title: 'Skitseforslag: Sommerhus i Løkken Syd',
+    location: 'Løkken, Nordjylland',
+    size: 'Skitseforslag · sommerhus',
+    year: '',
+    description: 'Skitseforslag til et sommerhus beliggende i Løkken Syd, hvor opholdsrummene er orienteret mod solen og udsigten over landskabet.',
+    images: [
+      '/images/Skitseforslag/Skitseforslag-Loekken-syd.webp',
+    ],
+  },
+  // LEJLIGHED-SKITSER
+  {
+    title: 'Skitseforslag: Lejlighedsrenovering',
+    location: 'Ågade, Aalborg',
+    size: 'Skitseforslag · plantegning',
+    year: '',
+    description: 'Plantegning og skitseforslag til den gennemgribende renovering af herskabslejligheden på Ågade i Aalborg med fokus på optimering af planløsningen.',
+    images: [
+      '/images/Ågade 25/Aalborg-Ågade-renovering-plantegning.webp',
+    ],
+  },
+];
+
 console.log('Launching browser...');
 const browser = await puppeteer.launch({
   executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe',
@@ -317,7 +403,8 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   const separatorImages = {
     villaer: await imgB64('/images/Karetmagervej/Sæby-ny-villa-funkis-haveside.webp', 1200),
     tilbygninger: await imgB64('/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp', 1200),
-    sommerhuse: await imgB64('/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-terrasse.webp', 1200)
+    sommerhuse: await imgB64('/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-terrasse.webp', 1200),
+    skitser: await imgB64('/images/Skitseforslag/Skitseforslag-Loekken.webp', 1200)
   };
 
   // Pre-process project images
@@ -691,7 +778,7 @@ ${processedProjects.map((p, idx) => {
   let htmlBlock = '';
   const needsSeparator = idx === 0 || p.section !== processedProjects[idx - 1].section;
   if (needsSeparator) {
-    const sectionTitle = p.section === 'villaer' ? 'Villaer' : (p.section === 'tilbygninger' ? 'Om- og tilbygning' : 'Sommerhuse');
+    const sectionTitle = p.section === 'villaer' ? 'Villaer' : (p.section === 'tilbygninger' ? 'Om- og tilbygning' : (p.section === 'sommerhuse' ? 'Sommerhuse' : 'Skitseforslag'));
     htmlBlock += `
 <div class="page cover ${p.separatorPhysicalPage % 2 === 0 ? 'page-even' : 'page-odd'}" style="background:${printFriendly ? '#fff' : '#161616'}; ${printFriendly ? 'border: 1px solid #ececec;' : ''}">
   <div class="cover-hero"><img src="${separatorImages[p.section]}" /></div>
@@ -877,9 +964,10 @@ try {
     ...villaProjects.map((p, idx) => ({ ...p, num: idx + 1, section: 'villaer' })),
     ...tilbygningProjects.map((p, idx) => ({ ...p, num: villaProjects.length + idx + 1, section: 'tilbygninger' })),
     ...sommerhusProjects.map((p, idx) => ({ ...p, num: villaProjects.length + tilbygningProjects.length + idx + 1, section: 'sommerhuse' })),
+    ...skitseProjects.map((p, idx) => ({ ...p, num: villaProjects.length + tilbygningProjects.length + sommerhusProjects.length + idx + 1, section: 'skitser' })),
   ];
 
-  const coverSub = 'villaer<br />om- og tilbygninger<br />sommerhuse';
+  const coverSub = 'villaer<br />om- og tilbygninger<br />sommerhuse<br />skitser';
 
   // Generate online catalog (black back cover)
   await runGenerator('inspiration', 'Inspiration', coverSub, '/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp', combinedProjects, false);
