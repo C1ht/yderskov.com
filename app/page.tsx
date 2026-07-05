@@ -174,7 +174,7 @@ export default function HomePage() {
           <div className="announcement-badge">Nyt</div>
           <div className="announcement-body">
             <p className="announcement-title">Byg nyt <Link href="/sommerhuse" style={{ textDecoration: "underline", color: "inherit" }}>sommerhus</Link> fra <strong><Link href="/priser" style={{ textDecoration: "underline", color: "#b87c08" }}>kr. 12.000 pr. m²</Link></strong></p>
-            <p className="announcement-sub">Vi tegner og bygger arkitekttegnede sommerhuse nøglefærdigt — med fast pris og egne håndværkere. Gratis og uforpligtende første møde.</p>
+            <p className="announcement-sub">Arkitekttegnet og nøglefærdigt til fast pris med egne håndværkere. Første møde er gratis.</p>
           </div>
           <Link href="/sommerhuse" className="announcement-cta">Se sommerhuse →</Link>
           <Link href="/priser" className="announcement-cta" style={{ background: "transparent", border: "1px solid var(--text)", color: "var(--text) !important" }}>Se priser →</Link>
