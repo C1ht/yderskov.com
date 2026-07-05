@@ -54,7 +54,7 @@ const projectGalleries = [
     location: "Hals, Nordjylland",
     size: "6 boliger á 85-95 m²",
     year: "2023",
-    description: "Nye, moderne udlejningsboliger opført i Hals som rækkehuse. Byggeriet er tegnet med fokus på vedligeholdelsesvenlige materialer af høj kvalitet — herunder en harmonisk kombination af lyse teglsten, mørk listebeklædning i træ og holdbare detaljer. Hver bolig har eget indgangsparti, private udearealer og en gennemtænkt planløsning, der henvender sig bredt til lejere.",
+    description: "Vi har tegnet flere nye rækkehuse som udlejningsboliger i Hals. Husene er opført i gode materialer, der kræver minimal vedligeholdelse, med en flot kombination af lyse mursten og lodret, mørkt træværk. Hver bolig har sit eget indgangsparti, en lille nem og privat have samt en rigtig god indretning på 85-95 kvadratmeter. Boligerne er tegnet, så de udnytter dagslyset bedst muligt og henvender sig bredt til både yngre og ældre lejere.",
     images: [
       { src: "/images/Hals Rækkehuse/Hals-Aalborgvej20-udlejning-indgangsparti.webp", alt: "Indgangsparti, udlejningsboliger i Hals — Arkitekttegnestuen Yderskov" },
       { src: "/images/Hals Rækkehuse/Hals-Aalborgvej30-udlejning-.webp", alt: "Udlejningsbolig, Hals — Arkitekttegnestuen Yderskov" },
