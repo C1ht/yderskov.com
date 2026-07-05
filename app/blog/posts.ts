@@ -19,6 +19,58 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "pladsoptimering-lille-sommerhus",
+    image: "/images/Bjerget 13/sommerhus Bjerget 13 udsigtsniche som siddeplads.webp",
+    images: [
+      "/images/Bjerget 13/sommerhus Bjerget 13 udsigtsniche som siddeplads.webp",
+      "/images/Sommervangen/sommervangen sommerhus køkken åbent.webp",
+      "/images/Sommervangen/sommervangen sommerhus sedumtag.webp"
+    ],
+    metaTitle: "Pladsoptimering i det lille sommerhus — 5 geniale tips | Yderskov",
+    title: "Pladsoptimering i det lille sommerhus — Lær af vores sommerhus-cases",
+    description: "Hvordan får man 50 m² sommerhus til at føles dobbelt så stort? Se hvordan vi optimerede pladsen i Sebbersund (Bjerget 13) og Sommervangen med skydedøre, alkove, siddeniche og mere.",
+    date: "05 / 07 / 2026",
+    cat: "Få arkitektens råd",
+    catKey: "raad",
+    lead: "Når kvadratmeterne er få, tæller hver eneste detalje. I denne artikel viser vi, hvordan du kan optimere pladsen i et lille sommerhus, så det føles rummeligt og lyst. Med udgangspunkt i vores projekter Bjerget 13 i Sebbersund og Sommervangen giver vi dig arkitektens bedste råd til indretning og pladsoptimering.",
+    sections: [
+      {
+        heading: "1. Træk omgivelserne ind med store vinduespartier",
+        paragraphs: [
+          "En af de mest effektive måder at få et lille rum til at virke større på, er at fjerne den visuelle grænse mellem inde og ude. I sommerhuset på **Bjerget 13** har vi tegnet store, ubrudte vinduespartier i gavlen mod vandet. Når du har fri udsigt til naturen og himlen, føles rummet uendeligt. Den visuelle forbindelse gør, at naturen bliver en del af stuen, og boligen føles langt større end sine faktiske 50 m²."
+        ]
+      },
+      {
+        heading: "2. Siddeniche med udsigt: Multifunktionelle møbler",
+        paragraphs: [
+          "I et lille sommerhus skal møblerne kunne mere end én ting. I gavlvinduet på Bjerget 13 designede vi en indbygget siddeniche i smukt træ. Bænken fungerer både som en hyggelig hvileplads og læsekrog med panoramaudsigt over vandet, men fungerer også som en naturlig siddeplads og bænk til spisebordet. Det sparer gulvplads, fordi der ikke skal stå løse stole og spærre for passagen."
+        ]
+      },
+      {
+        heading: "3. Længekøkken og skydedøre frigør gulvplads",
+        paragraphs: [
+          "Traditionelle døre kræver meget plads for at kunne åbne og lukke. Ved at erstatte dem med skydedøre frigør du værdifuld gulvplads. I køkkenet handler det om at holde linjerne enkle. Et længekøkken (eller et enkeltsidet køkken) er den perfekte løsning til det smalle eller mindre sommerhus, da det samler alle funktioner på én væg og lader resten af rummet være åbent. Se f.eks. det åbne køkken i vores projekt **Sommervangen**, hvor den enkle køkkenvæg smelter sammen med opholdsrummet."
+        ]
+      },
+      {
+        heading: "4. Alkove med skydelåger som ekstra soveplads",
+        paragraphs: [
+          "Når gæster eller børnebørn overnatter, er en alkove en genial løsning. Ved at bygge en alkove ind i væggen med skydelåger kan du lukke af for sovepladsen om dagen, så den fungerer som en diskret del af væggen. Om natten skydes lågerne til side, og du har en hyggelig, integreret sovekabine uden at optage plads til et ekstra soveværelse."
+        ]
+      },
+      {
+        heading: "5. Sedumtag forbinder sommerhuset med naturen",
+        paragraphs: [
+          "For at få det lille sommerhus to falde helt i ét med omgivelserne kan et grønt sedumtag (stenurt) være prikken over i'et. Det er ikke blot smukt at kigge på, men beskytter også tagkonstruktionen og hjælper med at regulere temperaturen inde i huset. I vores sommerhusprojekt **Sommervangen** har vi monteret sedumtag for at skabe en flydende arkitektonisk overgang til det rå klitlandskab."
+        ]
+      }
+    ],
+    relatedLinks: [
+      { label: "Læs casen om sommerhuset på Bjerget 13 i Sebbersund", href: "/blog/sommerhus-sebbersund-snestorm" },
+      { label: "Læs om overgangen mellem ude og inde i Sommervangen", href: "/blog/overgang-mellem-ude-og-inde" }
+    ]
+  },
+  {
     slug: "funkisvilla-vestbjerg-garage",
     image: "/images/Højgården/Vestsbjerg-ny-funkisvilla-vejside.webp",
     images: [

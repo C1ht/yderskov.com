@@ -26,6 +26,15 @@ type Post = {
 const posts: Post[] = [
   // 2026
   {
+    href: "/blog/pladsoptimering-lille-sommerhus",
+    image: "/images/Bjerget 13/sommerhus Bjerget 13 udsigtsniche som siddeplads.webp",
+    date: "05 / 07 / 2026",
+    cat: "Få arkitektens råd",
+    catKey: "raad",
+    title: "Pladsoptimering i det lille sommerhus — 5 geniale tips",
+    excerpt: "Hvordan får man 50 m² sommerhus to at føles dobbelt så stort? Se hvordan vi optimerede pladsen i Sebbersund (Bjerget 13) og Sommervangen med skydedøre, alkove, siddeniche og mere.",
+  },
+  {
     href: "/blog/funkisvilla-vestbjerg-garage",
     image: "/images/Højgården/Vestsbjerg-ny-funkisvilla-vejside.webp",
     date: "20 / 06 / 2026",
