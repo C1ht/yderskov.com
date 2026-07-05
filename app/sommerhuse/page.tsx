@@ -85,7 +85,7 @@ const projectGalleries = [
     location: "Løkken, Nordjylland",
     size: "115 m² fritidshus",
     year: "2024",
-    description: "Arkitekttegnet sommerhus i Løkken med minimalistisk nordisk interiør. Opholdsrummet har lyst plankegulv og en central mur med indbygget biopejs som rumdeler mod køkkenet. Det lyse egetræskøkken har betonbordplader, og der er direkte udgang til en stor træterrasse med udebruser. [Læs vores case og se detaljerne om den indbyggede biopejs her](/blog/indbygget-biopejs-sommerhus).",
+    description: "Dette sommerhus i Løkken er tegnet i en lys, nordisk stil med lyse trægulve. Huset har en central mur i midten, der deler stuen og køkkenet op, og heri er der indbygget en hyggelig biopejs, som kan ses fra begge sider. Det lyse egetræskøkken har solide betonbordplader, som giver rummet kant. Fra opholdsrummet er der direkte udgang til en stor træterrasse, hvor vi har monteret en integreret udebruser til at skylle sandet af efter en strandtur. [Læs vores case og se detaljerne om den indbyggede biopejs her](/blog/indbygget-biopejs-sommerhus).",
     images: [
       { src: "/images/Harald jensensvej Løkken/Harald jensensvej stue og pejs.webp", alt: "Stue med indbygget biopejs i sommerhus, Løkken — Arkitekttegnestuen Yderskov" },
       { src: "/images/Harald jensensvej Løkken/Harald jensensvej køkken.webp", alt: "Køkken i moderne sommerhus, Løkken — Arkitekttegnestuen Yderskov" },
