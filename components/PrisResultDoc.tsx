@@ -117,7 +117,7 @@ Estimeret prisområde:
           <p className="dr-head-tagline">Tanke + Streger</p>
         </div>
         <div className="dr-head-right">
-          <p className="dr-head-type">Prisskøn · Tilbygning</p>
+          <p className="dr-head-type">Vejledende prisskøn · Tilbygning</p>
           <p className="dr-head-date">{today()}</p>
         </div>
       </div>
@@ -177,7 +177,7 @@ Estimeret prisområde:
             <p className="dr-price-card-num">{fmt(result.max)}</p>
           </div>
         </div>
-        <p className="dr-price-note">Alle priser er inkl. moms · Vejledende entreprisesum</p>
+        <p className="dr-price-note">Alle priser er inkl. moms · OBS: Dette er udelukkende et uforpligtende, vejledende prisskøn</p>
 
         <div className="dr-incl-grid">
           <div className="dr-incl-col">
