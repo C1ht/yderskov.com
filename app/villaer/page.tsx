@@ -116,7 +116,7 @@ const projectGalleries = [
     location: "Aalborg, Nordjylland",
     size: "430 m² herskabelig bolig",
     year: "2023",
-    description: "Eksklusiv herskabsvilla i engelsk colonial-stil opført i Aalborg. Den rødmurede facade med markante hvide pudsede gesimser, søjleprydet indgangsparti og mørke sprossede vinduer komplementeres af en smuk forhave med frodige vinranker. Indvendigt rummer villaen luksuriøse faciliteter, herunder en storslået hall med en elegant svungen trappe, sildebensparket, hjemmebiograf og stuer en-suite.",
+    description: "Denne store villa i Aalborg er opført for et dansk par, der var vendt hjem til Danmark efter at have boet i USA. De ønskede en bolig inspireret af den klassiske, amerikanske byggestil (colonial-stil). Villaen er bygget med en rød murstensfacade, hvide gesimser, søjler ved indgangspartiet og mørke sprossede vinduer, og i forhaven vokser der frodige vinranker. Indendørs er der en stor hall med en flot, svungen trappe og sildebensparket. Huset rummer desuden hyggelige stuer ensuite og egen hjemmebiograf.",
     images: [
       { src: "/images/Ikarosvej/Aalborg-Ikarosvej-ny-villa-indkørsel.webp", alt: "Engelsk villa i colonial-stil, indkørsel, Aalborg — Arkitekttegnestuen Yderskov" },
       { src: "/images/Ikarosvej/Ikarosvej facade.webp", alt: "Engelsk villa i colonial-stil, facade, Aalborg — Arkitekttegnestuen Yderskov" },
