@@ -98,7 +98,7 @@ export default function HomePage() {
               <span className="eyebrow">Projektkatalog</span>
               <h2 className="sec-hed">Få inspiration til dit byggeprojekt</h2>
               <p className="body-p" style={{ marginTop: "1rem" }}>
-                Vi har samlet et udsnit af vores projekter i et inspirationskatalog. Gå på opdagelse i vores afsluttede villaer, sommerhuse samt om- og tilbygninger. Få inspiration til materialevalg, planløsninger og lysindfald. Tag gerne kataloget med til vores første gratis, uforpligtende møde.
+                Hent vores inspirationskatalog med et udvalg af vores afsluttede villaer, sommerhuse og tilbygninger. Få idéer til planløsninger, materialevalg og lysindfald til dit eget byggeprojekt.
               </p>
               
               <CatalogDownloadButtons />
