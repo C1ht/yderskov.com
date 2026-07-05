@@ -498,45 +498,57 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     skitser: 'https://yderskov.com/inspiration'
   };
 
-  let tocItemsHtml = `
+  const tocElements = [];
+  tocElements.push(`
     <a href="https://yderskov.com/om" class="toc-item" target="_blank">
       <span class="toc-num">00</span>
       <span class="toc-name">Processen fra A til Z</span>
       <span class="toc-loc">Byggeforløbet</span>
       <span class="toc-pg">3</span>
     </a>
+  `);
+  tocElements.push(`
     <a href="https://yderskov.com/kontakt" class="toc-item" target="_blank">
       <span class="toc-num">00</span>
       <span class="toc-name">Forberedelse til jeres idémøde</span>
       <span class="toc-loc">Inden første møde</span>
       <span class="toc-pg">4</span>
     </a>
-  `;
+  `);
 
   let currentSec = null;
   for (const p of processedProjects) {
     if (p.section !== currentSec) {
       currentSec = p.section;
-      tocItemsHtml += `<div class="toc-section-title">${sectionsMap[currentSec]}</div>`;
+      tocElements.push(`<div class="toc-section-title">${sectionsMap[currentSec]}</div>`);
     }
-    tocItemsHtml += `
+    tocElements.push(`
       <a href="${sectionLinks[p.section]}" class="toc-item" target="_blank">
         <span class="toc-num">${p.num < 10 ? '0' + p.num : p.num}</span>
         <span class="toc-name">${p.title}</span>
         <span class="toc-loc">${p.location}</span>
         <span class="toc-pg">${p.pageNumber}</span>
       </a>
-    `;
+    `);
   }
 
-  tocItemsHtml += `
-    <div class="toc-section-title">Egne noter</div>
+  tocElements.push(`<div class="toc-section-title">Egne noter</div>`);
+  tocElements.push(`
     <a href="https://yderskov.com/kontakt" class="toc-item" target="_blank">
       <span class="toc-num">99</span>
       <span class="toc-name">Egne noter & idéer</span>
       <span class="toc-loc">Skriveplads</span>
       <span class="toc-pg">${notesPageNumber}</span>
     </a>
+  `);
+
+  const half = Math.ceil(tocElements.length / 2);
+  const leftCol = tocElements.slice(0, half).join('');
+  const rightCol = tocElements.slice(half).join('');
+
+  let tocItemsHtml = `
+    <div class="toc-col">${leftCol}</div>
+    <div class="toc-col">${rightCol}</div>
   `;
 
   const html = `<!DOCTYPE html>
@@ -635,9 +647,14 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   .toc-eyebrow { font-size:7pt; font-weight:500; letter-spacing:0.2em; color:#999; text-transform:uppercase; margin-bottom:4mm; }
   .toc-heading { font-size:28pt; font-weight:500; letter-spacing:-0.02em; color:#111; margin-bottom:6mm; }
   .toc-list {
-    column-count: 2;
-    column-gap: 12mm;
+    display: flex;
+    gap: 12mm;
     flex: 1;
+  }
+  .toc-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
   }
   .toc-item {
     display:flex;
