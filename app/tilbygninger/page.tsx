@@ -73,7 +73,7 @@ const projectGalleries = [
     location: "Hasseris, Aalborg",
     size: "Facaderenovering · ny planløsning",
     year: "2022",
-    description: "Totalrenovering af en klassisk 1970'er-villa i Hasseris. Den mørke facade er forvandlet med en lys, hvidpudset overflade kombineret med sort træbeklædning og detaljer i zink. En ny terrasse. Planløsningen er gennemgribende optimeret for at skabe et stort, sammenhængende køkken-alrum med store vinduespartier mod haven.",
+    description: "Dette projekt i Hasseris er en komplet renovering af en traditionel 1970'er-villa. Den oprindelige mørke facade er blevet pudset hvid og kombineret med lodret, sort træbeklædning og zinkdetaljer, hvilket giver huset et helt nyt liv. Indvendigt har vi ændret planløsningen for at skabe et stort, lyst køkken-alrum med store vinduespartier ud mod haven. Der er desuden opført en stor, ny træterrasse, som gør det nemt at træde direkte ud og nyde haven.",
     images: [
       { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-vejside.webp", alt: "Vejside efter ombygning af 70er-villa i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
       { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-haveside.webp", alt: "Haveside efter ombygning af 70er-villa i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
