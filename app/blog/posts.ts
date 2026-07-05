@@ -26,7 +26,7 @@ export const posts: BlogPost[] = [
       "/images/Højgården/Vestsbjerg-ny-funkisvilla-haveside.webp",
       "/images/Højgården/Vestsbjerg-ny-funkisvilla-indgangsparti.webp"
     ],
-    metaTitle: "Case: Funkisvilla i Vestbjerg med integreret luksusgarage på 70 m² — Yderskov",
+    metaTitle: "Case: Funkisvilla i Vestbjerg med luksusgarage — Yderskov",
     title: "Case: Funkisvilla i Vestbjerg med integreret luksusgarage på 70 m² — Arkitekttegnestuen Yderskov",
     description: "Læs hvordan vi designede en 70 m² garage og mekanikerværksted, integreret i en moderne funkisvilla i Vestbjerg til en bilglad familie.",
     date: "20 / 06 / 2026",
@@ -286,7 +286,7 @@ export const posts: BlogPost[] = [
     images: [
       "/images/Løvevej/Ålbæk-poolhus-køkken.webp"
     ],
-    metaTitle: "Hvordan designer man et godt køkkenrum? Få arkitektens 5 råd — Yderskov",
+    metaTitle: "Hvordan designer man et godt køkkenrum? Råd fra arkitekten — Yderskov",
     title: "Hvordan designer man et godt køkkenrum? Få arkitektens råd — Arkitekttegnestuen Yderskov",
     description: "Drømmer du om det perfekte køkken? Læs arkitektens råd om arbejdszoner, lysindfald, materialevalg og akustik i det moderne køkken-alrum.",
     date: "17 / 06 / 2026",
@@ -623,7 +623,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "naturlig-kilde-sebbersund",
-    metaTitle: "Kilde på grunden i Sebbersund nær Aalborg: Fra problem til aktiv — Yderskov",
+    metaTitle: "Kilde på grunden i Sebbersund: Fra problem til aktiv — Yderskov",
     title: "Kilden der løb ud af bakken i Sebbersund nær Aalborg — og hvordan vi i 2026 gjorde den til et smukt element.",
     description: "En naturlig kilde på sommerhusgrunden i Sebbersund nær Aalborg skulle håndteres inden byggeriet. Arkitekten foreslog at gøre den til et smukt haveelement med sten og beplantning.",
     date: "01 / 05 / 2026",
@@ -1614,7 +1614,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "multirum",
-    metaTitle: "Hvordan indretter man i 2026 et multirum i en bolig? — Yderskov Arkitekter",
+    metaTitle: "Hvordan indretter man et multirum i en bolig? — Yderskov",
     title: "Hvordan indretter man i 2026 et multirum i en bolig?",
     description: "Et multirum er boligens mest fleksible rum — det kan være hjemmekontor, gæsteværelse og hobbylokale på én gang. Her gennemgår vi hvordan du indretter det rigtigt.",
     date: "25 / 04 / 2026",
@@ -2487,7 +2487,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "arkitekthonorar",
-    metaTitle: "Hvad koster en arkitekt i 2026 — honorar og fast pris — Yderskov Arkitekter",
+    metaTitle: "Hvad koster en arkitekt i 2026? Honorar & fast pris — Yderskov",
     title: "Hvad koster en arkitekt i 2026 — honorar og fast pris?",
     description: "Hvad er forskellen på arkitekthonorar og fast pris? Her forklarer vi forskellen – og hvorfor vi hos Yderskov tilbyder fast pris.",
     date: "22 / 12 / 2025",
