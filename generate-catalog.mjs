@@ -558,8 +558,7 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
 
   /* BACK */
   .back { background:${printFriendly ? '#fff' : '#161616'}; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:0; ${printFriendly ? 'border: 1px solid #ececec;' : ''} }
-  .back-icon { width:17mm; filter:${printFriendly ? 'none' : 'invert(1) brightness(2)'}; margin-bottom:9mm; }
-  .back-name { font-size:12pt; font-weight:400; color:${printFriendly ? '#111' : '#fff'}; letter-spacing:0.06em; margin-bottom:11mm; }
+  .back-icon { width:42mm; filter:${printFriendly ? 'none' : 'invert(1) brightness(2)'}; margin-bottom:11mm; }
   .back-div { width:12mm; height:0.4pt; background:${printFriendly ? '#ececec' : 'rgba(255,255,255,0.18)'}; margin-bottom:11mm; }
   .back-info { text-align:center; }
   .back-info p { font-size:9.5pt; font-weight:300; color:${printFriendly ? '#555' : 'rgba(255,255,255,0.55)'}; line-height:2.1; }
@@ -832,8 +831,7 @@ ${processedProjects.map((p, idx) => {
 
 <!-- BACK COVER -->
 <div class="page back ${backCoverPhysicalPage % 2 === 0 ? 'page-even' : 'page-odd'}">
-  <img class="back-icon" src="${iconData}" />
-  <div class="back-name">Arkitekttegnestuen Yderskov</div>
+  <img class="back-icon" src="${logoData}" />
   <div class="back-div"></div>
   <div class="back-info">
     <p>📞 29 72 34 27</p>
