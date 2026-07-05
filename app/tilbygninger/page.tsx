@@ -45,7 +45,7 @@ const projectGalleries = [
     location: "Hasseris, Aalborg",
     size: "45 m² tilbygning · terrasse",
     year: "2021",
-    description: "Stilfuld tilbygning til en traditionel murstensvilla i Hasseris. Tilbygningen er udført med en mørk træbeklædning, der danner en flot kontrast til det gule murværk, og afsluttes med zinkinddækninger samt store hjørnevinduer. Den tilfører boligen et lyst, åbent opholdsrum med direkte udgang til husets træterrasse og en smukt anlagt have.",
+    description: "Vi har tegnet en tilbygning på 45 kvadratmeter til en traditionel murstensvilla i Hasseris. For at skabe en flot kontrast til de eksisterende gule mursten, er tilbygningen beklædt med mørkt træ. Bygningen afsluttes med zinkkanter og store hjørnevinduer, der lukker masser af dagslys ind. Indvendigt har familien fået en lys og åben stue med direkte udgang til en ny træterrasse, som forbinder huset med den hyggelige have.",
     images: [
       { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-terrasse.webp", alt: "Terrasse ved villa med tilbygning i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
       { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp", alt: "Bagside af villa med tilbygning i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
@@ -59,7 +59,7 @@ const projectGalleries = [
     location: "Aalborg, Nordjylland",
     size: "35 m² tilbygning · overdækning",
     year: "2022",
-    description: "Elegant og moderne tilbygning i Aalborg udført med mørke facadeplader, der tilfører huset værdifulde kvadratmeter og masser af dagslys. Tilbygningen åbner sig mod haven via en stor, specialbygget træterrasse i flere niveauer, som trapper naturligt ned mod plænen og integrerer uderummet i hverdagen.",
+    description: "Med denne tilbygning i Aalborg har vi bygget 35 kvadratmeter til det eksisterende hus for at skabe et ekstra lyst opholdsrum med masser af dagslys. Tilbygningen er udført i lodret træbeklædning med brede beklædningsbrædder, som giver huset et enkelt og moderne udtryk. Vi har tegnet en stor træterrasse i flere niveauer, der trapper naturligt ned til græsplænen. Terrassen forbinder stuen og haven på en praktisk måde, så det er nemt at bruge uderummet i det daglige, når vejret tillader det.",
     images: [
       { src: "/images/Neptunvej/Aalborg-neptunvej-tilbygning-terrasse.webp", alt: "Terrasse ved tilbygning i Aalborg — Arkitekttegnestuen Yderskov" },
       { src: "/images/Neptunvej/Aalborg-neptunvej-tilbygning-terrasse-og-plæne.webp", alt: "Terrasse and plæne ved tilbygning i Aalborg — Arkitekttegnestuen Yderskov" },

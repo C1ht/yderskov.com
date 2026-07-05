@@ -36,7 +36,7 @@ const projectGalleries = [
     location: "Aarhus Centrum",
     size: "1.200 m² (12 lejligheder)",
     year: "2021",
-    description: "Gennemgribende transformation af en historisk fabriksbygning i Aarhus bycentrum til moderne, karakterfulde loftslejligheder. Projektet bevarer bygningens rå sjæl med synlige teglstensvægge, stålspær og store, industrielle sprossevinduer. Lejlighederne er indrettet med moderne køkkener, lyse opholdsrum og private altaner, som komplementerer den rå, industrielle æstetik.",
+    description: "Da vi overtog projektet, blev den nedlagte fabriksbygning brugt som kostumelager for Aarhus Teater. Vi har bygget den om til 12 moderne og lyse lejligheder i Aarhus centrum. For at bevare bygningens historie og rå stemning, har vi beholdt de gamle rå murstensvægge, de synlige stålspær og de store, industrielle sprossevinduer, som giver et fantastisk lysindfald. Lejlighederne er indrettet enkelt med funktionelle køkkener, der passer godt til stilen. Flere af lejlighederne har fået deres egen private altan, så beboerne kan nyde udelivet midt i byen.",
     images: [
       { src: "/images/Fabrik Aarhus/Aarhus-fabrik-ombygget-køkken-og-altan.webp", alt: "Køkken og altan i ombygget fabrik, Aarhus — Arkitekttegnestuen Yderskov" },
     ],
