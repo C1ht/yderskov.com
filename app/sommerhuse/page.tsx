@@ -50,7 +50,7 @@ const projectGalleries = [
     location: "Ålbæk, Nordjylland",
     size: "185 m² wellness-hus · pool & spa",
     year: "2023",
-    description: "Eksklusivt luksussommerhus i Ålbæk beklædt med lyst træ, tegnet som et wellness-fristed. Huset rummer en storslået wellness-afdeling med swimmingpool, sauna samt både indvendig og udvendig spa. Indvendigt er der lyst køkkenalrum, hyggelig hems og et aktivitetsrum med billard. Huset rummer flere værelser og badeværelser og er egnet til en stor familie eller udlejning.",
+    description: "Dette store sommerhus i Ålbæk er beklædt med lyst træ og tegnet med fokus på wellness og samvær. Indenfor er der en stor poolafdeling med en swimmingpool, en sauna og et indbygget spabad. Huset rummer desuden et lyst køkken-alrum med en hyggelig hems og et stort aktivitetsrum med billard og bordfodbold til de regnfulde dage. Med flere gode soveværelser og badeværelser er sommerhuset perfekt indrettet til, at en stor familie eller flere generationer kan holde ferie sammen, og det egner sig også rigtig godt til udlejning.",
     images: [
       { src: "/images/Løvevej/Ålbæk-poolhus-terrasse.webp", alt: "Arkitekttegnet poolhus i Ålbæk — Arkitekttegnestuen Yderskov" },
       { src: "/images/Løvevej/Ålbæk-poolhus-pool.webp", alt: "Indendørs pool i arkitekttegnet sommerhus — Arkitekttegnestuen Yderskov" },
