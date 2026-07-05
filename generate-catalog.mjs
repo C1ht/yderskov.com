@@ -145,10 +145,10 @@ const villaProjects = [
     year: '2024',
     description: 'Herskabelig engelsk villa opført på en stor hesteejendom nær Aalborg med en enestående udsigt over Limfjorden. Villaen er tegnet til en familie på tre med udgangspunkt i et postkort familien kom med til tegnestuen, der viste deres drømmebolig. Villaen byder på eksklusive rammer med en rummelig hall, et stort køkken, stuer ensuite og flere badeværelser, der tilsammen forener det klassiske herregårdsudtryk med moderne landliv.',
     images: [
-      '/images/Nørholmsvej/Engelsk villa fra havesiden.webp',
-      '/images/Nørholmsvej/Engelsk villa facade Nørholmsvej.webp',
-      '/images/Nørholmsvej/Engelsk villa fra gavl.webp',
+      '/images/Nørholmsvej/Engelsk villa facade mod Nørholmsvej.avif',
       '/images/Nørholmsvej/Engelsk villa på stor plæne.webp',
+      '/images/Nørholmsvej/Engelsk villa fra havesiden.webp',
+      '/images/Nørholmsvej/Engelsk villa fra gavl.webp',
     ],
   },
 ];
