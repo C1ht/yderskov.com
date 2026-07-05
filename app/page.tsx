@@ -7,7 +7,8 @@ import Hero from "@/components/Hero";
 import ProjectGrid from "@/components/ProjectGrid";
 import CtaBand from "@/components/CtaBand";
 import CatalogDownloadButtons from "@/components/CatalogDownloadButtons";
-import { localBusinessSchema, projects, testimonials, processSteps, blogPosts } from "./home-data";
+import { localBusinessSchema, projects, testimonials, blogPosts } from "./home-data";
+import ProcessAccordion from "@/components/ProcessAccordion";
 
 
 export const metadata: Metadata = {
@@ -311,15 +312,7 @@ export default function HomePage() {
         <div className="s-inner">
           <span className="eyebrow">Sådan arbejder vi</span>
           <h2 className="sec-hed">Processen fra idé til nøgle</h2>
-          <div className="process-steps">
-            {processSteps.map((step) => (
-              <div key={step.num} className="process-step">
-                <div className="process-step-num">{step.num}</div>
-                <p className="process-step-title">{step.title}</p>
-                <p className="process-step-desc">{step.desc}</p>
-              </div>
-            ))}
-          </div>
+          <ProcessAccordion />
 
         </div>
       </section>
