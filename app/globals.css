@@ -1000,8 +1000,8 @@ footer { background: var(--dark); color: rgba(255,255,255,0.7); }
   max-width: 1240px;
 }
 .catalog-card {
-  background: linear-gradient(135deg, #fdfcfb 0%, #f7f5ee 100%);
-  border: 1px solid #eae5d8;
+  background: linear-gradient(90deg, #fffcf5 0%, #fef8e7 50%, #fffcf5 100%);
+  border: 1px solid #f3e6c4;
   border-radius: 24px;
   padding: 2.25rem 3rem;
   display: grid;
