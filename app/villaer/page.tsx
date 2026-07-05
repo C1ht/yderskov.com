@@ -73,7 +73,7 @@ const projectGalleries = [
     location: "Vestbjerg, Nordjylland",
     size: "205 m² bolig · 70 m² garage · 6 m² overdækning",
     year: "",
-    description: "Funkisvilla tilpasset en grund med fald og skøn udsigt over den omkringliggende natur og det åbne landskab. Naturen og lyset trækkes ind i boligen ved at designe huset med store skydedørspartier og åbne facader. Familien elsker deres hund og har selvfølgelig bryggers med hundevaskeplads.",
+    description: "Funkisvilla tilpasset en grund med fald og skøn udsigt over den omkringliggende natur og det åbne landskab. Naturen og lyset trækkes ind i boligen med store skydedørspartier. Familien elsker deres hund og har indrettet bryggers med hundevaskeplads. [Læs om hundevaskepladsen her](/blog/hundevaskeplads-vestbjerg) og se [indretningen af den tilhørende garage her](/blog/funkisvilla-vestbjerg-garage).",
     images: [
       { src: "/images/Højgården/Vestsbjerg-ny-funkisvilla-haveside.webp", alt: "Funkisvilla nær Hammer Bakker, haveside, Vestbjerg — Arkitekttegnestuen Yderskov" },
       { src: "/images/Højgården/Vestsbjerg-ny-funkisvilla-indgangsparti.webp", alt: "Indgangsparti på funkisvilla i Vestbjerg — Arkitekttegnestuen Yderskov" },
@@ -102,7 +102,7 @@ const projectGalleries = [
     location: "Vestbjerg, Nordjylland",
     size: "190 m² bolig · 55 m² garage · 22 m² overdækning",
     year: "2023",
-    description: "Villa med ensidig taghældning og overdækket terrasse i direkte forbindelse med stuens store glaspartier. Huset er udformet med en tydelig fløjstruktur, der skaber naturlig zonering mellem opholdsrum og børne-/forældreafdelinger. Familien lagde vægt på optimalt lysindfald, god loftshøjde og en flydende overgang mellem inde og ude under den overdækkede terrasse.",
+    description: "Villa med ensidig taghældning og overdækket terrasse i direkte forbindelse med stuens store glaspartier. Huset har en tydelig fløjstruktur med en fantastisk flydende overgang mellem inde og ude under den overdækkede terrasse. [Læs mere om hvordan vi skaber overgangen mellem ude og inde her](/blog/overgang-mellem-ude-og-inde).",
     images: [
       { src: "/images/Hanebjælken/Vestbjerg-Hanebjælken-ny-villa-haveside.webp", alt: "Villa med ensidig taghældning, haveside, Vestbjerg — Arkitekttegnestuen Yderskov" },
       { src: "/images/Hanebjælken/Vestbjerg-Hanebjælken-ny-villa-overdækket-terrasse.webp", alt: "Overdækket terrasse på villa i Vestbjerg — Arkitekttegnestuen Yderskov" },
@@ -132,7 +132,7 @@ const projectGalleries = [
     location: "Nørholm nær Aalborg, Nordjylland",
     size: "350 m² landejendom",
     year: "2024",
-    description: "Herskabelig engelsk villa opført på en stor hesteejendom nær Aalborg med en enestående udsigt over Limfjorden. Villaen er tegnet til en familie på tre med udgangspunkt i et postkort familien kom med til tegnestuen, der viste deres drømmebolig. Villaen byder på eksklusive rammer med en rummelig hall, et stort køkken, stuer ensuite og flere badeværelser, der tilsammen forener det klassiske herregårdsudtryk med moderne landliv.",
+    description: "Herskabelig engelsk villa opført på en stor hesteejendom nær Aalborg med en enestående udsigt over Limfjorden. Villaen er tegnet til en familie på tre med udgangspunkt i et postkort familien kom med til tegnestuen, der viste deres drømmebolig. Villaen byder på eksklusive rammer med en rummelig hall, et stort køkken, stuer ensuite og flere badeværelser. [Læs hele historien om drømmen om det engelske herresæde her](/blog/villa-herresaede-noerholm-aalborg).",
     images: [
       { src: "/images/Nørholmsvej/Engelsk villa facade mod Nørholmsvej.avif", alt: "Facade mod Nørholmsvej, engelsk villa ved fjorden — Arkitekttegnestuen Yderskov" },
       { src: "/images/Nørholmsvej/Engelsk villa på stor plæne.webp", alt: "Engelsk villa ved fjorden på stor plæne, Nørholm — Arkitekttegnestuen Yderskov" },
