@@ -21,7 +21,7 @@ const projectGalleries = [
     location: "Brønderslev, Nordjylland",
     size: "Komplet ombygning · nyt køkken-alrum",
     year: "2023",
-    description: "Gennemgribende transformation af en klassisk 1950'er-villa i Brønderslev. Huset er opgraderet fra slidt murværk til en moderne, hvidpudset facade med mørke vinduesrammer og store skydedørspartier. Indvendigt er boligen åbnet op med et imponerende køkken-alrum med loft til kip, store vinduespartier, direkte adgang til en nyopført træterrasse mod haven og 4 værelser samt fritliggende multirum.",
+    description: "Denne klassiske 1950'er-villa i Brønderslev har fået en komplet ombygning og modernisering. Huset er forvandlet fra et slidt murstenshus til en moderne, hvidpudset villa med mørke vinduesrammer og store skydedøre, der kan åbnes helt op til haven. Indvendigt har vi åbnet huset op med et lyst køkken-alrum med højt til loftet (loft til kip) og store vinduer. Der er desuden indrettet to moderne badeværelser og fire gode værelser. I det tilhørende anneks (multirum) er der ligeledes lavet et badeværelse samt et lille tekøkken, og der er direkte udgang til en ny, stor træterrasse fra hovedhuset.",
     images: [
       { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-3.webp", alt: "Haveside med birketræ efter modernisering, Brønderslev — Arkitekttegnestuen Yderskov" },
       { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-2.webp", alt: "Gårdside med skydedøre efter modernisering, Brønderslev — Arkitekttegnestuen Yderskov" },
