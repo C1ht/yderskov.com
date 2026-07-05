@@ -5,10 +5,12 @@ import path from 'path';
 
 const root = 'C:/Users/Lotte/Documents/yderskov-nextjs/yderskov/public';
 
-async function imgB64(src, width = 1000) {
+async function imgB64(src, width = 1000, highRes = false) {
   const full = root + src;
   if (!fs.existsSync(full)) return '';
-  const buf = await sharp(full).resize(width, null, { withoutEnlargement: true }).jpeg({ quality: 82 }).toBuffer();
+  const finalWidth = highRes ? width * 2 : width;
+  const finalQuality = highRes ? 90 : 82;
+  const buf = await sharp(full).resize(finalWidth, null, { withoutEnlargement: true }).jpeg({ quality: finalQuality }).toBuffer();
   return 'data:image/jpeg;base64,' + buf.toString('base64');
 }
 
@@ -398,21 +400,21 @@ const browser = await puppeteer.launch({
 
 async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProjects, printFriendly = false) {
   console.log(`Generating catalog for ${name} (printFriendly=${printFriendly})...`);
-  const coverImg = await imgB64(coverImgSrc, 1200);
+  const coverImg = await imgB64(coverImgSrc, 1200, printFriendly);
 
   const separatorImages = {
-    villaer: await imgB64('/images/Karetmagervej/Sæby-ny-villa-funkis-haveside.webp', 1200),
-    tilbygninger: await imgB64('/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp', 1200),
-    sommerhuse: await imgB64('/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-terrasse.webp', 1200),
-    skitser: await imgB64('/images/Skitseforslag/Skitseforslag-Loekken.webp', 1200)
+    villaer: await imgB64('/images/Karetmagervej/Sæby-ny-villa-funkis-haveside.webp', 1200, printFriendly),
+    tilbygninger: await imgB64('/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp', 1200, printFriendly),
+    sommerhuse: await imgB64('/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-terrasse.webp', 1200, printFriendly),
+    skitser: await imgB64('/images/Skitseforslag/Skitseforslag-Loekken.webp', 1200, printFriendly)
   };
 
   // Pre-process project images
   for (const p of catalogProjects) {
-    p.img0 = await imgB64(p.images[0], 1000);
-    p.img1 = p.images[1] ? await imgB64(p.images[1], 520) : null;
-    p.img2 = p.images[2] ? await imgB64(p.images[2], 520) : null;
-    p.img3 = p.images[3] ? await imgB64(p.images[3], 520) : null;
+    p.img0 = await imgB64(p.images[0], 1000, printFriendly);
+    p.img1 = p.images[1] ? await imgB64(p.images[1], 520, printFriendly) : null;
+    p.img2 = p.images[2] ? await imgB64(p.images[2], 520, printFriendly) : null;
+    p.img3 = p.images[3] ? await imgB64(p.images[3], 520, printFriendly) : null;
 
     p.galleryPages = [];
     if (p.images.length > 4 && (!p.beforeImages || p.beforeImages.length === 0)) {
@@ -421,7 +423,7 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
         const chunk = remainingImages.slice(j, j + 12);
         const chunkB64 = [];
         for (const imgPath of chunk) {
-          chunkB64.push(await imgB64(imgPath, 600));
+          chunkB64.push(await imgB64(imgPath, 600, printFriendly));
         }
         p.galleryPages.push({
           images: chunkB64,
@@ -431,14 +433,14 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     }
 
     if (p.beforeImages && p.beforeImages.length > 0) {
-      p.bimg0 = await imgB64(p.beforeImages[0], 1000);
-      p.bimg1 = p.beforeImages[1] ? await imgB64(p.beforeImages[1], 520) : null;
-      p.bimg2 = p.beforeImages[2] ? await imgB64(p.beforeImages[2], 520) : null;
+      p.bimg0 = await imgB64(p.beforeImages[0], 1000, printFriendly);
+      p.bimg1 = p.beforeImages[1] ? await imgB64(p.beforeImages[1], 520, printFriendly) : null;
+      p.bimg2 = p.beforeImages[2] ? await imgB64(p.beforeImages[2], 520, printFriendly) : null;
     }
   }
 
-  let displayedPageNum = 4;
-  let physicalPageNum = 5;
+  let displayedPageNum = 5; // Starts at 5 now because of the new preparation page (Page 4)
+  let physicalPageNum = 6;  // Start projects at physical page 6
   const processedProjects = [];
   for (let i = 0; i < catalogProjects.length; i++) {
     const p = catalogProjects[i];
@@ -473,7 +475,69 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     processedProjects.push(p);
   }
 
+  // Allocate notes page just before back cover
+  const notesPageNumber = displayedPageNum;
+  const notesPhysicalPage = physicalPageNum;
+  console.log(`Notes page -> Page number: ${notesPageNumber}, Physical Page: ${notesPhysicalPage}`);
+  displayedPageNum++;
+  physicalPageNum++;
+
   const backCoverPhysicalPage = physicalPageNum;
+
+  const sectionsMap = {
+    villaer: 'Villaer',
+    tilbygninger: 'Om- & tilbygninger',
+    sommerhuse: 'Sommerhuse',
+    skitser: 'Skitseforslag'
+  };
+
+  const sectionLinks = {
+    villaer: 'https://yderskov.com/villaer',
+    tilbygninger: 'https://yderskov.com/tilbygninger',
+    sommerhuse: 'https://yderskov.com/sommerhuse',
+    skitser: 'https://yderskov.com/inspiration'
+  };
+
+  let tocItemsHtml = `
+    <a href="https://yderskov.com/om" class="toc-item" target="_blank">
+      <span class="toc-num">00</span>
+      <span class="toc-name">Processen fra A til Z</span>
+      <span class="toc-loc">Byggeforløbet</span>
+      <span class="toc-pg">3</span>
+    </a>
+    <a href="https://yderskov.com/kontakt" class="toc-item" target="_blank">
+      <span class="toc-num">00</span>
+      <span class="toc-name">Forberedelse til jeres idémøde</span>
+      <span class="toc-loc">Inden første møde</span>
+      <span class="toc-pg">4</span>
+    </a>
+  `;
+
+  let currentSec = null;
+  for (const p of processedProjects) {
+    if (p.section !== currentSec) {
+      currentSec = p.section;
+      tocItemsHtml += `<div class="toc-section-title">${sectionsMap[currentSec]}</div>`;
+    }
+    tocItemsHtml += `
+      <a href="${sectionLinks[p.section]}" class="toc-item" target="_blank">
+        <span class="toc-num">${p.num < 10 ? '0' + p.num : p.num}</span>
+        <span class="toc-name">${p.title}</span>
+        <span class="toc-loc">${p.location}</span>
+        <span class="toc-pg">${p.pageNumber}</span>
+      </a>
+    `;
+  }
+
+  tocItemsHtml += `
+    <div class="toc-section-title">Egne noter</div>
+    <a href="https://yderskov.com/kontakt" class="toc-item" target="_blank">
+      <span class="toc-num">99</span>
+      <span class="toc-name">Egne noter & idéer</span>
+      <span class="toc-loc">Skriveplads</span>
+      <span class="toc-pg">${notesPageNumber}</span>
+    </a>
+  `;
 
   const html = `<!DOCTYPE html>
 <html lang="da">
@@ -581,6 +645,30 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     padding:1.6mm 0;
     border-bottom:0.3pt solid #ececec;
     break-inside: avoid;
+    text-decoration: none;
+    color: inherit !important;
+  }
+  .toc-section-title {
+    font-size: 7.5pt;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: #b87c08;
+    text-transform: uppercase;
+    margin-top: 3.5mm;
+    margin-bottom: 1.5mm;
+    border-bottom: 0.5pt solid #eae5d8;
+    padding-bottom: 0.8mm;
+    break-inside: avoid;
+  }
+  /* NOTES PAGE */
+  .notes-page { display:flex; flex-direction:column; }
+  .notes-lines {
+    flex: 1;
+    margin-top: 6mm;
+    margin-bottom: 6mm;
+    background-image: linear-gradient(#ececec 1px, transparent 1px);
+    background-size: 100% 8.5mm;
+    line-height: 8.5mm;
   }
   .toc-num { font-size:7.5pt; font-weight:500; color:#bbb; width:8mm; flex-shrink:0; }
   .toc-name { font-size:9.5pt; font-weight:400; color:#111; flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
@@ -706,19 +794,7 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
   <div class="toc-eyebrow">Katalog — ${name}</div>
   <div class="toc-heading">Indholdsfortegnelse</div>
   <div class="toc-list">
-    <div class="toc-item">
-      <span class="toc-num">00</span>
-      <span class="toc-name">Processen fra A til Z</span>
-      <span class="toc-loc">Byggeforløbet</span>
-      <span class="toc-pg">3</span>
-    </div>
-    ${processedProjects.map((p) => `
-    <div class="toc-item">
-      <span class="toc-num">${p.num < 10 ? '0' + p.num : p.num}</span>
-      <span class="toc-name">${p.title}</span>
-      <span class="toc-loc">${p.location}</span>
-      <span class="toc-pg">${p.pageNumber}</span>
-    </div>`).join('')}
+    ${tocItemsHtml}
   </div>
   <div class="toc-footer">
     <img class="toc-footer-logo" src="${logoData}" />
@@ -780,6 +856,32 @@ async function runGenerator(name, coverTitle, coverSub, coverImgSrc, catalogProj
     <span class="proc-footer-text">Arkitekttegnestuen Yderskov ApS · yderskov.com · cy@yderskov.com · 29 72 34 27</span>
   </div>
   <div class="intro-page-num">3</div>
+</div>
+
+<!-- PREPARATION -->
+<div class="page intro-page page-odd">
+  <div class="intro-eyebrow">Forberedelse · yderskov.com</div>
+  <div class="intro-heading">Forberedelse til jeres idémøde</div>
+  <div class="intro-text">
+    <p>For at få det bedste ud af vores uforpligtende idémøde (f.eks. på jeres byggegrund), kan det være en god idé at overveje følgende spørgsmål og ønsker på forhånd. Det er ikke et krav at have svarene klar, men det giver os et rigtig godt udgangspunkt for vores dialog:</p>
+    
+    <p style="margin-top:5mm; margin-bottom:2.2mm; font-size:10pt;"><strong>1. Grunden & omgivelserne</strong></p>
+    <p style="margin-left:4mm; margin-bottom:3.5mm; font-size:9pt; color:#555; line-height:1.6;">Hvor er de gode solforhold (morgen- og aftensol)? Hvor kommer vinden typisk fra, og hvor er eventuelle udsigtskiler? Hvordan kan bygningen placeres bedst muligt i forhold til naboer og terræn?</p>
+    
+    <p style="margin-top:2mm; margin-bottom:2.2mm; font-size:10pt;"><strong>2. Behov & rumfunktioner</strong></p>
+    <p style="margin-left:4mm; margin-bottom:3.5mm; font-size:9pt; color:#555; line-height:1.6;">Hvilke rum er vigtige for jeres hverdag? Hvor mange værelser har I brug for? Tænk over ønsker til funktionelle detaljer som legeværelse, multirum, hjemmekontor, eller måske en siddeniche med udsigt i stuen.</p>
+    
+    <p style="margin-top:2mm; margin-bottom:2.2mm; font-size:10pt;"><strong>3. Arkitektonisk udtryk & materialer</strong></p>
+    <p style="margin-left:4mm; margin-bottom:3.5mm; font-size:9pt; color:#555; line-height:1.6;">Hvilken stil drømmer I om? Er I til en minimalistisk funkisvilla med fladt tag, et klassisk længehus med sadeltag, eller et sommerhus beklædt med råt træ og grønt sedumtag? Har I præferencer for specifikke materialer?</p>
+    
+    <p style="margin-top:2mm; margin-bottom:2.2mm; font-size:10pt;"><strong>4. Budget & tidsramme</strong></p>
+    <p style="margin-left:4mm; margin-bottom:3.5mm; font-size:9pt; color:#555; line-height:1.6;">Har I fastlagt et overordnet budget for byggeriet? Og hvornår drømmer I om, at jeres nye hjem står klar til indflytning?</p>
+  </div>
+  <div class="intro-footer">
+    <img class="intro-footer-logo" src="${logoData}" />
+    <span class="intro-footer-text">Arkitekttegnestuen Yderskov ApS · yderskov.com · cy@yderskov.com · 29 72 34 27</span>
+  </div>
+  <div class="intro-page-num">4</div>
 </div>
 
 <!-- PROJECTS -->
@@ -924,6 +1026,19 @@ ${processedProjects.map((p, idx) => {
 
   return htmlBlock;
 }).join('')}
+
+<!-- NOTES PAGE -->
+<div class="page notes-page ${notesPhysicalPage % 2 === 0 ? 'page-even' : 'page-odd'}" style="padding: 20mm 20mm 20mm 20mm;">
+  <div class="intro-eyebrow">Egne tanker · yderskov.com</div>
+  <div class="intro-heading" style="margin-bottom:2mm;">Egne noter & idéer</div>
+  <p class="body-p" style="font-size:9.5pt; font-weight:300; color:#555; line-height:1.5;">Brug denne plads til at skrive jeres egne idéer, spørgsmål eller tegne skitser, som vi kan tale om under vores første møde.</p>
+  <div class="notes-lines"></div>
+  <div class="intro-footer">
+    <img class="intro-footer-logo" src="${logoData}" />
+    <span class="intro-footer-text">Arkitekttegnestuen Yderskov ApS · yderskov.com · cy@yderskov.com · 29 72 34 27</span>
+  </div>
+  <div class="intro-page-num">${notesPageNumber}</div>
+</div>
 
 <!-- BACK COVER -->
 <div class="page back ${backCoverPhysicalPage % 2 === 0 ? 'page-even' : 'page-odd'}">
