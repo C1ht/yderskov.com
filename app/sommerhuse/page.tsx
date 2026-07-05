@@ -22,7 +22,7 @@ const projectGalleries = [
     location: "Hals, Nordjylland",
     size: "95 m² fritidshus · stor terrasse",
     year: "2022",
-    description: "Dette lyse sommerhus i Hals er smukt beliggende på en åben lyngslette, omgivet af et roligt skovområde. Huset er tegnet med store glaspartier for at sikre et fantastisk lysindfald og en tæt kontakt til naturen. Indvendigt er køkkenet adskilt fra stuen med en elegant rumdeler, som skaber en perfekt balance mellem funktionel opdeling og den åbne rumfornemmelse.",
+    description: "Dette sommerhus i Hals ligger på en åben lynggrund omgivet af skov. Huset er tegnet med store glaspartier, som lukker masser af dagslys ind og giver et godt kig til naturen. Indvendigt er der åben forbindelse mellem køkkenet og stuen, hvilket giver en lys og luftig rumfornemmelse. De lyse, nordiske materialer skaber en rolig og hyggelig sommerhusstemning, og en stor træterrasse løber hele vejen rundt om huset.",
     images: [
       { src: "/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp", alt: "Terrasse ved sommerhus i Hals — Arkitekttegnestuen Yderskov" },
       { src: "/images/Torndalsvej/Hals-Torndalsvej-køkken.webp", alt: "Køkken i sommerhus i Hals — Arkitekttegnestuen Yderskov" },
@@ -36,7 +36,7 @@ const projectGalleries = [
     location: "Løkken, Nordjylland",
     size: "110 m² fritidshus · klitgrund",
     year: "2020",
-    description: "Klassisk sort træsommerhus opført på en dejlig åben grund i Løkken med storslået panoramaudsigt over landskabet nær Vesterhavet. Bygningen er nænsomt integreret i det sarte landskab med en stor, ugeneret træterrasse, der smyger sig om huset.",
+    description: "Dette klassiske, sorte træsommerhus ligger på en åben grund i Løkken med en fantastisk udsigt over det smukke landskab tæt på Vesterhavet. Huset er tegnet, så det tilpasser sig terrænnet. En stor, ugeneret træterrasse smyger sig hele vejen rundt om huset og skaber læfyldte hyggekroge, hvor man kan sidde i læ for vestenvinden. Byggeriet danner de perfekte rammer om den traditionelle og hyggelige danske sommerhusstemning.",
     images: [
       { src: "/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-indgangsparti.webp", alt: "Indgangsparti ved sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
       { src: "/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-terrasse.webp", alt: "Terrasse ved sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
@@ -71,7 +71,7 @@ const projectGalleries = [
     location: "Løkken, Nordjylland",
     size: "115 m² fritidshus",
     year: "2024",
-    description: "Moderne sommerhus i Løkken i et stramt formsprog med mørk listebeklædning. Huset er gennemtænkt med store glaspartier for et flydende overgangsrum, en stor ugeneret træterrasse og en integreret udebruser.",
+    description: "Dette nye sommerhus i Løkken er bygget i en moderne, enkel stil og beklædt med lodrette, mørke trælister. Vi har tegnet huset med store glaspartier, som lader lyset strømme frit igennem rummene og forbinder stuen direkte med haven. En stor træterrasse løber ugeneret langs huset og skaber gode lækroge til de solrige dage. Som en ekstra detalje er der bygget en praktisk, integreret udebruser på terrassen, som er perfekt efter en tur på stranden.",
     images: [
       { src: "/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-indkørsel.webp", alt: "Nyt sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
       { src: "/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-terrasse.webp", alt: "Terrasse ved sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
