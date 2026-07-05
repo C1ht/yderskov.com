@@ -219,11 +219,11 @@ const sommerhusProjects = [
     year: '2024',
     description: 'Arkitekttegnet sommerhus i Løkken med minimalistisk nordisk interiør. Opholdsrummet har lyst plankegulv og en central mur med indbygget biopejs som rumdeler mod køkkenet. Det lyse egetræskøkken har betonbordplader, og der er direkte udgang til en stor træterrasse med udebruser.',
     images: [
-      '/images/Harald jensensvej Løkken/Harald jensensvej stue og pejs.webp',
-      '/images/Harald jensensvej Løkken/Harald jensensvej køkken.webp',
-      '/images/Harald jensensvej Løkken/Harald jensens vej køkkeborde.webp',
-      '/images/Harald jensensvej Løkken/Harald jensensvej terrasse.webp',
-      '/images/Harald jensensvej Løkken/Harald jensensvej terrasse udebrus.webp',
+      '/images/Marensvej sommerhus/Sommerhus marensvej grønhøj stue og pejs.webp',
+      '/images/Marensvej sommerhus/Sommerhus marensvej grønhøj køkken.webp',
+      '/images/Marensvej sommerhus/Sommerhus marensvej grønhøj køkkeborde.webp',
+      '/images/Marensvej sommerhus/Sommerhus marensvej grønhøj terrasse.webp',
+      '/images/Marensvej sommerhus/Sommerhus marensvej grønhøj terrasse udebrus.webp',
     ],
   },
 ];

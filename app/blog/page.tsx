@@ -45,7 +45,7 @@ const posts: Post[] = [
   },
   {
     href: "/blog/indbygget-biopejs-sommerhus",
-    image: "/images/Harald jensensvej Løkken/Harald jensensvej stue og pejs.webp",
+    image: "/images/Marensvej sommerhus/Sommerhus marensvej grønhøj stue og pejs.webp",
     date: "17 / 06 / 2026",
     cat: "Cases fra praksis",
     catKey: "case",

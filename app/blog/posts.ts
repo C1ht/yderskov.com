@@ -140,10 +140,10 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "indbygget-biopejs-sommerhus",
-    image: "/images/Harald jensensvej Løkken/Harald jensensvej stue og pejs.webp",
+    image: "/images/Marensvej sommerhus/Sommerhus marensvej grønhøj stue og pejs.webp",
     images: [
-      "/images/Harald jensensvej Løkken/Harald jensensvej stue og pejs.webp",
-      "/images/Harald jensensvej Løkken/Harald jensensvej terrasse.webp",
+      "/images/Marensvej sommerhus/Sommerhus marensvej grønhøj stue og pejs.webp",
+      "/images/Marensvej sommerhus/Sommerhus marensvej grønhøj terrasse.webp",
       "/images/Karetmagervej/Sæby-ny-villa-funkis-køkken-stue.webp"
     ],
     metaTitle: "Case: Indbygget biopejs i moderne sommerhus i Løkken — Yderskov",
