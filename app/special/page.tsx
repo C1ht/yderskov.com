@@ -89,6 +89,9 @@ export default function SpecialPage() {
             <div>
               <span className="eyebrow">Projekt</span>
               <h2 className="sec-hed" style={{ marginBottom: 0 }}>Bed &amp; Breakfast,<br />Aalborg.</h2>
+              <p className="proj-desc" style={{ marginTop: "1.25rem", maxWidth: "680px", color: "var(--sub)" }}>
+                Dette projekt, beliggende naturskønt i Aalborgs udkant, er en ombygning af en eksisterende ejendom til en hyggelig og indbydende Bed &amp; Breakfast. Vi har designet lyse fællesarealer med et moderne køkken og en hyggelig spiseplads, hvor gæsterne kan samles. Målet har været at skabe en hjemlig og afslappet atmosfære, som føles rar at være i, samtidig med at indretningen er praktisk og let at holde ren i hverdagen.
+              </p>
             </div>
           </div>
           <ImageGrid images={[

@@ -162,6 +162,9 @@ export default function LejlighederPage() {
             <div>
               <span className="eyebrow">Projekt</span>
               <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering I<br />Ågade, Aalborg.</h2>
+              <p className="proj-desc" style={{ marginTop: "1.25rem", maxWidth: "680px", color: "var(--sub)" }}>
+                Denne ældre lejlighed i Ågade i Aalborg har gennemgået en totalrenovering for at optimere pladsen og bringe mere dagslys ind i rummene. Vi har ændret planløsningen og åbnet op til et lyst køkken, samtidig med at vi har bevaret og nænsomt restaureret de smukke, originale vinduer. Badeværelset er moderniseret med enkle løsninger, så de få kvadratmeter udnyttes bedst muligt, og der er gjort plads til praktiske detaljer som en indbygget niche til amerikanerkøleskab.
+              </p>
             </div>
           </div>
           <p className="proj-grid-label">Efter ombygning</p>
@@ -188,7 +191,10 @@ export default function LejlighederPage() {
           <div className="proj-header">
             <div>
               <span className="eyebrow">Projekt</span>
-              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering III<br />Reberbansgade, Aalborg.</h2>
+              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering III (1. th)<br />Reberbansgade, Aalborg.</h2>
+              <p className="proj-desc" style={{ marginTop: "1.25rem", maxWidth: "680px", color: "var(--sub)" }}>
+                Dette projekt i Reberbansgade i Aalborg er den ene halvdel af en oprindelig stor herskabslejlighed, som vi har opdelt i to mindre, moderne boliger. Lejligheden (1. th) har fået en gennemgribende renovering med helt nye gulve, et lyst, moderne køkken og et stilrent badeværelse. Vi har skabt et åbent kig mellem stuen og soveværelset, hvilket får hele lejligheden til at virke markant større og mere luftig. Badeværelset og toilettet er opdateret med lyse materialer, og det nye køkken er indrettet med fokus på god plads til både madlavning og opbevaring.
+              </p>
             </div>
           </div>
           <ImageGrid images={[
@@ -212,7 +218,10 @@ export default function LejlighederPage() {
           <div className="proj-header">
             <div>
               <span className="eyebrow">Projekt</span>
-              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering III<br />Reberbansgade, Aalborg.</h2>
+              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering III (1. tv)<br />Reberbansgade, Aalborg.</h2>
+              <p className="proj-desc" style={{ marginTop: "1.25rem", maxWidth: "680px", color: "var(--sub)" }}>
+                Dette projekt i Reberbansgade i Aalborg er den anden halvdel af den oprindelige store herskabslejlighed, som er blevet opdelt i to mindre boliger. I denne lejlighed (1. tv) har vi fokuseret på at skabe en funktionel planløsning, der udnytter kvadratmeterne fuldt ud. Køkkenet er enkelt og moderne med smarte opbevaringsløsninger og åbne hylder, der bevarer en lys atmosfære, mens det tilhørende toilet er renoveret i en enkel og ren stil.
+              </p>
             </div>
           </div>
           <ImageGrid images={[
