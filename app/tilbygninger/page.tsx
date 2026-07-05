@@ -87,7 +87,7 @@ const projectGalleries = [
     location: "Brønderslev, Nordjylland",
     size: "Komplet ombygning · energirenovering",
     year: "2023",
-    description: "Dette projekt er en stor totalrenovering og modernisering af et ældre parcelhus i Brønderslev. Huset er blevet fuldstændig forvandlet fra et almindeligt murstenshus til en lys, moderne bolig i to etager. Som en helt særlig detalje har huset fået sit eget tårn med siddepladser i toppen, hvorfra der er en fantastisk udsigt over hele området. Renoveringen omfatter store glaspartier mod den private baghave, moderne energiløsninger og en flot, grusbelagt indkørsel. Prøv at sammenligne med 'før-billedet' og se den store forvandling af huset.",
+    description: "Dette projekt er en stor totalrenovering og modernisering af et ældre parcelhus i Brønderslev. Huset er blevet fuldstændig forvandlet fra et almindeligt murstenshus til en lys, moderne bolig i to etager. Som en helt særlig detalje har huset fået sit eget tårn med siddepladser i toppen, hvorfra der er en fantastisk udsigt over hele området. Renoveringen, som omfatter store glaspartier mod den private baghave, moderne energiløsninger og en flot, grusbelagt indkørsel, er foretaget af [yderskovbygogbolig.dk](https://yderskovbygogbolig.dk). Prøv at sammenligne med 'før-billedet' og se den store forvandling af huset.",
     images: [
       { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-vejside.webp", alt: "Vejside efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
       { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-indkørsel.webp", alt: "Indkørsel efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
