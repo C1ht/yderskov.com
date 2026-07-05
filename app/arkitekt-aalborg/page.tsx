@@ -181,7 +181,7 @@ export default function ArkitektAalborgPage() {
               <span className="eyebrow">Projektkatalog</span>
               <h2 className="sec-hed">Få inspiration til dit byggeprojekt</h2>
               <p className="body-p" style={{ marginTop: "1rem" }}>
-                Hent vores inspirationskatalog med et udvalg af vores afsluttede villaer, sommerhuse og tilbygninger. Få idéer til planløsninger, materialevalg og lysindfald til dit eget byggeprojekt.
+                Hent vores inspirationskatalog og få idéer til planløsninger, materialevalg og lysindfald fra vores afsluttede projekter.
               </p>
               
               <CatalogDownloadButtons />
