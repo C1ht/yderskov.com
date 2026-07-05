@@ -73,7 +73,7 @@ const projectGalleries = [
     location: "Vestbjerg, Nordjylland",
     size: "205 m² bolig · 70 m² garage · 6 m² overdækning",
     year: "",
-    description: "Funkisvilla tilpasset en grund med fald og skøn udsigt over den omkringliggende natur og det åbne landskab. Naturen og lyset trækkes ind i boligen med store skydedørspartier. Familien elsker deres hund og har indrettet bryggers med hundevaskeplads. [Læs om hundevaskepladsen her](/blog/hundevaskeplads-vestbjerg) og se [indretningen af den tilhørende garage her](/blog/funkisvilla-vestbjerg-garage).",
+    description: "Denne store funkisvilla i Vestbjerg er tilpasset en skrående grund med en flot udsigt over det åbne naturlandskab. Vi har tegnet huset med store skydedøre i glas, som gør det nemt at trække dagslyset og naturen helt ind i opholdsrummene. Familien er glade for hunde, og derfor har vi indrettet et praktisk bryggers med en indbygget hundevaskeplads i gulvniveau, så hunden nemt kan vaskes efter en gåtur. [Læs om hundevaskepladsen her](/blog/hundevaskeplads-vestbjerg) og se [indretningen af den tilhørende garage her](/blog/funkisvilla-vestbjerg-garage).",
     images: [
       { src: "/images/Højgården/Vestsbjerg-ny-funkisvilla-haveside.webp", alt: "Funkisvilla nær Hammer Bakker, haveside, Vestbjerg — Arkitekttegnestuen Yderskov" },
       { src: "/images/Højgården/Vestsbjerg-ny-funkisvilla-indgangsparti.webp", alt: "Indgangsparti på funkisvilla i Vestbjerg — Arkitekttegnestuen Yderskov" },
