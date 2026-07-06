@@ -23,7 +23,7 @@ export default function CtaBand({
             </svg>
             29 72 34 27
           </a>
-          <Link href="/kontakt" className="cta-band-btn cta-band-book">
+          <Link href="/kontakt#heroContactForm" className="cta-band-btn cta-band-book">
             Book gratis møde
           </Link>
         </div>

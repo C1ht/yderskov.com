@@ -152,7 +152,7 @@ export default function Nav() {
             29 72 34 27
           </a>
 
-          <Link href="/kontakt" className="nav-book-btn">
+          <Link href="/kontakt#heroContactForm" className="nav-book-btn">
             Book gratis møde
           </Link>
         </div>
@@ -219,7 +219,7 @@ export default function Nav() {
               </Link>
             )
           )}
-          <Link href="/kontakt" className="nav-mobile-book" onClick={(e) => handleLinkClick(e, "/kontakt")}>
+          <Link href="/kontakt#heroContactForm" className="nav-mobile-book" onClick={(e) => handleLinkClick(e, "/kontakt#heroContactForm")}>
             Book gratis møde
           </Link>
         </div>
