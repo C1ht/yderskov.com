@@ -1,6 +1,22 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function MobileCta() {
+  const pathname = usePathname();
+
+  const handleScroll = (e: React.MouseEvent) => {
+    if (pathname === "/kontakt") {
+      const el = document.getElementById("heroContactForm");
+      if (el) {
+        e.preventDefault();
+        const y = el.getBoundingClientRect().top + window.scrollY - 100;
+        window.scrollTo({ top: y, behavior: "smooth" });
+      }
+    }
+  };
+
   return (
     <div className="mobile-cta" role="region" aria-label="Kontakt">
       <a href="tel:29723427" className="mobile-cta-btn mobile-cta-call">
@@ -9,7 +25,7 @@ export default function MobileCta() {
         </svg>
         Ring
       </a>
-      <Link href="/kontakt#heroContactForm" className="mobile-cta-btn mobile-cta-book">
+      <Link href="/kontakt#heroContactForm" className="mobile-cta-btn mobile-cta-book" onClick={handleScroll}>
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
           <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
         </svg>

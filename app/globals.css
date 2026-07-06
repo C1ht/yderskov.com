@@ -724,7 +724,7 @@ body.menu-open { overflow: hidden; }
 .form-btn:hover { opacity: 0.8; }
 .map-wrap { width: 100%; height: 360px; overflow: hidden; }
 .map-wrap iframe { width: 100%; height: 100%; border: none; display: block; }
-@media (max-width: 900px) { .contact-layout { grid-template-columns: 1fr; gap: 3rem; } }
+@media (max-width: 900px) { .contact-layout { display: flex; flex-direction: column-reverse; gap: 3rem; } }
 
 /* ── PRICING TABLE ── */
 .pricing-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--border); border-radius: 16px; overflow: hidden; margin-top: 2rem; }

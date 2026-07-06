@@ -1,12 +1,24 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { submitLead } from "./submitLead";
 
 export default function HeroForm() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (typeof window !== "undefined" && window.location.hash === "#heroContactForm") {
+      const el = document.getElementById("heroContactForm");
+      if (el) {
+        setTimeout(() => {
+          const y = el.getBoundingClientRect().top + window.scrollY - 100;
+          window.scrollTo({ top: y, behavior: "smooth" });
+        }, 150);
+      }
+    }
+  }, []);
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
