@@ -49,30 +49,41 @@ export default function ProcessAccordion() {
   };
 
   return (
-    <div className="process-steps">
+    <div className="accordion-wrapper" style={{ marginTop: '1rem' }}>
       {STEPS.map((step, idx) => {
         const isOpen = openIndex === idx;
         return (
           <div
             key={step.num}
-            className={`process-step${isOpen ? " process-open" : ""}`}
+            className={`accordion-item${isOpen ? " accordion-open" : ""}`}
             onClick={() => toggle(idx)}
             role="button"
             aria-expanded={isOpen}
             tabIndex={0}
             onKeyDown={(e) => e.key === "Enter" && toggle(idx)}
-            style={{ cursor: "pointer" }}
+            style={{
+              cursor: "pointer",
+              background: "var(--white)",
+              border: "1px solid var(--border)",
+              borderRadius: "8px",
+              marginBottom: "0.5rem",
+              padding: "1.25rem 1.5rem",
+              transition: "all 0.2s ease"
+            }}
           >
-            <div className="process-step-num-row" style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-              <div className="process-step-num">{step.num}</div>
-              <div className="process-step-chevron" style={{ color: "var(--light)" }}>
+            <div className="accordion-item-head" style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+              <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
+                <div style={{ fontSize: "0.85rem", fontWeight: 600, color: "var(--sub)" }}>{step.num}</div>
+                <div style={{ fontSize: "1rem", fontWeight: 500, color: "var(--text)" }}>{step.title}</div>
+              </div>
+              <div style={{ color: "var(--text)" }}>
                 <svg
-                  width="16"
-                  height="16"
+                  width="20"
+                  height="20"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  strokeWidth="2.5"
+                  strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   style={{
@@ -84,19 +95,21 @@ export default function ProcessAccordion() {
                 </svg>
               </div>
             </div>
-            <p className="process-step-title">{step.title}</p>
-            <p className="process-step-desc">{step.desc}</p>
+            
             <div
-              className="process-step-details"
+              className="accordion-item-body"
               style={{
-                maxHeight: isOpen ? "220px" : "0px",
+                maxHeight: isOpen ? "500px" : "0px",
                 opacity: isOpen ? 1 : 0,
                 transition: "max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.25s ease, margin-top 0.25s ease",
                 overflow: "hidden",
-                marginTop: isOpen ? "0.75rem" : "0px",
+                marginTop: isOpen ? "1rem" : "0px",
               }}
             >
-              <p className="process-step-details-text" style={{ fontSize: "0.72rem", color: "var(--text)", lineHeight: 1.6, fontWeight: 300 }}>
+              <p style={{ fontSize: "0.9rem", color: "var(--text)", lineHeight: 1.6, marginBottom: "0.5rem", fontWeight: 400 }}>
+                {step.desc}
+              </p>
+              <p style={{ fontSize: "0.85rem", color: "var(--sub)", lineHeight: 1.6, fontWeight: 300 }}>
                 {step.details}
               </p>
             </div>
