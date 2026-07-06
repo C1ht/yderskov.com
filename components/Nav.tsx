@@ -97,10 +97,18 @@ export default function Nav() {
 
   const activeItem = navItems.find((i) => i.label === activeDropdown);
 
+  const handleLinkClick = (e: React.MouseEvent, href?: string) => {
+    if (href === "/" && pathname === "/") {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+    setOpen(false);
+  };
+
   return (
     <nav>
       <div className="nav-inner" ref={innerRef}>
-        <Link href="/" className="nav-logo" aria-label="Yderskov Arkitekter — forside">
+        <Link href="/" className="nav-logo" aria-label="Yderskov Arkitekter — forside" onClick={(e) => handleLinkClick(e, "/")}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/images/logofiles/SVG/Arkitect 5icon.svg" alt="Arkitekttegnestuen Yderskov logo" width={30} height={30} />
         </Link>
@@ -124,6 +132,7 @@ export default function Nav() {
                 <Link
                   href={item.href}
                   className={pathname === item.href ? "nav-active" : ""}
+                  onClick={(e) => handleLinkClick(e, item.href)}
                 >
                   {item.label}
                 </Link>
@@ -160,6 +169,7 @@ export default function Nav() {
                 <Link
                   href={c.href}
                   className={pathname === c.href ? "nav-active" : ""}
+                  onClick={(e) => handleLinkClick(e, c.href)}
                 >
                   {c.label}
                 </Link>
@@ -189,7 +199,7 @@ export default function Nav() {
                     key={c.href}
                     href={c.href}
                     className={`nav-mobile-link${pathname === c.href ? " nav-active" : ""}`}
-                    onClick={() => setOpen(false)}
+                    onClick={(e) => handleLinkClick(e, c.href)}
                   >
                     {c.label}
                   </Link>
@@ -200,13 +210,13 @@ export default function Nav() {
                 key={item.href}
                 href={item.href}
                 className={`nav-mobile-link${pathname === item.href ? " nav-active" : ""}`}
-                onClick={() => setOpen(false)}
+                onClick={(e) => handleLinkClick(e, item.href)}
               >
                 {item.label}
               </Link>
             )
           )}
-          <Link href="/kontakt" className="nav-mobile-book" onClick={() => setOpen(false)}>
+          <Link href="/kontakt" className="nav-mobile-book" onClick={(e) => handleLinkClick(e, "/kontakt")}>
             Book gratis møde
           </Link>
         </div>
