@@ -37,13 +37,13 @@ export const processSteps = [
   { num: "05", title: "Byggefase med egne håndværkere", desc: "Vores egne faste murer- og tømrerhold opfører huset under tæt tilsyn fra tegnestuen." },
   { num: "06", title: "Nøglefærdig aflevering", desc: "Efter en grundig fælles gennemgang afleverer vi nøglerne." },
 ];
-
 import { posts } from "./blog/posts";
 
 export const blogPosts = posts.slice(0, 3).map(post => ({
   href: `/blog/${post.slug}`,
   date: post.date,
   title: post.title,
-  excerpt: post.description
+  excerpt: post.description,
+  image: post.image || null
 }));
 

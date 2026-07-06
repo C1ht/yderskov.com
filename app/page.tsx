@@ -332,6 +332,11 @@ export default function HomePage() {
           <div className="bgrid">
             {blogPosts.map((post) => (
               <Link key={post.href} href={post.href} className="bcard">
+                {post.image && (
+                  <div className="bcard-img-wrapper" style={{ width: '100%', height: '180px', position: 'relative', marginBottom: '1rem', borderRadius: '8px', overflow: 'hidden' }}>
+                    <Image src={post.image} alt={post.title} fill style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, 33vw" />
+                  </div>
+                )}
                 <span className="bdate">{post.date}</span>
                 <h3>{post.title}</h3>
                 <p>{post.excerpt}</p>
