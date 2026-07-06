@@ -248,8 +248,8 @@ body.menu-open { overflow: hidden; }
 .hero-dot.active { background: #fff; }
 
 @media (max-width: 1024px) {
-  .hero { height: auto; min-height: 100svh; justify-content: flex-start !important; }
-  .hero-body { padding: 6rem 1.25rem 2rem !important; justify-content: flex-start !important; }
+  .hero { height: auto; min-height: 100svh; justify-content: center !important; }
+  .hero-body { padding: 6rem 1.25rem 2rem !important; justify-content: center !important; }
   .hero-main { flex-direction: column; gap: 2rem; }
   .hero-right { display: none; }
   .hero-tabs { display: none; }
@@ -1618,3 +1618,74 @@ footer { background: var(--dark); color: rgba(255,255,255,0.7); }
   color: #2e7d32;
 }
 
+/* ── INSPIRATION GALLERY & FAVORITES ── */
+.insp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+.insp-item {
+  position: relative;
+  cursor: pointer;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  aspect-ratio: 4 / 3;
+}
+.insp-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+.insp-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.insp-item:hover img {
+  transform: scale(1.03);
+}
+
+.fav-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(4px);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #333;
+  transition: all 0.2s ease;
+  opacity: 0;
+  z-index: 2;
+}
+.insp-item:hover .fav-btn,
+.fav-btn.is-fav {
+  opacity: 1;
+}
+.fav-btn:hover {
+  background: #fff;
+  transform: scale(1.1);
+}
+.fav-btn.is-fav {
+  background: #fff;
+}
+.fav-btn.is-fav svg {
+  fill: #d4910a;
+  stroke: #d4910a;
+}
+.lb-fav-toggle-btn.is-fav svg {
+  fill: #d4910a;
+  stroke: #d4910a;
+}
+.lb-fav-toggle-btn:hover {
+  background: rgba(255,255,255,0.2) !important;
+}
