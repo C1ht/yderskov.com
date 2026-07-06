@@ -38,8 +38,12 @@ export const processSteps = [
   { num: "06", title: "Nøglefærdig aflevering", desc: "Efter en grundig fælles gennemgang afleverer vi nøglerne." },
 ];
 
-export const blogPosts = [
-  { href: "/blog/velegnet-byggegrund", date: "09 / 04 / 2026", title: "Hvordan vurderer man om en byggegrund er velegnet?",           excerpt: "Vi gennemgår hvad du skal kigge efter — før du køber grunden." },
-  { href: "/blog/lille-sommerhus",     date: "16 / 04 / 2026", title: "Hvordan bygger man et lille sommerhus?",                       excerpt: "Lille areal behøver ikke betyde lille oplevelse. Vi viser hvordan." },
-  { href: "/blog/bolig-med-niveauer", date: "08 / 04 / 2025", title: "Design af bolig med niveauer — sådan udnytter du højdeforskellene.", excerpt: "Niveauforskelle giver dynamik, lys og bedre udnyttelse af grunden." },
-];
+import { posts } from "./blog/posts";
+
+export const blogPosts = posts.slice(0, 3).map(post => ({
+  href: `/blog/${post.slug}`,
+  date: post.date,
+  title: post.title,
+  excerpt: post.description
+}));
+
