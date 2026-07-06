@@ -255,7 +255,7 @@ body.menu-open { overflow: hidden; }
   .hero-main { flex-direction: column; gap: 2rem; }
   .hero-right { display: none; }
   .hero-tabs { display: none; }
-  .hero-mini-quote { position: absolute; bottom: 5.5rem; left: 1.25rem; right: 1.25rem; font-size: 0.85rem; }
+  .hero-mini-quote { position: absolute; bottom: calc(5rem + env(safe-area-inset-bottom)); left: 1.25rem; right: 1.25rem; font-size: 0.85rem; padding-bottom: 2rem; }
   .hero-slide img {
     height: 130% !important;
     top: auto !important;
