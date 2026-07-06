@@ -98,9 +98,12 @@ export default function Nav() {
   const activeItem = navItems.find((i) => i.label === activeDropdown);
 
   const handleLinkClick = (e: React.MouseEvent, href?: string) => {
-    if (href === "/" && pathname === "/") {
-      e.preventDefault();
+    if (href === "/") {
+      if (pathname === "/") {
+        e.preventDefault();
+      }
       window.scrollTo({ top: 0, behavior: "smooth" });
+      setTimeout(() => window.scrollTo({ top: 0, behavior: "smooth" }), 150);
     }
     setOpen(false);
   };
