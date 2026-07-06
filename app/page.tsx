@@ -9,6 +9,7 @@ import CtaBand from "@/components/CtaBand";
 import CatalogDownloadButtons from "@/components/CatalogDownloadButtons";
 import { localBusinessSchema, projects, testimonials, blogPosts } from "./home-data";
 import ProcessAccordion from "@/components/ProcessAccordion";
+import ProcessIllustration from "@/components/ProcessIllustration";
 
 
 export const metadata: Metadata = {
@@ -312,6 +313,7 @@ export default function HomePage() {
         <div className="s-inner">
           <span className="eyebrow">Sådan arbejder vi</span>
           <h2 className="sec-hed">Processen fra idé til nøgle</h2>
+          <ProcessIllustration />
           <ProcessAccordion />
 
         </div>
