@@ -186,7 +186,7 @@ body.menu-open { overflow: hidden; }
 .nav-mobile-link { font-size: 1.1rem; font-weight: 300; color: var(--sub); padding: 0.3rem 0; transition: color 0.15s; }
 .nav-mobile-link:hover, .nav-mobile-link.nav-active { color: var(--text); }
 .nav-mobile-close { position: absolute; top: 16px; right: 16px; background: none; border: none; cursor: pointer; padding: 10px; -webkit-tap-highlight-color: transparent; }
-.nav-mobile-book { margin-top: 1.5rem; font-size: 0.82rem; font-weight: 400; color: var(--text) !important; border-top: 1px solid var(--border); padding-top: 1.5rem; width: 100%; text-align: center; }
+.nav-mobile-book { margin-bottom: 0.5rem; font-size: 0.82rem; font-weight: 400; color: var(--text) !important; border-bottom: 1px solid var(--border); padding-bottom: 1.5rem; width: 100%; text-align: center; }
 
 @media (max-width: 1024px) {
   nav { justify-content: flex-end; }

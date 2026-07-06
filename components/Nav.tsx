@@ -193,6 +193,12 @@ export default function Nav() {
               <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
             </svg>
           </button>
+          <Link href="/kontakt#heroContactForm" className="nav-mobile-book" onClick={(e) => handleLinkClick(e, "/kontakt#heroContactForm")}>
+            Book gratis møde
+          </Link>
+          <Link href="/kontakt" className="nav-mobile-link" style={{ fontWeight: 500, marginTop: "0.5rem", marginBottom: "1rem" }} onClick={(e) => handleLinkClick(e, "/kontakt")}>
+            Kontakt
+          </Link>
           {navItems.map((item) =>
             item.children ? (
               <div key={item.label} className="nav-mobile-group">
@@ -219,9 +225,6 @@ export default function Nav() {
               </Link>
             )
           )}
-          <Link href="/kontakt#heroContactForm" className="nav-mobile-book" onClick={(e) => handleLinkClick(e, "/kontakt#heroContactForm")}>
-            Book gratis møde
-          </Link>
         </div>
       )}
     </nav>
