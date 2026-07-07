@@ -332,7 +332,27 @@ body.menu-open { overflow: hidden; }
 .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; border-radius: 16px; overflow: hidden; }
 .card { overflow: hidden; aspect-ratio: 4/3; background: var(--off); position: relative; border-radius: 0; }
 @media (max-width: 900px) { .grid-3 { grid-template-columns: repeat(2,1fr); } }
-@media (max-width: 600px) { .grid-3 { grid-template-columns: 1fr; } }
+@media (max-width: 600px) {
+  .grid-3 {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    gap: 16px;
+    padding-bottom: 0.5rem;
+    border-radius: 0;
+  }
+  .grid-3::-webkit-scrollbar {
+    display: none;
+  }
+  .grid-3 .card {
+    flex: 0 0 85%;
+    scroll-snap-align: center;
+    border-radius: 12px;
+  }
+}
 
 /* ── STATS ── */
 .stats-bg { background: var(--off); padding: 5rem 2rem; }
