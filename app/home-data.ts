@@ -39,11 +39,23 @@ export const processSteps = [
 ];
 import { posts } from "./blog/posts";
 
-export const blogPosts = posts.slice(0, 3).map(post => ({
-  href: `/blog/${post.slug}`,
-  date: post.date,
-  title: post.title,
-  excerpt: post.description,
-  image: post.image || null
-}));
+export const blogPosts = [...posts]
+  .sort((a, b) => {
+    const parseDate = (d: string) => {
+      const parts = d.split('/').map(s => s.trim());
+      if (parts.length === 3) {
+        return new Date(`${parts[2]}-${parts[1]}-${parts[0]}`).getTime();
+      }
+      return 0;
+    };
+    return parseDate(b.date) - parseDate(a.date);
+  })
+  .slice(0, 3)
+  .map(post => ({
+    href: `/blog/${post.slug}`,
+    date: post.date,
+    title: post.title,
+    excerpt: post.description,
+    image: post.image || null
+  }));
 
