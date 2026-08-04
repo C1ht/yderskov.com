@@ -95,6 +95,7 @@ Estimeret prisområde:
         email,
         phone: telefon,
         projekt: "Prisberegning Tilbygning",
+        location: "",
         message,
         _page: window.location.pathname,
       });
