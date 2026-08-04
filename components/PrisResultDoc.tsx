@@ -59,6 +59,7 @@ export default function PrisResultDoc({
   const [navn, setNavn] = useState("");
   const [email, setEmail] = useState("");
   const [telefon, setTelefon] = useState("");
+  const [lokation, setLokation] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -95,7 +96,7 @@ Estimeret prisområde:
         email,
         phone: telefon,
         projekt: "Prisberegning Tilbygning",
-        location: "",
+        location: lokation,
         message,
         _page: window.location.pathname,
       });
@@ -242,6 +243,14 @@ Estimeret prisområde:
                 placeholder="Dit telefonnummer *"
                 value={telefon}
                 onChange={(e) => setTelefon(e.target.value)}
+                required
+                className="dr-email-input"
+              />
+              <input
+                type="text"
+                placeholder="Hvor skal der bygges? *"
+                value={lokation}
+                onChange={(e) => setLokation(e.target.value)}
                 required
                 className="dr-email-input"
               />
