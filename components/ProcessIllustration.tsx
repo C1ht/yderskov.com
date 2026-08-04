@@ -1,11 +1,15 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 type TooltipState = { text: string; top: number; left: number; placement: "top" | "right" };
 
 export default function ProcessIllustration() {
   const [tooltip, setTooltip] = useState<TooltipState | null>(null);
+  // After a touch interaction, mobile browsers fire a trailing "ghost" mouseenter
+  // ~300ms later for compatibility. Without this guard that ghost event would
+  // reopen the tooltip right after touchend closes it, leaving it stuck open.
+  const isTouchRef = useRef(false);
 
   const showTooltip = (target: HTMLElement, text: string) => {
     const rect = target.getBoundingClientRect();
@@ -18,6 +22,22 @@ export default function ProcessIllustration() {
   };
 
   const hideTooltip = () => setTooltip(null);
+
+  const handleMouseEnter = (e: React.MouseEvent<HTMLDivElement>, text: string) => {
+    if (isTouchRef.current) return;
+    showTooltip(e.currentTarget, text);
+  };
+
+  const handleTouchStart = (e: React.TouchEvent<HTMLDivElement>, text: string) => {
+    isTouchRef.current = true;
+    showTooltip(e.currentTarget, text);
+  };
+
+  const handleTouchEnd = (e: React.TouchEvent<HTMLDivElement>) => {
+    e.preventDefault();
+    hideTooltip();
+    setTimeout(() => { isTouchRef.current = false; }, 800);
+  };
 
   const steps = [
     {
@@ -101,11 +121,11 @@ export default function ProcessIllustration() {
           <div className="process-ill-step" key={step.num}>
             <div
               className="process-ill-icon"
-              onMouseEnter={(e) => showTooltip(e.currentTarget, step.desc)}
+              onMouseEnter={(e) => handleMouseEnter(e, step.desc)}
               onMouseLeave={hideTooltip}
-              onTouchStart={(e) => showTooltip(e.currentTarget, step.desc)}
-              onTouchEnd={hideTooltip}
-              onTouchCancel={hideTooltip}
+              onTouchStart={(e) => handleTouchStart(e, step.desc)}
+              onTouchEnd={handleTouchEnd}
+              onTouchCancel={handleTouchEnd}
             >
               {step.icon}
             </div>

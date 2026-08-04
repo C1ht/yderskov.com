@@ -207,13 +207,13 @@ export default function HomePage() {
                 <strong>Arkitekt nær Aalborg med opgaver over hele Danmark – 25 års erfaring med kvalitet og økonomisk overblik.</strong> Hvad koster en arkitekt i Aalborg? Det spørgsmål stiller mange – og hos Arkitekttegnestuen Yderskov får du altid et ærligt svar fra dag ét. Vi har hjulpet vores kunder med byggeri i 25 år, og gennemskuelig økonomi er ikke bare et løfte – det er måden vi arbejder på.
               </p>
               <p className="body-p" style={{ marginTop: "1.5rem", fontWeight: "bold" }}>
-                Tilbygning eller ombygning i Aalborg? Eller måske Køge og <Link href="/arkitekt-sjaelland" className="text-link">Gilleleje</Link> eller Vejle?
+                Tilbygning eller ombygning i Aalborg? Eller måske Køge og <Link href="/arkitekt-sjaelland" className="text-link" style={{ fontWeight: "inherit" }}>Gilleleje</Link> eller Vejle?
               </p>
               <p className="body-p">
                 Mange vælger at bygge til eller om frem for at flytte. Det er ofte den klogeste investering – og med en lokal arkitekt nær Aalborg der kender kommunens regler og de lokale byggeforhold. Vi får det bedste ud af din eksisterende bolig, uanset om det er et ekstra værelse, en ny tagetage, et åbent køkken-alrum eller en komplet ny planløsning - og uanset om du vil bygge i Aalborg eller København. Vi kommer over hele landet.
               </p>
               <p className="body-p" style={{ marginTop: "1.5rem", fontWeight: "bold" }}>
-                Nybyggeri af villa eller sommerhus nær Aalborg eller <Link href="/arkitekt-sjaelland" className="text-link">Vallensbæk</Link>?
+                Nybyggeri af villa eller sommerhus nær Aalborg eller <Link href="/arkitekt-sjaelland" className="text-link" style={{ fontWeight: "inherit" }}>Vallensbæk</Link>?
               </p>
               <p className="body-p">
                 Danmark byder på nogle af de smukkeste sommerhusområder – fra Jammerbugt til Mariagerfjord, fra Gilleleje til Odsherred. Vi tegner dit drømmehus eller sommerhus tilpasset netop det sted, det skal stå – og holder dig orienteret om økonomi og fremdrift hele vejen. Ingen overraskelser.
