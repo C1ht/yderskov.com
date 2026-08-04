@@ -26,7 +26,7 @@ const navItems: NavItem[] = [
   {
     label: "Priser",
     children: [
-      { href: "/priser", label: "Priser" },
+      { href: "/priser", label: "Se priser" },
       { href: "/prisberegner", label: "Prisberegner" },
     ],
   },

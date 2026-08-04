@@ -178,15 +178,15 @@ body.menu-open { overflow: hidden; }
   width: 100vw; height: 100vh; margin: 0 !important;
   background: rgba(255, 255, 255, 0.85); backdrop-filter: saturate(180%) blur(24px); -webkit-backdrop-filter: saturate(180%) blur(24px);
   display: flex; flex-direction: column;
-  align-items: center; justify-content: center; gap: 0.25rem;
-  padding: 5rem 2rem 3rem; overflow-y: auto; pointer-events: auto;
+  align-items: center; justify-content: flex-start; gap: 0.2rem;
+  padding: 2.75rem 2rem 1.5rem; overflow-y: auto; pointer-events: auto;
 }
-.nav-mobile-group { display: flex; flex-direction: column; align-items: center; gap: 0.1rem; margin-bottom: 0.75rem; margin-top: 0.75rem; }
-.nav-mobile-group-label { font-size: 0.55rem; font-weight: 400; letter-spacing: 0.16em; text-transform: uppercase; color: var(--light); margin-bottom: 0.5rem; opacity: 0.6; pointer-events: none; }
-.nav-mobile-link { font-size: 1.1rem; font-weight: 300; color: var(--sub); padding: 0.3rem 0; transition: color 0.15s; }
+.nav-mobile-group { display: flex; flex-direction: column; align-items: center; gap: 0.1rem; margin-bottom: 0.3rem; margin-top: 0.3rem; }
+.nav-mobile-group-label { font-size: 0.55rem; font-weight: 400; letter-spacing: 0.16em; text-transform: uppercase; color: var(--light); margin-bottom: 0.35rem; opacity: 0.6; pointer-events: none; }
+.nav-mobile-link { font-size: 1.1rem; font-weight: 300; color: var(--sub); padding: 0.28rem 0; transition: color 0.15s; display: block; }
 .nav-mobile-link:hover, .nav-mobile-link.nav-active { color: var(--text); }
 .nav-mobile-close { position: absolute; top: 16px; right: 16px; background: none; border: none; cursor: pointer; padding: 10px; -webkit-tap-highlight-color: transparent; }
-.nav-mobile-book { margin-bottom: 0.5rem; font-size: 0.82rem; font-weight: 400; color: var(--text) !important; border-bottom: 1px solid var(--border); padding-bottom: 1.5rem; width: 100%; text-align: center; }
+.nav-mobile-book { margin-bottom: 0.3rem; font-size: 0.82rem; font-weight: 400; color: var(--text) !important; border-bottom: 1px solid var(--border); padding-bottom: 0.9rem; width: 100%; text-align: center; }
 
 @media (max-width: 1024px) {
   nav { justify-content: flex-end; }
@@ -855,6 +855,7 @@ body.menu-open { overflow: hidden; }
 @media (max-width: 500px) {
   .calc2-top { padding: 1.5rem; gap: 1.5rem; }
   .calc2-top-field .calc2-num { width: 110px; }
+  .calc2-opt { padding: 0.8rem 0.95rem; }
 }
 
 /* ── PRISBEREGNER — DOKUMENT-RESULTAT ── */
@@ -1124,22 +1125,25 @@ body.menu-open { overflow: hidden; }
 @keyframes lb-in { from { opacity: 0; } to { opacity: 1; } }
 .lb-img-wrap { display: flex; align-items: center; justify-content: center; }
 .lb-close {
-  position: fixed; top: 1.25rem; right: 1.5rem;
+  position: fixed; top: 0.75rem; right: 1rem;
   background: none; border: none; color: #fff;
   font-size: 1.6rem; line-height: 1; opacity: 0.7; transition: opacity 0.15s;
+  padding: 12px;
+  display: flex; align-items: center; justify-content: center;
 }
 .lb-close:hover { opacity: 1; }
 .lb-arrow {
   position: fixed; top: 50%; transform: translateY(-50%);
   background: none; border: none; color: #fff;
   font-size: 3rem; line-height: 1; opacity: 0.5; transition: opacity 0.15s;
-  padding: 0 1rem;
+  padding: 14px 1rem;
+  display: flex; align-items: center; justify-content: center;
 }
 .lb-arrow:hover { opacity: 1; }
-.lb-prev { left: 0.5rem; }
-.lb-next { right: 0.5rem; }
+.lb-prev { left: 0.25rem; }
+.lb-next { right: 0.25rem; }
 @media (max-width: 600px) {
-  .lb-arrow { font-size: 2rem; padding: 0 0.5rem; }
+  .lb-arrow { font-size: 2rem; padding: 14px 0.85rem; }
 }
 
 /* ── FOOTER ── */
