@@ -7,7 +7,6 @@ import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
 import CtaBand from "@/components/CtaBand";
 import InspirationGallery from "@/components/InspirationGallery";
-import CatalogDownloadButtons from "@/components/CatalogDownloadButtons";
 
 export const metadata: Metadata = {
   title: "Arkitekt Aalborg — Tegnestue med fast pris | Yderskov",
@@ -136,55 +135,6 @@ export default function ArkitektAalborgPage() {
                 <li>Aalborg, Nørresundby og hele Nordjylland</li>
                 <li>Projekter på Sjælland og i resten af Danmark</li>
               </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Katalog */}
-      <section className="s catalog-section" style={{ borderBottom: "1px solid var(--border)" }}>
-        <div className="s-inner">
-          <div className="catalog-card">
-            <div className="catalog-visual">
-              <div className="catalog-mockup">
-                <div className="book">
-                  {/* Fanned page layers behind the cover */}
-                  <div className="page-layer page-layer-3"></div>
-                  <div className="page-layer page-layer-2"></div>
-                  <div className="page-layer page-layer-1"></div>
-
-                  <div className="book-cover">
-                    <Image
-                      src="/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp"
-                      alt="Arkitekttegnestuen Yderskov Inspirationskatalog"
-                      width={300}
-                      height={400}
-                      style={{ objectFit: "cover", width: "100%", height: "100%" }}
-                    />
-                    <div className="book-overlay">
-                      <div className="book-top-brand">
-                        <div className="book-brand-name">Arkitekt Yderskov</div>
-                        <div className="book-brand-sub">Vi dækker hele landet</div>
-                        <div className="book-brand-line"></div>
-                      </div>
-                      <div className="book-bottom-title">
-                        <div className="book-title">Inspiration</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="book-spine"></div>
-                </div>
-              </div>
-            </div>
-
-            <div className="catalog-content">
-              <span className="eyebrow">Projektkatalog</span>
-              <h2 className="sec-hed">Få inspiration til dit byggeprojekt</h2>
-              <p className="body-p" style={{ marginTop: "1rem" }}>
-                Hent vores inspirationskatalog og få idéer til planløsninger, materialevalg og lysindfald fra vores afsluttede projekter.
-              </p>
-              
-              <CatalogDownloadButtons />
             </div>
           </div>
         </div>
