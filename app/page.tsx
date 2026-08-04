@@ -66,7 +66,7 @@ export default function HomePage() {
             <h2 className="sec-hed">4 gode grunde til at vælge Yderskov</h2>
           </div>
           <div className="why-us-grid">
-            <div className="why-us-card">
+            <Link href="/priser" className="why-us-card">
               <div className="why-us-title-row">
                 <div className="why-us-icon-wrapper">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -76,10 +76,10 @@ export default function HomePage() {
                 </div>
                 <h3>Fast pris på arkitekthonorar</h3>
               </div>
-              <p>Vi tilbyder <Link href="/priser" className="text-link" style={{ fontSize: "inherit" }}>fast pris på arkitekthonoraret</Link>, så du kender de præcise udgifter fra start. Ingen uforudsete regninger.</p>
-            </div>
+              <p>Vi tilbyder <span className="text-link" style={{ fontSize: "inherit" }}>fast pris på arkitekthonoraret</span>, så du kender de præcise udgifter fra start. Ingen uforudsete regninger.</p>
+            </Link>
 
-            <div className="why-us-card">
+            <Link href="/om" className="why-us-card">
               <div className="why-us-title-row">
                 <div className="why-us-icon-wrapper">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -88,10 +88,10 @@ export default function HomePage() {
                 </div>
                 <h3>Vi styrer håndværkere og byggeøkonomien</h3>
               </div>
-              <p>Vi koordinerer og styrer håndværkerne for dig, så du er sikret kvalitet og økonomi hele vejen til et <Link href="/om" className="text-link" style={{ fontSize: "inherit" }}>nøglefærdigt resultat</Link>.</p>
-            </div>
+              <p>Vi koordinerer og styrer håndværkerne for dig, så du er sikret kvalitet og økonomi hele vejen til et <span className="text-link" style={{ fontSize: "inherit" }}>nøglefærdigt resultat</span>.</p>
+            </Link>
 
-            <div className="why-us-card">
+            <Link href="/om" className="why-us-card">
               <div className="why-us-title-row">
                 <div className="why-us-icon-wrapper">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -100,10 +100,10 @@ export default function HomePage() {
                 </div>
                 <h3>Kontakt med samme arkitekt hver gang</h3>
               </div>
-              <p>Hos os taler du med den <Link href="/om" className="text-link" style={{ fontSize: "inherit" }}>samme projekterende arkitekt</Link> gennem hele forløbet. Det giver tryghed, tæt dialog og sparer værdifuld tid.</p>
-            </div>
+              <p>Hos os taler du med den <span className="text-link" style={{ fontSize: "inherit" }}>samme projekterende arkitekt</span> gennem hele forløbet. Det giver tryghed, tæt dialog og sparer værdifuld tid.</p>
+            </Link>
 
-            <div className="why-us-card">
+            <Link href="/kontakt" className="why-us-card">
               <div className="why-us-title-row">
                 <div className="why-us-icon-wrapper">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -113,8 +113,8 @@ export default function HomePage() {
                 </div>
                 <h3>Gratis idémøde med arkitekt på din grund</h3>
               </div>
-              <p>Vi kommer ud på din byggegrund eller adresse til et <Link href="/kontakt" className="text-link" style={{ fontSize: "inherit" }}>gratis idémøde</Link> for en uforpligtende professionel vurdering og sparring på dine idéer.</p>
-            </div>
+              <p>Vi kommer ud på din byggegrund eller adresse til et <span className="text-link" style={{ fontSize: "inherit" }}>gratis idémøde</span> for en uforpligtende professionel vurdering og sparring på dine idéer.</p>
+            </Link>
           </div>
         </div>
       </section>

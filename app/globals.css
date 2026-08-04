@@ -1267,24 +1267,10 @@ footer { background: var(--dark); color: rgba(255,255,255,0.7); }
 
 @media (max-width: 768px) {
   .why-us-grid {
-    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-columns: 1fr !important;
   }
   .why-us-card {
-    padding: 1.25rem 1.25rem !important;
-    align-items: center !important;
-    text-align: center !important;
-    justify-content: center !important;
-    min-height: 80px !important;
-  }
-  .why-us-title-row {
-    justify-content: center !important;
-    gap: 0 !important;
-  }
-  .why-us-icon-wrapper {
-    display: none !important;
-  }
-  .why-us-card p {
-    display: none !important;
+    padding: 1.5rem !important;
   }
 }
 
