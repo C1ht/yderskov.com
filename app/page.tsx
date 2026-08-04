@@ -179,15 +179,14 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Stats */}
-      <div className="stats-bg home-stats">
-        <div className="stats-inner">
-          <div className="stat"><div className="stat-num">12.000<sup> kr.</sup></div><div className="stat-lbl">Fra pr. m² (sommerhus)</div></div>
-          <div className="stat"><div className="stat-num">24<sup> timer</sup></div><div className="stat-lbl">Svar inden</div></div>
-          <div className="stat"><div className="stat-num">10<sup>+</sup></div><div className="stat-lbl">Igangværende projekter</div></div>
-          <div className="stat"><div className="stat-num">300<sup>+</sup></div><div className="stat-lbl">Projekter gennemført</div></div>
+      {/* Processen */}
+      <section className="s s-off">
+        <div className="s-inner">
+          <span className="eyebrow">Sådan arbejder vi</span>
+          <h2 className="sec-hed">Processen fra idé til nøgle</h2>
+          <ProcessIllustration />
         </div>
-      </div>
+      </section>
 
       {/* Om os */}
       <section className="s s-off">
@@ -211,13 +210,13 @@ export default function HomePage() {
                 Tilbygning eller ombygning i Aalborg? Eller måske Køge og <Link href="/arkitekt-sjaelland" className="text-link">Gilleleje</Link> eller Vejle?
               </p>
               <p className="body-p">
-                Mange vælger at bygge til eller om frem for at flytte. Det er ofte den klogeste investering – og med en lokal arkitekt nær Aalborg der kender kommunens regler og de lokale byggeforhold. Vi finder det bedste ud af din eksisterende bolig, uanset om det er et ekstra værelse, en ny tagetage, et åbent køkken-alrum eller en komplet ny planløsning - og uanset om du vil bygge i Aalborg eller København. Vi kommer over hele landet.
+                Mange vælger at bygge til eller om frem for at flytte. Det er ofte den klogeste investering – og med en lokal arkitekt nær Aalborg der kender kommunens regler og de lokale byggeforhold. Vi får det bedste ud af din eksisterende bolig, uanset om det er et ekstra værelse, en ny tagetage, et åbent køkken-alrum eller en komplet ny planløsning - og uanset om du vil bygge i Aalborg eller København. Vi kommer over hele landet.
               </p>
               <p className="body-p" style={{ marginTop: "1.5rem", fontWeight: "bold" }}>
                 Nybyggeri af villa eller sommerhus nær Aalborg eller <Link href="/arkitekt-sjaelland" className="text-link">Vallensbæk</Link>?
               </p>
               <p className="body-p">
-                Nordjylland byder på nogle af Danmarks smukkeste sommerhusområder – fra Jammerbugten til Mariagerfjord. Vi tegner dit drømmehus eller sommerhus tilpasset netop det sted, det skal stå – og holder dig orienteret om økonomi og fremdrift hele vejen. Ingen overraskelser.
+                Danmark byder på nogle af de smukkeste sommerhusområder – fra Jammerbugt til Mariagerfjord, fra Gilleleje til Odsherred. Vi tegner dit drømmehus eller sommerhus tilpasset netop det sted, det skal stå – og holder dig orienteret om økonomi og fremdrift hele vejen. Ingen overraskelser.
               </p>
               <p className="body-p" style={{ marginTop: "1.5rem", fontWeight: "bold" }}>
                 Det får du hos Arkitekttegnestuen Yderskov:
@@ -254,16 +253,6 @@ export default function HomePage() {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Processen */}
-      <section className="s s-off">
-        <div className="s-inner">
-          <span className="eyebrow">Sådan arbejder vi</span>
-          <h2 className="sec-hed">Processen fra idé til nøgle</h2>
-          <ProcessIllustration />
-
         </div>
       </section>
 

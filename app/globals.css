@@ -227,19 +227,19 @@ body.menu-open { overflow: hidden; }
 .hero-mini-quote::before { content: ''; display: block; width: 50%; height: 1px; background: rgba(255,255,255,0.5); margin-bottom: 1.5rem; }
 .hero-mini-quote-name { margin-top: 0.5rem; font-size: 0.75rem; font-weight: 700; color: #fff; letter-spacing: 0.08em; text-transform: uppercase; font-style: normal; }
 .hero-right { width: 340px; flex-shrink: 0; margin-top: 1cm; }
-.hero-form { background: #fff; border: 1px solid var(--border); border-radius: 16px; padding: 1.75rem; scroll-margin-top: 120px; }
-.hero-form-title { font-size: 0.81rem; font-weight: 400; letter-spacing: 0.1em; text-transform: uppercase; color: var(--light); margin-bottom: 1.1rem; }
-.hero-form input, .hero-form textarea, .hero-form select { width: 100%; background: var(--white); border: 1px solid var(--border); border-radius: 7.26px; padding: 0.6rem 0.8rem; font-family: var(--sans); font-size: 0.88rem; font-weight: 400; color: var(--light); margin-bottom: 0.6rem; outline: none; display: block; }
+.hero-form { background: #fff; border: 1px solid var(--border); border-radius: 12px; padding: 1.1rem; scroll-margin-top: 120px; }
+.hero-form-title { font-size: 0.78rem; font-weight: 400; letter-spacing: 0.1em; text-transform: uppercase; color: var(--light); margin-bottom: 0.75rem; }
+.hero-form input, .hero-form textarea, .hero-form select { width: 100%; background: var(--white); border: 1px solid var(--border); border-radius: 7.26px; padding: 0.5rem 0.7rem; font-family: var(--sans); font-size: 0.88rem; font-weight: 400; color: var(--light); margin-bottom: 0.45rem; outline: none; display: block; }
 .hero-form input::placeholder, .hero-form textarea::placeholder { color: var(--light); font-weight: 400; }
 .hero-form select {
   color: var(--light); appearance: none; -webkit-appearance: none;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='7' viewBox='0 0 9 7'%3E%3Cpath d='M0.5 1L4.5 5.5L8.5 1' fill='none' stroke='%23a8a8a4' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-  background-repeat: no-repeat; background-position: right 0.8rem center;
-  padding-right: 1.8rem;
+  background-repeat: no-repeat; background-position: right 0.7rem center;
+  padding-right: 1.6rem;
 }
 .hero-form select option { background: #fff; color: var(--text); }
-.hero-form textarea { resize: none; height: 72px; }
-.hero-form button { width: 100%; background: var(--text); color: #fff; border: none; border-radius: 8.14px; padding: 0.75rem; font-family: var(--sans); font-size: 0.82rem; font-weight: 400; cursor: pointer; margin-top: 0.2rem; transition: opacity 0.15s; }
+.hero-form textarea { resize: none; height: 56px; }
+.hero-form button { width: 100%; background: var(--text); color: #fff; border: none; border-radius: 8.14px; padding: 0.6rem; font-family: var(--sans); font-size: 0.82rem; font-weight: 400; cursor: pointer; margin-top: 0.2rem; transition: opacity 0.15s; }
 .hero-form button:hover { opacity: 0.88; }
 .hero-tabs { position: relative; z-index: 2; display: flex; border-top: 1px solid rgba(255,255,255,0.3); }
 .hero-tab { flex: 1; padding: 1rem 0.4rem; text-align: center; font-size: 0.66rem; font-weight: 400; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(255,255,255,0.9); border-right: 1px solid rgba(255,255,255,0.3); transition: background 0.2s; display: block; }
@@ -251,11 +251,11 @@ body.menu-open { overflow: hidden; }
 
 @media (max-width: 1024px) {
   .hero { height: auto; min-height: 100svh; justify-content: center !important; }
-  .hero-body { padding: 6rem 1.25rem 2rem !important; justify-content: center !important; }
+  .hero-body { padding: 6rem 1.25rem 2rem !important; justify-content: flex-start !important; }
   .hero-main { flex-direction: column; gap: 2rem; }
   .hero-right { display: none; }
   .hero-tabs { display: none; }
-  .hero-left-super, .hero-left-title, .hero-left-sub, .hero-24h { display: none; }
+  .hero-left-sub, .hero-24h { display: none; }
   .hero-mini-quote { position: absolute; bottom: calc(5rem + env(safe-area-inset-bottom)); left: 1.25rem; right: 1.25rem; font-size: 0.85rem; padding-bottom: 2rem; }
   .hero-slide img {
     height: 130% !important;
