@@ -248,7 +248,7 @@ Estimeret prisområde:
               />
               <input
                 type="text"
-                placeholder="Hvor skal der bygges? *"
+                placeholder="Hvor i landet skal der bygges? *"
                 value={lokation}
                 onChange={(e) => setLokation(e.target.value)}
                 required

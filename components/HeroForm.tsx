@@ -89,12 +89,12 @@ export default function HeroForm() {
       <select name="projekt" defaultValue="" required>
         <option value="" disabled>Projekttype *</option>
         <option value="ny-villa">Ny villa</option>
-        <option value="sommerhus">Sommerhus</option>
+        <option value="sommerhus">Nyt sommerhus</option>
         <option value="tilbygning">Om- og tilbygning</option>
         <option value="erhverv">Erhverv</option>
         <option value="andet">Andet</option>
       </select>
-      <input type="text" name="lokation" placeholder="Hvor skal der bygges? *" required />
+      <input type="text" name="lokation" placeholder="Hvor i landet skal der bygges? *" required />
       <textarea name="besked" placeholder="Beskriv kort dit projekt… *" required />
       
       {error && (
