@@ -12,7 +12,7 @@ export default function MobileCta() {
       if (el) {
         e.preventDefault();
         const y = el.getBoundingClientRect().top + window.scrollY - 100;
-        window.scrollTo({ top: y, behavior: "smooth" });
+        window.scrollTo(0, y);
       }
     }
   };

@@ -77,7 +77,7 @@ export default function Hero({
               </p>
             ))}
             {show24h && (
-              <span className="hero-24h" style={{ marginTop: "0.85rem", display: "flex" }}>
+              <span className="hero-24h" style={{ marginTop: "0.85rem" }}>
                 Vi vender tilbage inden 24 timer på alle henvendelser
               </span>
             )}
@@ -92,7 +92,11 @@ export default function Hero({
 
           {showForm && (
             <div className="hero-right">
-              <HeroForm />
+              {/* Unique id: avoids colliding with the page's own dedicated
+                  #heroContactForm section, which is the real target for
+                  "Skriv"/"Book gratis møde" anchor links (this hero copy is
+                  hidden on mobile, so it must never be the id anchors land on). */}
+              <HeroForm id="heroInlineForm" />
             </div>
           )}
         </div>

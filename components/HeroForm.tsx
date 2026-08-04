@@ -3,22 +3,23 @@
 import { useState, useEffect } from "react";
 import { submitLead } from "./submitLead";
 
-export default function HeroForm() {
+export default function HeroForm({ id = "heroContactForm" }: { id?: string }) {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    if (id !== "heroContactForm") return;
     if (typeof window !== "undefined" && window.location.hash === "#heroContactForm") {
-      const el = document.getElementById("heroContactForm");
+      const el = document.getElementById(id);
       if (el) {
         setTimeout(() => {
           const y = el.getBoundingClientRect().top + window.scrollY - 100;
-          window.scrollTo({ top: y, behavior: "smooth" });
-        }, 150);
+          window.scrollTo(0, y);
+        }, 0);
       }
     }
-  }, []);
+  }, [id]);
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -78,7 +79,7 @@ export default function HeroForm() {
   }
 
   return (
-    <form className="hero-form" id="heroContactForm" onSubmit={handleSubmit}>
+    <form className="hero-form" id={id} onSubmit={handleSubmit}>
       <p className="hero-form-title">Fortæl os om dit projekt</p>
       <p style={{ fontSize: "0.72rem", color: "var(--light)", marginTop: "-0.5rem", marginBottom: "1rem", textAlign: "center" }}>
         * Markeringsfelter skal udfyldes
