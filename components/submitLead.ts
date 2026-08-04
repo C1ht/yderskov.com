@@ -8,6 +8,7 @@ export interface LeadData {
   email: string;
   phone: string;
   projekt: string;
+  location: string;
   message: string;
   _page: string;
 }

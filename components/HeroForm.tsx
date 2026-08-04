@@ -29,10 +29,11 @@ export default function HeroForm() {
     const name = (data.get("navn") as string)?.trim();
     const email = (data.get("email") as string)?.trim();
     const phone = (data.get("telefon") as string)?.trim();
+    const location = (data.get("lokation") as string)?.trim();
     const message = (data.get("besked") as string)?.trim();
 
-    if (!name || !email || !phone || !message) {
-      setError("Venligst udfyld alle felter (navn, e-mail, telefonnummer og beskrivelse).");
+    if (!name || !email || !phone || !location || !message) {
+      setError("Venligst udfyld alle felter (navn, e-mail, telefonnummer, byggested og beskrivelse).");
       return;
     }
 
@@ -44,6 +45,7 @@ export default function HeroForm() {
         email,
         phone,
         projekt: (data.get("projekt") as string) || "Andet",
+        location,
         message,
         _page: window.location.pathname,
       });
@@ -92,6 +94,7 @@ export default function HeroForm() {
         <option value="erhverv">Erhverv</option>
         <option value="andet">Andet</option>
       </select>
+      <input type="text" name="lokation" placeholder="Hvor skal der bygges? *" required />
       <textarea name="besked" placeholder="Beskriv kort dit projekt… *" required />
       
       {error && (
