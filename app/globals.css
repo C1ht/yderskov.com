@@ -1532,7 +1532,7 @@ footer { background: var(--dark); color: rgba(255,255,255,0.7); }
   top: 0;
   left: 0;
   width: max-content;
-  max-width: 240px;
+  max-width: min(240px, 60vw);
   background: #fff;
   color: #1a1a18;
   font-size: 0.78rem;
@@ -1550,16 +1550,26 @@ footer { background: var(--dark); color: rgba(255,255,255,0.7); }
 .process-ill-tooltip::after {
   content: '';
   position: absolute;
-  top: 100%;
-  left: 50%;
   width: 10px;
   height: 10px;
+  background: #fff;
+  transform: rotate(45deg);
+}
+.process-ill-tooltip[data-placement="top"]::after {
+  top: 100%;
+  left: 50%;
   margin-left: -5px;
   margin-top: -5px;
-  background: #fff;
   border-right: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
-  transform: rotate(45deg);
+}
+.process-ill-tooltip[data-placement="right"]::after {
+  top: 50%;
+  left: 0;
+  margin-left: -5px;
+  margin-top: -5px;
+  border-left: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
 }
 .process-ill-icon svg {
   width: 28px;

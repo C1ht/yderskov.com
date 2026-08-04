@@ -2,13 +2,22 @@
 
 import { useState } from "react";
 
-export default function ProcessIllustration() {
-  const [tooltip, setTooltip] = useState<{ text: string; top: number; left: number } | null>(null);
+type TooltipState = { text: string; top: number; left: number; placement: "top" | "right" };
 
-  const showTooltip = (e: React.MouseEvent<HTMLDivElement>, text: string) => {
-    const rect = e.currentTarget.getBoundingClientRect();
-    setTooltip({ text, top: rect.top - 12, left: rect.left + rect.width / 2 });
+export default function ProcessIllustration() {
+  const [tooltip, setTooltip] = useState<TooltipState | null>(null);
+
+  const showTooltip = (target: HTMLElement, text: string) => {
+    const rect = target.getBoundingClientRect();
+    if (window.innerWidth <= 800) {
+      // Mobile layout: icon and label sit side by side, so the tooltip opens to the right of the circle.
+      setTooltip({ text, top: rect.top + rect.height / 2, left: rect.right + 12, placement: "right" });
+    } else {
+      setTooltip({ text, top: rect.top - 12, left: rect.left + rect.width / 2, placement: "top" });
+    }
   };
+
+  const hideTooltip = () => setTooltip(null);
 
   const steps = [
     {
@@ -66,7 +75,7 @@ export default function ProcessIllustration() {
     {
       num: "05",
       title: "Byggeri",
-      desc: "Byggeriet kører og der føres løbende tilsyn.",
+      desc: "Byggeriet kører og arkitekten fører løbende tilsyn med byggeriet og styrer økonomien for jer.",
       icon: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
           <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
@@ -92,8 +101,11 @@ export default function ProcessIllustration() {
           <div className="process-ill-step" key={step.num}>
             <div
               className="process-ill-icon"
-              onMouseEnter={(e) => showTooltip(e, step.desc)}
-              onMouseLeave={() => setTooltip(null)}
+              onMouseEnter={(e) => showTooltip(e.currentTarget, step.desc)}
+              onMouseLeave={hideTooltip}
+              onTouchStart={(e) => showTooltip(e.currentTarget, step.desc)}
+              onTouchEnd={hideTooltip}
+              onTouchCancel={hideTooltip}
             >
               {step.icon}
             </div>
@@ -108,11 +120,12 @@ export default function ProcessIllustration() {
 
       <div
         className="process-ill-tooltip"
+        data-placement={tooltip?.placement ?? "top"}
         role="tooltip"
         style={{
           top: tooltip?.top ?? 0,
           left: tooltip?.left ?? 0,
-          transform: "translate(-50%, -100%)",
+          transform: tooltip?.placement === "right" ? "translate(0, -50%)" : "translate(-50%, -100%)",
           opacity: tooltip ? 1 : 0,
           visibility: tooltip ? "visible" : "hidden",
         }}
