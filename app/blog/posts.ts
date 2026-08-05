@@ -19,6 +19,60 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "gratis-foerste-moede-med-arkitekt",
+    image: "/images/Hanebjælken/Vestbjerg-Hanebjælken-ny-villa-haveside.webp",
+    metaTitle: "Det gratis førstegangsmøde med en arkitekt — Arkitekt Yderskov",
+    title: "Sådan foregår det gratis, uforpligtende første møde.",
+    description: "Overvejer du at kontakte en arkitekt, men er i tvivl om hvad det indebærer? Få et indblik i, hvordan det gratis og uforpligtende førstegangsmøde med Arkitekt Yderskov foregår, og hvad I skal forberede.",
+    date: "14 / 07 / 2026",
+    cat: "Arkitekt & proces",
+    catKey: "arkitekt",
+    lead: "Mange tøver med at tage det første skridt, fordi de er usikre på, hvad det koster, og hvad de forpligter sig til. Hos Arkitekt Yderskov er det første møde altid gratis og helt uforpligtende. Her får du et indblik i, hvordan mødet typisk foregår, og hvad du kan forvente.",
+    sections: [
+      {
+        heading: "Hvorfor er det gratis og uforpligtende?",
+        paragraphs: [
+          "Vi ved, at det kan være en stor beslutning at kontakte en arkitekt — måske har I aldrig gjort det før, og I er ikke sikre på, om jeres idé overhovedet er realistisk. Derfor er det første møde altid gratis og uden nogen form for binding. Formålet er, at vi kan lære hinanden og jeres projekt at kende, og at I kan få en fornemmelse af, om samarbejdet føles rigtigt — helt uden økonomisk risiko.",
+        ],
+      },
+      {
+        heading: "Vi kommer ud til jer",
+        paragraphs: [
+          "I stedet for at I skal møde op på et kontor, kommer vi som udgangspunkt ud til jer — enten på den grund, I overvejer at bygge på, eller ved det hus, I ønsker at bygge til eller renovere. På den måde kan vi se forholdene med egne øjne: solforhold, udsigt, naboskel, adgangsforhold og terrænets fald. Det giver et langt bedre grundlag for rådgivningen, end hvis vi kun havde set billeder eller en matrikeltegning.",
+        ],
+      },
+      {
+        heading: "Hvad taler vi om til mødet?",
+        paragraphs: [
+          "Mødet varer typisk 1-1,5 time og er en uformel samtale. Vi taler om jeres ønsker til det nye byggeri eller tilbygningen — antal værelser, funktioner, stil og materialer — og giver jer en indledende og realistisk vurdering af, hvad projektet kan koste, og hvilke tidsrammer der er realistiske.",
+        ],
+      },
+      {
+        heading: "Hvad skal I forberede?",
+        paragraphs: [
+          "I behøver ikke forberede noget særligt, men det gør en god snak endnu bedre, hvis I på forhånd har talt om jeres budget, hvor mange kvadratmeter I forestiller jer, og om I har billeder eller inspiration, I gerne vil vise os. Har I allerede en lokalplan, et matrikelkort eller tidligere tegninger af huset, er det også en god idé at have dem ved hånden. Hvis I ikke har mulighed for at forberede disse ting, finder vi dem, når vi arbejder med skitseforslaget.",
+        ],
+      },
+      {
+        heading: "Hvad sker der efter mødet?",
+        paragraphs: [
+          "Efter mødet sender vi jer en honoraroversigt, hvor I kan se, hvilke projektfaser der kan indgå i jeres projekt, og priserne på dem. Herefter kan I vurdere, om I er interesseret i at starte et samarbejde. Vælger I at gå videre, er skitseforslaget typisk den første fase i processen. [Læs mere om, hvad et skitseforslag indeholder →](/blog/hvad-er-et-skitseforslag)",
+        ],
+      },
+      {
+        heading: "Sådan booker du dit gratis møde",
+        paragraphs: [
+          "Er du klar til at tage det første skridt? Book dit gratis og uforpligtende møde via [kontaktformularen](/kontakt#heroContactForm), eller ring direkte til os på 29 72 34 27. Vi vender som regel tilbage inden 24 timer og finder en tid, der passer jer.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Læs om hvad et skitseforslag indeholder", href: "/blog/hvad-er-et-skitseforslag" },
+      { label: "Book dit gratis førstegangsmøde", href: "/kontakt#heroContactForm" },
+      { label: "Se hvad det koster at bygge", href: "/priser" },
+    ],
+  },
+  {
     slug: "pladsoptimering-lille-sommerhus",
     image: "/images/Bjerget 13/sommerhus Bjerget 13 udsigtsniche som siddeplads.webp",
     images: [

@@ -26,6 +26,15 @@ type Post = {
 const posts: Post[] = [
   // 2026
   {
+    href: "/blog/gratis-foerste-moede-med-arkitekt",
+    image: "/images/Hanebjælken/Vestbjerg-Hanebjælken-ny-villa-haveside.webp",
+    date: "14 / 07 / 2026",
+    cat: "Arkitekt & proces",
+    catKey: "arkitekt",
+    title: "Sådan foregår det gratis, uforpligtende første møde.",
+    excerpt: "Overvejer du at kontakte en arkitekt, men er i tvivl om hvad det indebærer? Få et indblik i, hvordan det gratis og uforpligtende førstegangsmøde med Arkitekt Yderskov foregår, og hvad I skal forberede.",
+  },
+  {
     href: "/blog/pladsoptimering-lille-sommerhus",
     image: "/images/Bjerget 13/sommerhus Bjerget 13 udsigtsniche som siddeplads.webp",
     date: "05 / 07 / 2026",
