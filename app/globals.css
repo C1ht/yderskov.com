@@ -333,7 +333,25 @@ body.menu-open { overflow: hidden; }
 
 /* ── GRID 3 (image gallery) ── */
 .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; border-radius: 16px; overflow: hidden; }
-.card { overflow: hidden; aspect-ratio: 4/3; background: var(--off); position: relative; border-radius: 0; }
+.card { overflow: hidden; aspect-ratio: 4/3; background: var(--off); position: relative; border-radius: 0; cursor: pointer; }
+.card img { transition: transform 0.3s ease; }
+@media (hover: hover) {
+  .card:hover img { transform: scale(1.03); }
+}
+.proj-inline-cta {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 1.25rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--accent);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.15rem;
+  transition: color 0.15s, border-color 0.15s;
+}
+@media (hover: hover) {
+  .proj-inline-cta:hover { color: var(--text); border-color: var(--text); }
+}
 @media (max-width: 900px) { .grid-3 { grid-template-columns: repeat(2,1fr); } }
 @media (max-width: 600px) {
   .grid-3 {
