@@ -8,6 +8,7 @@ import ImageGrid from "@/components/ImageGrid";
 import CtaBand from "@/components/CtaBand";
 import InspirationGallery from "@/components/InspirationGallery";
 import ProjectDescription from "@/components/ProjectDescription";
+import ExpandableText from "@/components/ExpandableText";
 
 export const metadata: Metadata = {
   title: "Specialbyggeri & unik arkitektur | Yderskov Arkitekter",
@@ -112,15 +113,17 @@ export default function SpecialPage() {
               <h2 className="sec-hed">Når byggeriet<br />kræver noget ekstra.</h2>
             </div>
             <div>
-              <p className="body-p">
-                Særlige funktioner kræver særlige løsninger. Uanset om det drejer sig om et professionelt lydstudie, et poolhus med avanceret styring af luftfugtighed, eller en garage tilpasset klassiske biler med indbygget værksted, så dykker vi ned i de tekniske og funktionelle krav. Vi forener de praktiske nødvendigheder med en stærk arkitektonisk rød tråd, så bygningen bliver både funktionel og smuk.
-              </p>
-              <p className="body-p">
-                Vi har stor erfaring med at samarbejde med specialiserede konsulenter og ingeniører for at sikre, at komplekse installationer — såsom ventilationsanlæg til indendørs swimmingpools eller akustiske reguleringer — integreres usynligt og elegant i arkitekturen.
-              </p>
-              <p className="body-p">
-                Ingen idé er for vild eller for kompleks. Vi ser udfordringer som en mulighed for at skabe noget helt enestående. Vi guider dig igennem myndighedsbehandling, lokalplaner og tekniske beregninger, så dit drømmeprojekt kan realiseres inden for de givne rammer.
-              </p>
+              <ExpandableText>
+                <p className="body-p">
+                  Særlige funktioner kræver særlige løsninger. Uanset om det drejer sig om et professionelt lydstudie, et poolhus med avanceret styring af luftfugtighed, eller en garage tilpasset klassiske biler med indbygget værksted, så dykker vi ned i de tekniske og funktionelle krav. Vi forener de praktiske nødvendigheder med en stærk arkitektonisk rød tråd, så bygningen bliver både funktionel og smuk.
+                </p>
+                <p className="body-p">
+                  Vi har stor erfaring med at samarbejde med specialiserede konsulenter og ingeniører for at sikre, at komplekse installationer — såsom ventilationsanlæg til indendørs swimmingpools eller akustiske reguleringer — integreres usynligt og elegant i arkitekturen.
+                </p>
+                <p className="body-p">
+                  Ingen idé er for vild eller for kompleks. Vi ser udfordringer som en mulighed for at skabe noget helt enestående. Vi guider dig igennem myndighedsbehandling, lokalplaner og tekniske beregninger, så dit drømmeprojekt kan realiseres inden for de givne rammer.
+                </p>
+              </ExpandableText>
             </div>
           </div>
         </div>

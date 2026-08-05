@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
 import CtaBand from "@/components/CtaBand";
+import ExpandableText from "@/components/ExpandableText";
 
 export const metadata: Metadata = {
   title: "Arkitekt Nordjylland — Yderskov Tegnestue med fast pris",
@@ -143,18 +144,20 @@ export default function OmPage() {
               </p>
             </div>
             <div>
-              <p className="body-p">
-                 Som en veletableret <strong>tegnestue i Nordjylland</strong> har Yderskov gennem mere end 15 år hjulpet private bygherrer med at realisere deres boligdrømme. Vi har base i Brønderslev, og som <strong>arkitekt Nordjylland</strong> tegner og opfører vi unikke huse i Aalborg, Hjørring, Frederikshavn og i hele den nordjyske region. Vores dybe lokalkendskab til de gældende lokalplaner og de enkelte kommuners byggesagsbehandling sikrer dig en tryg og smidig proces fra de første skitser til det færdige myndighedsprojekt.
-              </p>
-              <p className="body-p">
-                Selvom vi er en stolt nordjysk tegnestue, stopper vores engagement ikke ved Limfjorden. Hos Yderskov ser vi det som en stor styrke, at vi er en yderst fleksibel og fuldt landsdækkende tegnestue. Vi påtager os aktivt opgaver i hele landet, og vi har gennem årene opbygget en stærk portefølje af spændende projekter på Sjælland og i Københavnsområdet. Senest har vi udført opgaver i <strong>Køge, Odsherred, Brønshøj og Ramløse</strong>. Vi elsker at rejse efter de rette projekter, og geografisk afstand er aldrig en hindring for os. Vi er altid klar til at køre efter opgaverne og mødes med jer direkte på jeres byggegrund for at drøfte mulighederne.
-              </p>
-              <p className="body-p">
-                Når du vælger Yderskov som din foretrukne arkitekt, får du en samarbejdspartner, der tager hånd om hele forløbet fra start til slut. Vi adskiller os fra mange andre traditionelle tegnestuer ved at tilbyde en samlet proces. Det betyder, at vi ikke blot tegner dit hus, men også følger projektet helt til dørs i tæt samarbejde med vores egne faste tømrer- og murerhold. Dette eliminerer de klassiske misforståelser mellem tegnebordet og byggepladsen, hvilket sparer dig for både tid, bekymringer og uforudsete udgifter. Dertil arbejder vi med en fast pris, som sikrer fuldstændig økonomisk gennemsigtighed gennem hele projektet.
-              </p>
-              <p className="body-p">
-                Hvad enten du drømmer om en moderne, lys funkisvilla med panoramaudsigt, et klassisk sommerhus i pagt med naturen eller en gennemtænkt tilbygning, der giver jeres eksisterende bolig den plads, I mangler, står vi klar til at hjælpe. Vi tror på den tætte og direkte personlige dialog. Hos os taler du som bygherre altid direkte med arkitekten gennem alle byggeriets faser, så der aldrig opstår tvivl om dine ønsker. Uanset om dit byggeprojekt er placeret i Nordjylland, i Trekantområdet, på Sjælland eller i Storkøbenhavn, bringer vi vores erfaring, fleksibilitet og faglige stolthed i spil for at skabe det perfekte hjem til dig.
-              </p>
+              <ExpandableText fadeColor="var(--off)">
+                <p className="body-p">
+                   Som en veletableret <strong>tegnestue i Nordjylland</strong> har Yderskov gennem mere end 15 år hjulpet private bygherrer med at realisere deres boligdrømme. Vi har base i Brønderslev, og som <strong>arkitekt Nordjylland</strong> tegner og opfører vi unikke huse i Aalborg, Hjørring, Frederikshavn og i hele den nordjyske region. Vores dybe lokalkendskab til de gældende lokalplaner og de enkelte kommuners byggesagsbehandling sikrer dig en tryg og smidig proces fra de første skitser til det færdige myndighedsprojekt.
+                </p>
+                <p className="body-p">
+                  Selvom vi er en stolt nordjysk tegnestue, stopper vores engagement ikke ved Limfjorden. Hos Yderskov ser vi det som en stor styrke, at vi er en yderst fleksibel og fuldt landsdækkende tegnestue. Vi påtager os aktivt opgaver i hele landet, og vi har gennem årene opbygget en stærk portefølje af spændende projekter på Sjælland og i Københavnsområdet. Senest har vi udført opgaver i <strong>Køge, Odsherred, Brønshøj og Ramløse</strong>. Vi elsker at rejse efter de rette projekter, og geografisk afstand er aldrig en hindring for os. Vi er altid klar til at køre efter opgaverne og mødes med jer direkte på jeres byggegrund for at drøfte mulighederne.
+                </p>
+                <p className="body-p">
+                  Når du vælger Yderskov som din foretrukne arkitekt, får du en samarbejdspartner, der tager hånd om hele forløbet fra start til slut. Vi adskiller os fra mange andre traditionelle tegnestuer ved at tilbyde en samlet proces. Det betyder, at vi ikke blot tegner dit hus, men også følger projektet helt til dørs i tæt samarbejde med vores egne faste tømrer- og murerhold. Dette eliminerer de klassiske misforståelser mellem tegnebordet og byggepladsen, hvilket sparer dig for både tid, bekymringer og uforudsete udgifter. Dertil arbejder vi med en fast pris, som sikrer fuldstændig økonomisk gennemsigtighed gennem hele projektet.
+                </p>
+                <p className="body-p">
+                  Hvad enten du drømmer om en moderne, lys funkisvilla med panoramaudsigt, et klassisk sommerhus i pagt med naturen eller en gennemtænkt tilbygning, der giver jeres eksisterende bolig den plads, I mangler, står vi klar til at hjælpe. Vi tror på den tætte og direkte personlige dialog. Hos os taler du som bygherre altid direkte med arkitekten gennem alle byggeriets faser, så der aldrig opstår tvivl om dine ønsker. Uanset om dit byggeprojekt er placeret i Nordjylland, i Trekantområdet, på Sjælland eller i Storkøbenhavn, bringer vi vores erfaring, fleksibilitet og faglige stolthed i spil for at skabe det perfekte hjem til dig.
+                </p>
+              </ExpandableText>
             </div>
           </div>
         </div>
