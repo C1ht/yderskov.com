@@ -44,6 +44,15 @@ const posts: Post[] = [
     excerpt: "Overvejer du at kontakte en arkitekt, men er i tvivl om hvad det indebærer? Få et indblik i, hvordan det gratis og uforpligtende førstegangsmøde med Arkitekt Yderskov foregår, og hvad I skal forberede.",
   },
   {
+    href: "/blog/hvad-er-bygningsreglementet",
+    image: "/images/Billeder til blogindlæg/bygningsreglementet BR18 forside arkitekt yderskov.webp",
+    date: "07 / 07 / 2026",
+    cat: "Arkitekt & proces",
+    catKey: "arkitekt",
+    title: "Hvad er bygningsreglementet — og hvorfor er det praktisk at kende det?",
+    excerpt: "Hvad regulerer bygningsreglementet (BR18), og hvordan adskiller det sig fra en lokalplan? Få overblikket, og hør hvorfor det er en fast del af arkitektens arbejde at sikre, at dit byggeri lever op til det.",
+  },
+  {
     href: "/blog/pladsoptimering-lille-sommerhus",
     image: "/images/Bjerget 13/sommerhus Bjerget 13 udsigtsniche som siddeplads.webp",
     date: "05 / 07 / 2026",

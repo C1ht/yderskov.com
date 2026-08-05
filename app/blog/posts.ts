@@ -121,6 +121,54 @@ export const posts: BlogPost[] = [
     ],
   },
   {
+    slug: "hvad-er-bygningsreglementet",
+    image: "/images/Billeder til blogindlæg/bygningsreglementet BR18 forside arkitekt yderskov.webp",
+    metaTitle: "Hvad er bygningsreglementet (BR18)? — Arkitekt Yderskov",
+    title: "Hvad er bygningsreglementet — og hvorfor er det praktisk at kende det?",
+    description: "Hvad regulerer bygningsreglementet (BR18), og hvordan adskiller det sig fra en lokalplan? Få overblikket, og hør hvorfor det er en fast del af arkitektens arbejde at sikre, at dit byggeri lever op til det.",
+    date: "07 / 07 / 2026",
+    cat: "Arkitekt & proces",
+    catKey: "arkitekt",
+    lead: "Ud over lokalplanen er der endnu et regelsæt, alle byggerier i Danmark skal overholde: bygningsreglementet. Hvor lokalplanen handler om, hvordan dit hus ser ud udefra, handler bygningsreglementet om, at det er sikkert, sundt og solidt at bo i. Her får du overblikket.",
+    sections: [
+      {
+        heading: "Hvad er bygningsreglementet?",
+        paragraphs: [
+          "Bygningsreglementet — i daglig tale ofte kaldt BR18, efter den seneste store revision i 2018 — er et nationalt regelsæt, der stiller tekniske og bygningsmæssige minimumskrav til alt byggeri i Danmark. Det er udstedt af staten som en bekendtgørelse under byggeloven og gælder ens i hele landet, uanset hvilken kommune du bygger i.",
+        ],
+      },
+      {
+        heading: "Hvad regulerer bygningsreglementet?",
+        paragraphs: [
+          "Hvor en lokalplan primært handler om byggeriets ydre fremtræden og placering, går bygningsreglementet i dybden med de tekniske og funktionelle krav: konstruktionernes sikkerhed, brandforhold, energiforbrug, lydisolering, indeklima, tilgængelighed og adgangsforhold. Det stiller også krav til isolering, ventilation og fugtsikring — alt sammen for at sikre, at boligen er sund, sikker og holdbar at bo i.",
+        ],
+      },
+      {
+        heading: "Hvordan hænger det sammen med lokalplanen?",
+        paragraphs: [
+          "Bygningsreglementet og lokalplanen supplerer hinanden, men regulerer forskellige ting. Lokalplanen bestemmer, hvordan huset må se ud og placeres på grunden; bygningsreglementet bestemmer, hvordan det skal bygges for at være sikkert og lovligt. Er der modstrid mellem de to omkring byggeriets ydre — for eksempel højde eller placering — går lokalplanens bestemmelser forud. Men bygningsreglementets tekniske minimumskrav til konstruktion, brand og sikkerhed skal altid overholdes, uanset hvad lokalplanen siger.",
+        ],
+      },
+      {
+        heading: "Det er her, arkitekten hjælper",
+        paragraphs: [
+          "Bygningsreglementet er omfattende og teknisk, og det er ikke noget, de fleste bygherrer selv skal sætte sig ind i. Det er vores opgave som arkitekter at kende reglerne og sikre, at jeres byggeri lever op til dem — fra energiramme og konstruktionsprincipper til brandkrav og tilgængelighed. Vi udarbejder de tegninger og beregninger, der dokumenterer, at kravene er opfyldt, og koordinerer med certificerede ingeniører, når det er nødvendigt.",
+        ],
+      },
+      {
+        heading: "Hvor kan du finde bygningsreglementet?",
+        paragraphs: [
+          "Hele bygningsreglementet er offentligt tilgængeligt på [bygningsreglementet.dk](https://www.bygningsreglementet.dk), opdelt i kapitler med tilhørende vejledninger. Er du i tvivl om, hvad kravene betyder for netop jeres projekt, er det en del af det, vi går igennem til [det gratis førstegangsmøde](/blog/gratis-foerste-moede-med-arkitekt).",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Læs om lokalplaner", href: "/blog/hvad-er-en-lokalplan" },
+      { label: "Læs om det gratis førstegangsmøde", href: "/blog/gratis-foerste-moede-med-arkitekt" },
+      { label: "Se hvad det koster at bygge", href: "/priser" },
+    ],
+  },
+  {
     slug: "pladsoptimering-lille-sommerhus",
     image: "/images/Bjerget 13/sommerhus Bjerget 13 udsigtsniche som siddeplads.webp",
     images: [
