@@ -222,6 +222,55 @@ export const posts: BlogPost[] = [
     ]
   },
   {
+    slug: "byggesagsforloebet",
+    image: "/images/Billeder til blogindlæg/ansoegningsskema byggetilladelse arkitekt yderskov.webp",
+    metaTitle: "Byggesagsforløbet: fra ansøgning til byggetilladelse — Arkitekt Yderskov",
+    title: "Sådan forløber en byggesag — fra ansøgning til byggetilladelse.",
+    description: "Få det fulde overblik over byggesagsforløbet: dokumentation, sagsbehandling i kommunen, landzonetilladelse og selve byggetilladelsen — trin for trin.",
+    date: "25 / 06 / 2026",
+    cat: "Arkitekt & proces",
+    catKey: "arkitekt",
+    lead: "Fra I sender jeres byggeansøgning, til I står med en byggetilladelse i hånden, går sagen igennem flere faste trin. Her får I det fulde overblik over byggesagsforløbet, så I ved, hvad der venter, og hvornår I kan forvente svar.",
+    sections: [
+      {
+        heading: "Trin 1: Ansøgningen og dokumentationen",
+        paragraphs: [
+          "En byggeansøgning sendes digitalt gennem den nationale portal Byg og Miljø, hvor I logger ind med MitID og opretter sagen på den konkrete adresse. Ansøgningen skal som minimum indeholde en situationsplan, der viser byggeriets placering på grunden, plan- og snittegninger, facadetegninger samt en teknisk redegørelse for, hvordan projektet overholder bygningsreglementet. Jo mere præcist og fyldestgørende materialet er fra start, jo hurtigere kan kommunen komme videre med sagen.",
+        ],
+      },
+      {
+        heading: "Trin 2: Sagsbehandling i kommunen",
+        paragraphs: [
+          "Når ansøgningen er modtaget, bliver den screenet for at sikre, at det basale indhold og dokumentation er medsendt. Derefter overgår den til en byggesagsbehandler, der gennemgår materialet i forhold til lokalplan, bygningsreglement og eventuelle tinglyste servitutter. Passer projektet inden for de gældende rammer — det, der kaldes byggeret — går sagsbehandlingen typisk forholdsvis hurtigt. Afviger projektet fra standardkravene, for eksempel med større højde eller kortere afstand til skel, skal kommunen lave en helhedsvurdering. Det forlænger processen og indebærer ofte, at naboer bliver orienteret og får mulighed for at komme med bemærkninger. Sagsbehandlingstiden varierer betydeligt fra kommune til kommune, og der opkræves typisk et gebyr for behandlingen.",
+        ],
+      },
+      {
+        heading: "Trin 3: Landzonetilladelse — hvis grunden ligger i landzone",
+        paragraphs: [
+          "Ligger grunden i landzone — altså uden for byzone og sommerhusområder — skal der ofte søges en landzonetilladelse, før byggetilladelsen overhovedet kan gives. Landzonetilladelsen gives efter planloven og har til formål at friholde det åbne land for spredt og unødvendig bebyggelse. En del byggerier er dog undtaget kravet, blandt andet mindre til- og ombygninger til eksisterende boliger. Vi tjekker altid tidligt i forløbet, om jeres grund er omfattet, så det ikke kommer som en overraskelse undervejs.",
+        ],
+      },
+      {
+        heading: "Trin 4: Byggetilladelsen — og hvad der sker derefter",
+        paragraphs: [
+          "Når kommunen har godkendt projektet, modtager I en skriftlig byggetilladelse — og det er først her, byggeriet må gå i gang. At starte, før tilladelsen foreligger, er en overtrædelse, der i værste fald kan medføre krav om nedrivning eller bøde.",
+          "Byggetilladelsen indeholder desuden en række vilkår, I skal opfylde undervejs og ved byggeriets afslutning. Et af de vigtigste er, at byggeriet skal færdigmeldes til kommunen, når det er færdigt. Når færdigmeldingen og den nødvendige dokumentation er godkendt, udsteder kommunen en ibrugtagningstilladelse til jer som bygherre — og det er først med den i hånden, at boligen må tages i brug.",
+        ],
+      },
+      {
+        heading: "Det er her, arkitekten hjælper",
+        paragraphs: [
+          "Vi håndterer hele myndighedsprocessen for jer — fra vurdering af, om der skal søges landzonetilladelse, til udarbejdelse af tegningsmateriale og indsendelse af selve byggeansøgningen i Byg og Miljø. På den måde ved I altid, hvor I er i forløbet, og I slipper for at stå med usikkerheden selv.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Læs om lokalplaner", href: "/blog/hvad-er-en-lokalplan" },
+      { label: "Læs om bygningsreglementet", href: "/blog/hvad-er-bygningsreglementet" },
+      { label: "Læs om det gratis førstegangsmøde", href: "/blog/gratis-foerste-moede-med-arkitekt" },
+    ],
+  },
+  {
     slug: "funkisvilla-vestbjerg-garage",
     image: "/images/Højgården/Vestsbjerg-ny-funkisvilla-vejside.webp",
     images: [

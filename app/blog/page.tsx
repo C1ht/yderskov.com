@@ -62,6 +62,15 @@ const posts: Post[] = [
     excerpt: "Hvordan får man 50 m² sommerhus to at føles dobbelt så stort? Se hvordan vi optimerede pladsen i to af vores sommerhusprojekter i Sebbersund med skydedøre, alkove, siddeniche og mere.",
   },
   {
+    href: "/blog/byggesagsforloebet",
+    image: "/images/Billeder til blogindlæg/ansoegningsskema byggetilladelse arkitekt yderskov.webp",
+    date: "25 / 06 / 2026",
+    cat: "Arkitekt & proces",
+    catKey: "arkitekt",
+    title: "Sådan forløber en byggesag — fra ansøgning til byggetilladelse.",
+    excerpt: "Få det fulde overblik over byggesagsforløbet: dokumentation, sagsbehandling i kommunen, landzonetilladelse og selve byggetilladelsen — trin for trin.",
+  },
+  {
     href: "/blog/funkisvilla-vestbjerg-garage",
     image: "/images/Højgården/Vestsbjerg-ny-funkisvilla-vejside.webp",
     date: "20 / 06 / 2026",
