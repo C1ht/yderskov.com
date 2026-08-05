@@ -41,6 +41,26 @@ const projectGalleries = [
   },
   {
     eyebrow: "Projekt",
+    title: "Lille, gammelt parcelhus\nombygget to moderne bolig, Brønderslev nær Aalborg.",
+    location: "Brønderslev, Nordjylland",
+    size: "Komplet ombygning · energirenovering",
+    year: "2023",
+    description: "Dette projekt er en stor totalrenovering og modernisering af et ældre parcelhus i Brønderslev. Huset er blevet fuldstændig forvandlet fra et almindeligt murstenshus til en lys, moderne bolig i to etager. Som en helt særlig detalje har huset fået sit eget tårn med siddepladser i toppen, hvorfra der er en fantastisk udsigt over hele området. Renoveringen, som omfatter store glaspartier mod den private baghave, moderne energiløsninger og en flot, grusbelagt indkørsel, er foretaget af [yderskovbygogbolig.dk](https://yderskovbygogbolig.dk). Prøv at sammenligne med 'før-billedet' og se den store forvandling af huset.",
+    images: [
+      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-vejside.webp", alt: "Vejside efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-indkørsel.webp", alt: "Indkørsel efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-haveside.webp", alt: "Haveside efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-forhave.webp", alt: "Forhave efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-bagside.webp", alt: "Bagside efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
+    ],
+    afterLabel: "Efter ombygning",
+    beforeLabel: "Før ombygning",
+    beforeImages: [
+      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-foer-vejside.webp", alt: "Vejside før ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
+    ],
+  },
+  {
+    eyebrow: "Projekt",
     title: "Villa med\ntilbygning, Hasseris i Aalborg.",
     location: "Hasseris, Aalborg",
     size: "45 m² tilbygning · terrasse",
@@ -80,26 +100,6 @@ const projectGalleries = [
       { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-terrassearbejde.webp", alt: "Terrassearbejde ved ombygning i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
     ],
     dark: false,
-  },
-  {
-    eyebrow: "Projekt",
-    title: "Lille, gammelt parcelhus\nombygget to moderne bolig, Brønderslev nær Aalborg.",
-    location: "Brønderslev, Nordjylland",
-    size: "Komplet ombygning · energirenovering",
-    year: "2023",
-    description: "Dette projekt er en stor totalrenovering og modernisering af et ældre parcelhus i Brønderslev. Huset er blevet fuldstændig forvandlet fra et almindeligt murstenshus til en lys, moderne bolig i to etager. Som en helt særlig detalje har huset fået sit eget tårn med siddepladser i toppen, hvorfra der er en fantastisk udsigt over hele området. Renoveringen, som omfatter store glaspartier mod den private baghave, moderne energiløsninger og en flot, grusbelagt indkørsel, er foretaget af [yderskovbygogbolig.dk](https://yderskovbygogbolig.dk). Prøv at sammenligne med 'før-billedet' og se den store forvandling af huset.",
-    images: [
-      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-vejside.webp", alt: "Vejside efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
-      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-indkørsel.webp", alt: "Indkørsel efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
-      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-haveside.webp", alt: "Haveside efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
-      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-forhave.webp", alt: "Forhave efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
-      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-bagside.webp", alt: "Bagside efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
-    ],
-    afterLabel: "Efter ombygning",
-    beforeLabel: "Før ombygning",
-    beforeImages: [
-      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-foer-vejside.webp", alt: "Vejside før ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
-    ],
   },
 ];
 
