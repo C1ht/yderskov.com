@@ -67,6 +67,54 @@ export const posts: BlogPost[] = [
     ],
   },
   {
+    slug: "nabohoering-ved-byggeri",
+    image: "/images/Hals Rækkehuse/Hals-Aalborgvej30-udlejning-.webp",
+    metaTitle: "Nabohøring ved byggeri — regler og høringsfrist — Arkitekt Yderskov",
+    title: "Nabohøring — hvad bliver naboerne hørt om, og skal kommunen følge deres indsigelser?",
+    description: "Hvornår skal naboerne høres i en byggesag, hvad bliver de hørt om, hvor lang er høringsfristen, og er kommunen forpligtet til at følge deres indsigelser? Få svarene her.",
+    date: "21 / 07 / 2026",
+    cat: "Arkitekt & proces",
+    catKey: "arkitekt",
+    lead: "Bygger I tættere på skel end normalt, højere end standardreglerne tillader, eller søger I dispensation fra lokalplanen, skal jeres naboer som regel høres, før kommunen kan give tilladelse. Men hvad betyder det egentlig for jeres projekt — og kan en nabo stoppe byggeriet? Her får I svarene.",
+    sections: [
+      {
+        heading: "Hvad er en nabohøring?",
+        paragraphs: [
+          "Der findes to former for nabohøring. Naboorientering efter [byggeloven §22](https://danskelove.dk/byggeloven/22) sker, når kommunen skal give dispensation fra noget væsentligt i bygningsreglementet eller foretage en helhedsvurdering, fordi projektet afviger fra standardreglerne. [Partshøring efter forvaltningsloven](https://www.ombudsmanden.dk/find-viden/myndighedsguiden/specifikke-sagsomraader/14-partshoering-af-naboer-i-byggesager) sker derimod, hvis byggeriet vil udsætte naboen for konkrete, væsentlige gener — uanset om der søges dispensation. I praksis vurderer kommunen ofte begge dele samtidig.",
+        ],
+      },
+      {
+        heading: "Hvad bliver naboerne konkret hørt om?",
+        paragraphs: [
+          "Naboerne bliver ikke hørt om hele projektet, men om de konkrete forhold, der afviger fra det, de kunne forvente efter standardreglerne. Det drejer sig typisk om indblik til boligen og opholdsarealer, skyggeforhold i haven, bygningens højde og volumen set fra naboejendommen, samt afstanden til skel. Jo mere præcist kommunen — og jeres arkitekt — kan dokumentere disse forhold med tegninger og visualiseringer, jo lettere er det for naboen at forholde sig konkret til, hvad der rent faktisk ændrer sig.",
+        ],
+      },
+      {
+        heading: "Hvor lang er høringsfristen?",
+        paragraphs: [
+          "Høringsfristen er som udgangspunkt minimum 14 dage. Kommunen må ikke give den endelige tilladelse, før fristen er udløbet — medmindre afvigelsen vurderes at være af helt underordnet betydning. I praksis lægger nabohøringen derfor typisk et par uger til den samlede sagsbehandlingstid, ud over den tid, det tager kommunen at behandle selve ansøgningen.",
+        ],
+      },
+      {
+        heading: "Er kommunen forpligtet til at følge naboernes indsigelser?",
+        paragraphs: [
+          "Nej. Naboerne har ret til at blive hørt og få deres indsigelser taget alvorligt, men de har ikke vetoret. Kommunen skal reelt overveje indsigelserne og begrunde sin afgørelse, men kan godt give tilladelse til et lovligt projekt, selvom en nabo protesterer. Omvendt kan en velbegrundet indsigelse godt få kommunen til at stille vilkår i tilladelsen eller i sjældnere tilfælde afslå ansøgningen — det afhænger af en konkret vurdering i hver sag.",
+        ],
+      },
+      {
+        heading: "Det er her, arkitekten hjælper",
+        paragraphs: [
+          "Vi udarbejder det tegningsmateriale og de visualiseringer, der skal bruges i nabohøringen, og sørger for, at afvigelserne fra standardreglerne er tydeligt dokumenteret. Et gennemarbejdet projekt med klar dokumentation gør hele nabohøringsprocessen mere gennemsigtig — for både naboer, kommune og jer som bygherrer.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Læs om byggesagsforløbet", href: "/blog/byggesagsforloebet" },
+      { label: "Læs om lokalplaner", href: "/blog/hvad-er-en-lokalplan" },
+      { label: "Læs om det gratis førstegangsmøde", href: "/blog/gratis-foerste-moede-med-arkitekt" },
+    ],
+  },
+  {
     slug: "gratis-foerste-moede-med-arkitekt",
     image: "/images/Hanebjælken/Vestbjerg-Hanebjælken-ny-villa-haveside.webp",
     metaTitle: "Det gratis førstegangsmøde med en arkitekt — Arkitekt Yderskov",

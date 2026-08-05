@@ -35,6 +35,15 @@ const posts: Post[] = [
     excerpt: "Skal du bygge nyt eller købe en byggegrund? Få styr på, hvad en lokalplan er, hvad den regulerer, og hvorfor det er en fast del af arkitektens arbejde at sætte sig ind i den for jer.",
   },
   {
+    href: "/blog/nabohoering-ved-byggeri",
+    image: "/images/Hals Rækkehuse/Hals-Aalborgvej30-udlejning-.webp",
+    date: "21 / 07 / 2026",
+    cat: "Arkitekt & proces",
+    catKey: "arkitekt",
+    title: "Nabohøring — hvad bliver naboerne hørt om, og skal kommunen følge deres indsigelser?",
+    excerpt: "Hvornår skal naboerne høres i en byggesag, hvad bliver de hørt om, hvor lang er høringsfristen, og er kommunen forpligtet til at følge deres indsigelser? Få svarene her.",
+  },
+  {
     href: "/blog/gratis-foerste-moede-med-arkitekt",
     image: "/images/Hanebjælken/Vestbjerg-Hanebjælken-ny-villa-haveside.webp",
     date: "14 / 07 / 2026",
