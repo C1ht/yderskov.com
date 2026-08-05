@@ -26,6 +26,15 @@ type Post = {
 const posts: Post[] = [
   // 2026
   {
+    href: "/blog/hvad-er-en-lokalplan",
+    image: "/images/Karetmagervej/Sæby-ny-villa-funkis-forside.webp",
+    date: "05 / 08 / 2026",
+    cat: "Arkitekt & proces",
+    catKey: "arkitekt",
+    title: "Hvad er en lokalplan — og hvorfor er det praktisk at kende den?",
+    excerpt: "Skal du bygge nyt eller købe en byggegrund? Få styr på, hvad en lokalplan er, hvad den regulerer, og hvorfor det er en fast del af arkitektens arbejde at sætte sig ind i den for jer.",
+  },
+  {
     href: "/blog/gratis-foerste-moede-med-arkitekt",
     image: "/images/Hanebjælken/Vestbjerg-Hanebjælken-ny-villa-haveside.webp",
     date: "14 / 07 / 2026",

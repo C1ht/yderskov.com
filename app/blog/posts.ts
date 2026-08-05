@@ -19,6 +19,54 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "hvad-er-en-lokalplan",
+    image: "/images/Karetmagervej/Sæby-ny-villa-funkis-forside.webp",
+    metaTitle: "Hvad er en lokalplan? Sådan hjælper arkitekten dig — Arkitekt Yderskov",
+    title: "Hvad er en lokalplan — og hvorfor er det praktisk at kende den?",
+    description: "Skal du bygge nyt eller købe en byggegrund? Få styr på, hvad en lokalplan er, hvad den regulerer, og hvorfor det er en fast del af arkitektens arbejde at sætte sig ind i den for jer.",
+    date: "05 / 08 / 2026",
+    cat: "Arkitekt & proces",
+    catKey: "arkitekt",
+    lead: "Før du går i gang med at tegne dit drømmehus, er der én ting, du bør kende til: lokalplanen for din grund. Den kan afgøre, hvad du overhovedet må bygge — uanset hvor gode dine egne planer er. Det er også her, en arkitekt for alvor gør en forskel: vi læser og fortolker lokalplanen for jer, så I slipper for at grave jer ned i paragraffer.",
+    sections: [
+      {
+        heading: "Hvad er en lokalplan?",
+        paragraphs: [
+          "En lokalplan er et juridisk bindende dokument, som en kommune vedtager for et bestemt geografisk område — for eksempel et villakvarter, et sommerhusområde eller en bydel. Den fastlægger, hvordan området må bebygges og bruges, og alle ejendomme inden for området skal overholde den, uanset hvem der ejer dem.",
+        ],
+      },
+      {
+        heading: "Hvad regulerer en lokalplan?",
+        paragraphs: [
+          "En lokalplan kan indeholde krav til stort set alt, der har med byggeriets ydre at gøre: maksimal bygningshøjde, bebyggelsesprocent (hvor stor en del af grunden der må bebygges), taghældning og tagform, facademateriale og farvevalg, afstand til skel og vej, samt hvor mange etager der er tilladt. Nogle lokalplaner stiller også krav om grønne tage, beplantning eller parkering. Vigtigt at vide: lokalplanens bestemmelser går forud for bygningsreglementet (BR18), hvis de to regelsæt siger noget forskelligt om samme forhold. Lokalplanen kan altså godt stille strengere krav, end BR18 ellers ville tillade — og det er dem, I skal følge.",
+        ],
+      },
+      {
+        heading: "Hvem laver en lokalplan?",
+        paragraphs: [
+          "Det er kommunen — typisk byrådet — der udarbejder og vedtager lokalplaner, ofte i forbindelse med ny udstykning eller når et område skal udvikles eller ændre karakter. Inden en lokalplan bliver endelig, skal den i offentlig høring, hvor naboer og andre borgere kan komme med indsigelser og forslag. Det er også derfor, lokalplaner nogle gange bliver justeret undervejs.",
+        ],
+      },
+      {
+        heading: "Det er her, arkitekten hjælper",
+        paragraphs: [
+          "Lokalplaner er skrevet i et forholdsvis teknisk sprog, og det kan være svært selv at gennemskue, hvad bestemmelserne reelt betyder for jeres konkrete projekt. Det er noget af det første, vi går i gang med, når vi tager en sag: Vi henter lokalplanen for netop jeres grund, sætter os grundigt ind i den, og oversætter kravene til noget, I kan forholde jer til — hvor stort må huset være, hvilken tagform giver mening, hvor på grunden må det ligge. På den måde bygger skitseforslaget på et solidt kendskab til rammerne fra starten, i stedet for at I selv skal tolke paragraffer.",
+        ],
+      },
+      {
+        heading: "Hvor kan du selv finde lokalplanen?",
+        paragraphs: [
+          "Vil du kigge nærmere selv, kan du søge din adresse frem på [Plandata.dk](https://plandata.dk) og læse lokalplanen i sin fulde længde. De fleste kommuner har også deres egen digitale planportal. Men er du i tvivl om, hvordan bestemmelserne skal fortolkes i praksis, er det præcis den slags, vi afklarer for jer til [det gratis førstegangsmøde](/blog/gratis-foerste-moede-med-arkitekt).",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Læs om det gratis førstegangsmøde", href: "/blog/gratis-foerste-moede-med-arkitekt" },
+      { label: "Læs om hvad et skitseforslag indeholder", href: "/blog/hvad-er-et-skitseforslag" },
+      { label: "Se hvad det koster at bygge", href: "/priser" },
+    ],
+  },
+  {
     slug: "gratis-foerste-moede-med-arkitekt",
     image: "/images/Hanebjælken/Vestbjerg-Hanebjælken-ny-villa-haveside.webp",
     metaTitle: "Det gratis førstegangsmøde med en arkitekt — Arkitekt Yderskov",
