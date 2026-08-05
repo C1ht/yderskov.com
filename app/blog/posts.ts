@@ -170,7 +170,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "hvad-er-bygningsreglementet",
-    image: "/images/Billeder til blogindlæg/bygningsreglementet BR18 titelblok arkitekt yderskov.webp",
+    image: "/images/Billeder til blogindlæg/bygningsreglementet titel kvadrat arkitekt yderskov.webp",
     metaTitle: "Hvad er bygningsreglementet (BR18)? — Arkitekt Yderskov",
     title: "Hvad er bygningsreglementet — og hvorfor er det praktisk at kende det?",
     description: "Hvad regulerer bygningsreglementet (BR18), og hvordan adskiller det sig fra en lokalplan? Få overblikket, og hør hvorfor det er en fast del af arkitektens arbejde at sikre, at dit byggeri lever op til det.",
@@ -271,7 +271,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "byggesagsforloebet",
-    image: "/images/Billeder til blogindlæg/bbr-ansoegningsskema byggetilladelse arkitekt yderskov.webp",
+    image: "/images/Billeder til blogindlæg/bbr-skema kvadrat arkitekt yderskov.webp",
     metaTitle: "Byggesagsforløbet: fra ansøgning til byggetilladelse — Arkitekt Yderskov",
     title: "Sådan forløber en byggesag — fra ansøgning til byggetilladelse.",
     description: "Få det fulde overblik over byggesagsforløbet: dokumentation, sagsbehandling i kommunen, landzonetilladelse og selve byggetilladelsen — trin for trin.",

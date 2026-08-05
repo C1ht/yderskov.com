@@ -54,7 +54,7 @@ const posts: Post[] = [
   },
   {
     href: "/blog/hvad-er-bygningsreglementet",
-    image: "/images/Billeder til blogindlæg/bygningsreglementet BR18 titelblok arkitekt yderskov.webp",
+    image: "/images/Billeder til blogindlæg/bygningsreglementet titel kvadrat arkitekt yderskov.webp",
     date: "07 / 07 / 2026",
     cat: "Arkitekt & proces",
     catKey: "arkitekt",
@@ -72,7 +72,7 @@ const posts: Post[] = [
   },
   {
     href: "/blog/byggesagsforloebet",
-    image: "/images/Billeder til blogindlæg/bbr-ansoegningsskema byggetilladelse arkitekt yderskov.webp",
+    image: "/images/Billeder til blogindlæg/bbr-skema kvadrat arkitekt yderskov.webp",
     date: "25 / 06 / 2026",
     cat: "Arkitekt & proces",
     catKey: "arkitekt",
