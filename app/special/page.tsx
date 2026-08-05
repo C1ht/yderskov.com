@@ -7,6 +7,7 @@ import ContactForm from "@/components/ContactForm";
 import ImageGrid from "@/components/ImageGrid";
 import CtaBand from "@/components/CtaBand";
 import InspirationGallery from "@/components/InspirationGallery";
+import ProjectDescription from "@/components/ProjectDescription";
 
 export const metadata: Metadata = {
   title: "Specialbyggeri & unik arkitektur | Yderskov Arkitekter",
@@ -89,9 +90,10 @@ export default function SpecialPage() {
             <div>
               <span className="eyebrow">Projekt</span>
               <h2 className="sec-hed" style={{ marginBottom: 0 }}>Bed &amp; Breakfast,<br />Aalborg.</h2>
-              <p className="proj-desc" style={{ marginTop: "1.25rem", maxWidth: "680px", color: "var(--sub)" }}>
-                Dette projekt, beliggende naturskønt i Aalborgs udkant, er en ombygning af en eksisterende ejendom til en hyggelig og indbydende Bed &amp; Breakfast. Vi har designet lyse fællesarealer med et moderne køkken og en hyggelig spiseplads, hvor gæsterne kan samles. Målet har været at skabe en hjemlig og afslappet atmosfære, som føles rar at være i, samtidig med at indretningen er praktisk og let at holde ren i hverdagen.
-              </p>
+              <ProjectDescription
+                text="Dette projekt, beliggende naturskønt i Aalborgs udkant, er en ombygning af en eksisterende ejendom til en hyggelig og indbydende Bed & Breakfast. Vi har designet lyse fællesarealer med et moderne køkken og en hyggelig spiseplads, hvor gæsterne kan samles. Målet har været at skabe en hjemlig og afslappet atmosfære, som føles rar at være i, samtidig med at indretningen er praktisk og let at holde ren i hverdagen."
+                style={{ marginTop: "1.25rem", maxWidth: "680px", color: "var(--sub)" }}
+              />
             </div>
           </div>
           <ImageGrid images={[

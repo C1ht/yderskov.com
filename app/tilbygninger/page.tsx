@@ -7,6 +7,7 @@ import ContactForm from "@/components/ContactForm";
 import ImageGrid from "@/components/ImageGrid";
 import CtaBand from "@/components/CtaBand";
 import InspirationGallery from "@/components/InspirationGallery";
+import ProjectDescription from "@/components/ProjectDescription";
 
 export const metadata: Metadata = {
   title: "Arkitekt til om- & tilbygning — Priser & cases | Yderskov",
@@ -200,12 +201,33 @@ export default function TilbygningerPage() {
         </div>
       </section>
 
+      {/* Prisberegner-banner */}
+      <div className="announcement-bar">
+        <div className="announcement-inner">
+          <span className="announcement-badge">Gratis værktøj</span>
+          <div className="announcement-body">
+            <p className="announcement-title">Nysgerrig på prisen for <strong>din tilbygning</strong>?</p>
+            <p className="announcement-sub">Prøv vores interaktive prisberegner og få et vejledende prisskøn på under 2 minutter.</p>
+          </div>
+          <Link href="/prisberegner" className="announcement-cta">Prøv prisberegneren →</Link>
+        </div>
+      </div>
+
       {projectGalleries.map((gallery, i) => (
         <section key={i} className={`s${gallery.dark ? " s-off" : ""}`}>
           <div className="s-inner">
             <div className="proj-header">
               <div>
                 <span className="eyebrow">{gallery.eyebrow}</span>
+                {"beforeImages" in gallery && gallery.beforeImages && (
+                  <span className="proj-ba-badge">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                      <path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.85 1 6.5 2.5" />
+                      <path d="M21 3v6h-6" />
+                    </svg>
+                    Før / Efter
+                  </span>
+                )}
                 <h2 className="sec-hed" style={{ marginBottom: 0, whiteSpace: "pre-line" }}>
                   {gallery.title}
                 </h2>
@@ -215,7 +237,7 @@ export default function TilbygningerPage() {
                   </p>
                 )}
                 {"description" in gallery && gallery.description && (
-                  <p className="proj-desc">{gallery.description}</p>
+                  <ProjectDescription text={gallery.description} />
                 )}
               </div>
             </div>

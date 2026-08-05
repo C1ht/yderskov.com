@@ -7,6 +7,7 @@ import ContactForm from "@/components/ContactForm";
 import ImageGrid from "@/components/ImageGrid";
 import CtaBand from "@/components/CtaBand";
 import InspirationGallery from "@/components/InspirationGallery";
+import ProjectDescription from "@/components/ProjectDescription";
 
 export const metadata: Metadata = {
   title: "Arkitekttegnet sommerhus — Priser & projekter | Yderskov",
@@ -123,7 +124,7 @@ export default function SommerhusePage() {
                   </p>
                 )}
                 {"description" in gallery && gallery.description && (
-                  <p className="proj-desc">{gallery.description}</p>
+                  <ProjectDescription text={gallery.description} />
                 )}
               </div>
             </div>

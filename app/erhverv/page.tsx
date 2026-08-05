@@ -7,6 +7,7 @@ import ContactForm from "@/components/ContactForm";
 import ImageGrid from "@/components/ImageGrid";
 import CtaBand from "@/components/CtaBand";
 import InspirationGallery from "@/components/InspirationGallery";
+import ProjectDescription from "@/components/ProjectDescription";
 
 export const metadata: Metadata = {
   title: "Erhvervsbyggeri — Arkitekttegnede kontorer & cases | Yderskov",
@@ -158,6 +159,15 @@ export default function ErhvervPage() {
             <div className="proj-header">
               <div>
                 <span className="eyebrow">{gallery.eyebrow}</span>
+                {"beforeImages" in gallery && gallery.beforeImages && (
+                  <span className="proj-ba-badge">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                      <path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.85 1 6.5 2.5" />
+                      <path d="M21 3v6h-6" />
+                    </svg>
+                    Før / Efter
+                  </span>
+                )}
                 <h2 className="sec-hed" style={{ marginBottom: 0, whiteSpace: "pre-line" }}>
                   {gallery.title}
                 </h2>
@@ -167,7 +177,7 @@ export default function ErhvervPage() {
                   </p>
                 )}
                 {"description" in gallery && gallery.description && (
-                  <p className="proj-desc">{gallery.description}</p>
+                  <ProjectDescription text={gallery.description} />
                 )}
               </div>
             </div>

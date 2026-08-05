@@ -7,6 +7,7 @@ import ContactForm from "@/components/ContactForm";
 import ImageGrid from "@/components/ImageGrid";
 import CtaBand from "@/components/CtaBand";
 import InspirationGallery from "@/components/InspirationGallery";
+import ProjectDescription from "@/components/ProjectDescription";
 
 export const metadata: Metadata = {
   title: "Arkitekttegnet villa — Se priser & projekter | Yderskov",
@@ -260,7 +261,7 @@ export default function VillaerPage() {
                   </p>
                 )}
                 {"description" in gallery && (
-                  <p className="proj-desc">{gallery.description}</p>
+                  <ProjectDescription text={gallery.description} />
                 )}
               </div>
             </div>
