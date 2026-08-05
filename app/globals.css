@@ -82,6 +82,38 @@ button:disabled { cursor: not-allowed; opacity: 0.6; }
   body.menu-open .mobile-cta { display: none; }
 }
 
+/* ── BACK TO TOP ── */
+.back-to-top {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.5rem;
+  z-index: 95;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--dark);
+  color: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.18);
+  transition: opacity 0.2s, transform 0.2s, background 0.15s;
+}
+@media (hover: hover) {
+  .back-to-top:hover { background: var(--accent); transform: translateY(-2px); }
+}
+@media (max-width: 768px) {
+  .back-to-top {
+    right: 1rem;
+    bottom: calc(68px + env(safe-area-inset-bottom) + 0.75rem);
+    width: 42px;
+    height: 42px;
+  }
+  body.menu-open .back-to-top { display: none; }
+}
+
 /* ── NAV ── */
 nav {
   position: fixed; top: 0; left: 0; right: 0; z-index: 100;
@@ -1135,8 +1167,11 @@ body.menu-open { overflow: hidden; }
 .post-excerpt { font-size: 0.78rem; font-weight: 300; color: var(--sub); line-height: 1.65; margin-bottom: 1rem; }
 .post-link { font-size: 0.72rem; font-weight: 400; color: var(--accent); }
 .blog-filters { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 2rem; }
-.blog-filter-btn { font-size: 0.7rem; font-weight: 300; color: var(--sub); padding: 0.4rem 1rem; border-radius: 5.28px; border: 1px solid var(--border); cursor: pointer; background: none; transition: all 0.15s; font-family: var(--sans); }
-.blog-filter-btn:hover, .blog-filter-btn.active { background: var(--text); color: var(--white); border-color: var(--text); }
+.blog-filter-btn { font-size: 0.7rem; font-weight: 300; color: var(--sub); padding: 0.65rem 1.1rem; border-radius: 5.28px; border: 1px solid var(--border); cursor: pointer; background: none; transition: all 0.15s; font-family: var(--sans); }
+.blog-filter-btn.active { background: var(--text); color: var(--white); border-color: var(--text); }
+@media (hover: hover) {
+  .blog-filter-btn:hover { background: var(--text); color: var(--white); border-color: var(--text); }
+}
 @media (max-width: 900px) { .post-grid { grid-template-columns: repeat(2,1fr); } }
 @media (max-width: 600px) { .post-grid { grid-template-columns: 1fr; } }
 

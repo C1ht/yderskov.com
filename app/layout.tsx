@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import MobileCta from "@/components/MobileCta";
+import BackToTop from "@/components/BackToTop";
 
 const inter = localFont({
   src: "../node_modules/@fontsource-variable/inter/files/inter-latin-wght-normal.woff2",
@@ -40,6 +41,7 @@ export default function RootLayout({
       <body>
         {children}
         <MobileCta />
+        <BackToTop />
       </body>
     </html>
   );

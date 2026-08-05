@@ -33,6 +33,7 @@ function parseDate(dateStr: string): Date {
 export default function BlogListing({ posts, categories }: BlogListingProps) {
   const [active, setActive] = useState("alle");
   const [sortAsc, setSortAsc] = useState(false);
+  const [limit, setLimit] = useState(12);
 
   const today = new Date();
   today.setHours(0, 0, 0, 0);
@@ -42,6 +43,7 @@ export default function BlogListing({ posts, categories }: BlogListingProps) {
     const diff = parseDate(b.date).getTime() - parseDate(a.date).getTime();
     return sortAsc ? -diff : diff;
   });
+  const visible = sorted.slice(0, limit);
 
   return (
     <>
@@ -51,7 +53,7 @@ export default function BlogListing({ posts, categories }: BlogListingProps) {
             <button
               key={cat.key}
               className={`blog-filter-btn${active === cat.key ? " active" : ""}`}
-              onClick={() => setActive(cat.key)}
+              onClick={() => { setActive(cat.key); setLimit(12); }}
             >
               {cat.label}
             </button>
@@ -60,13 +62,13 @@ export default function BlogListing({ posts, categories }: BlogListingProps) {
         <div style={{ display: "flex", gap: "0.5rem" }}>
           <button
             className={`blog-filter-btn${!sortAsc ? " active" : ""}`}
-            onClick={() => setSortAsc(false)}
+            onClick={() => { setSortAsc(false); setLimit(12); }}
           >
             Nyeste først
           </button>
           <button
             className={`blog-filter-btn${sortAsc ? " active" : ""}`}
-            onClick={() => setSortAsc(true)}
+            onClick={() => { setSortAsc(true); setLimit(12); }}
           >
             Ældste først
           </button>
@@ -74,7 +76,7 @@ export default function BlogListing({ posts, categories }: BlogListingProps) {
       </div>
 
       <div className="post-grid">
-        {sorted.map((post) => (
+        {visible.map((post) => (
           <Link key={post.href} href={post.href} className="post-card">
             <div className="post-card-inner">
               <div className="post-card-content">
@@ -100,6 +102,18 @@ export default function BlogListing({ posts, categories }: BlogListingProps) {
           </Link>
         ))}
       </div>
+
+      {limit < sorted.length && (
+        <div style={{ display: "flex", justifyContent: "center", marginTop: "2.5rem" }}>
+          <button
+            onClick={() => setLimit((prev) => prev + 12)}
+            className="tag tag-dark"
+            style={{ cursor: "pointer", border: "none", padding: "0.8rem 2rem", fontSize: "0.9rem" }}
+          >
+            Indlæs flere →
+          </button>
+        </div>
+      )}
     </>
   );
 }
