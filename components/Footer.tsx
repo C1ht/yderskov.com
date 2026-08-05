@@ -1,12 +1,26 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Footer() {
+  const pathname = usePathname();
+
+  const handleLogoClick = (e: React.MouseEvent) => {
+    if (pathname === "/") {
+      e.preventDefault();
+      window.scrollTo(0, 0);
+    }
+  };
+
   return (
     <footer>
       <div className="ftop">
         <div className="fbrand fcol">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/logofiles/SVG/Arkitect 5.svg" alt="Arkitekttegnestuen Yderskov" className="footer-logo" width="160" height="128" />
+          <Link href="/" aria-label="Yderskov Arkitekter — forside" onClick={handleLogoClick}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/images/logofiles/SVG/Arkitect 5.svg" alt="Arkitekttegnestuen Yderskov" className="footer-logo" width="160" height="128" />
+          </Link>
           <p>
             Arkitekttegnede villaer, sommerhuse og tilbygninger med fast pris i Aalborg og Danmark.
           </p>

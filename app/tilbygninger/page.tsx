@@ -253,14 +253,6 @@ export default function TilbygningerPage() {
         </section>
       ))}
 
-      <div className="stats-bg">
-        <div className="stats-inner">
-          <div className="stat"><div className="stat-num">14.000<sup> kr.</sup></div><div className="stat-lbl">Fra pr. m²</div></div>
-          <div className="stat"><div className="stat-num">24<sup> timer</sup></div><div className="stat-lbl">Svar inden</div></div>
-          <div className="stat"><div className="stat-num">10<sup>+</sup></div><div className="stat-lbl">Igangværende projekter</div></div>
-          <div className="stat"><div className="stat-num">300<sup>+</sup></div><div className="stat-lbl">Projekter gennemført</div></div>
-        </div>
-      </div>
 
       <section className="s">
         <div className="s-inner">

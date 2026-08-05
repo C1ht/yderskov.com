@@ -41,8 +41,8 @@ export default function LejlighederPage() {
     "@graph": [
       {
         "@type": "Apartment",
-        "name": "Lejlighedsrenovering I, Ågade, Aalborg",
-        "description": "Arkitekttegnet lejlighedsrenovering og ombygning i Ågade, Aalborg udført af Yderskov Arkitekter.",
+        "name": "Lejlighedsrenovering I, Aalborg",
+        "description": "Arkitekttegnet lejlighedsrenovering og ombygning i Aalborg udført af Yderskov Arkitekter.",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Aalborg",
@@ -68,8 +68,8 @@ export default function LejlighederPage() {
       },
       {
         "@type": "Apartment",
-        "name": "Lejlighedsrenovering III (1. th), Reberbansgade, Aalborg",
-        "description": "Arkitekttegnet lejlighedsrenovering af 1. th i Reberbansgade, Aalborg udført af Yderskov Arkitekter.",
+        "name": "Lejlighedsrenovering III (1. th), Aalborg",
+        "description": "Arkitekttegnet lejlighedsrenovering af 1. th i Aalborg udført af Yderskov Arkitekter.",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Aalborg",
@@ -96,8 +96,8 @@ export default function LejlighederPage() {
       },
       {
         "@type": "Apartment",
-        "name": "Lejlighedsrenovering III (1. tv), Reberbansgade, Aalborg",
-        "description": "Arkitekttegnet lejlighedsrenovering af 1. tv i Reberbansgade, Aalborg udført af Yderskov Arkitekter.",
+        "name": "Lejlighedsrenovering III (1. tv), Aalborg",
+        "description": "Arkitekttegnet lejlighedsrenovering af 1. tv i Aalborg udført af Yderskov Arkitekter.",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Aalborg",
@@ -125,7 +125,7 @@ export default function LejlighederPage() {
       />
       <Nav />
       <Hero
-        slides={[{ src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkken.webp", alt: "Lejlighedsrenovering, Ågade, Aalborg — Arkitekttegnestuen Yderskov" }]}
+        slides={[{ src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkken.webp", alt: "Lejlighedsrenovering, Aalborg — Arkitekttegnestuen Yderskov" }]}
         tag="Lejligheder"
         subtitle="Lejligheder"
         lines={[
@@ -162,28 +162,28 @@ export default function LejlighederPage() {
           <div className="proj-header">
             <div>
               <span className="eyebrow">Projekt</span>
-              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering I<br />Ågade, Aalborg.</h2>
+              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering I<br />Aalborg.</h2>
               <ProjectDescription
-                text="Denne ældre lejlighed i Ågade i Aalborg har gennemgået en totalrenovering for at optimere pladsen og bringe mere dagslys ind i rummene. Vi har ændret planløsningen og åbnet op til et lyst køkken, samtidig med at vi har bevaret og nænsomt restaureret de smukke, originale vinduer. Badeværelset er moderniseret med enkle løsninger, så de få kvadratmeter udnyttes bedst muligt, og der er gjort plads til praktiske detaljer som en indbygget niche til amerikanerkøleskab."
+                text="Denne ældre lejlighed i Aalborg har gennemgået en totalrenovering for at optimere pladsen og bringe mere dagslys ind i rummene. Vi har ændret planløsningen og åbnet op til et lyst køkken, samtidig med at vi har bevaret og nænsomt restaureret de smukke, originale vinduer. Badeværelset er moderniseret med enkle løsninger, så de få kvadratmeter udnyttes bedst muligt, og der er gjort plads til praktiske detaljer som en indbygget niche til amerikanerkøleskab."
                 style={{ marginTop: "1.25rem", maxWidth: "680px", color: "var(--sub)" }}
               />
             </div>
           </div>
           <p className="proj-grid-label">Efter ombygning</p>
           <ImageGrid images={[
-            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-plantegning.webp", alt: "Plantegning, lejlighedsrenovering Ågade — Arkitekttegnestuen Yderskov" },
-            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-bad.webp", alt: "Færdigt badeværelse i lejlighedsrenovering, Ågade — Arkitekttegnestuen Yderskov" },
-            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkken.webp", alt: "Færdigt køkken i lejlighedsrenovering, Ågade — Arkitekttegnestuen Yderskov" },
-            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-vinduer.webp", alt: "Restaurerede originale vinduer i lejlighedsrenovering, Ågade — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-plantegning.webp", alt: "Plantegning, lejlighedsrenovering — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-bad.webp", alt: "Færdigt badeværelse i lejlighedsrenovering — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkken.webp", alt: "Færdigt køkken i lejlighedsrenovering — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-vinduer.webp", alt: "Restaurerede originale vinduer i lejlighedsrenovering — Arkitekttegnestuen Yderskov" },
           ]} />
           <p className="proj-grid-label" style={{ marginTop: "2rem" }}>Under ombygning</p>
           <ImageGrid images={[
-            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-soveværelse.webp", alt: "Soveværelse i lejlighedsrenovering, Ågade — Arkitekttegnestuen Yderskov" },
-            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkkenbordplads.webp", alt: "Køkkenbordplads i lejlighedsrenovering, Ågade — Arkitekttegnestuen Yderskov" },
-            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-gang.webp", alt: "Gang under renovering, Ågade — Arkitekttegnestuen Yderskov" },
-            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkken-indpakket.webp", alt: "Køkken under montering, Ågade — Arkitekttegnestuen Yderskov" },
-            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkken-undervejs.webp", alt: "Køkken undervejs, Ågade — Arkitekttegnestuen Yderskov" },
-            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-niche-amerikanerkøleskab.webp", alt: "Niche til amerikanerkøleskab under renovering, Ågade — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-soveværelse.webp", alt: "Soveværelse i lejlighedsrenovering — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkkenbordplads.webp", alt: "Køkkenbordplads i lejlighedsrenovering — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-gang.webp", alt: "Gang under renovering — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkken-indpakket.webp", alt: "Køkken under montering — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkken-undervejs.webp", alt: "Køkken undervejs — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Ågade 25/Aalborg-Ågade-renovering-niche-amerikanerkøleskab.webp", alt: "Niche til amerikanerkøleskab under renovering — Arkitekttegnestuen Yderskov" },
           ]} />
         </div>
       </section>
@@ -193,25 +193,25 @@ export default function LejlighederPage() {
           <div className="proj-header">
             <div>
               <span className="eyebrow">Projekt</span>
-              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering III (1. th)<br />Reberbansgade, Aalborg.</h2>
+              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering III (1. th)<br />Aalborg.</h2>
               <ProjectDescription
-                text="Dette projekt i Reberbansgade i Aalborg er den ene halvdel af en oprindelig stor herskabslejlighed, som vi har opdelt i to mindre, moderne boliger. Lejligheden (1. th) har fået en gennemgribende renovering med helt nye gulve, et lyst, moderne køkken og et stilrent badeværelse. Vi har skabt et åbent kig mellem stuen og soveværelset, hvilket får hele lejligheden til at virke markant større og mere luftig. Badeværelset og toilettet er opdateret med lyse materialer, og det nye køkken er indrettet med fokus på god plads til både madlavning og opbevaring."
+                text="Dette projekt i Aalborg er den ene halvdel af en oprindelig stor herskabslejlighed, som vi har opdelt i to mindre, moderne boliger. Lejligheden (1. th) har fået en gennemgribende renovering med helt nye gulve, et lyst, moderne køkken og et stilrent badeværelse. Vi har skabt et åbent kig mellem stuen og soveværelset, hvilket får hele lejligheden til at virke markant større og mere luftig. Badeværelset og toilettet er opdateret med lyse materialer, og det nye køkken er indrettet med fokus på god plads til både madlavning og opbevaring."
                 style={{ marginTop: "1.25rem", maxWidth: "680px", color: "var(--sub)" }}
               />
             </div>
           </div>
           <ImageGrid images={[
-            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-køkken.webp", alt: "Køkken i lejlighedsrenovering, Reberbansgade — Arkitekttegnestuen Yderskov" },
-            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-opvaskemaskine.webp", alt: "Opvaskemaskine i køkken, Reberbansgade — Arkitekttegnestuen Yderskov" },
-            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-soveværelse.webp", alt: "Soveværelse i lejlighedsrenovering, Reberbansgade — Arkitekttegnestuen Yderskov" },
-            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-stur.webp", alt: "Stue i lejlighedsrenovering, Reberbansgade — Arkitekttegnestuen Yderskov" },
-            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-stue-soveværelseskik.webp", alt: "Kik fra stue mod soveværelse, Reberbansgade — Arkitekttegnestuen Yderskov" },
-            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-soveværelse-stuekik.webp", alt: "Kik fra soveværelse mod stue, Reberbansgade — Arkitekttegnestuen Yderskov" },
-            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-køkken-kogesektion.webp", alt: "Kogesektion i køkken, Reberbansgade — Arkitekttegnestuen Yderskov" },
-            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-køkkengulv.webp", alt: "Køkkengulv i lejlighedsrenovering, Reberbansgade — Arkitekttegnestuen Yderskov" },
-            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-stuegulv.webp", alt: "Stuegulv i lejlighedsrenovering, Reberbansgade — Arkitekttegnestuen Yderskov" },
-            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-badmiljø.webp", alt: "Badeværelse i lejlighedsrenovering, Reberbansgade — Arkitekttegnestuen Yderskov" },
-            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-toilet.webp", alt: "Toilet i lejlighedsrenovering, Reberbansgade — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-køkken.webp", alt: "Køkken i lejlighedsrenovering — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-opvaskemaskine.webp", alt: "Opvaskemaskine i køkken — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-soveværelse.webp", alt: "Soveværelse i lejlighedsrenovering — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-stur.webp", alt: "Stue i lejlighedsrenovering — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-stue-soveværelseskik.webp", alt: "Kik fra stue mod soveværelse — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-soveværelse-stuekik.webp", alt: "Kik fra soveværelse mod stue — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-køkken-kogesektion.webp", alt: "Kogesektion i køkken — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-køkkengulv.webp", alt: "Køkkengulv i lejlighedsrenovering — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-stuegulv.webp", alt: "Stuegulv i lejlighedsrenovering — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-badmiljø.webp", alt: "Badeværelse i lejlighedsrenovering — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1th-toilet.webp", alt: "Toilet i lejlighedsrenovering — Arkitekttegnestuen Yderskov" },
           ]} />
         </div>
       </section>
@@ -221,29 +221,21 @@ export default function LejlighederPage() {
           <div className="proj-header">
             <div>
               <span className="eyebrow">Projekt</span>
-              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering III (1. tv)<br />Reberbansgade, Aalborg.</h2>
+              <h2 className="sec-hed" style={{ marginBottom: 0 }}>Lejlighedsrenovering III (1. tv)<br />Aalborg.</h2>
               <ProjectDescription
-                text="Dette projekt i Reberbansgade i Aalborg er den anden halvdel af den oprindelige store herskabslejlighed, som er blevet opdelt i to mindre boliger. I denne lejlighed (1. tv) har vi fokuseret på at skabe en funktionel planløsning, der udnytter kvadratmeterne fuldt ud. Køkkenet er enkelt og moderne med smarte opbevaringsløsninger og åbne hylder, der bevarer en lys atmosfære, mens det tilhørende toilet er renoveret i en enkel og ren stil."
+                text="Dette projekt i Aalborg er den anden halvdel af den oprindelige store herskabslejlighed, som er blevet opdelt i to mindre boliger. I denne lejlighed (1. tv) har vi fokuseret på at skabe en funktionel planløsning, der udnytter kvadratmeterne fuldt ud. Køkkenet er enkelt og moderne med smarte opbevaringsløsninger og åbne hylder, der bevarer en lys atmosfære, mens det tilhørende toilet er renoveret i en enkel og ren stil."
                 style={{ marginTop: "1.25rem", maxWidth: "680px", color: "var(--sub)" }}
               />
             </div>
           </div>
           <ImageGrid images={[
-            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1tv-køkken-.webp", alt: "Køkken i lejlighedsrenovering, Reberbansgade — Arkitekttegnestuen Yderskov" },
-            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1tv-køkkenhylder.webp", alt: "Køkkenhylder i lejlighedsrenovering, Reberbansgade — Arkitekttegnestuen Yderskov" },
-            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1tv-toilet.webp", alt: "Toilet i lejlighedsrenovering, Reberbansgade — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1tv-køkken-.webp", alt: "Køkken i lejlighedsrenovering — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1tv-køkkenhylder.webp", alt: "Køkkenhylder i lejlighedsrenovering — Arkitekttegnestuen Yderskov" },
+            { src: "/images/Reberbansgade/Aalborg-reberbansgade-renovering-1tv-toilet.webp", alt: "Toilet i lejlighedsrenovering — Arkitekttegnestuen Yderskov" },
           ]} />
         </div>
       </section>
 
-      <div className="stats-bg">
-        <div className="stats-inner">
-          <div className="stat"><div className="stat-num">16.000<sup> kr.</sup></div><div className="stat-lbl">Fra pr. m²</div></div>
-          <div className="stat"><div className="stat-num">24<sup> timer</sup></div><div className="stat-lbl">Svar inden</div></div>
-          <div className="stat"><div className="stat-num">10<sup>+</sup></div><div className="stat-lbl">Igangværende projekter</div></div>
-          <div className="stat"><div className="stat-num">300<sup>+</sup></div><div className="stat-lbl">Projekter gennemført</div></div>
-        </div>
-      </div>
 
       <section className="s">
         <div className="s-inner">

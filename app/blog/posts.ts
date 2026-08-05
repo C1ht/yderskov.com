@@ -29,28 +29,28 @@ export const posts: BlogPost[] = [
     ],
     metaTitle: "Pladsoptimering i det lille sommerhus — 5 geniale tips | Yderskov",
     title: "Pladsoptimering i det lille sommerhus — Lær af vores sommerhus-cases",
-    description: "Hvordan får man 50 m² sommerhus to føles dobbelt så stort? Se hvordan vi optimerede pladsen i Sebbersund (Bjerget 13) og Sommervangen med skydedøre, alkove, siddeniche og mere.",
+    description: "Hvordan får man 50 m² sommerhus to føles dobbelt så stort? Se hvordan vi optimerede pladsen i to af vores sommerhusprojekter i Sebbersund med skydedøre, alkove, siddeniche og mere.",
     date: "05 / 07 / 2026",
     cat: "Få arkitektens råd",
     catKey: "raad",
-    lead: "Når kvadratmeterne er få, tæller hver eneste detalje. I denne artikel viser vi, hvordan du kan optimere pladsen i et lille sommerhus, så det føles rummeligt og lyst. Med udgangspunkt i vores projekter Bjerget 13 i Sebbersund og Sommervangen giver vi dig arkitektens bedste råd til indretning og pladsoptimering.",
+    lead: "Når kvadratmeterne er få, tæller hver eneste detalje. I denne artikel viser vi, hvordan du kan optimere pladsen i et lille sommerhus, så det føles rummeligt og lyst. Med udgangspunkt i to af vores sommerhusprojekter, herunder et sommerhus i Sebbersund, giver vi dig arkitektens bedste råd til indretning og pladsoptimering.",
     sections: [
       {
         heading: "1. Træk omgivelserne ind med store vinduespartier",
         paragraphs: [
-          "En af de mest effektive måder at få et lille rum til at virke større på, er at fjerne den visuelle grænse mellem inde og ude. I sommerhuset på **Bjerget 13** har vi tegnet store, ubrudte vinduespartier i gavlen mod vandet. Når du har fri udsigt til naturen og himlen, føles rummet uendeligt. Den visuelle forbindelse gør, at naturen bliver en del af stuen, og boligen føles langt større end sine faktiske 50 m²."
+          "En af de mest effektive måder at få et lille rum til at virke større på, er at fjerne den visuelle grænse mellem inde og ude. I sommerhuset i Sebbersund har vi tegnet store, ubrudte vinduespartier i gavlen mod vandet. Når du har fri udsigt til naturen og himlen, føles rummet uendeligt. Den visuelle forbindelse gør, at naturen bliver en del af stuen, og boligen føles langt større end sine faktiske 50 m²."
         ]
       },
       {
         heading: "2. Siddeniche med udsigt: Multifunktionelle møbler",
         paragraphs: [
-          "I et lille sommerhus skal møblerne kunne mere end én ting. I gavlvinduet på Bjerget 13 designede vi en indbygget siddeniche i smukt træ. Fra ydersiden er denne siddeniche udført med en elegant kobberinddækning, der beskytter konstruktionen og patinerer smukt over tid. Bænken fungerer både som en hyggelig hvileplads og læsekrog med panoramaudsigt over vandet, men fungerer også som en naturlig siddeplads og bænk til spisebordet. Det sparer gulvplads, fordi der ikke skal stå løse stole og spærre for passagen."
+          "I et lille sommerhus skal møblerne kunne mere end én ting. I gavlvinduet på sommerhuset i Sebbersund designede vi en indbygget siddeniche i smukt træ. Fra ydersiden er denne siddeniche udført med en elegant kobberinddækning, der beskytter konstruktionen og patinerer smukt over tid. Bænken fungerer både som en hyggelig hvileplads og læsekrog med panoramaudsigt over vandet, men fungerer også som en naturlig siddeplads og bænk til spisebordet. Det sparer gulvplads, fordi der ikke skal stå løse stole og spærre for passagen."
         ]
       },
       {
         heading: "3. Længekøkken og skydedøre frigør gulvplads",
         paragraphs: [
-          "Traditionelle døre kræver meget plads for at kunne åbne og lukke. Ved at erstatte dem med skydedøre frigør du værdifuld gulvplads. I køkkenet handler det om at holde linjerne enkle. Et længekøkken (eller et enkeltsidet køkken) er den perfekte løsning til det smalle eller mindre sommerhus, da det samler alle funktioner på én væg og lader resten af rummet være åbent. Se f.eks. det åbne køkken i vores projekt **Sommervangen**, hvor den enkle køkkenvæg smelter sammen med opholdsrummet."
+          "Traditionelle døre kræver meget plads for at kunne åbne og lukke. Ved at erstatte dem med skydedøre frigør du værdifuld gulvplads. I køkkenet handler det om at holde linjerne enkle. Et længekøkken (eller et enkeltsidet køkken) er den perfekte løsning til det smalle eller mindre sommerhus, da det samler alle funktioner på én væg og lader resten af rummet være åbent. Se f.eks. det åbne køkken i et andet af vores sommerhusprojekter, hvor den enkle køkkenvæg smelter sammen med opholdsrummet."
         ]
       },
       {
@@ -62,13 +62,13 @@ export const posts: BlogPost[] = [
       {
         heading: "5. Sedumtag forbinder sommerhuset med naturen",
         paragraphs: [
-          "For at få det lille sommerhus to falde helt i ét med omgivelserne kan et grønt sedumtag (stenurt) være prikken over i'et. Det er ikke blot smukt at kigge på, men beskytter også tagkonstruktionen og hjælper med at regulere temperaturen inde i huset. I vores sommerhusprojekt **Sommervangen** har vi monteret sedumtag for at skabe en flydende arkitektonisk overgang til det rå klitlandskab."
+          "For at få det lille sommerhus to falde helt i ét med omgivelserne kan et grønt sedumtag (stenurt) være prikken over i'et. Det er ikke blot smukt at kigge på, men beskytter også tagkonstruktionen og hjælper med at regulere temperaturen inde i huset. I et af vores sommerhusprojekter har vi monteret sedumtag for at skabe en flydende arkitektonisk overgang til det rå klitlandskab."
         ]
       }
     ],
     relatedLinks: [
-      { label: "Læs casen om sommerhuset på Bjerget 13 i Sebbersund", href: "/blog/sommerhus-sebbersund-snestorm" },
-      { label: "Læs om overgangen mellem ude og inde i Sommervangen", href: "/blog/overgang-mellem-ude-og-inde" }
+      { label: "Læs casen om sommerhuset i Sebbersund", href: "/blog/sommerhus-sebbersund-snestorm" },
+      { label: "Læs om overgangen mellem ude og inde", href: "/blog/overgang-mellem-ude-og-inde" }
     ]
   },
   {
@@ -130,7 +130,7 @@ export const posts: BlogPost[] = [
     date: "17 / 06 / 2026",
     cat: "Sommerhus",
     catKey: "sommerhus",
-    lead: "En flydende overgang mellem uderum og indearealer kan få din bolig til at føles dobbelt så stor og bringe naturen helt tæt på. Men hvordan skaber man den perfekte synergi? Det handler om meget mere end blot store vinduer. Her deler vi vores bedste arkitektoniske råd om niveaufri adgang, gennemgående materialer, overdækninger og sigtelinjer — og viser, hvordan vi har løst det i praksis i vores sommerhusprojekt, Sommervangen, samt i vores funkisvilla i Sæby.",
+    lead: "En flydende overgang mellem uderum og indearealer kan få din bolig til at føles dobbelt så stor og bringe naturen helt tæt på. Men hvordan skaber man den perfekte synergi? Det handler om meget mere end blot store vinduer. Her deler vi vores bedste arkitektoniske råd om niveaufri adgang, gennemgående materialer, overdækninger og sigtelinjer — og viser, hvordan vi har løst det i praksis i et af vores sommerhusprojekter samt i vores funkisvilla i Sæby.",
     sections: [
       {
         heading: "Hvorfor overgangen betyder så meget",
@@ -180,11 +180,11 @@ export const posts: BlogPost[] = [
         ]
       },
       {
-        heading: "Case: Sommervangen & Karetmagervej",
+        heading: "Case: Sommerhus & funkisvilla i Sæby",
         paragraphs: [
           "Billederne i dette indlæg stammer fra to af vores nylige projekter, hvor vi har arbejdet målrettet med disse principper for at skabe en flydende overgang.",
-          "De to første billeder viser vores sommerhusprojekt, **Sommervangen**, hvor de store vinduespartier og skydedørene åbner huset mod det rå klitlandskab. Det første billede viser det store, lyse alrum, hvor naturen trækkes helt ind i stuen. Det andet billede viser indkikket fra den brede træterrasse, hvor man ser, hvordan terrassen og husets indre smelter sammen under det store udhæng.",
-          "Det tredje billede stammer fra vores **Funkisvilla i Sæby** (Karetmagervej). Here ser vi, hvordan køkkenet og spisepladsen via store gulv-til-loft glaspartier og en direkte udgang til terrassen forbinder køkken-alrummet med uderummet på smukkeste vis. Det polerede betongulv og den minimalistiske indretning underbygger den flydende overgang til haven.",
+          "De to første billeder viser et af vores sommerhusprojekter, hvor de store vinduespartier og skydedørene åbner huset mod det rå klitlandskab. Det første billede viser det store, lyse alrum, hvor naturen trækkes helt ind i stuen. Det andet billede viser indkikket fra den brede træterrasse, hvor man ser, hvordan terrassen og husets indre smelter sammen under det store udhæng.",
+          "Det tredje billede stammer fra vores **Funkisvilla i Sæby**. Here ser vi, hvordan køkkenet og spisepladsen via store gulv-til-loft glaspartier og en direkte udgang til terrassen forbinder køkken-alrummet med uderummet på smukkeste vis. Det polerede betongulv og den minimalistiske indretning underbygger den flydende overgang til haven.",
           "Fælles for begge projekter er, at inde-ude-zonen er tænkt ind som en naturlig del af boligens planløsning helt fra første streg. Se flere af vores [sommerhuse](/sommerhuse) og [villaer](/villaer) eller læs mere [om vores proces](/om)."
         ],
         type: "case"
@@ -227,7 +227,7 @@ export const posts: BlogPost[] = [
         paragraphs: [
           "Mange er bekymrede for sikkerheden ved bioethanol, men moderne biopejse er ekstremt sikre. Vi anvender udelukkende automatiske brandkar, hvor bioethanolen fyldes i en lukket tank. Flammerne tændes og reguleres via en fjernbetjening eller en app, og sensorer overvåger konstant temperatur og CO2-niveau og slukker pejsen automatisk ved uregelmæssigheder.",
           "Det gør betjeningen lige så nem og bekvem som en [gaspejs](/blog/gaspejs-sommerhus-bolig) — du trykker blot på en knap, og få sekunder efter har du levende, dansende flammer og masser af sommerhushygge. Se også vores [sommerhuse](/sommerhuse) eller vores [priser](/priser) for yderligere information.",
-          "Udover sommerhuse er biopejse også yderst populære i helårsboliger, såsom i vores projekt 'Funkisvilla i Sæby' (Karetmagervej), hvor en elegant indbygget biopejs fungerer som en hyggelig og stilren rumdeler mellem køkken-alrummet og stuen, som vist på et af billederne i dette indlæg."
+          "Udover sommerhuse er biopejse også yderst populære i helårsboliger, såsom i vores projekt 'Funkisvilla i Sæby', hvor en elegant indbygget biopejs fungerer som en hyggelig og stilren rumdeler mellem køkken-alrummet og stuen, som vist på et af billederne i dette indlæg."
         ]
       }
     ]
@@ -276,10 +276,10 @@ export const posts: BlogPost[] = [
         ]
       },
       {
-        heading: "Cases: Orangeri Saksild og Orangeri Fredensgade",
+        heading: "Cases: To forskellige orangerier",
         paragraphs: [
           "Billederne i dette indlæg viser to vidt forskellige orangeriløsninger fra vores tegnestue. I [sommerhuset i Saksild](/sommerhuse) er orangeriet designet som et integreret, let glashus i direkte forbindelse med det sorte træhus. Det fungerer som en lysfyldt oase midt i den vilde have.",
-          "I projektet på Fredensgade er orangeriet udført med en markant muret base, rå murstensvægge indendørs og store sprossede glaspartier, der skaber et klassisk, herskabeligt udtryk. Begge projekter viser, hvordan et orangeri kan tilpasses boligens overordnede arkitektur. Du kan læse mere [om vores tegnestue](/om) eller se vores [priser](/priser) for yderligere information."
+          "I det andet projekt er orangeriet udført med en markant muret base, rå murstensvægge indendørs og store sprossede glaspartier, der skaber et klassisk, herskabeligt udtryk. Begge projekter viser, hvordan et orangeri kan tilpasses boligens overordnede arkitektur. Du kan læse mere [om vores tegnestue](/om) eller se vores [priser](/priser) for yderligere information."
         ],
         type: "case"
       }
@@ -378,7 +378,7 @@ export const posts: BlogPost[] = [
       {
         heading: "5. Case: Køkkenet i udsigtsvillaen i Frederikshavn",
         paragraphs: [
-          "Billedet øverst i dette indlæg viser køkkenet fra vores projekt '[Udsigtsvilla i Frederikshavn](/villaer)' (Lerstien). Her er køkken-alrummet udformet med loft til kip, store ovenlysvinduer, der trækker dagslyset dybt ind i rummet, og store glaspartier mod terrassen.",
+          "Billedet øverst i dette indlæg viser køkkenet fra vores projekt '[Udsigtsvilla i Frederikshavn](/villaer)'. Her er køkken-alrummet udformet med loft til kip, store ovenlysvinduer, der trækker dagslyset dybt ind i rummet, og store glaspartier mod terrassen.",
           "Køkkenet is designet med en central køkkenø i mørke, varme toner, der komplementerer de rå, grålige murstensvægge og det lyse trægulv. Akustikloftet sikrer en behagelig lyd, selv når hele familien er samlet. Se også vores andre [villaer](/villaer) eller læs om [vores priser](/priser) for yderligere information."
         ],
         type: "case"
@@ -2688,7 +2688,7 @@ export const posts: BlogPost[] = [
         heading: "Ovenlys i arkitektprojekter",
         paragraphs: [
           "Ovenlys kræver præcis projektering. Et ovenlys på det forkerte sted — eller den forkerte type — giver blænding om sommeren, kulde om vinteren og kondensproblemer hele året. Et ovenlys på det rigtige sted giver til gengæld en lysoplevelse der løfter boligen og gør det til et hjem du ikke vil flytte fra.",
-          "Billedet øverst i dette indlæg er fra vores projekt 'Funkisvilla i Sæby' (Karetmagervej), hvor et stort ovenlysvindue over brusenichen trækker dagslys ned i badeværelset og skaber en fantastisk rumfornemmelse, mens det samtidig bevarer privatlivet.",
+          "Billedet øverst i dette indlæg er fra vores projekt 'Funkisvilla i Sæby', hvor et stort ovenlysvindue over brusenichen trækker dagslys ned i badeværelset og skaber en fantastisk rumfornemmelse, mens det samtidig bevarer privatlivet.",
           "Hos Yderskov Arkitekter tegner vi ovenlys som en integreret del af boligens dagslysstrategi — ikke som et eftertanket tilvalg. Kontakt os for et gratis og uforpligtende første møde.",
         ],
       },

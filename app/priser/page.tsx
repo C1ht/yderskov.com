@@ -152,15 +152,6 @@ export default function PriserPage() {
         </div>
       </section>
 
-      {/* Stats */}
-      <div className="stats-bg">
-        <div className="stats-inner">
-          <div className="stat"><div className="stat-num">12.000<sup> kr.</sup></div><div className="stat-lbl">Fra pr. m² (sommerhus)</div></div>
-          <div className="stat"><div className="stat-num">24<sup> timer</sup></div><div className="stat-lbl">Svar inden</div></div>
-          <div className="stat"><div className="stat-num">300<sup>+</sup></div><div className="stat-lbl">Projekter gennemført</div></div>
-          <div className="stat"><div className="stat-num">0<sup> kr.</sup></div><div className="stat-lbl">Første møde</div></div>
-        </div>
-      </div>
 
       {/* FAQ */}
       <section className="s">

@@ -136,7 +136,7 @@ const projectGalleries = [
     year: "2024",
     description: "Denne store engelske villa er bygget på en stor hesteejendom tæt på Aalborg, hvor der er en rigtig flot udsigt over Limfjorden. Huset er tegnet til en familie på tre. Parret kom til os med et postkort, der viste deres absolutte drømmebolig, og det blev udgangspunktet for hele byggeriet. Villaen er indrettet med en rummelig hall, et stort og lyst køkken, hyggelige stuer ensuite og flere badeværelser. [Læs hele historien om drømmen om det engelske herresæde her](/blog/villa-herresaede-noerholm-aalborg).",
     images: [
-      { src: "/images/Nørholmsvej/Engelsk villa facade mod Nørholmsvej.avif", alt: "Facade mod Nørholmsvej, engelsk villa ved fjorden — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Nørholmsvej/Engelsk villa facade mod Nørholmsvej.avif", alt: "Facade på engelsk villa ved fjorden, Nørholm — Arkitekttegnestuen Yderskov" },
       { src: "/images/Nørholmsvej/Engelsk villa på stor plæne.webp", alt: "Engelsk villa ved fjorden på stor plæne, Nørholm — Arkitekttegnestuen Yderskov" },
       { src: "/images/Nørholmsvej/Engelsk villa fra havesiden.webp", alt: "Haveside på engelsk villa ved fjorden, Nørholm — Arkitekttegnestuen Yderskov" },
       { src: "/images/Nørholmsvej/Engelsk villa fra gavl.webp", alt: "Gavl på engelsk villa ved fjorden, Nørholm — Arkitekttegnestuen Yderskov" },
@@ -270,27 +270,6 @@ export default function VillaerPage() {
         </section>
       ))}
 
-      {/* Stats */}
-      <div className="stats-bg">
-        <div className="stats-inner">
-          <div className="stat">
-            <div className="stat-num">15.000<sup> kr.</sup></div>
-            <div className="stat-lbl">Fra pr. m²</div>
-          </div>
-          <div className="stat">
-            <div className="stat-num">24<sup> timer</sup></div>
-            <div className="stat-lbl">Svar inden</div>
-          </div>
-          <div className="stat">
-            <div className="stat-num">10<sup>+</sup></div>
-            <div className="stat-lbl">Igangværende projekter</div>
-          </div>
-          <div className="stat">
-            <div className="stat-num">300<sup>+</sup></div>
-            <div className="stat-lbl">Projekter gennemført</div>
-          </div>
-        </div>
-      </div>
 
       {/* FAQ */}
       <section className="s">

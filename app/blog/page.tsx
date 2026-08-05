@@ -32,7 +32,7 @@ const posts: Post[] = [
     cat: "Få arkitektens råd",
     catKey: "raad",
     title: "Pladsoptimering i det lille sommerhus — 5 geniale tips",
-    excerpt: "Hvordan får man 50 m² sommerhus to at føles dobbelt så stort? Se hvordan vi optimerede pladsen i Sebbersund (Bjerget 13) og Sommervangen med skydedøre, alkove, siddeniche og mere.",
+    excerpt: "Hvordan får man 50 m² sommerhus to at føles dobbelt så stort? Se hvordan vi optimerede pladsen i to af vores sommerhusprojekter i Sebbersund med skydedøre, alkove, siddeniche og mere.",
   },
   {
     href: "/blog/funkisvilla-vestbjerg-garage",

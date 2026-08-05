@@ -55,20 +55,40 @@ export default function InteractiveMap() {
               Vis interaktivt kort
             </span>
           </div>
-          <span style={{ position: "relative", zIndex: 1, fontSize: "0.7rem", color: "var(--sub)", marginTop: "0.8rem" }}>
-            Ved klik accepterer du Google Maps&apos; privatlivspolitik.
-          </span>
         </div>
       ) : (
-        <iframe
-          src="https://maps.google.com/maps?q=57.250538,10.005283&z=15&output=embed"
-          width="100%"
-          height="100%"
-          style={{ border: 0, display: "block" }}
-          referrerPolicy="no-referrer-when-downgrade"
-          title="Arkitekttegnestuen Yderskov — Danserhøj 38, 9700 Brønderslev"
-          aria-label="Kort over Arkitekttegnestuen Yderskov"
-        />
+        <>
+          <iframe
+            src="https://www.openstreetmap.org/export/embed.html?bbox=9.985283%2C57.240538%2C10.025283%2C57.260538&layer=mapnik&marker=57.250538%2C10.005283"
+            width="100%"
+            height="100%"
+            style={{ border: 0, display: "block" }}
+            referrerPolicy="no-referrer-when-downgrade"
+            title="Arkitekttegnestuen Yderskov — Danserhøj 38, 9700 Brønderslev"
+            aria-label="Kort over Arkitekttegnestuen Yderskov"
+          />
+          <a
+            href="https://www.google.com/maps/dir/?api=1&destination=57.250538,10.005283"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              position: "absolute",
+              bottom: "0.9rem",
+              right: "0.9rem",
+              background: "#fff",
+              color: "#161616",
+              fontSize: "0.72rem",
+              fontWeight: 400,
+              letterSpacing: "0.03em",
+              padding: "0.55rem 0.9rem",
+              borderRadius: "6px",
+              boxShadow: "0 4px 14px rgba(0,0,0,0.14)",
+              textDecoration: "none",
+            }}
+          >
+            Åbn i Google Maps →
+          </a>
+        </>
       )}
     </div>
   );

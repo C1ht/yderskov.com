@@ -129,14 +129,6 @@ export default function SpecialPage() {
         </div>
       </section>
 
-      <div className="stats-bg">
-        <div className="stats-inner">
-          <div className="stat"><div className="stat-num">24<sup> timer</sup></div><div className="stat-lbl">Svar inden</div></div>
-          <div className="stat"><div className="stat-num">300<sup>+</sup></div><div className="stat-lbl">Projekter gennemført</div></div>
-          <div className="stat"><div className="stat-num">10<sup>+</sup></div><div className="stat-lbl">Igangværende projekter</div></div>
-          <div className="stat"><div className="stat-num">2009</div><div className="stat-lbl">Grundlagt</div></div>
-        </div>
-      </div>
 
       {/* Inspiration Galleri */}
       <section className="s s-off">

@@ -200,7 +200,7 @@ export default function Nav() {
             item.children ? (
               <div key={item.label} className="nav-mobile-group">
                 <span className="nav-mobile-group-label">{item.label}</span>
-                {item.children.map((c) => (
+                {item.children.filter((c) => c.href !== "/arkitekt-aalborg" && c.href !== "/arkitekt-sjaelland").map((c) => (
                   <Link
                     key={c.href}
                     href={c.href}
