@@ -12,6 +12,13 @@ export const metadata: Metadata = {
   description:
     "Mød Yderskov Arkitekter. Personlig tegnestue i Nordjylland, der tegner unikke huse til fast pris i Aalborg, på Sjælland & i resten af Danmark.",
   alternates: { canonical: "https://yderskov.com/om" },
+  openGraph: {
+    type: "website",
+    locale: "da_DK",
+    url: "https://yderskov.com/om",
+    siteName: "Yderskov Arkitekter",
+    images: [{ url: "https://yderskov.com/images/Lerstien/Frederikshavn-lerstien-terrasse.webp" }],
+  },
 };
 
 const miniFAQ = [

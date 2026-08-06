@@ -14,6 +14,13 @@ export const metadata: Metadata = {
   description:
     "Få tegnet et unikt sommerhus tilpasset din grund og udsigt. Se priser og projekter hos Yderskov. Fast pris, høj kvalitet og gratis første møde!",
   alternates: { canonical: "https://yderskov.com/sommerhuse" },
+  openGraph: {
+    type: "website",
+    locale: "da_DK",
+    url: "https://yderskov.com/sommerhuse",
+    siteName: "Yderskov Arkitekter",
+    images: [{ url: "https://yderskov.com/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp" }],
+  },
 };
 
 import { sommerhuseProjects as projectGalleries } from "@/components/project-data-shared";

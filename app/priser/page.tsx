@@ -11,6 +11,13 @@ export const metadata: Metadata = {
   description:
     "Hvad koster en arkitekt? Se vores gennemskuelige priser på skitseforslag, myndighedsprojekter og byggestyring. Få fast pris og et gratis første møde.",
   alternates: { canonical: "https://yderskov.com/priser" },
+  openGraph: {
+    type: "website",
+    locale: "da_DK",
+    url: "https://yderskov.com/priser",
+    siteName: "Yderskov Arkitekter",
+    images: [{ url: "https://yderskov.com/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-terrasse.webp" }],
+  },
 };
 
 const byggeriPrices = [

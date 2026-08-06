@@ -14,6 +14,13 @@ export const metadata: Metadata = {
   description:
     "Leder du efter en arkitekt på Sjælland el. i Kbh? Yderskov tegnestue tilbyder jysk grundighed, fast pris & gratis første møde direkte på din byggegrund!",
   alternates: { canonical: "https://yderskov.com/arkitekt-sjaelland" },
+  openGraph: {
+    type: "website",
+    locale: "da_DK",
+    url: "https://yderskov.com/arkitekt-sjaelland",
+    siteName: "Yderskov Arkitekter",
+    images: [{ url: "https://yderskov.com/images/Karetmagervej/Sæby-ny-villa-funkis-forside.webp" }],
+  },
 };
 
 const sjaellandFAQ = [

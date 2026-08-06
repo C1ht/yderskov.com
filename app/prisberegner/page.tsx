@@ -12,6 +12,13 @@ export const metadata: Metadata = {
   description:
     "Prøv vores gratis prisberegner og få et lynhurtigt prisskøn på din tilbygning. Vælg tag, mur, gulv og beregn dine byggeomkostninger online med det samme!",
   alternates: { canonical: "https://yderskov.com/prisberegner" },
+  openGraph: {
+    type: "website",
+    locale: "da_DK",
+    url: "https://yderskov.com/prisberegner",
+    siteName: "Yderskov Arkitekter",
+    images: [{ url: "https://yderskov.com/images/Gjøl/Gjøl-ny-villa-have.webp" }],
+  },
 };
 
 

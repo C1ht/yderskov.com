@@ -12,6 +12,13 @@ export const metadata: Metadata = {
   description:
     "Få inspiration til dit byggeprojekt. Gå på opdagelse i vores galleri af afsluttede villaer, sommerhuse samt om- og tilbygninger.",
   alternates: { canonical: "https://yderskov.com/inspiration" },
+  openGraph: {
+    type: "website",
+    locale: "da_DK",
+    url: "https://yderskov.com/inspiration",
+    siteName: "Yderskov Arkitekter",
+    images: [{ url: "https://yderskov.com/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp" }],
+  },
 };
 
 export default function InspirationPage() {

@@ -14,6 +14,13 @@ export const metadata: Metadata = {
   description:
     "Drømmer du om en arkitekttegnet villa? Se projekter, priser og byggeproces hos Yderskov. Vi tilbyder fast pris, egne håndværkere & gratis første møde.",
   alternates: { canonical: "https://yderskov.com/villaer" },
+  openGraph: {
+    type: "website",
+    locale: "da_DK",
+    url: "https://yderskov.com/villaer",
+    siteName: "Yderskov Arkitekter",
+    images: [{ url: "https://yderskov.com/images/Karetmagervej/Sæby-ny-villa-funkis-forside.webp" }],
+  },
 };
 
 const projectGalleries = [

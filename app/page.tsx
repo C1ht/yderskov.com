@@ -11,10 +11,17 @@ import ProcessIllustration from "@/components/ProcessIllustration";
 
 
 export const metadata: Metadata = {
-  title: "Arkitekt Aalborg | Tegnestue i Nordjylland — Yderskov",
+  title: "Arkitekt til villa, sommerhus og tilbygning — Yderskov Arkitekter",
   description:
-    "Søger du en arkitekt i Aalborg el. Nordjylland? Yderskov Tegnestue tegner dit drømmehus til fast pris. Få et gratis første møde — vi kommer ud til dig!",
+    "Drømmer du om en arkitekttegnet villa, sommerhus eller tilbygning? Yderskov Arkitekter tegner til fast pris og kommer til dig — uanset hvor i landet du bygger. Gratis første møde.",
   alternates: { canonical: "https://yderskov.com/" },
+  openGraph: {
+    type: "website",
+    locale: "da_DK",
+    url: "https://yderskov.com/",
+    siteName: "Yderskov Arkitekter",
+    images: [{ url: "https://yderskov.com/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp" }],
+  },
 };
 
 export default function HomePage() {

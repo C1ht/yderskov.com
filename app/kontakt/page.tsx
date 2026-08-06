@@ -11,6 +11,13 @@ export const metadata: Metadata = {
   description:
     "Har du et byggeprojekt i tankerne? Kontakt Yderskov Arkitekter i dag. Vi tilbyder et gratis og uforpligtende idémøde direkte på din byggegrund.",
   alternates: { canonical: "https://yderskov.com/kontakt" },
+  openGraph: {
+    type: "website",
+    locale: "da_DK",
+    url: "https://yderskov.com/kontakt",
+    siteName: "Yderskov Arkitekter",
+    images: [{ url: "https://yderskov.com/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp" }],
+  },
 };
 
 const contactSchema = {

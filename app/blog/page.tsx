@@ -10,6 +10,13 @@ export const metadata: Metadata = {
   description:
     "Læs virkelige cases fra vores tegnestue, og få gode råd om boligdesign, byggetilladelse, priser og processen for arkitekttegnede huse.",
   alternates: { canonical: "https://yderskov.com/blog" },
+  openGraph: {
+    type: "website",
+    locale: "da_DK",
+    url: "https://yderskov.com/blog",
+    siteName: "Yderskov Arkitekter",
+    images: [{ url: "https://yderskov.com/images/Ikarosvej/Aalborg-Ikarosvej-ny-villa-indkørsel.webp" }],
+  },
 };
 
 type Post = {

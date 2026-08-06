@@ -14,6 +14,13 @@ export const metadata: Metadata = {
   description:
     "Vi tegner erhvervsbyggeri, der matcher jeres behov — fra kontorer til udlejningsboliger og ombygninger. Få arkitektrådgivning til aftalt fast pris.",
   alternates: { canonical: "https://yderskov.com/erhverv" },
+  openGraph: {
+    type: "website",
+    locale: "da_DK",
+    url: "https://yderskov.com/erhverv",
+    siteName: "Yderskov Arkitekter",
+    images: [{ url: "https://yderskov.com/images/Assensvej Kontormiljø/Aalborg-Assensvej-kontormiljø.webp" }],
+  },
 };
 
 const projectGalleries = [

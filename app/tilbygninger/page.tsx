@@ -14,6 +14,13 @@ export const metadata: Metadata = {
   description:
     "Skal du bygge til eller bygge om? Få tegnet din tilbygning af en arkitekt til fast pris. Se priser og eksempler på ombygning. Book et gratis møde!",
   alternates: { canonical: "https://yderskov.com/tilbygninger" },
+  openGraph: {
+    type: "website",
+    locale: "da_DK",
+    url: "https://yderskov.com/tilbygninger",
+    siteName: "Yderskov Arkitekter",
+    images: [{ url: "https://yderskov.com/images/Godthåbsvej/Brønderslev-ombygning-efter-3.webp" }],
+  },
 };
 
 const projectGalleries = [

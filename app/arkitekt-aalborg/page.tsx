@@ -13,6 +13,13 @@ export const metadata: Metadata = {
   description:
     "Vil du bygge i Aalborg? Få en arkitekttegnet villa til fast pris med egne håndværkere. Book et gratis første møde på din byggegrund — vi kommer til dig!",
   alternates: { canonical: "https://yderskov.com/arkitekt-aalborg" },
+  openGraph: {
+    type: "website",
+    locale: "da_DK",
+    url: "https://yderskov.com/arkitekt-aalborg",
+    siteName: "Yderskov Arkitekter",
+    images: [{ url: "https://yderskov.com/images/Karetmagervej/Sæby-ny-villa-funkis-haveside.webp" }],
+  },
 };
 
 const aalborgFAQ = [

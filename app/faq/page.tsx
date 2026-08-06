@@ -12,6 +12,13 @@ export const metadata: Metadata = {
   description:
     "Få svar på dine spørgsmål om arkitektpriser, byggeproces, myndighedsprojekter og håndværkere. Læs vores FAQ og bliv klar til dit byggeprojekt.",
   alternates: { canonical: "https://yderskov.com/faq" },
+  openGraph: {
+    type: "website",
+    locale: "da_DK",
+    url: "https://yderskov.com/faq",
+    siteName: "Yderskov Arkitekter",
+    images: [{ url: "https://yderskov.com/images/Løvevej/Ålbæk-poolhus-terrasse.webp" }],
+  },
 };
 
 const sections = [

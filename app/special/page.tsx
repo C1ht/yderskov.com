@@ -15,6 +15,13 @@ export const metadata: Metadata = {
   description:
     "Vi tegner specialbyggeri tilpasset dine drømme — fra garage og carport til anneks, wellness og B&B. Få et unikt arkitekttegnet projekt til fast pris.",
   alternates: { canonical: "https://yderskov.com/special" },
+  openGraph: {
+    type: "website",
+    locale: "da_DK",
+    url: "https://yderskov.com/special",
+    siteName: "Yderskov Arkitekter",
+    images: [{ url: "https://yderskov.com/images/Bed and breakfast/Aalborg-bed-and-breakfast.webp" }],
+  },
 };
 
 
