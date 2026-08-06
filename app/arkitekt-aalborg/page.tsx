@@ -7,6 +7,7 @@ import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
 import CtaBand from "@/components/CtaBand";
 import InspirationGallery from "@/components/InspirationGallery";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Arkitekt Aalborg — Tegnestue med fast pris | Yderskov",
@@ -68,6 +69,7 @@ export default function ArkitektAalborgPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(aalborgSchema) }}
       />
+      <Breadcrumbs items={[{ label: "Arkitekt Aalborg" }]} />
       <Nav />
       <Hero
         slides={[{ src: "/images/Karetmagervej/Sæby-ny-villa-funkis-haveside.webp", alt: "Arkitekttegnet villa i Nordjylland — Arkitekttegnestuen Yderskov" }]}

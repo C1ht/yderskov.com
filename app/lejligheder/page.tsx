@@ -8,6 +8,7 @@ import ImageGrid from "@/components/ImageGrid";
 import CtaBand from "@/components/CtaBand";
 import InspirationGallery from "@/components/InspirationGallery";
 import ProjectDescription from "@/components/ProjectDescription";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Arkitekt til lejlighed — Renovering & ombygning | Yderskov",
@@ -130,6 +131,7 @@ export default function LejlighederPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(projectSchema) }}
       />
+      <Breadcrumbs items={[{ label: "Lejligheder" }]} />
       <Nav />
       <Hero
         slides={[{ src: "/images/Ågade 25/Aalborg-Ågade-renovering-køkken.webp", alt: "Lejlighedsrenovering, Aalborg — Arkitekttegnestuen Yderskov" }]}

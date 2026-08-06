@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
 import InteractiveMap from "@/components/InteractiveMap";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Kontakt Yderskov Arkitekter — Ring eller book gratis møde",
@@ -42,6 +43,7 @@ export default function KontaktPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(contactSchema) }}
       />
+      <Breadcrumbs items={[{ label: "Kontakt" }]} />
       <Nav />
       <Hero
         slides={[{ src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp", alt: "Villa med tilbygning — Arkitekttegnestuen Yderskov" }]}

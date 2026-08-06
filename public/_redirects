@@ -1,0 +1,8 @@
+# Cloudflare Pages edge redirects.
+# Next.js's server-side redirect() (used for old blog slugs via the
+# `redirect` field in app/blog/posts.ts) doesn't work with static export —
+# it needs a live server to intercept the redirect signal. These rules
+# handle those redirects properly at the CDN edge instead (real HTTP 301).
+#
+# Keep this in sync with any `redirect:` entries in app/blog/posts.ts.
+/blog/inde-ude /blog/overgang-mellem-ude-og-inde 301

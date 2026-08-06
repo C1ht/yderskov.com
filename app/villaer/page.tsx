@@ -8,6 +8,7 @@ import ImageGrid from "@/components/ImageGrid";
 import CtaBand from "@/components/CtaBand";
 import InspirationGallery from "@/components/InspirationGallery";
 import ProjectDescription from "@/components/ProjectDescription";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Arkitekttegnet villa — Se priser & projekter | Yderskov",
@@ -228,6 +229,7 @@ export default function VillaerPage() {
         ]}
         italicLines={[0, 1]}
       />
+      <Breadcrumbs items={[{ label: "Villaer" }]} />
 
       {/* Intro */}
       <section className="s">

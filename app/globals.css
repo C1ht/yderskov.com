@@ -314,11 +314,36 @@ body.menu-open { overflow: hidden; }
   50% { transform: translateX(-50%) translateY(6px); opacity: 0.9; }
 }
 
+/* ── ACCESSIBILITY UTILITIES ── */
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
+
 /* ── SECTIONS ── */
 .s { padding: 6rem 2rem; }
 .s-inner { max-width: 1120px; margin: 0 auto; }
 .s-off { background: var(--off); }
 .s-dark { background: var(--dark); padding: 6rem 2rem; }
+
+/* ── BREADCRUMBS ── */
+.breadcrumbs { padding: 1.1rem 2rem; border-bottom: 1px solid var(--border); background: var(--white); }
+.breadcrumbs-no-hero { margin-top: 5.5rem; }
+.breadcrumbs-inner { padding: 0; }
+.breadcrumbs ol { list-style: none; display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem; margin: 0; padding: 0; }
+.breadcrumbs li { display: flex; align-items: center; gap: 0.35rem; }
+.breadcrumbs a { font-size: 0.72rem; font-weight: 300; color: var(--sub); letter-spacing: 0.01em; transition: color 0.15s; }
+@media (hover: hover) {
+  .breadcrumbs a:hover { color: var(--text); }
+}
+.breadcrumbs span[aria-current="page"] { font-size: 0.72rem; font-weight: 400; color: var(--text); letter-spacing: 0.01em; }
+.breadcrumb-sep { font-size: 0.72rem; color: var(--light); }
+@media (max-width: 600px) {
+  .breadcrumbs { padding: 0.85rem 1.25rem; }
+  .breadcrumbs ol { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .breadcrumbs ol::-webkit-scrollbar { display: none; }
+  .breadcrumbs li { flex-shrink: 0; }
+}
 .eyebrow { font-size: 0.65rem; font-weight: 400; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.9rem; display: block; }
 .sec-hed { font-family: var(--sans); font-size: clamp(2rem, 4vw, 3.2rem); font-weight: 200; letter-spacing: -0.035em; color: var(--text); line-height: 1.05; }
 .body-p { font-size: 0.88rem; font-weight: 300; color: var(--sub); line-height: 1.8; margin-bottom: 0.85rem; }

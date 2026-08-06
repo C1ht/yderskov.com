@@ -6,6 +6,7 @@ import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
 import CtaBand from "@/components/CtaBand";
 import ExpandableText from "@/components/ExpandableText";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Arkitekt Nordjylland — Yderskov Tegnestue med fast pris",
@@ -81,6 +82,7 @@ export default function OmPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }}
       />
+      <Breadcrumbs items={[{ label: "Om" }]} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}

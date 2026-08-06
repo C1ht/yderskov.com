@@ -4,6 +4,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import BlogListing from "@/components/BlogListing";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Inspiration, byggeguides og cases — Blog — Yderskov Arkitekter",
@@ -609,6 +610,7 @@ export default function BlogPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
       />
+      <Breadcrumbs items={[{ label: "Blog" }]} />
       <Nav />
       <Hero
         slides={[{ src: "/images/Ikarosvej/Aalborg-Ikarosvej-ny-villa-indkørsel.webp", alt: "Ny villa i Aalborg — Arkitekttegnestuen Yderskov" }]}

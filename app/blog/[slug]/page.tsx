@@ -5,6 +5,7 @@ import Image from "next/image";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import { getPost, posts, type RelatedLink } from "../posts";
 
 function parseParagraph(text: string) {
@@ -74,7 +75,12 @@ const categoryLinks: Record<string, RelatedLink[]> = {
 };
 
 export async function generateStaticParams() {
-  return posts.map((p) => ({ slug: p.slug }));
+  // Posts with a `redirect` field don't get a static page of their own —
+  // the actual redirect is handled at the CDN edge via public/_redirects,
+  // since Next.js's redirect() only works with a live server, not a
+  // static export. Building a page here would just produce a broken,
+  // non-redirecting page for the old URL.
+  return posts.filter((p) => !p.redirect).map((p) => ({ slug: p.slug }));
 }
 
 export async function generateMetadata({
@@ -155,6 +161,10 @@ export default async function BlogPostPage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
       />
       <Nav />
+      <Breadcrumbs
+        noHero
+        items={[{ label: "Blog", href: "/blog" }, { label: post.title }]}
+      />
 
       <article>
         {/* Article header */}

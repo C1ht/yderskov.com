@@ -8,6 +8,7 @@ import ImageGrid from "@/components/ImageGrid";
 import CtaBand from "@/components/CtaBand";
 import InspirationGallery from "@/components/InspirationGallery";
 import ProjectDescription from "@/components/ProjectDescription";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Erhvervsbyggeri — Arkitekttegnede kontorer & cases | Yderskov",
@@ -126,6 +127,7 @@ export default function ErhvervPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(projectSchema) }}
       />
+      <Breadcrumbs items={[{ label: "Erhverv" }]} />
       <Nav />
       <Hero
         slides={[{ src: "/images/Hals Rækkehuse/Hals-Aalborgvej40-udlejning-.webp", alt: "Udlejningsboliger i Hals — Arkitekttegnestuen Yderskov" }]}

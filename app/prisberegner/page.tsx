@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import PrisCalculator from "@/components/PrisCalculator";
 import HeroForm from "@/components/HeroForm";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Prisberegner til tilbygning — Beregn prisskøn | Yderskov",
@@ -40,6 +41,7 @@ export default function PrisberegnPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(calculatorSchema) }}
       />
+      <Breadcrumbs items={[{ label: "Prisberegner" }]} />
       <Nav />
       <Hero
         slides={[{ src: "/images/Gjøl/Gjøl-ny-villa-have.webp", alt: "Ny villa i Gjøl — Arkitekttegnestuen Yderskov" }]}

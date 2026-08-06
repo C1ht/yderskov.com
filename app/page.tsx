@@ -31,6 +31,8 @@ export default function HomePage() {
 
       <Nav />
 
+      <h1 className="sr-only">Arkitekt til villa, sommerhus og tilbygning — Yderskov Arkitekter, landsdækkende</h1>
+
       <Hero
         slides={[{ src: "/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp", alt: "Udsigtsvilla med terrasse og byudsigt, Frederikshavn — Arkitekttegnestuen Yderskov" }]}
         tag="Hjem"
@@ -201,7 +203,7 @@ export default function HomePage() {
           <div className="text-2col">
             <div>
               <span className="eyebrow">Om tegnestuen</span>
-              <h1 className="sec-hed" style={{ fontSize: "clamp(1.6rem, 3.5vw, 2.6rem)", lineHeight: 1.15 }}>Landsdækkende arkitekttegnestue:<br />Vi kommer til dig, uanset hvor i landet du bygger</h1>
+              <h2 className="sec-hed" style={{ fontSize: "clamp(1.6rem, 3.5vw, 2.6rem)", lineHeight: 1.15 }}>Landsdækkende arkitekttegnestue:<br />Vi kommer til dig, uanset hvor i landet du bygger</h2>
               <div className="about-tags" style={{ marginTop: "1.5rem" }}>
                 <Link href="/kontakt" className="tag tag-dark">Kontakt os →</Link>
                 <Link href="/priser" className="tag">Se priser</Link>

@@ -6,6 +6,7 @@ import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
 import CtaBand from "@/components/CtaBand";
 import FaqAccordion from "@/components/FaqAccordion";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Spørgsmål & svar om arkitekt, priser og byggeri | Yderskov",
@@ -94,6 +95,7 @@ export default function FAQPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
+      <Breadcrumbs items={[{ label: "FAQ" }]} />
       <Nav />
       <Hero
         slides={[{ src: "/images/Løvevej/Ålbæk-poolhus-terrasse.webp", alt: "Arkitekttegnet bolig — Arkitekttegnestuen Yderskov" }]}

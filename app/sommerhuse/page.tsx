@@ -24,6 +24,7 @@ export const metadata: Metadata = {
 };
 
 import { sommerhuseProjects as projectGalleries } from "@/components/project-data-shared";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 const faqItems = [
   {
@@ -82,6 +83,7 @@ export default function SommerhusePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(projectSchema) }}
       />
+      <Breadcrumbs items={[{ label: "Sommerhuse" }]} />
       <Nav />
       <Hero
         slides={[{ src: "/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp", alt: "Arkitekttegnet sommerhus — Arkitekttegnestuen Yderskov" }]}

@@ -8,6 +8,7 @@ import ImageGrid from "@/components/ImageGrid";
 import CtaBand from "@/components/CtaBand";
 import InspirationGallery from "@/components/InspirationGallery";
 import ProjectDescription from "@/components/ProjectDescription";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Arkitekt til om- & tilbygning — Priser & cases | Yderskov",
@@ -172,6 +173,7 @@ export default function TilbygningerPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(projectSchema) }}
       />
+      <Breadcrumbs items={[{ label: "Om- og tilbygninger" }]} />
       <Nav />
       <Hero
         slides={[{ src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-2.webp", alt: "Ombygning og modernisering af 50er-villa, Brønderslev nær Aalborg — Arkitekttegnestuen Yderskov" }]}

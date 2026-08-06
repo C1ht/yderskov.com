@@ -6,6 +6,7 @@ import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
 import CtaBand from "@/components/CtaBand";
 import InspirationGallery from "@/components/InspirationGallery";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Inspiration & galleri — Yderskov Arkitekter",
@@ -36,6 +37,7 @@ export default function InspirationPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(inspirationSchema) }}
       />
+      <Breadcrumbs items={[{ label: "Inspiration" }]} />
       <Nav />
       <Hero
         slides={[{ src: "/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp", alt: "Inspiration galleri — Arkitekttegnestuen Yderskov" }]}

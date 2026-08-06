@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
 import CtaBand from "@/components/CtaBand";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Hvad koster en arkitekt? Se vores faste priser | Yderskov",
@@ -89,6 +90,7 @@ export default function PriserPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
+      <Breadcrumbs items={[{ label: "Priser" }]} />
       <Nav />
       <Hero
         slides={[{ src: "/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-terrasse.webp", alt: "Arkitekttegnet sommerhus i Løkken — Arkitekttegnestuen Yderskov" }]}

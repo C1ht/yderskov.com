@@ -9,6 +9,7 @@ import CtaBand from "@/components/CtaBand";
 import InspirationGallery from "@/components/InspirationGallery";
 import ProjectDescription from "@/components/ProjectDescription";
 import ExpandableText from "@/components/ExpandableText";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Specialbyggeri & unik arkitektur | Yderskov Arkitekter",
@@ -58,6 +59,7 @@ export default function SpecialPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(projectSchema) }}
       />
+      <Breadcrumbs items={[{ label: "Special" }]} />
       <Nav />
       <Hero
         slides={[{ src: "/images/Bed and breakfast/Aalborg-bed-and-breakfast.webp", alt: "Bed and breakfast, Aalborg — Arkitekttegnestuen Yderskov" }]}

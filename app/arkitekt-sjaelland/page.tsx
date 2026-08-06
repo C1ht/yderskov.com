@@ -8,6 +8,7 @@ import CtaBand from "@/components/CtaBand";
 import InspirationGallery from "@/components/InspirationGallery";
 import ImageGrid from "@/components/ImageGrid";
 import ProjectDescription from "@/components/ProjectDescription";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Arkitekt Sjælland & København — Tegnestue | Yderskov",
@@ -130,6 +131,7 @@ export default function ArkitektSjaellandPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(sjaellandSchema) }}
       />
+      <Breadcrumbs items={[{ label: "Arkitekt Sjælland" }]} />
       <Nav />
       <Hero
         slides={[{ src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-terrasse.webp", alt: "Arkitekttegnet villa tilbygning — Arkitekttegnestuen Yderskov" }]}
