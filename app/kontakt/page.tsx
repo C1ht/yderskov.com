@@ -9,13 +9,32 @@ import InteractiveMap from "@/components/InteractiveMap";
 export const metadata: Metadata = {
   title: "Kontakt Yderskov Arkitekter — Ring eller book gratis møde",
   description:
-    "Har du et byggeprojekt i tankerne? Kontakt Yderskov Arkitekter i dag. We tilbyder et gratis og uforpligtende idémøde direkte på din byggegrund.",
+    "Har du et byggeprojekt i tankerne? Kontakt Yderskov Arkitekter i dag. Vi tilbyder et gratis og uforpligtende idémøde direkte på din byggegrund.",
   alternates: { canonical: "https://yderskov.com/kontakt" },
+};
+
+const contactSchema = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  url: "https://yderskov.com/kontakt",
+  mainEntity: {
+    "@type": "ProfessionalService",
+    name: "Yderskov Arkitekter",
+    url: "https://yderskov.com",
+    telephone: "+4529723427",
+    email: "cy@yderskov.com",
+    address: { "@type": "PostalAddress", addressCountry: "DK", addressRegion: "Nordjylland" },
+    areaServed: { "@type": "Country", name: "Danmark" },
+  },
 };
 
 export default function KontaktPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(contactSchema) }}
+      />
       <Nav />
       <Hero
         slides={[{ src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp", alt: "Villa med tilbygning — Arkitekttegnestuen Yderskov" }]}

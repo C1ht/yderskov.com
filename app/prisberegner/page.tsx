@@ -15,9 +15,24 @@ export const metadata: Metadata = {
 };
 
 
+const calculatorSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  name: "Prisberegner til tilbygning — Yderskov Arkitekter",
+  url: "https://yderskov.com/prisberegner",
+  applicationCategory: "UtilityApplication",
+  operatingSystem: "Any",
+  offers: { "@type": "Offer", price: "0", priceCurrency: "DKK" },
+  provider: { "@type": "ProfessionalService", name: "Yderskov Arkitekter", url: "https://yderskov.com" },
+};
+
 export default function PrisberegnPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(calculatorSchema) }}
+      />
       <Nav />
       <Hero
         slides={[{ src: "/images/Gjøl/Gjøl-ny-villa-have.webp", alt: "Ny villa i Gjøl — Arkitekttegnestuen Yderskov" }]}

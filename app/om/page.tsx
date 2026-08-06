@@ -41,9 +41,43 @@ const miniFAQ = [
   },
 ];
 
+const aboutSchema = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  url: "https://yderskov.com/om",
+  mainEntity: {
+    "@type": "ProfessionalService",
+    name: "Yderskov Arkitekter",
+    url: "https://yderskov.com",
+    telephone: "+4529723427",
+    email: "cy@yderskov.com",
+    foundingDate: "2009",
+    address: { "@type": "PostalAddress", addressCountry: "DK", addressRegion: "Nordjylland" },
+    areaServed: { "@type": "Country", name: "Danmark" },
+  },
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: miniFAQ.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: { "@type": "Answer", text: item.a },
+  })),
+};
+
 export default function OmPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <Nav />
       <Hero
         slides={[{ src: "/images/Lerstien/Frederikshavn-lerstien-terrasse.webp", alt: "Terrasse på udsigtsvilla i Frederikshavn — Arkitekttegnestuen Yderskov" }]}

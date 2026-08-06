@@ -582,9 +582,26 @@ const categories = [
   { key: "case", label: "Cases fra praksis" },
 ];
 
+const blogSchema = {
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  name: "Yderskov Arkitekter — Blog",
+  url: "https://yderskov.com/blog",
+  publisher: { "@type": "ProfessionalService", name: "Yderskov Arkitekter", url: "https://yderskov.com" },
+  blogPost: posts.slice(0, 20).map((p) => ({
+    "@type": "BlogPosting",
+    headline: p.title,
+    url: `https://yderskov.com${p.href}`,
+  })),
+};
+
 export default function BlogPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
+      />
       <Nav />
       <Hero
         slides={[{ src: "/images/Ikarosvej/Aalborg-Ikarosvej-ny-villa-indkørsel.webp", alt: "Ny villa i Aalborg — Arkitekttegnestuen Yderskov" }]}

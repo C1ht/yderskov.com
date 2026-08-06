@@ -2,11 +2,11 @@ import fs from 'fs';
 
 const BASE = "https://yderskov.com";
 
-// 1. Parse slugs from app/blog/posts.ts
+// 1. Parse slugs (+ publish dates) from app/blog/posts.ts
 const postsContent = fs.readFileSync('app/blog/posts.ts', 'utf8');
 const slugRegex = /slug:\s*"([^"]+)"/g;
 let match;
-const slugs = [];
+const postEntries = [];
 while ((match = slugRegex.exec(postsContent)) !== null) {
   const slug = match[1];
   const startIdx = match.index;
@@ -14,12 +14,19 @@ while ((match = slugRegex.exec(postsContent)) !== null) {
   const endIdx = nextSlugMatch !== -1 ? nextSlugMatch : postsContent.length;
   const chunk = postsContent.substring(startIdx, endIdx);
   if (!chunk.includes('redirect:')) {
-    slugs.push(slug);
+    const dateMatch = chunk.match(/date:\s*"(\d{2})\s*\/\s*(\d{2})\s*\/\s*(\d{4})"/);
+    const lastmod = dateMatch ? `${dateMatch[3]}-${dateMatch[2]}-${dateMatch[1]}` : null;
+    postEntries.push({ slug, lastmod });
   }
 }
 
-// Remove duplicates if any
-const uniqueSlugs = [...new Set(slugs)];
+// Remove duplicates by slug if any (keep first occurrence)
+const seenSlugs = new Set();
+const uniquePostEntries = postEntries.filter((p) => {
+  if (seenSlugs.has(p.slug)) return false;
+  seenSlugs.add(p.slug);
+  return true;
+});
 
 // 2. Define static pages
 const staticPages = [
@@ -61,11 +68,11 @@ staticPages.forEach(p => {
   </url>`;
 });
 
-uniqueSlugs.forEach(slug => {
+uniquePostEntries.forEach(({ slug, lastmod }) => {
   xml += `
   <url>
     <loc>${BASE}/blog/${slug}</loc>
-    <lastmod>${now}</lastmod>
+    <lastmod>${lastmod || now}</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>`;

@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   title: "Arkitekt til om- & tilbygning — Priser & cases | Yderskov",
   description:
     "Skal du bygge til eller bygge om? Få tegnet din tilbygning af en arkitekt til fast pris. Se priser og eksempler på ombygning. Book et gratis møde!",
+  alternates: { canonical: "https://yderskov.com/tilbygninger" },
 };
 
 const projectGalleries = [
