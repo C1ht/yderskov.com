@@ -81,7 +81,7 @@ export default function HeroForm({ id = "heroContactForm" }: { id?: string }) {
   return (
     <form className="hero-form" id={id} onSubmit={handleSubmit}>
       <p className="hero-form-title">Fortæl os om dit projekt</p>
-      <p style={{ fontSize: "0.72rem", color: "var(--light)", marginTop: "-0.5rem", marginBottom: "1rem", textAlign: "center" }}>
+      <p style={{ fontSize: "0.7rem", color: "var(--light)", marginTop: 0, marginBottom: "1rem" }}>
         * Markeringsfelter skal udfyldes
       </p>
       <input type="text" name="navn" placeholder="Navn *" required />
