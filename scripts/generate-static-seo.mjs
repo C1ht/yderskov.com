@@ -46,7 +46,8 @@ const staticPages = [
   "faq",
   "kontakt",
   "arkitekt-aalborg",
-  "arkitekt-sjaelland"
+  "arkitekt-sjaelland",
+  "privatlivspolitik"
 ];
 
 // 3. Build sitemap.xml
