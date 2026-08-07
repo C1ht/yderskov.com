@@ -43,8 +43,6 @@ export default function Footer() {
             <li><Link href="/om">Om</Link></li>
             <li><Link href="/faq">FAQ</Link></li>
             <li><Link href="/kontakt">Kontakt</Link></li>
-            <li><Link href="/arkitekt-aalborg">Arkitekt Aalborg</Link></li>
-            <li><Link href="/arkitekt-sjaelland">Arkitekt Sjælland</Link></li>
           </ul>
         </div>
 
@@ -63,7 +61,11 @@ export default function Footer() {
           <p style={{ marginTop: "0.25rem", opacity: 0.65 }}>Der tages forbehold for prisændringer og trykfejl</p>
           <p style={{ marginTop: "0.25rem" }}><Link href="/privatlivspolitik">Privatlivspolitik</Link></p>
         </div>
-        <p>LG-Revision, Nørresundby</p>
+        <div style={{ textAlign: "right" }}>
+          <p>Forsikringsselskab: TopDanmark</p>
+          <p style={{ marginTop: "0.25rem" }}>Bank: Sparekassen Danmark, Brønderslev</p>
+          <p style={{ marginTop: "0.25rem" }}>Revisor: LG-Revision, Nørresundby</p>
+        </div>
       </div>
     </footer>
   );
