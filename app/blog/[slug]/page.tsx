@@ -128,12 +128,14 @@ export default async function BlogPostPage({
 
   const dateParts = post.date.split("/").map((s) => s.trim());
   const dateISO = dateParts.length === 3 ? `${dateParts[2]}-${dateParts[1]}-${dateParts[0]}` : undefined;
+  const schemaImageUrl = post.image ? `https://yderskov.com${post.image}` : "https://yderskov.com/images/topbanner-new.webp";
 
   const blogSchema = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "headline": post.title,
     "description": post.description,
+    "image": schemaImageUrl,
     "datePublished": dateISO,
     "author": {
       "@type": "Organization",
@@ -145,7 +147,9 @@ export default async function BlogPostPage({
       "name": "Yderskov Arkitekter",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://yderskov.com/favicon.svg",
+        // Google's Article/BlogPosting rich results only accept raster
+        // logos (PNG/JPG/WebP) here — an SVG silently fails validation.
+        "url": "https://yderskov.com/icon-512.png",
       },
     },
     "mainEntityOfPage": {

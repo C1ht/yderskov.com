@@ -72,6 +72,9 @@ export default function InspirationPage() {
                 Her har vi samlet et udvalg af billeder fra vores færdige byggerier. Du kan filtrere billederne efter kategori for at finde netop det, der interesserer dig – uanset om det er moderne villaer, sommerhuse, skitser eller indendørs detaljer.
               </p>
               <p className="body-p">
+                Galleriet spænder over hele processen: fra de tidlige skitseforslag og materialevalg til de færdige rum – køkkener, badeværelser, ovenlys og de detaljer, der ofte gør den største forskel i hverdagen. Se det som en samling af konkrete eksempler på, hvad der kan lade sig gøre inden for jeres budget og på jeres grund.
+              </p>
+              <p className="body-p">
                 Tag gerne dine yndlingsbilleder med som inspiration til vores første gratis, uforpligtende idémøde.
               </p>
               <p className="body-p">
