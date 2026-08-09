@@ -40,7 +40,6 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-friendly version" />
         <link rel="preconnect" href="https://black-unit-19e0.antonyderskov.workers.dev" />
-        <link rel="preconnect" href="https://script.google.com" />
       </head>
       <body>
         {children}
