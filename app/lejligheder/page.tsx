@@ -22,6 +22,12 @@ export const metadata: Metadata = {
     siteName: "Yderskov Arkitekter",
     images: [{ url: "https://yderskov.com/images/Ågade 25/Aalborg-Ågade-renovering-køkken.webp" }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Arkitekt til lejlighed — Renovering & ombygning | Yderskov",
+    description: "Få hjælp af en arkitekt til renovering og ombygning af din lejlighed. Vi maksimerer dagslys og planløsning til fast pris. Få et gratis første møde!",
+    images: ["https://yderskov.com/images/Ågade 25/Aalborg-Ågade-renovering-køkken.webp"],
+  },
 };
 
 const faqItems = [

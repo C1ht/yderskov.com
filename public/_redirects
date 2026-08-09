@@ -6,3 +6,13 @@
 #
 # Keep this in sync with any `redirect:` entries in app/blog/posts.ts.
 /blog/inde-ude /blog/overgang-mellem-ude-og-inde 301
+
+# Old blog posts removed as duplicates (never had a `redirect:` entry since
+# the post object itself was deleted, not renamed) — still indexed/linked
+# externally, so redirect instead of letting them 404.
+/blog/hvordan-vurderer-man-om-en-byggegrund-er-god /blog/valg-af-byggegrund 301
+/blog/orangeri-ved-huset /blog/orangeri 301
+
+# Inspirationskatalog PDF removed along with the whole katalog feature —
+# send anyone who still has the old download link to the inspiration gallery.
+/katalog-inspiration.pdf /inspiration 301

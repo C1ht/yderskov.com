@@ -13,7 +13,7 @@ import ProcessIllustration from "@/components/ProcessIllustration";
 export const metadata: Metadata = {
   title: "Arkitekt til villa, sommerhus og tilbygning — Yderskov Arkitekter",
   description:
-    "Drømmer du om en arkitekttegnet villa, sommerhus eller tilbygning? Yderskov Arkitekter tegner til fast pris og kommer til dig — uanset hvor i landet du bygger. Gratis første møde.",
+    "Drømmer du om en arkitekttegnet villa, sommerhus eller tilbygning? Yderskov Arkitekter tegner til fast pris og kommer til dig. Gratis første møde.",
   alternates: { canonical: "https://yderskov.com/" },
   openGraph: {
     type: "website",
@@ -21,6 +21,13 @@ export const metadata: Metadata = {
     url: "https://yderskov.com/",
     siteName: "Yderskov Arkitekter",
     images: [{ url: "https://yderskov.com/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Arkitekt til villa, sommerhus og tilbygning — Yderskov Arkitekter",
+    description:
+      "Drømmer du om en arkitekttegnet villa, sommerhus eller tilbygning? Yderskov Arkitekter tegner til fast pris og kommer til dig. Gratis første møde.",
+    images: ["https://yderskov.com/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp"],
   },
 };
 

@@ -20,6 +20,12 @@ export const metadata: Metadata = {
     siteName: "Yderskov Arkitekter",
     images: [{ url: "https://yderskov.com/images/Løvevej/Ålbæk-poolhus-terrasse.webp" }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Spørgsmål & svar om arkitekt, priser og byggeri | Yderskov",
+    description: "Få svar på dine spørgsmål om arkitektpriser, byggeproces, myndighedsprojekter og håndværkere. Læs vores FAQ og bliv klar til dit byggeprojekt.",
+    images: ["https://yderskov.com/images/Løvevej/Ålbæk-poolhus-terrasse.webp"],
+  },
 };
 
 const sections = [

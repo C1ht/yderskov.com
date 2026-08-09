@@ -16,6 +16,12 @@ export const metadata: Metadata = {
     siteName: "Yderskov Arkitekter",
     images: [{ url: "https://yderskov.com/images/topbanner-new.webp" }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Privatlivspolitik — Arkitekttegnestuen Yderskov",
+    description: "Læs hvordan Arkitekttegnestuen Yderskov behandler dine personoplysninger, når du bruger vores kontaktformular.",
+    images: ["https://yderskov.com/images/topbanner-new.webp"],
+  },
 };
 
 export default function PrivatlivspolitikPage() {

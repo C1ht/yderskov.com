@@ -19,6 +19,12 @@ export const metadata: Metadata = {
     siteName: "Yderskov Arkitekter",
     images: [{ url: "https://yderskov.com/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp" }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Kontakt Yderskov Arkitekter — Ring eller book gratis møde",
+    description: "Har du et byggeprojekt i tankerne? Kontakt Yderskov Arkitekter i dag. Vi tilbyder et gratis og uforpligtende idémøde direkte på din byggegrund.",
+    images: ["https://yderskov.com/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp"],
+  },
 };
 
 const contactSchema = {

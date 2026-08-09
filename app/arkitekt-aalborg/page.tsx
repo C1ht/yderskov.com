@@ -21,6 +21,12 @@ export const metadata: Metadata = {
     siteName: "Yderskov Arkitekter",
     images: [{ url: "https://yderskov.com/images/Karetmagervej/Sæby-ny-villa-funkis-haveside.webp" }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Arkitekt Aalborg — Tegnestue med fast pris | Yderskov",
+    description: "Vil du bygge i Aalborg? Få en arkitekttegnet villa til fast pris med egne håndværkere. Book et gratis første møde på din byggegrund — vi kommer til dig!",
+    images: ["https://yderskov.com/images/Karetmagervej/Sæby-ny-villa-funkis-haveside.webp"],
+  },
 };
 
 const aalborgFAQ = [

@@ -21,6 +21,12 @@ export const metadata: Metadata = {
     siteName: "Yderskov Arkitekter",
     images: [{ url: "https://yderskov.com/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp" }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Arkitekttegnet sommerhus — Priser & projekter | Yderskov",
+    description: "Få tegnet et unikt sommerhus tilpasset din grund og udsigt. Se priser og projekter hos Yderskov. Fast pris, høj kvalitet og gratis første møde!",
+    images: ["https://yderskov.com/images/Torndalsvej/Hals-Torndalsvej-terrasse.webp"],
+  },
 };
 
 import { sommerhuseProjects as projectGalleries } from "@/components/project-data-shared";

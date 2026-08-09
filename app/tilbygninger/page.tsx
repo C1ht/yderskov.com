@@ -22,6 +22,12 @@ export const metadata: Metadata = {
     siteName: "Yderskov Arkitekter",
     images: [{ url: "https://yderskov.com/images/Godthåbsvej/Brønderslev-ombygning-efter-3.webp" }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Arkitekt til om- & tilbygning — Priser & cases | Yderskov",
+    description: "Skal du bygge til eller bygge om? Få tegnet din tilbygning af en arkitekt til fast pris. Se priser og eksempler på ombygning. Book et gratis møde!",
+    images: ["https://yderskov.com/images/Godthåbsvej/Brønderslev-ombygning-efter-3.webp"],
+  },
 };
 
 const projectGalleries = [

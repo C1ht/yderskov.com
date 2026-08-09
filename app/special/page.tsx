@@ -23,6 +23,12 @@ export const metadata: Metadata = {
     siteName: "Yderskov Arkitekter",
     images: [{ url: "https://yderskov.com/images/Bed and breakfast/Aalborg-bed-and-breakfast.webp" }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Specialbyggeri & unik arkitektur | Yderskov Arkitekter",
+    description: "Vi tegner specialbyggeri tilpasset dine drømme — fra garage og carport til anneks, wellness og B&B. Få et unikt arkitekttegnet projekt til fast pris.",
+    images: ["https://yderskov.com/images/Bed and breakfast/Aalborg-bed-and-breakfast.webp"],
+  },
 };
 
 

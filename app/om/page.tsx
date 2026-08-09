@@ -20,6 +20,12 @@ export const metadata: Metadata = {
     siteName: "Yderskov Arkitekter",
     images: [{ url: "https://yderskov.com/images/Lerstien/Frederikshavn-lerstien-terrasse.webp" }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Arkitekt Nordjylland — Yderskov Tegnestue med fast pris",
+    description: "Mød Yderskov Arkitekter. Personlig tegnestue i Nordjylland, der tegner unikke huse til fast pris i Aalborg, på Sjælland & i resten af Danmark.",
+    images: ["https://yderskov.com/images/Lerstien/Frederikshavn-lerstien-terrasse.webp"],
+  },
 };
 
 const miniFAQ = [

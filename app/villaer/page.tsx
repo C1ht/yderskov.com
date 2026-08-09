@@ -22,6 +22,12 @@ export const metadata: Metadata = {
     siteName: "Yderskov Arkitekter",
     images: [{ url: "https://yderskov.com/images/Karetmagervej/Sæby-ny-villa-funkis-forside.webp" }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Arkitekttegnet villa — Se priser & projekter | Yderskov",
+    description: "Drømmer du om en arkitekttegnet villa? Se projekter, priser og byggeproces hos Yderskov. Vi tilbyder fast pris, egne håndværkere & gratis første møde.",
+    images: ["https://yderskov.com/images/Karetmagervej/Sæby-ny-villa-funkis-forside.webp"],
+  },
 };
 
 const projectGalleries = [

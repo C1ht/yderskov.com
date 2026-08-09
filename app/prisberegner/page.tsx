@@ -20,6 +20,12 @@ export const metadata: Metadata = {
     siteName: "Yderskov Arkitekter",
     images: [{ url: "https://yderskov.com/images/Gjøl/Gjøl-ny-villa-have.webp" }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Prisberegner til tilbygning — Beregn prisskøn | Yderskov",
+    description: "Prøv vores gratis prisberegner og få et lynhurtigt prisskøn på din tilbygning. Vælg tag, mur, gulv og beregn dine byggeomkostninger online med det samme!",
+    images: ["https://yderskov.com/images/Gjøl/Gjøl-ny-villa-have.webp"],
+  },
 };
 
 

@@ -22,6 +22,12 @@ export const metadata: Metadata = {
     siteName: "Yderskov Arkitekter",
     images: [{ url: "https://yderskov.com/images/Karetmagervej/Sæby-ny-villa-funkis-forside.webp" }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Arkitekt Sjælland & København — Tegnestue | Yderskov",
+    description: "Leder du efter en arkitekt på Sjælland el. i Kbh? Yderskov tegnestue tilbyder jysk grundighed, fast pris & gratis første møde direkte på din byggegrund!",
+    images: ["https://yderskov.com/images/Karetmagervej/Sæby-ny-villa-funkis-forside.webp"],
+  },
 };
 
 const sjaellandFAQ = [

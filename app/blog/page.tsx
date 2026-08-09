@@ -7,7 +7,7 @@ import BlogListing from "@/components/BlogListing";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Inspiration, byggeguides og cases — Blog — Yderskov Arkitekter",
+  title: "Inspiration, byggeguides og cases — Yderskov Arkitekter",
   description:
     "Læs virkelige cases fra vores tegnestue, og få gode råd om boligdesign, byggetilladelse, priser og processen for arkitekttegnede huse.",
   alternates: { canonical: "https://yderskov.com/blog" },
@@ -17,6 +17,12 @@ export const metadata: Metadata = {
     url: "https://yderskov.com/blog",
     siteName: "Yderskov Arkitekter",
     images: [{ url: "https://yderskov.com/images/Ikarosvej/Aalborg-Ikarosvej-ny-villa-indkørsel.webp" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Inspiration, byggeguides og cases — Yderskov Arkitekter",
+    description: "Læs virkelige cases fra vores tegnestue, og få gode råd om boligdesign, byggetilladelse, priser og processen for arkitekttegnede huse.",
+    images: ["https://yderskov.com/images/Ikarosvej/Aalborg-Ikarosvej-ny-villa-indkørsel.webp"],
   },
 };
 

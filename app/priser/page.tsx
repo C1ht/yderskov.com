@@ -19,6 +19,12 @@ export const metadata: Metadata = {
     siteName: "Yderskov Arkitekter",
     images: [{ url: "https://yderskov.com/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-terrasse.webp" }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hvad koster en arkitekt? Se vores faste priser | Yderskov",
+    description: "Hvad koster en arkitekt? Se vores gennemskuelige priser på skitseforslag, myndighedsprojekter og byggestyring. Få fast pris og et gratis første møde.",
+    images: ["https://yderskov.com/images/Løkken sommerhus/Løkken-Alexandravej-sommerhus-terrasse.webp"],
+  },
 };
 
 const byggeriPrices = [

@@ -20,6 +20,12 @@ export const metadata: Metadata = {
     siteName: "Yderskov Arkitekter",
     images: [{ url: "https://yderskov.com/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp" }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Inspiration & galleri — Yderskov Arkitekter",
+    description: "Få inspiration til dit byggeprojekt. Gå på opdagelse i vores galleri af afsluttede villaer, sommerhuse samt om- og tilbygninger.",
+    images: ["https://yderskov.com/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp"],
+  },
 };
 
 export default function InspirationPage() {

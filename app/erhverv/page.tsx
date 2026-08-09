@@ -11,7 +11,7 @@ import ProjectDescription from "@/components/ProjectDescription";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Erhvervsbyggeri — Arkitekttegnede kontorer & cases | Yderskov",
+  title: "Erhvervsbyggeri — Arkitekttegnede kontorer | Yderskov",
   description:
     "Vi tegner erhvervsbyggeri, der matcher jeres behov — fra kontorer til udlejningsboliger og ombygninger. Få arkitektrådgivning til aftalt fast pris.",
   alternates: { canonical: "https://yderskov.com/erhverv" },
@@ -21,6 +21,12 @@ export const metadata: Metadata = {
     url: "https://yderskov.com/erhverv",
     siteName: "Yderskov Arkitekter",
     images: [{ url: "https://yderskov.com/images/Assensvej Kontormiljø/Aalborg-Assensvej-kontormiljø.webp" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Erhvervsbyggeri — Arkitekttegnede kontorer | Yderskov",
+    description: "Vi tegner erhvervsbyggeri, der matcher jeres behov — fra kontorer til udlejningsboliger og ombygninger. Få arkitektrådgivning til aftalt fast pris.",
+    images: ["https://yderskov.com/images/Assensvej Kontormiljø/Aalborg-Assensvej-kontormiljø.webp"],
   },
 };
 
