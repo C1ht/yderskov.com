@@ -13,12 +13,12 @@ export const localBusinessSchema = {
 };
 
 export const projects = [
-  { src: "/images/Vestvej/Grønhøj-Vestvej-sommerhus-indkørsel.webp",                              title: "Arkitekttegnet sommerhus" },
   { src: "/images/Strandkanten/Sæby-strandkanten-ny-funkisvilla.webp",                            title: "Ny funkisvilla" },
   { src: "/images/Løvevej/Ålbæk-poolhus-terrasse.webp",                                           title: "Sommerhus med pool" },
-  { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-renovering-indkørsel.webp",     title: "Ombygning af parcelhus" },
-  { src: "/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-terrasse.webp",            title: "Nyt sommerhus" },
   { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-haveside.webp",                   title: "Ombygning af villa" },
+  { src: "/images/Vestvej/Grønhøj-Vestvej-sommerhus-indkørsel.webp",                              title: "Arkitekttegnet sommerhus" },
+  { src: "/images/Harald Jensens Vej/Løkken-sommerhus-Haraldjensensvej-terrasse.webp",            title: "Nyt sommerhus" },
+  { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-renovering-indkørsel.webp",     title: "Ombygning af parcelhus" },
 ];
 
 export const testimonials = [
