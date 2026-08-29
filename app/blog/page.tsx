@@ -45,7 +45,7 @@ const posts: Post[] = [
     date: "29 / 08 / 2026",
     cat: "Sommerhus",
     catKey: "sommerhus",
-    title: "Fra romantik til minimalisme — sådan træffer I farve- og stilvalget til jeres sommerhus.",
+    title: "Den svære beslutning at vælge farve",
     excerpt: "Sprossevinduer og grå/hvide toner — eller sortmalet og stringent? Se, hvordan en visualisering af netop jeres hus gør det svære valg konkret, og hvad et stilskifte betyder for både udtryk og lys indendørs.",
   },
   {

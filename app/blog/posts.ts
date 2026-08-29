@@ -26,7 +26,7 @@ export const posts: BlogPost[] = [
     ],
     image: "/images/Bjerget 3/sommerhus Bjerget 3 sort hus blog-thumbnail.webp",
     metaTitle: "Farvevalg og stilskifte i sommerhuset — sådan hjælper arkitekten dig — Arkitekt Yderskov",
-    title: "Fra romantik til minimalisme — sådan træffer I farve- og stilvalget til jeres sommerhus.",
+    title: "Den svære beslutning at vælge farve",
     description: "Skal sommerhuset beholde sin romantiske charme med sprossevinduer og bløde grå/hvide toner — eller tør I gå all-in på det minimalistiske med sortmalede facader og rene vinduer? Se, hvordan en visualisering af netop jeres hus gør det svære valg konkret.",
     date: "29 / 08 / 2026",
     cat: "Sommerhus",
