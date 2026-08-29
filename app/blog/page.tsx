@@ -40,6 +40,15 @@ type Post = {
 const posts: Post[] = [
   // 2026
   {
+    href: "/blog/farvevalg-og-stilskifte-sommerhus",
+    image: "/images/Bjerget 3/sommerhus Bjerget 3 sort hus blog-thumbnail.webp",
+    date: "29 / 08 / 2026",
+    cat: "Sommerhus",
+    catKey: "sommerhus",
+    title: "Fra romantik til minimalisme — sådan træffer I farve- og stilvalget til jeres sommerhus.",
+    excerpt: "Sprossevinduer og grå/hvide toner — eller sortmalet og stringent? Se, hvordan en visualisering af netop jeres hus gør det svære valg konkret, og hvad et stilskifte betyder for både udtryk og lys indendørs.",
+  },
+  {
     href: "/blog/hvad-er-en-lokalplan",
     image: "/images/Karetmagervej/Sæby-ny-villa-funkis-forside.webp",
     date: "05 / 08 / 2026",

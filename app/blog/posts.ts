@@ -19,6 +19,62 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "farvevalg-og-stilskifte-sommerhus",
+    images: [
+      "/images/Bjerget 3/sommerhus Bjerget 3 nuværende udtryk med sprossevinduer.webp",
+      "/images/Bjerget 3/sommerhus Bjerget 3 visualisering sortmalet minimalistisk.webp",
+    ],
+    image: "/images/Bjerget 3/sommerhus Bjerget 3 sort hus blog-thumbnail.webp",
+    metaTitle: "Farvevalg og stilskifte i sommerhuset — sådan hjælper arkitekten dig — Arkitekt Yderskov",
+    title: "Fra romantik til minimalisme — sådan træffer I farve- og stilvalget til jeres sommerhus.",
+    description: "Skal sommerhuset beholde sin romantiske charme med sprossevinduer og bløde grå/hvide toner — eller tør I gå all-in på det minimalistiske med sortmalede facader og rene vinduer? Se, hvordan en visualisering af netop jeres hus gør det svære valg konkret.",
+    date: "29 / 08 / 2026",
+    cat: "Sommerhus",
+    catKey: "sommerhus",
+    lead: "Skal huset beholde den romantiske charme med sprossevinduer og de bløde grå/hvide farver — eller skal det hele omvendt: sortmalet, stramt og minimalistisk? For de fleste bygherrer er det en af de sværeste beslutninger i hele projektet, fordi valget former husets udtryk i mange år frem. Her viser vi, hvordan vi arbejder med beslutningen — og hvordan en visualisering af netop jeres hus giver et konkret grundlag for at vælge. Det ene foto nedenfor viser husets nuværende udtryk, det andet er en visualisering af forvandlingen.",
+    sections: [
+      {
+        heading: "Beslutningen er svær — og det er der en god grund til",
+        paragraphs: [
+          "Farver og detaljer afgør, om et hus virker indbydende, strengt, romantisk eller koldt. Det er derfor, valget kan føles overvældende: I skal vælge på noget, I kun kan se for jer, og samtidig risikerer valget sidder i mange år — måske resten af husets liv. Skal den hvide bekaldning blive, selvom den kræver vedligehold? Går sprosserne ud, mister huset sin charme — eller vinder det ro? De fleste bygherrer kæmper med præcis de spørgsmål, og det er helt normalt.",
+          "Problemet er sjældent manglende smag — det er manglende visualisering. Det er næsten umuligt at vurdere et farve- og stilskift ud fra en farveprøve og en indbildning. Her kommer arkitekten ind: Vi omsætter jeres tvivl til konkrete billeder af netop jeres hus, så I kan sammenligne og vælge med oplevelsen for øje — ikke mavefornemmelsen alene.",
+        ],
+      },
+      {
+        heading: "Fra romantisk udtryk til minimalistisk helhed",
+        paragraphs: [
+          "Dette sommerhus gik fra et romantisk udtryk med sprossevinduer og grå/hvide farver til en mere minimalistisk stil, hvor vinduerne står rene uden sprosser, og alt er malet sort. Hvide vindueskarme, hvide vandbrædder og de bløde kontraster er skiftet ud med én gennemgående mørk tone, der får husets volumen og tagformer til at stå klart.",
+          "Forvandlingen giver huset et mere moderne og stringent udtryk. Hvor sprosserne og de lyse detaljer før delte facaden op i mange små flader, står huset nu som én samlet, rolig form — og omgivelserne, himlen og havet træder tydeligere frem som kontrast til det sorte.",
+        ],
+      },
+      {
+        heading: "Se forvandlingen, før I beslutter jer",
+        paragraphs: [
+          "De to billeder ovenfor viser princippet: Det ene foto viser husets nuværende udseende, det andet er et genereret billede af huset i den nye stil. Når bygherrer kan se de to udtryk side om side — samme hus, samme grund, samme vinkler — får de et helt andet grundlag for at vælge. Det er ikke længere en abstrakt diskussion om 'noget mere moderne', men en konkret sammenligning, man kan tage stilling til og tale ud fra.",
+          "Derfor laver vi ofte visualiseringer som en fast del af beslutningsprocessen: Vi genererer huset i de forskellige stilarter, I overvejer, så valget bliver at sammenligne to virkeligheder — ikke at gætte sig til én af dem. Det fjerner tvivlen, gør samtalen lettere derhjemme, og betyder at I kan gå videre med en løsning, I har set og er trygge ved.",
+        ],
+      },
+      {
+        heading: "Indendørs får lyset frit spil",
+        paragraphs: [
+          "Stilskiftet er ikke kun noget, der kan ses udefra. Når sprosserne forsvinder fra vinduerne, fjernes de tynde tvær- og loddestykker, der deler lyset op. De nye vinduer slipper markant mere naturligt lys ind i huset, og indendørs bliver rummene lysere, mere åbne og med en renere udsigt mod omgivelserne.",
+        ],
+      },
+      {
+        heading: "Sådan hjælper arkitekten jer med valget",
+        paragraphs: [
+          "Vi starter altid med husets forudsætninger: hvad lokalplanen tillader, hvilke materialer huset er bygget i, og hvad der realistisk kan laves om. Derefter oversætter vi jeres ønsker til konkrete forslag — med visualiseringer, farveprøver og materialeanvisninger, så I kan se resultatet, før noget bliver malet eller bestilt. Til sidst sikrer vi, at valget kan føres helt ud i gennemførelsen med de rigtige produkter og håndværkere.",
+          "Vil I se mulighederne i jeres sommerhus, er [det gratis første møde](/blog/gratis-foerste-moede-med-arkitekt) det naturlige startpunkt. Vi kommer gerne ud på grunden og taler om, hvilket udtryk I drømmer om.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Læs om det gratis første møde", href: "/blog/gratis-foerste-moede-med-arkitekt" },
+      { label: "Se tips til pladsoptimering i sommerhuset", href: "/blog/pladsoptimering-lille-sommerhus" },
+      { label: "Se hvad det koster at bygge", href: "/priser" },
+    ],
+  },
+  {
     slug: "hvad-er-en-lokalplan",
     image: "/images/Karetmagervej/Sæby-ny-villa-funkis-forside.webp",
     metaTitle: "Hvad er en lokalplan? Sådan hjælper arkitekten dig — Arkitekt Yderskov",
