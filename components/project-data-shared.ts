@@ -96,6 +96,23 @@ export const sommerhuseProjects: ProjectGallery[] = [
       { src: "/images/Marensvej sommerhus/Sommerhus marensvej grønhøj terrasse udebrus.webp", alt: "Udebruser på terrasse ved sommerhus, Løkken — Arkitekttegnestuen Yderskov" },
     ],
     dark: true,
+  },
+  {
+    eyebrow: "Projekt",
+    title: "Præmieret\nstråtækt sommerhus, Løkken.",
+    location: "Løkken, Nordjylland",
+    size: "Renovering · tilbygning med badeværelse",
+    year: "",
+    description: "Dette ældre stråtækte sommerhus uden for Løkken er ovalt i plan og blev i sin tid præmieret for sin særlige form og udtryk. Bygherrerne henvendte sig til Yderskov med ønske om at få huset renoveret og tilbygget med lidt mere plads — og med et rigtigt badeværelse, som huset manglede. Tilbygningen føjer sig ydmygt til husets bløde, organiske linjer, og indvendigt er de buede overflader og det særlige lys bevaret, mens komforten nu er helt i tid med nutiden. Et flot eksempel på, hvordan et præmieret hus kan få nyt liv uden at miste sin karakter.",
+    images: [
+      { src: "/images/Sommerhus stråtækt Løkken/Løkken-stråtækt-sommerhus-facade.webp", alt: "Ovalt stråtækt sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Sommerhus stråtækt Løkken/Løkken-stråtækt-sommerhus-indgang.webp", alt: "Indgangsparti på renoveret stråtækt sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Sommerhus stråtækt Løkken/Løkken-stråtækt-sommerhus-tilbygning.webp", alt: "Tilbygning til stråtækt sommerhus i Løkken — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Sommerhus stråtækt Løkken/Løkken-stråtækt-sommerhus-renovering-isolering.webp", alt: "Renovering med isolering i stråtækt sommerhus, Løkken — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Sommerhus stråtækt Løkken/Løkken-stråtækt-sommerhus-tagkonstruktion.webp", alt: "Buet tagkonstruktion i stråtækt sommerhus, Løkken — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Sommerhus stråtækt Løkken/Løkken-stråtækt-sommerhus-buet-loft.webp", alt: "Buet loft med halvrundt vindue i stråtækt sommerhus, Løkken — Arkitekttegnestuen Yderskov" },
+    ],
+    dark: false,
   }
 ];
 
