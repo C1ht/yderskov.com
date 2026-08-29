@@ -346,6 +346,7 @@ body.menu-open { overflow: hidden; }
 .eyebrow { font-size: 0.65rem; font-weight: 400; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.9rem; display: block; }
 .sec-hed { font-family: var(--sans); font-size: clamp(2rem, 4vw, 3.2rem); font-weight: 200; letter-spacing: -0.035em; color: var(--text); line-height: 1.05; }
 .body-p { font-size: 0.88rem; font-weight: 300; color: var(--sub); line-height: 1.8; margin-bottom: 0.85rem; }
+.place-hl { color: var(--text); }
 .body-intro { font-size: 1rem; font-weight: 300; color: var(--sub); line-height: 1.75; margin-bottom: 1rem; }
 .text-link { color: var(--accent); font-weight: 400; font-size: 0.85rem; }
 

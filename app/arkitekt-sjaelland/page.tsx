@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 const sjaellandFAQ = [
   {
     q: "Påtager I jer opgaver på Sjælland, når I har base i Nordjylland?",
-    a: "Ja, absolut. Vi arbejder landsdækkende og har udført adskillige projekter på Sjælland og i Københavnsområdet, herunder i Køge, Odsherred, Brønshøj og Ramløse. Vi kører og rejser gerne efter de rigtige opgaver.",
+    a: "Ja, absolut. Vi arbejder landsdækkende og har udført adskillige projekter på Sjælland og i Københavnsområdet, herunder i Køge, Odsherred, Gilleleje, Brønshøj og Ramløse. Vi kører og rejser gerne efter de rigtige opgaver.",
   },
   {
     q: "Er det første idémøde på Sjælland også gratis?",
@@ -167,7 +167,7 @@ export default function ArkitektSjaellandPage() {
                 Søger du en erfaren <strong>arkitekt på Sjælland</strong>? Yderskov Tegnestue er din landsdækkende partner. Selvom vi har base i Nordjylland, tegner og opfører vi huse på hele Sjælland og i København uden besvær med geografisk afstand.
               </p>
               <p className="body-p">
-                Vi har pt. byggerier i <strong>Køge, Ramløse, Brønshøj og Odsherred</strong>. Vores portefølje dækker alt fra unikke arkitekttegnede villaer og sommerhuse til gennemtænkte tilbygninger.
+                Vi har pt. byggerier flere steder på <span className="place-hl">Sjælland</span>: en ny villa i <span className="place-hl">Køge</span>, ombygning og renovering i <span className="place-hl">Ramløse</span>, om- og tilbygning i <span className="place-hl">Brønshøj</span> samt flere sommerhusbyggerier i <span className="place-hl">Odsherred</span> og <span className="place-hl">Gilleleje</span>. Vores portefølje dækker alt fra unikke arkitekttegnede villaer og sommerhuse til gennemtænkte tilbygninger.
               </p>
               <p className="body-p">
                 Hos os får du fuld tryghed. Vi står for hele processen og opfører dit byggeri til en <strong>aftalt fast pris</strong>, så du undgår budgetskred. Kontakt os for et <strong>gratis idémøde</strong> direkte på din byggegrund.
