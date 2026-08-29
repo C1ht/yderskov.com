@@ -1,6 +1,8 @@
 // Routes next/image requests to the pre-generated responsive variants in
 // public/_opt/<width>/... (produced by scripts/optimize-images.mjs) instead
-// of always serving the original, full-size file.
+// of always serving the original, full-size file. Variants are served as
+// AVIF (smaller than WebP at the same visual quality) — browsers without
+// AVIF support are no longer supported by this site.
 //
 // Must stay in sync with WIDTHS in scripts/optimize-images.mjs and
 // deviceSizes in next.config.ts.
@@ -19,5 +21,5 @@ export default function imageLoader({ src, width }: { src: string; width: number
   const target = WIDTHS.find((w) => w >= width) ?? WIDTHS[WIDTHS.length - 1];
   const withoutExt = src.slice(0, src.lastIndexOf("."));
 
-  return `/_opt/${target}${withoutExt}.webp`;
+  return `/_opt/${target}${withoutExt}.avif`;
 }
