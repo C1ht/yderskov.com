@@ -279,7 +279,14 @@ export const posts: BlogPost[] = [
       "/images/Bjerget 13/sommerhus Bjerget 13 udsigtsniche som siddeplads.webp",
       "/images/Bjerget 13/sommerhus Bjerget 13 kobberinddækning på sideniche.webp",
       "/images/Sommervangen/sommervangen sommerhus køkken åbent.webp",
-      "/images/Sommervangen/sommervangen sommerhus sedumtag.webp"
+      "/images/Sommervangen/sommervangen sommerhus sedumtag.webp",
+      "/images/Bjerget 13/sommerhus Bjerget 13 haveside med sedumtag.webp",
+      "/images/Bjerget 13/sommerhus Bjerget 13 terrasse med fjordudsigt.webp",
+      "/images/Bjerget 13/sommerhus Bjerget 13 vinduesniche med fjordudsigt.webp",
+      "/images/Bjerget 13/sommerhus Bjerget 13 grønt køkken med ovn.webp",
+      "/images/Bjerget 13/sommerhus Bjerget 13 indbyggede skabe i gang.webp",
+      "/images/Bjerget 13/sommerhus Bjerget 13 spisekammer med skuffer.webp",
+      "/images/Bjerget 13/sommerhus Bjerget 13 opbevaringsskab med skuffer.webp"
     ],
     metaTitle: "Pladsoptimering i det lille sommerhus — 5 geniale tips | Yderskov",
     title: "Pladsoptimering i det lille sommerhus — Lær af vores sommerhus-cases",
