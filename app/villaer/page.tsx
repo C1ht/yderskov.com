@@ -157,6 +157,27 @@ const projectGalleries = [
     ],
     dark: false,
   },
+  {
+    eyebrow: "Projekt",
+    title: "Funkisvilla\nThisted.",
+    location: "Thisted, Nordjylland",
+    size: "Ét-plans villa med carport",
+    year: "",
+    description: "Denne funkisvilla i Thisted er tegnet som et ét-plans hus med rene linjer, fladt tag og en rolig palet af lyse mursten og varm, gylden træbeklædning. Huset er organiseret i klare fløje omkring et overdækket indgangsparti, hvor de brune facader og de sorte vinduesrammer skaber et moderne og stringent udtryk. Indvendigt fortsætter den enkle stil med et åbent køkken-alrum, lofter i træ og store glaspartier, der trækker lyset helt ind i rummene — og badeværelset er indrettet med walk-in bruser og indbygget niche, så hverdagen er både smuk og praktisk.",
+    images: [
+      { src: "/images/Thisted/Thisted-ny-villa-stuehjørne-glasparti.webp", alt: "Funkisvilla med brune træfacader og glasparti, Thisted — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Thisted/Thisted-ny-villa-haveside-træbeklædning.webp", alt: "Haveside med træbeklædning på funkisvilla i Thisted — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Thisted/Thisted-ny-villa-indgangsparti.webp", alt: "Overdækket indgangsparti på funkisvilla i Thisted — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Thisted/Thisted-ny-villa-facade.webp", alt: "Facade med garage på funkisvilla i Thisted — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Thisted/Thisted-ny-villa-sidefacade-garage.webp", alt: "Sidefacade med carport på funkisvilla i Thisted — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Thisted/Thisted-ny-villa-indgang-hjørne.webp", alt: "Indgangshjørne i lyse mursten på funkisvilla i Thisted — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Thisted/Thisted-ny-villa-havefacade-overblik.webp", alt: "Overblik over funkisvilla og have i Thisted — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Thisted/Thisted-ny-villa-køkken-alrum.webp", alt: "Åbent køkken-alrum med træloft i funkisvilla, Thisted — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Thisted/Thisted-ny-villa-gang-ovenlys.webp", alt: "Gang med ovenlys i funkisvilla, Thisted — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Thisted/Thisted-ny-villa-badeværelse.webp", alt: "Badeværelse med walk-in bruser i funkisvilla, Thisted — Arkitekttegnestuen Yderskov" },
+    ],
+    dark: true,
+  },
 ];
 
 const faqItems = [
