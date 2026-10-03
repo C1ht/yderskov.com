@@ -126,7 +126,7 @@ export const sommerhuseProjects: ProjectGallery[] = [
       { src: "/images/Bjerget 13/sommerhus Bjerget 13 terrasse med fjordudsigt.webp", alt: "Terrasse med fjordudsigt på pladsoptimeret sommerhus i Sebbersund — Arkitekttegnestuen Yderskov" },
       { src: "/images/Bjerget 13/sommerhus Bjerget 13 indbyggede skabe i gang.webp", alt: "Indbyggede skabe med lukkede låger i gang — Arkitekttegnestuen Yderskov" },
       { src: "/images/Bjerget 13/sommerhus Bjerget 13 opbevaringsskab med skuffer.webp", alt: "Opbevaringsskab med udtræksskuffer i sommerhus — Arkitekttegnestuen Yderskov" },
-      { src: "/images/Bjerget 13/sommerhus Bjerget 13 spisekammer med skuffer.webp", alt: "Spisekammer med udtræksskuffer i sommerhus — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Bjerget 13/sommerhus Bjerget 13 udsigt gennem glasparti.webp", alt: "Udsigt gennem glaspartiet mod fjorden — Arkitekttegnestuen Yderskov" },
       { src: "/images/Bjerget 13/sommerhus Bjerget 13 udsigtsniche som siddeplads.webp", alt: "Udsigtsniche med siddeplads og fjordudsigt — Arkitekttegnestuen Yderskov" },
       { src: "/images/Bjerget 13/sommerhus Bjerget 13 vinduesniche med fjordudsigt.webp", alt: "Vinduesniche med fjordudsigt i sommerhus — Arkitekttegnestuen Yderskov" },
       { src: "/images/Bjerget 13/sommerhus Bjerget 13 dinesen beklædning på loft, væg og gulv.webp", alt: "Dinesen planker på loft, væg og gulv i sommerhus — Arkitekttegnestuen Yderskov" },
