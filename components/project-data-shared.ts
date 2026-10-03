@@ -113,6 +113,29 @@ export const sommerhuseProjects: ProjectGallery[] = [
       { src: "/images/Sommerhus stråtækt Løkken/Løkken-stråtækt-sommerhus-buet-loft.webp", alt: "Buet loft med halvrundt vindue i stråtækt sommerhus, Løkken — Arkitekttegnestuen Yderskov" },
     ],
     dark: false,
+  },
+  {
+    eyebrow: "Projekt",
+    title: "Pladsoptimeret sommerhus\nmed sedumtag, Sebbersund.",
+    location: "Sebbersund, Nordjylland",
+    size: "50 m² sommerhus · betonterrasse",
+    year: "",
+    description: "Her er der ikke gået på kompromis. Sommerhuset på 50 m² har Dinesen planker på gulve, vægge og lofter, en muret væg i grønne mursten der matcher køkkenet overfor, og både badeværelse og indgangsområde er klædt i grønne marmorfliser med guldfuge. Udvendig er huset beklædt med lærketræ og har et sedumtag med mange flotte husløg og planter, kobberbeklædning og kobbertagrende — og en stor betonterrasse, der går hele vejen rundt om huset. Indbyggede skabe, opbevaring med udtræksskuffer og vinduesnicher med siddeplads sørger for, at hver en kvadratmeter bliver brugt.",
+    images: [
+      { src: "/images/Bjerget 13/sommerhus Bjerget 13 haveside med sedumtag.webp", alt: "Haveside med sedumtag på pladsoptimeret sommerhus i Sebbersund — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Bjerget 13/sommerhus Bjerget 13 terrasse med fjordudsigt.webp", alt: "Terrasse med fjordudsigt på pladsoptimeret sommerhus i Sebbersund — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Bjerget 13/sommerhus Bjerget 13 indbyggede skabe i gang.webp", alt: "Indbyggede skabe med lukkede låger i gang — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Bjerget 13/sommerhus Bjerget 13 opbevaringsskab med skuffer.webp", alt: "Opbevaringsskab med udtræksskuffer i sommerhus — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Bjerget 13/sommerhus Bjerget 13 spisekammer med skuffer.webp", alt: "Spisekammer med udtræksskuffer i sommerhus — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Bjerget 13/sommerhus Bjerget 13 udsigtsniche som siddeplads.webp", alt: "Udsigtsniche med siddeplads og fjordudsigt — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Bjerget 13/sommerhus Bjerget 13 vinduesniche med fjordudsigt.webp", alt: "Vinduesniche med fjordudsigt i sommerhus — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Bjerget 13/sommerhus Bjerget 13 dinesen beklædning på loft, væg og gulv.webp", alt: "Dinesen planker på loft, væg og gulv i sommerhus — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Bjerget 13/sommerhus Bjerget 13 grønne marmorfliser i bad.webp", alt: "Grønne marmorfliser på badeværelse — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Bjerget 13/sommerhus Bjerget 13 badeværelsesvindue.webp", alt: "Badeværelsesvindue i grønne rammer — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Bjerget 13/sommerhus Bjerget 13 udgang fra bad til udebrus.webp", alt: "Udgang fra bad til udebrus med kobbertagrende — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Bjerget 13/sommerhus Bjerget 13 kobberinddækning på sideniche.webp", alt: "Kobberinddækning på sideniche i sommerhus — Arkitekttegnestuen Yderskov" },
+    ],
+    dark: true,
   }
 ];
 
