@@ -1,0 +1,115 @@
+export const projectGalleries = [
+  {
+    eyebrow: "Projekt",
+    title: "Ombygning og\nmodernisering af 50er-villa, Brønderslev nær Aalborg.",
+    location: "Brønderslev, Nordjylland",
+    size: "Komplet ombygning · nyt køkken-alrum",
+    year: "2023",
+    description: "Denne klassiske 1950'er-villa i Brønderslev har fået en komplet ombygning og modernisering. Huset er forvandlet fra et slidt murstenshus til en moderne, hvidpudset villa med mørke vinduesrammer og store skydedøre, der kan åbnes helt op til haven. Indvendigt har vi åbnet huset op med et lyst køkken-alrum med højt til loftet (loft til kip) og store vinduer. Der er desuden indrettet to moderne badeværelser og fire gode værelser. I det tilhørende anneks (multirum) er der ligeledes lavet et badeværelse samt et lille tekøkken, og der er direkte udgang til en ny, stor træterrasse fra hovedhuset.",
+    images: [
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-3.webp", alt: "Haveside med birketræ efter modernisering, Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-2.webp", alt: "Gårdside med skydedøre efter modernisering, Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-1.webp", alt: "Indgangsside efter modernisering, Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-4.webp", alt: "Facade efter modernisering, Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-efter-køkken.webp", alt: "Nyt køkken efter modernisering, Brønderslev — Arkitekttegnestuen Yderskov" },
+    ],
+    afterLabel: "Efter ombygning",
+    beforeLabel: "Før ombygning",
+    beforeImages: [
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-3.webp", alt: "Side med birketræ før modernisering, Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-2.webp", alt: "Haveside før modernisering, Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-1.webp", alt: "Indgangsside før modernisering, Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Godthåbsvej/Brønderslev-ombygning-foer-4.webp", alt: "Facade før modernisering, Brønderslev — Arkitekttegnestuen Yderskov" },
+    ],
+    dark: true,
+  },
+  {
+    eyebrow: "Projekt",
+    title: "Lille, gammelt parcelhus\nombygget to moderne bolig, Brønderslev nær Aalborg.",
+    location: "Brønderslev, Nordjylland",
+    size: "Komplet ombygning · energirenovering",
+    year: "2023",
+    description: "Dette projekt er en stor totalrenovering og modernisering af et ældre parcelhus i Brønderslev. Huset er blevet fuldstændig forvandlet fra et almindeligt murstenshus til en lys, moderne bolig i to etager. Som en helt særlig detalje har huset fået sit eget tårn med siddepladser i toppen, hvorfra der er en fantastisk udsigt over hele området. Renoveringen, som omfatter store glaspartier mod den private baghave, moderne energiløsninger og en flot, grusbelagt indkørsel, er foretaget af [yderskovbygogbolig.dk](https://yderskovbygogbolig.dk). Prøv at sammenligne med 'før-billedet' og se den store forvandling af huset.",
+    images: [
+      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-vejside.webp", alt: "Vejside efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-indkørsel.webp", alt: "Indkørsel efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-haveside.webp", alt: "Haveside efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-forhave.webp", alt: "Forhave efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-efter-bagside.webp", alt: "Bagside efter ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
+    ],
+    afterLabel: "Efter ombygning",
+    beforeLabel: "Før ombygning",
+    beforeImages: [
+      { src: "/images/Emils hus Olufsgade/Brønderslev-olufsgade-foer-vejside.webp", alt: "Vejside før ombygning i Brønderslev — Arkitekttegnestuen Yderskov" },
+    ],
+  },
+  {
+    eyebrow: "Projekt",
+    title: "Villa med\ntilbygning, Hasseris i Aalborg.",
+    location: "Hasseris, Aalborg",
+    size: "45 m² tilbygning · terrasse",
+    year: "2021",
+    description: "Vi har tegnet en tilbygning på 45 kvadratmeter til en traditionel murstensvilla i Hasseris. For at skabe en flot kontrast til de eksisterende gule mursten, er tilbygningen beklædt med mørkt træ. Bygningen afsluttes med zinkkanter og store hjørnevinduer, der lukker masser af dagslys ind. Indvendigt har familien fået en lys og åben stue med direkte udgang til en ny træterrasse, som forbinder huset med den hyggelige have.",
+    images: [
+      { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-terrasse.webp", alt: "Terrasse ved villa med tilbygning i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-bagside.webp", alt: "Bagside af villa med tilbygning i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Leonoravej villa tilbygning/Leonoravej-villa-tilbygning-vindue.webp", alt: "Vinduesparti i villa med tilbygning i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
+    ],
+    dark: false,
+  },
+  {
+    eyebrow: "Projekt",
+    title: "Tilbygning og\nrenovering, Aalborg.",
+    location: "Aalborg, Nordjylland",
+    size: "35 m² tilbygning · overdækning",
+    year: "2022",
+    description: "Med denne tilbygning i Aalborg har vi bygget 35 kvadratmeter til det eksisterende hus for at skabe et ekstra lyst opholdsrum med masser af dagslys. Tilbygningen er udført i lodret træbeklædning med brede beklædningsbrædder, som giver huset et enkelt og moderne udtryk. Vi har tegnet en stor træterrasse i flere niveauer, der trapper naturligt ned til græsplænen. Terrassen forbinder stuen og haven på en praktisk måde, så det er nemt at bruge uderummet i det daglige, når vejret tillader det.",
+    images: [
+      { src: "/images/Neptunvej/Aalborg-neptunvej-tilbygning-terrasse.webp", alt: "Terrasse ved tilbygning i Aalborg — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Neptunvej/Aalborg-neptunvej-tilbygning-terrasse-og-plæne.webp", alt: "Terrasse and plæne ved tilbygning i Aalborg — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Neptunvej/Aalborg-neptunvej-tilbygning.haveside.webp", alt: "Haveside ved tilbygning i Aalborg — Arkitekttegnestuen Yderskov" },
+    ],
+    dark: true,
+  },
+  {
+    eyebrow: "Projekt",
+    title: "Ombygning af\neksisterende 70er-villa, Hasseris i Aalborg.",
+    location: "Hasseris, Aalborg",
+    size: "Facaderenovering · ny planløsning",
+    year: "2022",
+    description: "Dette projekt i Hasseris er en komplet renovering af en traditionel 1970'er-villa. Den oprindelige mørke facade er blevet pudset hvid og kombineret med lodret, sort træbeklædning og zinkdetaljer, hvilket giver huset et helt nyt liv. Indvendigt har vi ændret planløsningen for at skabe et stort, lyst køkken-alrum med store vinduespartier ud mod haven. Der er desuden opført en stor, ny træterrasse, som gør det nemt at træde direkte ud og nyde haven.",
+    images: [
+      { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-vejside.webp", alt: "Vejside efter ombygning af 70er-villa i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-haveside.webp", alt: "Haveside efter ombygning af 70er-villa i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Gravenstenvej/Aalborg-gravenstenvej-renovering-terrassearbejde.webp", alt: "Terrassearbejde ved ombygning i Hasseris i Aalborg — Arkitekttegnestuen Yderskov" },
+    ],
+    dark: false,
+  },
+];
+
+export const faqItems = [
+  {
+    q: "Hvad koster en tilbygning?",
+    a: "En tilbygning koster typisk fra 14.000–19.000 kr. pr. m². Dette er typisk lidt lavere end nybyggeri, da fundamentet og den eksisterende bygning ofte reducerer kompleksiteten. Prisen afhænger af størrelse, konstruktion og materialer.",
+  },
+  {
+    q: "Kræver en tilbygning byggetilladelse?",
+    a: "Det afhænger af størrelsen. Tilbygninger over 35 m² kræver normalt byggetilladelse. Vi håndterer hele processen med kommunen.",
+  },
+  {
+    q: "Hvad kan I hjælpe med udover tilbygninger?",
+    a: "Vi tegner alt fra nye køkkener og badeværelser til fuld ombygning af planløsning, udskiftning af tag og energirenovering.",
+  },
+  {
+    q: "Kan jeg se eksempler på jeres tilbygninger?",
+    a: "Ja — se vores projekter på denne side. Vi kan også vise referencer fra projekter i dit område.",
+  },
+  {
+    q: "Hvordan starter processen?",
+    a: "Med et gratis, uforpligtende møde hos jer. Vi kigger på mulighederne og giver et prisestimat på stedet.",
+  },
+  {
+    q: "Har I egne håndværkere?",
+    a: "Ja. Vi styrer processen med vores egne faste håndværkere — det giver ét samlet ansvar og bedre styring af økonomi og tid.",
+  },
+];

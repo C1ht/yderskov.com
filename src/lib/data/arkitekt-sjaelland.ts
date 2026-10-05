@@ -1,0 +1,80 @@
+export const projectGalleries = [
+  {
+    eyebrow: "Projekt",
+    title: "Funkis træ,\nglas og eternit, Sæby.",
+    location: "Sæby, Nordjylland",
+    size: "230 m² bolig · 60 m² garage",
+    year: "2023",
+    description: "Funkisvilla opført i listebeklædning med åbne facader og store vinduespartier. Huset er beliggende op ad skov og natur, og det betød meget for familien at byggeriet blev indpasset omhyggeligt i det omgivende område.",
+    images: [
+      { src: "/images/Karetmagervej/Sæby-ny-villa-funkis-forside.webp", alt: "Funkisvilla i træ, glas og eternit, Sæby — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Karetmagervej/Sæby-ny-villa-funkis-haveside.webp", alt: "Haveside på funkisvilla i Sæby — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Karetmagervej/Sæby-ny-villa-funkis-vejside.webp", alt: "Vejside på funkisvilla i Sæby — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Karetmagervej/Sæby-ny-villa-funkis-køkken.webp", alt: "Køkken i funkisvilla, Sæby — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Karetmagervej/Sæby-ny-villa-funkis-køkken-stue.webp", alt: "Køkken mod stue i funkisvilla, Sæby — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Karetmagervej/Sæby-ny-villa-funkis-køkken-spiseplads.webp", alt: "Køkken-alrum og spiseplads, Sæby — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Karetmagervej/Sæby-ny-villa-funkis-bad.webp", alt: "Badeværelse med fliser, Sæby — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Karetmagervej/Sæby-ny-villa-funkis-gang.webp", alt: "Gang med ovenlys, Sæby — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Karetmagervej/Sæby-ny-villa-funkis-haveside-2.webp", alt: "Haveside og terrasse, Sæby — Arkitekttegnestuen Yderskov" },
+    ],
+    dark: true,
+  },
+  {
+    eyebrow: "Projekt",
+    title: "Sommerhus med\npool, Ålbæk.",
+    location: "Ålbæk, Nordjylland",
+    size: "185 m² wellness-hus · pool & spa",
+    year: "2023",
+    description: "Eksklusivt luksussommerhus i Ålbæk beklædt med lyst træ, tegnet som et wellness-fristed. Huset rummer en storslået wellness-afdeling med swimmingpool, sauna samt både indvendig og udvendig spa. Indvendigt er der lyst køkkenalrum, hyggelig hems og et aktivitetsrum med billard. Huset rummer flere værelser og badeværelser og er egnet til en stor familie eller udlejning.",
+    images: [
+      { src: "/images/Løvevej/Ålbæk-poolhus-terrasse.webp", alt: "Arkitekttegnet poolhus i Ålbæk — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Løvevej/Ålbæk-poolhus-pool.webp", alt: "Indendørs pool i arkitekttegnet sommerhus — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Løvevej/Ålbæk-poolhus-køkken.webp", alt: "Moderne køkken med ø i poolhus — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Løvevej/Løvevej køkken ophold.webp", alt: "Køkken og opholdsstue i poolhus — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Løvevej/LØVEVEJ-BAD.webp", alt: "Flot badeværelse i poolhus — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Løvevej/Løvevej hems.webp", alt: "Hyggelig hems i poolhus — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Løvevej/Ålbæk-poolhus-køkken-spise-plads-alkove.webp", alt: "Køkken, spiseplads og alkove i poolhus — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Løvevej/Ålbæk-poolhus-aktivitetsrum.webp", alt: "Aktivitetsrum med bordfodbold og billardbord — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Løvevej/Ålbæk-poolhus-badmiljø.webp", alt: "Badmiljø i arkitekttegnet poolhus — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Løvevej/Ålbæk-poolhus-toilet.webp", alt: "Badeværelse i arkitekttegnet poolhus — Arkitekttegnestuen Yderskov" },
+    ],
+    dark: false,
+  },
+  {
+    eyebrow: "Projekt",
+    title: "Udsigtsvilla med\nnaturlige materialer, Frederikshavn.",
+    location: "Frederikshavn, Nordjylland",
+    size: "208 m² bolig · 63 m² garage · 37 m² overdækning",
+    year: "2021",
+    description: "Udsigtsvilla tegnet til en skrånende naturgrund med panoramaudsigt. Huset svæver over bakken med en oase af naturlige materialer, mens garagen er integreret i underetagen.",
+    images: [
+      { src: "/images/Lerstien/Frederikshavn-lerstien-vejside.webp", alt: "Vejside på udsigtsvilla i Frederikshavn — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Lerstien/Frederikshavn-lerstien-terrasse-byview.webp", alt: "Udsigtsvilla med terrasse og byudsigt, Frederikshavn — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Lerstien/Frederikshavn-lerstien-terrasse.webp", alt: "Terrasse på udsigtsvilla i Frederikshavn — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Lerstien/Frederikshavn-lerstien-overdækket-terrasse.webp", alt: "Overdækket terrasse på udsigtsvilla i Frederikshavn — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Lerstien/Frederikshavn-lerstien-køkken.webp", alt: "Køkken og opholdsrum, udsigtsvilla i Frederikshavn — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Lerstien/Frederikshavn-lerstien-søjle.webp", alt: "Strukturelle detaljer og søjle, udsigtsvilla i Frederikshavn — Arkitekttegnestuen Yderskov" },
+      { src: "/images/Lerstien/Frederikshavn-lerstien-terrasse-2.webp", alt: "Terrasse og facade, udsigtsvilla i Frederikshavn — Arkitekttegnestuen Yderskov" },
+    ],
+    dark: true,
+  },
+];
+
+export const sjaellandFAQ = [
+  {
+    q: "Påtager I jer opgaver på Sjælland, når I har base i Nordjylland?",
+    a: "Ja, absolut. Vi arbejder landsdækkende og har udført adskillige projekter på Sjælland og i Københavnsområdet, herunder i Køge, Odsherred, Gilleleje, Brønshøj og Ramløse. Vi kører og rejser gerne efter de rigtige opgaver.",
+  },
+  {
+    q: "Er det første idémøde på Sjælland også gratis?",
+    a: "Ja. Det første idemøde er 100% gratis og uforpligtende. Vi kommer gerne ud og mødes direkte på jeres byggegrund på Sjælland for at vurdere mulighederne.",
+  },
+  {
+    q: "Hvordan fungerer byggeprocessen på Sjælland?",
+    a: "Vi rådgiver, tegner og står for hele myndighedsprojektet. Vi samarbejder med faste underentreprenører og håndværkere, så I får en samlet fast pris og en fuldstændig tryg byggeproces.",
+  },
+  {
+    q: "Hvilke typer projekter laver I på Sjælland?",
+    a: "Vi tegner og opfører alt fra nye, eksklusive villaer og fritidshuse til gennemtænkte ombygninger og tilbygninger på eksisterende boliger.",
+  },
+];
