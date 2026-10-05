@@ -14,8 +14,10 @@ export default defineConfig({
 			},
 
 			adapter: adapter({
-				pages: 'build',
-				assets: 'build',
+				// 'out' matches the Cloudflare Pages build configuration that the
+				// previous Next.js site used — both hosts now build to the same dir.
+				pages: 'out',
+				assets: 'out',
 				fallback: undefined,
 				precompress: false,
 				strict: true
