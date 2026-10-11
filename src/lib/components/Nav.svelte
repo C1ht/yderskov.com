@@ -16,8 +16,7 @@
 				{ href: '/tilbygninger', label: 'Om- og tilbygninger' },
 				{ href: '/lejligheder', label: 'Lejligheder' },
 				{ href: '/special', label: 'Special' },
-				{ href: '/erhverv', label: 'Erhverv' },
-				{ href: '/inspiration', label: 'Inspiration' }
+				{ href: '/erhverv', label: 'Erhverv' }
 			]
 		},
 		{
