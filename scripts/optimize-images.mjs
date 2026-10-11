@@ -18,6 +18,8 @@ async function findImages(dir) {
   for (const entry of entries) {
     const full = path.join(dir, entry.name)
     if (entry.isDirectory()) {
+      // Skip opsamlingsmappen + _-prefixede mapper — de genererer ikke varianter
+      if (entry.name.startsWith('_') || entry.name === 'opsamlingsmappe') continue // opsamlede ubrugte billeder genererer ingen varianter
       files.push(...(await findImages(full)))
     } else if (/\.(jpg|jpeg|png|webp)$/i.test(entry.name)) {
       files.push(full)
